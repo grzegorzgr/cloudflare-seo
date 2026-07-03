@@ -322,10 +322,15 @@ function progressBar(current, total, width = 16) {
   const pct = String(Math.round(ratio * 100)).padStart(3, ' ');
   return `[${bar}] ${pct}% (${current}/${total})`;
 }
-async function fetchOverpass(endpoint, query, { retries = 4, baseDelay = 5000 } = {}) {
-  // Overpass publiczny bywa przeciazony -> retry z backoffem na 429/5xx.
+async function fetchOverpass(endpoint, query, { retries = 6, baseDelay = 8000, maxWait = 90000 } = {}) {
+  // Overpass sygnalizuje przeciazenie na kilka sposobow:
+  //  - HTTP 429/5xx,
+  //  - HTTP 200 + JSON z polem "remark" zawierajacym "rate_limited"/"timed out",
+  //  - HTTP 200 + strona HTML "OSM3S Response" (runtime error: rate_limited).
+  // Retry musi obsluzyc WSZYSTKIE, inaczej dostajemy ciche 0 elementow.
   for (let attempt = 0; attempt <= retries; attempt++) {
     let res;
+    let text;
     try {
       res = await fetch(endpoint, {
         method: 'POST',
@@ -334,29 +339,54 @@ async function fetchOverpass(endpoint, query, { retries = 4, baseDelay = 5000 } 
           'User-Agent': 'cloudflare-seo-geo-engine/1.0 (deterministic SSG dataset builder)',
         },
         body: 'data=' + encodeURIComponent(query),
+        signal: AbortSignal.timeout(200000), // klient nie wisi w nieskonczonosc
       });
+      text = await res.text();
     } catch (err) {
       if (attempt === retries) throw err;
-      await sleep(baseDelay * 2 ** attempt);
-      continue;
-    }
-    if (res.ok) {
-      const json = await res.json();
-      return Array.isArray(json?.elements) ? json.elements : [];
-    }
-    const retriable = res.status === 429 || res.status === 502 || res.status === 503 || res.status === 504;
-    if (retriable && attempt < retries) {
-      const retryAfter = Number(res.headers.get('retry-after'));
-      const wait = Number.isFinite(retryAfter) && retryAfter > 0
-        ? retryAfter * 1000
-        : baseDelay * 2 ** attempt;
+      const wait = Math.min(baseDelay * 2 ** attempt, maxWait);
       process.stderr.write(
-        `    Overpass ${res.status}, ponawiam za ${Math.round(wait / 1000)}s (proba ${attempt + 1}/${retries})\n`,
+        `    Overpass blad sieci (${err.name}: ${err.message}), ponawiam za ${Math.round(wait / 1000)}s (proba ${attempt + 1}/${retries})\n`,
       );
       await sleep(wait);
       continue;
     }
-    throw new Error(`Overpass HTTP ${res.status} ${res.statusText}`);
+
+    // Parsuj JSON reczne, zeby wykryc rate-limit w tresci (remark) i HTML.
+    let json = null;
+    if (text.trimStart().startsWith('{')) {
+      try {
+        json = JSON.parse(text);
+      } catch {
+        json = null;
+      }
+    }
+    const remark = typeof json?.remark === 'string' ? json.remark : '';
+    const busy =
+      res.status === 429 ||
+      res.status === 502 ||
+      res.status === 503 ||
+      res.status === 504 ||
+      /rate_limited|too many requests|timed out|Dispatcher_Client/i.test(remark) ||
+      (json === null && /rate_limited|OSM3S Response|runtime error|Too Many Requests/i.test(text));
+
+    if (res.ok && json && !busy) {
+      return Array.isArray(json.elements) ? json.elements : [];
+    }
+
+    if (attempt < retries) {
+      const retryAfter = Number(res.headers.get('retry-after'));
+      const wait = Number.isFinite(retryAfter) && retryAfter > 0
+        ? Math.min(retryAfter * 1000, maxWait)
+        : Math.min(baseDelay * 2 ** attempt, maxWait);
+      const reason = busy ? 'przeciazony/rate-limit' : `HTTP ${res.status}`;
+      process.stderr.write(
+        `    Overpass ${reason}, ponawiam za ${Math.round(wait / 1000)}s (proba ${attempt + 1}/${retries})\n`,
+      );
+      await sleep(wait);
+      continue;
+    }
+    throw new Error(`Overpass niedostepny: HTTP ${res.status}${remark ? ` (${remark.trim()})` : ''}`);
   }
   throw new Error('Overpass: wyczerpano proby ponowienia');
 }
