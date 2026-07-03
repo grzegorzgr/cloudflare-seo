@@ -17,6 +17,12 @@ dist/
 # OSM fetch cache (regenerowany per build; nie wersjonujemy)
 scripts/build/cache/
 
+# Generowane raporty i logi buildu/crawlera (skrypty tworza folder same przez mkdirSync).
+# Wyjatek: osm-fixture.json to reczny fixture wejsciowy do trybu --offline=.
+scripts/build/reports/
+scripts/crawl/reports/*
+!scripts/crawl/reports/osm-fixture.json
+
 # =====================
 # ENV FILES
 # =====================
