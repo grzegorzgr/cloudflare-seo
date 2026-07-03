@@ -9,11 +9,12 @@ import type {
   PageModel,
   TypeConfig,
 } from './types.js';
+import { buildKeywords } from './keywords.js';
 
 const UNKNOWN = 'nieznane';
 
-/** Maksymalna liczba link\u00f3w w sekcji "Podobne miejsca". */
-const NEARBY_LIMIT = 6;
+/** Maksymalna liczba linków w sekcji "Podobne miejsca". */
+const NEARBY_LIMIT = 5;
 
 /**
  * Buduje list\u0119 FAQ deterministycznie.
@@ -42,6 +43,21 @@ export function buildIntent(entity: Entity, config: TypeConfig): string {
     return `Je\u015bli szukasz ${config.entityNoun} \u2014 ta strona zawiera najwa\u017cniejsze informacje.`;
   }
   return `Je\u015bli szukasz ${config.entityNoun} w lokalizacji ${place}, ta strona zawiera najwa\u017cniejsze informacje.`;
+}
+
+/**
+ * Fallback tytu\u0142u strony, gdy encja nie ma seo.title.
+ * Deterministyczny: nazwa encji + g\u0142\u00f3wne s\u0142owo kluczowe (typ + miasto).
+ * Nie tworzy nowych fakt\u00f3w \u2014 sk\u0142ada wy\u0142\u0105cznie istniej\u0105ce dane.
+ */
+export function buildPageTitle(
+  entity: Entity,
+  keywords: { primary: string },
+): string {
+  if (!keywords.primary) {
+    return entity.name;
+  }
+  return `${entity.name} \u2013 ${keywords.primary}`;
 }
 
 /**
@@ -159,15 +175,18 @@ export function buildPageModel(
 ): PageModel {
   const location = entity.location ?? {};
   const faq = buildFaq(entity, config);
+  const keywords = buildKeywords(entity, config);
+  const intent = buildIntent(entity, config);
 
   return {
     slug: entity.slug,
     type: entity.type ?? config.basePath,
     h1: entity.seo?.h1 ?? entity.name,
-    pageTitle: entity.seo?.title ?? entity.name,
-    metaDescription: entity.seo?.description ?? '',
+    pageTitle: entity.seo?.title ?? buildPageTitle(entity, keywords),
+    metaDescription: entity.seo?.description ?? intent,
     canonical: `/${config.basePath}/${entity.slug}`,
-    intent: buildIntent(entity, config),
+    intent,
+    keywords: keywords.all,
     facts: entity.features ?? [],
     features: mapFlags(entity.amenities, config.featureLabels),
     access: mapFlags(entity.access, config.accessLabels),

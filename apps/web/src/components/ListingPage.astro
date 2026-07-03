@@ -1,0 +1,65 @@
+---
+// Widok stron agregacyjnych (cluster / region). Renderuje wylacznie gotowy model.
+// Zero logiki danych: sekcje pochodza z generatora (buildClusterModel/buildRegionModel).
+import type { ClusterSection } from '@generator';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  intro: string;
+  heading: string;
+  count: number;
+  sections: ClusterSection[];
+  keywords?: string[];
+  jsonLd?: Record<string, unknown>;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  intro,
+  heading,
+  count,
+  sections,
+  keywords,
+  jsonLd,
+} = Astro.props;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  keywords={keywords}
+  jsonLd={jsonLd}
+>
+  <main>
+    <article>
+      <header>
+        <h1>{heading}</h1>
+        <p class="muted">{count} obiektów</p>
+      </header>
+
+      <p>{intro}</p>
+
+      {
+        sections.map((section) => (
+          <section>
+            <h2>{section.heading}</h2>
+            <ul>
+              {section.items.map((item) => (
+                <li>
+                  <a href={item.href}>{item.name}</a>
+                  <span class="muted"> — {item.city}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+      }
+    </article>
+  </main>
+</BaseLayout>

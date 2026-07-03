@@ -4,7 +4,8 @@
     "baseUrl": ".",
     "paths": {
       "@data/*": ["../../packages/data/*"],
-      "@generator": ["../../packages/generator/src/index.ts"]
+      "@generator": ["../../packages/generator/src/index.ts"],
+      "@config/*": ["../../config/*"]
     }
   },
   "include": [".astro/types.d.ts", "**/*"],

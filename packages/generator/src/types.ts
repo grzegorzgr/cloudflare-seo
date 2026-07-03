@@ -63,8 +63,10 @@ export interface TypeConfig {
   /** Mapowanie kluczy dost\u0119pu (access) na etykiety, np. public_transport -> Komunikacja miejska. */
   accessLabels?: Record<string, string>;
   /** Rzeczownik w dope\u0142niaczu do generowanego FAQ i sekcji intent, np. "pla\u017cy", "parkingu", "szlaku". */
-  entityNoun: string;
-}
+  entityNoun: string;  /** Rzeczownik w mianowniku (l. poj.) do keyword mappingu, np. "plaża", "parking", "szlak". */
+  keywordNoun: string;
+  /** Etykieta kolekcji (l. mn.) do stron cluster, np. "Plaże", "Parkingi", "Szlaki". */
+  collectionLabel: string;}
 
 // Znormalizowany, gotowy do renderowania model strony.
 // Warstwa widoku (Astro) nie zawiera \u017cadnej logiki poza wy\u015bwietleniem.
@@ -94,6 +96,7 @@ export interface PageModel {
   metaDescription: string;
   canonical: string;
   intent: string;
+  keywords: string[];
   facts: string[];
   features: FeatureView[];
   access: FeatureView[];

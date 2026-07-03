@@ -1,0 +1,20 @@
+---
+// Strona cluster (SSG): lista wszystkich plaz pogrupowana wg regionu -> /beach/.
+import beaches from '@data/beaches.json';
+import { beachConfig, buildClusterModel, type Entity } from '@generator';
+import { seoConfig } from '@config/seo.config.ts';
+import ListingPage from '../../components/ListingPage.astro';
+
+const model = buildClusterModel(beaches as Entity[], beachConfig, seoConfig.siteUrl);
+---
+
+<ListingPage
+  title={model.title}
+  description={model.description}
+  canonical={model.canonical}
+  intro={model.intro}
+  heading={model.title}
+  count={model.count}
+  sections={model.sections}
+  jsonLd={model.jsonLd}
+/>

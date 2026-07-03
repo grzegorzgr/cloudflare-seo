@@ -5,10 +5,11 @@ interface Props {
   title: string;
   description?: string;
   canonical?: string;
+  keywords?: string[];
   jsonLd?: Record<string, unknown>;
 }
 
-const { title, description, canonical, jsonLd } = Astro.props;
+const { title, description, canonical, keywords, jsonLd } = Astro.props;
 ---
 
 <!doctype html>
@@ -18,6 +19,9 @@ const { title, description, canonical, jsonLd } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
+    {keywords && keywords.length > 0 && (
+      <meta name="keywords" content={keywords.join(', ')} />
+    )}
     {canonical && <link rel="canonical" href={canonical} />}
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>

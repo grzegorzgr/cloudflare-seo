@@ -1,11 +1,13 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import { fileURLToPath } from 'node:url';
+import { seoConfig } from '../../config/seo.config.ts';
 
 // Deterministyczny, w pe\u0142ni statyczny build (SSG).
 // Brak adaptera SSR = wszystkie strony generowane na etapie build.
 export default defineConfig({
   output: 'static',
+  site: seoConfig.siteUrl,
   vite: {
     resolve: {
       alias: {
@@ -15,6 +17,8 @@ export default defineConfig({
         '@generator': fileURLToPath(
           new URL('../../packages/generator/src/index.ts', import.meta.url),
         ),
+        // Alias do warstwy konfiguracji: config
+        '@config': fileURLToPath(new URL('../../config', import.meta.url)),
       },
     },
     server: {

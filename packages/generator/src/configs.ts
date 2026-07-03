@@ -6,8 +6,8 @@ import type { TypeConfig } from './types.js';
 export const beachConfig: TypeConfig = {
   basePath: 'beach',
   schemaType: 'TouristAttraction',
-  entityNoun: 'pla\u017cy',
-  featureLabels: {
+  entityNoun: 'pla\u017cy',  keywordNoun: 'plaża',
+  collectionLabel: 'Plaże',  featureLabels: {
     parking: 'Parking',
     toilets: 'Toalety',
     dog_friendly: 'Przyjazna psom',
@@ -26,6 +26,8 @@ export const parkingConfig: TypeConfig = {
   basePath: 'parking',
   schemaType: 'ParkingFacility',
   entityNoun: 'parkingu',
+  keywordNoun: 'parking',
+  collectionLabel: 'Parkingi',
   featureLabels: {
     paid_entry: 'P\u0142atny',
     covered: 'Zadaszony',
@@ -44,6 +46,8 @@ export const trailConfig: TypeConfig = {
   basePath: 'trail',
   schemaType: 'TouristAttraction',
   entityNoun: 'szlaku',
+  keywordNoun: 'szlak',
+  collectionLabel: 'Szlaki',
   featureLabels: {
     parking: 'Parking przy szlaku',
     toilets: 'Toalety',
