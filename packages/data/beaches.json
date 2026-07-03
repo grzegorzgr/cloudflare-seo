@@ -2,7 +2,6 @@
   {
     "id": "jelitkowo",
     "slug": "jelitkowo",
-    "type": "beach",
     "name": "Plaża Jelitkowo",
     "location": {
       "city": "Gdańsk",
@@ -31,12 +30,20 @@
       "title": "Plaża Jelitkowo – Gdańsk",
       "h1": "Plaża Jelitkowo",
       "description": "Informacje o plaży Jelitkowo w Gdańsku (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/brzezno",
+        "trail/zdrojowa-746752011",
+        "trail/wejscie-40-1083888567",
+        "trail/wejscie-39-506959164",
+        "trail/wejscie-nr-38-633757715"
+      ]
     }
   },
   {
     "id": "brzezno",
     "slug": "brzezno",
-    "type": "beach",
     "name": "Plaża Brzeźno",
     "location": {
       "city": "Gdańsk",
@@ -65,12 +72,20 @@
       "title": "Plaża Brzeźno – Gdańsk",
       "h1": "Plaża Brzeźno",
       "description": "Informacje o plaży Brzeźno w Gdańsku (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "trail/zdrojowa-746752011",
+        "trail/wejscie-40-1083888567",
+        "trail/wejscie-39-506959164",
+        "trail/wejscie-nr-38-633757715",
+        "trail/wejscie-nr-36-1083888559"
+      ]
     }
   },
   {
     "id": "stogi",
     "slug": "stogi",
-    "type": "beach",
     "name": "Plaża Stogi",
     "location": {
       "city": "Gdańsk",
@@ -82,7 +97,9 @@
       "lat": 54.3761112,
       "lng": 18.728233
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: sand"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -99,12 +116,21 @@
       "title": "Plaża Stogi – Gdańsk",
       "h1": "Plaża Stogi",
       "description": "Informacje o plaży Stogi w Gdańsku (Pomorskie): lokalizacja i współrzędne."
+    },
+    "osmId": "way/1079584733",
+    "graph": {
+      "nearby": [
+        "trail/wejscie-nr-27-97462814",
+        "trail/wejscie-28-97462816",
+        "trail/wejscie-nr-26-39645662",
+        "beach/plaza-strzezona-stogi-5811675955",
+        "trail/wejscie-nr-29-88410898"
+      ]
     }
   },
   {
     "id": "gdynia-srodmiescie",
     "slug": "gdynia-srodmiescie",
-    "type": "beach",
     "name": "Plaża Śródmieście w Gdyni",
     "location": {
       "city": "Gdynia",
@@ -116,7 +142,9 @@
       "lat": 54.514517,
       "lng": 18.5504625
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: wood"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -133,12 +161,21 @@
       "title": "Plaża Śródmieście – Gdynia",
       "h1": "Plaża Śródmieście w Gdyni",
       "description": "Informacje o plaży Śródmieście w Gdyni (Pomorskie): lokalizacja i współrzędne."
+    },
+    "osmId": "way/294403389",
+    "graph": {
+      "nearby": [
+        "trail/wejscie-8-163751824",
+        "trail/aleja-zeglarstwa-polskiego-440509665",
+        "trail/wejscie-nr-6-1155646629",
+        "trail/aleja-andrzeja-wajdy-358311416",
+        "parking/parking-mw-517899570"
+      ]
     }
   },
   {
     "id": "gdynia-orlowo-plaza-dla-psow",
     "slug": "gdynia-orlowo-plaza-dla-psow",
-    "type": "beach",
     "name": "Plaża dla psów w Orłowie",
     "location": {
       "city": "Gdynia",
@@ -151,7 +188,8 @@
       "lng": 18.5624673
     },
     "features": [
-      "plaża przeznaczona dla psów"
+      "plaża przeznaczona dla psów",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
@@ -169,12 +207,21 @@
       "title": "Plaża dla psów w Orłowie – Gdynia",
       "h1": "Plaża dla psów w Orłowie",
       "description": "Informacje o plaży dla psów w dzielnicy Orłowo w Gdyni (Pomorskie): lokalizacja i współrzędne."
+    },
+    "osmId": "way/350622650",
+    "graph": {
+      "nearby": [
+        "parking/kiss-go-10185960799",
+        "trail/wejscie-12-433819619",
+        "parking/parking-villa-gdynia-371814952",
+        "trail/wejscie-10-1024350693",
+        "parking/parking-ch-riviera-129343296"
+      ]
     }
   },
   {
     "id": "ustka-plaza-zachodnia",
     "slug": "ustka-plaza-zachodnia",
-    "type": "beach",
     "name": "Plaża zachodnia w Ustce",
     "location": {
       "city": "Ustka",
@@ -203,12 +250,20 @@
       "title": "Plaża zachodnia – Ustka",
       "h1": "Plaża zachodnia w Ustce",
       "description": "Informacje o plaży zachodniej w Ustce (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/ustka-plaza-strzezona",
+        "beach/ustka-plaza-wschodnia",
+        "beach/rowy-plaza-dla-psow",
+        "trail/szlak-doliny-lupawy",
+        "trail/szlak-slowincow"
+      ]
     }
   },
   {
     "id": "ustka-plaza-strzezona",
     "slug": "ustka-plaza-strzezona",
-    "type": "beach",
     "name": "Plaża Strzeżona w Ustce",
     "location": {
       "city": "Ustka",
@@ -239,12 +294,20 @@
       "title": "Plaża Strzeżona – Ustka",
       "h1": "Plaża Strzeżona w Ustce",
       "description": "Informacje o plaży strzeżonej w Ustce (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/ustka-plaza-zachodnia",
+        "beach/ustka-plaza-wschodnia",
+        "beach/rowy-plaza-dla-psow",
+        "trail/szlak-doliny-lupawy",
+        "trail/szlak-slowincow"
+      ]
     }
   },
   {
     "id": "ustka-plaza-wschodnia",
     "slug": "ustka-plaza-wschodnia",
-    "type": "beach",
     "name": "Plaża wschodnia w Ustce",
     "location": {
       "city": "Ustka",
@@ -273,12 +336,20 @@
       "title": "Plaża wschodnia – Ustka",
       "h1": "Plaża wschodnia w Ustce",
       "description": "Informacje o plaży wschodniej w Ustce (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/ustka-plaza-zachodnia",
+        "beach/ustka-plaza-strzezona",
+        "beach/rowy-plaza-dla-psow",
+        "trail/szlak-doliny-lupawy",
+        "trail/szlak-slowincow"
+      ]
     }
   },
   {
     "id": "leba-rabka",
     "slug": "leba-rabka",
-    "type": "beach",
     "name": "Plaża w Łebie (Rąbka)",
     "location": {
       "city": "Łeba",
@@ -307,12 +378,20 @@
       "title": "Plaża w Łebie (Rąbka) – Łeba",
       "h1": "Plaża w Łebie (Rąbka)",
       "description": "Informacje o plaży w Łebie w rejonie Rąbka (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/leba-plaza-dla-zwierzat",
+        "beach/leba-plaza-a",
+        "beach/leba-plaza-c",
+        "trail/szlak-nadmorski-baltycki",
+        "trail/szlak-slowincow"
+      ]
     }
   },
   {
     "id": "chalupy-plaza-naturystow",
     "slug": "chalupy-plaza-naturystow",
-    "type": "beach",
     "name": "Plaża naturystów w Chałupach",
     "location": {
       "city": "Chałupy",
@@ -343,12 +422,20 @@
       "title": "Plaża naturystów w Chałupach – Chałupy",
       "h1": "Plaża naturystów w Chałupach",
       "description": "Informacje o plaży naturystów w Chałupach (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "parking/port-chalupy",
+        "beach/chalupy-kapielisko",
+        "trail/szlak-nadmorski-zatokowy",
+        "trail/szlak-swarzewski",
+        "beach/jastarnia-plaza-strzezona"
+      ]
     }
   },
   {
     "id": "debki-plaza-naturystow",
     "slug": "debki-plaza-naturystow",
-    "type": "beach",
     "name": "Plaża Naturystów Dębki",
     "location": {
       "city": "Dębki",
@@ -379,12 +466,20 @@
       "title": "Plaża Naturystów Dębki – Dębki",
       "h1": "Plaża Naturystów Dębki",
       "description": "Informacje o plaży naturystów w Dębkach (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/bialogora-wejscie-31",
+        "parking/parking-lesny",
+        "trail/szlak-puszczy-darzlubskiej",
+        "trail/szlak-grot-mechowskich",
+        "parking/parking-hotel-rigga"
+      ]
     }
   },
   {
     "id": "stegna",
     "slug": "stegna",
-    "type": "beach",
     "name": "Plaża Stegna",
     "location": {
       "city": "Stegna",
@@ -413,12 +508,20 @@
       "title": "Plaża Stegna – Stegna",
       "h1": "Plaża Stegna",
       "description": "Informacje o plaży w Stegnie (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "parking/parking-lesny-stegna",
+        "trail/szlak-jantarowy",
+        "beach/gdansk-swibno",
+        "trail/szlak-wyspy-sobieszewskiej",
+        "beach/gdansk-sobieszewo"
+      ]
     }
   },
   {
     "id": "jastarnia-plaza-strzezona",
     "slug": "jastarnia-plaza-strzezona",
-    "type": "beach",
     "name": "Plaża strzeżona w Jastarni",
     "location": {
       "city": "Jastarnia",
@@ -449,12 +552,20 @@
       "title": "Plaża strzeżona – Jastarnia",
       "h1": "Plaża strzeżona w Jastarni",
       "description": "Informacje o plaży strzeżonej w Jastarni (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "parking/parking-podziemny-hotel-lido",
+        "parking/parking-dozorowany-24-7",
+        "beach/chalupy-plaza-naturystow",
+        "parking/port-chalupy",
+        "beach/chalupy-kapielisko"
+      ]
     }
   },
   {
     "id": "leba-plaza-a",
     "slug": "leba-plaza-a",
-    "type": "beach",
     "name": "Plaża A w Łebie",
     "location": {
       "city": "Łeba",
@@ -483,12 +594,20 @@
       "title": "Plaża A – Łeba",
       "h1": "Plaża A w Łebie",
       "description": "Informacje o plaży A w Łebie (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/leba-plaza-dla-zwierzat",
+        "beach/leba-plaza-c",
+        "beach/leba-rabka",
+        "trail/szlak-nadmorski-baltycki",
+        "trail/szlak-slowincow"
+      ]
     }
   },
   {
     "id": "leba-plaza-c",
     "slug": "leba-plaza-c",
-    "type": "beach",
     "name": "Plaża C w Łebie",
     "location": {
       "city": "Łeba",
@@ -517,12 +636,20 @@
       "title": "Plaża C – Łeba",
       "h1": "Plaża C w Łebie",
       "description": "Informacje o plaży C w Łebie (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/leba-plaza-a",
+        "beach/leba-plaza-dla-zwierzat",
+        "beach/leba-rabka",
+        "trail/szlak-nadmorski-baltycki",
+        "trail/szlak-slowincow"
+      ]
     }
   },
   {
     "id": "leba-plaza-dla-zwierzat",
     "slug": "leba-plaza-dla-zwierzat",
-    "type": "beach",
     "name": "Plaża dla zwierząt w Łebie",
     "location": {
       "city": "Łeba",
@@ -553,12 +680,20 @@
       "title": "Plaża dla zwierząt – Łeba",
       "h1": "Plaża dla zwierząt w Łebie",
       "description": "Informacje o plaży dla zwierząt w Łebie (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/leba-rabka",
+        "beach/leba-plaza-a",
+        "beach/leba-plaza-c",
+        "trail/szlak-nadmorski-baltycki",
+        "trail/szlak-slowincow"
+      ]
     }
   },
   {
     "id": "chalupy-kapielisko",
     "slug": "chalupy-kapielisko",
-    "type": "beach",
     "name": "Kąpielisko w Chałupach",
     "location": {
       "city": "Chałupy",
@@ -589,12 +724,20 @@
       "title": "Kąpielisko w Chałupach – Chałupy",
       "h1": "Kąpielisko w Chałupach",
       "description": "Informacje o kąpielisku w Chałupach (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "parking/port-chalupy",
+        "beach/chalupy-plaza-naturystow",
+        "trail/szlak-nadmorski-zatokowy",
+        "trail/szlak-swarzewski",
+        "parking/parking-hotel-rigga"
+      ]
     }
   },
   {
     "id": "hel-plaza-miejska",
     "slug": "hel-plaza-miejska",
-    "type": "beach",
     "name": "Plaża Miejska w Helu",
     "location": {
       "city": "Hel",
@@ -623,12 +766,20 @@
       "title": "Plaża Miejska – Hel",
       "h1": "Plaża Miejska w Helu",
       "description": "Informacje o Plaży Miejskiej w Helu (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/hel-duza-plaza-baltycka",
+        "beach/hel-plaza-cypel",
+        "parking/parking-dozorowany-24-7",
+        "parking/parking-podziemny-hotel-lido",
+        "beach/jastarnia-plaza-strzezona"
+      ]
     }
   },
   {
     "id": "hel-duza-plaza-baltycka",
     "slug": "hel-duza-plaza-baltycka",
-    "type": "beach",
     "name": "Duża Plaża Bałtycka w Helu",
     "location": {
       "city": "Hel",
@@ -657,12 +808,20 @@
       "title": "Duża Plaża Bałtycka – Hel",
       "h1": "Duża Plaża Bałtycka w Helu",
       "description": "Informacje o Dużej Plaży Bałtyckiej w Helu (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/hel-plaza-cypel",
+        "beach/hel-plaza-miejska",
+        "parking/parking-dozorowany-24-7",
+        "parking/parking-podziemny-hotel-lido",
+        "beach/jastarnia-plaza-strzezona"
+      ]
     }
   },
   {
     "id": "hel-plaza-cypel",
     "slug": "hel-plaza-cypel",
-    "type": "beach",
     "name": "Plaża Cypel w Helu",
     "location": {
       "city": "Hel",
@@ -691,12 +850,20 @@
       "title": "Plaża Cypel – Hel",
       "h1": "Plaża Cypel w Helu",
       "description": "Informacje o plaży Cypel w Helu (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/hel-duza-plaza-baltycka",
+        "beach/hel-plaza-miejska",
+        "parking/parking-dozorowany-24-7",
+        "parking/parking-podziemny-hotel-lido",
+        "beach/jastarnia-plaza-strzezona"
+      ]
     }
   },
   {
     "id": "rewa-cypel-rewski",
     "slug": "rewa-cypel-rewski",
-    "type": "beach",
     "name": "Cypel Rewski w Rewie",
     "location": {
       "city": "Rewa",
@@ -725,12 +892,20 @@
       "title": "Cypel Rewski – Rewa",
       "h1": "Cypel Rewski w Rewie",
       "description": "Informacje o Cyplu Rewskim w Rewie (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "trail/aleja-lipowa-362258532",
+        "parking/parking-przy-rezerwacie-beka",
+        "parking/parking-policyjny-1347921355",
+        "trail/wejscie-nr-1a-539509641",
+        "parking/parking-open-er-festival-okolicznosciowy-1347812026"
+      ]
     }
   },
   {
     "id": "rowy-plaza-dla-psow",
     "slug": "rowy-plaza-dla-psow",
-    "type": "beach",
     "name": "Plaża dla psów w Rowach",
     "location": {
       "city": "Rowy",
@@ -761,12 +936,20 @@
       "title": "Plaża dla psów w Rowach – Rowy",
       "h1": "Plaża dla psów w Rowach",
       "description": "Informacje o plaży dla psów w Rowach (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/ustka-plaza-wschodnia",
+        "beach/ustka-plaza-zachodnia",
+        "beach/ustka-plaza-strzezona",
+        "trail/szlak-slowincow",
+        "trail/szlak-nadmorski-baltycki"
+      ]
     }
   },
   {
     "id": "bialogora-wejscie-31",
     "slug": "bialogora-wejscie-31",
-    "type": "beach",
     "name": "Plaża Białogóra (Wejście 31)",
     "location": {
       "city": "Białogóra",
@@ -795,12 +978,20 @@
       "title": "Plaża Białogóra (Wejście 31) – Białogóra",
       "h1": "Plaża Białogóra (Wejście 31)",
       "description": "Informacje o plaży w Białogórze (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "beach/debki-plaza-naturystow",
+        "parking/parking-lesny",
+        "trail/szlak-puszczy-darzlubskiej",
+        "trail/szlak-grot-mechowskich",
+        "parking/parking-hotel-rigga"
+      ]
     }
   },
   {
     "id": "gdansk-sobieszewo",
     "slug": "gdansk-sobieszewo",
-    "type": "beach",
     "name": "Plaża w Sobieszewie",
     "location": {
       "city": "Gdańsk",
@@ -829,12 +1020,20 @@
       "title": "Plaża w Sobieszewie – Gdańsk",
       "h1": "Plaża w Sobieszewie",
       "description": "Informacje o plaży w Sobieszewie w Gdańsku (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "trail/szlak-wyspy-sobieszewskiej",
+        "trail/falochron-wschodni-27782271",
+        "trail/wejscie-nr-20-835157731",
+        "beach/plaza-nudystow-5790393900",
+        "trail/wejscie-nr-21-173621600"
+      ]
     }
   },
   {
     "id": "gdansk-swibno",
     "slug": "gdansk-swibno",
-    "type": "beach",
     "name": "Plaża Świbno",
     "location": {
       "city": "Gdańsk",
@@ -863,6 +1062,2458 @@
       "title": "Plaża Świbno – Gdańsk",
       "h1": "Plaża Świbno",
       "description": "Informacje o plaży Świbno w Gdańsku (Pomorskie): lokalizacja i współrzędne."
+    },
+    "graph": {
+      "nearby": [
+        "trail/szlak-wyspy-sobieszewskiej",
+        "beach/gdansk-sobieszewo",
+        "trail/falochron-wschodni-27782271",
+        "trail/wejscie-nr-20-835157731",
+        "beach/plaza-nudystow-5790393900"
+      ]
+    }
+  },
+  {
+    "id": "plaz-12057725075",
+    "slug": "plaz-12057725075",
+    "osmId": "node/12057725075",
+    "name": "Plaż",
+    "location": {
+      "city": "Giżycko",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.0080726,
+      "lng": 21.6337187
+    },
+    "features": [
+      "nawierzchnia: grass"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/plaza-wilkasy-999726138",
+        "parking/vip-3325215817",
+        "trail/promenada-niegocin-1151615527",
+        "beach/eko-plaza-gizycko-1279477168",
+        "beach/przystan-rajcocha-5065066068"
+      ]
+    }
+  },
+  {
+    "id": "przystan-rajcocha-5065066068",
+    "slug": "przystan-rajcocha-5065066068",
+    "osmId": "node/5065066068",
+    "name": "przystań Rajcocha",
+    "location": {
+      "city": "Giżycko",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.0734773,
+      "lng": 21.6306293
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/plaz-12057725075",
+        "trail/generala-orlicz-dreszera-254217253",
+        "beach/eko-plaza-gizycko-1279477168",
+        "trail/promenada-niegocin-1151615527",
+        "beach/plaza-wilkasy-999726138"
+      ]
+    }
+  },
+  {
+    "id": "plaza-nudystow-5790393900",
+    "slug": "plaza-nudystow-5790393900",
+    "osmId": "node/5790393900",
+    "name": "plaża nudystów",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.3703009,
+      "lng": 18.77205
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-nr-21-173621600",
+        "trail/wejscie-nr-20-835157731",
+        "trail/falochron-wschodni-27782271",
+        "trail/wejscie-nr-22-88410923",
+        "trail/wejscie-nr-23-1442868243"
+      ]
+    }
+  },
+  {
+    "id": "plaza-strzezona-molo-brzezno-5811675954",
+    "slug": "plaza-strzezona-molo-brzezno-5811675954",
+    "osmId": "node/5811675954",
+    "name": "Plaża strzeżona \"Molo Brzeźno\"",
+    "location": {
+      "city": "Sopot",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.4133784,
+      "lng": 18.6261585
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-52-1426084471",
+        "trail/wejscie-51-1426084473",
+        "trail/wejscie-53-1374482936",
+        "trail/wejscie-50-1419276721",
+        "trail/wejscie-gdansk-54-1426084466"
+      ]
+    }
+  },
+  {
+    "id": "plaza-strzezona-stogi-5811675955",
+    "slug": "plaza-strzezona-stogi-5811675955",
+    "osmId": "node/5811675955",
+    "name": "Plaża strzeżona \"Stogi\"",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.3752919,
+      "lng": 18.732204
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-nr-26-39645662",
+        "trail/wydmy-222340123",
+        "trail/wejscie-nr-25-286248078",
+        "beach/stogi",
+        "trail/wejscie-nr-27-97462814"
+      ]
+    }
+  },
+  {
+    "id": "plaza-strzezona-jelitkowo-5811675959",
+    "slug": "plaza-strzezona-jelitkowo-5811675959",
+    "osmId": "node/5811675959",
+    "name": "Plaża strzeżona \"Jelitkowo\"",
+    "location": {
+      "city": "Sopot",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.4263542,
+      "lng": 18.5978504
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-gdansk-72-1158507021",
+        "trail/wejscie-gdansk-71-102485772",
+        "trail/wejscie-gdansk-70-1426084463",
+        "trail/wejscie-gdansk-73-102485776",
+        "trail/wejscie-gdansk-69-102485774"
+      ]
+    }
+  },
+  {
+    "id": "plaza-strzezona-klipper-jelitkowo-5811675960",
+    "slug": "plaza-strzezona-klipper-jelitkowo-5811675960",
+    "osmId": "node/5811675960",
+    "name": "Plaża strzeżona \"Klipper Jelitkowo\"",
+    "location": {
+      "city": "Sopot",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.4239659,
+      "lng": 18.6022769
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-gdansk-65-277836722",
+        "trail/wejscie-gdansk-64-1158507038",
+        "trail/wejscie-gdansk-66-1202939096",
+        "trail/wejscie-gdansk-63-102485773",
+        "trail/wejscie-gdansk-68-218524991"
+      ]
+    }
+  },
+  {
+    "id": "plaza-strzezona-dom-zdrojowy-brzezno-5811675961",
+    "slug": "plaza-strzezona-dom-zdrojowy-brzezno-5811675961",
+    "osmId": "node/5811675961",
+    "name": "Plaża strzeżona \"Dom Zdrojowy Brzeźno\"",
+    "location": {
+      "city": "Sopot",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.4093153,
+      "lng": 18.6392149
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-nr-42-1311126638",
+        "trail/wejscie-nr-44-1426665669",
+        "trail/wejscie-45-1426665667",
+        "trail/wejscie-46-132697909",
+        "trail/wejscie-47-1074366268"
+      ]
+    }
+  },
+  {
+    "id": "plaza-wiejska-7713744895",
+    "slug": "plaza-wiejska-7713744895",
+    "osmId": "node/7713744895",
+    "name": "Plaża Wiejska",
+    "location": {
+      "city": "Olsztyn",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.7326487,
+      "lng": 20.3647474
+    },
+    "features": [
+      "nawierzchnia: grass"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/kukulki-1192211960",
+        "beach/plaza-w-dorotowie-1254529753",
+        "trail/zbozowa-144455021",
+        "parking/auto-handel-483185651",
+        "trail/promenada-absolwentow-13994546"
+      ]
+    }
+  },
+  {
+    "id": "czarcie-wrota-8602552852",
+    "slug": "czarcie-wrota-8602552852",
+    "osmId": "node/8602552852",
+    "name": "Czarcie Wrota",
+    "location": {
+      "city": "Olsztyn",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.7850741,
+      "lng": 20.4075705
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/zakret-8602565943",
+        "trail/mlodziezowa-1296461425",
+        "trail/zbozowa-144455021",
+        "parking/auto-handel-483185651",
+        "trail/jana-iii-sobieskiego-161927186"
+      ]
+    }
+  },
+  {
+    "id": "zakret-8602565943",
+    "slug": "zakret-8602565943",
+    "osmId": "node/8602565943",
+    "name": "Zakręt",
+    "location": {
+      "city": "Olsztyn",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.790155,
+      "lng": 20.411656
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/mlodziezowa-1296461425",
+        "beach/czarcie-wrota-8602552852",
+        "trail/jana-iii-sobieskiego-161927186",
+        "parking/auto-handel-483185651",
+        "trail/zbozowa-144455021"
+      ]
+    }
+  },
+  {
+    "id": "plaza-gminna-8993638089",
+    "slug": "plaza-gminna-8993638089",
+    "osmId": "node/8993638089",
+    "name": "Plaża gminna",
+    "location": {
+      "city": "Giżycko",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9774421,
+      "lng": 21.8076558
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/vip-3325215817",
+        "beach/plaza-wilkasy-999726138",
+        "trail/promenada-niegocin-1151615527",
+        "beach/eko-plaza-gizycko-1279477168",
+        "parking/parking-samochodowy-696581835"
+      ]
+    }
+  },
+  {
+    "id": "wejscie-5-9937617440",
+    "slug": "wejscie-5-9937617440",
+    "osmId": "node/9937617440",
+    "name": "Wejście 5",
+    "location": {
+      "city": "Sopot",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.4585361,
+      "lng": 18.5614868
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-sopot-4-253640442",
+        "trail/wejscie-sopot-5-1087111350",
+        "trail/wejscie-sopot-7-253640447",
+        "trail/wejscie-sopot-3-253640441",
+        "trail/wejscie-sopot-2-253640450"
+      ]
+    }
+  },
+  {
+    "id": "stacja-parkowa-1074322020",
+    "slug": "stacja-parkowa-1074322020",
+    "osmId": "way/1074322020",
+    "name": "Stacja Parkowa",
+    "location": {
+      "city": "Kraków",
+      "region": "Małopolskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 50.0887096,
+      "lng": 19.9820104
+    },
+    "features": [
+      "operator: Park Wodny"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/ch-krokus-25486688",
+        "parking/centrum-serenada-482001807",
+        "parking/quattro-p-283877449",
+        "parking/google-988959868",
+        "parking/p-r-pradnik-czerwony-69822271"
+      ]
+    }
+  },
+  {
+    "id": "kolorado-1100789232",
+    "slug": "kolorado-1100789232",
+    "osmId": "way/1100789232",
+    "name": "Kolorado",
+    "location": {
+      "city": "Bydgoszcz",
+      "region": "Kujawsko-Pomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.1783699,
+      "lng": 17.9612694
+    },
+    "features": [
+      "nawierzchnia: grass"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/runowska-1423925950",
+        "trail/wypoczynkowa-1338216762",
+        "trail/agrestowa-86338809",
+        "trail/bladzimska-389055853",
+        "trail/obroncow-tobruku-86533688"
+      ]
+    }
+  },
+  {
+    "id": "plaza-niestrzezona-wasilkow-1202576174",
+    "slug": "plaza-niestrzezona-wasilkow-1202576174",
+    "osmId": "way/1202576174",
+    "name": "Plaża niestrzeżona Wasilków",
+    "location": {
+      "city": "Białystok",
+      "region": "Podlaskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.1955507,
+      "lng": 23.1972844
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/cisowa-1470075626",
+        "beach/plaza-nowodworce-1388837660",
+        "beach/plaza-jurowce-761020958",
+        "trail/stanislawa-halki-759383153",
+        "parking/miejsce-postoju-pojazdow-6496073964"
+      ]
+    }
+  },
+  {
+    "id": "plaza-w-dorotowie-1254529753",
+    "slug": "plaza-w-dorotowie-1254529753",
+    "osmId": "way/1254529753",
+    "name": "Plaża w Dorotowie",
+    "location": {
+      "city": "Olsztyn",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.7021358,
+      "lng": 20.4161894
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/kukulki-1192211960",
+        "beach/plaza-wiejska-7713744895",
+        "trail/kujawska-108239775",
+        "trail/promenada-absolwentow-13994546",
+        "trail/kac-rondo-121854016"
+      ]
+    }
+  },
+  {
+    "id": "plaza-mazurka-1268343850",
+    "slug": "plaza-mazurka-1268343850",
+    "osmId": "way/1268343850",
+    "name": "Plaża Mazurka",
+    "location": {
+      "city": "Augustów",
+      "region": "Podlaskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.8581645,
+      "lng": 23.013413
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/plaza-miejska-augustow-229425994",
+        "trail/bulwar-zwiazku-nauczycielstwa-polskiego-623116511",
+        "trail/bulwar-narodow-unii-europejskiej-70187767",
+        "trail/gesia-300179570",
+        "trail/sciezka-dydaktyczna-1181273008"
+      ]
+    }
+  },
+  {
+    "id": "eko-plaza-gizycko-1279477168",
+    "slug": "eko-plaza-gizycko-1279477168",
+    "osmId": "way/1279477168",
+    "name": "Eko Plaża Giżycko",
+    "location": {
+      "city": "Giżycko",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.0176793,
+      "lng": 21.743243
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/promenada-niegocin-1151615527",
+        "beach/plaza-wilkasy-999726138",
+        "parking/vip-3325215817",
+        "trail/generala-orlicz-dreszera-254217253",
+        "parking/parking-samochodowy-696581835"
+      ]
+    }
+  },
+  {
+    "id": "plaza-miejska-1354011600",
+    "slug": "plaza-miejska-1354011600",
+    "osmId": "way/1354011600",
+    "name": "plaża miejska",
+    "location": {
+      "city": "Bielsko-Biała",
+      "region": "Śląskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 49.7994497,
+      "lng": 19.0522221
+    },
+    "features": [
+      "nawierzchnia: gravel"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/c-h-gemini-4621193507",
+        "trail/dobra-108868799",
+        "trail/kowalska-233492112",
+        "trail/filatelistow-151363996",
+        "parking/parking-podziemny-netto-1156329714"
+      ]
+    }
+  },
+  {
+    "id": "plaza-kopa-cwila-1358117983",
+    "slug": "plaza-kopa-cwila-1358117983",
+    "osmId": "way/1358117983",
+    "name": "Plaża Kopa Cwila",
+    "location": {
+      "city": "Warszawa",
+      "region": "Mazowieckie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.1634568,
+      "lng": 21.0237827
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/nutki-366527709",
+        "trail/konski-jar-1178275022",
+        "parking/p-r-metro-ursynow-25706829",
+        "trail/wiolinowa-645595974",
+        "trail/koncertowa-1005005821"
+      ]
+    }
+  },
+  {
+    "id": "plaza-miejska-split-1366215410",
+    "slug": "plaza-miejska-split-1366215410",
+    "osmId": "way/1366215410",
+    "name": "Plaża miejska „Split”",
+    "location": {
+      "city": "Rzeszów",
+      "region": "Podkarpackie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 50.017578,
+      "lng": 22.0002373
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/kepa-159212614",
+        "parking/parking-frac-delikatesy-183689406",
+        "parking/parking-dla-pracownikow-wsk-198803340",
+        "parking/parking-castorama-224159775",
+        "parking/amfiteatr-197835457"
+      ]
+    }
+  },
+  {
+    "id": "plaza-nowodworce-1388837660",
+    "slug": "plaza-nowodworce-1388837660",
+    "osmId": "way/1388837660",
+    "name": "Plaża Nowodworce",
+    "location": {
+      "city": "Białystok",
+      "region": "Podlaskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.1955103,
+      "lng": 23.2342162
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/plaza-niestrzezona-wasilkow-1202576174",
+        "trail/cisowa-1470075626",
+        "trail/stanislawa-halki-759383153",
+        "beach/plaza-jurowce-761020958",
+        "parking/biazet-s-a-236603306"
+      ]
+    }
+  },
+  {
+    "id": "plaza-jeziorko-czerniakowskie-171709739",
+    "slug": "plaza-jeziorko-czerniakowskie-171709739",
+    "osmId": "way/171709739",
+    "name": "Plaża Jeziorko Czerniakowskie",
+    "location": {
+      "city": "Warszawa",
+      "region": "Mazowieckie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.1882975,
+      "lng": 21.072183
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/biechowska-952582152",
+        "trail/woziwody-952098560",
+        "trail/alejka-i-1322862729",
+        "parking/parking-spolecznie-strzezony-169149038",
+        "trail/egejska-265723534"
+      ]
+    }
+  },
+  {
+    "id": "kapielisko-malina-180864648",
+    "slug": "kapielisko-malina-180864648",
+    "osmId": "way/180864648",
+    "name": "Kąpielisko Malina",
+    "location": {
+      "city": "Opole",
+      "region": "Opolskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 50.6343696,
+      "lng": 17.9857756
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/centrum-przesiadkowe-opole-grotowice-832677672",
+        "trail/mostek-sponsorow-1294970987",
+        "beach/kapielisko-bolko-314717774",
+        "trail/porzeczkowa-172543057",
+        "parking/parking-cup-1218367970"
+      ]
+    }
+  },
+  {
+    "id": "plaza-malibu-181239287",
+    "slug": "plaza-malibu-181239287",
+    "osmId": "way/181239287",
+    "name": "Plaża Malibu",
+    "location": {
+      "city": "Poznań",
+      "region": "Wielkopolskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.4622514,
+      "lng": 16.8261864
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/grajewska-176708164",
+        "trail/strzeszynska-1306175135",
+        "beach/plaza-smocza-363523230",
+        "parking/parkuj-i-jedz-biskupinska-921430212",
+        "trail/golabkowa-563149023"
+      ]
+    }
+  },
+  {
+    "id": "plaza-miejska-221211426",
+    "slug": "plaza-miejska-221211426",
+    "osmId": "way/221211426",
+    "name": "Plaża Miejska",
+    "location": {
+      "city": "Białystok",
+      "region": "Podlaskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.1103539,
+      "lng": 23.2171854
+    },
+    "features": [
+      "nawierzchnia: sand",
+      "operator: BOSiR"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": true,
+      "covered": null,
+      "guarded": true
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/osrodek-sportow-wodnych-dojlidy-702273974",
+        "trail/majora-bernarda-wasilewskiego-602262582",
+        "trail/rzeszowska-1383235775",
+        "parking/tir-5152504642",
+        "trail/ksiedza-stanislawa-andrukiewicza-241118116"
+      ]
+    }
+  },
+  {
+    "id": "plaza-miejska-augustow-229425994",
+    "slug": "plaza-miejska-augustow-229425994",
+    "osmId": "way/229425994",
+    "name": "Plaża Miejska Augustów",
+    "location": {
+      "city": "Augustów",
+      "region": "Podlaskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.8539572,
+      "lng": 22.9858964
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/bulwar-narodow-unii-europejskiej-70187767",
+        "trail/bulwar-zwiazku-nauczycielstwa-polskiego-623116511",
+        "trail/gesia-300179570",
+        "beach/plaza-mazurka-1268343850",
+        "parking/tir-parking-2638042534"
+      ]
+    }
+  },
+  {
+    "id": "kapielisko-silesia-233862479",
+    "slug": "kapielisko-silesia-233862479",
+    "osmId": "way/233862479",
+    "name": "Kąpielisko Silesia",
+    "location": {
+      "city": "Opole",
+      "region": "Opolskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 50.6959108,
+      "lng": 17.9252618
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/centrum-przesiadkowe-opole-wschodnie-1409738489",
+        "trail/nadbrzezna-1085217889",
+        "trail/polder-zelazna-rowerem-slociak-narok-1262648755",
+        "parking/parking-cup-1218367970",
+        "trail/bulwar-karola-musiola-1133056408"
+      ]
+    }
+  },
+  {
+    "id": "plaza-w-klodawie-246553108",
+    "slug": "plaza-w-klodawie-246553108",
+    "osmId": "way/246553108",
+    "name": "Plaża w Kłodawie",
+    "location": {
+      "city": "Gorzów Wielkopolski",
+      "region": "Lubuskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.7900711,
+      "lng": 15.2161195
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/brzoskwiniowa-1307458225",
+        "trail/strumykowa-828157923",
+        "trail/parkowa-207527576",
+        "parking/parking-strzezony-191103418",
+        "parking/kiss-ride-1028733060"
+      ]
+    }
+  },
+  {
+    "id": "plaza-patelnia-273578945",
+    "slug": "plaza-patelnia-273578945",
+    "osmId": "way/273578945",
+    "name": "Plaża Patelnia",
+    "location": {
+      "city": "Augustów",
+      "region": "Podlaskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.8727335,
+      "lng": 23.0864975
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/sciezka-dydaktyczna-1181273008",
+        "beach/plaza-mazurka-1268343850",
+        "beach/plaza-miejska-augustow-229425994",
+        "trail/bulwar-zwiazku-nauczycielstwa-polskiego-623116511",
+        "trail/bulwar-narodow-unii-europejskiej-70187767"
+      ]
+    }
+  },
+  {
+    "id": "kapielisko-281428906",
+    "slug": "kapielisko-281428906",
+    "osmId": "way/281428906",
+    "name": "Kąpielisko",
+    "location": {
+      "city": "Giżycko",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.109493,
+      "lng": 21.7735072
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/aleja-lip-1317390068",
+        "trail/generala-orlicz-dreszera-254217253",
+        "parking/parking-samochodowy-696581835",
+        "beach/przystan-rajcocha-5065066068",
+        "beach/eko-plaza-gizycko-1279477168"
+      ]
+    }
+  },
+  {
+    "id": "plaza-miejska-przy-moscie-polnocnym-297008918",
+    "slug": "plaza-miejska-przy-moscie-polnocnym-297008918",
+    "osmId": "way/297008918",
+    "name": "Plaża Miejska przy Moście Północnym",
+    "location": {
+      "city": "Warszawa",
+      "region": "Mazowieckie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.3095179,
+      "lng": 20.9510122
+    },
+    "features": [
+      "nawierzchnia: sand",
+      "operator: Urząd Dzielnicy Warszawa-Białołęka"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/aleja-bzow-1305555944",
+        "trail/aleja-tui-1305555946",
+        "trail/aleja-wisni-1305555955",
+        "trail/aleja-morelowa-1305555954",
+        "trail/tarasowa-1274357003"
+      ]
+    }
+  },
+  {
+    "id": "kapielisko-bolko-314717774",
+    "slug": "kapielisko-bolko-314717774",
+    "osmId": "way/314717774",
+    "name": "Kąpielisko Bolko",
+    "location": {
+      "city": "Opole",
+      "region": "Opolskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 50.6442547,
+      "lng": 17.9386812
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/most-fundacji-wielkiej-orkiestry-swiatecznej-pomocy-220513935",
+        "trail/most-ireny-sendlerowej-60750014",
+        "parking/parking-zoo-p4-229679035",
+        "trail/most-joachima-halupczoka-722012560",
+        "trail/bulwar-anny-walentynowicz-1035146379"
+      ]
+    }
+  },
+  {
+    "id": "wakepark-bydgoszcz-315538830",
+    "slug": "wakepark-bydgoszcz-315538830",
+    "osmId": "way/315538830",
+    "name": "Wakepark Bydgoszcz",
+    "location": {
+      "city": "Bydgoszcz",
+      "region": "Kujawsko-Pomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.1629874,
+      "lng": 18.0288765
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/hipiczna-193707186",
+        "trail/droga-pozarowa-nr-2-1201851493",
+        "parking/p-r-las-gdanski-945262531",
+        "trail/jezdziecka-315683899",
+        "trail/ksiedza-henryka-mrossa-441125188"
+      ]
+    }
+  },
+  {
+    "id": "plaza-miejska-chwaliszewo-334158650",
+    "slug": "plaza-miejska-chwaliszewo-334158650",
+    "osmId": "way/334158650",
+    "name": "Plaża miejska Chwaliszewo",
+    "location": {
+      "city": "Poznań",
+      "region": "Wielkopolskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.4061966,
+      "lng": 16.9447664
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/aleja-praw-dziecka-431726106",
+        "trail/wartostrada-1030661311",
+        "parking/parkuj-i-idz-chwaliszewo-975777626",
+        "parking/za-bramka-4968361644",
+        "trail/ostrow-tumski-443011992"
+      ]
+    }
+  },
+  {
+    "id": "plaza-dla-psow-340806074",
+    "slug": "plaza-dla-psow-340806074",
+    "osmId": "way/340806074",
+    "name": "Plaża dla psów",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.4081609,
+      "lng": 18.6517301
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-34-611643406",
+        "trail/wejscie-nr-35-633757713",
+        "trail/wejscie-nr-36-1083888559",
+        "trail/wejscie-nr-38-633757715",
+        "trail/wejscie-39-506959164"
+      ]
+    }
+  },
+  {
+    "id": "poniatowka-346115377",
+    "slug": "poniatowka-346115377",
+    "osmId": "way/346115377",
+    "name": "Poniatówka",
+    "location": {
+      "city": "Warszawa",
+      "region": "Mazowieckie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.2367278,
+      "lng": 21.042015
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/bulwar-flotylli-wislanej-1069063279",
+        "trail/ignacego-potockiego-32760119",
+        "trail/alejka-plomyczek-109021390",
+        "trail/bulwar-bohdana-grzymaly-siedleckiego-1528845836",
+        "trail/alejka-ele-mele-330489894"
+      ]
+    }
+  },
+  {
+    "id": "plaza-dzika-362155252",
+    "slug": "plaza-dzika-362155252",
+    "osmId": "way/362155252",
+    "name": "Plaża Dzika",
+    "location": {
+      "city": "Poznań",
+      "region": "Wielkopolskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.4289155,
+      "lng": 16.8765256
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/jana-henryka-dabrowskiego-339617177",
+        "parking/parking-dla-uczestnikow-nabozenstw-30662512",
+        "trail/popradzka-537299942",
+        "trail/plac-ludwika-warynskiego-335217545",
+        "trail/wiadukt-ryszarda-ganowicza-284613501"
+      ]
+    }
+  },
+  {
+    "id": "plaza-smocza-363523230",
+    "slug": "plaza-smocza-363523230",
+    "osmId": "way/363523230",
+    "name": "Plaża Smocza",
+    "location": {
+      "city": "Poznań",
+      "region": "Wielkopolskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.4445902,
+      "lng": 16.8026261
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": true,
+      "covered": null,
+      "guarded": true
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/letnia-842368303",
+        "parking/parking-celny-1418250499",
+        "parking/parking-lidl-495232185",
+        "parking/parking-autoprzechowalnia-pl-4910429656",
+        "trail/zygmunta-zuraszka-521548560"
+      ]
+    }
+  },
+  {
+    "id": "starganiec-398815149",
+    "slug": "starganiec-398815149",
+    "osmId": "way/398815149",
+    "name": "Starganiec",
+    "location": {
+      "city": "Katowice",
+      "region": "Śląskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 50.208464,
+      "lng": 18.9189141
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/olis-250437251",
+        "trail/generala-mariusza-zaruskiego-695764102",
+        "trail/orlikow-302117968",
+        "trail/wielkopolska-105443226",
+        "trail/prowizoryczny-mostek-opuszczona-konstrukcja-986915428"
+      ]
+    }
+  },
+  {
+    "id": "plaza-saska-423206947",
+    "slug": "plaza-saska-423206947",
+    "osmId": "way/423206947",
+    "name": "Plaża Saska",
+    "location": {
+      "city": "Warszawa",
+      "region": "Mazowieckie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.2281228,
+      "lng": 21.0496624
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/bulwar-flotylli-pinskiej-25897477",
+        "trail/plac-przymierza-280208392",
+        "trail/aleja-andrzeja-romockiego-morro-884495217",
+        "trail/aleja-zgrupowania-ak-kryska-1499965762",
+        "trail/bulgarska-1284706731"
+      ]
+    }
+  },
+  {
+    "id": "plaza-miejska-wilda-423499941",
+    "slug": "plaza-miejska-wilda-423499941",
+    "osmId": "way/423499941",
+    "name": "Plaża Miejska Wilda",
+    "location": {
+      "city": "Poznań",
+      "region": "Wielkopolskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.3911532,
+      "lng": 16.93821
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/piast-492853288",
+        "parking/parkuj-i-idz-droga-debinska-30662835",
+        "parking/parkuj-i-idz-jana-pawla-ii-o-m-zelazka-36854507",
+        "parking/parking-awf-302056083",
+        "parking/parkuj-i-idz-dolna-wilda-ii-380851349"
+      ]
+    }
+  },
+  {
+    "id": "plaza-bagry-426435314",
+    "slug": "plaza-bagry-426435314",
+    "osmId": "way/426435314",
+    "name": "Plaża Bagry",
+    "location": {
+      "city": "Kraków",
+      "region": "Małopolskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 50.034109,
+      "lng": 19.9933468
+    },
+    "features": [
+      "nawierzchnia: sand",
+      "operator: Stowarzyszenie „Omega”"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/plaza-bagry-wschod-577761748",
+        "parking/parking-biedronka-457652693",
+        "parking/p-r-maly-plaszow-622678396",
+        "trail/mostek-marek-614130854",
+        "parking/parking-domus-mater-2535014783"
+      ]
+    }
+  },
+  {
+    "id": "plaza-miejska-438008910",
+    "slug": "plaza-miejska-438008910",
+    "osmId": "way/438008910",
+    "name": "Plaża miejska",
+    "location": {
+      "city": "Poznań",
+      "region": "Wielkopolskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.3450421,
+      "lng": 16.9032723
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/pasaz-handlowy-685010933",
+        "trail/ogrodowa-675594639",
+        "trail/miasteczko-edukacyjne-909315046",
+        "trail/wiktora-gosienieckiego-28043677",
+        "trail/malinowa-679505796"
+      ]
+    }
+  },
+  {
+    "id": "plaza-miejska-nr-1-439850919",
+    "slug": "plaza-miejska-nr-1-439850919",
+    "osmId": "way/439850919",
+    "name": "Plaża Miejska nr 1",
+    "location": {
+      "city": "Olsztyn",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.7780784,
+      "lng": 20.4485475
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/plaza-miejska-nr-2-439850921",
+        "beach/kapielisko-plaza-miejska-nr-3-439850926",
+        "trail/sciezka-rowerowa-im-zbyszka-rojka-1072690512",
+        "parking/auto-handel-483185651",
+        "trail/aleja-chateauroux-104922659"
+      ]
+    }
+  },
+  {
+    "id": "plaza-miejska-nr-2-439850921",
+    "slug": "plaza-miejska-nr-2-439850921",
+    "osmId": "way/439850921",
+    "name": "Plaża Miejska nr 2",
+    "location": {
+      "city": "Olsztyn",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.7764008,
+      "lng": 20.4466589
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/plaza-miejska-nr-1-439850919",
+        "beach/kapielisko-plaza-miejska-nr-3-439850926",
+        "trail/sciezka-rowerowa-im-zbyszka-rojka-1072690512",
+        "parking/auto-handel-483185651",
+        "trail/aleja-chateauroux-104922659"
+      ]
+    }
+  },
+  {
+    "id": "kapielisko-plaza-miejska-nr-3-439850926",
+    "slug": "kapielisko-plaza-miejska-nr-3-439850926",
+    "osmId": "way/439850926",
+    "name": "Kąpielisko „PLAŻA MIEJSKA NR 3”",
+    "location": {
+      "city": "Olsztyn",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.7737693,
+      "lng": 20.4444842
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/plaza-miejska-nr-2-439850921",
+        "beach/plaza-miejska-nr-1-439850919",
+        "parking/auto-handel-483185651",
+        "trail/sciezka-rowerowa-im-zbyszka-rojka-1072690512",
+        "trail/zbozowa-144455021"
+      ]
+    }
+  },
+  {
+    "id": "plaza-miejska-blonia-nadwislanskie-493611613",
+    "slug": "plaza-miejska-blonia-nadwislanskie-493611613",
+    "osmId": "way/493611613",
+    "name": "Plaża Miejska - Błonia Nadwiślańskie",
+    "location": {
+      "city": "Toruń",
+      "region": "Kujawsko-Pomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.0061832,
+      "lng": 18.595462
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-podziemny-hotel-copernicus-4250068289",
+        "parking/parking-hotel-copernicus-torun-425715737",
+        "trail/flisacza-1192430206",
+        "trail/sebastiana-klonowica-1183509862",
+        "trail/fosa-miejska-po-dnie-postolca-812534628"
+      ]
+    }
+  },
+  {
+    "id": "plaza-bagry-wschod-577761748",
+    "slug": "plaza-bagry-wschod-577761748",
+    "osmId": "way/577761748",
+    "name": "Plaża Bagry - Wschód",
+    "location": {
+      "city": "Kraków",
+      "region": "Małopolskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 50.030997,
+      "lng": 19.9983609
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/plaza-bagry-426435314",
+        "trail/mostek-marek-614130854",
+        "parking/p-r-maly-plaszow-622678396",
+        "trail/sniezna-1315482224",
+        "parking/parking-biedronka-457652693"
+      ]
+    }
+  },
+  {
+    "id": "plaza-zoliborska-593645227",
+    "slug": "plaza-zoliborska-593645227",
+    "osmId": "way/593645227",
+    "name": "Plaża Żoliborska",
+    "location": {
+      "city": "Warszawa",
+      "region": "Mazowieckie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 52.2688259,
+      "lng": 21.0029195
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/skazancow-1071116242",
+        "trail/bulwar-zbigniewa-religi-60352282",
+        "trail/tunel-smierci-1443922168",
+        "trail/sciezka-strazy-1443922169",
+        "trail/szlak-goledzinowski-1015982082"
+      ]
+    }
+  },
+  {
+    "id": "100cznia-plaza-612755403",
+    "slug": "100cznia-plaza-612755403",
+    "osmId": "way/612755403",
+    "name": "100cznia Plaża",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.3639435,
+      "lng": 18.6455668
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/sc1-1416243412",
+        "parking/p2-hevelianum-167972922",
+        "parking/p-13-1362840030",
+        "parking/p-12-1363042654",
+        "parking/sc3-1061403652"
+      ]
+    }
+  },
+  {
+    "id": "osrodek-sportow-wodnych-dojlidy-702273974",
+    "slug": "osrodek-sportow-wodnych-dojlidy-702273974",
+    "osmId": "way/702273974",
+    "name": "Ośrodek Sportów Wodnych Dojlidy",
+    "location": {
+      "city": "Białystok",
+      "region": "Podlaskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.1096195,
+      "lng": 23.2162371
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/plaza-miejska-221211426",
+        "trail/majora-bernarda-wasilewskiego-602262582",
+        "trail/rzeszowska-1383235775",
+        "parking/bus-1435212255",
+        "parking/tir-5152504642"
+      ]
+    }
+  },
+  {
+    "id": "lipie-plaza-naturystyczna-721977073",
+    "slug": "lipie-plaza-naturystyczna-721977073",
+    "osmId": "way/721977073",
+    "name": "Lipie Plaża Naturystyczna",
+    "location": {
+      "city": "Rzeszów",
+      "region": "Podkarpackie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 50.1122284,
+      "lng": 21.9258362
+    },
+    "features": [
+      "nawierzchnia: grass"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-przy-kosciele-w-mrowli-235502785",
+        "parking/ciezarowy-234449422",
+        "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038",
+        "parking/parking-p3-dlugoterminowy-p3-long-term-parking-1162378658",
+        "trail/przejscie-dla-plazow-438021775"
+      ]
+    }
+  },
+  {
+    "id": "plaza-jurowce-761020958",
+    "slug": "plaza-jurowce-761020958",
+    "osmId": "way/761020958",
+    "name": "Plaża Jurowce",
+    "location": {
+      "city": "Białystok",
+      "region": "Podlaskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.1857726,
+      "lng": 23.1495609
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/cisowa-1470075626",
+        "parking/miejsce-postoju-pojazdow-6496073964",
+        "parking/biazet-s-a-236603306",
+        "beach/plaza-niestrzezona-wasilkow-1202576174",
+        "parking/parking-tir-1053307857"
+      ]
+    }
+  },
+  {
+    "id": "hubertus-wake-fun-832957893",
+    "slug": "hubertus-wake-fun-832957893",
+    "osmId": "way/832957893",
+    "name": "Hubertus Wake&Fun",
+    "location": {
+      "city": "Katowice",
+      "region": "Śląskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 50.2638689,
+      "lng": 19.1239543
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/rondo-praw-kobiet-183183077",
+        "trail/kresowa-176976566",
+        "parking/parking-stawiki-512511785",
+        "parking/parking-selgros-66389237",
+        "parking/parking-biedronka-510761251"
+      ]
+    }
+  },
+  {
+    "id": "plaza-trawiasta-845089405",
+    "slug": "plaza-trawiasta-845089405",
+    "osmId": "way/845089405",
+    "name": "Plaża Trawiasta",
+    "location": {
+      "city": "Olsztyn",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.761252,
+      "lng": 20.5263554
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-tir-oczekujacych-na-wjazd-do-michelin-polska-s-a-6276370774",
+        "parking/parking-platny-1357183570",
+        "parking/plac-xawerego-dunikowskiego-134921868",
+        "trail/aleja-miasta-rovaniemi-1067841030",
+        "trail/aleja-miasta-offenburg-1298129179"
+      ]
+    }
+  },
+  {
+    "id": "plaza-wilkasy-999726138",
+    "slug": "plaza-wilkasy-999726138",
+    "osmId": "way/999726138",
+    "name": "Plaża Wilkasy",
+    "location": {
+      "city": "Giżycko",
+      "region": "Warmińsko-Mazurskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.009772,
+      "lng": 21.7363081
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/vip-3325215817",
+        "trail/promenada-niegocin-1151615527",
+        "beach/eko-plaza-gizycko-1279477168",
+        "trail/generala-orlicz-dreszera-254217253",
+        "parking/parking-samochodowy-696581835"
+      ]
     }
   }
 ]
