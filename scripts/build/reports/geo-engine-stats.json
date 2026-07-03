@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-07-03",
+  "mode": "offline",
+  "seedCities": 154,
+  "hubs": 154,
+  "voivodeships": 16,
+  "entities": {
+    "total": 83,
+    "byType": {
+      "beach": 27,
+      "parking": 27,
+      "trail": 29
+    }
+  },
+  "linkedToCity": 3,
+  "newNodes": 4,
+  "enrichedNodes": 0,
+  "estimatedPages": {
+    "entityPages": 83,
+    "cityHubs": 154,
+    "regions": 16,
+    "categories": 3,
+    "total": 257
+  },
+  "fetchLog": [
+    {
+      "mode": "offline",
+      "file": "/mnt/c/Projects/cloudflare-seo/scripts/crawl/reports/osm-fixture.json",
+      "elements": 5
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "totalEntities": 79,
+  "duplicateGroups": [
+    {
+      "reason": "name",
+      "primary": {
+        "key": "parking/parking-lesny",
+        "type": "parking",
+        "slug": "parking-lesny",
+        "name": "Parking leśny"
+      },
+      "duplicates": [
+        {
+          "key": "parking/parking-lesny-tuchom",
+          "type": "parking",
+          "slug": "parking-lesny-tuchom",
+          "name": "Parking Leśny"
+        },
+        {
+          "key": "parking/parking-lesny-ryjewo",
+          "type": "parking",
+          "slug": "parking-lesny-ryjewo",
+          "name": "Parking Leśny"
+        },
+        {
+          "key": "parking/parking-lesny-sztumskie-pole",
+          "type": "parking",
+          "slug": "parking-lesny-sztumskie-pole",
+          "name": "Parking Leśny"
+        },
+        {
+          "key": "parking/parking-lesny-gmina-koscierzyna",
+          "type": "parking",
+          "slug": "parking-lesny-gmina-koscierzyna",
+          "name": "parking leśny"
+        },
+        {
+          "key": "parking/parking-lesny-gmina-chojnice",
+          "type": "parking",
+          "slug": "parking-lesny-gmina-chojnice",
+          "name": "Parking leśny"
+        },
+        {
+          "key": "parking/parking-lesny-gmina-przywidz",
+          "type": "parking",
+          "slug": "parking-lesny-gmina-przywidz",
+          "name": "Parking leśny"
+        },
+        {
+          "key": "parking/parking-lesny-gmina-trzebielino",
+          "type": "parking",
+          "slug": "parking-lesny-gmina-trzebielino",
+          "name": "Parking leśny"
+        },
+        {
+          "key": "parking/parking-lesny-gmina-lipusz",
+          "type": "parking",
+          "slug": "parking-lesny-gmina-lipusz",
+          "name": "parking leśny"
+        },
+        {
+          "key": "parking/parking-lesny-gmina-potegowo",
+          "type": "parking",
+          "slug": "parking-lesny-gmina-potegowo",
+          "name": "parking leśny"
+        },
+        {
+          "key": "parking/parking-lesny-gmina-czarna-woda",
+          "type": "parking",
+          "slug": "parking-lesny-gmina-czarna-woda",
+          "name": "Parking leśny"
+        }
+      ]
+    }
+  ],
+  "orphans": []
+}

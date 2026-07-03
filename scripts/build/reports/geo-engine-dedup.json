@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-07-03",
+  "rawElements": 5,
+  "uniqueRawElements": 5,
+  "rawDuplicatesRemoved": 0,
+  "candidateMatches": {
+    "enriched": 0,
+    "duplicatesSkipped": 0,
+    "newNodes": 4
+  },
+  "duplicates": []
+}

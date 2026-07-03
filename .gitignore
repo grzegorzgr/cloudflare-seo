@@ -10,9 +10,12 @@ yarn.lock
 # BUILD OUTPUT
 # =====================
 dist/
-build/
+/build/
 .output/
 .astro/
+
+# OSM fetch cache (regenerowany per build; nie wersjonujemy)
+scripts/build/cache/
 
 # =====================
 # ENV FILES

@@ -1,0 +1,10 @@
+{
+  "nodes": 83,
+  "directedEdges": 648,
+  "avgDegree": 7.81,
+  "orphans": 2,
+  "connectedPct": 97.6,
+  "sameTypeEdges": 268,
+  "crossTypeEdges": 380,
+  "densityPct": 9.521
+}
