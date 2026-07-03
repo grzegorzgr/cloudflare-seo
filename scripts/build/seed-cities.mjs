@@ -274,8 +274,20 @@ function buildCity(name, region, lat, lng, hub) {
   };
 }
 
+function numFlag(argv, name) {
+  const pref = `${name}=`;
+  const hit = argv.find((a) => a.startsWith(pref));
+  if (!hit) return NaN;
+  const n = Number(hit.slice(pref.length));
+  return Number.isFinite(n) && n > 0 ? Math.floor(n) : NaN;
+}
+
 function main() {
-  const check = process.argv.includes('--check');
+  const argv = process.argv.slice(2);
+  const check = argv.includes('--check');
+  const hubsOnly = argv.includes('--hubs-only');
+  const maxPerRegion = numFlag(argv, '--max-per-region'); // np. 5 miast/wojewodztwo
+  const limit = numFlag(argv, '--limit'); // globalny cap na liczbe miast
 
   // Deterministyczna kolejnosc: regiony wg VOIVODESHIPS, miasta wg tabeli.
   const regionOrder = VOIVODESHIPS.map((v) => v[0]);
@@ -283,8 +295,13 @@ function main() {
   const slugSeen = new Map();
 
   for (const region of regionOrder) {
-    const rows = CITY_TABLE[region] ?? [];
+    let rows = CITY_TABLE[region] ?? [];
+    // Limity sa deterministyczne: kolejnosc wierszy w CITY_TABLE jest stala,
+    // stolica/hub sa na poczatku listy wiec przycinamy "od gory".
+    if (hubsOnly) rows = rows.filter((r) => r[3] === true);
+    if (Number.isFinite(maxPerRegion)) rows = rows.slice(0, maxPerRegion);
     for (const [name, lat, lng, hub] of rows) {
+      if (Number.isFinite(limit) && cities.length >= limit) break;
       const city = buildCity(name, region, lat, lng, hub === true);
       if (slugSeen.has(city.slug)) {
         throw new Error(
@@ -295,6 +312,7 @@ function main() {
       slugSeen.set(city.slug, `${name} / ${region}`);
       cities.push(city);
     }
+    if (Number.isFinite(limit) && cities.length >= limit) break;
   }
 
   // Region mapping layer (16 wojewodztw) z licznikiem miast-seed.
@@ -335,6 +353,13 @@ function main() {
     `City Seed Database: ${cities.length} miast, ${regions.length} wojewodztw, ` +
       `${stats.hubs} hubow -> packages/data/cities.json + regions.json\n`,
   );
+  if (hubsOnly || Number.isFinite(maxPerRegion) || Number.isFinite(limit)) {
+    process.stderr.write(
+      `  limity: ${hubsOnly ? 'hubs-only ' : ''}` +
+        `${Number.isFinite(maxPerRegion) ? `max/region=${maxPerRegion} ` : ''}` +
+        `${Number.isFinite(limit) ? `limit=${limit}` : ''}\n`,
+    );
+  }
 }
 
 main();
