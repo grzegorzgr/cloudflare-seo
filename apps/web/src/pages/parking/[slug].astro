@@ -1,0 +1,20 @@
+---
+// Strona parkingu (SSG). Jedna encja z parkings.json = jedna strona /parking/[slug].
+import parkings from '@data/parkings.json';
+import {
+  parkingConfig,
+  buildPageModel,
+  toStaticPaths,
+  type Entity,
+} from '@generator';
+import EntityPage from '../../components/EntityPage.astro';
+
+export function getStaticPaths() {
+  return toStaticPaths(parkings as Entity[]);
+}
+
+const { entity } = Astro.props as { entity: Entity };
+const model = buildPageModel(entity, parkingConfig);
+---
+
+<EntityPage model={model} />

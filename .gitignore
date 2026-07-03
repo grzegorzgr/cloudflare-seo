@@ -1,0 +1,73 @@
+# =====================
+# DEPENDENCIES
+# =====================
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# =====================
+# BUILD OUTPUT
+# =====================
+dist/
+build/
+.output/
+.astro/
+
+# =====================
+# ENV FILES
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# LOGS
+# =====================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =====================
+# CACHE
+# =====================
+.cache/
+.parcel-cache/
+.eslintcache
+.turbo/
+
+# =====================
+# ASTRO
+# =====================
+.astro/
+
+# =====================
+# DATA (opcjonalnie - zależy od workflow)
+# =====================
+# jeśli generator tworzy artefakty:
+packages/**/tmp/
+packages/**/cache/
+
+# =====================
+# OS FILES
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# IDE
+# =====================
+.vscode/
+.idea/
+
+# =====================
+# CLOUD FUNCTIONS / DEPLOY LOCAL TOOLS
+# =====================
+.netlify/
+.vercel/
+
+# =====================
+# OPTIONAL: GENERATED SEO OUTPUT (tylko jeśli robisz prebuild strony do repo)
+# =====================
+# dist/

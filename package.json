@@ -1,0 +1,10 @@
+{
+  "name": "cloudflare-seo",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Deterministyczny system Programmatic SEO: dane -> generacja -> statyczne strony -> Cloudflare Pages.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

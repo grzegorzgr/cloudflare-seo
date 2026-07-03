@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "example-trail-forest",
+    "name": "Example Forest Trail",
+    "type": "trail",
+    "seo": {
+      "h1": "Example Forest Trail \u2013 przebieg, trudno\u015b\u0107 i udogodnienia",
+      "title": "Example Forest Trail \u2013 przewodnik po szlaku",
+      "description": "Praktyczne informacje o szlaku Example Forest Trail: przebieg, dost\u0119pno\u015b\u0107 i lokalizacja."
+    },
+    "location": {
+      "city": "Example Village",
+      "region": "Example Mountains",
+      "country": "Poland",
+      "lat": 49.3,
+      "lng": 20.1
+    },
+    "features": {
+      "marked": true,
+      "loop": true,
+      "dogFriendly": true,
+      "familyFriendly": true,
+      "parking": true,
+      "waterSource": false
+    },
+    "facts": [
+      "Szlak jest oznakowany na ca\u0142ej d\u0142ugo\u015bci.",
+      "Trasa ma charakter p\u0119tli i wraca do punktu startowego.",
+      "Przy pocz\u0105tku szlaku znajduje si\u0119 parking."
+    ],
+    "faq": [
+      {
+        "q": "Czy szlak jest oznakowany?",
+        "a": "Tak, szlak jest oznakowany na ca\u0142ej d\u0142ugo\u015bci."
+      }
+    ]
+  },
+  {
+    "slug": "example-trail-ridge",
+    "name": "Example Ridge Trail",
+    "type": "trail",
+    "seo": {
+      "h1": "Example Ridge Trail \u2013 szlak grzbietowy",
+      "title": "Example Ridge Trail \u2013 przewodnik po szlaku",
+      "description": "Praktyczne informacje o szlaku Example Ridge Trail: przebieg i lokalizacja."
+    },
+    "location": {
+      "city": "Example Highland",
+      "region": "Example Mountains",
+      "country": "Poland",
+      "lat": 49.2,
+      "lng": 20.3
+    },
+    "features": {
+      "marked": true,
+      "loop": false,
+      "dogFriendly": false,
+      "familyFriendly": false,
+      "parking": false,
+      "waterSource": true
+    },
+    "facts": [
+      "Szlak prowadzi wzd\u0142u\u017c grzbietu g\u00f3rskiego.",
+      "Na trasie dost\u0119pne jest \u017ar\u00f3d\u0142o wody."
+    ],
+    "faq": []
+  }
+]

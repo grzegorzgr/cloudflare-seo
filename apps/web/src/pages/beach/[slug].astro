@@ -1,0 +1,21 @@
+---
+// Strona plaży (SSG). Jedna encja z beaches.json = jedna strona /beach/[slug].
+// Cała logika pochodzi z packages/generator; ta strona tylko wiąże dane z widokiem.
+import beaches from '@data/beaches.json';
+import {
+  beachConfig,
+  buildPageModel,
+  toStaticPaths,
+  type Entity,
+} from '@generator';
+import EntityPage from '../../components/EntityPage.astro';
+
+export function getStaticPaths() {
+  return toStaticPaths(beaches as Entity[]);
+}
+
+const { entity } = Astro.props as { entity: Entity };
+const model = buildPageModel(entity, beachConfig);
+---
+
+<EntityPage model={model} />

@@ -1,0 +1,81 @@
+---
+// Wsp\u00f3\u0142dzielony widok strony encji SEO (beach / parking / trail).
+// Nie zawiera logiki poza renderowaniem gotowego modelu z generatora.
+import type { PageModel } from '@generator';
+
+interface Props {
+  model: PageModel;
+}
+
+const { model } = Astro.props;
+---
+
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{model.pageTitle}</title>
+    {model.metaDescription && <meta name="description" content={model.metaDescription} />}
+    <link rel="canonical" href={model.canonical} />
+    <script type="application/ld+json" set:html={JSON.stringify(model.jsonLd)} />
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>{model.h1}</h1>
+
+        {
+          model.facts.length > 0 && (
+            <section aria-labelledby="opis">
+              <h2 id="opis">Opis</h2>
+              {model.facts.map((fact) => (
+                <p>{fact}</p>
+              ))}
+            </section>
+          )
+        }
+
+        {
+          model.features.length > 0 && (
+            <section aria-labelledby="udogodnienia">
+              <h2 id="udogodnienia">Udogodnienia</h2>
+              <ul>
+                {model.features.map((feature) => (
+                  <li>
+                    {feature.label}: {feature.value ? 'tak' : 'nie'}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+
+        <section aria-labelledby="lokalizacja">
+          <h2 id="lokalizacja">Lokalizacja</h2>
+          <ul>
+            <li>Miasto: {model.location.city}</li>
+            <li>Region: {model.location.region}</li>
+            <li>Kraj: {model.location.country}</li>
+          </ul>
+        </section>
+
+        {
+          model.faq.length > 0 && (
+            <section aria-labelledby="faq">
+              <h2 id="faq">FAQ</h2>
+              <dl>
+                {model.faq.map((item) => (
+                  <>
+                    <dt>{item.q}</dt>
+                    <dd>{item.a}</dd>
+                  </>
+                ))}
+              </dl>
+            </section>
+          )
+        }
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+---
+// Strona szlaku (SSG). Jedna encja z trails.json = jedna strona /trail/[slug].
+import trails from '@data/trails.json';
+import {
+  trailConfig,
+  buildPageModel,
+  toStaticPaths,
+  type Entity,
+} from '@generator';
+import EntityPage from '../../components/EntityPage.astro';
+
+export function getStaticPaths() {
+  return toStaticPaths(trails as Entity[]);
+}
+
+const { entity } = Astro.props as { entity: Entity };
+const model = buildPageModel(entity, trailConfig);
+---
+
+<EntityPage model={model} />

@@ -1,0 +1,108 @@
+[
+  {
+    "slug": "example-beach-north",
+    "name": "Example Beach North",
+    "type": "beach",
+    "seo": {
+      "h1": "Example Beach North – parking, udogodnienia i informacje praktyczne",
+      "title": "Example Beach North – przewodnik po plaży",
+      "description": "Praktyczne informacje o plaży Example Beach North: parking, toalety, dostępność i lokalizacja."
+    },
+    "location": {
+      "city": "Example City",
+      "region": "Example Region",
+      "country": "Poland",
+      "lat": 54.0,
+      "lng": 18.0
+    },
+    "features": {
+      "parking": true,
+      "toilets": true,
+      "lifeguard": true,
+      "dogFriendly": false,
+      "accessible": true,
+      "showers": true
+    },
+    "facts": [
+      "Plaża posiada wydzielony parking dla samochodów osobowych.",
+      "Na terenie dostępne są publiczne toalety oraz prysznice.",
+      "W sezonie letnim na plaży pełni dyżur ratownik."
+    ],
+    "faq": [
+      {
+        "q": "Czy przy plaży jest parking?",
+        "a": "Tak, plaża posiada wydzielony parking dla samochodów osobowych."
+      },
+      {
+        "q": "Czy na plaży jest ratownik?",
+        "a": "Tak, w sezonie letnim na plaży pełni dyżur ratownik."
+      }
+    ]
+  },
+  {
+    "slug": "example-beach-south",
+    "name": "Example Beach South",
+    "type": "beach",
+    "seo": {
+      "h1": "Example Beach South – informacje praktyczne dla odwiedzających",
+      "title": "Example Beach South – przewodnik po plaży",
+      "description": "Praktyczne informacje o plaży Example Beach South: parking, udogodnienia i lokalizacja."
+    },
+    "location": {
+      "city": "Example Town",
+      "region": "Example Region",
+      "country": "Poland",
+      "lat": 53.9,
+      "lng": 18.1
+    },
+    "features": {
+      "parking": false,
+      "toilets": true,
+      "lifeguard": false,
+      "dogFriendly": true,
+      "accessible": false,
+      "showers": false
+    },
+    "facts": [
+      "Plaża jest przyjazna dla psów przez cały rok.",
+      "Na terenie dostępne są publiczne toalety."
+    ],
+    "faq": [
+      {
+        "q": "Czy na plażę można wejść z psem?",
+        "a": "Tak, plaża jest przyjazna dla psów przez cały rok."
+      }
+    ]
+  },
+  {
+    "slug": "example-beach-bay",
+    "name": "Example Beach Bay",
+    "type": "beach",
+    "seo": {
+      "h1": "Example Beach Bay – zatoka, dostępność i udogodnienia",
+      "title": "Example Beach Bay – przewodnik po plaży",
+      "description": "Praktyczne informacje o plaży Example Beach Bay: dostępność, udogodnienia i lokalizacja."
+    },
+    "location": {
+      "city": "Example Village",
+      "region": "Example Coast",
+      "country": "Poland",
+      "lat": 54.2,
+      "lng": 17.9
+    },
+    "features": {
+      "parking": true,
+      "toilets": false,
+      "lifeguard": true,
+      "dogFriendly": false,
+      "accessible": true,
+      "showers": true
+    },
+    "facts": [
+      "Plaża jest dostępna dla osób z niepełnosprawnościami.",
+      "Na terenie dostępny jest parking oraz prysznice.",
+      "W sezonie letnim na plaży pełni dyżur ratownik."
+    ],
+    "faq": []
+  }
+]

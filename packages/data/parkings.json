@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "example-parking-center",
+    "name": "Example Parking Center",
+    "type": "parking",
+    "seo": {
+      "h1": "Example Parking Center \u2013 cennik, godziny i udogodnienia",
+      "title": "Example Parking Center \u2013 przewodnik po parkingu",
+      "description": "Praktyczne informacje o parkingu Example Parking Center: cennik, dost\u0119pno\u015b\u0107 i lokalizacja."
+    },
+    "location": {
+      "city": "Example City",
+      "region": "Example Region",
+      "country": "Poland",
+      "lat": 52.23,
+      "lng": 21.01
+    },
+    "features": {
+      "paid": true,
+      "covered": true,
+      "guarded": true,
+      "evCharging": true,
+      "disabledSpots": true,
+      "lighting": true
+    },
+    "facts": [
+      "Parking jest zadaszony i strze\u017cony przez ca\u0142\u0105 dob\u0119.",
+      "Dost\u0119pne s\u0105 miejsca dla os\u00f3b z niepe\u0142nosprawno\u015bciami.",
+      "Na terenie znajduj\u0105 si\u0119 \u0142adowarki dla samochod\u00f3w elektrycznych."
+    ],
+    "faq": [
+      {
+        "q": "Czy parking jest strze\u017cony?",
+        "a": "Tak, parking jest zadaszony i strze\u017cony przez ca\u0142\u0105 dob\u0119."
+      }
+    ]
+  },
+  {
+    "slug": "example-parking-station",
+    "name": "Example Parking Station",
+    "type": "parking",
+    "seo": {
+      "h1": "Example Parking Station \u2013 parking przy dworcu",
+      "title": "Example Parking Station \u2013 przewodnik po parkingu",
+      "description": "Praktyczne informacje o parkingu Example Parking Station: dost\u0119pno\u015b\u0107 i lokalizacja."
+    },
+    "location": {
+      "city": "Example Town",
+      "region": "Example Region",
+      "country": "Poland",
+      "lat": 50.06,
+      "lng": 19.94
+    },
+    "features": {
+      "paid": true,
+      "covered": false,
+      "guarded": false,
+      "evCharging": false,
+      "disabledSpots": true,
+      "lighting": true
+    },
+    "facts": [
+      "Parking jest o\u015bwietlony w porze nocnej.",
+      "Dost\u0119pne s\u0105 miejsca dla os\u00f3b z niepe\u0142nosprawno\u015bciami."
+    ],
+    "faq": []
+  }
+]
