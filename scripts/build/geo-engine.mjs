@@ -315,6 +315,13 @@ function buildRegionQuery(regionSeeds, radiusKm, only) {
   return `[out:json][timeout:180];(\n  ${parts.join('\n  ')}\n);out center tags;`;
 }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+function progressBar(current, total, width = 16) {
+  const ratio = total > 0 ? current / total : 0;
+  const filled = Math.round(ratio * width);
+  const bar = '#'.repeat(filled) + '-'.repeat(Math.max(0, width - filled));
+  const pct = String(Math.round(ratio * 100)).padStart(3, ' ');
+  return `[${bar}] ${pct}% (${current}/${total})`;
+}
 async function fetchOverpass(endpoint, query, { retries = 4, baseDelay = 5000 } = {}) {
   // Overpass publiczny bywa przeciazony -> retry z backoffem na 429/5xx.
   for (let attempt = 0; attempt <= retries; attempt++) {
@@ -457,16 +464,23 @@ async function fetchAllRegions(seeds, regions, opts) {
         mode = `error:${err.message}`;
         els = [];
       }
-      if (idx < regionOrder.length) await sleep(opts.delay);
     }
 
     // Uwaga: NIE uzywaj push(...els) - spread duzej tablicy jako argumentow
     // wywolania przepelnia stos (RangeError) przy tysiacach elementow z OSM.
     for (const el of els) elements.push(el);
     fetchLog.push({ region, seeds: byRegion.get(region).length, mode, elements: els.length });
+    // Pasek postepu drukowany OD RAZU po pobraniu (przed odczekaniem).
     process.stderr.write(
-      `  [${idx}/${regionOrder.length}] ${region}: ${els.length} elementow (${mode})\n`,
+      `  ${progressBar(idx, regionOrder.length)} ${region}: ${els.length} elementow (${mode})\n`,
     );
+
+    // Odczekaj tylko gdy realnie odpytywalismy siec i sa jeszcze kolejne regiony.
+    const hitNetwork = mode === 'overpass' || mode.startsWith('error:');
+    if (hitNetwork && idx < regionOrder.length && opts.delay > 0) {
+      process.stderr.write(`     ...odczekuje ${Math.round(opts.delay / 1000)}s przed nastepnym wojewodztwem\n`);
+      await sleep(opts.delay);
+    }
   }
   return { elements, fetchLog };
 }
