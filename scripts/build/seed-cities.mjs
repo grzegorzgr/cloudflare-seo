@@ -34,7 +34,7 @@ function slugify(input) {
     .map((c) => POLISH_CHARS[c] ?? c)
     .join('')
     .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+    .replace(/^-|-$/g, '');
 }
 
 // --- Region mapping layer: 16 wojewodztw + stolica (real data) ---

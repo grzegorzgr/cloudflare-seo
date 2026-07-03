@@ -30,7 +30,7 @@ function slugify(input) {
     .map((c) => POLISH_CHARS[c] ?? c)
     .join('')
     .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+    .replace(/^-|-$/g, '');
 }
 
 function hasCoords(c) {

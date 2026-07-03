@@ -8,7 +8,7 @@
 //   - trasy index (/cities, /regions, /beaches, ...) to konfiguracja nawigacji,
 //     nie dane encji (dozwolone).
 
-import { slugify } from './slug.js';
+import { slugify, stripTrailingSlashes } from './slug.js';
 import {
   buildClusterModel,
   listCities,
@@ -83,7 +83,7 @@ function breadcrumbNode(
   items: { name: string; url: string }[],
   baseUrl = '',
 ): Record<string, unknown> {
-  const base = baseUrl.replace(/\/+$/, '');
+  const base = stripTrailingSlashes(baseUrl);
   return {
     '@type': 'BreadcrumbList',
     itemListElement: items.map((it, i) => ({
@@ -100,7 +100,7 @@ function itemListNode(
   links: { name: string; href: string }[],
   baseUrl = '',
 ): Record<string, unknown> {
-  const base = baseUrl.replace(/\/+$/, '');
+  const base = stripTrailingSlashes(baseUrl);
   return {
     '@type': 'ItemList',
     name,

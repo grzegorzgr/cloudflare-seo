@@ -1,7 +1,7 @@
 // Cluster pages: strony agregacyjne wg typu (/{type}/) oraz regionu (/region/{slug}).
 // Wszystko wyprowadzone deterministycznie z /packages/data. Bez nowych danych.
 
-import { slugify } from './slug.js';
+import { slugify, stripTrailingSlashes } from './slug.js';
 import type { Entity, TypeConfig } from './types.js';
 
 const UNKNOWN = 'nieznane';
@@ -78,7 +78,7 @@ function buildItemList(
   links: ClusterLink[],
   baseUrl = '',
 ): Record<string, unknown> {
-  const base = baseUrl.replace(/\/+$/, '');
+  const base = stripTrailingSlashes(baseUrl);
   return {
     '@context': 'https://schema.org',
     '@type': 'ItemList',

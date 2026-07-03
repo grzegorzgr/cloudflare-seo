@@ -32,7 +32,7 @@ function slugify(input) {
     .map((char) => POLISH_CHARS[char] ?? char)
     .join('')
     .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+    .replace(/^-|-$/g, '');
 }
 
 // --- Mapowanie tagow OSM -> typ wewnetrzny (tylko jawne dopasowania) ---

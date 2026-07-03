@@ -1,7 +1,7 @@
 // Sitemap generator. Deterministycznie buduje liste URL i XML sitemap
 // wylacznie z danych w /packages/data. Bez recznej edycji.
 
-import { slugify } from './slug.js';
+import { slugify, stripTrailingSlashes } from './slug.js';
 import type { Entity, TypeConfig } from './types.js';
 
 export interface SitemapDataset {
@@ -81,7 +81,7 @@ export function buildSitemapXml(
   citySeeds: Entity[] = [],
   indexPaths: string[] = [],
 ): string {
-  const base = baseUrl.replace(/\/+$/, '');
+  const base = stripTrailingSlashes(baseUrl);
   const body = buildSitemapPaths(datasets, citySeeds, indexPaths)
     .map((path) => `  <url>\n    <loc>${base}${path}</loc>\n  </url>`)
     .join('\n');

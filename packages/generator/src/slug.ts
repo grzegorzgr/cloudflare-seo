@@ -25,5 +25,21 @@ export function slugify(input: string): string {
     .map((char) => POLISH_CHARS[char] ?? char)
     .join('')
     .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+    // Separatory sa juz scalone do pojedynczego "-", wiec wystarczy usunac
+    // co najwyzej jeden wiodacy/koncowy myslnik. Bez kwantyfikatora "+"
+    // (unikamy polynomial ReDoS na niekontrolowanych nazwach z OSM).
+    .replace(/^-|-$/g, '');
 }
+
+/**
+ * Usuwa koncowe ukosniki z URL/sciezki w czasie liniowym (bez regexa),
+ * co eliminuje ryzyko polynomial ReDoS na niekontrolowanym wejsciu.
+ */
+export function stripTrailingSlashes(input: string): string {
+  let end = input.length;
+  while (end > 0 && input.charCodeAt(end - 1) === 47 /* '/' */) {
+    end -= 1;
+  }
+  return input.slice(0, end);
+}
+
