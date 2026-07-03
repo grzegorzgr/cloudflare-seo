@@ -1,11 +1,18 @@
 [
   {
-    "id": "gdansk",
-    "slug": "gdansk",
+    "id": "wroclaw",
+    "slug": "wroclaw",
     "type": "city",
-    "name": "Gdańsk",
-    "location": { "city": "Gdańsk", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.352, "lng": 18.6466 },
+    "name": "Wrocław",
+    "location": {
+      "city": "Wrocław",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.1079,
+      "lng": 17.0385
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -14,7 +21,2462 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub", "hub"],
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "walbrzych",
+    "slug": "walbrzych",
+    "type": "city",
+    "name": "Wałbrzych",
+    "location": {
+      "city": "Wałbrzych",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.771,
+      "lng": 16.2843
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "legnica",
+    "slug": "legnica",
+    "type": "city",
+    "name": "Legnica",
+    "location": {
+      "city": "Legnica",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.207,
+      "lng": 16.1619
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "jelenia-gora",
+    "slug": "jelenia-gora",
+    "type": "city",
+    "name": "Jelenia Góra",
+    "location": {
+      "city": "Jelenia Góra",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.9044,
+      "lng": 15.7197
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "lubin",
+    "slug": "lubin",
+    "type": "city",
+    "name": "Lubin",
+    "location": {
+      "city": "Lubin",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.4009,
+      "lng": 16.201
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "glogow",
+    "slug": "glogow",
+    "type": "city",
+    "name": "Głogów",
+    "location": {
+      "city": "Głogów",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.664,
+      "lng": 16.0846
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "swidnica",
+    "slug": "swidnica",
+    "type": "city",
+    "name": "Świdnica",
+    "location": {
+      "city": "Świdnica",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.8449,
+      "lng": 16.4877
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "boleslawiec",
+    "slug": "boleslawiec",
+    "type": "city",
+    "name": "Bolesławiec",
+    "location": {
+      "city": "Bolesławiec",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.261,
+      "lng": 15.5699
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "olesnica",
+    "slug": "olesnica",
+    "type": "city",
+    "name": "Oleśnica",
+    "location": {
+      "city": "Oleśnica",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.213,
+      "lng": 17.38
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "dzierzoniow",
+    "slug": "dzierzoniow",
+    "type": "city",
+    "name": "Dzierżoniów",
+    "location": {
+      "city": "Dzierżoniów",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.7276,
+      "lng": 16.6516
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "klodzko",
+    "slug": "klodzko",
+    "type": "city",
+    "name": "Kłodzko",
+    "location": {
+      "city": "Kłodzko",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.4347,
+      "lng": 16.6619
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "karpacz",
+    "slug": "karpacz",
+    "type": "city",
+    "name": "Karpacz",
+    "location": {
+      "city": "Karpacz",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.7783,
+      "lng": 15.75
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "szklarska-poreba",
+    "slug": "szklarska-poreba",
+    "type": "city",
+    "name": "Szklarska Poręba",
+    "location": {
+      "city": "Szklarska Poręba",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.8283,
+      "lng": 15.5205
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "bydgoszcz",
+    "slug": "bydgoszcz",
+    "type": "city",
+    "name": "Bydgoszcz",
+    "location": {
+      "city": "Bydgoszcz",
+      "region": "Kujawsko-Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.1235,
+      "lng": 18.0084
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "torun",
+    "slug": "torun",
+    "type": "city",
+    "name": "Toruń",
+    "location": {
+      "city": "Toruń",
+      "region": "Kujawsko-Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.0138,
+      "lng": 18.5984
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "wloclawek",
+    "slug": "wloclawek",
+    "type": "city",
+    "name": "Włocławek",
+    "location": {
+      "city": "Włocławek",
+      "region": "Kujawsko-Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.6483,
+      "lng": 19.0678
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "grudziadz",
+    "slug": "grudziadz",
+    "type": "city",
+    "name": "Grudziądz",
+    "location": {
+      "city": "Grudziądz",
+      "region": "Kujawsko-Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.4837,
+      "lng": 18.7536
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "inowroclaw",
+    "slug": "inowroclaw",
+    "type": "city",
+    "name": "Inowrocław",
+    "location": {
+      "city": "Inowrocław",
+      "region": "Kujawsko-Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.7982,
+      "lng": 18.261
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "brodnica",
+    "slug": "brodnica",
+    "type": "city",
+    "name": "Brodnica",
+    "location": {
+      "city": "Brodnica",
+      "region": "Kujawsko-Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.262,
+      "lng": 19.396
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "swiecie",
+    "slug": "swiecie",
+    "type": "city",
+    "name": "Świecie",
+    "location": {
+      "city": "Świecie",
+      "region": "Kujawsko-Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.4093,
+      "lng": 18.4468
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "chelmno",
+    "slug": "chelmno",
+    "type": "city",
+    "name": "Chełmno",
+    "location": {
+      "city": "Chełmno",
+      "region": "Kujawsko-Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.348,
+      "lng": 18.4247
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "lublin",
+    "slug": "lublin",
+    "type": "city",
+    "name": "Lublin",
+    "location": {
+      "city": "Lublin",
+      "region": "Lubelskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.2465,
+      "lng": 22.5684
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "zamosc",
+    "slug": "zamosc",
+    "type": "city",
+    "name": "Zamość",
+    "location": {
+      "city": "Zamość",
+      "region": "Lubelskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.7231,
+      "lng": 23.2519
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "chelm",
+    "slug": "chelm",
+    "type": "city",
+    "name": "Chełm",
+    "location": {
+      "city": "Chełm",
+      "region": "Lubelskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.1431,
+      "lng": 23.4716
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "biala-podlaska",
+    "slug": "biala-podlaska",
+    "type": "city",
+    "name": "Biała Podlaska",
+    "location": {
+      "city": "Biała Podlaska",
+      "region": "Lubelskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.0325,
+      "lng": 23.1165
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "pulawy",
+    "slug": "pulawy",
+    "type": "city",
+    "name": "Puławy",
+    "location": {
+      "city": "Puławy",
+      "region": "Lubelskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.4166,
+      "lng": 21.969
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "swidnik",
+    "slug": "swidnik",
+    "type": "city",
+    "name": "Świdnik",
+    "location": {
+      "city": "Świdnik",
+      "region": "Lubelskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.2197,
+      "lng": 22.696
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "krasnik",
+    "slug": "krasnik",
+    "type": "city",
+    "name": "Kraśnik",
+    "location": {
+      "city": "Kraśnik",
+      "region": "Lubelskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.9241,
+      "lng": 22.2205
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "lukow",
+    "slug": "lukow",
+    "type": "city",
+    "name": "Łuków",
+    "location": {
+      "city": "Łuków",
+      "region": "Lubelskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.9295,
+      "lng": 22.3792
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "gorzow-wielkopolski",
+    "slug": "gorzow-wielkopolski",
+    "type": "city",
+    "name": "Gorzów Wielkopolski",
+    "location": {
+      "city": "Gorzów Wielkopolski",
+      "region": "Lubuskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.7368,
+      "lng": 15.2288
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "zielona-gora",
+    "slug": "zielona-gora",
+    "type": "city",
+    "name": "Zielona Góra",
+    "location": {
+      "city": "Zielona Góra",
+      "region": "Lubuskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.9356,
+      "lng": 15.5062
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "nowa-sol",
+    "slug": "nowa-sol",
+    "type": "city",
+    "name": "Nowa Sól",
+    "location": {
+      "city": "Nowa Sól",
+      "region": "Lubuskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.8033,
+      "lng": 15.718
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "zary",
+    "slug": "zary",
+    "type": "city",
+    "name": "Żary",
+    "location": {
+      "city": "Żary",
+      "region": "Lubuskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.642,
+      "lng": 15.138
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "zagan",
+    "slug": "zagan",
+    "type": "city",
+    "name": "Żagań",
+    "location": {
+      "city": "Żagań",
+      "region": "Lubuskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.6167,
+      "lng": 15.3167
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "swiebodzin",
+    "slug": "swiebodzin",
+    "type": "city",
+    "name": "Świebodzin",
+    "location": {
+      "city": "Świebodzin",
+      "region": "Lubuskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.2472,
+      "lng": 15.5333
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "lodz",
+    "slug": "lodz",
+    "type": "city",
+    "name": "Łódź",
+    "location": {
+      "city": "Łódź",
+      "region": "Łódzkie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.7592,
+      "lng": 19.456
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "piotrkow-trybunalski",
+    "slug": "piotrkow-trybunalski",
+    "type": "city",
+    "name": "Piotrków Trybunalski",
+    "location": {
+      "city": "Piotrków Trybunalski",
+      "region": "Łódzkie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.4055,
+      "lng": 19.703
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "pabianice",
+    "slug": "pabianice",
+    "type": "city",
+    "name": "Pabianice",
+    "location": {
+      "city": "Pabianice",
+      "region": "Łódzkie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.6647,
+      "lng": 19.3546
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "tomaszow-mazowiecki",
+    "slug": "tomaszow-mazowiecki",
+    "type": "city",
+    "name": "Tomaszów Mazowiecki",
+    "location": {
+      "city": "Tomaszów Mazowiecki",
+      "region": "Łódzkie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.53,
+      "lng": 20.008
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "belchatow",
+    "slug": "belchatow",
+    "type": "city",
+    "name": "Bełchatów",
+    "location": {
+      "city": "Bełchatów",
+      "region": "Łódzkie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.3688,
+      "lng": 19.3564
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "zgierz",
+    "slug": "zgierz",
+    "type": "city",
+    "name": "Zgierz",
+    "location": {
+      "city": "Zgierz",
+      "region": "Łódzkie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.856,
+      "lng": 19.406
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "kutno",
+    "slug": "kutno",
+    "type": "city",
+    "name": "Kutno",
+    "location": {
+      "city": "Kutno",
+      "region": "Łódzkie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.2308,
+      "lng": 19.3644
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "radomsko",
+    "slug": "radomsko",
+    "type": "city",
+    "name": "Radomsko",
+    "location": {
+      "city": "Radomsko",
+      "region": "Łódzkie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.0678,
+      "lng": 19.4448
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "sieradz",
+    "slug": "sieradz",
+    "type": "city",
+    "name": "Sieradz",
+    "location": {
+      "city": "Sieradz",
+      "region": "Łódzkie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.5959,
+      "lng": 18.7303
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "krakow",
+    "slug": "krakow",
+    "type": "city",
+    "name": "Kraków",
+    "location": {
+      "city": "Kraków",
+      "region": "Małopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.0647,
+      "lng": 19.945
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "tarnow",
+    "slug": "tarnow",
+    "type": "city",
+    "name": "Tarnów",
+    "location": {
+      "city": "Tarnów",
+      "region": "Małopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.0121,
+      "lng": 20.9858
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "nowy-sacz",
+    "slug": "nowy-sacz",
+    "type": "city",
+    "name": "Nowy Sącz",
+    "location": {
+      "city": "Nowy Sącz",
+      "region": "Małopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.6217,
+      "lng": 20.6969
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "oswiecim",
+    "slug": "oswiecim",
+    "type": "city",
+    "name": "Oświęcim",
+    "location": {
+      "city": "Oświęcim",
+      "region": "Małopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.0344,
+      "lng": 19.2098
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "chrzanow",
+    "slug": "chrzanow",
+    "type": "city",
+    "name": "Chrzanów",
+    "location": {
+      "city": "Chrzanów",
+      "region": "Małopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.135,
+      "lng": 19.402
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "nowy-targ",
+    "slug": "nowy-targ",
+    "type": "city",
+    "name": "Nowy Targ",
+    "location": {
+      "city": "Nowy Targ",
+      "region": "Małopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.477,
+      "lng": 20.03
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "zakopane",
+    "slug": "zakopane",
+    "type": "city",
+    "name": "Zakopane",
+    "location": {
+      "city": "Zakopane",
+      "region": "Małopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.2992,
+      "lng": 19.9496
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "wieliczka",
+    "slug": "wieliczka",
+    "type": "city",
+    "name": "Wieliczka",
+    "location": {
+      "city": "Wieliczka",
+      "region": "Małopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.9871,
+      "lng": 20.0649
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "bochnia",
+    "slug": "bochnia",
+    "type": "city",
+    "name": "Bochnia",
+    "location": {
+      "city": "Bochnia",
+      "region": "Małopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.9691,
+      "lng": 20.4304
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "krynica-zdroj",
+    "slug": "krynica-zdroj",
+    "type": "city",
+    "name": "Krynica-Zdrój",
+    "location": {
+      "city": "Krynica-Zdrój",
+      "region": "Małopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.4218,
+      "lng": 20.9576
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "warszawa",
+    "slug": "warszawa",
+    "type": "city",
+    "name": "Warszawa",
+    "location": {
+      "city": "Warszawa",
+      "region": "Mazowieckie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.2297,
+      "lng": 21.0122
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "radom",
+    "slug": "radom",
+    "type": "city",
+    "name": "Radom",
+    "location": {
+      "city": "Radom",
+      "region": "Mazowieckie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.4027,
+      "lng": 21.1471
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "plock",
+    "slug": "plock",
+    "type": "city",
+    "name": "Płock",
+    "location": {
+      "city": "Płock",
+      "region": "Mazowieckie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.5468,
+      "lng": 19.7064
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "siedlce",
+    "slug": "siedlce",
+    "type": "city",
+    "name": "Siedlce",
+    "location": {
+      "city": "Siedlce",
+      "region": "Mazowieckie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.1676,
+      "lng": 22.2902
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "pruszkow",
+    "slug": "pruszkow",
+    "type": "city",
+    "name": "Pruszków",
+    "location": {
+      "city": "Pruszków",
+      "region": "Mazowieckie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.1706,
+      "lng": 20.811
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "ostroleka",
+    "slug": "ostroleka",
+    "type": "city",
+    "name": "Ostrołęka",
+    "location": {
+      "city": "Ostrołęka",
+      "region": "Mazowieckie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.0857,
+      "lng": 21.576
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "ciechanow",
+    "slug": "ciechanow",
+    "type": "city",
+    "name": "Ciechanów",
+    "location": {
+      "city": "Ciechanów",
+      "region": "Mazowieckie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.8813,
+      "lng": 20.6194
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "legionowo",
+    "slug": "legionowo",
+    "type": "city",
+    "name": "Legionowo",
+    "location": {
+      "city": "Legionowo",
+      "region": "Mazowieckie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.4,
+      "lng": 20.933
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "otwock",
+    "slug": "otwock",
+    "type": "city",
+    "name": "Otwock",
+    "location": {
+      "city": "Otwock",
+      "region": "Mazowieckie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.1057,
+      "lng": 21.2615
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "wolomin",
+    "slug": "wolomin",
+    "type": "city",
+    "name": "Wołomin",
+    "location": {
+      "city": "Wołomin",
+      "region": "Mazowieckie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.3413,
+      "lng": 21.2419
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "zyrardow",
+    "slug": "zyrardow",
+    "type": "city",
+    "name": "Żyrardów",
+    "location": {
+      "city": "Żyrardów",
+      "region": "Mazowieckie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.0489,
+      "lng": 20.4459
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "opole",
+    "slug": "opole",
+    "type": "city",
+    "name": "Opole",
+    "location": {
+      "city": "Opole",
+      "region": "Opolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.6751,
+      "lng": 17.9213
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "kedzierzyn-kozle",
+    "slug": "kedzierzyn-kozle",
+    "type": "city",
+    "name": "Kędzierzyn-Koźle",
+    "location": {
+      "city": "Kędzierzyn-Koźle",
+      "region": "Opolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.349,
+      "lng": 18.226
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "nysa",
+    "slug": "nysa",
+    "type": "city",
+    "name": "Nysa",
+    "location": {
+      "city": "Nysa",
+      "region": "Opolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.474,
+      "lng": 17.333
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "brzeg",
+    "slug": "brzeg",
+    "type": "city",
+    "name": "Brzeg",
+    "location": {
+      "city": "Brzeg",
+      "region": "Opolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.86,
+      "lng": 17.467
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "kluczbork",
+    "slug": "kluczbork",
+    "type": "city",
+    "name": "Kluczbork",
+    "location": {
+      "city": "Kluczbork",
+      "region": "Opolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.973,
+      "lng": 18.217
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "prudnik",
+    "slug": "prudnik",
+    "type": "city",
+    "name": "Prudnik",
+    "location": {
+      "city": "Prudnik",
+      "region": "Opolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.3216,
+      "lng": 17.5798
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "rzeszow",
+    "slug": "rzeszow",
+    "type": "city",
+    "name": "Rzeszów",
+    "location": {
+      "city": "Rzeszów",
+      "region": "Podkarpackie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.0413,
+      "lng": 21.999
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "przemysl",
+    "slug": "przemysl",
+    "type": "city",
+    "name": "Przemyśl",
+    "location": {
+      "city": "Przemyśl",
+      "region": "Podkarpackie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.7838,
+      "lng": 22.7677
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "stalowa-wola",
+    "slug": "stalowa-wola",
+    "type": "city",
+    "name": "Stalowa Wola",
+    "location": {
+      "city": "Stalowa Wola",
+      "region": "Podkarpackie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.582,
+      "lng": 22.053
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "mielec",
+    "slug": "mielec",
+    "type": "city",
+    "name": "Mielec",
+    "location": {
+      "city": "Mielec",
+      "region": "Podkarpackie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.287,
+      "lng": 21.424
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "tarnobrzeg",
+    "slug": "tarnobrzeg",
+    "type": "city",
+    "name": "Tarnobrzeg",
+    "location": {
+      "city": "Tarnobrzeg",
+      "region": "Podkarpackie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.573,
+      "lng": 21.679
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "krosno",
+    "slug": "krosno",
+    "type": "city",
+    "name": "Krosno",
+    "location": {
+      "city": "Krosno",
+      "region": "Podkarpackie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.688,
+      "lng": 21.77
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "sanok",
+    "slug": "sanok",
+    "type": "city",
+    "name": "Sanok",
+    "location": {
+      "city": "Sanok",
+      "region": "Podkarpackie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.556,
+      "lng": 22.206
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "jaroslaw",
+    "slug": "jaroslaw",
+    "type": "city",
+    "name": "Jarosław",
+    "location": {
+      "city": "Jarosław",
+      "region": "Podkarpackie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.0165,
+      "lng": 22.6779
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "debica",
+    "slug": "debica",
+    "type": "city",
+    "name": "Dębica",
+    "location": {
+      "city": "Dębica",
+      "region": "Podkarpackie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.0516,
+      "lng": 21.4114
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "bialystok",
+    "slug": "bialystok",
+    "type": "city",
+    "name": "Białystok",
+    "location": {
+      "city": "Białystok",
+      "region": "Podlaskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.1325,
+      "lng": 23.1688
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "suwalki",
+    "slug": "suwalki",
+    "type": "city",
+    "name": "Suwałki",
+    "location": {
+      "city": "Suwałki",
+      "region": "Podlaskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.1,
+      "lng": 22.93
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "lomza",
+    "slug": "lomza",
+    "type": "city",
+    "name": "Łomża",
+    "location": {
+      "city": "Łomża",
+      "region": "Podlaskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.178,
+      "lng": 22.059
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "augustow",
+    "slug": "augustow",
+    "type": "city",
+    "name": "Augustów",
+    "location": {
+      "city": "Augustów",
+      "region": "Podlaskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.843,
+      "lng": 22.979
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "bielsk-podlaski",
+    "slug": "bielsk-podlaski",
+    "type": "city",
+    "name": "Bielsk Podlaski",
+    "location": {
+      "city": "Bielsk Podlaski",
+      "region": "Podlaskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.769,
+      "lng": 23.187
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "zambrow",
+    "slug": "zambrow",
+    "type": "city",
+    "name": "Zambrów",
+    "location": {
+      "city": "Zambrów",
+      "region": "Podlaskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.9855,
+      "lng": 22.245
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "grajewo",
+    "slug": "grajewo",
+    "type": "city",
+    "name": "Grajewo",
+    "location": {
+      "city": "Grajewo",
+      "region": "Podlaskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.6467,
+      "lng": 22.4555
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "gdansk",
+    "slug": "gdansk",
+    "type": "city",
+    "name": "Gdańsk",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.352,
+      "lng": 18.6466
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -23,8 +2485,15 @@
     "slug": "gdynia",
     "type": "city",
     "name": "Gdynia",
-    "location": { "city": "Gdynia", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.5189, "lng": 18.5305 },
+    "location": {
+      "city": "Gdynia",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.5189,
+      "lng": 18.5305
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -33,7 +2502,10 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub", "hub"],
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -42,8 +2514,15 @@
     "slug": "sopot",
     "type": "city",
     "name": "Sopot",
-    "location": { "city": "Sopot", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.4418, "lng": 18.5601 },
+    "location": {
+      "city": "Sopot",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.4418,
+      "lng": 18.5601
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -52,7 +2531,10 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub", "hub"],
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -61,8 +2543,15 @@
     "slug": "tczew",
     "type": "city",
     "name": "Tczew",
-    "location": { "city": "Tczew", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.092, "lng": 18.777 },
+    "location": {
+      "city": "Tczew",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.092,
+      "lng": 18.777
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -71,7 +2560,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -80,8 +2571,15 @@
     "slug": "wejherowo",
     "type": "city",
     "name": "Wejherowo",
-    "location": { "city": "Wejherowo", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.605, "lng": 18.236 },
+    "location": {
+      "city": "Wejherowo",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.605,
+      "lng": 18.236
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -90,7 +2588,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -99,8 +2599,15 @@
     "slug": "rumia",
     "type": "city",
     "name": "Rumia",
-    "location": { "city": "Rumia", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.5713, "lng": 18.388 },
+    "location": {
+      "city": "Rumia",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.5713,
+      "lng": 18.388
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -109,7 +2616,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -118,8 +2627,15 @@
     "slug": "reda",
     "type": "city",
     "name": "Reda",
-    "location": { "city": "Reda", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.603, "lng": 18.348 },
+    "location": {
+      "city": "Reda",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.603,
+      "lng": 18.348
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -128,7 +2644,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -137,8 +2655,15 @@
     "slug": "pruszcz-gdanski",
     "type": "city",
     "name": "Pruszcz Gdański",
-    "location": { "city": "Pruszcz Gdański", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.262, "lng": 18.635 },
+    "location": {
+      "city": "Pruszcz Gdański",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.262,
+      "lng": 18.635
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -147,7 +2672,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -156,8 +2683,15 @@
     "slug": "starogard-gdanski",
     "type": "city",
     "name": "Starogard Gdański",
-    "location": { "city": "Starogard Gdański", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 53.966, "lng": 18.53 },
+    "location": {
+      "city": "Starogard Gdański",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.966,
+      "lng": 18.53
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -166,7 +2700,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -175,8 +2711,15 @@
     "slug": "slupsk",
     "type": "city",
     "name": "Słupsk",
-    "location": { "city": "Słupsk", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.4641, "lng": 17.0287 },
+    "location": {
+      "city": "Słupsk",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.4641,
+      "lng": 17.0287
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -185,7 +2728,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -194,8 +2739,15 @@
     "slug": "ustka",
     "type": "city",
     "name": "Ustka",
-    "location": { "city": "Ustka", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.5805, "lng": 16.8615 },
+    "location": {
+      "city": "Ustka",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.5805,
+      "lng": 16.8615
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -204,7 +2756,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -213,8 +2767,15 @@
     "slug": "leba",
     "type": "city",
     "name": "Łeba",
-    "location": { "city": "Łeba", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.759, "lng": 17.554 },
+    "location": {
+      "city": "Łeba",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.759,
+      "lng": 17.554
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -223,7 +2784,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -232,8 +2795,15 @@
     "slug": "wladyslawowo",
     "type": "city",
     "name": "Władysławowo",
-    "location": { "city": "Władysławowo", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.791, "lng": 18.401 },
+    "location": {
+      "city": "Władysławowo",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.791,
+      "lng": 18.401
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -242,7 +2812,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -251,8 +2823,15 @@
     "slug": "hel",
     "type": "city",
     "name": "Hel",
-    "location": { "city": "Hel", "region": "Pomorskie", "country": "Polska" },
-    "coordinates": { "lat": 54.608, "lng": 18.801 },
+    "location": {
+      "city": "Hel",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.608,
+      "lng": 18.801
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -261,7 +2840,629 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "katowice",
+    "slug": "katowice",
+    "type": "city",
+    "name": "Katowice",
+    "location": {
+      "city": "Katowice",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.2649,
+      "lng": 19.0238
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "czestochowa",
+    "slug": "czestochowa",
+    "type": "city",
+    "name": "Częstochowa",
+    "location": {
+      "city": "Częstochowa",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.8118,
+      "lng": 19.1203
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "sosnowiec",
+    "slug": "sosnowiec",
+    "type": "city",
+    "name": "Sosnowiec",
+    "location": {
+      "city": "Sosnowiec",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.2863,
+      "lng": 19.104
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "gliwice",
+    "slug": "gliwice",
+    "type": "city",
+    "name": "Gliwice",
+    "location": {
+      "city": "Gliwice",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.2945,
+      "lng": 18.6714
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "zabrze",
+    "slug": "zabrze",
+    "type": "city",
+    "name": "Zabrze",
+    "location": {
+      "city": "Zabrze",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.3249,
+      "lng": 18.7857
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "bytom",
+    "slug": "bytom",
+    "type": "city",
+    "name": "Bytom",
+    "location": {
+      "city": "Bytom",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.348,
+      "lng": 18.932
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "bielsko-biala",
+    "slug": "bielsko-biala",
+    "type": "city",
+    "name": "Bielsko-Biała",
+    "location": {
+      "city": "Bielsko-Biała",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.8224,
+      "lng": 19.0584
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "rybnik",
+    "slug": "rybnik",
+    "type": "city",
+    "name": "Rybnik",
+    "location": {
+      "city": "Rybnik",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.097,
+      "lng": 18.541
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "tychy",
+    "slug": "tychy",
+    "type": "city",
+    "name": "Tychy",
+    "location": {
+      "city": "Tychy",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.131,
+      "lng": 18.966
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "dabrowa-gornicza",
+    "slug": "dabrowa-gornicza",
+    "type": "city",
+    "name": "Dąbrowa Górnicza",
+    "location": {
+      "city": "Dąbrowa Górnicza",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.321,
+      "lng": 19.187
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "chorzow",
+    "slug": "chorzow",
+    "type": "city",
+    "name": "Chorzów",
+    "location": {
+      "city": "Chorzów",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.297,
+      "lng": 18.954
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "ruda-slaska",
+    "slug": "ruda-slaska",
+    "type": "city",
+    "name": "Ruda Śląska",
+    "location": {
+      "city": "Ruda Śląska",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.256,
+      "lng": 18.856
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "cieszyn",
+    "slug": "cieszyn",
+    "type": "city",
+    "name": "Cieszyn",
+    "location": {
+      "city": "Cieszyn",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.75,
+      "lng": 18.633
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "wisla",
+    "slug": "wisla",
+    "type": "city",
+    "name": "Wisła",
+    "location": {
+      "city": "Wisła",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.6555,
+      "lng": 18.8586
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "ustron",
+    "slug": "ustron",
+    "type": "city",
+    "name": "Ustroń",
+    "location": {
+      "city": "Ustroń",
+      "region": "Śląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.7183,
+      "lng": 18.8117
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "kielce",
+    "slug": "kielce",
+    "type": "city",
+    "name": "Kielce",
+    "location": {
+      "city": "Kielce",
+      "region": "Świętokrzyskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.8661,
+      "lng": 20.6286
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "ostrowiec-swietokrzyski",
+    "slug": "ostrowiec-swietokrzyski",
+    "type": "city",
+    "name": "Ostrowiec Świętokrzyski",
+    "location": {
+      "city": "Ostrowiec Świętokrzyski",
+      "region": "Świętokrzyskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.929,
+      "lng": 21.385
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "starachowice",
+    "slug": "starachowice",
+    "type": "city",
+    "name": "Starachowice",
+    "location": {
+      "city": "Starachowice",
+      "region": "Świętokrzyskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.036,
+      "lng": 21.071
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "skarzysko-kamienna",
+    "slug": "skarzysko-kamienna",
+    "type": "city",
+    "name": "Skarżysko-Kamienna",
+    "location": {
+      "city": "Skarżysko-Kamienna",
+      "region": "Świętokrzyskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.114,
+      "lng": 20.871
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "sandomierz",
+    "slug": "sandomierz",
+    "type": "city",
+    "name": "Sandomierz",
+    "location": {
+      "city": "Sandomierz",
+      "region": "Świętokrzyskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.682,
+      "lng": 21.749
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "konskie",
+    "slug": "konskie",
+    "type": "city",
+    "name": "Końskie",
+    "location": {
+      "city": "Końskie",
+      "region": "Świętokrzyskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.1917,
+      "lng": 20.4083
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "busko-zdroj",
+    "slug": "busko-zdroj",
+    "type": "city",
+    "name": "Busko-Zdrój",
+    "location": {
+      "city": "Busko-Zdrój",
+      "region": "Świętokrzyskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.4707,
+      "lng": 20.7186
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -270,8 +3471,15 @@
     "slug": "olsztyn",
     "type": "city",
     "name": "Olsztyn",
-    "location": { "city": "Olsztyn", "region": "Warmińsko-Mazurskie", "country": "Polska" },
-    "coordinates": { "lat": 53.7784, "lng": 20.4801 },
+    "location": {
+      "city": "Olsztyn",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.7784,
+      "lng": 20.4801
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -280,7 +3488,10 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub", "hub"],
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -289,8 +3500,15 @@
     "slug": "elblag",
     "type": "city",
     "name": "Elbląg",
-    "location": { "city": "Elbląg", "region": "Warmińsko-Mazurskie", "country": "Polska" },
-    "coordinates": { "lat": 54.1522, "lng": 19.4088 },
+    "location": {
+      "city": "Elbląg",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.1522,
+      "lng": 19.4088
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -299,7 +3517,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -308,8 +3528,15 @@
     "slug": "gizycko",
     "type": "city",
     "name": "Giżycko",
-    "location": { "city": "Giżycko", "region": "Warmińsko-Mazurskie", "country": "Polska" },
-    "coordinates": { "lat": 54.038, "lng": 21.766 },
+    "location": {
+      "city": "Giżycko",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.038,
+      "lng": 21.766
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -318,7 +3545,10 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub", "hub"],
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -327,8 +3557,15 @@
     "slug": "elk",
     "type": "city",
     "name": "Ełk",
-    "location": { "city": "Ełk", "region": "Warmińsko-Mazurskie", "country": "Polska" },
-    "coordinates": { "lat": 53.828, "lng": 22.364 },
+    "location": {
+      "city": "Ełk",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.828,
+      "lng": 22.364
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -337,7 +3574,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -346,8 +3585,15 @@
     "slug": "mragowo",
     "type": "city",
     "name": "Mrągowo",
-    "location": { "city": "Mrągowo", "region": "Warmińsko-Mazurskie", "country": "Polska" },
-    "coordinates": { "lat": 53.864, "lng": 21.304 },
+    "location": {
+      "city": "Mrągowo",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.864,
+      "lng": 21.304
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -356,7 +3602,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -365,8 +3613,15 @@
     "slug": "mikolajki",
     "type": "city",
     "name": "Mikołajki",
-    "location": { "city": "Mikołajki", "region": "Warmińsko-Mazurskie", "country": "Polska" },
-    "coordinates": { "lat": 53.802, "lng": 21.573 },
+    "location": {
+      "city": "Mikołajki",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.802,
+      "lng": 21.573
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -375,7 +3630,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -384,8 +3641,15 @@
     "slug": "ostroda",
     "type": "city",
     "name": "Ostróda",
-    "location": { "city": "Ostróda", "region": "Warmińsko-Mazurskie", "country": "Polska" },
-    "coordinates": { "lat": 53.696, "lng": 19.965 },
+    "location": {
+      "city": "Ostróda",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.696,
+      "lng": 19.965
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -394,7 +3658,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -403,8 +3669,15 @@
     "slug": "ilawa",
     "type": "city",
     "name": "Iława",
-    "location": { "city": "Iława", "region": "Warmińsko-Mazurskie", "country": "Polska" },
-    "coordinates": { "lat": 53.596, "lng": 19.568 },
+    "location": {
+      "city": "Iława",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.596,
+      "lng": 19.568
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -413,7 +3686,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -422,8 +3697,15 @@
     "slug": "pisz",
     "type": "city",
     "name": "Pisz",
-    "location": { "city": "Pisz", "region": "Warmińsko-Mazurskie", "country": "Polska" },
-    "coordinates": { "lat": 53.627, "lng": 21.81 },
+    "location": {
+      "city": "Pisz",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.627,
+      "lng": 21.81
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -432,7 +3714,9 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -441,8 +3725,15 @@
     "slug": "ketrzyn",
     "type": "city",
     "name": "Kętrzyn",
-    "location": { "city": "Kętrzyn", "region": "Warmińsko-Mazurskie", "country": "Polska" },
-    "coordinates": { "lat": 54.076, "lng": 21.376 },
+    "location": {
+      "city": "Kętrzyn",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.076,
+      "lng": 21.376
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -451,7 +3742,37 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "szczytno",
+    "slug": "szczytno",
+    "type": "city",
+    "name": "Szczytno",
+    "location": {
+      "city": "Szczytno",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.5626,
+      "lng": 20.9857
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
@@ -460,8 +3781,15 @@
     "slug": "bartoszyce",
     "type": "city",
     "name": "Bartoszyce",
-    "location": { "city": "Bartoszyce", "region": "Warmińsko-Mazurskie", "country": "Polska" },
-    "coordinates": { "lat": 54.252, "lng": 20.809 },
+    "location": {
+      "city": "Bartoszyce",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.2525,
+      "lng": 20.8095
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -470,17 +3798,26 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   },
   {
-    "id": "wegorzewo",
-    "slug": "wegorzewo",
+    "id": "poznan",
+    "slug": "poznan",
     "type": "city",
-    "name": "Węgorzewo",
-    "location": { "city": "Węgorzewo", "region": "Warmińsko-Mazurskie", "country": "Polska" },
-    "coordinates": { "lat": 54.214, "lng": 21.742 },
+    "name": "Poznań",
+    "location": {
+      "city": "Poznań",
+      "region": "Wielkopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.4064,
+      "lng": 16.9252
+    },
     "features": [],
     "amenities": {
       "parking": null,
@@ -489,7 +3826,518 @@
       "accessibility": null,
       "paid_entry": null
     },
-    "tags": ["city-hub"],
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "kalisz",
+    "slug": "kalisz",
+    "type": "city",
+    "name": "Kalisz",
+    "location": {
+      "city": "Kalisz",
+      "region": "Wielkopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.761,
+      "lng": 18.091
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "konin",
+    "slug": "konin",
+    "type": "city",
+    "name": "Konin",
+    "location": {
+      "city": "Konin",
+      "region": "Wielkopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.223,
+      "lng": 18.251
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "pila",
+    "slug": "pila",
+    "type": "city",
+    "name": "Piła",
+    "location": {
+      "city": "Piła",
+      "region": "Wielkopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.151,
+      "lng": 16.738
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "ostrow-wielkopolski",
+    "slug": "ostrow-wielkopolski",
+    "type": "city",
+    "name": "Ostrów Wielkopolski",
+    "location": {
+      "city": "Ostrów Wielkopolski",
+      "region": "Wielkopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.649,
+      "lng": 17.816
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "gniezno",
+    "slug": "gniezno",
+    "type": "city",
+    "name": "Gniezno",
+    "location": {
+      "city": "Gniezno",
+      "region": "Wielkopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.535,
+      "lng": 17.582
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "leszno",
+    "slug": "leszno",
+    "type": "city",
+    "name": "Leszno",
+    "location": {
+      "city": "Leszno",
+      "region": "Wielkopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.841,
+      "lng": 16.574
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "srem",
+    "slug": "srem",
+    "type": "city",
+    "name": "Śrem",
+    "location": {
+      "city": "Śrem",
+      "region": "Wielkopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.0894,
+      "lng": 17.0159
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "wrzesnia",
+    "slug": "wrzesnia",
+    "type": "city",
+    "name": "Września",
+    "location": {
+      "city": "Września",
+      "region": "Wielkopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 52.3255,
+      "lng": 17.5651
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "krotoszyn",
+    "slug": "krotoszyn",
+    "type": "city",
+    "name": "Krotoszyn",
+    "location": {
+      "city": "Krotoszyn",
+      "region": "Wielkopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 51.6952,
+      "lng": 17.4361
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "szczecin",
+    "slug": "szczecin",
+    "type": "city",
+    "name": "Szczecin",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.4285,
+      "lng": 14.5528
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "koszalin",
+    "slug": "koszalin",
+    "type": "city",
+    "name": "Koszalin",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.1943,
+      "lng": 16.1714
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "stargard",
+    "slug": "stargard",
+    "type": "city",
+    "name": "Stargard",
+    "location": {
+      "city": "Stargard",
+      "region": "Zachodniopomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.336,
+      "lng": 15.05
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "kolobrzeg",
+    "slug": "kolobrzeg",
+    "type": "city",
+    "name": "Kołobrzeg",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.1758,
+      "lng": 15.583
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "swinoujscie",
+    "slug": "swinoujscie",
+    "type": "city",
+    "name": "Świnoujście",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.91,
+      "lng": 14.247
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "szczecinek",
+    "slug": "szczecinek",
+    "type": "city",
+    "name": "Szczecinek",
+    "location": {
+      "city": "Szczecinek",
+      "region": "Zachodniopomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.708,
+      "lng": 16.698
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "police",
+    "slug": "police",
+    "type": "city",
+    "name": "Police",
+    "location": {
+      "city": "Police",
+      "region": "Zachodniopomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.5522,
+      "lng": 14.5719
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "gryfino",
+    "slug": "gryfino",
+    "type": "city",
+    "name": "Gryfino",
+    "location": {
+      "city": "Gryfino",
+      "region": "Zachodniopomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.2531,
+      "lng": 14.4881
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "miedzyzdroje",
+    "slug": "miedzyzdroje",
+    "type": "city",
+    "name": "Międzyzdroje",
+    "location": {
+      "city": "Międzyzdroje",
+      "region": "Zachodniopomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.9276,
+      "lng": 14.4499
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub"
+    ],
     "access": null,
     "seo": null
   }

@@ -8,6 +8,10 @@
     "packages/*"
   ],
   "scripts": {
+    "geo:seed": "node scripts/build/seed-cities.mjs",
+    "geo:engine": "node scripts/build/geo-engine.mjs",
+    "geo:build": "node scripts/build/geo-engine.mjs --write",
+    "geo:ci": "node scripts/build/seed-cities.mjs && node scripts/build/geo-engine.mjs --write",
     "build": "npm run build --workspace @cloudflare-seo/web",
     "dev": "npm run dev --workspace @cloudflare-seo/web",
     "preview": "npm run preview --workspace @cloudflare-seo/web"

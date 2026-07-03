@@ -5,6 +5,10 @@ on:
     - cron: "0 3 * * *"  # codziennie 03:00 UTC
   workflow_dispatch: {}
 
+# Najmniejsze niezbedne uprawnienia: workflow commituje i pushuje dane do repo.
+permissions:
+  contents: write
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
