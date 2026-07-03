@@ -1,0 +1,41 @@
+name: SEO Graph Auto Updater
+
+on:
+  schedule:
+    - cron: "0 3 * * *"  # codziennie 03:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo (master)
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run crawler + updater
+        run: npm run data:sync
+
+      - name: Normalize data
+        run: npm run data:normalize
+
+      - name: Build site
+        run: npm run build
+
+      - name: Commit changes
+        run: |
+          git config user.name "seo-bot"
+          git config user.email "bot@gdziemy.pl"
+          git add .
+          git diff --cached --quiet || git commit -m "chore: daily SEO graph update"
+          git push origin master

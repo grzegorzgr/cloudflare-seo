@@ -9,3 +9,4 @@ export * from './graph.js';
 export * from './sitemap.js';
 export * from './clusters.js';
 export * from './dedupe.js';
+export * from './crawler.js';
