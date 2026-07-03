@@ -13,6 +13,7 @@ import { buildKeywords } from './keywords.js';
 import { byDistanceFrom, distanceKm } from './geo.js';
 
 const UNKNOWN = 'nieznane';
+const NO_DATA = 'Brak danych';
 
 /** Maksymalna liczba linków w sekcji "Podobne miejsca". */
 const NEARBY_LIMIT = 5;
@@ -68,7 +69,18 @@ export function buildPageTitle(
 function mapFlags(
   source: Record<string, boolean | string | null> | null | undefined,
   labels: Record<string, string> | undefined,
+  fillMissing = false,
 ): FeatureView[] {
+  if (fillMissing && labels) {
+    // Pokazuj WSZYSTKIE zdefiniowane udogodnienia; brak wartosci = "Brak danych".
+    return Object.entries(labels).map(([key, label]) => {
+      const value = source?.[key];
+      return {
+        label,
+        value: value === null || value === undefined ? NO_DATA : (value as boolean | string),
+      };
+    });
+  }
   return Object.entries(source ?? {})
     .filter(([, value]) => value !== null && value !== undefined)
     .map(([key, value]) => ({
@@ -224,7 +236,7 @@ export function buildPageModel(
     intent,
     keywords: keywords.all,
     facts: entity.features ?? [],
-    features: mapFlags(entity.amenities, config.featureLabels),
+    features: mapFlags(entity.amenities, config.featureLabels, true),
     access: mapFlags(entity.access, config.accessLabels),
     location: {
       city: location.city ?? UNKNOWN,

@@ -81,6 +81,20 @@ function osmBool(value) {
   if (value === 'no') return false;
   return null;
 }
+// Jak osmBool, ale zachowuje realne, nie-boolowskie wartosci OSM jako opis.
+function osmFlag(value) {
+  if (value === 'yes') return true;
+  if (value === 'no') return false;
+  const MAP = {
+    leashed: 'tylko na smyczy',
+    limited: 'ograniczona',
+    permissive: 'dozwolone',
+    designated: 'wyznaczone',
+    customers: 'dla klientow',
+    private: 'prywatne',
+  };
+  return MAP[value] ?? null;
+}
 function resolveCoordinates(element) {
   if (typeof element.lat === 'number' && typeof element.lon === 'number') {
     return { lat: element.lat, lng: element.lon };
@@ -96,8 +110,8 @@ function resolveAmenities(tags) {
   return {
     parking: tags.amenity === 'parking' ? true : null,
     toilets: osmBool(tags.toilets),
-    dog_friendly: osmBool(tags.dog),
-    accessibility: osmBool(tags.wheelchair),
+    dog_friendly: osmFlag(tags.dog),
+    accessibility: osmFlag(tags.wheelchair),
     paid_entry: osmBool(tags.fee),
     lifeguards: osmBool(tags.supervised),
     covered: osmBool(tags.covered),

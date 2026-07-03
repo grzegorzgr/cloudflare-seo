@@ -104,6 +104,21 @@ function osmBool(v) {
   if (v === 'no') return false;
   return null;
 }
+// Jak osmBool, ale zachowuje realne, nie-boolowskie wartosci OSM jako opis
+// (zero halucynacji: mapujemy tylko znane, faktyczne wartosci tagu).
+function osmFlag(v) {
+  if (v === 'yes') return true;
+  if (v === 'no') return false;
+  const MAP = {
+    leashed: 'tylko na smyczy',
+    limited: 'ograniczona',
+    permissive: 'dozwolone',
+    designated: 'wyznaczone',
+    customers: 'dla klientow',
+    private: 'prywatne',
+  };
+  return MAP[v] ?? null;
+}
 function resolveCoordinates(el) {
   if (typeof el.lat === 'number' && typeof el.lon === 'number') {
     return { lat: el.lat, lng: el.lon };
@@ -117,8 +132,8 @@ function resolveAmenities(tags) {
   return {
     parking: tags.amenity === 'parking' ? true : null,
     toilets: osmBool(tags.toilets),
-    dog_friendly: osmBool(tags.dog),
-    accessibility: osmBool(tags.wheelchair),
+    dog_friendly: osmFlag(tags.dog),
+    accessibility: osmFlag(tags.wheelchair),
     paid_entry: osmBool(tags.fee),
     lifeguards: osmBool(tags.supervised),
     covered: osmBool(tags.covered),
