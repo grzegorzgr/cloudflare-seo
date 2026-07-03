@@ -367,7 +367,7 @@ function parseArgs(argv) {
     radius: 10,
     linkRadius: 25,
     nearby: 5,
-    delay: 3000,
+    delay: 30000,
     only: new Set(['beach', 'parking', 'trail']),
   };
   for (const a of argv) {
