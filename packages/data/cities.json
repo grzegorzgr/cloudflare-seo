@@ -1,0 +1,496 @@
+[
+  {
+    "id": "gdansk",
+    "slug": "gdansk",
+    "type": "city",
+    "name": "Gdańsk",
+    "location": { "city": "Gdańsk", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.352, "lng": 18.6466 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub", "hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "gdynia",
+    "slug": "gdynia",
+    "type": "city",
+    "name": "Gdynia",
+    "location": { "city": "Gdynia", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.5189, "lng": 18.5305 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub", "hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "sopot",
+    "slug": "sopot",
+    "type": "city",
+    "name": "Sopot",
+    "location": { "city": "Sopot", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.4418, "lng": 18.5601 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub", "hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "tczew",
+    "slug": "tczew",
+    "type": "city",
+    "name": "Tczew",
+    "location": { "city": "Tczew", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.092, "lng": 18.777 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "wejherowo",
+    "slug": "wejherowo",
+    "type": "city",
+    "name": "Wejherowo",
+    "location": { "city": "Wejherowo", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.605, "lng": 18.236 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "rumia",
+    "slug": "rumia",
+    "type": "city",
+    "name": "Rumia",
+    "location": { "city": "Rumia", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.5713, "lng": 18.388 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "reda",
+    "slug": "reda",
+    "type": "city",
+    "name": "Reda",
+    "location": { "city": "Reda", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.603, "lng": 18.348 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "pruszcz-gdanski",
+    "slug": "pruszcz-gdanski",
+    "type": "city",
+    "name": "Pruszcz Gdański",
+    "location": { "city": "Pruszcz Gdański", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.262, "lng": 18.635 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "starogard-gdanski",
+    "slug": "starogard-gdanski",
+    "type": "city",
+    "name": "Starogard Gdański",
+    "location": { "city": "Starogard Gdański", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 53.966, "lng": 18.53 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "slupsk",
+    "slug": "slupsk",
+    "type": "city",
+    "name": "Słupsk",
+    "location": { "city": "Słupsk", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.4641, "lng": 17.0287 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "ustka",
+    "slug": "ustka",
+    "type": "city",
+    "name": "Ustka",
+    "location": { "city": "Ustka", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.5805, "lng": 16.8615 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "leba",
+    "slug": "leba",
+    "type": "city",
+    "name": "Łeba",
+    "location": { "city": "Łeba", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.759, "lng": 17.554 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "wladyslawowo",
+    "slug": "wladyslawowo",
+    "type": "city",
+    "name": "Władysławowo",
+    "location": { "city": "Władysławowo", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.791, "lng": 18.401 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "hel",
+    "slug": "hel",
+    "type": "city",
+    "name": "Hel",
+    "location": { "city": "Hel", "region": "Pomorskie", "country": "Polska" },
+    "coordinates": { "lat": 54.608, "lng": 18.801 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "olsztyn",
+    "slug": "olsztyn",
+    "type": "city",
+    "name": "Olsztyn",
+    "location": { "city": "Olsztyn", "region": "Warmińsko-Mazurskie", "country": "Polska" },
+    "coordinates": { "lat": 53.7784, "lng": 20.4801 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub", "hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "elblag",
+    "slug": "elblag",
+    "type": "city",
+    "name": "Elbląg",
+    "location": { "city": "Elbląg", "region": "Warmińsko-Mazurskie", "country": "Polska" },
+    "coordinates": { "lat": 54.1522, "lng": 19.4088 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "gizycko",
+    "slug": "gizycko",
+    "type": "city",
+    "name": "Giżycko",
+    "location": { "city": "Giżycko", "region": "Warmińsko-Mazurskie", "country": "Polska" },
+    "coordinates": { "lat": 54.038, "lng": 21.766 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub", "hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "elk",
+    "slug": "elk",
+    "type": "city",
+    "name": "Ełk",
+    "location": { "city": "Ełk", "region": "Warmińsko-Mazurskie", "country": "Polska" },
+    "coordinates": { "lat": 53.828, "lng": 22.364 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "mragowo",
+    "slug": "mragowo",
+    "type": "city",
+    "name": "Mrągowo",
+    "location": { "city": "Mrągowo", "region": "Warmińsko-Mazurskie", "country": "Polska" },
+    "coordinates": { "lat": 53.864, "lng": 21.304 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "mikolajki",
+    "slug": "mikolajki",
+    "type": "city",
+    "name": "Mikołajki",
+    "location": { "city": "Mikołajki", "region": "Warmińsko-Mazurskie", "country": "Polska" },
+    "coordinates": { "lat": 53.802, "lng": 21.573 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "ostroda",
+    "slug": "ostroda",
+    "type": "city",
+    "name": "Ostróda",
+    "location": { "city": "Ostróda", "region": "Warmińsko-Mazurskie", "country": "Polska" },
+    "coordinates": { "lat": 53.696, "lng": 19.965 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "ilawa",
+    "slug": "ilawa",
+    "type": "city",
+    "name": "Iława",
+    "location": { "city": "Iława", "region": "Warmińsko-Mazurskie", "country": "Polska" },
+    "coordinates": { "lat": 53.596, "lng": 19.568 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "pisz",
+    "slug": "pisz",
+    "type": "city",
+    "name": "Pisz",
+    "location": { "city": "Pisz", "region": "Warmińsko-Mazurskie", "country": "Polska" },
+    "coordinates": { "lat": 53.627, "lng": 21.81 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "ketrzyn",
+    "slug": "ketrzyn",
+    "type": "city",
+    "name": "Kętrzyn",
+    "location": { "city": "Kętrzyn", "region": "Warmińsko-Mazurskie", "country": "Polska" },
+    "coordinates": { "lat": 54.076, "lng": 21.376 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "bartoszyce",
+    "slug": "bartoszyce",
+    "type": "city",
+    "name": "Bartoszyce",
+    "location": { "city": "Bartoszyce", "region": "Warmińsko-Mazurskie", "country": "Polska" },
+    "coordinates": { "lat": 54.252, "lng": 20.809 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "wegorzewo",
+    "slug": "wegorzewo",
+    "type": "city",
+    "name": "Węgorzewo",
+    "location": { "city": "Węgorzewo", "region": "Warmińsko-Mazurskie", "country": "Polska" },
+    "coordinates": { "lat": 54.214, "lng": 21.742 },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": ["city-hub"],
+    "access": null,
+    "seo": null
+  }
+]

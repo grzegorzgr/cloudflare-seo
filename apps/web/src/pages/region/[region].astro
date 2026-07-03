@@ -1,8 +1,10 @@
 ---
 // Strona cluster regionu (SSG): agreguje wszystkie typy encji dla regionu -> /region/{slug}.
+// Warstwa seed dodaje sekcje miast-hubow oraz gwarantuje strone regionu bez POI.
 import beaches from '@data/beaches.json';
 import parkings from '@data/parkings.json';
 import trails from '@data/trails.json';
+import cities from '@data/cities.json';
 import {
   beachConfig,
   parkingConfig,
@@ -14,13 +16,15 @@ import {
 import { seoConfig } from '@config/seo.config.ts';
 import ListingPage from '../../components/ListingPage.astro';
 
+const citySeeds = cities as Entity[];
+
 export function getStaticPaths() {
   const datasets = [
     { entities: beaches as Entity[], config: beachConfig },
     { entities: parkings as Entity[], config: parkingConfig },
     { entities: trails as Entity[], config: trailConfig },
   ];
-  return listRegions(datasets).map((ref) => ({
+  return listRegions(datasets, cities as Entity[]).map((ref) => ({
     params: { region: ref.slug },
     props: { region: ref.region },
   }));
@@ -33,7 +37,7 @@ const datasets = [
 ];
 
 const { region } = Astro.props as { region: string };
-const model = buildRegionModel(region, datasets, seoConfig.siteUrl);
+const model = buildRegionModel(region, datasets, seoConfig.siteUrl, citySeeds);
 ---
 
 <ListingPage

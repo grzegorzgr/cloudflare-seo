@@ -1,18 +1,24 @@
 ---
 // Strona cluster miasta (SSG): agreguje wszystkie typy encji dla miasta -> /city/{slug}.
+// Kazde miasto z warstwy seed (anchor node) ma strone nawet bez POI.
 import beaches from '@data/beaches.json';
 import parkings from '@data/parkings.json';
 import trails from '@data/trails.json';
+import cities from '@data/cities.json';
 import {
   beachConfig,
   parkingConfig,
   trailConfig,
   buildCityModel,
   listCities,
+  listCitySeeds,
+  mergeCityRefs,
   type Entity,
 } from '@generator';
 import { seoConfig } from '@config/seo.config.ts';
 import ListingPage from '../../components/ListingPage.astro';
+
+const citySeeds = cities as Entity[];
 
 export function getStaticPaths() {
   const datasets = [
@@ -20,7 +26,11 @@ export function getStaticPaths() {
     { entities: parkings as Entity[], config: parkingConfig },
     { entities: trails as Entity[], config: trailConfig },
   ];
-  return listCities(datasets).map((ref) => ({
+  const refs = mergeCityRefs(
+    listCities(datasets),
+    listCitySeeds(cities as Entity[]),
+  );
+  return refs.map((ref) => ({
     params: { city: ref.slug },
     props: { city: ref.city },
   }));
@@ -33,7 +43,7 @@ const datasets = [
 ];
 
 const { city } = Astro.props as { city: string };
-const model = buildCityModel(city, datasets, seoConfig.siteUrl);
+const model = buildCityModel(city, datasets, seoConfig.siteUrl, citySeeds);
 ---
 
 <ListingPage

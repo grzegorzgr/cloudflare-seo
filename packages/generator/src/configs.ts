@@ -61,7 +61,22 @@ export const trailConfig: TypeConfig = {
   },
 };
 
+// Warstwa CITY SEED: konfiguracja wezlow-kotwic (anchor nodes).
+// Miasto nie ma wlasnej strony encji [slug] - jest hubem klastra /city/{slug}.
+// Sluzy jako punkt zaczepienia grafu (belongs_to_city / belongs_to_region).
+export const cityConfig: TypeConfig = {
+  basePath: 'city',
+  schemaType: 'City',
+  entityNoun: 'miasta',
+  keywordNoun: 'miasto',
+  collectionLabel: 'Miasta',
+  featureLabels: {},
+  accessLabels: {},
+};
+
 // Rejestr wg klucza typu, u\u017cyteczny do generowania wsadowego.
+// UWAGA: city celowo NIE jest tutaj - nie generuje stron encji [slug],
+// tylko strony klastra /city/{slug} (patrz clusters.ts).
 export const typeConfigs = {
   beach: beachConfig,
   parking: parkingConfig,

@@ -1,0 +1,22 @@
+---
+// INDEX: /parking -> pelna lista parkingow pogrupowana wg regionu.
+import parkings from '@data/parkings.json';
+import {
+  parkingConfig,
+  buildCategoryIndexModel,
+  indexCategories,
+  type Entity,
+} from '@generator';
+import { seoConfig } from '@config/seo.config.ts';
+import IndexPage from '../components/IndexPage.astro';
+
+const model = buildCategoryIndexModel(
+  parkings as Entity[],
+  parkingConfig,
+  '/parking',
+  indexCategories,
+  seoConfig.siteUrl,
+);
+---
+
+<IndexPage {...model} />

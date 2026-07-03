@@ -1,0 +1,32 @@
+---
+// INDEX: /cities -> wszystkie miasta pogrupowane wg regionu, linki do /city/{slug}.
+import beaches from '@data/beaches.json';
+import parkings from '@data/parkings.json';
+import trails from '@data/trails.json';
+import cities from '@data/cities.json';
+import {
+  beachConfig,
+  parkingConfig,
+  trailConfig,
+  buildCitiesIndexModel,
+  indexCategories,
+  type Entity,
+} from '@generator';
+import { seoConfig } from '@config/seo.config.ts';
+import IndexPage from '../components/IndexPage.astro';
+
+const datasets = [
+  { entities: beaches as Entity[], config: beachConfig },
+  { entities: parkings as Entity[], config: parkingConfig },
+  { entities: trails as Entity[], config: trailConfig },
+];
+
+const model = buildCitiesIndexModel(
+  datasets,
+  cities as Entity[],
+  indexCategories,
+  seoConfig.siteUrl,
+);
+---
+
+<IndexPage {...model} />

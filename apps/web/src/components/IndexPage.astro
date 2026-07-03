@@ -1,0 +1,98 @@
+---
+// Widok warstwy INDEX (HOME + index pages). Renderuje wylacznie gotowy model
+// z generatora (navigation.ts). Zero logiki danych w widoku.
+import type { IndexNavLink, IndexSection } from '@generator';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  h1: string;
+  intro: string;
+  nav: IndexNavLink[];
+  sections: IndexSection[];
+  jsonLd?: Record<string, unknown>;
+}
+
+const { title, description, canonical, h1, intro, nav, sections, jsonLd } =
+  Astro.props;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  jsonLd={jsonLd}
+>
+  <nav class="graph-nav" aria-label="Nawigacja katalogu">
+    <ul>
+      {
+        nav.map((link) => (
+          <li>
+            {link.current ? (
+              <span aria-current="page">{link.label}</span>
+            ) : (
+              <a href={link.href}>{link.label}</a>
+            )}
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <header>
+        <h1>{h1}</h1>
+      </header>
+
+      <p>{intro}</p>
+
+      {
+        sections.map((section) => (
+          <section>
+            <h2>
+              {section.headingHref ? (
+                <a href={section.headingHref}>{section.heading}</a>
+              ) : (
+                section.heading
+              )}
+            </h2>
+            <ul>
+              {section.items.map((item) => (
+                <li>
+                  <a href={item.href}>{item.name}</a>
+                  {item.sub && <span class="muted"> — {item.sub}</span>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+      }
+    </article>
+  </main>
+</BaseLayout>
+
+<style>
+  .graph-nav {
+    max-width: var(--max-width);
+    margin: 0 auto 1rem;
+  }
+  .graph-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding: 0 0 0.75rem;
+    margin: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .graph-nav li {
+    margin: 0;
+  }
+  .graph-nav [aria-current='page'] {
+    font-weight: 600;
+    color: var(--fg);
+  }
+</style>

@@ -136,8 +136,13 @@ export function buildClusterModel(
 /**
  * Rejestr unikalnych regionow ze wszystkich datasetow.
  * Kolejnosc = pierwsze wystapienie (deterministyczna).
+ * Opcjonalny citySeeds gwarantuje, ze region z warstwy seed pojawi sie
+ * nawet gdy nie ma jeszcze zadnego POI (np. region bez zaimportowanych danych).
  */
-export function listRegions(datasets: SitemapLikeDataset[]): RegionRef[] {
+export function listRegions(
+  datasets: SitemapLikeDataset[],
+  citySeeds: Entity[] = [],
+): RegionRef[] {
   const order: string[] = [];
   const counts = new Map<string, number>();
 
@@ -152,6 +157,17 @@ export function listRegions(datasets: SitemapLikeDataset[]): RegionRef[] {
         order.push(region);
       }
       counts.set(region, counts.get(region)! + 1);
+    }
+  }
+
+  for (const seed of citySeeds) {
+    const region = seed.location?.region;
+    if (!region) {
+      continue;
+    }
+    if (!counts.has(region)) {
+      counts.set(region, 0);
+      order.push(region);
     }
   }
 
@@ -171,14 +187,29 @@ export interface SitemapLikeDataset {
 /**
  * Model strony regionu: agreguje wszystkie typy encji dla danego regionu.
  * Grupuje sekcje wedlug typu (collectionLabel). Bez fikcyjnych wartosci.
+ * Opcjonalny citySeeds dodaje sekcje "Miasta" (huby) nalezace do regionu.
  */
 export function buildRegionModel(
   region: string,
   datasets: SitemapLikeDataset[],
   baseUrl = '',
+  citySeeds: Entity[] = [],
 ): RegionModel {
   const sections: ClusterSection[] = [];
   const allLinks: ClusterLink[] = [];
+
+  const cityItems: ClusterLink[] = citySeeds
+    .filter((seed) => seed.location?.region === region)
+    .map((seed) => ({
+      href: `/city/${seed.slug ?? slugify(seed.location?.city ?? seed.name)}`,
+      name: seed.location?.city ?? seed.name,
+      city: seed.location?.city ?? seed.name,
+      region,
+    }));
+  if (cityItems.length > 0) {
+    sections.push({ heading: 'Miasta', items: cityItems });
+    allLinks.push(...cityItems);
+  }
 
   for (const { entities, config } of datasets) {
     const items = entities
@@ -193,9 +224,9 @@ export function buildRegionModel(
   return {
     region,
     slug: slugify(region),
-    title: `${region} — miejsca i obiekty`,
+    title: `${region} — miasta i obiekty`,
     description: `Katalog miejsc w regionie ${region}: ${allLinks.length} obiektow pogrupowanych wedlug typu.`,
-    intro: `Jesli szukasz miejsc w regionie ${region}, ta strona zbiera wszystkie dostepne obiekty pogrupowane wedlug typu.`,
+    intro: `Jesli szukasz miejsc w regionie ${region}, ta strona zbiera wszystkie dostepne miasta-huby oraz obiekty pogrupowane wedlug typu.`,
     canonical: `/region/${slugify(region)}`,
     count: allLinks.length,
     sections,
@@ -252,15 +283,26 @@ export function listCities(datasets: SitemapLikeDataset[]): CityRef[] {
 /**
  * Model strony miasta: agreguje wszystkie typy encji dla danego miasta.
  * Grupuje sekcje wedlug typu (collectionLabel). Bez fikcyjnych wartosci.
+ * Opcjonalny citySeeds dostarcza region-fallback dla miast-hubow bez POI,
+ * dzieki czemu kazdy hub ma strone /city/{slug} nawet przy 0 obiektach.
  */
 export function buildCityModel(
   city: string,
   datasets: SitemapLikeDataset[],
   baseUrl = '',
+  citySeeds: Entity[] = [],
 ): CityModel {
   const sections: ClusterSection[] = [];
   const allLinks: ClusterLink[] = [];
   let region: string | null = null;
+
+  const citySlug = slugify(city);
+  const seed = citySeeds.find(
+    (s) => slugify(s.location?.city ?? s.name) === citySlug,
+  );
+  if (seed) {
+    region = seed.location?.region ?? null;
+  }
 
   for (const { entities, config } of datasets) {
     const matched = entities.filter((entity) => entity.location?.city === city);
@@ -275,14 +317,19 @@ export function buildCityModel(
     allLinks.push(...items);
   }
 
+  const intro =
+    allLinks.length > 0
+      ? `Jesli szukasz miejsc w ${city}, ta strona zbiera wszystkie dostepne obiekty pogrupowane wedlug typu.`
+      : `${city} to wezel-hub katalogu. Trwa import obiektow (OSM) dla tej miejscowosci.`;
+
   return {
     city,
     region,
-    slug: slugify(city),
+    slug: citySlug,
     title: `${city} — miejsca i obiekty`,
     description: `Katalog miejsc w miejscowosci ${city}: ${allLinks.length} obiektow pogrupowanych wedlug typu.`,
-    intro: `Jesli szukasz miejsc w ${city}, ta strona zbiera wszystkie dostepne obiekty pogrupowane wedlug typu.`,
-    canonical: `/city/${slugify(city)}`,
+    intro,
+    canonical: `/city/${citySlug}`,
     count: allLinks.length,
     sections,
     jsonLd: buildItemList(`${city} — miejsca`, allLinks, baseUrl),

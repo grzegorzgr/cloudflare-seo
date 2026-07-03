@@ -11,21 +11,29 @@ export interface SitemapDataset {
 
 /**
  * Buduje deterministyczna, uporzadkowana liste sciezek (bez domeny):
- *  - "/"                      strona glowna
- *  - "/{type}/"               strony cluster (lista wg typu)
+ *  - "/"                      strona glowna (GEO graph index node)
+ *  - indexPaths               strony wejsciowe index (np. /cities, /beaches)
  *  - "/{type}/{slug}"         strony encji (1 encja = 1 URL)
  *  - "/city/{slug}"           strony cluster wg miasta
  *  - "/region/{slug}"         strony cluster wg regionu
  * Kolejnosc wynika z porzadku datasetow i danych (odtwarzalna).
  * Wynik jest odduplikowany (zasada: brak duplikatow w sitemap).
  */
-export function buildSitemapPaths(datasets: SitemapDataset[]): string[] {
+export function buildSitemapPaths(
+  datasets: SitemapDataset[],
+  citySeeds: Entity[] = [],
+  indexPaths: string[] = [],
+): string[] {
   const paths: string[] = ['/'];
   const regions: string[] = [];
   const cities: string[] = [];
 
+  // Warstwa index (entry points): /cities, /regions, /beaches, /parking, /trails.
+  for (const indexPath of indexPaths) {
+    paths.push(indexPath);
+  }
+
   for (const { entities, config } of datasets) {
-    paths.push(`/${config.basePath}/`);
     for (const entity of entities) {
       paths.push(`/${config.basePath}/${entity.slug}`);
       const region = entity.location?.region;
@@ -36,6 +44,18 @@ export function buildSitemapPaths(datasets: SitemapDataset[]): string[] {
       if (city && !cities.includes(city)) {
         cities.push(city);
       }
+    }
+  }
+
+  // Warstwa seed: kazde miasto-hub ma strone /city/{slug}, kazdy region /region/{slug}.
+  for (const seed of citySeeds) {
+    const city = seed.location?.city ?? seed.name;
+    if (city && !cities.includes(city)) {
+      cities.push(city);
+    }
+    const region = seed.location?.region;
+    if (region && !regions.includes(region)) {
+      regions.push(region);
     }
   }
 
@@ -58,9 +78,11 @@ export function buildSitemapPaths(datasets: SitemapDataset[]): string[] {
 export function buildSitemapXml(
   datasets: SitemapDataset[],
   baseUrl: string,
+  citySeeds: Entity[] = [],
+  indexPaths: string[] = [],
 ): string {
   const base = baseUrl.replace(/\/+$/, '');
-  const body = buildSitemapPaths(datasets)
+  const body = buildSitemapPaths(datasets, citySeeds, indexPaths)
     .map((path) => `  <url>\n    <loc>${base}${path}</loc>\n  </url>`)
     .join('\n');
 

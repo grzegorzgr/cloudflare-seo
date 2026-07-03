@@ -1,0 +1,37 @@
+{
+  "elements": [
+    {
+      "type": "node",
+      "id": 111,
+      "lat": 54.4245,
+      "lon": 18.5935,
+      "tags": { "natural": "beach", "name": "Plaża Jelitkowo Test", "wheelchair": "yes" }
+    },
+    {
+      "type": "way",
+      "id": 222,
+      "center": { "lat": 54.519, "lon": 18.531 },
+      "tags": { "amenity": "parking", "name": "Parking Centrum Gdynia", "fee": "yes", "capacity": "120" }
+    },
+    {
+      "type": "way",
+      "id": 333,
+      "center": { "lat": 53.779, "lon": 20.48 },
+      "tags": { "highway": "footway", "name": "Promenada Olsztyn", "surface": "paved" }
+    },
+    {
+      "type": "node",
+      "id": 444,
+      "lat": 10.0,
+      "lon": 10.0,
+      "tags": { "natural": "beach", "name": "Plaza Poza Zasiegiem" }
+    },
+    {
+      "type": "node",
+      "id": 555,
+      "lat": 54.441,
+      "lon": 18.56,
+      "tags": { "tourism": "attraction", "name": "Molo Sopot", "addr:city": "Sopot" }
+    }
+  ]
+}
