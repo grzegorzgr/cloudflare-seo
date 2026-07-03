@@ -12,7 +12,7 @@ export interface SeoConfig {
 }
 
 export const seoConfig: SeoConfig = {
-  siteUrl: 'https://cloudflare-seo.pages.dev',
+  siteUrl: 'https://gdziemy.pl',
   siteName: 'Katalog miejsc',
   defaultLocale: 'pl-PL',
 };
