@@ -1,6 +1,7 @@
 ---
 // Strona cluster miasta (SSG): agreguje wszystkie typy encji dla miasta -> /city/{slug}.
 // Kazde miasto z warstwy seed (anchor node) ma strone nawet bez POI.
+// Modul 2 (City Hub Engine): sekcja "Najblizsze miasta" + kolekcje powiazane.
 import beaches from '@data/beaches.json';
 import parkings from '@data/parkings.json';
 import trails from '@data/trails.json';
@@ -10,13 +11,17 @@ import {
   parkingConfig,
   trailConfig,
   buildCityModel,
+  buildAllCollections,
   listCities,
   listCitySeeds,
   mergeCityRefs,
   type Entity,
+  type CityModel,
+  type NearbyCityLink,
+  type CollectionRef,
 } from '@generator';
 import { seoConfig } from '@config/seo.config.ts';
-import ListingPage from '../../components/ListingPage.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const citySeeds = cities as Entity[];
 
@@ -43,16 +48,80 @@ const datasets = [
 ];
 
 const { city } = Astro.props as { city: string };
-const model = buildCityModel(city, datasets, seoConfig.siteUrl, citySeeds);
+
+// Kolekcje: filtruj do tych, ktore zawieraja encje z tego miasta.
+const allCollections = buildAllCollections(datasets, seoConfig.siteUrl);
+const cityCollections: CollectionRef[] = allCollections
+  .filter((col) => col.relatedCities.some((c) => c.name === city))
+  .map((col) => ({ href: col.canonical, label: col.h1, count: col.count }));
+
+const model = buildCityModel(city, datasets, seoConfig.siteUrl, citySeeds, cityCollections);
 ---
 
-<ListingPage
+<BaseLayout
   title={model.title}
   description={model.description}
   canonical={model.canonical}
-  intro={model.intro}
-  heading={model.city}
-  count={model.count}
-  sections={model.sections}
   jsonLd={model.jsonLd}
-/>
+>
+  <main>
+    <article>
+      <header>
+        <h1>{model.city}</h1>
+        {model.region && <p class="muted">{model.region}</p>}
+        <p class="muted">{model.count} obiektów</p>
+      </header>
+
+      <p>{model.intro}</p>
+
+      {model.sections.map((section) => (
+        <section>
+          <h2>{section.heading}</h2>
+          <ul>
+            {section.items.map((item) => (
+              <li>
+                <a href={item.href}>{item.name}</a>
+                <span class="muted"> — {item.city}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+
+      {model.nearbyCities.length > 0 && (
+        <section aria-labelledby="najblizsze-miasta">
+          <h2 id="najblizsze-miasta">Najbliższe miasta</h2>
+          <ul>
+            {model.nearbyCities.map((c: NearbyCityLink) => (
+              <li>
+                <a href={c.href}>{c.name}</a>
+                {c.distanceKm !== null && c.distanceKm !== undefined && (
+                  <span class="muted">
+                    {' '}— {c.distanceKm < 1
+                      ? `${Math.round(c.distanceKm * 1000)} m`
+                      : `${c.distanceKm.toFixed(0)} km`}
+                  </span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {model.collectionRefs.length > 0 && (
+        <section aria-labelledby="kolekcje">
+          <h2 id="kolekcje">Kolekcje</h2>
+          <ul>
+            {model.collectionRefs.map((col: CollectionRef) => (
+              <li>
+                <a href={col.href}>{col.label}</a>
+                <span class="muted"> — {col.count} obiektów</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </article>
+  </main>
+</BaseLayout>
+

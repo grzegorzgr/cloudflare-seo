@@ -108,6 +108,48 @@ function renderFlag(value: FeatureView['value']): string {
           </section>
         )
       }
+
+      {
+        model.nearbyPlaces.length > 0 && (
+          <section aria-labelledby="w-poblizu">
+            <h2 id="w-poblizu">W pobliżu</h2>
+            <ul>
+              {model.nearbyPlaces.map((place) => (
+                <li>
+                  <a href={place.href}>{place.label}</a>
+                  {place.distanceKm !== null && place.distanceKm !== undefined && (
+                    <span class="muted">
+                      {' '}—{' '}
+                      {place.distanceKm < 1
+                        ? `${Math.round(place.distanceKm * 1000)} m`
+                        : `${place.distanceKm.toFixed(1)} km`}
+                    </span>
+                  )}
+                  {place.type && (
+                    <span class="muted type-badge"> ({place.type})</span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      {
+        model.collections.length > 0 && (
+          <section aria-labelledby="kolekcje">
+            <h2 id="kolekcje">Kolekcje</h2>
+            <ul>
+              {model.collections.map((col) => (
+                <li>
+                  <a href={col.href}>{col.label}</a>
+                  <span class="muted"> — {col.count} obiektów</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
     </article>
   </main>
 </BaseLayout>

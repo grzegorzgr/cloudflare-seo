@@ -1,20 +1,41 @@
 ---
 // Strona parkingu (SSG). Jedna encja z parkings.json = jedna strona /parking/[slug].
+import beaches from '@data/beaches.json';
 import parkings from '@data/parkings.json';
+import trails from '@data/trails.json';
 import {
+  beachConfig,
   parkingConfig,
+  trailConfig,
   buildPageModel,
-  toStaticPaths,
+  buildAllCollections,
+  findEntityCollections,
   type Entity,
+  type CollectionRef,
 } from '@generator';
 import EntityPage from '../../components/PlacePage.astro';
 
+const _allDatasets = [
+  { entities: beaches as Entity[], config: beachConfig },
+  { entities: parkings as Entity[], config: parkingConfig },
+  { entities: trails as Entity[], config: trailConfig },
+];
+
 export function getStaticPaths() {
-  return toStaticPaths(parkings as Entity[]);
+  const allDatasets = [
+    { entities: beaches as Entity[], config: beachConfig },
+    { entities: parkings as Entity[], config: parkingConfig },
+    { entities: trails as Entity[], config: trailConfig },
+  ];
+  const collections = buildAllCollections(allDatasets);
+  return (parkings as Entity[]).map((entity) => ({
+    params: { slug: entity.slug },
+    props: { entity, entityCollections: findEntityCollections(entity, parkingConfig, collections) },
+  }));
 }
 
-const { entity } = Astro.props as { entity: Entity };
-const model = buildPageModel(entity, parkingConfig, parkings as Entity[]);
+const { entity, entityCollections } = Astro.props as { entity: Entity; entityCollections: CollectionRef[] };
+const model = buildPageModel(entity, parkingConfig, parkings as Entity[], _allDatasets, entityCollections);
 ---
 
 <EntityPage model={model} />

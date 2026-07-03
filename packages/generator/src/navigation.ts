@@ -30,6 +30,7 @@ const UNKNOWN = 'nieznane';
 export const HOME_PATH = '/';
 export const CITIES_PATH = '/cities';
 export const REGIONS_PATH = '/regions';
+export const COLLECTIONS_PATH = '/collections';
 
 /** Kategoria = para (trasa index w l. mnogiej, konfiguracja typu). */
 export interface CategoryIndex {
@@ -135,6 +136,7 @@ export function buildIndexNav(
     { href: HOME_PATH, label: 'Start', current: current === HOME_PATH },
     { href: CITIES_PATH, label: 'Miasta', current: current === CITIES_PATH },
     { href: REGIONS_PATH, label: 'Regiony', current: current === REGIONS_PATH },
+    { href: COLLECTIONS_PATH, label: 'Kolekcje', current: current === COLLECTIONS_PATH },
   ];
   for (const category of categories) {
     links.push({
@@ -358,6 +360,64 @@ export function buildCategoryIndexModel(
         baseUrl,
       ),
       itemListNode(label, flatten(sections), baseUrl),
+    ]),
+  };
+}
+
+// --- /collections (index wszystkich kolekcji automatycznych) ---
+/**
+ * Model strony indeksu kolekcji automatycznych (/collections).
+ * Grupuje kolekcje wg typu (beach/parking/trail).
+ */
+export function buildCollectionsIndexModel(
+  collections: { slug: string; h1: string; count: number; items: { region: string }[] }[],
+  categories: CategoryIndex[],
+  baseUrl = '',
+): IndexModel {
+  // Grupuj po prefiksie slug (beach-..., parking-..., trail-...).
+  const typeOrder: string[] = [];
+  const grouped = new Map<string, { href: string; name: string; sub: string }[]>();
+
+  for (const col of collections) {
+    // Wykryj typ na podstawie prefiksu slug.
+    let typeKey = 'inne';
+    if (col.slug.startsWith('beach')) typeKey = 'Plaże';
+    else if (col.slug.startsWith('parking')) typeKey = 'Parkingi';
+    else if (col.slug.startsWith('trail')) typeKey = 'Szlaki';
+
+    if (!grouped.has(typeKey)) {
+      grouped.set(typeKey, []);
+      typeOrder.push(typeKey);
+    }
+    grouped.get(typeKey)!.push({
+      href: `/collection/${col.slug}`,
+      name: col.h1,
+      sub: `${col.count} obiektów`,
+    });
+  }
+
+  const sections: IndexSection[] = typeOrder.map((type) => ({
+    heading: type,
+    items: grouped.get(type)!,
+  }));
+
+  return {
+    h1: 'Kolekcje',
+    title: 'Kolekcje — automatyczne zestawienia obiektów',
+    description: `Automatyczne kolekcje tematyczne (${collections.length}): zestawienia wg udogodnień, regionu i miasta.`,
+    canonical: COLLECTIONS_PATH,
+    intro: `Kolekcje są automatycznie generowane z danych. Każda kolekcja zawiera obiekty spełniające określone kryteria (udogodnienia, region, miasto).`,
+    nav: buildIndexNav(categories, COLLECTIONS_PATH),
+    sections,
+    jsonLd: graph([
+      breadcrumbNode(
+        [
+          { name: 'Start', url: HOME_PATH },
+          { name: 'Kolekcje', url: COLLECTIONS_PATH },
+        ],
+        baseUrl,
+      ),
+      itemListNode('Kolekcje', flatten(sections), baseUrl),
     ]),
   };
 }

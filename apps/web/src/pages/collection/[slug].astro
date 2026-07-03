@@ -1,0 +1,130 @@
+---
+// Modul 3 – Automatic Collection Engine: strona kolekcji /collection/{slug}.
+// Wszystkie kolekcje generowane automatycznie z danych (zero hardkodowanych list).
+import beaches from '@data/beaches.json';
+import parkings from '@data/parkings.json';
+import trails from '@data/trails.json';
+import {
+  beachConfig,
+  parkingConfig,
+  trailConfig,
+  buildAllCollections,
+  type Entity,
+} from '@generator';
+import type { CollectionModel } from '@generator';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { seoConfig } from '@config/seo.config.ts';
+
+const allDatasets = [
+  { entities: beaches as Entity[], config: beachConfig },
+  { entities: parkings as Entity[], config: parkingConfig },
+  { entities: trails as Entity[], config: trailConfig },
+];
+
+export function getStaticPaths() {
+  const datasets = [
+    { entities: beaches as Entity[], config: beachConfig },
+    { entities: parkings as Entity[], config: parkingConfig },
+    { entities: trails as Entity[], config: trailConfig },
+  ];
+  const collections = buildAllCollections(datasets, seoConfig.siteUrl);
+  return collections.map((col) => ({
+    params: { slug: col.slug },
+    props: { model: col },
+  }));
+}
+
+const { model } = Astro.props as { model: CollectionModel };
+---
+
+<BaseLayout
+  title={model.title}
+  description={model.description}
+  canonical={model.canonical}
+  jsonLd={model.jsonLd}
+>
+  <main>
+    <article>
+      <nav aria-label="Breadcrumb">
+        <ol>
+          {model.breadcrumbs.map((bc, i) => (
+            <li>
+              {i < model.breadcrumbs.length - 1
+                ? <a href={bc.href}>{bc.name}</a>
+                : <span>{bc.name}</span>}
+            </li>
+          ))}
+        </ol>
+      </nav>
+
+      <header>
+        <h1>{model.h1}</h1>
+        <p class="muted">{model.count} obiektów</p>
+      </header>
+
+      <p>{model.intro}</p>
+
+      <section aria-labelledby="lista-obiektow">
+        <h2 id="lista-obiektow">Lista obiektów</h2>
+        <ul>
+          {model.items.map((item) => (
+            <li>
+              <a href={item.href}>{item.name}</a>
+              <span class="muted"> — {item.city}, {item.region}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {model.faq.length > 0 && (
+        <section aria-labelledby="faq">
+          <h2 id="faq">FAQ</h2>
+          <dl>
+            {model.faq.map((item) => (
+              <>
+                <dt>{item.q}</dt>
+                <dd>{item.a}</dd>
+              </>
+            ))}
+          </dl>
+        </section>
+      )}
+
+      {model.relatedCities.length > 0 && (
+        <section aria-labelledby="miasta">
+          <h2 id="miasta">Miasta</h2>
+          <ul>
+            {model.relatedCities.map((c) => (
+              <li><a href={c.href}>{c.name}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {model.relatedRegions.length > 0 && (
+        <section aria-labelledby="regiony">
+          <h2 id="regiony">Regiony</h2>
+          <ul>
+            {model.relatedRegions.map((r) => (
+              <li><a href={r.href}>{r.name}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {model.relatedCollections.length > 0 && (
+        <section aria-labelledby="powiazane">
+          <h2 id="powiazane">Powiązane kolekcje</h2>
+          <ul>
+            {model.relatedCollections.map((col) => (
+              <li>
+                <a href={col.href}>{col.label}</a>
+                <span class="muted"> — {col.count} obiektów</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </article>
+  </main>
+</BaseLayout>

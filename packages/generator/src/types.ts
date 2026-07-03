@@ -49,6 +49,13 @@ export interface Entity {
   tags?: string[];
   access?: EntityAccess | null;
   faq?: EntityFaqItem[];
+  /**
+   * Graf GEO: precomputed adjacency z geo-engine (budowany w czasie builda).
+   * nearby = lista kluczy cross-type, np. ["beach/brzezno", "trail/szlak-x"].
+   */
+  graph?: {
+    nearby?: string[];
+  } | null;
 }
 
 // Para encji + jej konfiguracja typu. Podstawowa jednostka rejestru danych
@@ -101,6 +108,13 @@ export interface NearbyLink {
   distanceKm?: number | null;
 }
 
+/** Link do kolekcji (collection page). */
+export interface CollectionRef {
+  href: string;
+  label: string;
+  count: number;
+}
+
 export interface PageModel {
   slug: string;
   type: string;
@@ -116,5 +130,9 @@ export interface PageModel {
   location: LocationView;
   faq: EntityFaqItem[];
   nearby: NearbyLink[];
+  /** W pobliżu: cross-type encje z entity.graph.nearby (precomputed). */
+  nearbyPlaces: NearbyLink[];
+  /** Kolekcje, do których należy ta encja. */
+  collections: CollectionRef[];
   jsonLd: Record<string, unknown>;
 }

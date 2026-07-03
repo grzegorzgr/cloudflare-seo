@@ -1,8 +1,8 @@
 // Deterministyczna logika generowania stron SEO.
 // Jedna encja danych -> jeden model strony. Brak losowo\u015bci, brak AI.
 
-import type {
-  Entity,
+import type {  CollectionRef,
+  Dataset,  Entity,
   EntityFaqItem,
   FeatureView,
   NearbyLink,
@@ -212,14 +212,56 @@ export function buildNearby(
 }
 
 /**
- * G\u0142\u00f3wna funkcja generatora: encja + konfiguracja typu -> model strony.
- * W pe\u0142ni deterministyczna: ten sam wej\u015bciowy JSON zawsze daje ten sam model.
- * Opcjonalny `allEntities` (ten sam typ) w\u0142\u0105cza sekcj\u0119 "Podobne miejsca".
+ * Modul 1 – Nearby Graph Engine (cross-type).
+ * Rozwiazuje entity.graph.nearby (precomputed przez geo-engine) na linki
+ * do wszystkich typow encji (beach / parking / trail).
+ * Wynik: sekcja "W poblizu" z typem, odlegloscia i linkiem.
+ * Zero inference – tylko encje istniejace w datasetach.
+ */
+export function buildCrossTypeNearby(
+  entity: Entity,
+  allDatasets: Dataset[],
+): NearbyLink[] {
+  const keys = entity.graph?.nearby ?? [];
+  if (keys.length === 0) return [];
+
+  // Buduj indeks key -> {entity, config} ze wszystkich datasetow.
+  const index = new Map<string, { entity: Entity; config: TypeConfig }>();
+  for (const { entities, config } of allDatasets) {
+    for (const e of entities) {
+      index.set(`${config.basePath}/${e.slug}`, { entity: e, config });
+    }
+  }
+
+  const result: NearbyLink[] = [];
+  for (const key of keys) {
+    const found = index.get(key);
+    if (!found) continue;
+    const { entity: target, config } = found;
+    result.push({
+      href: `/${config.basePath}/${target.slug}`,
+      label: target.name,
+      city: target.location?.city ?? 'nieznane',
+      type: config.basePath,
+      distanceKm: distanceKm(entity, target),
+    });
+  }
+  return result;
+}
+
+/**
+ * Glowna funkcja generatora: encja + konfiguracja typu -> model strony.
+ * W pelni deterministyczna: ten sam wejsciowy JSON zawsze daje ten sam model.
+ * Opcjonalny `allEntities` (ten sam typ) wlacza sekcje "Podobne miejsca".
+ * Opcjonalny `allDatasets` (cross-type) wlacza sekcje "W poblizu".
+ * Opcjonalny `entityCollections` wlacza linki do kolekcji.
  */
 export function buildPageModel(
   entity: Entity,
   config: TypeConfig,
   allEntities: Entity[] = [],
+  allDatasets: Dataset[] = [],
+  entityCollections: CollectionRef[] = [],
 ): PageModel {
   const location = entity.location ?? {};
   const faq = buildFaq(entity, config);
@@ -245,6 +287,8 @@ export function buildPageModel(
     },
     faq,
     nearby: buildNearby(entity, config, allEntities),
+    nearbyPlaces: buildCrossTypeNearby(entity, allDatasets),
+    collections: entityCollections,
     jsonLd: buildJsonLd(entity, config, faq),
   };
 }

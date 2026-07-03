@@ -1,0 +1,29 @@
+---
+// Strona indeksu kolekcji automatycznych (/collections).
+// Modul 3 – Automatic Collection Engine: entry point.
+import beaches from '@data/beaches.json';
+import parkings from '@data/parkings.json';
+import trails from '@data/trails.json';
+import {
+  beachConfig,
+  parkingConfig,
+  trailConfig,
+  buildAllCollections,
+  buildCollectionsIndexModel,
+  indexCategories,
+  type Entity,
+} from '@generator';
+import { seoConfig } from '@config/seo.config.ts';
+import IndexPage from '../components/IndexPage.astro';
+
+const datasets = [
+  { entities: beaches as Entity[], config: beachConfig },
+  { entities: parkings as Entity[], config: parkingConfig },
+  { entities: trails as Entity[], config: trailConfig },
+];
+
+const collections = buildAllCollections(datasets, seoConfig.siteUrl);
+const model = buildCollectionsIndexModel(collections, indexCategories, seoConfig.siteUrl);
+---
+
+<IndexPage {...model} />

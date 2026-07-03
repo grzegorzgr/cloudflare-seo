@@ -16,6 +16,7 @@ export interface SitemapDataset {
  *  - "/{type}/{slug}"         strony encji (1 encja = 1 URL)
  *  - "/city/{slug}"           strony cluster wg miasta
  *  - "/region/{slug}"         strony cluster wg regionu
+ *  - "/collection/{slug}"     strony kolekcji automatycznych
  * Kolejnosc wynika z porzadku datasetow i danych (odtwarzalna).
  * Wynik jest odduplikowany (zasada: brak duplikatow w sitemap).
  */
@@ -23,6 +24,7 @@ export function buildSitemapPaths(
   datasets: SitemapDataset[],
   citySeeds: Entity[] = [],
   indexPaths: string[] = [],
+  collectionSlugs: string[] = [],
 ): string[] {
   const paths: string[] = ['/'];
   const regions: string[] = [];
@@ -67,6 +69,11 @@ export function buildSitemapPaths(
     paths.push(`/region/${slugify(region)}`);
   }
 
+  // Warstwa kolekcji automatycznych.
+  for (const slug of collectionSlugs) {
+    paths.push(`/collection/${slug}`);
+  }
+
   // Deterministyczna deduplikacja z zachowaniem kolejnosci pierwszego wystapienia.
   return paths.filter((path, index) => paths.indexOf(path) === index);
 }
@@ -80,9 +87,10 @@ export function buildSitemapXml(
   baseUrl: string,
   citySeeds: Entity[] = [],
   indexPaths: string[] = [],
+  collectionSlugs: string[] = [],
 ): string {
   const base = stripTrailingSlashes(baseUrl);
-  const body = buildSitemapPaths(datasets, citySeeds, indexPaths)
+  const body = buildSitemapPaths(datasets, citySeeds, indexPaths, collectionSlugs)
     .map((path) => `  <url>\n    <loc>${base}${path}</loc>\n  </url>`)
     .join('\n');
 

@@ -2,7 +2,8 @@
 // Wszystko wyprowadzone deterministycznie z /packages/data. Bez nowych danych.
 
 import { slugify, stripTrailingSlashes } from './slug.js';
-import type { Entity, TypeConfig } from './types.js';
+import { byDistanceFrom } from './geo.js';
+import type { CollectionRef, Entity, TypeConfig } from './types.js';
 
 const UNKNOWN = 'nieznane';
 
@@ -234,6 +235,13 @@ export function buildRegionModel(
   };
 }
 
+/** Link do bliskego miasta (sekcja "Najblizsze miasta"). */
+export interface NearbyCityLink {
+  href: string;
+  name: string;
+  distanceKm: number | null;
+}
+
 /** Model strony miasta (/city/{slug}), grupowany wg typu encji. */
 export interface CityModel {
   city: string;
@@ -245,6 +253,10 @@ export interface CityModel {
   canonical: string;
   count: number;
   sections: ClusterSection[];
+  /** Sekcja "Najblizsze miasta" – budowana z warstwy seed (wspolrzedne). */
+  nearbyCities: NearbyCityLink[];
+  /** Kolekcje powiazane z miastem. */
+  collectionRefs: CollectionRef[];
   jsonLd: Record<string, unknown>;
 }
 
@@ -281,16 +293,65 @@ export function listCities(datasets: SitemapLikeDataset[]): CityRef[] {
 }
 
 /**
+ * Buduje liste najblizszych miast (Modul 2 – City Hub Engine).
+ * Uzywa warstwy seed (citySeeds) z wspolrzednymi geograficznymi.
+ * Zwraca max `limit` miast najblizszych do podanego seedu, z wylaczeniem siebie.
+ */
+export function buildNearbyCities(
+  citySeed: Entity,
+  allSeeds: Entity[],
+  limit = 5,
+): NearbyCityLink[] {
+  const sorted = allSeeds
+    .filter((s) => s.slug !== citySeed.slug)
+    .sort(byDistanceFrom(citySeed));
+
+  return sorted.slice(0, limit).map((s) => {
+    const { distanceKm: dist } = byDistanceFromRaw(citySeed, s);
+    return {
+      href: `/city/${s.slug ?? slugify(s.location?.city ?? s.name)}`,
+      name: s.location?.city ?? s.name,
+      distanceKm: dist,
+    };
+  });
+}
+
+// Pomocnik inline (nie eksportowany) – zwraca dystans haversine miedzy dwoma seed-encjami.
+function byDistanceFromRaw(a: Entity, b: Entity): { distanceKm: number | null } {
+  const aC = a.coordinates;
+  const bC = b.coordinates;
+  if (
+    !aC || typeof aC.lat !== 'number' || typeof aC.lng !== 'number' ||
+    !bC || typeof bC.lat !== 'number' || typeof bC.lng !== 'number'
+  ) {
+    return { distanceKm: null };
+  }
+  const R = 6371;
+  const dLat = ((bC.lat - aC.lat) * Math.PI) / 180;
+  const dLng = ((bC.lng - aC.lng) * Math.PI) / 180;
+  const sinLat = Math.sin(dLat / 2);
+  const sinLng = Math.sin(dLng / 2);
+  const h =
+    sinLat * sinLat +
+    Math.cos((aC.lat * Math.PI) / 180) *
+      Math.cos((bC.lat * Math.PI) / 180) *
+      sinLng * sinLng;
+  return { distanceKm: 2 * R * Math.asin(Math.min(1, Math.sqrt(h))) };
+}
+
+/**
  * Model strony miasta: agreguje wszystkie typy encji dla danego miasta.
  * Grupuje sekcje wedlug typu (collectionLabel). Bez fikcyjnych wartosci.
  * Opcjonalny citySeeds dostarcza region-fallback dla miast-hubow bez POI,
  * dzieki czemu kazdy hub ma strone /city/{slug} nawet przy 0 obiektach.
+ * Opcjonalny cityCollections dodaje sekcje kolekcji.
  */
 export function buildCityModel(
   city: string,
   datasets: SitemapLikeDataset[],
   baseUrl = '',
   citySeeds: Entity[] = [],
+  cityCollections: CollectionRef[] = [],
 ): CityModel {
   const sections: ClusterSection[] = [];
   const allLinks: ClusterLink[] = [];
@@ -322,6 +383,9 @@ export function buildCityModel(
       ? `Jesli szukasz miejsc w ${city}, ta strona zbiera wszystkie dostepne obiekty pogrupowane wedlug typu.`
       : `${city} to wezel-hub katalogu. Trwa import obiektow (OSM) dla tej miejscowosci.`;
 
+  // Najblizsze miasta z warstwy seed.
+  const nearbyCities = seed ? buildNearbyCities(seed, citySeeds) : [];
+
   return {
     city,
     region,
@@ -332,6 +396,8 @@ export function buildCityModel(
     canonical: `/city/${citySlug}`,
     count: allLinks.length,
     sections,
+    nearbyCities,
+    collectionRefs: cityCollections,
     jsonLd: buildItemList(`${city} — miejsca`, allLinks, baseUrl),
   };
 }
