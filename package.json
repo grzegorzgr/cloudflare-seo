@@ -6,5 +6,10 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "build": "npm run build --workspace @cloudflare-seo/web",
+    "dev": "npm run dev --workspace @cloudflare-seo/web",
+    "preview": "npm run preview --workspace @cloudflare-seo/web"
+  }
 }
