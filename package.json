@@ -7,6 +7,9 @@
     "apps/*",
     "packages/*"
   ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "geo:seed": "node scripts/build/seed-cities.mjs",
     "geo:engine": "node scripts/build/geo-engine.mjs",

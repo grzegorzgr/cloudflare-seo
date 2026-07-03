@@ -22,16 +22,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Install dependencies
         run: npm install
 
-      - name: Run crawler + updater
-        run: npm run data:sync
-
-      - name: Normalize data
-        run: npm run data:normalize
+      - name: Run GEO data engine (seed + fetch + graph + write)
+        run: npm run geo:ci
 
       - name: Build site
         run: npm run build
