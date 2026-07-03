@@ -7,7 +7,7 @@
       "lat": 51.1079,
       "lng": 17.0385
     },
-    "citySeeds": 13
+    "citySeeds": 3
   },
   {
     "region": "Kujawsko-Pomorskie",
@@ -17,7 +17,7 @@
       "lat": 53.1235,
       "lng": 18.0084
     },
-    "citySeeds": 8
+    "citySeeds": 2
   },
   {
     "region": "Lubelskie",
@@ -27,7 +27,7 @@
       "lat": 51.2465,
       "lng": 22.5684
     },
-    "citySeeds": 8
+    "citySeeds": 1
   },
   {
     "region": "Lubuskie",
@@ -37,7 +37,7 @@
       "lat": 52.7368,
       "lng": 15.2288
     },
-    "citySeeds": 6
+    "citySeeds": 2
   },
   {
     "region": "Łódzkie",
@@ -47,7 +47,7 @@
       "lat": 51.7592,
       "lng": 19.456
     },
-    "citySeeds": 9
+    "citySeeds": 1
   },
   {
     "region": "Małopolskie",
@@ -57,7 +57,7 @@
       "lat": 50.0647,
       "lng": 19.945
     },
-    "citySeeds": 10
+    "citySeeds": 2
   },
   {
     "region": "Mazowieckie",
@@ -67,7 +67,7 @@
       "lat": 52.2297,
       "lng": 21.0122
     },
-    "citySeeds": 11
+    "citySeeds": 1
   },
   {
     "region": "Opolskie",
@@ -77,7 +77,7 @@
       "lat": 50.6751,
       "lng": 17.9213
     },
-    "citySeeds": 6
+    "citySeeds": 1
   },
   {
     "region": "Podkarpackie",
@@ -87,7 +87,7 @@
       "lat": 50.0413,
       "lng": 21.999
     },
-    "citySeeds": 9
+    "citySeeds": 1
   },
   {
     "region": "Podlaskie",
@@ -97,7 +97,7 @@
       "lat": 53.1325,
       "lng": 23.1688
     },
-    "citySeeds": 7
+    "citySeeds": 2
   },
   {
     "region": "Pomorskie",
@@ -107,7 +107,7 @@
       "lat": 54.352,
       "lng": 18.6466
     },
-    "citySeeds": 14
+    "citySeeds": 3
   },
   {
     "region": "Śląskie",
@@ -117,7 +117,7 @@
       "lat": 50.2649,
       "lng": 19.0238
     },
-    "citySeeds": 15
+    "citySeeds": 3
   },
   {
     "region": "Świętokrzyskie",
@@ -127,7 +127,7 @@
       "lat": 50.8661,
       "lng": 20.6286
     },
-    "citySeeds": 7
+    "citySeeds": 1
   },
   {
     "region": "Warmińsko-Mazurskie",
@@ -137,7 +137,7 @@
       "lat": 53.7784,
       "lng": 20.4801
     },
-    "citySeeds": 12
+    "citySeeds": 2
   },
   {
     "region": "Wielkopolskie",
@@ -147,7 +147,7 @@
       "lat": 52.4064,
       "lng": 16.9252
     },
-    "citySeeds": 10
+    "citySeeds": 1
   },
   {
     "region": "Zachodniopomorskie",
@@ -157,6 +157,6 @@
       "lat": 53.4285,
       "lng": 14.5528
     },
-    "citySeeds": 9
+    "citySeeds": 4
   }
 ]

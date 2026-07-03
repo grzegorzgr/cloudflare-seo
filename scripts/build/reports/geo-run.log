@@ -1,0 +1,21 @@
+GEO ENGINE: 30 seedow / 16 wojewodztw, radius 10km, link 25km, typy [beach,parking,trail]
+  [#---------------]   6% (1/16) Dolnośląskie: 653 elementow (overpass)
+     ...odczekuje 12s przed nastepnym wojewodztwem
+    Overpass przeciazony/rate-limit, ponawiam za 8s (proba 1/6)
+    Overpass przeciazony/rate-limit, ponawiam za 16s (proba 2/6)
+  [##--------------]  13% (2/16) Kujawsko-Pomorskie: 285 elementow (overpass)
+     ...odczekuje 12s przed nastepnym wojewodztwem
+  [###-------------]  19% (3/16) Lubelskie: 125 elementow (overpass)
+     ...odczekuje 12s przed nastepnym wojewodztwem
+  [####------------]  25% (4/16) Lubuskie: 408 elementow (overpass)
+     ...odczekuje 12s przed nastepnym wojewodztwem
+  [#####-----------]  31% (5/16) Łódzkie: 254 elementow (overpass)
+     ...odczekuje 12s przed nastepnym wojewodztwem
+  [######----------]  38% (6/16) Małopolskie: 518 elementow (overpass)
+     ...odczekuje 12s przed nastepnym wojewodztwem
+  [#######---------]  44% (7/16) Mazowieckie: 1229 elementow (overpass)
+     ...odczekuje 12s przed nastepnym wojewodztwem
+  [########--------]  50% (8/16) Opolskie: 68 elementow (overpass)
+     ...odczekuje 12s przed nastepnym wojewodztwem
+  [#########-------]  56% (9/16) Podkarpackie: 70 elementow (overpass)
+     ...odczekuje 12s przed nastepnym wojewodztwem
