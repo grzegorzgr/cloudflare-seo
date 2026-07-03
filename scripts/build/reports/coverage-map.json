@@ -2,12 +2,12 @@
   "generatedAt": "2026-07-03",
   "national": {
     "voivodeships": 16,
-    "voivodeshipsCovered": 2,
+    "voivodeshipsCovered": 1,
     "seedCities": 154,
-    "seedCitiesWithPoi": 10,
-    "totalPois": 82,
-    "completenessPct": 6.5,
-    "voivodeshipCoveragePct": 12.5
+    "seedCitiesWithPoi": 9,
+    "totalPois": 79,
+    "completenessPct": 5.8,
+    "voivodeshipCoveragePct": 6.3
   },
   "perRegion": [
     {
@@ -94,10 +94,10 @@
       "region": "Pomorskie",
       "seedCities": 14,
       "seedCitiesWithPoi": 9,
-      "pois": 81,
+      "pois": 79,
       "byType": {
-        "beach": 26,
-        "parking": 27,
+        "beach": 25,
+        "parking": 26,
         "trail": 28
       },
       "completenessPct": 64.3
@@ -121,12 +121,10 @@
     {
       "region": "Warmińsko-Mazurskie",
       "seedCities": 12,
-      "seedCitiesWithPoi": 1,
-      "pois": 1,
-      "byType": {
-        "trail": 1
-      },
-      "completenessPct": 8.3
+      "seedCitiesWithPoi": 0,
+      "pois": 0,
+      "byType": {},
+      "completenessPct": 0
     },
     {
       "region": "Wielkopolskie",
