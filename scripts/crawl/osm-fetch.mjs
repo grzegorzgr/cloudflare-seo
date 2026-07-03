@@ -272,7 +272,8 @@ async function main() {
   if (opts.offline) {
     const raw = JSON.parse(readFileSync(opts.offline, 'utf8'));
     const els = Array.isArray(raw) ? raw : raw.elements ?? [];
-    rawElements.push(...els);
+    // NIE push(...els) - spread duzej tablicy przepelnia stos wywolan.
+    for (const el of els) rawElements.push(el);
     process.stderr.write(`Tryb offline: ${els.length} elementow z ${opts.offline}\n`);
   } else {
     for (let i = 0; i < seeds.length; i++) {
@@ -280,7 +281,7 @@ async function main() {
       const query = buildQuery(seed, opts.radius, opts.only);
       try {
         const els = await fetchOverpass(opts.endpoint, query);
-        rawElements.push(...els);
+        for (const el of els) rawElements.push(el);
         process.stderr.write(`  [${i + 1}/${seeds.length}] ${seed.name}: ${els.length} elementow\n`);
       } catch (err) {
         process.stderr.write(`  [${i + 1}/${seeds.length}] ${seed.name}: BLAD ${err.message}\n`);

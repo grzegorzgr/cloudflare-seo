@@ -432,7 +432,9 @@ async function fetchAllRegions(seeds, regions, opts) {
       if (idx < regionOrder.length) await sleep(opts.delay);
     }
 
-    elements.push(...els);
+    // Uwaga: NIE uzywaj push(...els) - spread duzej tablicy jako argumentow
+    // wywolania przepelnia stos (RangeError) przy tysiacach elementow z OSM.
+    for (const el of els) elements.push(el);
     fetchLog.push({ region, seeds: byRegion.get(region).length, mode, elements: els.length });
     process.stderr.write(
       `  [${idx}/${regionOrder.length}] ${region}: ${els.length} elementow (${mode})\n`,
