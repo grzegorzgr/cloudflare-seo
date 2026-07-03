@@ -14,12 +14,15 @@ export interface SitemapDataset {
  *  - "/"                      strona glowna
  *  - "/{type}/"               strony cluster (lista wg typu)
  *  - "/{type}/{slug}"         strony encji (1 encja = 1 URL)
+ *  - "/city/{slug}"           strony cluster wg miasta
  *  - "/region/{slug}"         strony cluster wg regionu
  * Kolejnosc wynika z porzadku datasetow i danych (odtwarzalna).
+ * Wynik jest odduplikowany (zasada: brak duplikatow w sitemap).
  */
 export function buildSitemapPaths(datasets: SitemapDataset[]): string[] {
   const paths: string[] = ['/'];
   const regions: string[] = [];
+  const cities: string[] = [];
 
   for (const { entities, config } of datasets) {
     paths.push(`/${config.basePath}/`);
@@ -29,14 +32,23 @@ export function buildSitemapPaths(datasets: SitemapDataset[]): string[] {
       if (region && !regions.includes(region)) {
         regions.push(region);
       }
+      const city = entity.location?.city;
+      if (city && !cities.includes(city)) {
+        cities.push(city);
+      }
     }
+  }
+
+  for (const city of cities) {
+    paths.push(`/city/${slugify(city)}`);
   }
 
   for (const region of regions) {
     paths.push(`/region/${slugify(region)}`);
   }
 
-  return paths;
+  // Deterministyczna deduplikacja z zachowaniem kolejnosci pierwszego wystapienia.
+  return paths.filter((path, index) => paths.indexOf(path) === index);
 }
 
 /**

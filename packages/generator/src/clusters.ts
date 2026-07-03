@@ -39,6 +39,14 @@ export interface RegionRef {
   count: number;
 }
 
+/** Wpis rejestru miast (do getStaticPaths i nawigacji /city/{slug}). */
+export interface CityRef {
+  city: string;
+  region: string | null;
+  slug: string;
+  count: number;
+}
+
 /** Model strony regionu (/region/{slug}), grupowany wg typu encji. */
 export interface RegionModel {
   region: string;
@@ -192,5 +200,91 @@ export function buildRegionModel(
     count: allLinks.length,
     sections,
     jsonLd: buildItemList(`${region} — miejsca`, allLinks, baseUrl),
+  };
+}
+
+/** Model strony miasta (/city/{slug}), grupowany wg typu encji. */
+export interface CityModel {
+  city: string;
+  region: string | null;
+  slug: string;
+  title: string;
+  description: string;
+  intro: string;
+  canonical: string;
+  count: number;
+  sections: ClusterSection[];
+  jsonLd: Record<string, unknown>;
+}
+
+/**
+ * Rejestr unikalnych miast ze wszystkich datasetow.
+ * Kolejnosc = pierwsze wystapienie (deterministyczna).
+ */
+export function listCities(datasets: SitemapLikeDataset[]): CityRef[] {
+  const order: string[] = [];
+  const counts = new Map<string, number>();
+  const regionOf = new Map<string, string | null>();
+
+  for (const { entities } of datasets) {
+    for (const entity of entities) {
+      const city = entity.location?.city;
+      if (!city) {
+        continue;
+      }
+      if (!counts.has(city)) {
+        counts.set(city, 0);
+        regionOf.set(city, entity.location?.region ?? null);
+        order.push(city);
+      }
+      counts.set(city, counts.get(city)! + 1);
+    }
+  }
+
+  return order.map((city) => ({
+    city,
+    region: regionOf.get(city) ?? null,
+    slug: slugify(city),
+    count: counts.get(city)!,
+  }));
+}
+
+/**
+ * Model strony miasta: agreguje wszystkie typy encji dla danego miasta.
+ * Grupuje sekcje wedlug typu (collectionLabel). Bez fikcyjnych wartosci.
+ */
+export function buildCityModel(
+  city: string,
+  datasets: SitemapLikeDataset[],
+  baseUrl = '',
+): CityModel {
+  const sections: ClusterSection[] = [];
+  const allLinks: ClusterLink[] = [];
+  let region: string | null = null;
+
+  for (const { entities, config } of datasets) {
+    const matched = entities.filter((entity) => entity.location?.city === city);
+    if (matched.length === 0) {
+      continue;
+    }
+    if (region === null) {
+      region = matched[0].location?.region ?? null;
+    }
+    const items = matched.map((entity) => toLink(entity, config));
+    sections.push({ heading: config.collectionLabel, items });
+    allLinks.push(...items);
+  }
+
+  return {
+    city,
+    region,
+    slug: slugify(city),
+    title: `${city} — miejsca i obiekty`,
+    description: `Katalog miejsc w miejscowosci ${city}: ${allLinks.length} obiektow pogrupowanych wedlug typu.`,
+    intro: `Jesli szukasz miejsc w ${city}, ta strona zbiera wszystkie dostepne obiekty pogrupowane wedlug typu.`,
+    canonical: `/city/${slugify(city)}`,
+    count: allLinks.length,
+    sections,
+    jsonLd: buildItemList(`${city} — miejsca`, allLinks, baseUrl),
   };
 }

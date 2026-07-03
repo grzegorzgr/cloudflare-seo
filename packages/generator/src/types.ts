@@ -38,6 +38,8 @@ export interface Entity {
   slug: string;
   name: string;
   type?: string;
+  /** Identyfikator OSM (np. "node/123"), jesli encja pochodzi z OpenStreetMap. */
+  osmId?: string | null;
   seo?: EntitySeo | null;
   location?: EntityLocation;
   coordinates?: EntityCoordinates;
@@ -47,6 +49,13 @@ export interface Entity {
   tags?: string[];
   access?: EntityAccess | null;
   faq?: EntityFaqItem[];
+}
+
+// Para encji + jej konfiguracja typu. Podstawowa jednostka rejestru danych
+// uzywana przez sitemap, cluster, graph i nearby (cross-type).
+export interface Dataset {
+  entities: Entity[];
+  config: TypeConfig;
 }
 
 // Konfiguracja per typ tematyczny. Steruje deterministycznie:
@@ -86,6 +95,10 @@ export interface NearbyLink {
   href: string;
   label: string;
   city: string;
+  /** Typ encji docelowej (basePath), np. "beach". */
+  type?: string;
+  /** Odleglosc w km od encji zrodlowej, jesli obie maja wspolrzedne. */
+  distanceKm?: number | null;
 }
 
 export interface PageModel {

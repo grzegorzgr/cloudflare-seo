@@ -10,6 +10,7 @@ import type {
   TypeConfig,
 } from './types.js';
 import { buildKeywords } from './keywords.js';
+import { byDistanceFrom, distanceKm } from './geo.js';
 
 const UNKNOWN = 'nieznane';
 
@@ -137,30 +138,65 @@ export function buildJsonLd(
 }
 
 /**
- * Buduje sekcj\u0119 "Podobne miejsca": encje tego samego typu i regionu,
- * z pomini\u0119ciem bie\u017c\u0105cej. Kolejno\u015b\u0107 wynika z porz\u0105dku datasetu (deterministyczna).
+ * Buduje sekcje "Podobne miejsca" (GEO GRAPH nearby, LEVEL 1).
+ * Deterministyczny algorytm rankingowy wg wymagan graph engine:
+ *   Tier 1: ten sam typ + to samo miasto
+ *   Tier 2: ten sam typ + ten sam region
+ * W obrebie tieru sortowanie po dystansie haversine (najblizsze pierwsze),
+ * remisy rozstrzyga slug alfabetycznie -> pelna odtwarzalnosc.
+ * Uzywa WYLACZNIE istniejacych encji z datasetu (zero nowych punktow).
  */
 export function buildNearby(
   entity: Entity,
   config: TypeConfig,
   allEntities: Entity[],
 ): NearbyLink[] {
-  const region = entity.location?.region;
-  if (!region) {
+  const city = entity.location?.city ?? null;
+  const region = entity.location?.region ?? null;
+  if (!city && !region) {
     return [];
   }
-  return allEntities
-    .filter(
-      (candidate) =>
-        candidate.slug !== entity.slug &&
-        candidate.location?.region === region,
-    )
-    .slice(0, NEARBY_LIMIT)
-    .map((candidate) => ({
+
+  const candidates = allEntities.filter(
+    (candidate) => candidate.slug !== entity.slug,
+  );
+
+  const sameCity = city
+    ? candidates.filter((c) => c.location?.city === city)
+    : [];
+  const sameRegionOnly = region
+    ? candidates.filter(
+        (c) =>
+          c.location?.region === region &&
+          (!city || c.location?.city !== city),
+      )
+    : [];
+
+  const sortByProximity = byDistanceFrom(entity);
+  const ranked = [
+    ...sameCity.sort(sortByProximity),
+    ...sameRegionOnly.sort(sortByProximity),
+  ];
+
+  const seen = new Set<string>();
+  const nearby: NearbyLink[] = [];
+  for (const candidate of ranked) {
+    if (seen.has(candidate.slug)) {
+      continue;
+    }
+    seen.add(candidate.slug);
+    nearby.push({
       href: `/${config.basePath}/${candidate.slug}`,
       label: candidate.name,
       city: candidate.location?.city ?? UNKNOWN,
-    }));
+      type: config.basePath,
+      distanceKm: distanceKm(entity, candidate),
+    });
+    if (nearby.length >= NEARBY_LIMIT) {
+      break;
+    }
+  }
+  return nearby;
 }
 
 /**
