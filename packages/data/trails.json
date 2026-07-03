@@ -7,18 +7,31 @@
     "location": {
       "city": "gmina Puck",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.737398,
       "lng": 18.2743819
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 31 km",
       "oznakowanie: kolor czarny",
       "przebieg: Puck – Krokowa"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Grot Mechowskich – Pomorskie",
@@ -34,17 +47,30 @@
     "location": {
       "city": "Izbica",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.6703807,
       "lng": 17.4123288
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze krajowej",
       "długość: 118.9 km",
       "oznakowanie: kolor czerwony"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Nadmorski Bałtycki – Pomorskie",
@@ -60,17 +86,30 @@
     "location": {
       "city": "Gdynia",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.4446418,
       "lng": 18.4645584
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 10.5 km",
       "oznakowanie: kolor czarny"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Źródła Marii – Pomorskie",
@@ -86,17 +125,30 @@
     "location": {
       "city": "Sopot",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.4380596,
       "lng": 18.537318
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 46.2 km",
       "oznakowanie: kolor żółty"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Trójmiejski – Pomorskie",
@@ -112,16 +164,29 @@
     "location": {
       "city": "Grabiny-Zameczek",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.2301955,
       "lng": 18.7322382
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 35.8 km"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Motławski – Pomorskie",
@@ -137,16 +202,29 @@
     "location": {
       "city": "Małkowo",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.3770746,
       "lng": 18.3608056
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 67 km"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Kartuski – Pomorskie",
@@ -162,18 +240,31 @@
     "location": {
       "city": "Grzybno",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.3278225,
       "lng": 18.2263639
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 126 km",
       "oznakowanie: kolor czarny",
       "przebieg: Sopot – Sierakowice"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Wzgórz Szymbarskich – Pomorskie",
@@ -189,16 +280,29 @@
     "location": {
       "city": "Kolbudy",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.2654833,
       "lng": 18.4596896
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 80.3 km"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Skarszewski – Pomorskie",
@@ -214,17 +318,30 @@
     "location": {
       "city": "gmina Sztutowo",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.3616656,
       "lng": 19.2064765
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 52 km",
       "oznakowanie: kolor żółty"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Jantarowy – Pomorskie",
@@ -240,17 +357,30 @@
     "location": {
       "city": "Gdańsk",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.3675322,
       "lng": 18.7428443
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 8 km",
       "przebieg: Gdańsk Stogi – Gdańsk Górki Zachodnie"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Fortyfikacji Nadmorskich – Pomorskie",
@@ -266,17 +396,30 @@
     "location": {
       "city": "Łężyce",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.5313759,
       "lng": 18.3911668
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 51 km",
       "przebieg: Sopot-Kamienny Potok – Wejherowo PKP"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Wejherowski – Pomorskie",
@@ -292,18 +435,31 @@
     "location": {
       "city": "Rumia",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.5400779,
       "lng": 18.3788842
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 56 km",
       "oznakowanie: kolor czarny",
       "przebieg: Gdynia Wzgórze Św. Maksymiliana – Wejherowo"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Zagórskiej Strugi – Pomorskie",
@@ -319,16 +475,29 @@
     "location": {
       "city": "Osice",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.2227618,
       "lng": 18.8190448
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 20 km"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Domów Podcieniowych – Pomorskie",
@@ -344,16 +513,29 @@
     "location": {
       "city": "gmina Kolbudy",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.2859739,
       "lng": 18.5562676
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 34.6 km"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Bursztynowy – Pomorskie",
@@ -369,16 +551,29 @@
     "location": {
       "city": "Gdańsk",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.34704,
       "lng": 18.8690966
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 10 km"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Wyspy Sobieszewskiej – Pomorskie",
@@ -394,16 +589,29 @@
     "location": {
       "city": "gmina Krokowa",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.7030307,
       "lng": 18.1590595
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 38 km"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Puszczy Darżlubskiej – Pomorskie",
@@ -419,16 +627,29 @@
     "location": {
       "city": "gmina Puck",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.6624681,
       "lng": 18.3503898
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 33.3 km"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Krawędzią Kępy Puckiej – Pomorskie",
@@ -444,18 +665,31 @@
     "location": {
       "city": "gmina Puck",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.7550221,
       "lng": 18.4038909
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 11.9 km",
       "oznakowanie: kolor żółty",
       "przebieg: Puck – Władysławowo"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Swarzewski – Pomorskie",
@@ -471,18 +705,31 @@
     "location": {
       "city": "gmina Władysławowo",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.7578041,
       "lng": 18.4400639
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 54.2 km",
       "oznakowanie: kolor niebieski",
       "przebieg: Krokowa – Jurata"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Nadmorski Zatokowy – Pomorskie",
@@ -498,16 +745,29 @@
     "location": {
       "city": "gmina Nowa Wieś Lęborska",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.5681714,
       "lng": 17.652292
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze lokalnej",
       "długość: 90 km"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Lęborska Droga św. Jakuba – Pomorskie",
@@ -523,17 +783,30 @@
     "location": {
       "city": "gmina Damnica",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.508563,
       "lng": 17.3625923
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 68 km",
       "oznakowanie: kolor niebieski"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Doliny Łupawy – Pomorskie",
@@ -549,17 +822,30 @@
     "location": {
       "city": "Smołdzino",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.6969183,
       "lng": 17.3578389
     },
-    "facts": [
+    "features": [
       "szlak pieszy",
       "szlak o randze regionalnej",
       "długość: 39 km",
       "oznakowanie: kolor żółty"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Słowińców – Pomorskie",
@@ -575,17 +861,30 @@
     "location": {
       "city": "Kłosowo",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.4137954,
       "lng": 18.2705715
     },
-    "facts": [
+    "features": [
       "szlak rowerowy",
       "szlak o randze regionalnej",
       "długość: 36.5 km",
       "oznakowanie: kolor niebieski"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Błękitna Trasa Rowerowa – Pomorskie",
@@ -601,17 +900,30 @@
     "location": {
       "city": "Gajdy",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 53.8492374,
       "lng": 19.5343925
     },
-    "facts": [
+    "features": [
       "szlak rowerowy",
       "szlak o randze regionalnej",
       "długość: 130 km",
       "oznakowanie: kolor żółty"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Pocztyliona – Pomorskie",
@@ -627,16 +939,29 @@
     "location": {
       "city": "Bojano",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.4879543,
       "lng": 18.3799883
     },
-    "facts": [
+    "features": [
       "szlak rowerowy",
       "szlak o randze regionalnej",
       "długość: 71 km"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Trójmiejskiego Parku Krajobrazowego – Pomorskie",
@@ -652,17 +977,30 @@
     "location": {
       "city": "gmina Somonino",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.2725889,
       "lng": 18.2089658
     },
-    "facts": [
+    "features": [
       "szlak rowerowy",
       "szlak o randze lokalnej",
       "długość: 37 km",
       "oznakowanie: kolor czerwony"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Kamienne Kręgi – Pomorskie",
@@ -678,18 +1016,31 @@
     "location": {
       "city": "Obozin",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.0612492,
       "lng": 18.5251303
     },
-    "facts": [
+    "features": [
       "szlak rowerowy",
       "szlak o randze lokalnej",
       "długość: 80 km",
       "oznakowanie: kolor niebieski",
       "przebieg: Tczew – Kościerzyna"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Tczewski – Pomorskie",
@@ -705,17 +1056,30 @@
     "location": {
       "city": "gmina Somonino",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.2407489,
       "lng": 18.2097295
     },
-    "facts": [
+    "features": [
       "szlak rowerowy",
       "szlak o randze lokalnej",
       "długość: 28 km",
       "oznakowanie: kolor zielony"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Szlak Hutniczy – Pomorskie",

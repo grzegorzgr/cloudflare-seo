@@ -1,7 +1,9 @@
 // Wsp\u00f3lne typy dla wszystkich encji SEO (beach, parking, trail).
 // Kszta\u0142t danych jest jednolity niezale\u017cnie od typu tematycznego.
 
-export interface EntityFeatures {
+// Udogodnienia jako s\u0142ownik flag (boolean | string | null).
+// null = brak danych (zasada: nie zgaduj).
+export interface EntityAmenities {
   [key: string]: boolean | string | null;
 }
 
@@ -15,11 +17,14 @@ export interface EntityFaqItem {
 }
 
 export interface EntityLocation {
-  city?: string;
-  region?: string;
-  country?: string;
-  lat?: number;
-  lng?: number;
+  city?: string | null;
+  region?: string | null;
+  country?: string | null;
+}
+
+export interface EntityCoordinates {
+  lat: number | null;
+  lng: number | null;
 }
 
 export interface EntitySeo {
@@ -29,14 +34,18 @@ export interface EntitySeo {
 }
 
 export interface Entity {
+  id?: string;
   slug: string;
   name: string;
   type?: string;
-  seo?: EntitySeo;
+  seo?: EntitySeo | null;
   location?: EntityLocation;
-  features?: EntityFeatures;
+  coordinates?: EntityCoordinates;
+  description?: string | null;
+  features?: string[];
+  amenities?: EntityAmenities;
+  tags?: string[];
   access?: EntityAccess | null;
-  facts?: string[];
   faq?: EntityFaqItem[];
 }
 

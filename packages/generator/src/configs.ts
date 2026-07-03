@@ -10,10 +10,10 @@ export const beachConfig: TypeConfig = {
   featureLabels: {
     parking: 'Parking',
     toilets: 'Toalety',
-    lifeguard: 'Ratownik',
-    dogFriendly: 'Przyjazna psom',
-    accessible: 'Dost\u0119pno\u015b\u0107 dla niepe\u0142nosprawnych',
-    showers: 'Prysznice',
+    dog_friendly: 'Przyjazna psom',
+    accessibility: 'Dostępność dla niepełnosprawnych',
+    paid_entry: 'Płatny wstęp',
+    lifeguards: 'Ratownik',
   },
   accessLabels: {
     public_transport: 'Komunikacja miejska',
@@ -27,12 +27,11 @@ export const parkingConfig: TypeConfig = {
   schemaType: 'ParkingFacility',
   entityNoun: 'parkingu',
   featureLabels: {
-    paid: 'P\u0142atny',
+    paid_entry: 'P\u0142atny',
     covered: 'Zadaszony',
     guarded: 'Strze\u017cony',
-    evCharging: '\u0141adowarka EV',
-    disabledSpots: 'Miejsca dla niepe\u0142nosprawnych',
-    lighting: 'O\u015bwietlenie',
+    parking: 'Parking',
+    accessibility: 'Miejsca dla niepe\u0142nosprawnych',
   },
   accessLabels: {
     public_transport: 'Komunikacja miejska',
@@ -46,12 +45,10 @@ export const trailConfig: TypeConfig = {
   schemaType: 'TouristAttraction',
   entityNoun: 'szlaku',
   featureLabels: {
-    marked: 'Oznakowany',
-    loop: 'P\u0119tla',
-    dogFriendly: 'Przyjazny psom',
-    familyFriendly: 'Przyjazny rodzinom',
     parking: 'Parking przy szlaku',
-    waterSource: '\u0179r\u00f3d\u0142o wody',
+    toilets: 'Toalety',
+    dog_friendly: 'Przyjazny psom',
+    accessibility: 'Dost\u0119pno\u015b\u0107 dla niepe\u0142nosprawnych',
   },
   accessLabels: {
     public_transport: 'Komunikacja miejska',

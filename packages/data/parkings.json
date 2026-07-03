@@ -7,17 +7,28 @@
     "location": {
       "city": "Odry",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 53.8969091,
       "lng": 17.9976139
     },
-    "facts": [
+    "features": [
       "parking bezpłatny",
       "parking leśny przy rezerwacie archeologicznym Kamienne Kręgi w Odrach"
     ],
-    "features": {
-      "paid": false
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking przy rezerwacie Kamienne Kręgi w Odrach – Odry",
@@ -33,17 +44,28 @@
     "location": {
       "city": "Gdańsk",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.3560354,
       "lng": 18.6596949
     },
-    "facts": [
+    "features": [
       "parking podziemny (zadaszony)",
       "parking przy Muzeum II Wojny Światowej w Gdańsku"
     ],
-    "features": {
-      "covered": true
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": true,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Muzeum II Wojny Światowej - parking podziemny – Gdańsk",
@@ -59,18 +81,29 @@
     "location": {
       "city": "Malbork",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.0423773,
       "lng": 19.0440016
     },
-    "facts": [
+    "features": [
       "parking bezpłatny",
       "około 100 miejsc parkingowych",
       "parking przy Dino Park w Malborku"
     ],
-    "features": {
-      "paid": false
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking Dino Park Malbork – Malbork",
@@ -86,17 +119,28 @@
     "location": {
       "city": "gmina Jastarnia",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.6832493,
       "lng": 18.7136275
     },
-    "facts": [
+    "features": [
       "parking podziemny (zadaszony)",
       "parking przy Hotelu Lido"
     ],
-    "features": {
-      "covered": true
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": true,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking podziemny Hotel Lido – gmina Jastarnia",
@@ -112,14 +156,27 @@
     "location": {
       "city": "Gdańsk",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.3831111,
       "lng": 18.5900788
     },
-    "facts": [
+    "features": [
       "parking na terenie osiedla Garnizon w Gdańsku-Wrzeszczu"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Garnizon Parking C (P7) – Gdańsk",
@@ -135,17 +192,28 @@
     "location": {
       "city": "Sopot",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.4410953,
       "lng": 18.5627879
     },
-    "facts": [
+    "features": [
       "parking płatny",
       "parking w centrum Sopotu"
     ],
-    "features": {
-      "paid": true
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking Sopot Centrum – Sopot",
@@ -161,14 +229,27 @@
     "location": {
       "city": "Chałupy",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.757138,
       "lng": 18.5157046
     },
-    "facts": [
+    "features": [
       "parking przy porcie w Chałupach"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Port Chałupy – Chałupy",
@@ -184,14 +265,27 @@
     "location": {
       "city": "gmina Puck",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.6584032,
       "lng": 18.4612505
     },
-    "facts": [
+    "features": [
       "parking przy rezerwacie przyrody Beka"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking przy rezerwacie Beka – gmina Puck",
@@ -207,14 +301,27 @@
     "location": {
       "city": "Krynica Morska",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.4144317,
       "lng": 19.5441709
     },
-    "facts": [
+    "features": [
       "parking leśny"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking leśny \"Duży\" – Krynica Morska",
@@ -230,17 +337,28 @@
     "location": {
       "city": "Krynica Morska",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.3971376,
       "lng": 19.4899664
     },
-    "facts": [
+    "features": [
       "parking płatny",
       "parking leśny"
     ],
-    "features": {
-      "paid": true
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking Leśny \"Mały\" – Krynica Morska",
@@ -256,17 +374,28 @@
     "location": {
       "city": "Stegna",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.3454115,
       "lng": 19.116296
     },
-    "facts": [
+    "features": [
       "parking płatny",
       "parking leśny"
     ],
-    "features": {
-      "paid": true
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking Leśny Stegna – Stegna",
@@ -282,16 +411,27 @@
     "location": {
       "city": "gmina Jastarnia",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.6805995,
       "lng": 18.716334
     },
-    "facts": [
+    "features": [
       "parking dozorowany całodobowo"
     ],
-    "features": {
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
       "guarded": true
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking dozorowany 24/7 – gmina Jastarnia",
@@ -307,14 +447,27 @@
     "location": {
       "city": "Starogard Gdański",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 53.9657565,
       "lng": 18.5313006
     },
-    "facts": [
+    "features": [
       "parking przy Galerii Szwrac w Starogardzie Gdańskim"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking Galeria Szwrac – Starogard Gdański",
@@ -330,17 +483,28 @@
     "location": {
       "city": "Władysławowo",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.8000375,
       "lng": 18.3908163
     },
-    "facts": [
+    "features": [
       "parking płatny",
       "parking przy Hotelu Rigga we Władysławowie"
     ],
-    "features": {
-      "paid": true
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking Hotel Rigga – Władysławowo",
@@ -356,17 +520,28 @@
     "location": {
       "city": "Gdynia",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.4994613,
       "lng": 18.4277579
     },
-    "facts": [
+    "features": [
       "parking płatny",
       "około 50 miejsc parkingowych"
     ],
-    "features": {
-      "paid": true
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking Jarpo – Gdynia",
@@ -382,14 +557,27 @@
     "location": {
       "city": "gmina Krokowa",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.7259499,
       "lng": 18.1707801
     },
-    "facts": [
+    "features": [
       "parking leśny"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking leśny – gmina Krokowa",
@@ -405,14 +593,27 @@
     "location": {
       "city": "Tuchom",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.4312089,
       "lng": 18.3925266
     },
-    "facts": [
+    "features": [
       "parking leśny"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking Leśny – Tuchom",
@@ -428,14 +629,27 @@
     "location": {
       "city": "Ryjewo",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 53.8253577,
       "lng": 18.9867354
     },
-    "facts": [
+    "features": [
       "parking leśny"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking Leśny – Ryjewo",
@@ -451,14 +665,27 @@
     "location": {
       "city": "Sztumskie Pole",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 53.9449183,
       "lng": 19.0234354
     },
-    "facts": [
+    "features": [
       "parking leśny"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking Leśny – Sztumskie Pole",
@@ -474,17 +701,28 @@
     "location": {
       "city": "gmina Kościerzyna",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.1742426,
       "lng": 18.0720577
     },
-    "facts": [
+    "features": [
       "parking bezpłatny",
       "parking leśny"
     ],
-    "features": {
-      "paid": false
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "parking leśny – gmina Kościerzyna",
@@ -500,14 +738,27 @@
     "location": {
       "city": "gmina Chojnice",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 53.7989137,
       "lng": 17.4227278
     },
-    "facts": [
+    "features": [
       "parking leśny"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking leśny – gmina Chojnice",
@@ -523,17 +774,28 @@
     "location": {
       "city": "gmina Przywidz",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.2541156,
       "lng": 18.4128095
     },
-    "facts": [
+    "features": [
       "parking bezpłatny",
       "parking leśny"
     ],
-    "features": {
-      "paid": false
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking leśny – gmina Przywidz",
@@ -549,14 +811,27 @@
     "location": {
       "city": "gmina Trzebielino",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.164985,
       "lng": 17.0596885
     },
-    "facts": [
+    "features": [
       "parking leśny"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking leśny – gmina Trzebielino",
@@ -572,14 +847,27 @@
     "location": {
       "city": "gmina Lipusz",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.1447036,
       "lng": 17.7484968
     },
-    "facts": [
+    "features": [
       "parking leśny"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "parking leśny – gmina Lipusz",
@@ -595,14 +883,27 @@
     "location": {
       "city": "gmina Potęgowo",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.3800057,
       "lng": 17.4903407
     },
-    "facts": [
+    "features": [
       "parking leśny"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "parking leśny – gmina Potęgowo",
@@ -618,14 +919,27 @@
     "location": {
       "city": "gmina Czarna Woda",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 53.8498665,
       "lng": 18.1136391
     },
-    "facts": [
+    "features": [
       "parking leśny"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Parking leśny – gmina Czarna Woda",

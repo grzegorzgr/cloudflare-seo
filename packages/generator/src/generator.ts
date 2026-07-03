@@ -24,10 +24,10 @@ export function buildFaq(entity: Entity, config: TypeConfig): EntityFaqItem[] {
   if (entity.faq && entity.faq.length > 0) {
     return entity.faq;
   }
-  const facts = entity.facts ?? [];
-  return facts.map((fact, index) => ({
+  const features = entity.features ?? [];
+  return features.map((feature, index) => ({
     q: `Informacja ${index + 1} o ${config.entityNoun} ${entity.name}`,
-    a: fact,
+    a: feature,
   }));
 }
 
@@ -70,6 +70,7 @@ export function buildJsonLd(
   faq: EntityFaqItem[],
 ): Record<string, unknown> {
   const location = entity.location ?? {};
+  const coordinates = entity.coordinates;
   const description = entity.seo?.description;
 
   const jsonLd: Record<string, unknown> = {
@@ -91,11 +92,14 @@ export function buildJsonLd(
     };
   }
 
-  if (typeof location.lat === 'number' && typeof location.lng === 'number') {
+  if (
+    typeof coordinates?.lat === 'number' &&
+    typeof coordinates?.lng === 'number'
+  ) {
     jsonLd.geo = {
       '@type': 'GeoCoordinates',
-      latitude: location.lat,
-      longitude: location.lng,
+      latitude: coordinates.lat,
+      longitude: coordinates.lng,
     };
   }
 
@@ -164,8 +168,8 @@ export function buildPageModel(
     metaDescription: entity.seo?.description ?? '',
     canonical: `/${config.basePath}/${entity.slug}`,
     intent: buildIntent(entity, config),
-    facts: entity.facts ?? [],
-    features: mapFlags(entity.features, config.featureLabels),
+    facts: entity.features ?? [],
+    features: mapFlags(entity.amenities, config.featureLabels),
     access: mapFlags(entity.access, config.accessLabels),
     location: {
       city: location.city ?? UNKNOWN,

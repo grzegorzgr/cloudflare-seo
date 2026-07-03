@@ -7,12 +7,25 @@
     "location": {
       "city": "Gdańsk",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.424,
       "lng": 18.593
     },
-    "facts": null,
-    "features": null,
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża Jelitkowo – Gdańsk",
@@ -28,12 +41,25 @@
     "location": {
       "city": "Gdańsk",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.4080869,
       "lng": 18.6383794
     },
-    "facts": null,
-    "features": null,
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża Brzeźno – Gdańsk",
@@ -49,12 +75,25 @@
     "location": {
       "city": "Gdańsk",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.3761112,
       "lng": 18.728233
     },
-    "facts": null,
-    "features": null,
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża Stogi – Gdańsk",
@@ -70,12 +109,25 @@
     "location": {
       "city": "Gdynia",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.514517,
       "lng": 18.5504625
     },
-    "facts": null,
-    "features": null,
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża Śródmieście – Gdynia",
@@ -91,19 +143,27 @@
     "location": {
       "city": "Gdynia",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.4670301,
       "lng": 18.5624673
     },
-    "facts": [
+    "features": [
       "plaża przeznaczona dla psów"
     ],
-    "features": {
+    "amenities": {
       "parking": null,
       "toilets": null,
+      "dog_friendly": true,
+      "accessibility": null,
+      "paid_entry": null,
       "lifeguards": null,
-      "dog_friendly": true
+      "covered": null,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża dla psów w Orłowie – Gdynia",
@@ -119,12 +179,25 @@
     "location": {
       "city": "Ustka",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.5876542,
       "lng": 16.8453565
     },
-    "facts": null,
-    "features": null,
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża zachodnia – Ustka",
@@ -140,19 +213,27 @@
     "location": {
       "city": "Ustka",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.5871652,
       "lng": 16.8416712
     },
-    "facts": [
+    "features": [
       "plaża strzeżona"
     ],
-    "features": {
+    "amenities": {
       "parking": null,
       "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
       "lifeguards": "seasonal",
-      "dog_friendly": null
+      "covered": null,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża Strzeżona – Ustka",
@@ -168,12 +249,25 @@
     "location": {
       "city": "Ustka",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.5920668,
       "lng": 16.8922154
     },
-    "facts": null,
-    "features": null,
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża wschodnia – Ustka",
@@ -189,12 +283,25 @@
     "location": {
       "city": "Łeba",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.7667742,
       "lng": 17.5433548
     },
-    "facts": null,
-    "features": null,
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża w Łebie (Rąbka) – Łeba",
@@ -210,14 +317,27 @@
     "location": {
       "city": "Chałupy",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.751775,
       "lng": 18.5365071
     },
-    "facts": [
+    "features": [
       "plaża naturystów (FKK)"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża naturystów w Chałupach – Chałupy",
@@ -233,14 +353,27 @@
     "location": {
       "city": "Dębki",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.831885,
       "lng": 18.01546
     },
-    "facts": [
+    "features": [
       "plaża naturystów (FKK)"
     ],
-    "features": null,
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża Naturystów Dębki – Dębki",
@@ -256,12 +389,25 @@
     "location": {
       "city": "Stegna",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.3468041,
       "lng": 19.1139566
     },
-    "facts": null,
-    "features": null,
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża Stegna – Stegna",
@@ -277,19 +423,27 @@
     "location": {
       "city": "Jastarnia",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.7086765,
       "lng": 18.6630967
     },
-    "facts": [
+    "features": [
       "plaża strzeżona w sezonie wakacyjnym"
     ],
-    "features": {
+    "amenities": {
       "parking": null,
       "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
       "lifeguards": "seasonal",
-      "dog_friendly": null
+      "covered": null,
+      "guarded": null
     },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża strzeżona – Jastarnia",
@@ -302,9 +456,28 @@
     "slug": "leba-plaza-a",
     "type": "beach",
     "name": "Plaża A w Łebie",
-    "location": { "city": "Łeba", "region": "Pomorskie", "country": "Polska", "lat": 54.768328, "lng": 17.559953 },
-    "facts": null,
-    "features": null,
+    "location": {
+      "city": "Łeba",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.768328,
+      "lng": 17.559953
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża A – Łeba",
@@ -317,9 +490,28 @@
     "slug": "leba-plaza-c",
     "type": "beach",
     "name": "Plaża C w Łebie",
-    "location": { "city": "Łeba", "region": "Pomorskie", "country": "Polska", "lat": 54.769371, "lng": 17.575466 },
-    "facts": null,
-    "features": null,
+    "location": {
+      "city": "Łeba",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.769371,
+      "lng": 17.575466
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża C – Łeba",
@@ -332,9 +524,30 @@
     "slug": "leba-plaza-dla-zwierzat",
     "type": "beach",
     "name": "Plaża dla zwierząt w Łebie",
-    "location": { "city": "Łeba", "region": "Pomorskie", "country": "Polska", "lat": 54.767397, "lng": 17.54564 },
-    "facts": ["plaża przeznaczona dla zwierząt"],
-    "features": { "parking": null, "toilets": null, "lifeguards": null, "dog_friendly": true },
+    "location": {
+      "city": "Łeba",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.767397,
+      "lng": 17.54564
+    },
+    "features": [
+      "plaża przeznaczona dla zwierząt"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": true,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża dla zwierząt – Łeba",
@@ -347,9 +560,30 @@
     "slug": "chalupy-kapielisko",
     "type": "beach",
     "name": "Kąpielisko w Chałupach",
-    "location": { "city": "Chałupy", "region": "Pomorskie", "country": "Polska", "lat": 54.760161, "lng": 18.513037 },
-    "facts": ["kąpielisko strzeżone"],
-    "features": { "parking": null, "toilets": null, "lifeguards": "seasonal", "dog_friendly": null },
+    "location": {
+      "city": "Chałupy",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.760161,
+      "lng": 18.513037
+    },
+    "features": [
+      "kąpielisko strzeżone"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": "seasonal",
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Kąpielisko w Chałupach – Chałupy",
@@ -362,9 +596,28 @@
     "slug": "hel-plaza-miejska",
     "type": "beach",
     "name": "Plaża Miejska w Helu",
-    "location": { "city": "Hel", "region": "Pomorskie", "country": "Polska", "lat": 54.606795, "lng": 18.798581 },
-    "facts": null,
-    "features": null,
+    "location": {
+      "city": "Hel",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.606795,
+      "lng": 18.798581
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża Miejska – Hel",
@@ -377,9 +630,28 @@
     "slug": "hel-duza-plaza-baltycka",
     "type": "beach",
     "name": "Duża Plaża Bałtycka w Helu",
-    "location": { "city": "Hel", "region": "Pomorskie", "country": "Polska", "lat": 54.60064, "lng": 18.823627 },
-    "facts": null,
-    "features": null,
+    "location": {
+      "city": "Hel",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.60064,
+      "lng": 18.823627
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Duża Plaża Bałtycka – Hel",
@@ -392,9 +664,28 @@
     "slug": "hel-plaza-cypel",
     "type": "beach",
     "name": "Plaża Cypel w Helu",
-    "location": { "city": "Hel", "region": "Pomorskie", "country": "Polska", "lat": 54.592887, "lng": 18.812436 },
-    "facts": null,
-    "features": null,
+    "location": {
+      "city": "Hel",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.592887,
+      "lng": 18.812436
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża Cypel – Hel",
@@ -407,9 +698,28 @@
     "slug": "rewa-cypel-rewski",
     "type": "beach",
     "name": "Cypel Rewski w Rewie",
-    "location": { "city": "Rewa", "region": "Pomorskie", "country": "Polska", "lat": 54.639041, "lng": 18.515382 },
-    "facts": null,
-    "features": null,
+    "location": {
+      "city": "Rewa",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.639041,
+      "lng": 18.515382
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Cypel Rewski – Rewa",
@@ -422,9 +732,30 @@
     "slug": "rowy-plaza-dla-psow",
     "type": "beach",
     "name": "Plaża dla psów w Rowach",
-    "location": { "city": "Rowy", "region": "Pomorskie", "country": "Polska", "lat": 54.65744, "lng": 17.032478 },
-    "facts": ["plaża przeznaczona dla psów"],
-    "features": { "parking": null, "toilets": null, "lifeguards": null, "dog_friendly": true },
+    "location": {
+      "city": "Rowy",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.65744,
+      "lng": 17.032478
+    },
+    "features": [
+      "plaża przeznaczona dla psów"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": true,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża dla psów w Rowach – Rowy",
@@ -437,9 +768,28 @@
     "slug": "bialogora-wejscie-31",
     "type": "beach",
     "name": "Plaża Białogóra (Wejście 31)",
-    "location": { "city": "Białogóra", "region": "Pomorskie", "country": "Polska", "lat": 54.830831, "lng": 17.988171 },
-    "facts": null,
-    "features": null,
+    "location": {
+      "city": "Białogóra",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.830831,
+      "lng": 17.988171
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża Białogóra (Wejście 31) – Białogóra",
@@ -452,9 +802,28 @@
     "slug": "gdansk-sobieszewo",
     "type": "beach",
     "name": "Plaża w Sobieszewie",
-    "location": { "city": "Gdańsk", "region": "Pomorskie", "country": "Polska", "lat": 54.355107, "lng": 18.836724 },
-    "facts": null,
-    "features": null,
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.355107,
+      "lng": 18.836724
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża w Sobieszewie – Gdańsk",
@@ -467,9 +836,28 @@
     "slug": "gdansk-swibno",
     "type": "beach",
     "name": "Plaża Świbno",
-    "location": { "city": "Gdańsk", "region": "Pomorskie", "country": "Polska", "lat": 54.346471, "lng": 18.910868 },
-    "facts": null,
-    "features": null,
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.346471,
+      "lng": 18.910868
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [],
     "access": null,
     "seo": {
       "title": "Plaża Świbno – Gdańsk",

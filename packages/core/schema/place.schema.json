@@ -3,40 +3,34 @@
     "id": "jelitkowo",
     "slug": "jelitkowo",
     "type": "beach",
-
     "name": "Plaża Jelitkowo",
-
     "location": {
       "city": "Gdańsk",
       "region": "Pomorskie",
-      "country": "Polska",
+      "country": "Polska"
+    },
+    "description": null,
+    "coordinates": {
       "lat": 54.424,
       "lng": 18.593
     },
-
-    "facts": [
-      "szeroka plaża z miękkim piaskiem",
-      "łatwy dostęp z centrum Gdańska",
-      "popularna w sezonie letnim"
-    ],
-
-    "features": {
-      "parking": true,
-      "toilets": true,
-      "lifeguards": "seasonal",
-      "dog_friendly": false
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
     },
-
-    "access": {
-      "public_transport": true,
-      "car_access": true,
-      "bike_access": true
-    },
-
+    "tags": [],
+    "access": null,
     "seo": {
       "title": "Plaża Jelitkowo – Gdańsk",
-      "h1": "Plaża Jelitkowo w Gdańsku",
-      "description": "Informacje o plaży Jelitkowo: dojazd, parking, udogodnienia i warunki."
+      "h1": "Plaża Jelitkowo",
+      "description": "Informacje o plaży Jelitkowo w Gdańsku (Pomorskie): lokalizacja i współrzędne."
     }
   }
 ]
