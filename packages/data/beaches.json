@@ -1172,7 +1172,9 @@
       "lat": 54.3703009,
       "lng": 18.77205
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: sand"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -1594,7 +1596,9 @@
       "lat": 54.4585361,
       "lng": 18.5614868
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: sand"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -3319,7 +3323,8 @@
       "lng": 21.9258362
     },
     "features": [
-      "nawierzchnia: grass"
+      "nawierzchnia: grass",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
@@ -3513,6 +3518,260 @@
         "beach/eko-plaza-gizycko-1279477168",
         "trail/generala-orlicz-dreszera-254217253",
         "parking/parking-samochodowy-696581835"
+      ]
+    }
+  },
+  {
+    "id": "garzer-strand-1420894323",
+    "slug": "garzer-strand-1420894323",
+    "osmId": "way/1420894323",
+    "name": "Garzer Strand",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.8719428,
+      "lng": 14.1952452
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/kamminker-strand-96874854",
+        "parking/parkplatz-hangar-10-1296006651",
+        "trail/kliffweg-257782709",
+        "trail/aleja-b-1499532550",
+        "trail/ulanska-206107528"
+      ]
+    }
+  },
+  {
+    "id": "plaza-naturystow-261775811",
+    "slug": "plaza-naturystow-261775811",
+    "osmId": "way/261775811",
+    "name": "Plaża Naturystów",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1661949,
+      "lng": 15.4566446
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-132-123942172",
+        "trail/wejscie-133-1375674141",
+        "parking/parking-lesny-123942174",
+        "trail/wejscie-131-837977696",
+        "trail/wejscie-130-164636982"
+      ]
+    }
+  },
+  {
+    "id": "plaza-miejska-372517024",
+    "slug": "plaza-miejska-372517024",
+    "osmId": "way/372517024",
+    "name": "Plaża Miejska",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4295149,
+      "lng": 14.5704289
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/hotel-focus-parking-242360315",
+        "parking/ppn-trasa-zamkowa-160567498",
+        "parking/parking-rotacyjny-dozorowany-53425191",
+        "trail/szewska-106937415",
+        "trail/jacka-malczewskiego-43171570"
+      ]
+    }
+  },
+  {
+    "id": "plaza-dabie-39327259",
+    "slug": "plaza-dabie-39327259",
+    "osmId": "way/39327259",
+    "name": "Plaża Dąbie",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4023886,
+      "lng": 14.6627365
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/hotel-boncza-547302316",
+        "trail/weteranow-195014101",
+        "parking/parking-aut-odholowanych-370438874",
+        "parking/tir-635687798",
+        "parking/outlet-park-szczecin-b-204050448"
+      ]
+    }
+  },
+  {
+    "id": "dziewoklicz-70847686",
+    "slug": "dziewoklicz-70847686",
+    "osmId": "way/70847686",
+    "name": "Dziewoklicz",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3790611,
+      "lng": 14.5376715
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/potoczna-1027043701",
+        "trail/darniowa-229227768",
+        "parking/silver-477188559",
+        "parking/retail-park-szczecin-mieszka-i-760831959",
+        "parking/kfc-mieszka-i-850214835"
+      ]
+    }
+  },
+  {
+    "id": "kamminker-strand-96874854",
+    "slug": "kamminker-strand-96874854",
+    "osmId": "way/96874854",
+    "name": "Kamminker Strand",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.8685679,
+      "lng": 14.2030981
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "beach/garzer-strand-1420894323",
+        "parking/parkplatz-hangar-10-1296006651",
+        "trail/kliffweg-257782709",
+        "trail/aleja-b-1499532550",
+        "trail/ulanska-206107528"
       ]
     }
   }

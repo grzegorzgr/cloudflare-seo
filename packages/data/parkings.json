@@ -1343,7 +1343,9 @@
       "lat": 49.2924954,
       "lng": 19.9567203
     },
-    "features": [],
+    "features": [
+      "pojemność: 8"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -1428,7 +1430,9 @@
       "lat": 51.745748,
       "lng": 19.3660634
     },
-    "features": [],
+    "features": [
+      "pojemność: 4"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -2099,7 +2103,9 @@
       "lat": 52.4107523,
       "lng": 16.86226
     },
-    "features": [],
+    "features": [
+      "operator: CH King Cross Marcelin"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -2225,7 +2231,10 @@
       "lat": 52.2324821,
       "lng": 21.0021995
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: asphalt",
+      "nawierzchnia: concrete"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -2354,7 +2363,7 @@
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": true,
       "lifeguards": null,
       "covered": null,
       "guarded": null
@@ -2773,7 +2782,8 @@
     },
     "features": [
       "operator: UM Kielce",
-      "oznakowanie: 65"
+      "oznakowanie: 65",
+      "oznakowanie: 43"
     ],
     "amenities": {
       "parking": true,
@@ -3110,7 +3120,8 @@
       "lng": 19.9048268
     },
     "features": [
-      "pojemność: 60"
+      "pojemność: 60",
+      "pojemność: 32"
     ],
     "amenities": {
       "parking": true,
@@ -3580,7 +3591,7 @@
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": true,
       "lifeguards": null,
       "covered": null,
       "guarded": null
@@ -3825,7 +3836,10 @@
       "lng": 19.9613788
     },
     "features": [
-      "pojemność: 1"
+      "pojemność: 1",
+      "pojemność: 2",
+      "pojemność: 3",
+      "operator: ZDMK"
     ],
     "amenities": {
       "parking": true,
@@ -4122,7 +4136,7 @@
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": true,
       "lifeguards": null,
       "covered": null,
       "guarded": null
@@ -4158,7 +4172,8 @@
       "lng": 19.5128747
     },
     "features": [
-      "oznakowanie: H2"
+      "oznakowanie: H2",
+      "oznakowanie: I2"
     ],
     "amenities": {
       "parking": true,
@@ -4201,7 +4216,8 @@
       "lng": 19.5109856
     },
     "features": [
-      "oznakowanie: A1"
+      "oznakowanie: A1",
+      "oznakowanie: B1"
     ],
     "amenities": {
       "parking": true,
@@ -4244,7 +4260,8 @@
       "lng": 19.5115233
     },
     "features": [
-      "oznakowanie: K1"
+      "oznakowanie: K1",
+      "oznakowanie: J1"
     ],
     "amenities": {
       "parking": true,
@@ -4287,7 +4304,8 @@
       "lng": 19.511412
     },
     "features": [
-      "oznakowanie: I1"
+      "oznakowanie: I1",
+      "oznakowanie: H1"
     ],
     "amenities": {
       "parking": true,
@@ -4330,7 +4348,8 @@
       "lng": 19.5126069
     },
     "features": [
-      "oznakowanie: G2"
+      "oznakowanie: G2",
+      "oznakowanie: F2"
     ],
     "amenities": {
       "parking": true,
@@ -4416,7 +4435,8 @@
       "lng": 19.5115233
     },
     "features": [
-      "oznakowanie: G1"
+      "oznakowanie: G1",
+      "oznakowanie: F1"
     ],
     "amenities": {
       "parking": true,
@@ -4502,7 +4522,8 @@
       "lng": 19.5123511
     },
     "features": [
-      "oznakowanie: A2"
+      "oznakowanie: A2",
+      "oznakowanie: B2"
     ],
     "amenities": {
       "parking": true,
@@ -4545,7 +4566,8 @@
       "lng": 19.5123923
     },
     "features": [
-      "oznakowanie: D2"
+      "oznakowanie: D2",
+      "oznakowanie: C2"
     ],
     "amenities": {
       "parking": true,
@@ -4588,7 +4610,8 @@
       "lng": 19.5112519
     },
     "features": [
-      "oznakowanie: C1"
+      "oznakowanie: C1",
+      "oznakowanie: D1"
     ],
     "amenities": {
       "parking": true,
@@ -4887,16 +4910,18 @@
       "lat": 51.2472442,
       "lng": 22.560988
     },
-    "features": [],
+    "features": [
+      "operator: Urząd Miasta"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
       "paid_entry": true,
-      "lifeguards": null,
+      "lifeguards": false,
       "covered": null,
-      "guarded": null
+      "guarded": false
     },
     "tags": [
       "osm"
@@ -5019,7 +5044,37 @@
     },
     "features": [
       "operator: ZDiUM Wrocław",
-      "pojemność: 20"
+      "pojemność: 20",
+      "nawierzchnia: paving_stones",
+      "pojemność: 28",
+      "pojemność: 17",
+      "pojemność: 38",
+      "pojemność: 57",
+      "pojemność: 34",
+      "nawierzchnia: asphalt",
+      "pojemność: 84",
+      "nawierzchnia: paved",
+      "pojemność: 110",
+      "nawierzchnia: grass_paver",
+      "pojemność: 244",
+      "pojemność: 33",
+      "pojemność: 22",
+      "pojemność: 115",
+      "pojemność: 369",
+      "pojemność: 129",
+      "nawierzchnia: ground",
+      "nawierzchnia: sett",
+      "pojemność: 35",
+      "pojemność: 30",
+      "pojemność: 50",
+      "pojemność: 46",
+      "pojemność: 40",
+      "pojemność: 161",
+      "pojemność: 44",
+      "pojemność: 31",
+      "pojemność: 80",
+      "pojemność: 65",
+      "pojemność: 69"
     ],
     "amenities": {
       "parking": true,
@@ -5027,9 +5082,9 @@
       "dog_friendly": null,
       "accessibility": null,
       "paid_entry": false,
-      "lifeguards": null,
+      "lifeguards": false,
       "covered": null,
-      "guarded": null
+      "guarded": false
     },
     "tags": [
       "osm"
@@ -5187,7 +5242,8 @@
     "features": [
       "nawierzchnia: concrete",
       "operator: Port Gdańsk",
-      "pojemność: 60"
+      "pojemność: 60",
+      "pojemność: 150"
     ],
     "amenities": {
       "parking": true,
@@ -6031,7 +6087,8 @@
       "lng": 20.9290048
     },
     "features": [
-      "pojemność: 2"
+      "pojemność: 2",
+      "pojemność: 3"
     ],
     "amenities": {
       "parking": true,
@@ -6160,14 +6217,15 @@
     },
     "features": [
       "nawierzchnia: paving_stones",
-      "pojemność: 2"
+      "pojemność: 2",
+      "nawierzchnia: asphalt"
     ],
     "amenities": {
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": false,
       "lifeguards": null,
       "covered": null,
       "guarded": null
@@ -6666,7 +6724,9 @@
       "lng": 20.9729365
     },
     "features": [
-      "pojemność: 32"
+      "pojemność: 32",
+      "pojemność: 7",
+      "pojemność: 23"
     ],
     "amenities": {
       "parking": true,
@@ -6970,14 +7030,17 @@
       "lng": 19.5716412
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: paved",
+      "nawierzchnia: unpaved",
+      "nawierzchnia: concrete"
     ],
     "amenities": {
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": true,
       "lifeguards": true,
       "covered": null,
       "guarded": true
@@ -7022,9 +7085,9 @@
       "dog_friendly": null,
       "accessibility": null,
       "paid_entry": true,
-      "lifeguards": null,
+      "lifeguards": true,
       "covered": null,
-      "guarded": null
+      "guarded": true
     },
     "tags": [
       "osm"
@@ -7394,7 +7457,8 @@
     },
     "features": [
       "nawierzchnia: paving_stones",
-      "pojemność: 2"
+      "pojemność: 2",
+      "pojemność: 1"
     ],
     "amenities": {
       "parking": true,
@@ -7479,13 +7543,18 @@
       "lat": 52.4096169,
       "lng": 16.791741
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: paving_stones",
+      "pojemność: 5",
+      "pojemność: 4",
+      "pojemność: 2"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": true,
       "lifeguards": null,
       "covered": null,
       "guarded": null
@@ -7820,13 +7889,14 @@
     },
     "features": [
       "nawierzchnia: asphalt",
-      "operator: ZDMK"
+      "operator: ZDMK",
+      "pojemność: 150"
     ],
     "amenities": {
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
-      "accessibility": null,
+      "accessibility": true,
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
@@ -8376,7 +8446,8 @@
     },
     "features": [
       "nawierzchnia: paving_stones",
-      "pojemność: 2"
+      "pojemność: 2",
+      "pojemność: 5"
     ],
     "amenities": {
       "parking": true,
@@ -8802,7 +8873,8 @@
       "lng": 20.9731403
     },
     "features": [
-      "operator: Spółdzielnia Budowlano-Mieszkaniowa \"RUDA\""
+      "operator: Spółdzielnia Budowlano-Mieszkaniowa \"RUDA\"",
+      "nawierzchnia: asphalt"
     ],
     "amenities": {
       "parking": true,
@@ -9013,7 +9085,9 @@
       "lng": 18.7084428
     },
     "features": [
-      "pojemność: 11"
+      "pojemność: 11",
+      "pojemność: 16",
+      "pojemność: 14"
     ],
     "amenities": {
       "parking": true,
@@ -9100,7 +9174,9 @@
       "lng": 19.4278118
     },
     "features": [
-      "oznakowanie: G"
+      "oznakowanie: G",
+      "oznakowanie: F",
+      "oznakowanie: E"
     ],
     "amenities": {
       "parking": true,
@@ -9143,7 +9219,8 @@
       "lng": 19.4267808
     },
     "features": [
-      "oznakowanie: D"
+      "oznakowanie: D",
+      "oznakowanie: C"
     ],
     "amenities": {
       "parking": true,
@@ -9186,7 +9263,8 @@
       "lng": 19.4259525
     },
     "features": [
-      "oznakowanie: B"
+      "oznakowanie: B",
+      "oznakowanie: A"
     ],
     "amenities": {
       "parking": true,
@@ -10796,13 +10874,15 @@
       "lat": 53.1192722,
       "lng": 23.1321374
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: asphalt"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": true,
       "lifeguards": null,
       "covered": null,
       "guarded": null
@@ -10878,7 +10958,9 @@
       "lat": 51.1351064,
       "lng": 17.0068843
     },
-    "features": [],
+    "features": [
+      "pojemność: 4"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -10925,7 +11007,7 @@
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": true,
       "lifeguards": null,
       "covered": null,
       "guarded": null
@@ -11893,7 +11975,9 @@
       "lng": 18.6396072
     },
     "features": [
-      "pojemność: 18"
+      "pojemność: 18",
+      "nawierzchnia: asphalt",
+      "pojemność: 17"
     ],
     "amenities": {
       "parking": true,
@@ -12023,7 +12107,8 @@
     },
     "features": [
       "nawierzchnia: concrete:plates",
-      "pojemność: 70"
+      "pojemność: 70",
+      "pojemność: 3"
     ],
     "amenities": {
       "parking": true,
@@ -12487,7 +12572,9 @@
     },
     "features": [
       "nawierzchnia: sett",
-      "pojemność: 5"
+      "pojemność: 5",
+      "nawierzchnia: asphalt",
+      "pojemność: 4"
     ],
     "amenities": {
       "parking": true,
@@ -13178,7 +13265,8 @@
     },
     "features": [
       "nawierzchnia: asphalt",
-      "pojemność: 1"
+      "pojemność: 1",
+      "pojemność: 2"
     ],
     "amenities": {
       "parking": true,
@@ -13264,7 +13352,11 @@
     "features": [
       "nawierzchnia: paving_stones",
       "operator: OSM Olsztyńska",
-      "pojemność: 50"
+      "pojemność: 50",
+      "pojemność: 40",
+      "pojemność: 16",
+      "nawierzchnia: asphalt",
+      "pojemność: 55"
     ],
     "amenities": {
       "parking": true,
@@ -13432,16 +13524,19 @@
       "lat": 53.12421,
       "lng": 23.1791306
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: concrete",
+      "nawierzchnia: paved"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
-      "lifeguards": null,
+      "paid_entry": true,
+      "lifeguards": false,
       "covered": null,
-      "guarded": null
+      "guarded": false
     },
     "tags": [
       "osm"
@@ -13908,7 +14003,8 @@
     "features": [
       "nawierzchnia: paved",
       "operator: APCOA Polska Sp. z o.o.",
-      "pojemność: 7"
+      "pojemność: 7",
+      "nawierzchnia: compacted"
     ],
     "amenities": {
       "parking": true,
@@ -14038,7 +14134,8 @@
       "lng": 20.9736994
     },
     "features": [
-      "nawierzchnia: paved"
+      "nawierzchnia: paved",
+      "operator: APCOA Polska Sp. z o.o."
     ],
     "amenities": {
       "parking": true,
@@ -14177,10 +14274,10 @@
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
-      "lifeguards": null,
+      "paid_entry": true,
+      "lifeguards": true,
       "covered": null,
-      "guarded": null
+      "guarded": true
     },
     "tags": [
       "osm"
@@ -15398,7 +15495,9 @@
       "lat": 51.7313405,
       "lng": 19.4542408
     },
-    "features": [],
+    "features": [
+      "pojemność: 25"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -16321,7 +16420,8 @@
       "lng": 18.9703014
     },
     "features": [
-      "operator: Transbej"
+      "operator: Transbej",
+      "pojemność: 80"
     ],
     "amenities": {
       "parking": true,
@@ -18547,7 +18647,10 @@
       "lat": 51.127559,
       "lng": 17.026938
     },
-    "features": [],
+    "features": [
+      "operator: ZUS",
+      "pojemność: 22"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -18589,7 +18692,8 @@
       "lng": 23.1641632
     },
     "features": [
-      "pojemność: 40"
+      "pojemność: 40",
+      "pojemność: 30"
     ],
     "amenities": {
       "parking": true,
@@ -19183,13 +19287,15 @@
       "lat": 52.222368,
       "lng": 21.090461
     },
-    "features": [],
+    "features": [
+      "pojemność: 30"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": true,
       "lifeguards": false,
       "covered": null,
       "guarded": false
@@ -19942,7 +20048,8 @@
       "lng": 19.4391102
     },
     "features": [
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "pojemność: 36"
     ],
     "amenities": {
       "parking": true,
@@ -20535,7 +20642,8 @@
       "lng": 18.7364219
     },
     "features": [
-      "pojemność: 9"
+      "pojemność: 9",
+      "pojemność: 8"
     ],
     "amenities": {
       "parking": true,
@@ -21454,7 +21562,8 @@
       "lng": 18.0089555
     },
     "features": [
-      "operator: KFC"
+      "operator: KFC",
+      "nawierzchnia: paved"
     ],
     "amenities": {
       "parking": true,
@@ -22306,7 +22415,9 @@
       "lat": 53.094775,
       "lng": 18.0605716
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -22682,16 +22793,18 @@
       "lat": 53.0235205,
       "lng": 18.6910601
     },
-    "features": [],
+    "features": [
+      "pojemność: 50"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
       "paid_entry": false,
-      "lifeguards": null,
+      "lifeguards": true,
       "covered": null,
-      "guarded": null
+      "guarded": true
     },
     "tags": [
       "osm"
@@ -23443,7 +23556,9 @@
       "lng": 15.7237357
     },
     "features": [
-      "operator: P.H.U. Usługi parkingowe Witold Matusiak"
+      "operator: P.H.U. Usługi parkingowe Witold Matusiak",
+      "nawierzchnia: asphalt",
+      "pojemność: 10"
     ],
     "amenities": {
       "parking": true,
@@ -24028,13 +24143,15 @@
       "lat": 50.782825,
       "lng": 19.138495
     },
-    "features": [],
+    "features": [
+      "pojemność: 88"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": false,
       "lifeguards": null,
       "covered": null,
       "guarded": null
@@ -24154,7 +24271,8 @@
       "lng": 20.8923459
     },
     "features": [
-      "operator: Factory Outlet"
+      "operator: Factory Outlet",
+      "operator: APCOA Parking"
     ],
     "amenities": {
       "parking": true,
@@ -24293,7 +24411,7 @@
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": false,
       "lifeguards": null,
       "covered": null,
       "guarded": null
@@ -24416,7 +24534,7 @@
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": false,
       "lifeguards": null,
       "covered": null,
       "guarded": null
@@ -24956,7 +25074,9 @@
       "lat": 50.0062038,
       "lng": 19.8762622
     },
-    "features": [],
+    "features": [
+      "operator: Futuriti"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -25038,7 +25158,9 @@
       "lat": 50.2769715,
       "lng": 19.028389
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -26333,7 +26455,8 @@
     "features": [
       "nawierzchnia: gravel",
       "operator: Lasy Państwowe",
-      "pojemność: 10"
+      "pojemność: 10",
+      "operator: Parking leśny"
     ],
     "amenities": {
       "parking": true,
@@ -27252,7 +27375,8 @@
       "lng": 17.0196552
     },
     "features": [
-      "pojemność: 7"
+      "pojemność: 7",
+      "pojemność: 16"
     ],
     "amenities": {
       "parking": true,
@@ -27544,7 +27668,9 @@
       "lat": 52.401122,
       "lng": 16.8532625
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -27674,7 +27800,7 @@
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
-      "accessibility": null,
+      "accessibility": "ograniczona",
       "paid_entry": true,
       "lifeguards": null,
       "covered": null,
@@ -29571,7 +29697,8 @@
     "features": [
       "nawierzchnia: paving_stones",
       "operator: Parking dla pracowników - Lotnicze Pogotowie Ratunkowe",
-      "pojemność: 8"
+      "pojemność: 8",
+      "pojemność: 1"
     ],
     "amenities": {
       "parking": true,
@@ -31556,7 +31683,10 @@
       "lat": 52.3804575,
       "lng": 16.8603789
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: concrete",
+      "pojemność: 30"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -33348,7 +33478,8 @@
       "lng": 21.034103
     },
     "features": [
-      "pojemność: 2"
+      "pojemność: 2",
+      "pojemność: 3"
     ],
     "amenities": {
       "parking": true,
@@ -34364,7 +34495,9 @@
       "lat": 49.9948733,
       "lng": 20.0323918
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -35025,6 +35158,4007 @@
         "parking/plac-swietego-jana-apostola-194996627",
         "trail/jar-wodnika-1262925131",
         "trail/marii-konopnickiej-365656830"
+      ]
+    }
+  },
+  {
+    "id": "p-3-10826299957",
+    "slug": "p-3-10826299957",
+    "osmId": "node/10826299957",
+    "name": "P-3",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1695286,
+      "lng": 15.529769
+    },
+    "features": [
+      "nawierzchnia: paved"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/koralowa-119329201",
+        "parking/p-2-10826299958",
+        "parking/p-1-10826299960",
+        "trail/krzysztofa-arciszewskiego-230089914",
+        "trail/wejscie-119-37657213"
+      ]
+    }
+  },
+  {
+    "id": "p-2-10826299958",
+    "slug": "p-2-10826299958",
+    "osmId": "node/10826299958",
+    "name": "P-2",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1707352,
+      "lng": 15.5328718
+    },
+    "features": [
+      "nawierzchnia: paved"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/p-3-10826299957",
+        "trail/koralowa-119329201",
+        "parking/p-1-10826299960",
+        "trail/krzysztofa-arciszewskiego-230089914",
+        "trail/wejscie-119-37657213"
+      ]
+    }
+  },
+  {
+    "id": "p-1-10826299960",
+    "slug": "p-1-10826299960",
+    "osmId": "node/10826299960",
+    "name": "P-1",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1718295,
+      "lng": 15.5366496
+    },
+    "features": [
+      "nawierzchnia: paved"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/p-2-10826299958",
+        "trail/krzysztofa-arciszewskiego-230089914",
+        "trail/jodlowa-456605156",
+        "trail/koralowa-119329201",
+        "parking/p-3-10826299957"
+      ]
+    }
+  },
+  {
+    "id": "personal-10882856330",
+    "slug": "personal-10882856330",
+    "osmId": "node/10882856330",
+    "name": "Personal",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9536597,
+      "lng": 14.1581369
+    },
+    "features": [
+      "nawierzchnia: gravel"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/willibald-alexis-weg-26508096",
+        "trail/apothekerweg-245536631",
+        "parking/stadt-berlin-589189432",
+        "parking/strandparkplatz-labahnstra-e-40-583879845",
+        "trail/2n-231600211"
+      ]
+    }
+  },
+  {
+    "id": "parking-lesny-1195168786",
+    "slug": "parking-lesny-1195168786",
+    "osmId": "node/1195168786",
+    "name": "parking leśny",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1880859,
+      "lng": 16.2961973
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": false,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/miejsce-postoju-3112192888",
+        "trail/serwacego-172136248",
+        "trail/bonifacego-257121172",
+        "trail/dereniowa-333293420",
+        "trail/przybyslawa-230353232"
+      ]
+    }
+  },
+  {
+    "id": "parking-starowka-12238460901",
+    "slug": "parking-starowka-12238460901",
+    "osmId": "node/12238460901",
+    "name": "Parking Starówka",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1738709,
+      "lng": 15.5783973
+    },
+    "features": [
+      "nawierzchnia: concrete",
+      "pojemność: 325"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": true,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/bus-1262000038",
+        "parking/strefa-b-255395458",
+        "parking/strefa-c-1105999448",
+        "parking/school-bus-732466918",
+        "trail/ksiecia-warcislawa-iii-457738756"
+      ]
+    }
+  },
+  {
+    "id": "rathaus-1-1378765875",
+    "slug": "rathaus-1-1378765875",
+    "osmId": "node/1378765875",
+    "name": "Rathaus 1",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9403084,
+      "lng": 14.1908967
+    },
+    "features": [
+      "nawierzchnia: compacted"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/1-j-123715799",
+        "trail/siedlung-ostend-428923140",
+        "trail/promenade-1175456240",
+        "trail/1-x-45578755",
+        "trail/d-nenstra-e-362655841"
+      ]
+    }
+  },
+  {
+    "id": "24h-1844971487",
+    "slug": "24h-1844971487",
+    "osmId": "node/1844971487",
+    "name": "24h",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9179937,
+      "lng": 14.247868
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-10-1009084108",
+        "trail/wejscie-9-620917939",
+        "trail/wejscie-11-1078959758",
+        "trail/aleja-cisowa-181166559",
+        "parking/busparkplatz-1527836074"
+      ]
+    }
+  },
+  {
+    "id": "parking-hotelu-gromada-koszalin-1909120053",
+    "slug": "parking-hotelu-gromada-koszalin-1909120053",
+    "osmId": "node/1909120053",
+    "name": "Parking Hotelu Gromada Koszalin",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1892516,
+      "lng": 16.1744648
+    },
+    "features": [
+      "pojemność: 25"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/spoldzielcza-1069492675",
+        "parking/parking-platny-1140188856",
+        "parking/parking-przy-polczynskiej-180560405",
+        "trail/aleja-gwiazd-kabaretu-618179470",
+        "trail/access-to-yard-956561246"
+      ]
+    }
+  },
+  {
+    "id": "miejsce-postoju-3112192888",
+    "slug": "miejsce-postoju-3112192888",
+    "osmId": "node/3112192888",
+    "name": "miejsce postoju",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1870306,
+      "lng": 16.2600162
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/serwacego-172136248",
+        "trail/bonifacego-257121172",
+        "trail/dereniowa-333293420",
+        "trail/przybyslawa-230353232",
+        "parking/parking-biedronka-ul-zwyciestwa-562294409"
+      ]
+    }
+  },
+  {
+    "id": "biuro-spp-kolobrzeg-3743926598",
+    "slug": "biuro-spp-kolobrzeg-3743926598",
+    "osmId": "node/3743926598",
+    "name": "Biuro SPP Kołobrzeg",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1747025,
+      "lng": 15.559655
+    },
+    "features": [
+      "operator: KM Kołobrzeg"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/centrum-przesiadkowe-569458728",
+        "trail/bulwar-im-kotwicy-kolobrzeg-379598711",
+        "trail/bulwar-nad-parseta-225114860",
+        "trail/nabrzeze-fosa-wal-obronny-797325989",
+        "trail/bulwar-marynarzy-okretow-pogranicza-230322989"
+      ]
+    }
+  },
+  {
+    "id": "hotelparkpl-tze-519667038",
+    "slug": "hotelparkpl-tze-519667038",
+    "osmId": "node/519667038",
+    "name": "Hotelparkplätze",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9723159,
+      "lng": 14.143284
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/schloonsee-24838186",
+        "parking/32-1156940226",
+        "trail/an-der-seebr-cke-41947816",
+        "trail/am-schloonsee-376949480",
+        "trail/seestra-e-1251689729"
+      ]
+    }
+  },
+  {
+    "id": "dla-klientow-kajaki-wodnik-eu-6449622154",
+    "slug": "dla-klientow-kajaki-wodnik-eu-6449622154",
+    "osmId": "node/6449622154",
+    "name": "dla klientów kajaki-wodnik.eu",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3480092,
+      "lng": 14.4989031
+    },
+    "features": [
+      "nawierzchnia: grass",
+      "operator: kajaki-wodnik.eu"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/dworek-siadlo-687993606",
+        "beach/dziewoklicz-70847686",
+        "trail/grecka-1021995311",
+        "trail/osiedle-teczowe-455687049",
+        "trail/potoczna-1027043701"
+      ]
+    }
+  },
+  {
+    "id": "parkig-bus-1022676133",
+    "slug": "parkig-bus-1022676133",
+    "osmId": "way/1022676133",
+    "name": "Parkig BUS",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.904589,
+      "lng": 14.2686511
+    },
+    "features": [
+      "pojemność: 5"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/norweska-502183406",
+        "trail/aleja-piknikowa-181166508",
+        "trail/aleja-wiazowa-492671571",
+        "trail/aleja-parkowa-181166491",
+        "parking/parking-tir-502128078"
+      ]
+    }
+  },
+  {
+    "id": "bus-parking-1084081711",
+    "slug": "bus-parking-1084081711",
+    "osmId": "way/1084081711",
+    "name": "BUS PARKING",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.851522,
+      "lng": 14.2962557
+    },
+    "features": [
+      "pojemność: 2"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/kwiatowa-204544778",
+        "parking/parking-tir-502128078",
+        "trail/wrzosowa-1382087864",
+        "trail/norweska-502183406",
+        "parking/parkig-bus-1022676133"
+      ]
+    }
+  },
+  {
+    "id": "strefa-c-1105999448",
+    "slug": "strefa-c-1105999448",
+    "osmId": "way/1105999448",
+    "name": "Strefa C",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1780043,
+      "lng": 15.5763588
+    },
+    "features": [
+      "nawierzchnia: asphalt"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/strefa-b-255395458",
+        "trail/marynarzy-okretow-pogranicza-521439301",
+        "parking/parking-starowka-12238460901",
+        "parking/meteo-268311004",
+        "parking/bus-1262000038"
+      ]
+    }
+  },
+  {
+    "id": "kiss-ride-1107824219",
+    "slug": "kiss-ride-1107824219",
+    "osmId": "way/1107824219",
+    "name": "Kiss&Ride",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4317973,
+      "lng": 14.5363792
+    },
+    "features": [
+      "nawierzchnia: asphalt"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/platny-528458551",
+        "parking/dla-klientow-enea-463938301",
+        "parking/parking-kw-36-1458741876",
+        "parking/ppn-oginskiego-281584721",
+        "parking/parking-spp-235873393"
+      ]
+    }
+  },
+  {
+    "id": "parking-platny-1140188856",
+    "slug": "parking-platny-1140188856",
+    "osmId": "way/1140188856",
+    "name": "Parking płatny",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1877431,
+      "lng": 16.1774706
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-hotelu-gromada-koszalin-1909120053",
+        "trail/spoldzielcza-1069492675",
+        "parking/parking-przy-polczynskiej-180560405",
+        "parking/wenedow-173751838",
+        "trail/aleja-gwiazd-kabaretu-618179470"
+      ]
+    }
+  },
+  {
+    "id": "32-1156940226",
+    "slug": "32-1156940226",
+    "osmId": "way/1156940226",
+    "name": "32",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": "DE"
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9706192,
+      "lng": 14.1407877
+    },
+    "features": [
+      "pojemność: 1",
+      "oznakowanie: 32"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/hotelparkpl-tze-519667038",
+        "parking/schloonsee-24838186",
+        "trail/an-der-seebr-cke-41947816",
+        "trail/am-schloonsee-376949480",
+        "trail/seestra-e-1251689729"
+      ]
+    }
+  },
+  {
+    "id": "bus-1159025231",
+    "slug": "bus-1159025231",
+    "osmId": "way/1159025231",
+    "name": "BUS",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9147572,
+      "lng": 14.304841
+    },
+    "features": [
+      "nawierzchnia: sett"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-18-23541749",
+        "trail/wrzosowa-1382087864",
+        "trail/norweska-502183406",
+        "trail/promenada-lesna-1293025318",
+        "trail/wejscie-17-317410538"
+      ]
+    }
+  },
+  {
+    "id": "parking-lesny-123942174",
+    "slug": "parking-lesny-123942174",
+    "osmId": "way/123942174",
+    "name": "Parking Leśny",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1629795,
+      "lng": 15.4519827
+    },
+    "features": [
+      "nawierzchnia: ground"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-132-123942172",
+        "trail/wejscie-133-1375674141",
+        "beach/plaza-naturystow-261775811",
+        "trail/wejscie-134-123484940",
+        "trail/wejscie-131-837977696"
+      ]
+    }
+  },
+  {
+    "id": "parking-strzezony-port-124461247",
+    "slug": "parking-strzezony-port-124461247",
+    "osmId": "way/124461247",
+    "name": "Parking strzeżony „Port”",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1840383,
+      "lng": 15.5554125
+    },
+    "features": [
+      "pojemność: 80"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": true,
+      "covered": null,
+      "guarded": true
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-port-1429701802",
+        "trail/bindaz-grabowy-726553535",
+        "parking/bus-30-min-656645428",
+        "trail/bulwar-zacisze-785508691",
+        "trail/wejscie-114-727214522"
+      ]
+    }
+  },
+  {
+    "id": "bus-1262000038",
+    "slug": "bus-1262000038",
+    "osmId": "way/1262000038",
+    "name": "BUS",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1730834,
+      "lng": 15.576664
+    },
+    "features": [
+      "nawierzchnia: asphalt"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-starowka-12238460901",
+        "parking/strefa-b-255395458",
+        "trail/ksiecia-warcislawa-iii-457738756",
+        "parking/strefa-c-1105999448",
+        "trail/marynarzy-okretow-pogranicza-521439301"
+      ]
+    }
+  },
+  {
+    "id": "parkplatz-hangar-10-1296006651",
+    "slug": "parkplatz-hangar-10-1296006651",
+    "osmId": "way/1296006651",
+    "name": "Parkplatz Hangar 10",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.8763938,
+      "lng": 14.1472825
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/kliffweg-257782709",
+        "beach/garzer-strand-1420894323",
+        "beach/kamminker-strand-96874854",
+        "trail/bergstra-e-491969934",
+        "trail/ulanska-206107528"
+      ]
+    }
+  },
+  {
+    "id": "parking-zabka-1319243970",
+    "slug": "parking-zabka-1319243970",
+    "osmId": "way/1319243970",
+    "name": "Parking Żabka",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4379535,
+      "lng": 14.5085617
+    },
+    "features": [
+      "nawierzchnia: paving_stones",
+      "pojemność: 6"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wologoska-851625535",
+        "trail/romualda-traugutta-164648592",
+        "parking/parking-zachodni-1-891328154",
+        "trail/stanislawa-ignacego-witkiewicza-224156930",
+        "parking/parking-poludniowy-891328155"
+      ]
+    }
+  },
+  {
+    "id": "parking-tir-1346862597",
+    "slug": "parking-tir-1346862597",
+    "osmId": "way/1346862597",
+    "name": "Parking TIR",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1472938,
+      "lng": 16.1317877
+    },
+    "features": [
+      "nawierzchnia: asphalt",
+      "pojemność: 20"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-adr-1346862604",
+        "parking/wenedow-173751838",
+        "parking/parking-platny-1140188856",
+        "parking/parking-hotelu-gromada-koszalin-1909120053",
+        "parking/parking-przy-polczynskiej-180560405"
+      ]
+    }
+  },
+  {
+    "id": "parking-adr-1346862604",
+    "slug": "parking-adr-1346862604",
+    "osmId": "way/1346862604",
+    "name": "Parking ADR",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1455798,
+      "lng": 16.1291912
+    },
+    "features": [
+      "nawierzchnia: asphalt"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-tir-1346862597",
+        "parking/wenedow-173751838",
+        "parking/parking-platny-1140188856",
+        "parking/parking-hotelu-gromada-koszalin-1909120053",
+        "parking/parking-przy-polczynskiej-180560405"
+      ]
+    }
+  },
+  {
+    "id": "ch-omni-szczecin-mieszka-i-1418290681",
+    "slug": "ch-omni-szczecin-mieszka-i-1418290681",
+    "osmId": "way/1418290681",
+    "name": "CH Omni Szczecin Mieszka I",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4105832,
+      "lng": 14.5211783
+    },
+    "features": [
+      "operator: APCOA"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/retail-park-szczecin-mieszka-i-760831959",
+        "parking/biuro-styl-2000-203401367",
+        "parking/galeria-mieszka-203397535",
+        "trail/aleja-widokowa-957956695",
+        "trail/kwatera-zasluzonych-245709827"
+      ]
+    }
+  },
+  {
+    "id": "parking-port-1429701802",
+    "slug": "parking-port-1429701802",
+    "osmId": "way/1429701802",
+    "name": "Parking Port",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1833601,
+      "lng": 15.5554341
+    },
+    "features": [
+      "nawierzchnia: concrete",
+      "operator: Interparking Polska Sp. z o.o.",
+      "pojemność: 365"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-strzezony-port-124461247",
+        "trail/bindaz-grabowy-726553535",
+        "parking/bus-30-min-656645428",
+        "trail/bulwar-zacisze-785508691",
+        "trail/nabrzeze-fosa-wal-obronny-797325989"
+      ]
+    }
+  },
+  {
+    "id": "punkt-czerpania-wody-1431640664",
+    "slug": "punkt-czerpania-wody-1431640664",
+    "osmId": "way/1431640664",
+    "name": "punkt czerpania wody",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.8983592,
+      "lng": 14.3550694
+    },
+    "features": [
+      "nawierzchnia: gravel"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/zalewowa-181166504",
+        "parking/bus-1159025231",
+        "trail/wrzosowa-1382087864",
+        "trail/norweska-502183406",
+        "parking/parking-tir-502128078"
+      ]
+    }
+  },
+  {
+    "id": "parking-kw-36-1458741876",
+    "slug": "parking-kw-36-1458741876",
+    "osmId": "way/1458741876",
+    "name": "Parking KW 36",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4282229,
+      "lng": 14.5419101
+    },
+    "features": [
+      "operator: NiOL",
+      "pojemność: 262"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/kiss-ride-1107824219",
+        "trail/szczytowa-540018193",
+        "trail/zgodna-439084740",
+        "parking/dla-klientow-enea-463938301",
+        "parking/platny-528458551"
+      ]
+    }
+  },
+  {
+    "id": "busparkplatz-1527836074",
+    "slug": "busparkplatz-1527836074",
+    "osmId": "way/1527836074",
+    "name": "Busparkplatz",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9214314,
+      "lng": 14.2422332
+    },
+    "features": [
+      "nawierzchnia: asphalt",
+      "operator: West Baltic Resort",
+      "pojemność: 3"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-6-992449573",
+        "trail/wejscie-7-206338027",
+        "trail/promenada-historyczna-992449583",
+        "trail/wejscie-5-1476886517",
+        "trail/wejscie-8-451638659"
+      ]
+    }
+  },
+  {
+    "id": "parking-ogrody-dzialkowe-krzekowo-160513253",
+    "slug": "parking-ogrody-dzialkowe-krzekowo-160513253",
+    "osmId": "way/160513253",
+    "name": "Parking Ogrody Działkowe Krzekowo",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4434315,
+      "lng": 14.4698383
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/nad-stobnica-1455088384",
+        "parking/netto-modra-456459715",
+        "trail/podlesna-686470354",
+        "trail/willowa-686470350",
+        "parking/parking-pp-994993571"
+      ]
+    }
+  },
+  {
+    "id": "ppn-trasa-zamkowa-160567498",
+    "slug": "ppn-trasa-zamkowa-160567498",
+    "osmId": "way/160567498",
+    "name": "PPN Trasa Zamkowa",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4270977,
+      "lng": 14.5618903
+    },
+    "features": [
+      "operator: Nieruchomości i Opłaty Lokalne sp. z o.o. w Szczecinie"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/hotel-focus-parking-242360315",
+        "trail/szewska-106937415",
+        "trail/plac-orla-bialego-23461128",
+        "trail/staromiejska-163494186",
+        "trail/pasaz-williama-turnera-1040509375"
+      ]
+    }
+  },
+  {
+    "id": "parking-wielopoziomowy-168514837",
+    "slug": "parking-wielopoziomowy-168514837",
+    "osmId": "way/168514837",
+    "name": "Parking wielopoziomowy",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1999486,
+      "lng": 16.2122164
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wladyslawa-broniewskiego-272406026",
+        "trail/doktora-andrzeja-zientarskiego-961021970",
+        "trail/sloneczna-218448723",
+        "trail/4-marca-541431861",
+        "trail/stefana-czarneckiego-229597837"
+      ]
+    }
+  },
+  {
+    "id": "wenedow-173751838",
+    "slug": "wenedow-173751838",
+    "osmId": "way/173751838",
+    "name": "Wenedów",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1811919,
+      "lng": 16.1803992
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-przy-polczynskiej-180560405",
+        "parking/parking-platny-1140188856",
+        "parking/parking-hotelu-gromada-koszalin-1909120053",
+        "trail/spoldzielcza-1069492675",
+        "trail/aleja-gwiazd-kabaretu-618179470"
+      ]
+    }
+  },
+  {
+    "id": "parking-przy-biedronce-174803150",
+    "slug": "parking-przy-biedronce-174803150",
+    "osmId": "way/174803150",
+    "name": "Parking przy Biedronce",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.2104317,
+      "lng": 16.1850039
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-strzezony-293174954",
+        "trail/aleja-ksiedza-kazimierza-bednarskiego-169212709",
+        "trail/podgorna-1184627710",
+        "trail/access-to-yard-956561246",
+        "trail/polonii-1001990085"
+      ]
+    }
+  },
+  {
+    "id": "parking-przy-polczynskiej-180560405",
+    "slug": "parking-przy-polczynskiej-180560405",
+    "osmId": "way/180560405",
+    "name": "parking przy Połczyńskiej",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.185415,
+      "lng": 16.1844605
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-platny-1140188856",
+        "parking/wenedow-173751838",
+        "parking/parking-hotelu-gromada-koszalin-1909120053",
+        "trail/aleja-gwiazd-kabaretu-618179470",
+        "trail/spoldzielcza-1069492675"
+      ]
+    }
+  },
+  {
+    "id": "galeria-mieszka-203397535",
+    "slug": "galeria-mieszka-203397535",
+    "osmId": "way/203397535",
+    "name": "Galeria Mieszka",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4129187,
+      "lng": 14.524476
+    },
+    "features": [
+      "operator: Galeria MIeszka",
+      "pojemność: 80"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/biuro-styl-2000-203401367",
+        "parking/ch-omni-szczecin-mieszka-i-1418290681",
+        "parking/retail-park-szczecin-mieszka-i-760831959",
+        "trail/kwatera-zasluzonych-245709827",
+        "trail/stefana-lewandowskiego-893165499"
+      ]
+    }
+  },
+  {
+    "id": "biuro-styl-2000-203401367",
+    "slug": "biuro-styl-2000-203401367",
+    "osmId": "way/203401367",
+    "name": "Biuro Styl 2000",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4120339,
+      "lng": 14.5242128
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/galeria-mieszka-203397535",
+        "parking/ch-omni-szczecin-mieszka-i-1418290681",
+        "parking/retail-park-szczecin-mieszka-i-760831959",
+        "trail/kwatera-zasluzonych-245709827",
+        "trail/stefana-lewandowskiego-893165499"
+      ]
+    }
+  },
+  {
+    "id": "outlet-park-szczecin-a-204050446",
+    "slug": "outlet-park-szczecin-a-204050446",
+    "osmId": "way/204050446",
+    "name": "Outlet Park Szczecin A",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3806777,
+      "lng": 14.6693638
+    },
+    "features": [
+      "operator: Outlet Park Szczecin"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/outlet-park-szczecin-b-204050448",
+        "parking/tir-635687798",
+        "trail/weteranow-195014101",
+        "parking/hotel-boncza-547302316",
+        "trail/przejscie-podziemne-1296430909"
+      ]
+    }
+  },
+  {
+    "id": "outlet-park-szczecin-b-204050448",
+    "slug": "outlet-park-szczecin-b-204050448",
+    "osmId": "way/204050448",
+    "name": "Outlet Park Szczecin B",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3817423,
+      "lng": 14.6713448
+    },
+    "features": [
+      "operator: Outlet Park Szczecin"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/tir-635687798",
+        "parking/outlet-park-szczecin-a-204050446",
+        "trail/weteranow-195014101",
+        "parking/hotel-boncza-547302316",
+        "trail/przejscie-podziemne-1296430909"
+      ]
+    }
+  },
+  {
+    "id": "parking-platny-24-h-218351734",
+    "slug": "parking-platny-24-h-218351734",
+    "osmId": "way/218351734",
+    "name": "Parking płatny 24/h",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1850779,
+      "lng": 15.5917266
+    },
+    "features": [
+      "nawierzchnia: asphalt"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-108-1072057850",
+        "parking/meteo-268311004",
+        "parking/taxi-733193777",
+        "trail/wejscie-109-1072057849",
+        "trail/wejscie-104-1072057843"
+      ]
+    }
+  },
+  {
+    "id": "parking-spp-235873393",
+    "slug": "parking-spp-235873393",
+    "osmId": "way/235873393",
+    "name": "Parking SPP",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.43846,
+      "lng": 14.5419642
+    },
+    "features": [
+      "nawierzchnia: asphalt",
+      "pojemność: 33"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": true,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/ppn-oginskiego-281584721",
+        "parking/dla-klientow-enea-463938301",
+        "parking/biuro-spp-917556153",
+        "trail/stanislawa-i-wandy-milaszewskich-31263203",
+        "trail/heleny-kurcyuszowej-31263202"
+      ]
+    }
+  },
+  {
+    "id": "parking-grzybowo-dzwirzyno-237683366",
+    "slug": "parking-grzybowo-dzwirzyno-237683366",
+    "osmId": "way/237683366",
+    "name": "Parking Grzybowo - Dźwirzyno",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1641759,
+      "lng": 15.4727469
+    },
+    "features": [
+      "pojemność: 67"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-130-164636982",
+        "trail/wejscie-129-164636976",
+        "trail/wejscie-131-837977696",
+        "trail/zejscie-na-plaze-339-2-437670913",
+        "beach/plaza-naturystow-261775811"
+      ]
+    }
+  },
+  {
+    "id": "hotel-focus-parking-242360315",
+    "slug": "hotel-focus-parking-242360315",
+    "osmId": "way/242360315",
+    "name": "Hotel Focus - parking",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4270388,
+      "lng": 14.5636225
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": true,
+      "covered": null,
+      "guarded": true
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/ppn-trasa-zamkowa-160567498",
+        "trail/szewska-106937415",
+        "beach/plaza-miejska-372517024",
+        "trail/plac-orla-bialego-23461128",
+        "trail/staromiejska-163494186"
+      ]
+    }
+  },
+  {
+    "id": "schloonsee-24838186",
+    "slug": "schloonsee-24838186",
+    "osmId": "way/24838186",
+    "name": "Schloonsee",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9704378,
+      "lng": 14.1448951
+    },
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/hotelparkpl-tze-519667038",
+        "parking/32-1156940226",
+        "trail/an-der-seebr-cke-41947816",
+        "trail/am-schloonsee-376949480",
+        "trail/strandpromenade-102812702"
+      ]
+    }
+  },
+  {
+    "id": "strefa-b-255395458",
+    "slug": "strefa-b-255395458",
+    "osmId": "way/255395458",
+    "name": "Strefa B",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1767667,
+      "lng": 15.5742235
+    },
+    "features": [
+      "operator: Komunikacja Miejska Kołobrzeg"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": true,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/strefa-c-1105999448",
+        "trail/marynarzy-okretow-pogranicza-521439301",
+        "parking/parking-starowka-12238460901",
+        "parking/bus-1262000038",
+        "trail/bulwar-marynarzy-okretow-pogranicza-230322989"
+      ]
+    }
+  },
+  {
+    "id": "meteo-268311004",
+    "slug": "meteo-268311004",
+    "osmId": "way/268311004",
+    "name": "Meteo",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1818856,
+      "lng": 15.5808894
+    },
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/taxi-733193777",
+        "parking/strefa-c-1105999448",
+        "trail/wejscie-109-1072057849",
+        "trail/wejscie-108-1072057850",
+        "parking/strefa-parkowania-709164197"
+      ]
+    }
+  },
+  {
+    "id": "ppn-oginskiego-281584721",
+    "slug": "ppn-oginskiego-281584721",
+    "osmId": "way/281584721",
+    "name": "PPN Ogińskiego",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4388824,
+      "lng": 14.5401513
+    },
+    "features": [
+      "operator: Nieruchomości i Opłaty Lokalne sp. z o.o. w Szczecinie",
+      "pojemność: 12"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-spp-235873393",
+        "parking/dla-klientow-enea-463938301",
+        "parking/biuro-spp-917556153",
+        "trail/stanislawa-i-wandy-milaszewskich-31263203",
+        "trail/heleny-kurcyuszowej-31263202"
+      ]
+    }
+  },
+  {
+    "id": "parking-strzezony-293174954",
+    "slug": "parking-strzezony-293174954",
+    "osmId": "way/293174954",
+    "name": "Parking Strzeżony",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.2083801,
+      "lng": 16.1835792
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": true,
+      "covered": null,
+      "guarded": true
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-przy-biedronce-174803150",
+        "trail/aleja-ksiedza-kazimierza-bednarskiego-169212709",
+        "trail/podgorna-1184627710",
+        "trail/access-to-yard-956561246",
+        "trail/polonii-1001990085"
+      ]
+    }
+  },
+  {
+    "id": "residenz-waldoase-303040218",
+    "slug": "residenz-waldoase-303040218",
+    "osmId": "way/303040218",
+    "name": "Residenz Waldoase",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9324608,
+      "lng": 14.2067949
+    },
+    "features": [
+      "nawierzchnia: pebblestone",
+      "operator: Residenz Waldoase"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/1-a6-231590835",
+        "trail/1-b-197698156",
+        "trail/1-a5-197698157",
+        "trail/1-a4-197698153",
+        "trail/1-f-79608412"
+      ]
+    }
+  },
+  {
+    "id": "parking-warsztatowy-337139183",
+    "slug": "parking-warsztatowy-337139183",
+    "osmId": "way/337139183",
+    "name": "Parking warsztatowy",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1465127,
+      "lng": 15.5619026
+    },
+    "features": [
+      "nawierzchnia: concrete",
+      "operator: AutoMax"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": true,
+      "covered": null,
+      "guarded": true
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/mieczyslawa-karlowicza-174955496",
+        "trail/bursztynowa-119329200",
+        "trail/ksiecia-warcislawa-iii-457738756",
+        "trail/turkusowa-440203944",
+        "parking/bus-1262000038"
+      ]
+    }
+  },
+  {
+    "id": "parking-aut-odholowanych-370438874",
+    "slug": "parking-aut-odholowanych-370438874",
+    "osmId": "way/370438874",
+    "name": "Parking aut odholowanych",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3884455,
+      "lng": 14.6402053
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/p-r-turkusowa-455153971",
+        "parking/p-r-hangarowa-452327193",
+        "trail/letniskowa-36888303",
+        "parking/hotel-boncza-547302316",
+        "trail/weteranow-195014101"
+      ]
+    }
+  },
+  {
+    "id": "ppn-czarnieckiego-40996428",
+    "slug": "ppn-czarnieckiego-40996428",
+    "osmId": "way/40996428",
+    "name": "PPN Czarnieckiego",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4187072,
+      "lng": 14.5471188
+    },
+    "features": [
+      "operator: Nieruchomości i Opłaty Lokalne sp. z o.o. w Szczecinie"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/pasaz-williama-turnera-1040509375",
+        "trail/zgodna-439084740",
+        "trail/stefana-lewandowskiego-893165499",
+        "trail/staromiejska-163494186",
+        "trail/jozefa-sowinskiego-27559207"
+      ]
+    }
+  },
+  {
+    "id": "upstalsboom-429239122",
+    "slug": "upstalsboom-429239122",
+    "osmId": "way/429239122",
+    "name": "Upstalsboom",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9503648,
+      "lng": 14.1720902
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/2-g-24872490",
+        "trail/neuer-weg-24872601",
+        "trail/baumwipfelpfad-1036309160",
+        "trail/damenbadweg-24872478",
+        "trail/2-e-45580326"
+      ]
+    }
+  },
+  {
+    "id": "parking-tir-platny-446778451",
+    "slug": "parking-tir-platny-446778451",
+    "osmId": "way/446778451",
+    "name": "Parking TIR (płatny)",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.5146848,
+      "lng": 14.5679322
+    },
+    "features": [
+      "nawierzchnia: asphalt"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/lesny-nowy-drapak-1028893643",
+        "trail/zapach-cebuli-809939295",
+        "trail/extreme-biking-189753314",
+        "trail/mostek-im-jasia-i-malgosi-1198776056",
+        "trail/krokusowa-1155633159"
+      ]
+    }
+  },
+  {
+    "id": "p-r-hangarowa-452327193",
+    "slug": "p-r-hangarowa-452327193",
+    "osmId": "way/452327193",
+    "name": "P+R Hangarowa",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3881866,
+      "lng": 14.6266842
+    },
+    "features": [
+      "nawierzchnia: grass_paver",
+      "pojemność: 425"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-aut-odholowanych-370438874",
+        "trail/letniskowa-36888303",
+        "parking/p-r-turkusowa-455153971",
+        "trail/stary-wiadukt-451524403",
+        "trail/tunel-kolejki-w-starej-kopalni-452721624"
+      ]
+    }
+  },
+  {
+    "id": "p-r-turkusowa-455153971",
+    "slug": "p-r-turkusowa-455153971",
+    "osmId": "way/455153971",
+    "name": "P+R Turkusowa",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3806682,
+      "lng": 14.6430114
+    },
+    "features": [
+      "nawierzchnia: paving_stones",
+      "pojemność: 58"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-aut-odholowanych-370438874",
+        "trail/letniskowa-36888303",
+        "parking/p-r-hangarowa-452327193",
+        "trail/droga-do-dawnego-mittenmuhle-fontanna-rudolfa-32540479",
+        "parking/outlet-park-szczecin-a-204050446"
+      ]
+    }
+  },
+  {
+    "id": "netto-modra-456459715",
+    "slug": "netto-modra-456459715",
+    "osmId": "way/456459715",
+    "name": "Netto Modra",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4550801,
+      "lng": 14.4728948
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-ogrody-dzialkowe-krzekowo-160513253",
+        "trail/podlesna-686470354",
+        "trail/willowa-686470350",
+        "trail/nad-stobnica-1455088384",
+        "parking/parking-pp-994993571"
+      ]
+    }
+  },
+  {
+    "id": "dla-klientow-enea-463938301",
+    "slug": "dla-klientow-enea-463938301",
+    "osmId": "way/463938301",
+    "name": "Dla klientów ENEA",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4355087,
+      "lng": 14.5379445
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/ppn-oginskiego-281584721",
+        "parking/parking-spp-235873393",
+        "parking/kiss-ride-1107824219",
+        "parking/platny-528458551",
+        "parking/biuro-spp-917556153"
+      ]
+    }
+  },
+  {
+    "id": "silver-477188559",
+    "slug": "silver-477188559",
+    "osmId": "way/477188559",
+    "name": "Silver",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3908172,
+      "lng": 14.4998257
+    },
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/remondis-dla-klientow-734105763",
+        "trail/darniowa-229227768",
+        "trail/osiedle-teczowe-455687049",
+        "parking/brilux-772495764",
+        "parking/pizza-peperoni-850214817"
+      ]
+    }
+  },
+  {
+    "id": "parking-tir-502128078",
+    "slug": "parking-tir-502128078",
+    "osmId": "way/502128078",
+    "name": "Parking TIR",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.8976193,
+      "lng": 14.2779927
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wrzosowa-1382087864",
+        "trail/norweska-502183406",
+        "parking/parkig-bus-1022676133",
+        "trail/aleja-piknikowa-181166508",
+        "trail/aleja-wiazowa-492671571"
+      ]
+    }
+  },
+  {
+    "id": "platny-528458551",
+    "slug": "platny-528458551",
+    "osmId": "way/528458551",
+    "name": "płatny",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4327213,
+      "lng": 14.5305396
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/kiss-ride-1107824219",
+        "parking/dla-pracownikow-mswia-779155608",
+        "parking/dla-klientow-enea-463938301",
+        "parking/parking-kibicow-druzyny-gosci-891328145",
+        "parking/parking-poludniowy-891328155"
+      ]
+    }
+  },
+  {
+    "id": "parking-rotacyjny-dozorowany-53425191",
+    "slug": "parking-rotacyjny-dozorowany-53425191",
+    "osmId": "way/53425191",
+    "name": "Parking Rotacyjny Dozorowany",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4326914,
+      "lng": 14.5576283
+    },
+    "features": [
+      "pojemność: 450"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/jacka-malczewskiego-43171570",
+        "trail/bazarowa-43171572",
+        "parking/ppn-trasa-zamkowa-160567498",
+        "trail/szczytowa-540018193",
+        "parking/hotel-focus-parking-242360315"
+      ]
+    }
+  },
+  {
+    "id": "hotel-boncza-547302316",
+    "slug": "hotel-boncza-547302316",
+    "osmId": "way/547302316",
+    "name": "Hotel Bończa",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3947469,
+      "lng": 14.6632957
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/weteranow-195014101",
+        "beach/plaza-dabie-39327259",
+        "parking/tir-635687798",
+        "parking/outlet-park-szczecin-b-204050448",
+        "parking/outlet-park-szczecin-a-204050446"
+      ]
+    }
+  },
+  {
+    "id": "parking-buforowy-bulk-cargo-port-szczecin-561349457",
+    "slug": "parking-buforowy-bulk-cargo-port-szczecin-561349457",
+    "osmId": "way/561349457",
+    "name": "Parking Buforowy Bulk Cargo-Port Szczecin",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3989124,
+      "lng": 14.6022288
+    },
+    "features": [
+      "nawierzchnia: asphalt",
+      "pojemność: 100"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/p-r-hangarowa-452327193",
+        "parking/parking-aut-odholowanych-370438874",
+        "trail/stary-wiadukt-451524403",
+        "trail/letniskowa-36888303",
+        "trail/niklowa-29261269"
+      ]
+    }
+  },
+  {
+    "id": "parking-biedronka-ul-zwyciestwa-562294409",
+    "slug": "parking-biedronka-ul-zwyciestwa-562294409",
+    "osmId": "way/562294409",
+    "name": "parking Biedronka ul. Zwycięstwa",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1875969,
+      "lng": 16.2351354
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/przybyslawa-230353232",
+        "trail/dereniowa-333293420",
+        "trail/serwacego-172136248",
+        "trail/bonifacego-257121172",
+        "trail/saperow-301709486"
+      ]
+    }
+  },
+  {
+    "id": "centrum-przesiadkowe-569458728",
+    "slug": "centrum-przesiadkowe-569458728",
+    "osmId": "way/569458728",
+    "name": "Centrum Przesiadkowe",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1760244,
+      "lng": 15.558998
+    },
+    "features": [
+      "nawierzchnia: paving_stones",
+      "pojemność: 70"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/biuro-spp-kolobrzeg-3743926598",
+        "trail/bulwar-im-kotwicy-kolobrzeg-379598711",
+        "trail/nabrzeze-fosa-wal-obronny-797325989",
+        "trail/bulwar-nad-parseta-225114860",
+        "trail/bulwar-marynarzy-okretow-pogranicza-230322989"
+      ]
+    }
+  },
+  {
+    "id": "mrowka-576874305",
+    "slug": "mrowka-576874305",
+    "osmId": "way/576874305",
+    "name": "Mrówka",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4573514,
+      "lng": 14.5442854
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wzgorze-arkonskie-793969698",
+        "trail/hajduczka-27304864",
+        "trail/wolodyjowskiego-175159921",
+        "trail/zbyszka-z-bogdanca-391736827",
+        "trail/mewia-921855309"
+      ]
+    }
+  },
+  {
+    "id": "strandparkplatz-labahnstra-e-40-583879845",
+    "slug": "strandparkplatz-labahnstra-e-40-583879845",
+    "osmId": "way/583879845",
+    "name": "Strandparkplatz Labahnstraße 40",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9596883,
+      "lng": 14.1572993
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/fischerweg-1036061890",
+        "trail/2-q-26508081",
+        "trail/2-r-24871573",
+        "trail/willibald-alexis-weg-26508096",
+        "trail/apothekerweg-245536631"
+      ]
+    }
+  },
+  {
+    "id": "stadt-berlin-589189432",
+    "slug": "stadt-berlin-589189432",
+    "osmId": "way/589189432",
+    "name": "Stadt Berlin",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9515362,
+      "lng": 14.1672193
+    },
+    "features": [
+      "operator: Stadt Berlin"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/damenbadweg-24872478",
+        "parking/upstalsboom-429239122",
+        "trail/2-g-24872490",
+        "trail/baumwipfelpfad-1036309160",
+        "trail/seebr-cke-heringsdorf-148785397"
+      ]
+    }
+  },
+  {
+    "id": "tir-603018662",
+    "slug": "tir-603018662",
+    "osmId": "way/603018662",
+    "name": "TIR",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.2018496,
+      "lng": 16.1491232
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-dino-919942866",
+        "trail/morska-127529508",
+        "trail/spoldzielcza-1069492675",
+        "trail/access-to-yard-956561246",
+        "parking/parking-hotelu-gromada-koszalin-1909120053"
+      ]
+    }
+  },
+  {
+    "id": "tir-635687798",
+    "slug": "tir-635687798",
+    "osmId": "way/635687798",
+    "name": "TIR",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3828987,
+      "lng": 14.6705233
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/outlet-park-szczecin-b-204050448",
+        "parking/outlet-park-szczecin-a-204050446",
+        "trail/weteranow-195014101",
+        "parking/hotel-boncza-547302316",
+        "parking/p-r-turkusowa-455153971"
+      ]
+    }
+  },
+  {
+    "id": "bus-30-min-656645428",
+    "slug": "bus-30-min-656645428",
+    "osmId": "way/656645428",
+    "name": "BUS 30 min.",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1820249,
+      "lng": 15.5601217
+    },
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/bulwar-zacisze-785508691",
+        "trail/bindaz-grabowy-726553535",
+        "trail/nabrzeze-fosa-wal-obronny-797325989",
+        "parking/parking-port-1429701802",
+        "parking/parking-strzezony-port-124461247"
+      ]
+    }
+  },
+  {
+    "id": "dworek-siadlo-687993606",
+    "slug": "dworek-siadlo-687993606",
+    "osmId": "way/687993606",
+    "name": "Dworek Siadło",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3499353,
+      "lng": 14.5000338
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/dla-klientow-kajaki-wodnik-eu-6449622154",
+        "beach/dziewoklicz-70847686",
+        "trail/grecka-1021995311",
+        "trail/osiedle-teczowe-455687049",
+        "trail/potoczna-1027043701"
+      ]
+    }
+  },
+  {
+    "id": "strefa-parkowania-709164197",
+    "slug": "strefa-parkowania-709164197",
+    "osmId": "way/709164197",
+    "name": "strefa parkowania",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.181883,
+      "lng": 15.5708699
+    },
+    "features": [
+      "nawierzchnia: asphalt",
+      "operator: Komunikacja Miejska Kolobrzeg",
+      "pojemność: 14"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": false,
+      "covered": null,
+      "guarded": false
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/bulwar-marynarzy-okretow-pogranicza-230322989",
+        "trail/wejscie-110-1072057852",
+        "trail/bulwar-nad-parseta-225114860",
+        "parking/strefa-c-1105999448",
+        "trail/wejscie-112-1072057854"
+      ]
+    }
+  },
+  {
+    "id": "school-bus-732466918",
+    "slug": "school-bus-732466918",
+    "osmId": "way/732466918",
+    "name": "school bus",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1739088,
+      "lng": 15.585862
+    },
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-starowka-12238460901",
+        "parking/bus-1262000038",
+        "parking/strefa-c-1105999448",
+        "parking/strefa-b-255395458",
+        "parking/meteo-268311004"
+      ]
+    }
+  },
+  {
+    "id": "taxi-733193777",
+    "slug": "taxi-733193777",
+    "osmId": "way/733193777",
+    "name": "TAXI",
+    "location": {
+      "city": "Kołobrzeg",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.1845315,
+      "lng": 15.5795407
+    },
+    "features": [
+      "nawierzchnia: paving_stones",
+      "pojemność: 1"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-109-1072057849",
+        "trail/wejscie-108-1072057850",
+        "parking/meteo-268311004",
+        "trail/wejscie-110-1072057852",
+        "parking/strefa-parkowania-709164197"
+      ]
+    }
+  },
+  {
+    "id": "remondis-dla-klientow-734105763",
+    "slug": "remondis-dla-klientow-734105763",
+    "osmId": "way/734105763",
+    "name": "REMONDIS dla klientów",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3980126,
+      "lng": 14.4899847
+    },
+    "features": [
+      "pojemność: 7"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/brilux-772495764",
+        "parking/silver-477188559",
+        "trail/osiedle-teczowe-455687049",
+        "parking/pizza-peperoni-850214817",
+        "parking/kfc-mieszka-i-850214835"
+      ]
+    }
+  },
+  {
+    "id": "retail-park-szczecin-mieszka-i-760831959",
+    "slug": "retail-park-szczecin-mieszka-i-760831959",
+    "osmId": "way/760831959",
+    "name": "Retail Park Szczecin Mieszka I",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4097473,
+      "lng": 14.5189535
+    },
+    "features": [
+      "nawierzchnia: paving_stones",
+      "operator: APCOA",
+      "pojemność: 188"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/ch-omni-szczecin-mieszka-i-1418290681",
+        "parking/biuro-styl-2000-203401367",
+        "parking/galeria-mieszka-203397535",
+        "trail/aleja-widokowa-957956695",
+        "parking/kfc-mieszka-i-850214835"
+      ]
+    }
+  },
+  {
+    "id": "brilux-772495764",
+    "slug": "brilux-772495764",
+    "osmId": "way/772495764",
+    "name": "Brilux",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4054973,
+      "lng": 14.4939323
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/osikowa-711930210",
+        "parking/pizza-peperoni-850214817",
+        "parking/kfc-mieszka-i-850214835",
+        "parking/remondis-dla-klientow-734105763",
+        "trail/aleja-widokowa-957956695"
+      ]
+    }
+  },
+  {
+    "id": "parking-p4-swinoujscie-773869311",
+    "slug": "parking-p4-swinoujscie-773869311",
+    "osmId": "way/773869311",
+    "name": "Parking P4 Świnoujście",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.9192158,
+      "lng": 14.2639923
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/wejscie-16-856320556",
+        "trail/aleja-baltic-park-molo-230078234",
+        "trail/wejscie-14-361586319",
+        "trail/zdrojowa-772934253",
+        "trail/wejscie-17-317410538"
+      ]
+    }
+  },
+  {
+    "id": "dla-pracownikow-mswia-779155608",
+    "slug": "dla-pracownikow-mswia-779155608",
+    "osmId": "way/779155608",
+    "name": "Dla Pracowników MSWiA",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4355731,
+      "lng": 14.5250306
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-kibicow-druzyny-gosci-891328145",
+        "parking/parking-poludniowy-891328155",
+        "parking/platny-528458551",
+        "parking/parking-zachodni-1-891328154",
+        "parking/biuro-spp-917556153"
+      ]
+    }
+  },
+  {
+    "id": "bus-781193416",
+    "slug": "bus-781193416",
+    "osmId": "way/781193416",
+    "name": "BUS",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.3649589,
+      "lng": 14.6166587
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/brzezanska-207875579",
+        "trail/lechicka-207238457",
+        "trail/koninska-207885015",
+        "trail/tucholska-207885017",
+        "trail/sasiedzka-538856033"
+      ]
+    }
+  },
+  {
+    "id": "pizza-peperoni-850214817",
+    "slug": "pizza-peperoni-850214817",
+    "osmId": "way/850214817",
+    "name": "Pizza Peperoni",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4057624,
+      "lng": 14.5052596
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/kfc-mieszka-i-850214835",
+        "trail/osikowa-711930210",
+        "parking/brilux-772495764",
+        "parking/retail-park-szczecin-mieszka-i-760831959",
+        "trail/aleja-widokowa-957956695"
+      ]
+    }
+  },
+  {
+    "id": "kfc-mieszka-i-850214835",
+    "slug": "kfc-mieszka-i-850214835",
+    "osmId": "way/850214835",
+    "name": "KFC Mieszka I",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4060486,
+      "lng": 14.506299
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/pizza-peperoni-850214817",
+        "trail/osikowa-711930210",
+        "parking/brilux-772495764",
+        "parking/retail-park-szczecin-mieszka-i-760831959",
+        "trail/aleja-widokowa-957956695"
+      ]
+    }
+  },
+  {
+    "id": "parking-kibicow-druzyny-gosci-891328145",
+    "slug": "parking-kibicow-druzyny-gosci-891328145",
+    "osmId": "way/891328145",
+    "name": "Parking kibiców drużyny gości",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4371858,
+      "lng": 14.520877
+    },
+    "features": [
+      "pojemność: 37"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-poludniowy-891328155",
+        "parking/parking-zachodni-1-891328154",
+        "parking/dla-pracownikow-mswia-779155608",
+        "trail/jakuba-bojki-164704012",
+        "trail/wologoska-851625535"
+      ]
+    }
+  },
+  {
+    "id": "parking-zachodni-1-891328154",
+    "slug": "parking-zachodni-1-891328154",
+    "osmId": "way/891328154",
+    "name": "Parking Zachodni 1",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4355541,
+      "lng": 14.5168987
+    },
+    "features": [
+      "nawierzchnia: paving_stones",
+      "pojemność: 77"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-poludniowy-891328155",
+        "parking/parking-kibicow-druzyny-gosci-891328145",
+        "trail/wologoska-851625535",
+        "parking/dla-pracownikow-mswia-779155608",
+        "parking/parking-zabka-1319243970"
+      ]
+    }
+  },
+  {
+    "id": "parking-poludniowy-891328155",
+    "slug": "parking-poludniowy-891328155",
+    "osmId": "way/891328155",
+    "name": "Parking Południowy",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4350969,
+      "lng": 14.518737
+    },
+    "features": [
+      "nawierzchnia: paving_stones",
+      "pojemność: 361"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-zachodni-1-891328154",
+        "parking/parking-kibicow-druzyny-gosci-891328145",
+        "parking/dla-pracownikow-mswia-779155608",
+        "trail/wologoska-851625535",
+        "parking/parking-zabka-1319243970"
+      ]
+    }
+  },
+  {
+    "id": "biuro-spp-917556153",
+    "slug": "biuro-spp-917556153",
+    "osmId": "way/917556153",
+    "name": "Biuro SPP",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4400788,
+      "lng": 14.5330425
+    },
+    "features": [
+      "operator: Nieruchomości i Opłaty Lokalne sp. z o.o. w Szczecinie",
+      "pojemność: 2"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/stanislawa-i-wandy-milaszewskich-31263203",
+        "trail/heleny-kurcyuszowej-31263202",
+        "parking/ppn-oginskiego-281584721",
+        "parking/dla-klientow-enea-463938301",
+        "parking/parking-spp-235873393"
+      ]
+    }
+  },
+  {
+    "id": "parking-dino-919942866",
+    "slug": "parking-dino-919942866",
+    "osmId": "way/919942866",
+    "name": "Parking Dino",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 54.2094416,
+      "lng": 16.1533279
+    },
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/tir-603018662",
+        "trail/morska-127529508",
+        "parking/parking-strzezony-293174954",
+        "parking/parking-przy-biedronce-174803150",
+        "trail/podgorna-1184627710"
+      ]
+    }
+  },
+  {
+    "id": "dla-pracownikow-pum-976784271",
+    "slug": "dla-pracownikow-pum-976784271",
+    "osmId": "way/976784271",
+    "name": "Dla Pracowników PUM",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4215554,
+      "lng": 14.5287623
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/ojca-augustyna-kordeckiego-27132394",
+        "trail/kwatera-zasluzonych-245709827",
+        "trail/jozefa-sowinskiego-27559207",
+        "trail/stefana-lewandowskiego-893165499",
+        "parking/galeria-mieszka-203397535"
+      ]
+    }
+  },
+  {
+    "id": "parking-pp-994993571",
+    "slug": "parking-pp-994993571",
+    "osmId": "way/994993571",
+    "name": "Parking PP",
+    "location": {
+      "city": "Szczecin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 53.4443188,
+      "lng": 14.4987071
+    },
+    "features": [
+      "pojemność: 2"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-zabka-1319243970",
+        "trail/stanislawa-przybyszewskiego-220779341",
+        "trail/romualda-traugutta-164648592",
+        "trail/wologoska-851625535",
+        "trail/jakuba-bojki-164704012"
       ]
     }
   }
