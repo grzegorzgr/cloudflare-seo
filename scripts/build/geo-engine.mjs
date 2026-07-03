@@ -290,41 +290,69 @@ function buildAdjacency(entities) {
 function buildRegionQuery(regionSeeds, radiusKm, only) {
   const r = Math.round(radiusKm * 1000);
   const parts = [];
+  // WAZNE: mapElement odrzuca wszystko bez name (1 encja = 1 strona, H1=name).
+  // Filtrujemy ["name"] juz w zapytaniu -> zamiast setek tysiecy bezimiennych
+  // sciezek/parkingow zwracamy tylko realne strony SEO (i unikamy 429/timeoutow).
   for (const seed of regionSeeds) {
     const around = `(around:${r},${seed.coordinates.lat},${seed.coordinates.lng})`;
     if (only.has('beach')) {
-      parts.push(`node["natural"="beach"]${around};`);
-      parts.push(`way["natural"="beach"]${around};`);
-      parts.push(`way["leisure"="beach_resort"]${around};`);
+      parts.push(`node["natural"="beach"]["name"]${around};`);
+      parts.push(`way["natural"="beach"]["name"]${around};`);
+      parts.push(`way["leisure"="beach_resort"]["name"]${around};`);
     }
     if (only.has('parking')) {
-      parts.push(`node["amenity"="parking"]${around};`);
-      parts.push(`way["amenity"="parking"]${around};`);
+      parts.push(`node["amenity"="parking"]["name"]${around};`);
+      parts.push(`way["amenity"="parking"]["name"]${around};`);
     }
     if (only.has('trail')) {
-      parts.push(`way["highway"~"^(path|footway|cycleway)$"]${around};`);
+      parts.push(`way["highway"~"^(path|footway|cycleway)$"]["name"]${around};`);
     }
     if (only.has('attraction')) {
-      parts.push(`node["tourism"="attraction"]${around};`);
-      parts.push(`way["tourism"="attraction"]${around};`);
+      parts.push(`node["tourism"="attraction"]["name"]${around};`);
+      parts.push(`way["tourism"="attraction"]["name"]${around};`);
     }
   }
   return `[out:json][timeout:180];(\n  ${parts.join('\n  ')}\n);out center tags;`;
 }
-async function fetchOverpass(endpoint, query) {
-  const res = await fetch(endpoint, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
-      'User-Agent': 'cloudflare-seo-geo-engine/1.0 (deterministic SSG dataset builder)',
-    },
-    body: 'data=' + encodeURIComponent(query),
-  });
-  if (!res.ok) throw new Error(`Overpass HTTP ${res.status} ${res.statusText}`);
-  const json = await res.json();
-  return Array.isArray(json?.elements) ? json.elements : [];
-}
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+async function fetchOverpass(endpoint, query, { retries = 4, baseDelay = 5000 } = {}) {
+  // Overpass publiczny bywa przeciazony -> retry z backoffem na 429/5xx.
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    let res;
+    try {
+      res = await fetch(endpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'User-Agent': 'cloudflare-seo-geo-engine/1.0 (deterministic SSG dataset builder)',
+        },
+        body: 'data=' + encodeURIComponent(query),
+      });
+    } catch (err) {
+      if (attempt === retries) throw err;
+      await sleep(baseDelay * 2 ** attempt);
+      continue;
+    }
+    if (res.ok) {
+      const json = await res.json();
+      return Array.isArray(json?.elements) ? json.elements : [];
+    }
+    const retriable = res.status === 429 || res.status === 502 || res.status === 503 || res.status === 504;
+    if (retriable && attempt < retries) {
+      const retryAfter = Number(res.headers.get('retry-after'));
+      const wait = Number.isFinite(retryAfter) && retryAfter > 0
+        ? retryAfter * 1000
+        : baseDelay * 2 ** attempt;
+      process.stderr.write(
+        `    Overpass ${res.status}, ponawiam za ${Math.round(wait / 1000)}s (proba ${attempt + 1}/${retries})\n`,
+      );
+      await sleep(wait);
+      continue;
+    }
+    throw new Error(`Overpass HTTP ${res.status} ${res.statusText}`);
+  }
+  throw new Error('Overpass: wyczerpano proby ponowienia');
+}
 
 // -----------------------------------------------------------------------------
 // CLI + IO
@@ -339,8 +367,8 @@ function parseArgs(argv) {
     radius: 10,
     linkRadius: 25,
     nearby: 5,
-    delay: 1500,
-    only: new Set(['beach', 'parking', 'trail', 'attraction']),
+    delay: 3000,
+    only: new Set(['beach', 'parking', 'trail']),
   };
   for (const a of argv) {
     if (a === '--write') opts.write = true;
