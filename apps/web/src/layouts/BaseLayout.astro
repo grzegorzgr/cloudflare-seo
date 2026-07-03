@@ -24,6 +24,11 @@ const { title, description, canonical, keywords, jsonLd } = Astro.props;
     )}
     {canonical && <link rel="canonical" href={canonical} />}
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    <script
+      is:inline
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5388040901928181"
+      crossorigin="anonymous"></script>
   </head>
   <body>
     <slot />
