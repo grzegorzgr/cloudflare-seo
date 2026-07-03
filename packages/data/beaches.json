@@ -1,108 +1,480 @@
 [
   {
-    "slug": "example-beach-north",
-    "name": "Example Beach North",
+    "id": "jelitkowo",
+    "slug": "jelitkowo",
     "type": "beach",
-    "seo": {
-      "h1": "Example Beach North – parking, udogodnienia i informacje praktyczne",
-      "title": "Example Beach North – przewodnik po plaży",
-      "description": "Praktyczne informacje o plaży Example Beach North: parking, toalety, dostępność i lokalizacja."
-    },
+    "name": "Plaża Jelitkowo",
     "location": {
-      "city": "Example City",
-      "region": "Example Region",
-      "country": "Poland",
-      "lat": 54.0,
-      "lng": 18.0
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.424,
+      "lng": 18.593
     },
-    "features": {
-      "parking": true,
-      "toilets": true,
-      "lifeguard": true,
-      "dogFriendly": false,
-      "accessible": true,
-      "showers": true
-    },
-    "facts": [
-      "Plaża posiada wydzielony parking dla samochodów osobowych.",
-      "Na terenie dostępne są publiczne toalety oraz prysznice.",
-      "W sezonie letnim na plaży pełni dyżur ratownik."
-    ],
-    "faq": [
-      {
-        "q": "Czy przy plaży jest parking?",
-        "a": "Tak, plaża posiada wydzielony parking dla samochodów osobowych."
-      },
-      {
-        "q": "Czy na plaży jest ratownik?",
-        "a": "Tak, w sezonie letnim na plaży pełni dyżur ratownik."
-      }
-    ]
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża Jelitkowo – Gdańsk",
+      "h1": "Plaża Jelitkowo",
+      "description": "Informacje o plaży Jelitkowo w Gdańsku (Pomorskie): lokalizacja i współrzędne."
+    }
   },
   {
-    "slug": "example-beach-south",
-    "name": "Example Beach South",
+    "id": "brzezno",
+    "slug": "brzezno",
     "type": "beach",
-    "seo": {
-      "h1": "Example Beach South – informacje praktyczne dla odwiedzających",
-      "title": "Example Beach South – przewodnik po plaży",
-      "description": "Praktyczne informacje o plaży Example Beach South: parking, udogodnienia i lokalizacja."
-    },
+    "name": "Plaża Brzeźno",
     "location": {
-      "city": "Example Town",
-      "region": "Example Region",
-      "country": "Poland",
-      "lat": 53.9,
-      "lng": 18.1
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.4080869,
+      "lng": 18.6383794
     },
-    "features": {
-      "parking": false,
-      "toilets": true,
-      "lifeguard": false,
-      "dogFriendly": true,
-      "accessible": false,
-      "showers": false
-    },
-    "facts": [
-      "Plaża jest przyjazna dla psów przez cały rok.",
-      "Na terenie dostępne są publiczne toalety."
-    ],
-    "faq": [
-      {
-        "q": "Czy na plażę można wejść z psem?",
-        "a": "Tak, plaża jest przyjazna dla psów przez cały rok."
-      }
-    ]
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża Brzeźno – Gdańsk",
+      "h1": "Plaża Brzeźno",
+      "description": "Informacje o plaży Brzeźno w Gdańsku (Pomorskie): lokalizacja i współrzędne."
+    }
   },
   {
-    "slug": "example-beach-bay",
-    "name": "Example Beach Bay",
+    "id": "stogi",
+    "slug": "stogi",
     "type": "beach",
-    "seo": {
-      "h1": "Example Beach Bay – zatoka, dostępność i udogodnienia",
-      "title": "Example Beach Bay – przewodnik po plaży",
-      "description": "Praktyczne informacje o plaży Example Beach Bay: dostępność, udogodnienia i lokalizacja."
-    },
+    "name": "Plaża Stogi",
     "location": {
-      "city": "Example Village",
-      "region": "Example Coast",
-      "country": "Poland",
-      "lat": 54.2,
-      "lng": 17.9
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.3761112,
+      "lng": 18.728233
     },
-    "features": {
-      "parking": true,
-      "toilets": false,
-      "lifeguard": true,
-      "dogFriendly": false,
-      "accessible": true,
-      "showers": true
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża Stogi – Gdańsk",
+      "h1": "Plaża Stogi",
+      "description": "Informacje o plaży Stogi w Gdańsku (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "gdynia-srodmiescie",
+    "slug": "gdynia-srodmiescie",
+    "type": "beach",
+    "name": "Plaża Śródmieście w Gdyni",
+    "location": {
+      "city": "Gdynia",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.514517,
+      "lng": 18.5504625
+    },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża Śródmieście – Gdynia",
+      "h1": "Plaża Śródmieście w Gdyni",
+      "description": "Informacje o plaży Śródmieście w Gdyni (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "gdynia-orlowo-plaza-dla-psow",
+    "slug": "gdynia-orlowo-plaza-dla-psow",
+    "type": "beach",
+    "name": "Plaża dla psów w Orłowie",
+    "location": {
+      "city": "Gdynia",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.4670301,
+      "lng": 18.5624673
     },
     "facts": [
-      "Plaża jest dostępna dla osób z niepełnosprawnościami.",
-      "Na terenie dostępny jest parking oraz prysznice.",
-      "W sezonie letnim na plaży pełni dyżur ratownik."
+      "plaża przeznaczona dla psów"
     ],
-    "faq": []
+    "features": {
+      "parking": null,
+      "toilets": null,
+      "lifeguards": null,
+      "dog_friendly": true
+    },
+    "access": null,
+    "seo": {
+      "title": "Plaża dla psów w Orłowie – Gdynia",
+      "h1": "Plaża dla psów w Orłowie",
+      "description": "Informacje o plaży dla psów w dzielnicy Orłowo w Gdyni (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "ustka-plaza-zachodnia",
+    "slug": "ustka-plaza-zachodnia",
+    "type": "beach",
+    "name": "Plaża zachodnia w Ustce",
+    "location": {
+      "city": "Ustka",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.5876542,
+      "lng": 16.8453565
+    },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża zachodnia – Ustka",
+      "h1": "Plaża zachodnia w Ustce",
+      "description": "Informacje o plaży zachodniej w Ustce (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "ustka-plaza-strzezona",
+    "slug": "ustka-plaza-strzezona",
+    "type": "beach",
+    "name": "Plaża Strzeżona w Ustce",
+    "location": {
+      "city": "Ustka",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.5871652,
+      "lng": 16.8416712
+    },
+    "facts": [
+      "plaża strzeżona"
+    ],
+    "features": {
+      "parking": null,
+      "toilets": null,
+      "lifeguards": "seasonal",
+      "dog_friendly": null
+    },
+    "access": null,
+    "seo": {
+      "title": "Plaża Strzeżona – Ustka",
+      "h1": "Plaża Strzeżona w Ustce",
+      "description": "Informacje o plaży strzeżonej w Ustce (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "ustka-plaza-wschodnia",
+    "slug": "ustka-plaza-wschodnia",
+    "type": "beach",
+    "name": "Plaża wschodnia w Ustce",
+    "location": {
+      "city": "Ustka",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.5920668,
+      "lng": 16.8922154
+    },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża wschodnia – Ustka",
+      "h1": "Plaża wschodnia w Ustce",
+      "description": "Informacje o plaży wschodniej w Ustce (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "leba-rabka",
+    "slug": "leba-rabka",
+    "type": "beach",
+    "name": "Plaża w Łebie (Rąbka)",
+    "location": {
+      "city": "Łeba",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.7667742,
+      "lng": 17.5433548
+    },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża w Łebie (Rąbka) – Łeba",
+      "h1": "Plaża w Łebie (Rąbka)",
+      "description": "Informacje o plaży w Łebie w rejonie Rąbka (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "chalupy-plaza-naturystow",
+    "slug": "chalupy-plaza-naturystow",
+    "type": "beach",
+    "name": "Plaża naturystów w Chałupach",
+    "location": {
+      "city": "Chałupy",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.751775,
+      "lng": 18.5365071
+    },
+    "facts": [
+      "plaża naturystów (FKK)"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża naturystów w Chałupach – Chałupy",
+      "h1": "Plaża naturystów w Chałupach",
+      "description": "Informacje o plaży naturystów w Chałupach (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "debki-plaza-naturystow",
+    "slug": "debki-plaza-naturystow",
+    "type": "beach",
+    "name": "Plaża Naturystów Dębki",
+    "location": {
+      "city": "Dębki",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.831885,
+      "lng": 18.01546
+    },
+    "facts": [
+      "plaża naturystów (FKK)"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża Naturystów Dębki – Dębki",
+      "h1": "Plaża Naturystów Dębki",
+      "description": "Informacje o plaży naturystów w Dębkach (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "stegna",
+    "slug": "stegna",
+    "type": "beach",
+    "name": "Plaża Stegna",
+    "location": {
+      "city": "Stegna",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.3468041,
+      "lng": 19.1139566
+    },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża Stegna – Stegna",
+      "h1": "Plaża Stegna",
+      "description": "Informacje o plaży w Stegnie (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "jastarnia-plaza-strzezona",
+    "slug": "jastarnia-plaza-strzezona",
+    "type": "beach",
+    "name": "Plaża strzeżona w Jastarni",
+    "location": {
+      "city": "Jastarnia",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.7086765,
+      "lng": 18.6630967
+    },
+    "facts": [
+      "plaża strzeżona w sezonie wakacyjnym"
+    ],
+    "features": {
+      "parking": null,
+      "toilets": null,
+      "lifeguards": "seasonal",
+      "dog_friendly": null
+    },
+    "access": null,
+    "seo": {
+      "title": "Plaża strzeżona – Jastarnia",
+      "h1": "Plaża strzeżona w Jastarni",
+      "description": "Informacje o plaży strzeżonej w Jastarni (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "leba-plaza-a",
+    "slug": "leba-plaza-a",
+    "type": "beach",
+    "name": "Plaża A w Łebie",
+    "location": { "city": "Łeba", "region": "Pomorskie", "country": "Polska", "lat": 54.768328, "lng": 17.559953 },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża A – Łeba",
+      "h1": "Plaża A w Łebie",
+      "description": "Informacje o plaży A w Łebie (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "leba-plaza-c",
+    "slug": "leba-plaza-c",
+    "type": "beach",
+    "name": "Plaża C w Łebie",
+    "location": { "city": "Łeba", "region": "Pomorskie", "country": "Polska", "lat": 54.769371, "lng": 17.575466 },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża C – Łeba",
+      "h1": "Plaża C w Łebie",
+      "description": "Informacje o plaży C w Łebie (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "leba-plaza-dla-zwierzat",
+    "slug": "leba-plaza-dla-zwierzat",
+    "type": "beach",
+    "name": "Plaża dla zwierząt w Łebie",
+    "location": { "city": "Łeba", "region": "Pomorskie", "country": "Polska", "lat": 54.767397, "lng": 17.54564 },
+    "facts": ["plaża przeznaczona dla zwierząt"],
+    "features": { "parking": null, "toilets": null, "lifeguards": null, "dog_friendly": true },
+    "access": null,
+    "seo": {
+      "title": "Plaża dla zwierząt – Łeba",
+      "h1": "Plaża dla zwierząt w Łebie",
+      "description": "Informacje o plaży dla zwierząt w Łebie (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "chalupy-kapielisko",
+    "slug": "chalupy-kapielisko",
+    "type": "beach",
+    "name": "Kąpielisko w Chałupach",
+    "location": { "city": "Chałupy", "region": "Pomorskie", "country": "Polska", "lat": 54.760161, "lng": 18.513037 },
+    "facts": ["kąpielisko strzeżone"],
+    "features": { "parking": null, "toilets": null, "lifeguards": "seasonal", "dog_friendly": null },
+    "access": null,
+    "seo": {
+      "title": "Kąpielisko w Chałupach – Chałupy",
+      "h1": "Kąpielisko w Chałupach",
+      "description": "Informacje o kąpielisku w Chałupach (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "hel-plaza-miejska",
+    "slug": "hel-plaza-miejska",
+    "type": "beach",
+    "name": "Plaża Miejska w Helu",
+    "location": { "city": "Hel", "region": "Pomorskie", "country": "Polska", "lat": 54.606795, "lng": 18.798581 },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża Miejska – Hel",
+      "h1": "Plaża Miejska w Helu",
+      "description": "Informacje o Plaży Miejskiej w Helu (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "hel-duza-plaza-baltycka",
+    "slug": "hel-duza-plaza-baltycka",
+    "type": "beach",
+    "name": "Duża Plaża Bałtycka w Helu",
+    "location": { "city": "Hel", "region": "Pomorskie", "country": "Polska", "lat": 54.60064, "lng": 18.823627 },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Duża Plaża Bałtycka – Hel",
+      "h1": "Duża Plaża Bałtycka w Helu",
+      "description": "Informacje o Dużej Plaży Bałtyckiej w Helu (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "hel-plaza-cypel",
+    "slug": "hel-plaza-cypel",
+    "type": "beach",
+    "name": "Plaża Cypel w Helu",
+    "location": { "city": "Hel", "region": "Pomorskie", "country": "Polska", "lat": 54.592887, "lng": 18.812436 },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża Cypel – Hel",
+      "h1": "Plaża Cypel w Helu",
+      "description": "Informacje o plaży Cypel w Helu (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "rewa-cypel-rewski",
+    "slug": "rewa-cypel-rewski",
+    "type": "beach",
+    "name": "Cypel Rewski w Rewie",
+    "location": { "city": "Rewa", "region": "Pomorskie", "country": "Polska", "lat": 54.639041, "lng": 18.515382 },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Cypel Rewski – Rewa",
+      "h1": "Cypel Rewski w Rewie",
+      "description": "Informacje o Cyplu Rewskim w Rewie (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "rowy-plaza-dla-psow",
+    "slug": "rowy-plaza-dla-psow",
+    "type": "beach",
+    "name": "Plaża dla psów w Rowach",
+    "location": { "city": "Rowy", "region": "Pomorskie", "country": "Polska", "lat": 54.65744, "lng": 17.032478 },
+    "facts": ["plaża przeznaczona dla psów"],
+    "features": { "parking": null, "toilets": null, "lifeguards": null, "dog_friendly": true },
+    "access": null,
+    "seo": {
+      "title": "Plaża dla psów w Rowach – Rowy",
+      "h1": "Plaża dla psów w Rowach",
+      "description": "Informacje o plaży dla psów w Rowach (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "bialogora-wejscie-31",
+    "slug": "bialogora-wejscie-31",
+    "type": "beach",
+    "name": "Plaża Białogóra (Wejście 31)",
+    "location": { "city": "Białogóra", "region": "Pomorskie", "country": "Polska", "lat": 54.830831, "lng": 17.988171 },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża Białogóra (Wejście 31) – Białogóra",
+      "h1": "Plaża Białogóra (Wejście 31)",
+      "description": "Informacje o plaży w Białogórze (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "gdansk-sobieszewo",
+    "slug": "gdansk-sobieszewo",
+    "type": "beach",
+    "name": "Plaża w Sobieszewie",
+    "location": { "city": "Gdańsk", "region": "Pomorskie", "country": "Polska", "lat": 54.355107, "lng": 18.836724 },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża w Sobieszewie – Gdańsk",
+      "h1": "Plaża w Sobieszewie",
+      "description": "Informacje o plaży w Sobieszewie w Gdańsku (Pomorskie): lokalizacja i współrzędne."
+    }
+  },
+  {
+    "id": "gdansk-swibno",
+    "slug": "gdansk-swibno",
+    "type": "beach",
+    "name": "Plaża Świbno",
+    "location": { "city": "Gdańsk", "region": "Pomorskie", "country": "Polska", "lat": 54.346471, "lng": 18.910868 },
+    "facts": null,
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Plaża Świbno – Gdańsk",
+      "h1": "Plaża Świbno",
+      "description": "Informacje o plaży Świbno w Gdańsku (Pomorskie): lokalizacja i współrzędne."
+    }
   }
 ]
