@@ -1,68 +1,636 @@
 [
   {
-    "slug": "example-parking-center",
-    "name": "Example Parking Center",
+    "id": "parking-przy-rezerwacie-kamienne-kregi-w-odrach",
+    "slug": "parking-przy-rezerwacie-kamienne-kregi-w-odrach",
     "type": "parking",
-    "seo": {
-      "h1": "Example Parking Center \u2013 cennik, godziny i udogodnienia",
-      "title": "Example Parking Center \u2013 przewodnik po parkingu",
-      "description": "Praktyczne informacje o parkingu Example Parking Center: cennik, dost\u0119pno\u015b\u0107 i lokalizacja."
-    },
+    "name": "Parking przy rezerwacie Kamienne Kręgi w Odrach",
     "location": {
-      "city": "Example City",
-      "region": "Example Region",
-      "country": "Poland",
-      "lat": 52.23,
-      "lng": 21.01
-    },
-    "features": {
-      "paid": true,
-      "covered": true,
-      "guarded": true,
-      "evCharging": true,
-      "disabledSpots": true,
-      "lighting": true
+      "city": "Odry",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 53.8969091,
+      "lng": 17.9976139
     },
     "facts": [
-      "Parking jest zadaszony i strze\u017cony przez ca\u0142\u0105 dob\u0119.",
-      "Dost\u0119pne s\u0105 miejsca dla os\u00f3b z niepe\u0142nosprawno\u015bciami.",
-      "Na terenie znajduj\u0105 si\u0119 \u0142adowarki dla samochod\u00f3w elektrycznych."
+      "parking bezpłatny",
+      "parking leśny przy rezerwacie archeologicznym Kamienne Kręgi w Odrach"
     ],
-    "faq": [
-      {
-        "q": "Czy parking jest strze\u017cony?",
-        "a": "Tak, parking jest zadaszony i strze\u017cony przez ca\u0142\u0105 dob\u0119."
-      }
-    ]
+    "features": {
+      "paid": false
+    },
+    "access": null,
+    "seo": {
+      "title": "Parking przy rezerwacie Kamienne Kręgi w Odrach – Odry",
+      "h1": "Parking przy rezerwacie Kamienne Kręgi w Odrach",
+      "description": "Informacje o parkingu „Parking przy rezerwacie Kamienne Kręgi w Odrach” w Odry (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
   },
   {
-    "slug": "example-parking-station",
-    "name": "Example Parking Station",
+    "id": "muzeum-ii-wojny-swiatowej-parking-podziemny",
+    "slug": "muzeum-ii-wojny-swiatowej-parking-podziemny",
     "type": "parking",
-    "seo": {
-      "h1": "Example Parking Station \u2013 parking przy dworcu",
-      "title": "Example Parking Station \u2013 przewodnik po parkingu",
-      "description": "Praktyczne informacje o parkingu Example Parking Station: dost\u0119pno\u015b\u0107 i lokalizacja."
-    },
+    "name": "Muzeum II Wojny Światowej - parking podziemny",
     "location": {
-      "city": "Example Town",
-      "region": "Example Region",
-      "country": "Poland",
-      "lat": 50.06,
-      "lng": 19.94
-    },
-    "features": {
-      "paid": true,
-      "covered": false,
-      "guarded": false,
-      "evCharging": false,
-      "disabledSpots": true,
-      "lighting": true
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.3560354,
+      "lng": 18.6596949
     },
     "facts": [
-      "Parking jest o\u015bwietlony w porze nocnej.",
-      "Dost\u0119pne s\u0105 miejsca dla os\u00f3b z niepe\u0142nosprawno\u015bciami."
+      "parking podziemny (zadaszony)",
+      "parking przy Muzeum II Wojny Światowej w Gdańsku"
     ],
-    "faq": []
+    "features": {
+      "covered": true
+    },
+    "access": null,
+    "seo": {
+      "title": "Muzeum II Wojny Światowej - parking podziemny – Gdańsk",
+      "h1": "Muzeum II Wojny Światowej - parking podziemny",
+      "description": "Informacje o parkingu „Muzeum II Wojny Światowej - parking podziemny” w Gdańsk (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-dino-park-malbork",
+    "slug": "parking-dino-park-malbork",
+    "type": "parking",
+    "name": "Parking Dino Park Malbork",
+    "location": {
+      "city": "Malbork",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.0423773,
+      "lng": 19.0440016
+    },
+    "facts": [
+      "parking bezpłatny",
+      "około 100 miejsc parkingowych",
+      "parking przy Dino Park w Malborku"
+    ],
+    "features": {
+      "paid": false
+    },
+    "access": null,
+    "seo": {
+      "title": "Parking Dino Park Malbork – Malbork",
+      "h1": "Parking Dino Park Malbork",
+      "description": "Informacje o parkingu „Parking Dino Park Malbork” w Malbork (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-podziemny-hotel-lido",
+    "slug": "parking-podziemny-hotel-lido",
+    "type": "parking",
+    "name": "Parking podziemny Hotel Lido",
+    "location": {
+      "city": "gmina Jastarnia",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.6832493,
+      "lng": 18.7136275
+    },
+    "facts": [
+      "parking podziemny (zadaszony)",
+      "parking przy Hotelu Lido"
+    ],
+    "features": {
+      "covered": true
+    },
+    "access": null,
+    "seo": {
+      "title": "Parking podziemny Hotel Lido – gmina Jastarnia",
+      "h1": "Parking podziemny Hotel Lido",
+      "description": "Informacje o parkingu „Parking podziemny Hotel Lido” w gminie Jastarnia (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "garnizon-parking-c-p7",
+    "slug": "garnizon-parking-c-p7",
+    "type": "parking",
+    "name": "Garnizon Parking C (P7)",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.3831111,
+      "lng": 18.5900788
+    },
+    "facts": [
+      "parking na terenie osiedla Garnizon w Gdańsku-Wrzeszczu"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Garnizon Parking C (P7) – Gdańsk",
+      "h1": "Garnizon Parking C (P7)",
+      "description": "Informacje o parkingu „Garnizon Parking C (P7)” w Gdańsk (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-sopot-centrum",
+    "slug": "parking-sopot-centrum",
+    "type": "parking",
+    "name": "Parking Sopot Centrum",
+    "location": {
+      "city": "Sopot",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.4410953,
+      "lng": 18.5627879
+    },
+    "facts": [
+      "parking płatny",
+      "parking w centrum Sopotu"
+    ],
+    "features": {
+      "paid": true
+    },
+    "access": null,
+    "seo": {
+      "title": "Parking Sopot Centrum – Sopot",
+      "h1": "Parking Sopot Centrum",
+      "description": "Informacje o parkingu „Parking Sopot Centrum” w Sopot (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "port-chalupy",
+    "slug": "port-chalupy",
+    "type": "parking",
+    "name": "Port Chałupy",
+    "location": {
+      "city": "Chałupy",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.757138,
+      "lng": 18.5157046
+    },
+    "facts": [
+      "parking przy porcie w Chałupach"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Port Chałupy – Chałupy",
+      "h1": "Port Chałupy",
+      "description": "Informacje o parkingu „Port Chałupy” w Chałupy (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-przy-rezerwacie-beka",
+    "slug": "parking-przy-rezerwacie-beka",
+    "type": "parking",
+    "name": "Parking przy rezerwacie Beka",
+    "location": {
+      "city": "gmina Puck",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.6584032,
+      "lng": 18.4612505
+    },
+    "facts": [
+      "parking przy rezerwacie przyrody Beka"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Parking przy rezerwacie Beka – gmina Puck",
+      "h1": "Parking przy rezerwacie Beka",
+      "description": "Informacje o parkingu „Parking przy rezerwacie Beka” w gminie Puck (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-duzy",
+    "slug": "parking-lesny-duzy",
+    "type": "parking",
+    "name": "Parking leśny \"Duży\"",
+    "location": {
+      "city": "Krynica Morska",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.4144317,
+      "lng": 19.5441709
+    },
+    "facts": [
+      "parking leśny"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Parking leśny \"Duży\" – Krynica Morska",
+      "h1": "Parking leśny \"Duży\"",
+      "description": "Informacje o parkingu „Parking leśny \"Duży\"” w Krynica Morska (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-maly",
+    "slug": "parking-lesny-maly",
+    "type": "parking",
+    "name": "Parking Leśny \"Mały\"",
+    "location": {
+      "city": "Krynica Morska",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.3971376,
+      "lng": 19.4899664
+    },
+    "facts": [
+      "parking płatny",
+      "parking leśny"
+    ],
+    "features": {
+      "paid": true
+    },
+    "access": null,
+    "seo": {
+      "title": "Parking Leśny \"Mały\" – Krynica Morska",
+      "h1": "Parking Leśny \"Mały\"",
+      "description": "Informacje o parkingu „Parking Leśny \"Mały\"” w Krynica Morska (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-stegna",
+    "slug": "parking-lesny-stegna",
+    "type": "parking",
+    "name": "Parking Leśny Stegna",
+    "location": {
+      "city": "Stegna",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.3454115,
+      "lng": 19.116296
+    },
+    "facts": [
+      "parking płatny",
+      "parking leśny"
+    ],
+    "features": {
+      "paid": true
+    },
+    "access": null,
+    "seo": {
+      "title": "Parking Leśny Stegna – Stegna",
+      "h1": "Parking Leśny Stegna",
+      "description": "Informacje o parkingu „Parking Leśny Stegna” w Stegna (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-dozorowany-24-7",
+    "slug": "parking-dozorowany-24-7",
+    "type": "parking",
+    "name": "Parking dozorowany 24/7",
+    "location": {
+      "city": "gmina Jastarnia",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.6805995,
+      "lng": 18.716334
+    },
+    "facts": [
+      "parking dozorowany całodobowo"
+    ],
+    "features": {
+      "guarded": true
+    },
+    "access": null,
+    "seo": {
+      "title": "Parking dozorowany 24/7 – gmina Jastarnia",
+      "h1": "Parking dozorowany 24/7",
+      "description": "Informacje o parkingu „Parking dozorowany 24/7” w gminie Jastarnia (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-galeria-szwrac",
+    "slug": "parking-galeria-szwrac",
+    "type": "parking",
+    "name": "Parking Galeria Szwrac",
+    "location": {
+      "city": "Starogard Gdański",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 53.9657565,
+      "lng": 18.5313006
+    },
+    "facts": [
+      "parking przy Galerii Szwrac w Starogardzie Gdańskim"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Parking Galeria Szwrac – Starogard Gdański",
+      "h1": "Parking Galeria Szwrac",
+      "description": "Informacje o parkingu „Parking Galeria Szwrac” w Starogard Gdański (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-hotel-rigga",
+    "slug": "parking-hotel-rigga",
+    "type": "parking",
+    "name": "Parking Hotel Rigga",
+    "location": {
+      "city": "Władysławowo",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.8000375,
+      "lng": 18.3908163
+    },
+    "facts": [
+      "parking płatny",
+      "parking przy Hotelu Rigga we Władysławowie"
+    ],
+    "features": {
+      "paid": true
+    },
+    "access": null,
+    "seo": {
+      "title": "Parking Hotel Rigga – Władysławowo",
+      "h1": "Parking Hotel Rigga",
+      "description": "Informacje o parkingu „Parking Hotel Rigga” w Władysławowo (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-jarpo",
+    "slug": "parking-jarpo",
+    "type": "parking",
+    "name": "Parking Jarpo",
+    "location": {
+      "city": "Gdynia",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.4994613,
+      "lng": 18.4277579
+    },
+    "facts": [
+      "parking płatny",
+      "około 50 miejsc parkingowych"
+    ],
+    "features": {
+      "paid": true
+    },
+    "access": null,
+    "seo": {
+      "title": "Parking Jarpo – Gdynia",
+      "h1": "Parking Jarpo",
+      "description": "Informacje o parkingu „Parking Jarpo” w Gdynia (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny",
+    "slug": "parking-lesny",
+    "type": "parking",
+    "name": "Parking leśny",
+    "location": {
+      "city": "gmina Krokowa",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.7259499,
+      "lng": 18.1707801
+    },
+    "facts": [
+      "parking leśny"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Parking leśny – gmina Krokowa",
+      "h1": "Parking leśny",
+      "description": "Informacje o parkingu „Parking leśny” w gminie Krokowa (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-tuchom",
+    "slug": "parking-lesny-tuchom",
+    "type": "parking",
+    "name": "Parking Leśny",
+    "location": {
+      "city": "Tuchom",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.4312089,
+      "lng": 18.3925266
+    },
+    "facts": [
+      "parking leśny"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Parking Leśny – Tuchom",
+      "h1": "Parking Leśny",
+      "description": "Informacje o parkingu „Parking Leśny” w Tuchom (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-ryjewo",
+    "slug": "parking-lesny-ryjewo",
+    "type": "parking",
+    "name": "Parking Leśny",
+    "location": {
+      "city": "Ryjewo",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 53.8253577,
+      "lng": 18.9867354
+    },
+    "facts": [
+      "parking leśny"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Parking Leśny – Ryjewo",
+      "h1": "Parking Leśny",
+      "description": "Informacje o parkingu „Parking Leśny” w Ryjewo (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-sztumskie-pole",
+    "slug": "parking-lesny-sztumskie-pole",
+    "type": "parking",
+    "name": "Parking Leśny",
+    "location": {
+      "city": "Sztumskie Pole",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 53.9449183,
+      "lng": 19.0234354
+    },
+    "facts": [
+      "parking leśny"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Parking Leśny – Sztumskie Pole",
+      "h1": "Parking Leśny",
+      "description": "Informacje o parkingu „Parking Leśny” w Sztumskie Pole (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-gmina-koscierzyna",
+    "slug": "parking-lesny-gmina-koscierzyna",
+    "type": "parking",
+    "name": "parking leśny",
+    "location": {
+      "city": "gmina Kościerzyna",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.1742426,
+      "lng": 18.0720577
+    },
+    "facts": [
+      "parking bezpłatny",
+      "parking leśny"
+    ],
+    "features": {
+      "paid": false
+    },
+    "access": null,
+    "seo": {
+      "title": "parking leśny – gmina Kościerzyna",
+      "h1": "parking leśny",
+      "description": "Informacje o parkingu „parking leśny” w gminie Kościerzyna (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-gmina-chojnice",
+    "slug": "parking-lesny-gmina-chojnice",
+    "type": "parking",
+    "name": "Parking leśny",
+    "location": {
+      "city": "gmina Chojnice",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 53.7989137,
+      "lng": 17.4227278
+    },
+    "facts": [
+      "parking leśny"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Parking leśny – gmina Chojnice",
+      "h1": "Parking leśny",
+      "description": "Informacje o parkingu „Parking leśny” w gminie Chojnice (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-gmina-przywidz",
+    "slug": "parking-lesny-gmina-przywidz",
+    "type": "parking",
+    "name": "Parking leśny",
+    "location": {
+      "city": "gmina Przywidz",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.2541156,
+      "lng": 18.4128095
+    },
+    "facts": [
+      "parking bezpłatny",
+      "parking leśny"
+    ],
+    "features": {
+      "paid": false
+    },
+    "access": null,
+    "seo": {
+      "title": "Parking leśny – gmina Przywidz",
+      "h1": "Parking leśny",
+      "description": "Informacje o parkingu „Parking leśny” w gminie Przywidz (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-gmina-trzebielino",
+    "slug": "parking-lesny-gmina-trzebielino",
+    "type": "parking",
+    "name": "Parking leśny",
+    "location": {
+      "city": "gmina Trzebielino",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.164985,
+      "lng": 17.0596885
+    },
+    "facts": [
+      "parking leśny"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Parking leśny – gmina Trzebielino",
+      "h1": "Parking leśny",
+      "description": "Informacje o parkingu „Parking leśny” w gminie Trzebielino (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-gmina-lipusz",
+    "slug": "parking-lesny-gmina-lipusz",
+    "type": "parking",
+    "name": "parking leśny",
+    "location": {
+      "city": "gmina Lipusz",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.1447036,
+      "lng": 17.7484968
+    },
+    "facts": [
+      "parking leśny"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "parking leśny – gmina Lipusz",
+      "h1": "parking leśny",
+      "description": "Informacje o parkingu „parking leśny” w gminie Lipusz (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-gmina-potegowo",
+    "slug": "parking-lesny-gmina-potegowo",
+    "type": "parking",
+    "name": "parking leśny",
+    "location": {
+      "city": "gmina Potęgowo",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.3800057,
+      "lng": 17.4903407
+    },
+    "facts": [
+      "parking leśny"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "parking leśny – gmina Potęgowo",
+      "h1": "parking leśny",
+      "description": "Informacje o parkingu „parking leśny” w gminie Potęgowo (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
+  },
+  {
+    "id": "parking-lesny-gmina-czarna-woda",
+    "slug": "parking-lesny-gmina-czarna-woda",
+    "type": "parking",
+    "name": "Parking leśny",
+    "location": {
+      "city": "gmina Czarna Woda",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 53.8498665,
+      "lng": 18.1136391
+    },
+    "facts": [
+      "parking leśny"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Parking leśny – gmina Czarna Woda",
+      "h1": "Parking leśny",
+      "description": "Informacje o parkingu „Parking leśny” w gminie Czarna Woda (Pomorskie): lokalizacja, dojazd i udogodnienia."
+    }
   }
 ]

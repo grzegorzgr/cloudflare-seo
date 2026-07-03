@@ -4,11 +4,16 @@
 import type {
   Entity,
   EntityFaqItem,
+  FeatureView,
+  NearbyLink,
   PageModel,
   TypeConfig,
 } from './types.js';
 
 const UNKNOWN = 'nieznane';
+
+/** Maksymalna liczba link\u00f3w w sekcji "Podobne miejsca". */
+const NEARBY_LIMIT = 6;
 
 /**
  * Buduje list\u0119 FAQ deterministycznie.
@@ -24,6 +29,35 @@ export function buildFaq(entity: Entity, config: TypeConfig): EntityFaqItem[] {
     q: `Informacja ${index + 1} o ${config.entityNoun} ${entity.name}`,
     a: fact,
   }));
+}
+
+/**
+ * Buduje zdanie intencji SEO wy\u0142\u0105cznie z danych (typ + lokalizacja).
+ * Nie dodaje nowych fakt\u00f3w \u2014 to ramka odpowiadaj\u0105ca na intencj\u0119 wyszukiwania.
+ */
+export function buildIntent(entity: Entity, config: TypeConfig): string {
+  const location = entity.location ?? {};
+  const place = location.city || location.region || location.country;
+  if (!place) {
+    return `Je\u015bli szukasz ${config.entityNoun} \u2014 ta strona zawiera najwa\u017cniejsze informacje.`;
+  }
+  return `Je\u015bli szukasz ${config.entityNoun} w lokalizacji ${place}, ta strona zawiera najwa\u017cniejsze informacje.`;
+}
+
+/**
+ * Mapuje rekord flag (features/access) na widok, pomijaj\u0105c warto\u015bci null
+ * (zasada: brak danych = pomi\u0144). Klucze bez etykiety u\u017cywaj\u0105 surowego klucza.
+ */
+function mapFlags(
+  source: Record<string, boolean | string | null> | null | undefined,
+  labels: Record<string, string> | undefined,
+): FeatureView[] {
+  return Object.entries(source ?? {})
+    .filter(([, value]) => value !== null && value !== undefined)
+    .map(([key, value]) => ({
+      label: labels?.[key] ?? key,
+      value: value as boolean | string,
+    }));
 }
 
 /**
@@ -83,32 +117,63 @@ export function buildJsonLd(
 }
 
 /**
+ * Buduje sekcj\u0119 "Podobne miejsca": encje tego samego typu i regionu,
+ * z pomini\u0119ciem bie\u017c\u0105cej. Kolejno\u015b\u0107 wynika z porz\u0105dku datasetu (deterministyczna).
+ */
+export function buildNearby(
+  entity: Entity,
+  config: TypeConfig,
+  allEntities: Entity[],
+): NearbyLink[] {
+  const region = entity.location?.region;
+  if (!region) {
+    return [];
+  }
+  return allEntities
+    .filter(
+      (candidate) =>
+        candidate.slug !== entity.slug &&
+        candidate.location?.region === region,
+    )
+    .slice(0, NEARBY_LIMIT)
+    .map((candidate) => ({
+      href: `/${config.basePath}/${candidate.slug}`,
+      label: candidate.name,
+      city: candidate.location?.city ?? UNKNOWN,
+    }));
+}
+
+/**
  * G\u0142\u00f3wna funkcja generatora: encja + konfiguracja typu -> model strony.
  * W pe\u0142ni deterministyczna: ten sam wej\u015bciowy JSON zawsze daje ten sam model.
+ * Opcjonalny `allEntities` (ten sam typ) w\u0142\u0105cza sekcj\u0119 "Podobne miejsca".
  */
-export function buildPageModel(entity: Entity, config: TypeConfig): PageModel {
+export function buildPageModel(
+  entity: Entity,
+  config: TypeConfig,
+  allEntities: Entity[] = [],
+): PageModel {
   const location = entity.location ?? {};
   const faq = buildFaq(entity, config);
 
-  const features = Object.entries(entity.features ?? {}).map(([key, value]) => ({
-    label: config.featureLabels[key] ?? key,
-    value,
-  }));
-
   return {
     slug: entity.slug,
+    type: entity.type ?? config.basePath,
     h1: entity.seo?.h1 ?? entity.name,
     pageTitle: entity.seo?.title ?? entity.name,
     metaDescription: entity.seo?.description ?? '',
     canonical: `/${config.basePath}/${entity.slug}`,
+    intent: buildIntent(entity, config),
     facts: entity.facts ?? [],
-    features,
+    features: mapFlags(entity.features, config.featureLabels),
+    access: mapFlags(entity.access, config.accessLabels),
     location: {
       city: location.city ?? UNKNOWN,
       region: location.region ?? UNKNOWN,
       country: location.country ?? UNKNOWN,
     },
     faq,
+    nearby: buildNearby(entity, config, allEntities),
     jsonLd: buildJsonLd(entity, config, faq),
   };
 }

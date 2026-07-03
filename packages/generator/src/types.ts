@@ -2,7 +2,11 @@
 // Kszta\u0142t danych jest jednolity niezale\u017cnie od typu tematycznego.
 
 export interface EntityFeatures {
-  [key: string]: boolean;
+  [key: string]: boolean | string | null;
+}
+
+export interface EntityAccess {
+  [key: string]: boolean | null;
 }
 
 export interface EntityFaqItem {
@@ -31,6 +35,7 @@ export interface Entity {
   seo?: EntitySeo;
   location?: EntityLocation;
   features?: EntityFeatures;
+  access?: EntityAccess | null;
   facts?: string[];
   faq?: EntityFaqItem[];
 }
@@ -46,7 +51,9 @@ export interface TypeConfig {
   schemaType: string;
   /** Mapowanie kluczy cech na etykiety wy\u015bwietlane u\u017cytkownikowi. */
   featureLabels: Record<string, string>;
-  /** Rzeczownik w dope\u0142niaczu do generowanego FAQ, np. "pla\u017cy", "parkingu", "szlaku". */
+  /** Mapowanie kluczy dost\u0119pu (access) na etykiety, np. public_transport -> Komunikacja miejska. */
+  accessLabels?: Record<string, string>;
+  /** Rzeczownik w dope\u0142niaczu do generowanego FAQ i sekcji intent, np. "pla\u017cy", "parkingu", "szlaku". */
   entityNoun: string;
 }
 
@@ -54,7 +61,7 @@ export interface TypeConfig {
 // Warstwa widoku (Astro) nie zawiera \u017cadnej logiki poza wy\u015bwietleniem.
 export interface FeatureView {
   label: string;
-  value: boolean;
+  value: boolean | string;
 }
 
 export interface LocationView {
@@ -63,15 +70,26 @@ export interface LocationView {
   country: string;
 }
 
+// Link do pokrewnej encji (ten sam typ i region). Budowany 1:1 z danych.
+export interface NearbyLink {
+  href: string;
+  label: string;
+  city: string;
+}
+
 export interface PageModel {
   slug: string;
+  type: string;
   h1: string;
   pageTitle: string;
   metaDescription: string;
   canonical: string;
+  intent: string;
   facts: string[];
   features: FeatureView[];
+  access: FeatureView[];
   location: LocationView;
   faq: EntityFaqItem[];
+  nearby: NearbyLink[];
   jsonLd: Record<string, unknown>;
 }

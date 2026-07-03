@@ -15,6 +15,11 @@ export const beachConfig: TypeConfig = {
     accessible: 'Dost\u0119pno\u015b\u0107 dla niepe\u0142nosprawnych',
     showers: 'Prysznice',
   },
+  accessLabels: {
+    public_transport: 'Komunikacja miejska',
+    car_access: 'Dojazd samochodem',
+    bike_access: 'Dojazd rowerem',
+  },
 };
 
 export const parkingConfig: TypeConfig = {
@@ -29,6 +34,11 @@ export const parkingConfig: TypeConfig = {
     disabledSpots: 'Miejsca dla niepe\u0142nosprawnych',
     lighting: 'O\u015bwietlenie',
   },
+  accessLabels: {
+    public_transport: 'Komunikacja miejska',
+    car_access: 'Dojazd samochodem',
+    bike_access: 'Dojazd rowerem',
+  },
 };
 
 export const trailConfig: TypeConfig = {
@@ -42,6 +52,11 @@ export const trailConfig: TypeConfig = {
     familyFriendly: 'Przyjazny rodzinom',
     parking: 'Parking przy szlaku',
     waterSource: '\u0179r\u00f3d\u0142o wody',
+  },
+  accessLabels: {
+    public_transport: 'Komunikacja miejska',
+    car_access: 'Dojazd samochodem',
+    bike_access: 'Dojazd rowerem',
   },
 };
 

@@ -1,68 +1,726 @@
 [
   {
-    "slug": "example-trail-forest",
-    "name": "Example Forest Trail",
+    "id": "szlak-grot-mechowskich",
+    "slug": "szlak-grot-mechowskich",
     "type": "trail",
-    "seo": {
-      "h1": "Example Forest Trail \u2013 przebieg, trudno\u015b\u0107 i udogodnienia",
-      "title": "Example Forest Trail \u2013 przewodnik po szlaku",
-      "description": "Praktyczne informacje o szlaku Example Forest Trail: przebieg, dost\u0119pno\u015b\u0107 i lokalizacja."
-    },
+    "name": "Szlak Grot Mechowskich",
     "location": {
-      "city": "Example Village",
-      "region": "Example Mountains",
-      "country": "Poland",
-      "lat": 49.3,
-      "lng": 20.1
-    },
-    "features": {
-      "marked": true,
-      "loop": true,
-      "dogFriendly": true,
-      "familyFriendly": true,
-      "parking": true,
-      "waterSource": false
+      "city": "gmina Puck",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.737398,
+      "lng": 18.2743819
     },
     "facts": [
-      "Szlak jest oznakowany na ca\u0142ej d\u0142ugo\u015bci.",
-      "Trasa ma charakter p\u0119tli i wraca do punktu startowego.",
-      "Przy pocz\u0105tku szlaku znajduje si\u0119 parking."
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 31 km",
+      "oznakowanie: kolor czarny",
+      "przebieg: Puck – Krokowa"
     ],
-    "faq": [
-      {
-        "q": "Czy szlak jest oznakowany?",
-        "a": "Tak, szlak jest oznakowany na ca\u0142ej d\u0142ugo\u015bci."
-      }
-    ]
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Grot Mechowskich – Pomorskie",
+      "h1": "Szlak Grot Mechowskich",
+      "description": "Szlak turystyczny „Szlak Grot Mechowskich” o długości 31 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
   },
   {
-    "slug": "example-trail-ridge",
-    "name": "Example Ridge Trail",
+    "id": "szlak-nadmorski-baltycki",
+    "slug": "szlak-nadmorski-baltycki",
     "type": "trail",
-    "seo": {
-      "h1": "Example Ridge Trail \u2013 szlak grzbietowy",
-      "title": "Example Ridge Trail \u2013 przewodnik po szlaku",
-      "description": "Praktyczne informacje o szlaku Example Ridge Trail: przebieg i lokalizacja."
-    },
+    "name": "Szlak Nadmorski Bałtycki",
     "location": {
-      "city": "Example Highland",
-      "region": "Example Mountains",
-      "country": "Poland",
-      "lat": 49.2,
-      "lng": 20.3
-    },
-    "features": {
-      "marked": true,
-      "loop": false,
-      "dogFriendly": false,
-      "familyFriendly": false,
-      "parking": false,
-      "waterSource": true
+      "city": "Izbica",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.6703807,
+      "lng": 17.4123288
     },
     "facts": [
-      "Szlak prowadzi wzd\u0142u\u017c grzbietu g\u00f3rskiego.",
-      "Na trasie dost\u0119pne jest \u017ar\u00f3d\u0142o wody."
+      "szlak pieszy",
+      "szlak o randze krajowej",
+      "długość: 118.9 km",
+      "oznakowanie: kolor czerwony"
     ],
-    "faq": []
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Nadmorski Bałtycki – Pomorskie",
+      "h1": "Szlak Nadmorski Bałtycki",
+      "description": "Szlak turystyczny „Szlak Nadmorski Bałtycki” o długości 118.9 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-zrodla-marii",
+    "slug": "szlak-zrodla-marii",
+    "type": "trail",
+    "name": "Szlak Źródła Marii",
+    "location": {
+      "city": "Gdynia",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.4446418,
+      "lng": 18.4645584
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 10.5 km",
+      "oznakowanie: kolor czarny"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Źródła Marii – Pomorskie",
+      "h1": "Szlak Źródła Marii",
+      "description": "Szlak turystyczny „Szlak Źródła Marii” o długości 10.5 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-trojmiejski",
+    "slug": "szlak-trojmiejski",
+    "type": "trail",
+    "name": "Szlak Trójmiejski",
+    "location": {
+      "city": "Sopot",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.4380596,
+      "lng": 18.537318
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 46.2 km",
+      "oznakowanie: kolor żółty"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Trójmiejski – Pomorskie",
+      "h1": "Szlak Trójmiejski",
+      "description": "Szlak turystyczny „Szlak Trójmiejski” o długości 46.2 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-motlawski",
+    "slug": "szlak-motlawski",
+    "type": "trail",
+    "name": "Szlak Motławski",
+    "location": {
+      "city": "Grabiny-Zameczek",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.2301955,
+      "lng": 18.7322382
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 35.8 km"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Motławski – Pomorskie",
+      "h1": "Szlak Motławski",
+      "description": "Szlak turystyczny „Szlak Motławski” o długości 35.8 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-kartuski",
+    "slug": "szlak-kartuski",
+    "type": "trail",
+    "name": "Szlak Kartuski",
+    "location": {
+      "city": "Małkowo",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.3770746,
+      "lng": 18.3608056
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 67 km"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Kartuski – Pomorskie",
+      "h1": "Szlak Kartuski",
+      "description": "Szlak turystyczny „Szlak Kartuski” o długości 67 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-wzgorz-szymbarskich",
+    "slug": "szlak-wzgorz-szymbarskich",
+    "type": "trail",
+    "name": "Szlak Wzgórz Szymbarskich",
+    "location": {
+      "city": "Grzybno",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.3278225,
+      "lng": 18.2263639
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 126 km",
+      "oznakowanie: kolor czarny",
+      "przebieg: Sopot – Sierakowice"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Wzgórz Szymbarskich – Pomorskie",
+      "h1": "Szlak Wzgórz Szymbarskich",
+      "description": "Szlak turystyczny „Szlak Wzgórz Szymbarskich” o długości 126 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-skarszewski",
+    "slug": "szlak-skarszewski",
+    "type": "trail",
+    "name": "Szlak Skarszewski",
+    "location": {
+      "city": "Kolbudy",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.2654833,
+      "lng": 18.4596896
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 80.3 km"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Skarszewski – Pomorskie",
+      "h1": "Szlak Skarszewski",
+      "description": "Szlak turystyczny „Szlak Skarszewski” o długości 80.3 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-jantarowy",
+    "slug": "szlak-jantarowy",
+    "type": "trail",
+    "name": "Szlak Jantarowy",
+    "location": {
+      "city": "gmina Sztutowo",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.3616656,
+      "lng": 19.2064765
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 52 km",
+      "oznakowanie: kolor żółty"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Jantarowy – Pomorskie",
+      "h1": "Szlak Jantarowy",
+      "description": "Szlak turystyczny „Szlak Jantarowy” o długości 52 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-fortyfikacji-nadmorskich",
+    "slug": "szlak-fortyfikacji-nadmorskich",
+    "type": "trail",
+    "name": "Szlak Fortyfikacji Nadmorskich",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.3675322,
+      "lng": 18.7428443
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 8 km",
+      "przebieg: Gdańsk Stogi – Gdańsk Górki Zachodnie"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Fortyfikacji Nadmorskich – Pomorskie",
+      "h1": "Szlak Fortyfikacji Nadmorskich",
+      "description": "Szlak turystyczny „Szlak Fortyfikacji Nadmorskich” o długości 8 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-wejherowski",
+    "slug": "szlak-wejherowski",
+    "type": "trail",
+    "name": "Szlak Wejherowski",
+    "location": {
+      "city": "Łężyce",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.5313759,
+      "lng": 18.3911668
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 51 km",
+      "przebieg: Sopot-Kamienny Potok – Wejherowo PKP"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Wejherowski – Pomorskie",
+      "h1": "Szlak Wejherowski",
+      "description": "Szlak turystyczny „Szlak Wejherowski” o długości 51 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-zagorskiej-strugi",
+    "slug": "szlak-zagorskiej-strugi",
+    "type": "trail",
+    "name": "Szlak Zagórskiej Strugi",
+    "location": {
+      "city": "Rumia",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.5400779,
+      "lng": 18.3788842
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 56 km",
+      "oznakowanie: kolor czarny",
+      "przebieg: Gdynia Wzgórze Św. Maksymiliana – Wejherowo"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Zagórskiej Strugi – Pomorskie",
+      "h1": "Szlak Zagórskiej Strugi",
+      "description": "Szlak turystyczny „Szlak Zagórskiej Strugi” o długości 56 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-domow-podcieniowych",
+    "slug": "szlak-domow-podcieniowych",
+    "type": "trail",
+    "name": "Szlak Domów Podcieniowych",
+    "location": {
+      "city": "Osice",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.2227618,
+      "lng": 18.8190448
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 20 km"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Domów Podcieniowych – Pomorskie",
+      "h1": "Szlak Domów Podcieniowych",
+      "description": "Szlak turystyczny „Szlak Domów Podcieniowych” o długości 20 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-bursztynowy",
+    "slug": "szlak-bursztynowy",
+    "type": "trail",
+    "name": "Szlak Bursztynowy",
+    "location": {
+      "city": "gmina Kolbudy",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.2859739,
+      "lng": 18.5562676
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 34.6 km"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Bursztynowy – Pomorskie",
+      "h1": "Szlak Bursztynowy",
+      "description": "Szlak turystyczny „Szlak Bursztynowy” o długości 34.6 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-wyspy-sobieszewskiej",
+    "slug": "szlak-wyspy-sobieszewskiej",
+    "type": "trail",
+    "name": "Szlak Wyspy Sobieszewskiej",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.34704,
+      "lng": 18.8690966
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 10 km"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Wyspy Sobieszewskiej – Pomorskie",
+      "h1": "Szlak Wyspy Sobieszewskiej",
+      "description": "Szlak turystyczny „Szlak Wyspy Sobieszewskiej” o długości 10 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-puszczy-darzlubskiej",
+    "slug": "szlak-puszczy-darzlubskiej",
+    "type": "trail",
+    "name": "Szlak Puszczy Darżlubskiej",
+    "location": {
+      "city": "gmina Krokowa",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.7030307,
+      "lng": 18.1590595
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 38 km"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Puszczy Darżlubskiej – Pomorskie",
+      "h1": "Szlak Puszczy Darżlubskiej",
+      "description": "Szlak turystyczny „Szlak Puszczy Darżlubskiej” o długości 38 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-krawedzia-kepy-puckiej",
+    "slug": "szlak-krawedzia-kepy-puckiej",
+    "type": "trail",
+    "name": "Szlak Krawędzią Kępy Puckiej",
+    "location": {
+      "city": "gmina Puck",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.6624681,
+      "lng": 18.3503898
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 33.3 km"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Krawędzią Kępy Puckiej – Pomorskie",
+      "h1": "Szlak Krawędzią Kępy Puckiej",
+      "description": "Szlak turystyczny „Szlak Krawędzią Kępy Puckiej” o długości 33.3 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-swarzewski",
+    "slug": "szlak-swarzewski",
+    "type": "trail",
+    "name": "Szlak Swarzewski",
+    "location": {
+      "city": "gmina Puck",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.7550221,
+      "lng": 18.4038909
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 11.9 km",
+      "oznakowanie: kolor żółty",
+      "przebieg: Puck – Władysławowo"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Swarzewski – Pomorskie",
+      "h1": "Szlak Swarzewski",
+      "description": "Szlak turystyczny „Szlak Swarzewski” o długości 11.9 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-nadmorski-zatokowy",
+    "slug": "szlak-nadmorski-zatokowy",
+    "type": "trail",
+    "name": "Szlak Nadmorski Zatokowy",
+    "location": {
+      "city": "gmina Władysławowo",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.7578041,
+      "lng": 18.4400639
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 54.2 km",
+      "oznakowanie: kolor niebieski",
+      "przebieg: Krokowa – Jurata"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Nadmorski Zatokowy – Pomorskie",
+      "h1": "Szlak Nadmorski Zatokowy",
+      "description": "Szlak turystyczny „Szlak Nadmorski Zatokowy” o długości 54.2 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "leborska-droga-sw-jakuba",
+    "slug": "leborska-droga-sw-jakuba",
+    "type": "trail",
+    "name": "Lęborska Droga św. Jakuba",
+    "location": {
+      "city": "gmina Nowa Wieś Lęborska",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.5681714,
+      "lng": 17.652292
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze lokalnej",
+      "długość: 90 km"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Lęborska Droga św. Jakuba – Pomorskie",
+      "h1": "Lęborska Droga św. Jakuba",
+      "description": "Szlak turystyczny „Lęborska Droga św. Jakuba” o długości 90 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-doliny-lupawy",
+    "slug": "szlak-doliny-lupawy",
+    "type": "trail",
+    "name": "Szlak Doliny Łupawy",
+    "location": {
+      "city": "gmina Damnica",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.508563,
+      "lng": 17.3625923
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 68 km",
+      "oznakowanie: kolor niebieski"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Doliny Łupawy – Pomorskie",
+      "h1": "Szlak Doliny Łupawy",
+      "description": "Szlak turystyczny „Szlak Doliny Łupawy” o długości 68 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-slowincow",
+    "slug": "szlak-slowincow",
+    "type": "trail",
+    "name": "Szlak Słowińców",
+    "location": {
+      "city": "Smołdzino",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.6969183,
+      "lng": 17.3578389
+    },
+    "facts": [
+      "szlak pieszy",
+      "szlak o randze regionalnej",
+      "długość: 39 km",
+      "oznakowanie: kolor żółty"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Słowińców – Pomorskie",
+      "h1": "Szlak Słowińców",
+      "description": "Szlak turystyczny „Szlak Słowińców” o długości 39 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "blekitna-trasa-rowerowa",
+    "slug": "blekitna-trasa-rowerowa",
+    "type": "trail",
+    "name": "Błękitna Trasa Rowerowa",
+    "location": {
+      "city": "Kłosowo",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.4137954,
+      "lng": 18.2705715
+    },
+    "facts": [
+      "szlak rowerowy",
+      "szlak o randze regionalnej",
+      "długość: 36.5 km",
+      "oznakowanie: kolor niebieski"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Błękitna Trasa Rowerowa – Pomorskie",
+      "h1": "Błękitna Trasa Rowerowa",
+      "description": "Szlak turystyczny „Błękitna Trasa Rowerowa” o długości 36.5 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-pocztyliona",
+    "slug": "szlak-pocztyliona",
+    "type": "trail",
+    "name": "Szlak Pocztyliona",
+    "location": {
+      "city": "Gajdy",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 53.8492374,
+      "lng": 19.5343925
+    },
+    "facts": [
+      "szlak rowerowy",
+      "szlak o randze regionalnej",
+      "długość: 130 km",
+      "oznakowanie: kolor żółty"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Pocztyliona – Pomorskie",
+      "h1": "Szlak Pocztyliona",
+      "description": "Szlak turystyczny „Szlak Pocztyliona” o długości 130 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-trojmiejskiego-parku-krajobrazowego",
+    "slug": "szlak-trojmiejskiego-parku-krajobrazowego",
+    "type": "trail",
+    "name": "Szlak Trójmiejskiego Parku Krajobrazowego",
+    "location": {
+      "city": "Bojano",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.4879543,
+      "lng": 18.3799883
+    },
+    "facts": [
+      "szlak rowerowy",
+      "szlak o randze regionalnej",
+      "długość: 71 km"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Trójmiejskiego Parku Krajobrazowego – Pomorskie",
+      "h1": "Szlak Trójmiejskiego Parku Krajobrazowego",
+      "description": "Szlak turystyczny „Szlak Trójmiejskiego Parku Krajobrazowego” o długości 71 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-kamienne-kregi",
+    "slug": "szlak-kamienne-kregi",
+    "type": "trail",
+    "name": "Szlak Kamienne Kręgi",
+    "location": {
+      "city": "gmina Somonino",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.2725889,
+      "lng": 18.2089658
+    },
+    "facts": [
+      "szlak rowerowy",
+      "szlak o randze lokalnej",
+      "długość: 37 km",
+      "oznakowanie: kolor czerwony"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Kamienne Kręgi – Pomorskie",
+      "h1": "Szlak Kamienne Kręgi",
+      "description": "Szlak turystyczny „Szlak Kamienne Kręgi” o długości 37 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-tczewski",
+    "slug": "szlak-tczewski",
+    "type": "trail",
+    "name": "Szlak Tczewski",
+    "location": {
+      "city": "Obozin",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.0612492,
+      "lng": 18.5251303
+    },
+    "facts": [
+      "szlak rowerowy",
+      "szlak o randze lokalnej",
+      "długość: 80 km",
+      "oznakowanie: kolor niebieski",
+      "przebieg: Tczew – Kościerzyna"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Tczewski – Pomorskie",
+      "h1": "Szlak Tczewski",
+      "description": "Szlak turystyczny „Szlak Tczewski” o długości 80 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
+  },
+  {
+    "id": "szlak-hutniczy",
+    "slug": "szlak-hutniczy",
+    "type": "trail",
+    "name": "Szlak Hutniczy",
+    "location": {
+      "city": "gmina Somonino",
+      "region": "Pomorskie",
+      "country": "Polska",
+      "lat": 54.2407489,
+      "lng": 18.2097295
+    },
+    "facts": [
+      "szlak rowerowy",
+      "szlak o randze lokalnej",
+      "długość: 28 km",
+      "oznakowanie: kolor zielony"
+    ],
+    "features": null,
+    "access": null,
+    "seo": {
+      "title": "Szlak Hutniczy – Pomorskie",
+      "h1": "Szlak Hutniczy",
+      "description": "Szlak turystyczny „Szlak Hutniczy” o długości 28 km w regionie Pomorskie: przebieg, długość i lokalizacja."
+    }
   }
 ]

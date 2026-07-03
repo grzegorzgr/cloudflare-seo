@@ -1,0 +1,112 @@
+---
+// Widok strony encji (place page). Renderuje wyłącznie gotowy model z generatora.
+// Zero logiki danych, zero mocków: każda sekcja pojawia się tylko, gdy ma dane.
+import type { FeatureView, PageModel } from '@generator';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+interface Props {
+  model: PageModel;
+}
+
+const { model } = Astro.props;
+
+// Prezentacja pojedynczej flagi: boolean -> tak/nie, string -> wartość z danych 1:1.
+function renderFlag(value: FeatureView['value']): string {
+  if (value === true) return 'tak';
+  if (value === false) return 'nie';
+  return value;
+}
+---
+
+<BaseLayout
+  title={model.pageTitle}
+  description={model.metaDescription}
+  canonical={model.canonical}
+  jsonLd={model.jsonLd}
+>
+  <main>
+    <article>
+      <header>
+        <h1>{model.h1}</h1>
+        <p class="muted">
+          {model.location.city}, {model.location.region}, {model.location.country}
+        </p>
+      </header>
+
+      <p>{model.intent}</p>
+
+      {
+        model.facts.length > 0 && (
+          <section aria-labelledby="opis">
+            <h2 id="opis">Opis</h2>
+            {model.facts.map((fact) => (
+              <p>{fact}</p>
+            ))}
+          </section>
+        )
+      }
+
+      {
+        model.features.length > 0 && (
+          <section aria-labelledby="udogodnienia">
+            <h2 id="udogodnienia">Udogodnienia</h2>
+            <ul>
+              {model.features.map((feature) => (
+                <li>
+                  {feature.label}: {renderFlag(feature.value)}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      {
+        model.access.length > 0 && (
+          <section aria-labelledby="dojazd">
+            <h2 id="dojazd">Dojazd</h2>
+            <ul>
+              {model.access.map((item) => (
+                <li>
+                  {item.label}: {renderFlag(item.value)}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      {
+        model.faq.length > 0 && (
+          <section aria-labelledby="faq">
+            <h2 id="faq">FAQ</h2>
+            <dl>
+              {model.faq.map((item) => (
+                <>
+                  <dt>{item.q}</dt>
+                  <dd>{item.a}</dd>
+                </>
+              ))}
+            </dl>
+          </section>
+        )
+      }
+
+      {
+        model.nearby.length > 0 && (
+          <section aria-labelledby="podobne">
+            <h2 id="podobne">Podobne miejsca</h2>
+            <ul>
+              {model.nearby.map((place) => (
+                <li>
+                  <a href={place.href}>{place.label}</a>
+                  <span class="muted"> — {place.city}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+    </article>
+  </main>
+</BaseLayout>

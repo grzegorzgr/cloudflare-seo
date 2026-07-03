@@ -7,14 +7,14 @@ import {
   toStaticPaths,
   type Entity,
 } from '@generator';
-import EntityPage from '../../components/EntityPage.astro';
+import EntityPage from '../../components/PlacePage.astro';
 
 export function getStaticPaths() {
   return toStaticPaths(parkings as Entity[]);
 }
 
 const { entity } = Astro.props as { entity: Entity };
-const model = buildPageModel(entity, parkingConfig);
+const model = buildPageModel(entity, parkingConfig, parkings as Entity[]);
 ---
 
 <EntityPage model={model} />
