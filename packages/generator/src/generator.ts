@@ -3,7 +3,10 @@
 
 import type {  CollectionRef,
   Dataset,  Entity,
+  EntityAddress,
+  EntityCoordinates,
   EntityFaqItem,
+  AddressView,
   FeatureView,
   NearbyLink,
   PageModel,
@@ -53,13 +56,110 @@ export function buildIntent(entity: Entity, config: TypeConfig): string {
  * Nie tworzy nowych fakt\u00f3w \u2014 sk\u0142ada wy\u0142\u0105cznie istniej\u0105ce dane.
  */
 export function buildPageTitle(
-  entity: Entity,
+  name: string,
   keywords: { primary: string },
 ): string {
   if (!keywords.primary) {
-    return entity.name;
+    return name;
   }
-  return `${entity.name} \u2013 ${keywords.primary}`;
+  return `${name} – ${keywords.primary}`;
+}
+
+// Nazwy zbyt ogólne / kodowe (np. "P8", "P-8", "Parking płatny", "BIS"),
+// które same z siebie nie mówią użytkownikowi gdzie jest parking.
+// Takie nazwy wzbogacamy o adres / operatora / miasto — WYŁĄCZNIE z danych.
+const GENERIC_NAME_PATTERNS: RegExp[] = [
+  /^p[\s-]?\d+/i, // P8, P-8, P 8, P3 A, P2 długoterminowy
+  /^parking\s*\d+$/i, // Parking 4
+  /^parking\s+(płatny|premium|piętrowy|podziemny|strzeżony)$/i,
+  /^parking$/i,
+  /^bis$/i,
+];
+function isGenericName(name: string): boolean {
+  const n = name.trim();
+  if (n.length <= 3) return true;
+  return GENERIC_NAME_PATTERNS.some((re) => re.test(n));
+}
+
+// Wyciąga operatora z listy feature'ów ("operator: X") — realny tag OSM.
+function operatorFromFeatures(features?: string[]): string | null {
+  for (const f of features ?? []) {
+    const m = /^operator:\s*(.+)$/i.exec(f);
+    if (m) return m[1].trim();
+  }
+  return null;
+}
+
+/**
+ * Formatuje adres strukturalny do jednej linii, np. "Aleja Krakowska 100, 02-256 Warszawa".
+ * Pola bez danych są pomijane. Zwraca null, gdy adres pusty.
+ */
+export function formatAddress(address?: EntityAddress | null): string | null {
+  if (!address) return null;
+  const line1 = [address.street, address.housenumber].filter(Boolean).join(' ').trim();
+  const line2 = [address.postcode, address.city].filter(Boolean).join(' ').trim();
+  const formatted = [line1, line2].filter(Boolean).join(', ').trim();
+  return formatted.length > 0 ? formatted : null;
+}
+
+function buildAddressView(address?: EntityAddress | null): AddressView | null {
+  const formatted = formatAddress(address);
+  if (!formatted) return null;
+  return {
+    street: address?.street ?? null,
+    housenumber: address?.housenumber ?? null,
+    postcode: address?.postcode ?? null,
+    city: address?.city ?? null,
+    formatted,
+  };
+}
+
+/**
+ * Buduje deterministyczny link do Google Maps ze współrzędnych encji.
+ * Zwraca null, gdy brak współrzędnych (zasada: brak danych = brak linku).
+ */
+export function buildGoogleMapsUrl(coordinates?: EntityCoordinates): string | null {
+  const lat = coordinates?.lat;
+  const lng = coordinates?.lng;
+  if (typeof lat !== 'number' || typeof lng !== 'number') return null;
+  return `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+}
+
+/**
+ * Buduje czytelną nazwę wyświetlaną (H1/title/meta).
+ * Dla nazw opisowych zwraca oryginał bez zmian.
+ * Dla nazw ogólnych/kodowych (np. "P8") wzbogaca je o realne dane:
+ *   z adresem:    "Parking P8, Aleja Krakowska 100, Warszawa"
+ *   bez adresu:   "Parking P8 – {operator}, Warszawa" lub "Parking P8, Warszawa"
+ * ZERO halucynacji — wszystkie człony pochodzą wyłącznie z danych encji.
+ */
+export function buildDisplayName(entity: Entity, config: TypeConfig): string {
+  const rawName = (entity.name ?? '').trim();
+  if (!isGenericName(rawName)) return rawName;
+
+  let label = rawName;
+  if (config.basePath === 'parking' && !/parking/i.test(rawName)) {
+    label = `Parking ${rawName}`;
+  }
+
+  const addr = entity.address ?? null;
+  const streetLine = [addr?.street, addr?.housenumber].filter(Boolean).join(' ').trim();
+  const city = addr?.city ?? entity.location?.city ?? null;
+
+  const parts: string[] = [];
+  if (streetLine) {
+    parts.push(label, streetLine);
+    if (city) parts.push(city);
+  } else {
+    const operator = operatorFromFeatures(entity.features);
+    if (operator && !label.toLowerCase().includes(operator.toLowerCase())) {
+      parts.push(`${label} – ${operator}`);
+    } else {
+      parts.push(label);
+    }
+    if (city) parts.push(city);
+  }
+  return parts.join(', ');
 }
 
 /**
@@ -112,10 +212,16 @@ export function buildJsonLd(
     jsonLd.description = description;
   }
 
-  if (location.city || location.region || location.country) {
+  if (location.city || location.region || location.country || entity.address) {
+    const streetAddress = [entity.address?.street, entity.address?.housenumber]
+      .filter(Boolean)
+      .join(' ')
+      .trim();
     jsonLd.address = {
       '@type': 'PostalAddress',
-      addressLocality: location.city || undefined,
+      streetAddress: streetAddress || undefined,
+      postalCode: entity.address?.postcode || undefined,
+      addressLocality: location.city || entity.address?.city || undefined,
       addressRegion: location.region || undefined,
       addressCountry: location.country || undefined,
     };
@@ -130,6 +236,10 @@ export function buildJsonLd(
       latitude: coordinates.lat,
       longitude: coordinates.lng,
     };
+    const mapUrl = buildGoogleMapsUrl(coordinates);
+    if (mapUrl) {
+      jsonLd.hasMap = mapUrl;
+    }
   }
 
   if (faq.length > 0) {
@@ -267,13 +377,23 @@ export function buildPageModel(
   const faq = buildFaq(entity, config);
   const keywords = buildKeywords(entity, config);
   const intent = buildIntent(entity, config);
+  const displayName = buildDisplayName(entity, config);
+  const addressView = buildAddressView(entity.address);
+  const googleMapsUrl = buildGoogleMapsUrl(entity.coordinates);
+
+  // Fallback meta description (gdy encja nie ma seo.description): składa
+  // wyłącznie istniejące dane (display name + lokalizacja) — zero halucynacji.
+  const metaPlace = location.city ?? location.region ?? null;
+  const metaFallback = `Informacje o ${config.entityNoun} „${displayName}”${
+    metaPlace ? ` w lokalizacji ${metaPlace}` : ''
+  }: lokalizacja, dojazd i udogodnienia.`;
 
   return {
     slug: entity.slug,
     type: entity.type ?? config.basePath,
-    h1: entity.seo?.h1 ?? entity.name,
-    pageTitle: entity.seo?.title ?? buildPageTitle(entity, keywords),
-    metaDescription: entity.seo?.description ?? intent,
+    h1: entity.seo?.h1 ?? displayName,
+    pageTitle: entity.seo?.title ?? buildPageTitle(displayName, keywords),
+    metaDescription: entity.seo?.description ?? metaFallback,
     canonical: `/${config.basePath}/${entity.slug}`,
     intent,
     keywords: keywords.all,
@@ -285,6 +405,8 @@ export function buildPageModel(
       region: location.region ?? UNKNOWN,
       country: location.country ?? UNKNOWN,
     },
+    address: addressView,
+    googleMapsUrl,
     faq,
     nearby: buildNearby(entity, config, allEntities),
     nearbyPlaces: buildCrossTypeNearby(entity, allDatasets),

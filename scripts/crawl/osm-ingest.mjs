@@ -73,6 +73,16 @@ function resolveLocation(tags) {
   };
 }
 
+// --- Adres strukturalny: TYLKO z tagow addr:* (zero inference) ---
+function resolveAddress(tags) {
+  const street = tags['addr:street'] ?? null;
+  const housenumber = tags['addr:housenumber'] ?? null;
+  const postcode = tags['addr:postcode'] ?? null;
+  const city = tags['addr:city'] ?? null;
+  if (!street && !housenumber && !postcode && !city) return null;
+  return { street, housenumber, postcode, city };
+}
+
 // --- Amenities: TYLKO jawne tagi -> booleany (brak tagu = null) ---
 function resolveAmenities(tags) {
   return {
@@ -117,6 +127,7 @@ function mapElement(element) {
     osmId,
     name,
     location: resolveLocation(tags),
+    address: resolveAddress(tags),
     description: null,
     coordinates: resolveCoordinates(element),
     features: resolveFeatures(tags),

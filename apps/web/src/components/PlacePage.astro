@@ -32,6 +32,23 @@ function renderFlag(value: FeatureView['value']): string {
         <p class="muted">
           {model.location.city}, {model.location.region}, {model.location.country}
         </p>
+        {
+          (model.address || model.googleMapsUrl) && (
+            <p class="address">
+              {model.address && <span>Adres: {model.address.formatted}</span>}
+              {model.address && model.googleMapsUrl && <span class="muted"> — </span>}
+              {model.googleMapsUrl && (
+                <a
+                  href={model.googleMapsUrl}
+                  rel="noopener nofollow"
+                  target="_blank"
+                >
+                  Zobacz w Google Maps
+                </a>
+              )}
+            </p>
+          )
+        }
       </header>
 
       <p>{model.intent}</p>

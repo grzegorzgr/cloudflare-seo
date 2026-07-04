@@ -1456,6 +1456,12 @@
         "parking/auto-handel-483185651",
         "trail/promenada-absolwentow-13994546"
       ]
+    },
+    "address": {
+      "street": "Bursztynowa",
+      "housenumber": null,
+      "postcode": "11-036",
+      "city": "Naterki"
     }
   },
   {
@@ -2085,6 +2091,12 @@
         "parking/parking-spolecznie-strzezony-169149038",
         "trail/egejska-265723534"
       ]
+    },
+    "address": {
+      "street": "Jeziorna",
+      "housenumber": null,
+      "postcode": null,
+      "city": null
     }
   },
   {
@@ -3092,6 +3104,12 @@
         "trail/sciezka-rowerowa-im-zbyszka-rojka-1072690512",
         "trail/zbozowa-144455021"
       ]
+    },
+    "address": {
+      "street": "Kapitańska",
+      "housenumber": "23",
+      "postcode": null,
+      "city": "Olsztyn"
     }
   },
   {
@@ -3433,6 +3451,12 @@
         "parking/parking-selgros-66389237",
         "parking/parking-biedronka-510761251"
       ]
+    },
+    "address": {
+      "street": "Szabelniana",
+      "housenumber": "17",
+      "postcode": "41-400",
+      "city": "Mysłowice"
     }
   },
   {

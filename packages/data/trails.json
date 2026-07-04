@@ -58249,6 +58249,12 @@
         "parking/parking-mpk-w-czestochowie-s-a-526308443",
         "parking/maly-plac-7130993643"
       ]
+    },
+    "address": {
+      "street": "Józefa Mireckiego",
+      "housenumber": "7",
+      "postcode": "42-207",
+      "city": "Częstochowa"
     }
   },
   {
@@ -61937,6 +61943,12 @@
         "trail/malborska-111254951",
         "trail/festynowa-1217713076"
       ]
+    },
+    "address": {
+      "street": null,
+      "housenumber": null,
+      "postcode": null,
+      "city": "Kalej"
     }
   },
   {

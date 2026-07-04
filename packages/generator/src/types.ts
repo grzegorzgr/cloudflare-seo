@@ -22,6 +22,14 @@ export interface EntityLocation {
   country?: string | null;
 }
 
+// Adres strukturalny wywiedziony wyłącznie z tagów OSM addr:* (zero inference).
+export interface EntityAddress {
+  street?: string | null;
+  housenumber?: string | null;
+  postcode?: string | null;
+  city?: string | null;
+}
+
 export interface EntityCoordinates {
   lat: number | null;
   lng: number | null;
@@ -42,6 +50,8 @@ export interface Entity {
   osmId?: string | null;
   seo?: EntitySeo | null;
   location?: EntityLocation;
+  /** Adres strukturalny (addr:* z OSM). null = brak danych. */
+  address?: EntityAddress | null;
   coordinates?: EntityCoordinates;
   description?: string | null;
   features?: string[];
@@ -97,6 +107,16 @@ export interface LocationView {
   country: string;
 }
 
+// Sformatowany adres gotowy do renderowania. null-owe pola pomijane w formatted.
+export interface AddressView {
+  street: string | null;
+  housenumber: string | null;
+  postcode: string | null;
+  city: string | null;
+  /** Jednoliniowy adres, np. "Aleja Krakowska 100, 02-256 Warszawa". */
+  formatted: string;
+}
+
 // Link do pokrewnej encji (ten sam typ i region). Budowany 1:1 z danych.
 export interface NearbyLink {
   href: string;
@@ -128,6 +148,10 @@ export interface PageModel {
   features: FeatureView[];
   access: FeatureView[];
   location: LocationView;
+  /** Adres strukturalny z danych OSM (addr:*), null gdy brak. */
+  address: AddressView | null;
+  /** Link do Google Maps wywiedziony ze współrzędnych, null gdy brak. */
+  googleMapsUrl: string | null;
   faq: EntityFaqItem[];
   nearby: NearbyLink[];
   /** W pobliżu: cross-type encje z entity.graph.nearby (precomputed). */

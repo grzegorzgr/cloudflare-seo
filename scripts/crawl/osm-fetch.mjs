@@ -128,6 +128,15 @@ function resolveFeatures(tags) {
   if (tags.ref) features.push(`oznakowanie: ${tags.ref}`);
   return features;
 }
+// Adres strukturalny WYLACZNIE z jawnych tagow addr:* (zero inference).
+function resolveAddress(tags) {
+  const street = tags['addr:street'] ?? null;
+  const housenumber = tags['addr:housenumber'] ?? null;
+  const postcode = tags['addr:postcode'] ?? null;
+  const city = tags['addr:city'] ?? null;
+  if (!street && !housenumber && !postcode && !city) return null;
+  return { street, housenumber, postcode, city };
+}
 
 function mapElement(element) {
   const tags = element.tags ?? {};
@@ -152,6 +161,7 @@ function mapElement(element) {
       region: tags['addr:region'] ?? tags['addr:state'] ?? null,
       country: tags['addr:country'] ?? null,
     },
+    address: resolveAddress(tags),
     description: null,
     coordinates,
     features: resolveFeatures(tags),

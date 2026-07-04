@@ -1840,6 +1840,12 @@
         "parking/stalexport-252732341",
         "trail/graniczna-1073000652"
       ]
+    },
+    "address": {
+      "street": "Sienkiewicza",
+      "housenumber": null,
+      "postcode": null,
+      "city": null
     }
   },
   {
@@ -2004,6 +2010,12 @@
         "parking/start-parking-okecie-235361412",
         "parking/parking-p12-690679809"
       ]
+    },
+    "address": {
+      "street": "Aleja Krakowska",
+      "housenumber": "42a",
+      "postcode": "02-284",
+      "city": "Warszawa"
     }
   },
   {
@@ -2173,6 +2185,12 @@
         "trail/jana-zamoyskiego-445070368",
         "trail/harnasie-1122759490"
       ]
+    },
+    "address": {
+      "street": "Targowa",
+      "housenumber": "72",
+      "postcode": null,
+      "city": "Warszawa"
     }
   },
   {
@@ -2258,6 +2276,12 @@
         "trail/pasaz-haliny-poswiatowskiej-369505664",
         "trail/galeria-wschodnia-1429115647"
       ]
+    },
+    "address": {
+      "street": "Emilii Plater",
+      "housenumber": "49",
+      "postcode": null,
+      "city": "Warszawa"
     }
   },
   {
@@ -2594,6 +2618,12 @@
         "trail/alejka-krystyny-feldman-164180299",
         "parking/parking-strzezony-przy-promedzie-371632609"
       ]
+    },
+    "address": {
+      "street": "Zygmunta Noskowskiego",
+      "housenumber": null,
+      "postcode": "58-506",
+      "city": "Jelenia Góra"
     }
   },
   {
@@ -2638,6 +2668,12 @@
         "trail/bula-1296030865",
         "trail/do-zrodla-maryjnego-94790339"
       ]
+    },
+    "address": {
+      "street": "Medyków",
+      "housenumber": "19",
+      "postcode": "34-312",
+      "city": "Międzybrodzie Bialskie"
     }
   },
   {
@@ -2679,6 +2715,12 @@
         "trail/burakowa-760046773",
         "parking/parking-grudziadzka-p-r-1190965210"
       ]
+    },
+    "address": {
+      "street": "Bielicka",
+      "housenumber": "21",
+      "postcode": "85-133",
+      "city": "Bydgoszcz"
     }
   },
   {
@@ -2977,6 +3019,12 @@
         "trail/wejscie-sopot-37-1091116946",
         "trail/wejscie-sopot-33-706478911"
       ]
+    },
+    "address": {
+      "street": "Bitwy pod Płowcami",
+      "housenumber": "55",
+      "postcode": "81-731",
+      "city": "Sopot"
     }
   },
   {
@@ -3061,6 +3109,12 @@
         "parking/cinema-city-24751620",
         "trail/fosa-miejska-po-dnie-postolca-812534628"
       ]
+    },
+    "address": {
+      "street": null,
+      "housenumber": null,
+      "postcode": null,
+      "city": "Toruń"
     }
   },
   {
@@ -3357,6 +3411,12 @@
         "parking/tir-1117042971",
         "parking/parking-strezony-platny-130022201"
       ]
+    },
+    "address": {
+      "street": "Rzemieślnicza",
+      "housenumber": null,
+      "postcode": "62-081",
+      "city": "Przeźmierowo"
     }
   },
   {
@@ -3568,6 +3628,12 @@
         "parking/postoj-dla-dorozek-1414754497",
         "parking/parking-carrefour-express-457742932"
       ]
+    },
+    "address": {
+      "street": "Mieczysława Karłowicza",
+      "housenumber": "13",
+      "postcode": "34-500",
+      "city": "Zakopane"
     }
   },
   {
@@ -5025,6 +5091,12 @@
         "parking/parking-sklepu-netto-372650735",
         "parking/parking-dla-klientow-ciszcar-service-12730440795"
       ]
+    },
+    "address": {
+      "street": "Maratońska",
+      "housenumber": "2",
+      "postcode": "94-102",
+      "city": "Łódź"
     }
   },
   {
@@ -5477,6 +5549,12 @@
         "trail/za-torem-670023892",
         "trail/szlak-turystyczny-224158579"
       ]
+    },
+    "address": {
+      "street": null,
+      "housenumber": "103B",
+      "postcode": "34-520",
+      "city": null
     }
   },
   {
@@ -5900,6 +5978,12 @@
         "parking/campanile-119455952",
         "parking/parking-tylko-dla-pracownikow-337788875"
       ]
+    },
+    "address": {
+      "street": "Henryka Sienkiewicza",
+      "housenumber": "113a",
+      "postcode": null,
+      "city": "Łódź"
     }
   },
   {
@@ -6327,6 +6411,12 @@
         "trail/sarmatow-41109214",
         "trail/karola-szajnochy-1083332525"
       ]
+    },
+    "address": {
+      "street": "Włościańska",
+      "housenumber": "56",
+      "postcode": "01-710",
+      "city": "Warszawa"
     }
   },
   {
@@ -6796,6 +6886,12 @@
         "trail/bulwar-bronislawy-i-kazimierza-dluskich-359933577",
         "trail/bulwary-slowackiego-1304335985"
       ]
+    },
+    "address": {
+      "street": "Jagiellońska",
+      "housenumber": null,
+      "postcode": "34-500",
+      "city": "Zakopane"
     }
   },
   {
@@ -7058,6 +7154,12 @@
         "trail/swietego-brata-alberta-chmielowskiego-104488777",
         "trail/wegierska-292419179"
       ]
+    },
+    "address": {
+      "street": "Jana Kilińskiego",
+      "housenumber": "250",
+      "postcode": "93-138",
+      "city": "Łódź"
     }
   },
   {
@@ -7102,6 +7204,12 @@
         "parking/parking-przy-orliku-1434006771",
         "parking/zabka-1434006779"
       ]
+    },
+    "address": {
+      "street": "Mała Łąka",
+      "housenumber": null,
+      "postcode": "34-511",
+      "city": "Kościelisko"
     }
   },
   {
@@ -8516,6 +8624,12 @@
         "parking/straz-miejska-1160077694",
         "parking/dla-klientow-zkzl-1182788983"
       ]
+    },
+    "address": {
+      "street": "Głogowska",
+      "housenumber": "11",
+      "postcode": null,
+      "city": "Poznań"
     }
   },
   {
@@ -9156,6 +9270,12 @@
         "trail/plac-poznanski-45073917",
         "trail/most-mlynski-781122498"
       ]
+    },
+    "address": {
+      "street": "Grudziądzka",
+      "housenumber": "17",
+      "postcode": "85-130",
+      "city": "Bydgoszcz"
     }
   },
   {
@@ -9585,6 +9705,12 @@
         "parking/hotel-soray-969486242",
         "parking/galeria-mozaika-krakow-26258895"
       ]
+    },
+    "address": {
+      "street": "Księdza Prałata Mariana Łaczka",
+      "housenumber": "35",
+      "postcode": null,
+      "city": "Kraków"
     }
   },
   {
@@ -9796,6 +9922,12 @@
         "trail/nadbrzezna-1085217889",
         "parking/parking-zoo-p4-229679035"
       ]
+    },
+    "address": {
+      "street": "Rotmistrza Witolda Pileckiego",
+      "housenumber": "1",
+      "postcode": "45-331",
+      "city": "Opole"
     }
   },
   {
@@ -9925,6 +10057,12 @@
         "parking/p2-hevelianum-167972922",
         "trail/targ-weglowy-144731986"
       ]
+    },
+    "address": {
+      "street": "3 Maja",
+      "housenumber": "9",
+      "postcode": "80-802",
+      "city": "Gdańsk"
     }
   },
   {
@@ -10641,6 +10779,12 @@
         "parking/auto-park-okecie-parking-lotniskowy-13534293002",
         "parking/smart-premium-parking-okecie-1308478673"
       ]
+    },
+    "address": {
+      "street": "Aleja Krakowska",
+      "housenumber": "100",
+      "postcode": "02-256",
+      "city": "Warszawa"
     }
   },
   {
@@ -10857,6 +11001,12 @@
         "trail/trasa-biegowa-1132060499",
         "trail/tor-rolkarski-1206384504"
       ]
+    },
+    "address": {
+      "street": "Kazimierza Górskiego",
+      "housenumber": null,
+      "postcode": "81-304",
+      "city": "Gdynia"
     }
   },
   {
@@ -10900,6 +11050,12 @@
         "trail/alejka-prof-prof-aliny-i-andrzeja-myrchow-669491178",
         "parking/kiss-ride-1203960474"
       ]
+    },
+    "address": {
+      "street": "Absolwentów",
+      "housenumber": "7",
+      "postcode": null,
+      "city": "Białystok"
     }
   },
   {
@@ -11450,6 +11606,12 @@
         "parking/twoj-parking-928657512",
         "trail/lambady-846584215"
       ]
+    },
+    "address": {
+      "street": "Pląsy",
+      "housenumber": "100",
+      "postcode": "02-828",
+      "city": null
     }
   },
   {
@@ -12469,6 +12631,12 @@
         "parking/parking-osobowe-398139476",
         "parking/parking-stoczni-marynarki-wojennej-176691062"
       ]
+    },
+    "address": {
+      "street": "Indyjska",
+      "housenumber": "13",
+      "postcode": null,
+      "city": "Gdynia"
     }
   },
   {
@@ -13855,6 +14023,12 @@
         "parking/darko-parking-649525645",
         "trail/skrzydlo-wolowe-526030561"
       ]
+    },
+    "address": {
+      "street": "Olszanicka",
+      "housenumber": "95",
+      "postcode": "30-241",
+      "city": "Kraków"
     }
   },
   {
@@ -13983,6 +14157,12 @@
         "parking/parkujgo-586800033",
         "parking/king-parking-cholerzyn-348-1290599387"
       ]
+    },
+    "address": {
+      "street": "Olszanicka",
+      "housenumber": "174",
+      "postcode": "30-241",
+      "city": "Kraków"
     }
   },
   {
@@ -14714,6 +14894,12 @@
         "trail/aleja-miast-partnerskich-1391664143",
         "trail/emancypantek-66324992"
       ]
+    },
+    "address": {
+      "street": "Stokrotki",
+      "housenumber": null,
+      "postcode": null,
+      "city": "Lublin"
     }
   },
   {
@@ -15184,6 +15370,12 @@
         "beach/100cznia-plaza-612755403",
         "trail/wrzeszczanska-droga-wzgorz-1017945298"
       ]
+    },
+    "address": {
+      "street": "Gradowa",
+      "housenumber": "3",
+      "postcode": "80-802",
+      "city": "Gdańsk"
     }
   },
   {
@@ -15817,6 +16009,12 @@
         "trail/zaulek-wladyslawa-panasa-65351902",
         "trail/plac-po-farze-1200326794"
       ]
+    },
+    "address": {
+      "street": "Aleja Spółdzielczości Pracy",
+      "housenumber": null,
+      "postcode": "20-147",
+      "city": "Lublin"
     }
   },
   {
@@ -16145,6 +16343,12 @@
         "parking/parking-carrefour-178479600",
         "parking/parking-restauracji-mcdonald-s-373215084"
       ]
+    },
+    "address": {
+      "street": "Krzemieniecka",
+      "housenumber": null,
+      "postcode": "94-303",
+      "city": "Łódź"
     }
   },
   {
@@ -16359,6 +16563,12 @@
         "parking/parking-koscielny-nr-1-352750762",
         "trail/nowowiejska-229077492"
       ]
+    },
+    "address": {
+      "street": "Świętokrzyska",
+      "housenumber": "20",
+      "postcode": "25-406",
+      "city": "Kielce"
     }
   },
   {
@@ -16740,6 +16950,12 @@
         "trail/bulwar-przy-katedrze-35391123",
         "trail/wybrzeze-imienia-prezydenta-gabriela-narutowicza-131474278"
       ]
+    },
+    "address": {
+      "street": "Jana Kazimierza",
+      "housenumber": "6",
+      "postcode": "85-035",
+      "city": "Bydgoszcz"
     }
   },
   {
@@ -16867,6 +17083,12 @@
         "parking/plac-jerzego-grotowskiego-199624491",
         "trail/kladka-im-wielkiej-orkiestry-swiatecznej-pomocy-191667805"
       ]
+    },
+    "address": {
+      "street": "Aleja Tadeusza Rejtana",
+      "housenumber": "1",
+      "postcode": null,
+      "city": "Rzeszów"
     }
   },
   {
@@ -17501,6 +17723,12 @@
         "trail/jana-i-jedrzeja-sniadeckich-345861099",
         "trail/dawna-linia-kolejowa-torun-polnocny-czarnowo-1296432080"
       ]
+    },
+    "address": {
+      "street": "Władysława Broniewskiego",
+      "housenumber": "90",
+      "postcode": "87-100",
+      "city": "Toruń"
     }
   },
   {
@@ -17627,6 +17855,12 @@
         "trail/matemblewska-220113793",
         "trail/mostek-weisera-253663246"
       ]
+    },
+    "address": {
+      "street": "Spadochroniarzy",
+      "housenumber": "21",
+      "postcode": "80-298",
+      "city": "Gdańsk"
     }
   },
   {
@@ -18003,6 +18237,12 @@
         "parking/p5-964308891",
         "parking/p1-224479804"
       ]
+    },
+    "address": {
+      "street": null,
+      "housenumber": null,
+      "postcode": null,
+      "city": "Poznan"
     }
   },
   {
@@ -18589,6 +18829,12 @@
         "trail/polna-1018893021",
         "trail/wisniowa-1018893000"
       ]
+    },
+    "address": {
+      "street": "Mrowla",
+      "housenumber": null,
+      "postcode": null,
+      "city": null
     }
   },
   {
@@ -18800,6 +19046,12 @@
         "trail/zbaszynska-794491965",
         "trail/serwituty-317544348"
       ]
+    },
+    "address": {
+      "street": "Krakowiaków",
+      "housenumber": "75",
+      "postcode": null,
+      "city": "Warszawa"
     }
   },
   {
@@ -19612,6 +19864,12 @@
         "trail/mala-223069283",
         "trail/zrodlana-1353005763"
       ]
+    },
+    "address": {
+      "street": "Przylep-Skokowa",
+      "housenumber": null,
+      "postcode": "66-015",
+      "city": "Zielona Góra"
     }
   },
   {
@@ -19819,6 +20077,12 @@
         "parking/google-988959868",
         "parking/p-r-pradnik-czerwony-69822271"
       ]
+    },
+    "address": {
+      "street": "Aleja Generała Tadeusza Bora-Komorowskiego",
+      "housenumber": null,
+      "postcode": "31-876",
+      "city": "Kraków"
     }
   },
   {
@@ -21047,6 +21311,12 @@
         "parking/parking-depozytowy-701130005",
         "parking/parking-obi-1517781602"
       ]
+    },
+    "address": {
+      "street": "Uniwersytecka",
+      "housenumber": "7",
+      "postcode": "25-406",
+      "city": "Kielce"
     }
   },
   {
@@ -21378,6 +21648,12 @@
         "parking/centrum-serenada-482001807",
         "trail/dominikanow-1241460503"
       ]
+    },
+    "address": {
+      "street": "Aleja Generała Tadeusza Bora-Komorowskiego",
+      "housenumber": "27",
+      "postcode": "31-876",
+      "city": "Kraków"
     }
   },
   {
@@ -21421,6 +21697,12 @@
         "trail/sluzby-polsce-100670623",
         "trail/waclawa-lachmana-477629595"
       ]
+    },
+    "address": {
+      "street": "Aleja Komisji Edukacji Narodowej",
+      "housenumber": "79",
+      "postcode": "02-777",
+      "city": "Warszawa"
     }
   },
   {
@@ -21544,6 +21826,12 @@
         "trail/matemblewska-220113793",
         "trail/mostek-weisera-253663246"
       ]
+    },
+    "address": {
+      "street": "Juliusza Słowackiego",
+      "housenumber": "199B",
+      "postcode": null,
+      "city": "Gdańsk"
     }
   },
   {
@@ -21631,6 +21919,12 @@
         "trail/zaulek-ossolinskich-439225155",
         "trail/przejscie-winogronowe-28859277"
       ]
+    },
+    "address": {
+      "street": "Plac Nowy Targ",
+      "housenumber": "29",
+      "postcode": "50-144",
+      "city": "Wrocław"
     }
   },
   {
@@ -21934,6 +22228,12 @@
         "parking/kiss-ride-999899102",
         "trail/tadeusza-wendy-89680209"
       ]
+    },
+    "address": {
+      "street": "Oliwska",
+      "housenumber": "100",
+      "postcode": "80-209",
+      "city": "Chwaszczyno"
     }
   },
   {
@@ -22523,6 +22823,12 @@
         "trail/joachima-lelewela-317728336",
         "trail/nabrzeze-manikowskich-112379012"
       ]
+    },
+    "address": {
+      "street": "Gajowa",
+      "housenumber": null,
+      "postcode": null,
+      "city": "Bydgoszcz"
     }
   },
   {
@@ -22609,6 +22915,12 @@
         "parking/strzezony-platny-calodobowy-261348798",
         "trail/jozefa-kalusa-48181406"
       ]
+    },
+    "address": {
+      "street": "Pocztowa",
+      "housenumber": null,
+      "postcode": "41-500",
+      "city": "Chorzów"
     }
   },
   {
@@ -22903,6 +23215,12 @@
         "trail/ksiedza-stanislawa-andrukiewicza-241118116",
         "trail/rzeszowska-1383235775"
       ]
+    },
+    "address": {
+      "street": "Piastowska",
+      "housenumber": null,
+      "postcode": null,
+      "city": "Białystok"
     }
   },
   {
@@ -23200,6 +23518,12 @@
         "parking/plac-parkingowy-pod-nosem-1057647498",
         "parking/parking-dozorowany-5143678091"
       ]
+    },
+    "address": {
+      "street": null,
+      "housenumber": null,
+      "postcode": "34-531",
+      "city": "Murzasichle"
     }
   },
   {
@@ -23497,6 +23821,12 @@
         "trail/matemblewska-220113793",
         "trail/mostek-weisera-253663246"
       ]
+    },
+    "address": {
+      "street": "Spadochroniarzy",
+      "housenumber": "8",
+      "postcode": "80-298",
+      "city": "Gdańsk"
     }
   },
   {
@@ -24042,6 +24372,12 @@
         "trail/aleja-ambientowa-431516497",
         "parking/parking-biedronki-4988888524"
       ]
+    },
+    "address": {
+      "street": "Kręta",
+      "housenumber": "12",
+      "postcode": "15-345",
+      "city": "Białystok"
     }
   },
   {
@@ -24085,6 +24421,12 @@
         "parking/hotel-garden-inn-rzeszow-1332098033",
         "trail/aleja-gwiazd-sportowcow-polonijnych-301093759"
       ]
+    },
+    "address": {
+      "street": "Wojciecha Kilara",
+      "housenumber": null,
+      "postcode": null,
+      "city": "Rzeszów"
     }
   },
   {
@@ -24341,6 +24683,12 @@
         "trail/bulwar-rodla-1173073673",
         "trail/pasaz-bielaka-180931996"
       ]
+    },
+    "address": {
+      "street": "Floriana Straszewskiego",
+      "housenumber": "14",
+      "postcode": null,
+      "city": "Kraków"
     }
   },
   {
@@ -24386,6 +24734,12 @@
         "parking/k-r-bus-ulica-dajwor-1134984017",
         "parking/straszewskiego-359527326"
       ]
+    },
+    "address": {
+      "street": "Starowiślna",
+      "housenumber": "13",
+      "postcode": "31-038",
+      "city": "Kraków"
     }
   },
   {
@@ -24720,6 +25074,12 @@
         "parking/magnolia-park-102534597",
         "trail/starograniczna-532555544"
       ]
+    },
+    "address": {
+      "street": "Strzegomska",
+      "housenumber": "42ac",
+      "postcode": "53-611",
+      "city": "Wrocław"
     }
   },
   {
@@ -24934,6 +25294,12 @@
         "parking/parking-poznan-glowny-424348817",
         "parking/straz-miejska-1160077694"
       ]
+    },
+    "address": {
+      "street": "Stanisława Matyi",
+      "housenumber": "2",
+      "postcode": "61-586",
+      "city": "Poznań"
     }
   },
   {
@@ -24975,6 +25341,12 @@
         "parking/parking-sklepu-netto-372650735",
         "parking/parking-dla-klientow-ciszcar-service-12730440795"
       ]
+    },
+    "address": {
+      "street": "Batalionów Chłopskich",
+      "housenumber": "4",
+      "postcode": null,
+      "city": "Łódź"
     }
   },
   {
@@ -25268,6 +25640,12 @@
         "trail/wejscie-nr-9-998288994",
         "trail/tor-rolkarski-1206384504"
       ]
+    },
+    "address": {
+      "street": "Mikołaja Kopernika",
+      "housenumber": "57",
+      "postcode": "81-411",
+      "city": "Gdynia"
     }
   },
   {
@@ -25602,6 +25980,12 @@
         "trail/kladka-siedlecka-28490112",
         "trail/krzywa-grobla-1001206711"
       ]
+    },
+    "address": {
+      "street": "Gazowa",
+      "housenumber": "3",
+      "postcode": "50-513",
+      "city": "Wrocław"
     }
   },
   {
@@ -25978,6 +26362,12 @@
         "parking/parking-nad-dworcem-glownym-pkp-krakow-26393442",
         "trail/stanislawa-worcella-242750730"
       ]
+    },
+    "address": {
+      "street": "Pawia",
+      "housenumber": "5",
+      "postcode": null,
+      "city": "Kraków"
     }
   },
   {
@@ -26775,6 +27165,12 @@
         "trail/fosa-miejska-po-dnie-postolca-812534628",
         "parking/cinema-city-24751620"
       ]
+    },
+    "address": {
+      "street": "Bulwar Filadelfijski",
+      "housenumber": null,
+      "postcode": "87-100",
+      "city": "Toruń"
     }
   },
   {
@@ -28194,6 +28590,12 @@
         "trail/alejka-druha-henryka-sroki-230751420",
         "parking/p-r-swoszowice-1001207025"
       ]
+    },
+    "address": {
+      "street": "Porucznika Jerzego Halszki",
+      "housenumber": "1",
+      "postcode": "30-001",
+      "city": "Kraków"
     }
   },
   {
@@ -28235,6 +28637,12 @@
         "parking/simple-park-862987256",
         "parking/auto-park-okecie-parking-lotniskowy-13534293002"
       ]
+    },
+    "address": {
+      "street": "Jasna",
+      "housenumber": "22",
+      "postcode": "05-090",
+      "city": "Raszyn"
     }
   },
   {
@@ -28657,6 +29065,12 @@
         "trail/maly-blednik-138951594",
         "parking/parking-krolewski-502754497"
       ]
+    },
+    "address": {
+      "street": "Gradowa",
+      "housenumber": "11",
+      "postcode": "80-802",
+      "city": "Gdańsk"
     }
   },
   {
@@ -28702,6 +29116,12 @@
         "trail/targ-weglowy-144731986",
         "parking/p1-hevelianum-497613419"
       ]
+    },
+    "address": {
+      "street": "Księdza Franciszka Rogaczewskiego",
+      "housenumber": "55",
+      "postcode": "80-804",
+      "city": "Gdańsk"
     }
   },
   {
@@ -28745,6 +29165,12 @@
         "trail/most-swietokrzyski-367143725",
         "trail/dynasy-224521538"
       ]
+    },
+    "address": {
+      "street": "Wybrzeże Kościuszkowskie",
+      "housenumber": null,
+      "postcode": "00-390",
+      "city": "Warszawa"
     }
   },
   {
@@ -28789,6 +29215,12 @@
         "trail/aleja-czeresni-1305591104",
         "trail/aleja-astrow-986011798"
       ]
+    },
+    "address": {
+      "street": "Skrzydlata",
+      "housenumber": "1",
+      "postcode": "02-176",
+      "city": "Warszawa"
     }
   },
   {
@@ -29042,6 +29474,12 @@
         "parking/parking-tir-832192933",
         "trail/aleja-zachodnia-793931883"
       ]
+    },
+    "address": {
+      "street": "Wysoka",
+      "housenumber": null,
+      "postcode": null,
+      "city": "Sosnowiec"
     }
   },
   {
@@ -29723,6 +30161,12 @@
         "trail/mala-223069283",
         "trail/zrodlana-1353005763"
       ]
+    },
+    "address": {
+      "street": "Przylep-Skokowa",
+      "housenumber": "17",
+      "postcode": "66-015",
+      "city": "Zielona Góra"
     }
   },
   {
@@ -30190,6 +30634,12 @@
         "parking/p-r-mydlniki-wapiennik-917484027",
         "parking/jet-park-balice-1497130838"
       ]
+    },
+    "address": {
+      "street": "Krakowska",
+      "housenumber": "66",
+      "postcode": "32-083",
+      "city": "Szczyglice"
     }
   },
   {
@@ -30828,6 +31278,12 @@
         "parking/jet-park-balice-1497130838",
         "parking/parkujgo-586800033"
       ]
+    },
+    "address": {
+      "street": "Na Lotnisko",
+      "housenumber": null,
+      "postcode": "32-083",
+      "city": "Balice"
     }
   },
   {
@@ -31367,6 +31823,12 @@
         "parking/auto-park-okecie-parking-lotniskowy-13534293002",
         "parking/simple-park-862987256"
       ]
+    },
+    "address": {
+      "street": "Konstantego Ildefonsa Gałczyńskiego",
+      "housenumber": "16",
+      "postcode": "05-090",
+      "city": "Raszyn"
     }
   },
   {
@@ -31408,6 +31870,12 @@
         "parking/simple-park-862987256",
         "parking/parking-lotnisko-18-warszawa-487105771"
       ]
+    },
+    "address": {
+      "street": "Konstantego Ildefonsa Gałczyńskiego",
+      "housenumber": "12",
+      "postcode": "05-090",
+      "city": "Raszyn"
     }
   },
   {
@@ -31755,6 +32223,12 @@
         "parking/parking-wielopoziomowy-nova-park-3961869334",
         "trail/lechitow-1475410569"
       ]
+    },
+    "address": {
+      "street": "Lipowa",
+      "housenumber": "15",
+      "postcode": "66-400",
+      "city": "Gorzów Wielkopolski"
     }
   },
   {
@@ -31967,6 +32441,12 @@
         "trail/trasa-dh-371970616",
         "parking/harenda-371970615"
       ]
+    },
+    "address": {
+      "street": "Tatrzańska",
+      "housenumber": "39",
+      "postcode": "34-530",
+      "city": "Gliczarów Górny"
     }
   },
   {
@@ -32097,6 +32577,12 @@
         "trail/scholastykow-956705075",
         "parking/parking-p16-690679808"
       ]
+    },
+    "address": {
+      "street": "Szyszkowa",
+      "housenumber": "60",
+      "postcode": "02-285",
+      "city": "Warszawa"
     }
   },
   {
@@ -32523,6 +33009,12 @@
         "parking/podziemny-2246385298",
         "trail/aleja-europejskiej-stolicy-mlodziezy-lublin-2023-1005433130"
       ]
+    },
+    "address": {
+      "street": "Józefa Piłsudskiego",
+      "housenumber": null,
+      "postcode": null,
+      "city": "Lublin"
     }
   },
   {
@@ -32783,6 +33275,12 @@
         "parking/twoj-parking-928657512",
         "trail/lambady-846584215"
       ]
+    },
+    "address": {
+      "street": "Hołubcowa",
+      "housenumber": "100",
+      "postcode": "02-854",
+      "city": null
     }
   },
   {
@@ -34478,6 +34976,12 @@
         "parking/parking-stacja-narciarska-suche-1023961560",
         "parking/park-ride-smrekowa-1071558684"
       ]
+    },
+    "address": {
+      "street": "Szlak Papieski",
+      "housenumber": null,
+      "postcode": "34-521",
+      "city": "Ząb"
     }
   },
   {
@@ -34650,6 +35154,12 @@
         "trail/zapachu-bzu-1128450977",
         "parking/igik-114895533"
       ]
+    },
+    "address": {
+      "street": "Aleja Wilanowska",
+      "housenumber": "236",
+      "postcode": "02-730",
+      "city": "Warszawa"
     }
   },
   {
@@ -34694,6 +35204,12 @@
         "parking/za-bramka-4968361644",
         "beach/plaza-miejska-chwaliszewo-334158650"
       ]
+    },
+    "address": {
+      "street": "Chwaliszewo",
+      "housenumber": null,
+      "postcode": null,
+      "city": null
     }
   },
   {

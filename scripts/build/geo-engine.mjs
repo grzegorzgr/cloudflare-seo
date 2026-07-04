@@ -150,6 +150,16 @@ function resolveFeatures(tags) {
   if (tags.ref) f.push(`oznakowanie: ${tags.ref}`);
   return f;
 }
+// Adres strukturalny WYLACZNIE z jawnych tagow addr:* (zero inference).
+// Brak wszystkich pol = null (zasada: brak danych = brak pola).
+function resolveAddress(tags) {
+  const street = tags['addr:street'] ?? null;
+  const housenumber = tags['addr:housenumber'] ?? null;
+  const postcode = tags['addr:postcode'] ?? null;
+  const city = tags['addr:city'] ?? null;
+  if (!street && !housenumber && !postcode && !city) return null;
+  return { street, housenumber, postcode, city };
+}
 function mapElement(el) {
   const tags = el.tags ?? {};
   const type = resolveType(tags);
@@ -169,6 +179,7 @@ function mapElement(el) {
       region: tags['addr:region'] ?? tags['addr:state'] ?? null,
       country: tags['addr:country'] ?? null,
     },
+    address: resolveAddress(tags),
     description: null,
     coordinates: resolveCoordinates(el),
     features: resolveFeatures(tags),
@@ -240,6 +251,21 @@ function enrichEntity(existing, incoming) {
     }
   }
   if (locChanged) { next.location = location; changed.push('location'); }
+  // Adres: dolacz brakujace pola z OSM (fill-only, zero nadpisywania).
+  if (existing.address == null && incoming.address != null) {
+    next.address = incoming.address;
+    changed.push('address');
+  } else if (existing.address && incoming.address) {
+    const addr = { ...existing.address };
+    let addrChanged = false;
+    for (const key of ['street', 'housenumber', 'postcode', 'city']) {
+      if (addr[key] == null && incoming.address[key] != null) {
+        addr[key] = incoming.address[key];
+        addrChanged = true;
+      }
+    }
+    if (addrChanged) { next.address = addr; changed.push('address'); }
+  }
   const existingFeatures = existing.features ?? [];
   const mergedFeatures = [...existingFeatures];
   for (const f of incoming.features ?? []) {
