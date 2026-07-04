@@ -1,6 +1,8 @@
 ---
 // Bazowy layout SSG. Odpowiada wyłącznie za dokument HTML, meta SEO i JSON-LD.
 // Treść strony trafia do <slot />. Brak logiki i brak client-side JS.
+import { seoConfig } from '@config/seo.config.ts';
+
 interface Props {
   title: string;
   description?: string;
@@ -10,6 +12,9 @@ interface Props {
 }
 
 const { title, description, canonical, keywords, jsonLd } = Astro.props;
+const absoluteCanonical = canonical
+  ? canonical.startsWith('http') ? canonical : `${seoConfig.siteUrl}${canonical}`
+  : undefined;
 ---
 
 <!doctype html>
@@ -22,7 +27,7 @@ const { title, description, canonical, keywords, jsonLd } = Astro.props;
     {keywords && keywords.length > 0 && (
       <meta name="keywords" content={keywords.join(', ')} />
     )}
-    {canonical && <link rel="canonical" href={canonical} />}
+    {absoluteCanonical && <link rel="canonical" href={absoluteCanonical} />}
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
     <script
       is:inline
