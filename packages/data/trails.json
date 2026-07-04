@@ -98555,5 +98555,48 @@
         "trail/wejscie-3-1476886598"
       ]
     }
+  },
+  {
+    "id": "strumieniowka-1535070879",
+    "slug": "strumieniowka-1535070879",
+    "osmId": "way/1535070879",
+    "name": "Strumieniówka",
+    "location": {
+      "city": "Zielona Góra",
+      "region": "Lubuskie",
+      "country": null
+    },
+    "description": null,
+    "coordinates": {
+      "lat": 51.8947959,
+      "lng": 15.4087423
+    },
+    "features": [
+      "nawierzchnia: unpaved"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/franyflow-1120211810",
+        "trail/kamien-909001480",
+        "trail/tami-909001481",
+        "trail/wilkanowo-f1-909001477",
+        "trail/kostecki-881720295"
+      ]
+    }
   }
 ]
