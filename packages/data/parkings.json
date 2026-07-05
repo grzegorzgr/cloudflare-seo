@@ -36332,17 +36332,24 @@
       "lng": 15.5763588
     },
     "features": [
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "nawierzchnia: sett",
+      "operator: Komunikacja Miejska",
+      "nawierzchnia: paving_stones",
+      "pojemność: 6",
+      "pojemność: 12",
+      "pojemność: 3",
+      "pojemność: 17"
     ],
     "amenities": {
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
-      "accessibility": null,
-      "paid_entry": null,
-      "lifeguards": null,
+      "accessibility": true,
+      "paid_entry": true,
+      "lifeguards": false,
       "covered": null,
-      "guarded": null
+      "guarded": false
     },
     "tags": [
       "osm"
@@ -36375,7 +36382,12 @@
       "lng": 14.5363792
     },
     "features": [
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "nawierzchnia: paving_stones",
+      "pojemność: 3",
+      "pojemność: 15",
+      "pojemność: 7",
+      "nawierzchnia: grass_paver"
     ],
     "amenities": {
       "parking": true,
@@ -36460,7 +36472,24 @@
     },
     "features": [
       "pojemność: 1",
-      "oznakowanie: 32"
+      "oznakowanie: 32",
+      "oznakowanie: 28",
+      "oznakowanie: 19",
+      "oznakowanie: 34",
+      "oznakowanie: 24",
+      "oznakowanie: 20",
+      "oznakowanie: 25",
+      "oznakowanie: 21",
+      "oznakowanie: 31",
+      "oznakowanie: 23",
+      "oznakowanie: 30",
+      "oznakowanie: 33",
+      "oznakowanie: 29",
+      "oznakowanie: 27",
+      "oznakowanie: 22",
+      "oznakowanie: 36",
+      "oznakowanie: 26",
+      "oznakowanie: 35"
     ],
     "amenities": {
       "parking": true,
@@ -36485,6 +36514,12 @@
         "trail/am-schloonsee-376949480",
         "trail/seestra-e-1251689729"
       ]
+    },
+    "address": {
+      "street": "Schillerstraße",
+      "housenumber": null,
+      "postcode": "17429",
+      "city": "Heringsdorf"
     }
   },
   {
@@ -36632,7 +36667,8 @@
       "lng": 15.576664
     },
     "features": [
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": true,
@@ -36804,7 +36840,8 @@
       "lng": 16.1291912
     },
     "features": [
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "nawierzchnia: concrete"
     ],
     "amenities": {
       "parking": true,
@@ -36917,6 +36954,12 @@
         "trail/bulwar-zacisze-785508691",
         "trail/nabrzeze-fosa-wal-obronny-797325989"
       ]
+    },
+    "address": {
+      "street": "Portowa",
+      "housenumber": "45",
+      "postcode": "78-100",
+      "city": "Kołobrzeg"
     }
   },
   {
@@ -37530,7 +37573,9 @@
     },
     "features": [
       "nawierzchnia: asphalt",
-      "pojemność: 33"
+      "pojemność: 33",
+      "operator: Nieruchomości i Opłaty Lokalne sp. z o.o. w Szczecinie",
+      "pojemność: 17"
     ],
     "amenities": {
       "parking": true,
@@ -37538,9 +37583,9 @@
       "dog_friendly": null,
       "accessibility": true,
       "paid_entry": false,
-      "lifeguards": null,
+      "lifeguards": false,
       "covered": null,
-      "guarded": null
+      "guarded": false
     },
     "tags": [
       "osm"
@@ -37700,7 +37745,10 @@
       "lng": 15.5742235
     },
     "features": [
-      "operator: Komunikacja Miejska Kołobrzeg"
+      "operator: Komunikacja Miejska Kołobrzeg",
+      "nawierzchnia: paving_stones",
+      "operator: Komunikacja Miejska",
+      "pojemność: 15"
     ],
     "amenities": {
       "parking": true,
@@ -37787,7 +37835,8 @@
     },
     "features": [
       "operator: Nieruchomości i Opłaty Lokalne sp. z o.o. w Szczecinie",
-      "pojemność: 12"
+      "pojemność: 12",
+      "pojemność: 11"
     ],
     "amenities": {
       "parking": true,
@@ -37982,6 +38031,12 @@
         "parking/hotel-boncza-547302316",
         "trail/weteranow-195014101"
       ]
+    },
+    "address": {
+      "street": "Hangarowa",
+      "housenumber": null,
+      "postcode": null,
+      "city": "Szczecin"
     }
   },
   {
@@ -38339,13 +38394,17 @@
       "lat": 53.8976193,
       "lng": 14.2779927
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: concrete",
+      "operator: Zarząd Morskich Portów Szczecin i Świnoujście SA",
+      "pojemność: 278"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": false,
       "lifeguards": null,
       "covered": null,
       "guarded": null
@@ -38699,6 +38758,12 @@
         "trail/willibald-alexis-weg-26508096",
         "trail/apothekerweg-245536631"
       ]
+    },
+    "address": {
+      "street": "Labahnstraße",
+      "housenumber": "40",
+      "postcode": null,
+      "city": null
     }
   },
   {
@@ -39392,7 +39457,8 @@
       "lng": 14.520877
     },
     "features": [
-      "pojemność: 37"
+      "pojemność: 37",
+      "pojemność: 18"
     ],
     "amenities": {
       "parking": true,

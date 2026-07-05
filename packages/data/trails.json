@@ -32260,7 +32260,9 @@
       "lat": 51.1020927,
       "lng": 16.9569228
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: asphalt"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -87707,7 +87709,8 @@
     },
     "features": [
       "nawierzchnia: wood",
-      "oznakowanie: 10"
+      "oznakowanie: 10",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
@@ -87836,7 +87839,10 @@
       "lng": 14.1558523
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: asphalt",
+      "nawierzchnia: paved",
+      "nawierzchnia: sett"
     ],
     "amenities": {
       "parking": null,
@@ -87964,7 +87970,9 @@
       "lat": 53.947718,
       "lng": 14.1707262
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: wood"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -88176,7 +88184,9 @@
       "lng": 15.6029361
     },
     "features": [
-      "nawierzchnia: sand"
+      "nawierzchnia: sand",
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: wood"
     ],
     "amenities": {
       "parking": null,
@@ -88219,7 +88229,8 @@
       "lng": 15.5797712
     },
     "features": [
-      "nawierzchnia: sand"
+      "nawierzchnia: sand",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -88262,7 +88273,8 @@
       "lng": 15.5818628
     },
     "features": [
-      "nawierzchnia: sand"
+      "nawierzchnia: sand",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -88305,7 +88317,8 @@
       "lng": 15.5724265
     },
     "features": [
-      "nawierzchnia: wood"
+      "nawierzchnia: wood",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -88348,7 +88361,8 @@
       "lng": 15.5669193
     },
     "features": [
-      "nawierzchnia: sand"
+      "nawierzchnia: sand",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -88478,7 +88492,8 @@
       "lng": 14.5897073
     },
     "features": [
-      "nawierzchnia: concrete"
+      "nawierzchnia: concrete",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -88731,7 +88746,8 @@
       "lng": 16.2397036
     },
     "features": [
-      "nawierzchnia: compacted"
+      "nawierzchnia: compacted",
+      "nawierzchnia: wood"
     ],
     "amenities": {
       "parking": null,
@@ -88860,7 +88876,8 @@
       "lng": 14.2557523
     },
     "features": [
-      "nawierzchnia: ground"
+      "nawierzchnia: ground",
+      "nawierzchnia: sett"
     ],
     "amenities": {
       "parking": null,
@@ -88903,7 +88920,8 @@
       "lng": 14.5778343
     },
     "features": [
-      "nawierzchnia: grass"
+      "nawierzchnia: grass",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -88946,7 +88964,8 @@
       "lng": 14.5787146
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: grass"
     ],
     "amenities": {
       "parking": null,
@@ -89032,7 +89051,10 @@
       "lng": 14.185358
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: wood",
+      "oznakowanie: 1/W",
+      "nawierzchnia: asphalt"
     ],
     "amenities": {
       "parking": null,
@@ -89074,7 +89096,9 @@
       "lat": 54.1984353,
       "lng": 16.1821843
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: concrete"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -89116,7 +89140,8 @@
       "lng": 15.4913219
     },
     "features": [
-      "nawierzchnia: wood"
+      "nawierzchnia: wood",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
@@ -89159,13 +89184,16 @@
       "lng": 15.5401003
     },
     "features": [
-      "nawierzchnia: sett"
+      "nawierzchnia: sett",
+      "nawierzchnia: concrete",
+      "oznakowanie: 23",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
       "toilets": null,
       "dog_friendly": null,
-      "accessibility": null,
+      "accessibility": true,
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
@@ -89244,7 +89272,10 @@
       "lat": 54.1645762,
       "lng": 15.539405
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: concrete:plates",
+      "nawierzchnia: paving_stones"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -89710,7 +89741,8 @@
       "lng": 14.2731025
     },
     "features": [
-      "nawierzchnia: plastic"
+      "nawierzchnia: plastic",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -89880,7 +89912,8 @@
       "lng": 14.2313207
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: asphalt"
     ],
     "amenities": {
       "parking": null,
@@ -90130,7 +90163,8 @@
       "lng": 14.2249204
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: wood"
     ],
     "amenities": {
       "parking": null,
@@ -90306,13 +90340,16 @@
     },
     "features": [
       "nawierzchnia: paved",
-      "oznakowanie: 4"
+      "oznakowanie: 4",
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: asphalt",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
       "toilets": null,
       "dog_friendly": null,
-      "accessibility": null,
+      "accessibility": false,
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
@@ -90394,7 +90431,8 @@
     },
     "features": [
       "nawierzchnia: asphalt",
-      "oznakowanie: 3"
+      "oznakowanie: 3",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
@@ -90437,7 +90475,8 @@
       "lng": 14.1698048
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: sett"
     ],
     "amenities": {
       "parking": null,
@@ -90693,7 +90732,8 @@
       "lng": 15.5000192
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: Wood composite board"
     ],
     "amenities": {
       "parking": null,
@@ -90822,7 +90862,8 @@
       "lng": 15.4713826
     },
     "features": [
-      "nawierzchnia: dirt"
+      "nawierzchnia: dirt",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
@@ -91458,7 +91499,10 @@
       "lat": 53.9127456,
       "lng": 14.2637775
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: ground",
+      "nawierzchnia: sett"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -91499,7 +91543,9 @@
       "lat": 53.8954162,
       "lng": 14.3840117
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: ground"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -92183,7 +92229,9 @@
     },
     "features": [
       "nawierzchnia: wood",
-      "oznakowanie: 7"
+      "oznakowanie: 7",
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
@@ -92394,7 +92442,8 @@
       "lng": 14.5911976
     },
     "features": [
-      "nawierzchnia: unpaved"
+      "nawierzchnia: unpaved",
+      "nawierzchnia: dirt"
     ],
     "amenities": {
       "parking": null,
@@ -92943,7 +92992,8 @@
       "lng": 15.5642923
     },
     "features": [
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -93538,13 +93588,14 @@
       "lng": 14.2768262
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
       "toilets": null,
       "dog_friendly": null,
-      "accessibility": null,
+      "accessibility": false,
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
@@ -93666,7 +93717,9 @@
       "lat": 54.16687,
       "lng": 15.4930409
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: sand"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -93966,7 +94019,8 @@
       "lng": 15.6087863
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: concrete"
     ],
     "amenities": {
       "parking": null,
@@ -94862,7 +94916,8 @@
       "lng": 14.2004549
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: asphalt"
     ],
     "amenities": {
       "parking": null,
@@ -94947,7 +95002,11 @@
       "lat": 54.1745943,
       "lng": 15.5268364
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: wood",
+      "oznakowanie: 27",
+      "nawierzchnia: sand"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -95838,7 +95897,9 @@
     },
     "features": [
       "nawierzchnia: plastic",
-      "oznakowanie: 8"
+      "oznakowanie: 8",
+      "nawierzchnia: paved",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
@@ -95882,7 +95943,8 @@
     },
     "features": [
       "nawierzchnia: concrete",
-      "oznakowanie: 12"
+      "oznakowanie: 12",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -96477,7 +96539,8 @@
       "lng": 15.4978711
     },
     "features": [
-      "nawierzchnia: ground"
+      "nawierzchnia: ground",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
@@ -97119,7 +97182,8 @@
     },
     "features": [
       "nawierzchnia: paved",
-      "oznakowanie: 9"
+      "oznakowanie: 9",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
@@ -97589,7 +97653,8 @@
       "lng": 15.6448907
     },
     "features": [
-      "nawierzchnia: compacted"
+      "nawierzchnia: compacted",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -98057,13 +98122,14 @@
     },
     "features": [
       "nawierzchnia: compacted",
-      "oznakowanie: 16"
+      "oznakowanie: 16",
+      "nawierzchnia: sand"
     ],
     "amenities": {
       "parking": null,
       "toilets": null,
       "dog_friendly": null,
-      "accessibility": null,
+      "accessibility": false,
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
@@ -98486,7 +98552,8 @@
     },
     "features": [
       "nawierzchnia: sand",
-      "oznakowanie: 6"
+      "oznakowanie: 6",
+      "oznakowanie: 8"
     ],
     "amenities": {
       "parking": null,
