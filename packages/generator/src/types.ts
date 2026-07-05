@@ -142,6 +142,8 @@ export interface PageModel {
   pageTitle: string;
   metaDescription: string;
   canonical: string;
+  /** true, gdy encja nie ma opisu ani zadnej wypelnionej cechy (thin content). */
+  noindex: boolean;
   intent: string;
   keywords: string[];
   facts: string[];

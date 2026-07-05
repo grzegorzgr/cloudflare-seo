@@ -8,6 +8,10 @@ import { seoConfig } from '../../config/seo.config.ts';
 export default defineConfig({
   output: 'static',
   site: seoConfig.siteUrl,
+  // Kazda strona jest budowana jako {path}/index.html (directory format).
+  // 'always' dopasowuje zachowanie dev-servera i wewnetrznych URL do tego,
+  // co realnie serwuje Cloudflare Pages bez dodatkowego redirectu 308.
+  trailingSlash: 'always',
   vite: {
     resolve: {
       alias: {

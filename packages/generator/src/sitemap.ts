@@ -1,7 +1,8 @@
 // Sitemap generator. Deterministycznie buduje liste URL i XML sitemap
 // wylacznie z danych w /packages/data. Bez recznej edycji.
 
-import { slugify, stripTrailingSlashes } from './slug.js';
+import { slugify, stripTrailingSlashes, withTrailingSlash } from './slug.js';
+import { hasSufficientContent } from './generator.js';
 import type { Entity, TypeConfig } from './types.js';
 
 export interface SitemapDataset {
@@ -32,12 +33,16 @@ export function buildSitemapPaths(
 
   // Warstwa index (entry points): /cities, /regions, /beaches, /parking, /trails.
   for (const indexPath of indexPaths) {
-    paths.push(indexPath);
+    paths.push(withTrailingSlash(indexPath));
   }
 
   for (const { entities, config } of datasets) {
     for (const entity of entities) {
-      paths.push(`/${config.basePath}/${entity.slug}`);
+      // Strony bez opisu i bez zadnej cechy (same "Brak danych") sa
+      // wylaczone z sitemap, dopoki dane sie nie uzupelnia (thin content).
+      if (hasSufficientContent(entity)) {
+        paths.push(withTrailingSlash(`/${config.basePath}/${entity.slug}`));
+      }
       const region = entity.location?.region;
       if (region && !regions.includes(region)) {
         regions.push(region);
@@ -62,16 +67,16 @@ export function buildSitemapPaths(
   }
 
   for (const city of cities) {
-    paths.push(`/city/${slugify(city)}`);
+    paths.push(withTrailingSlash(`/city/${slugify(city)}`));
   }
 
   for (const region of regions) {
-    paths.push(`/region/${slugify(region)}`);
+    paths.push(withTrailingSlash(`/region/${slugify(region)}`));
   }
 
   // Warstwa kolekcji automatycznych.
   for (const slug of collectionSlugs) {
-    paths.push(`/collection/${slug}`);
+    paths.push(withTrailingSlash(`/collection/${slug}`));
   }
 
   // Deterministyczna deduplikacja z zachowaniem kolejnosci pierwszego wystapienia.

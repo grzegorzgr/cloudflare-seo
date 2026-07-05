@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -D - -o /dev/null \"https://gdziemy.pl/beach/jelitkowo/\")",
+      "Bash(grep -v \"^.*://\\\\|node_modules\")",
+      "Bash(npm run *)",
+      "Bash(node ../../node_modules/astro/bin/astro.mjs build)",
+      "Bash(npm install *)"
+    ]
+  }
+}

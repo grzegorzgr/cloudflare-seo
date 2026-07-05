@@ -1,7 +1,7 @@
 // Cluster pages: strony agregacyjne wg typu (/{type}/) oraz regionu (/region/{slug}).
 // Wszystko wyprowadzone deterministycznie z /packages/data. Bez nowych danych.
 
-import { slugify, stripTrailingSlashes } from './slug.js';
+import { slugify, stripTrailingSlashes, withTrailingSlash } from './slug.js';
 import { byDistanceFrom } from './geo.js';
 import type { CollectionRef, Entity, TypeConfig } from './types.js';
 
@@ -63,7 +63,7 @@ export interface RegionModel {
 
 function toLink(entity: Entity, config: TypeConfig): ClusterLink {
   return {
-    href: `/${config.basePath}/${entity.slug}`,
+    href: withTrailingSlash(`/${config.basePath}/${entity.slug}`),
     name: entity.name,
     city: entity.location?.city ?? UNKNOWN,
     region: entity.location?.region ?? UNKNOWN,
@@ -202,7 +202,7 @@ export function buildRegionModel(
   const cityItems: ClusterLink[] = citySeeds
     .filter((seed) => seed.location?.region === region)
     .map((seed) => ({
-      href: `/city/${seed.slug ?? slugify(seed.location?.city ?? seed.name)}`,
+      href: withTrailingSlash(`/city/${seed.slug ?? slugify(seed.location?.city ?? seed.name)}`),
       name: seed.location?.city ?? seed.name,
       city: seed.location?.city ?? seed.name,
       region,
@@ -228,7 +228,7 @@ export function buildRegionModel(
     title: `${region} — miasta i obiekty`,
     description: `Katalog miejsc w regionie ${region}: ${allLinks.length} obiektow pogrupowanych wedlug typu.`,
     intro: `Jesli szukasz miejsc w regionie ${region}, ta strona zbiera wszystkie dostepne miasta-huby oraz obiekty pogrupowane wedlug typu.`,
-    canonical: `/region/${slugify(region)}`,
+    canonical: withTrailingSlash(`/region/${slugify(region)}`),
     count: allLinks.length,
     sections,
     jsonLd: buildItemList(`${region} — miejsca`, allLinks, baseUrl),
@@ -309,7 +309,7 @@ export function buildNearbyCities(
   return sorted.slice(0, limit).map((s) => {
     const { distanceKm: dist } = byDistanceFromRaw(citySeed, s);
     return {
-      href: `/city/${s.slug ?? slugify(s.location?.city ?? s.name)}`,
+      href: withTrailingSlash(`/city/${s.slug ?? slugify(s.location?.city ?? s.name)}`),
       name: s.location?.city ?? s.name,
       distanceKm: dist,
     };
@@ -393,7 +393,7 @@ export function buildCityModel(
     title: `${city} — miejsca i obiekty`,
     description: `Katalog miejsc w miejscowosci ${city}: ${allLinks.length} obiektow pogrupowanych wedlug typu.`,
     intro,
-    canonical: `/city/${citySlug}`,
+    canonical: withTrailingSlash(`/city/${citySlug}`),
     count: allLinks.length,
     sections,
     nearbyCities,

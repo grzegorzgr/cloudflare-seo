@@ -14,9 +14,27 @@ import type {  CollectionRef,
 } from './types.js';
 import { buildKeywords } from './keywords.js';
 import { byDistanceFrom, distanceKm } from './geo.js';
+import { withTrailingSlash } from './slug.js';
 
 const UNKNOWN = 'nieznane';
 const NO_DATA = 'Brak danych';
+
+/**
+ * Prog "wystarczajacych danych" do indeksowania strony encji.
+ * Strona bez opisu i bez zadnej wypelnionej cechy/udogodnienia jest w
+ * praktyce pusta (same "Brak danych") i ryzykuje thin content na skale
+ * tysiecy stron. Taka strona zostaje wygenerowana (bez fikcji w danych),
+ * ale oznaczona jako noindex i wykluczona z sitemap, dopoki dane sie nie
+ * uzupelnia.
+ */
+export function hasSufficientContent(entity: Entity): boolean {
+  if (entity.seo?.description || entity.description) {
+    return true;
+  }
+  return Object.values(entity.amenities ?? {}).some(
+    (value) => value !== null && value !== undefined,
+  );
+}
 
 /** Maksymalna liczba linków w sekcji "Podobne miejsca". */
 const NEARBY_LIMIT = 5;
@@ -308,7 +326,7 @@ export function buildNearby(
     }
     seen.add(candidate.slug);
     nearby.push({
-      href: `/${config.basePath}/${candidate.slug}`,
+      href: withTrailingSlash(`/${config.basePath}/${candidate.slug}`),
       label: candidate.name,
       city: candidate.location?.city ?? UNKNOWN,
       type: config.basePath,
@@ -349,7 +367,7 @@ export function buildCrossTypeNearby(
     if (!found) continue;
     const { entity: target, config } = found;
     result.push({
-      href: `/${config.basePath}/${target.slug}`,
+      href: withTrailingSlash(`/${config.basePath}/${target.slug}`),
       label: target.name,
       city: target.location?.city ?? 'nieznane',
       type: config.basePath,
@@ -394,7 +412,8 @@ export function buildPageModel(
     h1: entity.seo?.h1 ?? displayName,
     pageTitle: entity.seo?.title ?? buildPageTitle(displayName, keywords),
     metaDescription: entity.seo?.description ?? metaFallback,
-    canonical: `/${config.basePath}/${entity.slug}`,
+    canonical: withTrailingSlash(`/${config.basePath}/${entity.slug}`),
+    noindex: !hasSufficientContent(entity),
     intent,
     keywords: keywords.all,
     facts: entity.features ?? [],

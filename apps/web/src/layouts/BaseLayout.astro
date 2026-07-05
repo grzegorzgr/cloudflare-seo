@@ -9,9 +9,11 @@ interface Props {
   canonical?: string;
   keywords?: string[];
   jsonLd?: Record<string, unknown>;
+  /** np. "noindex,follow" dla stron bez wystarczajacych danych (thin content). */
+  robots?: string;
 }
 
-const { title, description, canonical, keywords, jsonLd } = Astro.props;
+const { title, description, canonical, keywords, jsonLd, robots } = Astro.props;
 const absoluteCanonical = canonical
   ? canonical.startsWith('http') ? canonical : `${seoConfig.siteUrl}${canonical}`
   : undefined;
@@ -24,6 +26,7 @@ const absoluteCanonical = canonical
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
+    {robots && <meta name="robots" content={robots} />}
     {keywords && keywords.length > 0 && (
       <meta name="keywords" content={keywords.join(', ')} />
     )}

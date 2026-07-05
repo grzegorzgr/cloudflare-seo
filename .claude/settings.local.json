@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "WebFetch(domain:gdziemy.pl)",
+      "Bash(curl -s -D - -o /dev/null \"https://gdziemy.pl/beach/jelitkowo\")",
+      "Bash(curl -s -L -o /dev/null -w \"final_status=%{http_code} final_url=%{url_effective}\\\\n\" \"https://gdziemy.pl/beach/jelitkowo\")",
+      "Bash(curl -s \"https://gdziemy.pl/robots.txt\")"
+    ]
+  }
+}

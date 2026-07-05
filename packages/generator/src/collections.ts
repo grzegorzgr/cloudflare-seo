@@ -3,7 +3,7 @@
 // Zero hardkodowanych list – generator sam wykrywa kombinacje.
 // Zasada: kolekcja < 3 encji nie jest tworzona.
 
-import { slugify, stripTrailingSlashes } from './slug.js';
+import { slugify, stripTrailingSlashes, withTrailingSlash } from './slug.js';
 import type { CollectionRef, Entity, TypeConfig } from './types.js';
 import type { SitemapLikeDataset } from './clusters.js';
 
@@ -69,7 +69,7 @@ interface CollectionDef {
 
 function toItem(entity: Entity, config: TypeConfig): CollectionItem {
   return {
-    href: `/${config.basePath}/${entity.slug}`,
+    href: withTrailingSlash(`/${config.basePath}/${entity.slug}`),
     name: entity.name,
     city: entity.location?.city ?? 'nieznane',
     region: entity.location?.region ?? 'nieznane',
@@ -238,26 +238,26 @@ function buildCollectionModel(
 
   const relatedCities = [
     ...new Set(items.map((i) => i.city).filter((c) => c !== 'nieznane')),
-  ].map((city) => ({ href: `/city/${slugify(city)}`, name: city }));
+  ].map((city) => ({ href: withTrailingSlash(`/city/${slugify(city)}`), name: city }));
 
   const relatedRegions = [
     ...new Set(items.map((i) => i.region).filter((r) => r !== 'nieznane')),
-  ].map((region) => ({ href: `/region/${slugify(region)}`, name: region }));
+  ].map((region) => ({ href: withTrailingSlash(`/region/${slugify(region)}`), name: region }));
 
   // Powiazane kolekcje: inne kolekcje tego samego typu.
   const relatedCollections: CollectionRef[] = allDefs
     .filter((d) => d.slugKey !== def.slugKey && d.type === def.type)
     .slice(0, 6)
     .map((d) => ({
-      href: `/collection/${d.slugKey}`,
+      href: withTrailingSlash(`/collection/${d.slugKey}`),
       label: d.h1,
       count: 0, // Uzupelniane po zbudowaniu wszystkich modeli.
     }));
 
   const breadcrumbs: Breadcrumb[] = [
     { name: 'Start', href: '/' },
-    { name: config.collectionLabel, href: `/${config.basePath === 'beach' ? 'beaches' : config.basePath === 'trail' ? 'trails' : 'parking'}` },
-    { name: def.h1, href: `/collection/${def.slugKey}` },
+    { name: config.collectionLabel, href: withTrailingSlash(`/${config.basePath === 'beach' ? 'beaches' : config.basePath === 'trail' ? 'trails' : 'parking'}`) },
+    { name: def.h1, href: withTrailingSlash(`/collection/${def.slugKey}`) },
   ];
 
   const faq = buildCollectionFaq(items, def.h1);
@@ -268,7 +268,7 @@ function buildCollectionModel(
     title: `${def.h1} – katalog obiektów`,
     description: def.description,
     intro: `Poniższa lista zawiera ${items.length} obiektów spełniających kryteria: ${def.h1}.`,
-    canonical: `/collection/${def.slugKey}`,
+    canonical: withTrailingSlash(`/collection/${def.slugKey}`),
     count: items.length,
     items,
     faq,
@@ -312,7 +312,7 @@ export function buildAllCollections(
   const countBySlug = new Map(allModels.map((m) => [m.slug, m.count]));
   for (const model of allModels) {
     for (const ref of model.relatedCollections) {
-      const refSlug = ref.href.replace('/collection/', '');
+      const refSlug = stripTrailingSlashes(ref.href.replace('/collection/', ''));
       ref.count = countBySlug.get(refSlug) ?? 0;
     }
     // Usuwamy related z count=0 (kolekcja nieistniejaca lub za mala).
@@ -334,7 +334,7 @@ export function findEntityCollections(
   return allCollections
     .filter(
       (col) =>
-        col.items.some((item) => item.href === `/${config.basePath}/${entity.slug}`),
+        col.items.some((item) => item.href === withTrailingSlash(`/${config.basePath}/${entity.slug}`)),
     )
     .map((col) => ({
       href: col.canonical,

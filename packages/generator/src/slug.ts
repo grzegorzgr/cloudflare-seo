@@ -43,3 +43,15 @@ export function stripTrailingSlashes(input: string): string {
   return input.slice(0, end);
 }
 
+/**
+ * Zapewnia dokladnie jeden koncowy "/" na sciezce (poza samym "/").
+ * Astro (build.format: 'directory') generuje kazda strone jako
+ * {path}/index.html, wiec kanoniczny URL bez koncowego "/" powoduje
+ * dodatkowy redirect 308 na hostingu (Cloudflare Pages). Ta funkcja
+ * gwarantuje spojnosc miedzy sitemap, canonical i wewnetrznymi linkami.
+ */
+export function withTrailingSlash(path: string): string {
+  const stripped = stripTrailingSlashes(path);
+  return stripped === '' ? '/' : `${stripped}/`;
+}
+

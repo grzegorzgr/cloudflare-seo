@@ -24,6 +24,7 @@ function renderFlag(value: FeatureView['value']): string {
   canonical={model.canonical}
   keywords={model.keywords}
   jsonLd={model.jsonLd}
+  robots={model.noindex ? 'noindex,follow' : undefined}
 >
   <main>
     <article>

@@ -8,7 +8,7 @@
 //   - trasy index (/cities, /regions, /beaches, ...) to konfiguracja nawigacji,
 //     nie dane encji (dozwolone).
 
-import { slugify, stripTrailingSlashes } from './slug.js';
+import { slugify, stripTrailingSlashes, withTrailingSlash } from './slug.js';
 import {
   buildClusterModel,
   listCities,
@@ -28,9 +28,9 @@ const UNKNOWN = 'nieznane';
 
 // --- Stale trasy warstwy index (system entry points) ---
 export const HOME_PATH = '/';
-export const CITIES_PATH = '/cities';
-export const REGIONS_PATH = '/regions';
-export const COLLECTIONS_PATH = '/collections';
+export const CITIES_PATH = '/cities/';
+export const REGIONS_PATH = '/regions/';
+export const COLLECTIONS_PATH = '/collections/';
 
 /** Kategoria = para (trasa index w l. mnogiej, konfiguracja typu). */
 export interface CategoryIndex {
@@ -43,9 +43,9 @@ export interface CategoryIndex {
  * punktami wejscia; etykiety pochodza z konfiguracji typu (collectionLabel).
  */
 export const indexCategories: CategoryIndex[] = [
-  { path: '/beaches', config: beachConfig },
-  { path: '/parking', config: parkingConfig },
-  { path: '/trails', config: trailConfig },
+  { path: '/beaches/', config: beachConfig },
+  { path: '/parking/', config: parkingConfig },
+  { path: '/trails/', config: trailConfig },
 ];
 
 // --- Typy modelu index ---
@@ -184,7 +184,7 @@ export function buildHomeModel(
       heading: 'Regiony',
       headingHref: REGIONS_PATH,
       items: regions.map((r) => ({
-        href: `/region/${r.slug}`,
+        href: withTrailingSlash(`/region/${r.slug}`),
         name: r.region,
         sub: `${r.count} obiektów`,
       })),
@@ -193,7 +193,7 @@ export function buildHomeModel(
       heading: 'Miasta (huby)',
       headingHref: CITIES_PATH,
       items: hubs.map((c) => ({
-        href: `/city/${c.slug}`,
+        href: withTrailingSlash(`/city/${c.slug}`),
         name: c.city,
         sub: c.region ?? undefined,
       })),
@@ -240,7 +240,7 @@ export function buildCitiesIndexModel(
       order.push(region);
     }
     grouped.get(region)!.push({
-      href: `/city/${ref.slug}`,
+      href: withTrailingSlash(`/city/${ref.slug}`),
       name: ref.city,
       sub: `${ref.count} obiektów`,
     });
@@ -248,7 +248,7 @@ export function buildCitiesIndexModel(
 
   const sections: IndexSection[] = order.map((region) => ({
     heading: region,
-    headingHref: region === UNKNOWN ? undefined : `/region/${slugify(region)}`,
+    headingHref: region === UNKNOWN ? undefined : withTrailingSlash(`/region/${slugify(region)}`),
     items: grouped.get(region)!,
   }));
 
@@ -285,11 +285,11 @@ export function buildRegionsIndexModel(
 
   const sections: IndexSection[] = regions.map((r) => ({
     heading: r.region,
-    headingHref: `/region/${r.slug}`,
+    headingHref: withTrailingSlash(`/region/${r.slug}`),
     items: cityRefs
       .filter((c) => c.region === r.region)
       .map((c) => ({
-        href: `/city/${c.slug}`,
+        href: withTrailingSlash(`/city/${c.slug}`),
         name: c.city,
         sub: `${c.count} obiektów`,
       })),
@@ -333,7 +333,7 @@ export function buildCategoryIndexModel(
 
   const sections: IndexSection[] = cluster.sections.map((s) => ({
     heading: s.heading,
-    headingHref: s.heading === UNKNOWN ? undefined : `/region/${slugify(s.heading)}`,
+    headingHref: s.heading === UNKNOWN ? undefined : withTrailingSlash(`/region/${slugify(s.heading)}`),
     items: s.items.map((i: ClusterLink) => ({
       href: i.href,
       name: i.name,
@@ -390,7 +390,7 @@ export function buildCollectionsIndexModel(
       typeOrder.push(typeKey);
     }
     grouped.get(typeKey)!.push({
-      href: `/collection/${col.slug}`,
+      href: withTrailingSlash(`/collection/${col.slug}`),
       name: col.h1,
       sub: `${col.count} obiektów`,
     });
