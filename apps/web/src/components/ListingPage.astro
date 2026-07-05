@@ -1,4 +1,5 @@
 ---
+import { countObjectsPl } from '@generator';
 // Widok stron agregacyjnych (cluster / region). Renderuje wylacznie gotowy model.
 // Zero logiki danych: sekcje pochodza z generatora (buildClusterModel/buildRegionModel).
 import type { ClusterSection } from '@generator';
@@ -40,7 +41,7 @@ const {
     <article>
       <header>
         <h1>{heading}</h1>
-        <p class="muted">{count} obiektów</p>
+        <p class="muted">{countObjectsPl(count)}</p>
       </header>
 
       <p>{intro}</p>

@@ -41,12 +41,17 @@ export const GET: APIRoute = () => {
   const collections = buildAllCollections(datasets, seoConfig.siteUrl);
   const collectionSlugs = collections.map((col) => col.slug);
 
+  // lastmod = data builda (UTC). Jedyny niedeterministyczny element sitemapy:
+  // zmienia sie przy kazdym deployu, sygnalizujac crawlerom swiezosc danych.
+  const lastmod = new Date().toISOString().slice(0, 10);
+
   const xml = buildSitemapXml(
     datasets,
     seoConfig.siteUrl,
     cities as Entity[],
     indexPaths,
     collectionSlugs,
+    lastmod,
   );
 
   return new Response(xml, {

@@ -6,6 +6,7 @@
 import { slugify, stripTrailingSlashes, withTrailingSlash } from './slug.js';
 import type { CollectionRef, Entity, TypeConfig } from './types.js';
 import type { SitemapLikeDataset } from './clusters.js';
+import { countObjectsPl } from './text.js';
 
 /** Minimalna liczba encji w kolekcji. */
 const MIN_COLLECTION_SIZE = 3;
@@ -139,7 +140,7 @@ function generateCollectionDefs(
     defs.push({
       slugKey,
       h1: `${config.collectionLabel} – ${label}`,
-      description: `${config.collectionLabel} posiadające udogodnienie: ${label}. Lista ${matching.length} obiektów.`,
+      description: `${config.collectionLabel} posiadające udogodnienie: ${label}. Lista: ${countObjectsPl(matching.length)}.`,
       filterFn: (e) => !!(e.amenities && e.amenities[key] === true),
       type: config.basePath,
     });
@@ -200,7 +201,7 @@ function buildCollectionFaq(
 
   faq.push({
     q: `Ile miejsc zawiera kolekcja "${h1}"?`,
-    a: `Kolekcja zawiera ${items.length} obiektów.`,
+    a: `Kolekcja zawiera ${countObjectsPl(items.length)}.`,
   });
 
   const regions = [...new Set(items.map((i) => i.region).filter((r) => r !== 'nieznane'))];
@@ -267,7 +268,7 @@ function buildCollectionModel(
     h1: def.h1,
     title: `${def.h1} – katalog obiektów`,
     description: def.description,
-    intro: `Poniższa lista zawiera ${items.length} obiektów spełniających kryteria: ${def.h1}.`,
+    intro: `Poniższa lista zawiera ${countObjectsPl(items.length)} spełniające kryteria: ${def.h1}.`,
     canonical: withTrailingSlash(`/collection/${def.slugKey}`),
     count: items.length,
     items,

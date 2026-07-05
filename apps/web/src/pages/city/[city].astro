@@ -12,6 +12,7 @@ import {
   trailConfig,
   buildCityModel,
   buildAllCollections,
+  countObjectsPl,
   listCities,
   listCitySeeds,
   mergeCityRefs,
@@ -69,7 +70,7 @@ const model = buildCityModel(city, datasets, seoConfig.siteUrl, citySeeds, cityC
       <header>
         <h1>{model.city}</h1>
         {model.region && <p class="muted">{model.region}</p>}
-        <p class="muted">{model.count} obiektów</p>
+        <p class="muted">{countObjectsPl(model.count)}</p>
       </header>
 
       <p>{model.intro}</p>
@@ -115,7 +116,7 @@ const model = buildCityModel(city, datasets, seoConfig.siteUrl, citySeeds, cityC
             {model.collectionRefs.map((col: CollectionRef) => (
               <li>
                 <a href={col.href}>{col.label}</a>
-                <span class="muted"> — {col.count} obiektów</span>
+                <span class="muted"> — {countObjectsPl(col.count)}</span>
               </li>
             ))}
           </ul>

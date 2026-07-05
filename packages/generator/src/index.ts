@@ -13,3 +13,4 @@ export * from './navigation.js';
 export * from './dedupe.js';
 export * from './crawler.js';
 export * from './collections.js';
+export * from './text.js';

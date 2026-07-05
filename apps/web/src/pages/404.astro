@@ -1,0 +1,32 @@
+---
+// Strona 404 (SSG). Cloudflare Pages serwuje dist/404.html ze statusem 404
+// dla nieistniejacych sciezek. Bez tego pliku Pages zwracalby strone glowna
+// z kodem 200 dla kazdego URL (soft-404, duplicate content).
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="404 — nie znaleziono strony" robots="noindex,follow">
+  <main>
+    <article>
+      <header>
+        <h1>404 — nie znaleziono strony</h1>
+      </header>
+      <p>
+        Strona o tym adresie nie istnieje w katalogu. Skorzystaj z punktów
+        wejścia poniżej, aby znaleźć właściwe miejsce.
+      </p>
+      <section>
+        <h2>Przejdź do katalogu</h2>
+        <ul>
+          <li><a href="/">Strona główna</a></li>
+          <li><a href="/regions/">Regiony</a></li>
+          <li><a href="/cities/">Miasta</a></li>
+          <li><a href="/collections/">Kolekcje</a></li>
+          <li><a href="/beaches/">Plaże</a></li>
+          <li><a href="/parking/">Parkingi</a></li>
+          <li><a href="/trails/">Szlaki</a></li>
+        </ul>
+      </section>
+    </article>
+  </main>
+</BaseLayout>

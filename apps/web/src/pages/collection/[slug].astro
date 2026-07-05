@@ -9,6 +9,7 @@ import {
   parkingConfig,
   trailConfig,
   buildAllCollections,
+  countObjectsPl,
   type Entity,
 } from '@generator';
 import type { CollectionModel } from '@generator';
@@ -59,7 +60,7 @@ const { model } = Astro.props as { model: CollectionModel };
 
       <header>
         <h1>{model.h1}</h1>
-        <p class="muted">{model.count} obiektów</p>
+        <p class="muted">{countObjectsPl(model.count)}</p>
       </header>
 
       <p>{model.intro}</p>
@@ -119,7 +120,7 @@ const { model } = Astro.props as { model: CollectionModel };
             {model.relatedCollections.map((col) => (
               <li>
                 <a href={col.href}>{col.label}</a>
-                <span class="muted"> — {col.count} obiektów</span>
+                <span class="muted"> — {countObjectsPl(col.count)}</span>
               </li>
             ))}
           </ul>

@@ -23,6 +23,7 @@ import {
 } from './configs.js';
 import { listCitySeeds, mergeCityRefs, type CitySeed } from './cities.js';
 import type { Entity, TypeConfig } from './types.js';
+import { countCitiesPl, countObjectsPl, countRegionsPl } from './text.js';
 
 const UNKNOWN = 'nieznane';
 
@@ -186,7 +187,7 @@ export function buildHomeModel(
       items: regions.map((r) => ({
         href: withTrailingSlash(`/region/${r.slug}`),
         name: r.region,
-        sub: `${r.count} obiektów`,
+        sub: countObjectsPl(r.count),
       })),
     },
     {
@@ -210,9 +211,9 @@ export function buildHomeModel(
   return {
     h1: 'Katalog miejsc — GEO graf',
     title: 'Katalog miejsc — regiony, miasta i kategorie',
-    description: `Punkt wejscia do katalogu: ${regions.length} regiony, ${cityRefs.length} miast, ${totalEntities} obiektow.`,
+    description: `Punkt wejścia do katalogu: ${countRegionsPl(regions.length)}, ${countCitiesPl(cityRefs.length)}, ${countObjectsPl(totalEntities)}.`,
     canonical: HOME_PATH,
-    intro: `Deterministyczny katalog GEO: ${regions.length} regiony, ${cityRefs.length} miast oraz ${totalEntities} obiektow. Wybierz region, miasto lub kategorie, aby przejsc do listy.`,
+    intro: `Deterministyczny katalog GEO: ${countRegionsPl(regions.length)}, ${countCitiesPl(cityRefs.length)} oraz ${countObjectsPl(totalEntities)}. Wybierz region, miasto lub kategorię, aby przejść do listy.`,
     nav: buildIndexNav(categories, HOME_PATH),
     sections,
     jsonLd: graph([
@@ -242,7 +243,7 @@ export function buildCitiesIndexModel(
     grouped.get(region)!.push({
       href: withTrailingSlash(`/city/${ref.slug}`),
       name: ref.city,
-      sub: `${ref.count} obiektów`,
+      sub: countObjectsPl(ref.count),
     });
   }
 
@@ -257,7 +258,7 @@ export function buildCitiesIndexModel(
     title: 'Miasta — pelny indeks katalogu',
     description: `Indeks ${cityRefs.length} miast pogrupowanych wedlug regionu, z linkami do stron miast.`,
     canonical: CITIES_PATH,
-    intro: `Pelny indeks ${cityRefs.length} miast w katalogu, pogrupowany wedlug regionu. Kazde miasto prowadzi do listy obiektow (/city/{miasto}).`,
+    intro: `Pełny indeks miast w katalogu (${countCitiesPl(cityRefs.length)}), pogrupowany według regionu. Każde miasto prowadzi do listy obiektów (/city/{miasto}).`,
     nav: buildIndexNav(categories, CITIES_PATH),
     sections,
     jsonLd: graph([
@@ -291,7 +292,7 @@ export function buildRegionsIndexModel(
       .map((c) => ({
         href: withTrailingSlash(`/city/${c.slug}`),
         name: c.city,
-        sub: `${c.count} obiektów`,
+        sub: countObjectsPl(c.count),
       })),
   }));
 
@@ -346,9 +347,9 @@ export function buildCategoryIndexModel(
   return {
     h1: label,
     title: `${label} — indeks katalogu`,
-    description: `Pelna lista (${entities.length}) obiektow typu ${label.toLowerCase()} pogrupowana wedlug regionu.`,
+    description: `Pełna lista obiektów typu ${label.toLowerCase()} (${countObjectsPl(entities.length)}) pogrupowana według regionu.`,
     canonical: path,
-    intro: `Pelna lista obiektow typu ${label.toLowerCase()} (${entities.length}) pogrupowana wedlug regionu. Kazdy obiekt ma osobna strone.`,
+    intro: `Pełna lista obiektów typu ${label.toLowerCase()} (${countObjectsPl(entities.length)}) pogrupowana według regionu. Każdy obiekt ma osobną stronę.`,
     nav: buildIndexNav(categories, path),
     sections,
     jsonLd: graph([
@@ -392,7 +393,7 @@ export function buildCollectionsIndexModel(
     grouped.get(typeKey)!.push({
       href: withTrailingSlash(`/collection/${col.slug}`),
       name: col.h1,
-      sub: `${col.count} obiektów`,
+      sub: countObjectsPl(col.count),
     });
   }
 

@@ -4,6 +4,7 @@
 import { slugify, stripTrailingSlashes, withTrailingSlash } from './slug.js';
 import { byDistanceFrom } from './geo.js';
 import type { CollectionRef, Entity, TypeConfig } from './types.js';
+import { countObjectsPl } from './text.js';
 
 const UNKNOWN = 'nieznane';
 
@@ -125,8 +126,8 @@ export function buildClusterModel(
   return {
     type: config.basePath,
     title: config.collectionLabel,
-    description: `${config.collectionLabel}: pelna lista (${entities.length}) w bazie, pogrupowana wedlug regionu.`,
-    intro: `Jesli szukasz ${config.entityNoun} w konkretnym regionie, ponizsza lista zawiera wszystkie dostepne obiekty typu ${config.collectionLabel.toLowerCase()}.`,
+    description: `${config.collectionLabel}: pełna lista (${countObjectsPl(entities.length)}) w bazie, pogrupowana według regionu.`,
+    intro: `Jeśli szukasz ${config.entityNoun} w konkretnym regionie, poniższa lista zawiera wszystkie dostępne obiekty typu ${config.collectionLabel.toLowerCase()}.`,
     canonical: `/${config.basePath}/`,
     count: entities.length,
     sections,
@@ -226,8 +227,8 @@ export function buildRegionModel(
     region,
     slug: slugify(region),
     title: `${region} — miasta i obiekty`,
-    description: `Katalog miejsc w regionie ${region}: ${allLinks.length} obiektow pogrupowanych wedlug typu.`,
-    intro: `Jesli szukasz miejsc w regionie ${region}, ta strona zbiera wszystkie dostepne miasta-huby oraz obiekty pogrupowane wedlug typu.`,
+    description: `Katalog miejsc w regionie ${region}: ${countObjectsPl(allLinks.length)} pogrupowane według typu.`,
+    intro: `Jeśli szukasz miejsc w regionie ${region}, ta strona zbiera wszystkie dostępne miasta-huby oraz obiekty pogrupowane według typu.`,
     canonical: withTrailingSlash(`/region/${slugify(region)}`),
     count: allLinks.length,
     sections,
@@ -380,8 +381,8 @@ export function buildCityModel(
 
   const intro =
     allLinks.length > 0
-      ? `Jesli szukasz miejsc w ${city}, ta strona zbiera wszystkie dostepne obiekty pogrupowane wedlug typu.`
-      : `${city} to wezel-hub katalogu. Trwa import obiektow (OSM) dla tej miejscowosci.`;
+      ? `Jeśli szukasz miejsc w ${city}, ta strona zbiera wszystkie dostępne obiekty pogrupowane według typu.`
+      : `${city} to węzeł-hub katalogu. Trwa import obiektów (OSM) dla tej miejscowości.`;
 
   // Najblizsze miasta z warstwy seed.
   const nearbyCities = seed ? buildNearbyCities(seed, citySeeds) : [];
@@ -391,7 +392,7 @@ export function buildCityModel(
     region,
     slug: citySlug,
     title: `${city} — miejsca i obiekty`,
-    description: `Katalog miejsc w miejscowosci ${city}: ${allLinks.length} obiektow pogrupowanych wedlug typu.`,
+    description: `Katalog miejsc w miejscowości ${city}: ${countObjectsPl(allLinks.length)} pogrupowane według typu.`,
     intro,
     canonical: withTrailingSlash(`/city/${citySlug}`),
     count: allLinks.length,

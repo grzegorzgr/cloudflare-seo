@@ -86,6 +86,7 @@ export function buildSitemapPaths(
 /**
  * Serializuje liste datasetow do poprawnego XML sitemap.
  * baseUrl to domena origin (np. https://example.com) bez koncowego "/".
+ * lastmod (opcjonalny, format YYYY-MM-DD) jest wpisywany do kazdego <url>.
  */
 export function buildSitemapXml(
   datasets: SitemapDataset[],
@@ -93,10 +94,12 @@ export function buildSitemapXml(
   citySeeds: Entity[] = [],
   indexPaths: string[] = [],
   collectionSlugs: string[] = [],
+  lastmod?: string,
 ): string {
   const base = stripTrailingSlashes(baseUrl);
+  const lastmodTag = lastmod ? `\n    <lastmod>${lastmod}</lastmod>` : '';
   const body = buildSitemapPaths(datasets, citySeeds, indexPaths, collectionSlugs)
-    .map((path) => `  <url>\n    <loc>${base}${path}</loc>\n  </url>`)
+    .map((path) => `  <url>\n    <loc>${base}${path}</loc>${lastmodTag}\n  </url>`)
     .join('\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;

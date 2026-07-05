@@ -1,4 +1,5 @@
 ---
+import { countObjectsPl } from '@generator';
 // Widok strony encji (place page). Renderuje wyłącznie gotowy model z generatora.
 // Zero logiki danych, zero mocków: każda sekcja pojawia się tylko, gdy ma dane.
 import type { FeatureView, PageModel } from '@generator';
@@ -200,7 +201,7 @@ function renderFlag(value: FeatureView['value']): string {
               {model.collections.map((col) => (
                 <li>
                   <a href={col.href}>{col.label}</a>
-                  <span class="muted"> — {col.count} obiektów</span>
+                  <span class="muted"> — {countObjectsPl(col.count)}</span>
                 </li>
               ))}
             </ul>
