@@ -17,6 +17,7 @@ const { title, description, canonical, keywords, jsonLd, robots } = Astro.props;
 const absoluteCanonical = canonical
   ? canonical.startsWith('http') ? canonical : `${seoConfig.siteUrl}${canonical}`
   : undefined;
+const ogImage = `${seoConfig.siteUrl}/og-default.png`;
 ---
 
 <!doctype html>
@@ -31,6 +32,20 @@ const absoluteCanonical = canonical
       <meta name="keywords" content={keywords.join(', ')} />
     )}
     {absoluteCanonical && <link rel="canonical" href={absoluteCanonical} />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta property="og:site_name" content={seoConfig.siteName} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    {absoluteCanonical && <meta property="og:url" content={absoluteCanonical} />}
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    {description && <meta name="twitter:description" content={description} />}
+    <meta name="twitter:image" content={ogImage} />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
     <script
       is:inline
@@ -40,6 +55,17 @@ const absoluteCanonical = canonical
   </head>
   <body>
     <slot />
+    <footer class="site-footer">
+      <nav aria-label="Informacje o serwisie">
+        <a href="/o-nas/">O nas</a>
+        <a href="/kontakt/">Kontakt</a>
+        <a href="/zrodla-danych/">Źródła danych</a>
+        <a href="/polityka-prywatnosci/">Polityka prywatności</a>
+      </nav>
+      <p class="muted">
+        Dane: © autorzy <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> (ODbL)
+      </p>
+    </footer>
   </body>
 </html>
 
@@ -108,5 +134,71 @@ const absoluteCanonical = canonical
 
   .muted {
     color: var(--muted);
+  }
+
+  table.props {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  table.props th,
+  table.props td {
+    text-align: left;
+    padding: 0.35rem 0.75rem 0.35rem 0;
+    border-bottom: 1px solid var(--line);
+    font-weight: 400;
+    vertical-align: top;
+  }
+
+  table.props th {
+    color: var(--muted);
+    width: 45%;
+  }
+
+  .map-embed {
+    position: relative;
+    width: 256px;
+    height: 256px;
+    margin: 0.75rem 0 0.25rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .map-embed img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .map-embed .pin {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    margin: -6px 0 0 -6px;
+    border-radius: 50%;
+    background: var(--link);
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
+  }
+
+  .map-attribution {
+    font-size: 0.75rem;
+    margin: 0 0 0.5rem;
+  }
+
+  .site-footer {
+    max-width: var(--max-width);
+    margin: 3rem auto 0;
+    padding-top: 1rem;
+    border-top: 1px solid var(--line);
+    font-size: 0.85rem;
+  }
+
+  .site-footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
 </style>

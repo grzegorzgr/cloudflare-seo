@@ -31,6 +31,11 @@ export const GET: APIRoute = () => {
     REGIONS_PATH,
     COLLECTIONS_PATH,
     ...indexCategories.map((category) => category.path),
+    // Strony informacyjne (stopka).
+    '/o-nas/',
+    '/kontakt/',
+    '/zrodla-danych/',
+    '/polityka-prywatnosci/',
   ];
 
   const collections = buildAllCollections(datasets, seoConfig.siteUrl);

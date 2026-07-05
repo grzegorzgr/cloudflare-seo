@@ -17,7 +17,6 @@ import { byDistanceFrom, distanceKm } from './geo.js';
 import { withTrailingSlash } from './slug.js';
 
 const UNKNOWN = 'nieznane';
-const NO_DATA = 'Brak danych';
 
 /**
  * Prog "wystarczajacych danych" do indeksowania strony encji.
@@ -31,9 +30,105 @@ export function hasSufficientContent(entity: Entity): boolean {
   if (entity.seo?.description || entity.description) {
     return true;
   }
+  if ((entity.features ?? []).length > 0) {
+    return true;
+  }
   return Object.values(entity.amenities ?? {}).some(
     (value) => value !== null && value !== undefined,
   );
+}
+
+/**
+ * Polska odmiana rzeczownika po liczebniku: 2-4 (i x2-x4 poza 12-14) -> forma
+ * "few" (np. "plaże"), reszta -> forma "many" (np. "plaż"). Deterministyczna.
+ */
+function polishPlural(n: number, forms: { few: string; many: string }): string {
+  const mod10 = n % 10;
+  const mod100 = n % 100;
+  if (mod10 >= 2 && mod10 <= 4 && !(mod100 >= 12 && mod100 <= 14)) {
+    return forms.few;
+  }
+  return forms.many;
+}
+
+/** Formatuje odleglosc w km na czytelny tekst: <1 km -> metry, >=1 km -> "x,y km". */
+function formatDistance(km: number): string {
+  if (km < 1) return `ok. ${Math.round(km * 1000)} m`;
+  return `ok. ${km.toFixed(1).replace('.', ',')} km`;
+}
+
+/**
+ * Zdania faktograficzne wyprowadzone deterministycznie z grafu GEO.
+ * Kazde zdanie sklada wylacznie istniejace dane (odleglosci, liczebnosc) -
+ * zero nowych faktow, ale tekst jest unikalny per strona (thin content fix).
+ */
+export function buildDerivedFacts(
+  entity: Entity,
+  config: TypeConfig,
+  allEntities: Entity[],
+  nearbyPlaces: NearbyLink[],
+  allDatasets: Dataset[] = [],
+): string[] {
+  const facts: string[] = [];
+
+  // Najblizsza encja kazdego INNEGO typu (z precomputed grafu geo-engine).
+  // Fraza ("Najblizszy parking w katalogu") pochodzi z configu typu docelowego.
+  const seenTypes = new Set<string>();
+  for (const place of nearbyPlaces) {
+    if (!place.type || place.type === config.basePath) continue;
+    if (seenTypes.has(place.type)) continue;
+    seenTypes.add(place.type);
+    if (place.distanceKm === null || place.distanceKm === undefined) continue;
+    const targetConfig = allDatasets.find(
+      (d) => d.config.basePath === place.type,
+    )?.config;
+    if (!targetConfig?.nearestPhrase) continue;
+    facts.push(
+      `${targetConfig.nearestPhrase}: ${place.label} (${formatDistance(place.distanceKm)}).`,
+    );
+    if (facts.length >= 2) break;
+  }
+
+  // Liczebnosc tego samego typu w tym samym miescie (wlacznie z ta encja).
+  const city = entity.location?.city;
+  if (city && config.countForms) {
+    const count = allEntities.filter((e) => e.location?.city === city).length;
+    if (count >= 2) {
+      facts.push(
+        `W miejscowości ${city} nasz katalog obejmuje ${count} ${polishPlural(count, config.countForms)} tego typu.`,
+      );
+    }
+  }
+
+  return facts;
+}
+
+/** Zoom kafelka mapy OSM dla stron encji. */
+const MAP_TILE_ZOOM = 15;
+
+/**
+ * Wyznacza kafelek OSM (slippy map) dla wspolrzednych encji oraz pozycje
+ * pinezki wewnatrz kafelka (w %). Deterministyczne; null bez wspolrzednych.
+ */
+export function buildMapTile(
+  coordinates?: EntityCoordinates,
+): { url: string; pinXPct: number; pinYPct: number } | null {
+  const lat = coordinates?.lat;
+  const lng = coordinates?.lng;
+  if (typeof lat !== 'number' || typeof lng !== 'number') return null;
+  const z = MAP_TILE_ZOOM;
+  const n = 2 ** z;
+  const xFloat = ((lng + 180) / 360) * n;
+  const latRad = (lat * Math.PI) / 180;
+  const yFloat =
+    ((1 - Math.log(Math.tan(latRad) + 1 / Math.cos(latRad)) / Math.PI) / 2) * n;
+  const x = Math.floor(xFloat);
+  const y = Math.floor(yFloat);
+  return {
+    url: `https://tile.openstreetmap.org/${z}/${x}/${y}.png`,
+    pinXPct: Math.round((xFloat - x) * 1000) / 10,
+    pinYPct: Math.round((yFloat - y) * 1000) / 10,
+  };
 }
 
 /** Maksymalna liczba linków w sekcji "Podobne miejsca". */
@@ -187,20 +282,13 @@ export function buildDisplayName(entity: Entity, config: TypeConfig): string {
 function mapFlags(
   source: Record<string, boolean | string | null> | null | undefined,
   labels: Record<string, string> | undefined,
-  fillMissing = false,
 ): FeatureView[] {
-  if (fillMissing && labels) {
-    // Pokazuj WSZYSTKIE zdefiniowane udogodnienia; brak wartosci = "Brak danych".
-    return Object.entries(labels).map(([key, label]) => {
-      const value = source?.[key];
-      return {
-        label,
-        value: value === null || value === undefined ? NO_DATA : (value as boolean | string),
-      };
-    });
-  }
+  // Tylko realne wartosci z danych i tylko klucze ze zdefiniowana etykieta
+  // (schema-driven). Zadnych wierszy "Brak danych" - brak danych = brak wiersza.
   return Object.entries(source ?? {})
-    .filter(([, value]) => value !== null && value !== undefined)
+    .filter(([key, value]) =>
+      value !== null && value !== undefined && (!labels || key in labels),
+    )
     .map(([key, value]) => ({
       label: labels?.[key] ?? key,
       value: value as boolean | string,
@@ -406,6 +494,14 @@ export function buildPageModel(
     metaPlace ? ` w lokalizacji ${metaPlace}` : ''
   }: lokalizacja, dojazd i udogodnienia.`;
 
+  const nearbyPlaces = buildCrossTypeNearby(entity, allDatasets);
+
+  // Opis z danych: natywny opis OSM (jesli jest) + fakty tekstowe z tagow.
+  const facts = [
+    ...(entity.description ? [entity.description] : []),
+    ...(entity.features ?? []),
+  ];
+
   return {
     slug: entity.slug,
     type: entity.type ?? config.basePath,
@@ -416,8 +512,9 @@ export function buildPageModel(
     noindex: !hasSufficientContent(entity),
     intent,
     keywords: keywords.all,
-    facts: entity.features ?? [],
-    features: mapFlags(entity.amenities, config.featureLabels, true),
+    facts,
+    derivedFacts: buildDerivedFacts(entity, config, allEntities, nearbyPlaces, allDatasets),
+    features: mapFlags(entity.amenities, config.featureLabels),
     access: mapFlags(entity.access, config.accessLabels),
     location: {
       city: location.city ?? UNKNOWN,
@@ -426,9 +523,10 @@ export function buildPageModel(
     },
     address: addressView,
     googleMapsUrl,
+    mapTile: buildMapTile(entity.coordinates),
     faq,
     nearby: buildNearby(entity, config, allEntities),
-    nearbyPlaces: buildCrossTypeNearby(entity, allDatasets),
+    nearbyPlaces,
     collections: entityCollections,
     jsonLd: buildJsonLd(entity, config, faq),
   };

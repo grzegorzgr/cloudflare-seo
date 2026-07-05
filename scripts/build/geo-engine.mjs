@@ -138,6 +138,13 @@ function resolveAmenities(tags) {
     lifeguards: osmBool(tags.supervised),
     covered: osmBool(tags.covered),
     guarded: osmBool(tags.supervised),
+    lit: osmBool(tags.lit),
+    park_ride: osmBool(tags.park_ride),
+    bicycle: osmFlag(tags.bicycle),
+    opening_hours: tags.opening_hours ?? null,
+    charge: tags.charge ?? null,
+    website: tags.website ?? tags['contact:website'] ?? null,
+    phone: tags.phone ?? tags['contact:phone'] ?? null,
   };
 }
 function resolveFeatures(tags) {
@@ -147,7 +154,10 @@ function resolveFeatures(tags) {
   if (tags.distance) f.push(`dystans: ${tags.distance}`);
   if (tags.operator) f.push(`operator: ${tags.operator}`);
   if (tags.capacity) f.push(`pojemność: ${tags.capacity}`);
+  if (tags['capacity:disabled']) f.push(`miejsca dla niepełnosprawnych: ${tags['capacity:disabled']}`);
   if (tags.ref) f.push(`oznakowanie: ${tags.ref}`);
+  if (tags.width) f.push(`szerokość: ${tags.width}`);
+  if (tags.incline) f.push(`nachylenie: ${tags.incline}`);
   return f;
 }
 // Adres strukturalny WYLACZNIE z jawnych tagow addr:* (zero inference).
@@ -180,7 +190,8 @@ function mapElement(el) {
       country: tags['addr:country'] ?? null,
     },
     address: resolveAddress(tags),
-    description: null,
+    // Natywny opis z OSM (tag description), jesli mapper go wpisal. Zero inference.
+    description: tags.description ?? null,
     coordinates: resolveCoordinates(el),
     features: resolveFeatures(tags),
     amenities: resolveAmenities(tags),
@@ -251,6 +262,11 @@ function enrichEntity(existing, incoming) {
     }
   }
   if (locChanged) { next.location = location; changed.push('location'); }
+  // Opis: fill-only z natywnego tagu OSM description (zero nadpisywania).
+  if (existing.description == null && incoming.description != null) {
+    next.description = incoming.description;
+    changed.push('description');
+  }
   // Adres: dolacz brakujace pola z OSM (fill-only, zero nadpisywania).
   if (existing.address == null && incoming.address != null) {
     next.address = incoming.address;

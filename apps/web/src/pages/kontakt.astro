@@ -1,0 +1,37 @@
+---
+// Strona kontaktowa. Statyczna tresc, bez formularzy (zero JS).
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Kontakt — gdziemy.pl"
+  description="Kontakt z redakcją katalogu gdziemy.pl — zgłoszenia błędów w danych, propozycje i sprawy dotyczące serwisu."
+  canonical="/kontakt/"
+>
+  <main>
+    <article>
+      <header>
+        <h1>Kontakt</h1>
+      </header>
+
+      <p>
+        W sprawach dotyczących serwisu, danych o miejscach lub współpracy
+        napisz do nas:
+      </p>
+
+      <p>
+        <strong>E-mail:</strong>{' '}
+        <a href="mailto:contact@digital.gda.pl">contact@digital.gda.pl</a>
+      </p>
+
+      <h2>Błąd w danych o miejscu?</h2>
+      <p>
+        Dane o obiektach pochodzą z <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>.
+        Najszybszą drogą poprawki jest edycja bezpośrednio w OSM — trafi ona
+        do katalogu automatycznie przy kolejnej aktualizacji danych. Jeśli
+        wolisz, opisz problem w wiadomości e-mail, podając adres strony
+        (URL), której dotyczy zgłoszenie.
+      </p>
+    </article>
+  </main>
+</BaseLayout>

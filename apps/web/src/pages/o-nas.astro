@@ -1,0 +1,56 @@
+---
+// Strona informacyjna "O nas" (E-E-A-T / zaufanie). Statyczna tresc.
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="O nas — gdziemy.pl"
+  description="Czym jest gdziemy.pl: automatycznie budowany katalog plaż, parkingów i szlaków w Polsce, oparty w całości na otwartych danych."
+  canonical="/o-nas/"
+>
+  <main>
+    <article>
+      <header>
+        <h1>O nas</h1>
+      </header>
+
+      <p>
+        <strong>gdziemy.pl</strong> to katalog miejsc w Polsce — plaż, parkingów
+        i szlaków spacerowych — budowany automatycznie z otwartych danych.
+        Obecnie obejmuje ponad 3&nbsp;300 obiektów w 16 województwach
+        i 77 miastach.
+      </p>
+
+      <h2>Jak działa ten serwis</h2>
+      <p>
+        Każda strona w katalogu powstaje według jednej zasady:
+        <strong>zero zgadywania</strong>. Prezentujemy wyłącznie informacje,
+        które istnieją w danych źródłowych — jeśli nie wiemy, czy plaża ma
+        toalety, po prostu tego nie pokazujemy. Nie generujemy opisów
+        „z powietrza" i nie wymyślamy udogodnień.
+      </p>
+      <p>
+        Odległości między obiektami („najbliższy parking", „w pobliżu")
+        wyliczamy geometrycznie ze współrzędnych geograficznych. Listy miast,
+        regionów i kolekcji tematycznych są budowane automatycznie z tych
+        samych danych.
+      </p>
+
+      <h2>Skąd pochodzą dane</h2>
+      <p>
+        Podstawowym źródłem jest <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>
+        — największa otwarta baza danych geograficznych na świecie, tworzona
+        przez społeczność. Szczegóły opisujemy na stronie
+        <a href="/zrodla-danych/">Źródła danych</a>.
+      </p>
+
+      <h2>Zauważyłeś błąd?</h2>
+      <p>
+        Jeśli dane o jakimś miejscu są nieaktualne, najskuteczniej jest
+        poprawić je bezpośrednio w OpenStreetMap — zmiana trafi do nas przy
+        kolejnej aktualizacji. Możesz też napisać do nas:
+        <a href="/kontakt/">kontakt</a>.
+      </p>
+    </article>
+  </main>
+</BaseLayout>

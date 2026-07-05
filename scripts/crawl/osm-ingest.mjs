@@ -51,6 +51,22 @@ function osmBool(value) {
   return null;
 }
 
+// Jak osmBool, ale zachowuje znane, nie-boolowskie wartosci OSM jako opis
+// (zero halucynacji: mapujemy tylko faktyczne wartosci tagu).
+function osmFlag(v) {
+  if (v === 'yes') return true;
+  if (v === 'no') return false;
+  const MAP = {
+    leashed: 'tylko na smyczy',
+    limited: 'ograniczona',
+    permissive: 'dozwolone',
+    designated: 'wyznaczone',
+    customers: 'dla klientow',
+    private: 'prywatne',
+  };
+  return MAP[v] ?? null;
+}
+
 // --- Wspolrzedne: node ma lat/lon, way/relation ma center (out center) ---
 function resolveCoordinates(element) {
   if (typeof element.lat === 'number' && typeof element.lon === 'number') {
@@ -83,17 +99,24 @@ function resolveAddress(tags) {
   return { street, housenumber, postcode, city };
 }
 
-// --- Amenities: TYLKO jawne tagi -> booleany (brak tagu = null) ---
+// --- Amenities: TYLKO jawne tagi -> flagi boolean|string (brak tagu = null) ---
 function resolveAmenities(tags) {
   return {
     parking: tags.amenity === 'parking' ? true : null,
     toilets: osmBool(tags.toilets),
-    dog_friendly: osmBool(tags.dog),
-    accessibility: osmBool(tags.wheelchair),
+    dog_friendly: osmFlag(tags.dog),
+    accessibility: osmFlag(tags.wheelchair),
     paid_entry: osmBool(tags.fee),
     lifeguards: osmBool(tags.supervised),
     covered: osmBool(tags.covered),
     guarded: osmBool(tags.supervised),
+    lit: osmBool(tags.lit),
+    park_ride: osmBool(tags.park_ride),
+    bicycle: osmFlag(tags.bicycle),
+    opening_hours: tags.opening_hours ?? null,
+    charge: tags.charge ?? null,
+    website: tags.website ?? tags['contact:website'] ?? null,
+    phone: tags.phone ?? tags['contact:phone'] ?? null,
   };
 }
 
@@ -105,7 +128,10 @@ function resolveFeatures(tags) {
   if (tags.distance) features.push(`dystans: ${tags.distance}`);
   if (tags.operator) features.push(`operator: ${tags.operator}`);
   if (tags.capacity) features.push(`pojemność: ${tags.capacity}`);
+  if (tags['capacity:disabled']) features.push(`miejsca dla niepełnosprawnych: ${tags['capacity:disabled']}`);
   if (tags.ref) features.push(`oznakowanie: ${tags.ref}`);
+  if (tags.width) features.push(`szerokość: ${tags.width}`);
+  if (tags.incline) features.push(`nachylenie: ${tags.incline}`);
   return features;
 }
 
@@ -128,7 +154,7 @@ function mapElement(element) {
     name,
     location: resolveLocation(tags),
     address: resolveAddress(tags),
-    description: null,
+    description: tags.description ?? null,
     coordinates: resolveCoordinates(element),
     features: resolveFeatures(tags),
     amenities: resolveAmenities(tags),

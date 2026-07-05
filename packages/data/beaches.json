@@ -153,7 +153,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [],
     "access": null,
@@ -1226,7 +1227,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "opening_hours": "Jul 1-Sep 31 09:30-17:30"
     },
     "tags": [
       "osm"
@@ -1269,7 +1271,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "opening_hours": "Jul 1-Sep31 09:30-17:30"
     },
     "tags": [
       "osm"
@@ -1312,7 +1315,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "opening_hours": "Jul 1-Sep 31 09:30-17:30"
     },
     "tags": [
       "osm"
@@ -1355,7 +1359,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "opening_hours": "Jul 1-Sep 31 09:30-17:30"
     },
     "tags": [
       "osm"
@@ -1398,7 +1403,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "opening_hours": "Jul 1-Sep 31 09:30-17:30"
     },
     "tags": [
       "osm"
@@ -2076,7 +2082,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "opening_hours": "24/7"
     },
     "tags": [
       "osm"
@@ -2191,7 +2198,7 @@
       "region": "Podlaskie",
       "country": null
     },
-    "description": null,
+    "description": "Plaża miejska na terenie Ośrodka Sportów Wodnych Dojlidy",
     "coordinates": {
       "lat": 53.1103539,
       "lng": 23.2171854
@@ -2208,7 +2215,8 @@
       "paid_entry": true,
       "lifeguards": true,
       "covered": null,
-      "guarded": true
+      "guarded": true,
+      "opening_hours": "Jun 1- Aug 31 09:00-20:00"
     },
     "tags": [
       "osm"
@@ -2543,7 +2551,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "website": "https://wakeparkbydgoszcz.pl/"
     },
     "tags": [
       "osm"
@@ -2881,7 +2890,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "opening_hours": "Mo-Tu 16:00-22:00; We 14:00-22:00; Th 14:00-24:00; Fr-Su 12:00-02:00",
+      "website": "https://www.facebook.com/ecovillagewilda/"
     },
     "tags": [
       "osm"
@@ -2925,7 +2936,9 @@
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "website": "https://plazabagry.pl/",
+      "phone": "+48 531900705"
     },
     "tags": [
       "osm"
@@ -2966,7 +2979,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "website": "https://www.facebook.com/PlazaMiejskaLubon/"
     },
     "tags": [
       "osm"
@@ -2993,7 +3007,7 @@
       "region": "Warmińsko-Mazurskie",
       "country": null
     },
-    "description": null,
+    "description": "- zlokalizowane w Olsztynie przy ul. Kapitańskiej 23 (akwen Jeziora Ukiel, teren CRS „Ukiel”); - długość linii brzegowej kąpieliska: 75 m; - czynne codziennie w godzinach 10.00-18.00",
     "coordinates": {
       "lat": 53.7780784,
       "lng": 20.4485475
@@ -3034,7 +3048,7 @@
       "region": "Warmińsko-Mazurskie",
       "country": null
     },
-    "description": null,
+    "description": "- zlokalizowane w Olsztynie przy ul. Kapitańskiej 23 (akwen Jeziora Ukiel, teren CRS „Ukiel”); - długość linii brzegowej kąpieliska: 95 m; - czynne codziennie w godzinach 10.00-18.00.",
     "coordinates": {
       "lat": 53.7764008,
       "lng": 20.4466589
@@ -3075,7 +3089,7 @@
       "region": "Warmińsko-Mazurskie",
       "country": null
     },
-    "description": null,
+    "description": "- zlokalizowane w Olsztynie przy ul. Kapitańskiej 23 (akwen Jeziora Ukiel, teren CRS „Ukiel”); - długość linii brzegowej kąpieliska: 25 m; - czynne codziennie w godzinach 10.00-18.00.",
     "coordinates": {
       "lat": 53.7737693,
       "lng": 20.4444842
@@ -3308,7 +3322,9 @@
       "paid_entry": true,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "opening_hours": "09:00-20:00",
+      "website": "https://miejskoaktywni.pl/"
     },
     "tags": [
       "osm"
@@ -3436,7 +3452,10 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "opening_hours": "Mo-Su 10:00-21:00",
+      "website": "http://wakefun.pl/",
+      "phone": "+48 577 776 659"
     },
     "tags": [
       "osm"

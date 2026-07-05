@@ -92,7 +92,11 @@ export interface TypeConfig {
   entityNoun: string;  /** Rzeczownik w mianowniku (l. poj.) do keyword mappingu, np. "plaża", "parking", "szlak". */
   keywordNoun: string;
   /** Etykieta kolekcji (l. mn.) do stron cluster, np. "Plaże", "Parkingi", "Szlaki". */
-  collectionLabel: string;}
+  collectionLabel: string;
+  /** Fraza "najbliższy X w katalogu" (z poprawnym rodzajem) do zdań z grafu GEO. */
+  nearestPhrase?: string;
+  /** Formy liczebnikowe rzeczownika: few (2-4, np. "plaże"), many (5+, np. "plaż"). */
+  countForms?: { few: string; many: string };}
 
 // Znormalizowany, gotowy do renderowania model strony.
 // Warstwa widoku (Astro) nie zawiera \u017cadnej logiki poza wy\u015bwietleniem.
@@ -147,6 +151,10 @@ export interface PageModel {
   intent: string;
   keywords: string[];
   facts: string[];
+  /** Zdania faktograficzne wyprowadzone deterministycznie z grafu GEO (unikalne per strona). */
+  derivedFacts: string[];
+  /** Statyczny kafelek mapy OSM + pozycja pinezki (w %), null gdy brak współrzędnych. */
+  mapTile: { url: string; pinXPct: number; pinYPct: number } | null;
   features: FeatureView[];
   access: FeatureView[];
   location: LocationView;

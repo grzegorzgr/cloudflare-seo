@@ -55,10 +55,37 @@ function renderFlag(value: FeatureView['value']): string {
       <p>{model.intent}</p>
 
       {
-        model.facts.length > 0 && (
+        model.mapTile && (
+          <section aria-labelledby="mapa">
+            <h2 id="mapa">Mapa</h2>
+            <div class="map-embed">
+              <img
+                src={model.mapTile.url}
+                alt={`Mapa okolicy: ${model.h1}`}
+                width="256"
+                height="256"
+                loading="lazy"
+              />
+              <span
+                class="pin"
+                style={`left: ${model.mapTile.pinXPct}%; top: ${model.mapTile.pinYPct}%;`}
+              />
+            </div>
+            <p class="muted map-attribution">
+              © autorzy <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>
+            </p>
+          </section>
+        )
+      }
+
+      {
+        (model.facts.length > 0 || model.derivedFacts.length > 0) && (
           <section aria-labelledby="opis">
             <h2 id="opis">Opis</h2>
             {model.facts.map((fact) => (
+              <p>{fact}</p>
+            ))}
+            {model.derivedFacts.map((fact) => (
               <p>{fact}</p>
             ))}
           </section>
@@ -69,13 +96,22 @@ function renderFlag(value: FeatureView['value']): string {
         model.features.length > 0 && (
           <section aria-labelledby="udogodnienia">
             <h2 id="udogodnienia">Udogodnienia</h2>
-            <ul>
-              {model.features.map((feature) => (
-                <li>
-                  {feature.label}: {renderFlag(feature.value)}
-                </li>
-              ))}
-            </ul>
+            <table class="props">
+              <tbody>
+                {model.features.map((feature) => (
+                  <tr>
+                    <th scope="row">{feature.label}</th>
+                    <td>
+                      {typeof feature.value === 'string' && feature.value.startsWith('http') ? (
+                        <a href={feature.value} rel="noopener nofollow">{feature.value}</a>
+                      ) : (
+                        renderFlag(feature.value)
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </section>
         )
       }
@@ -84,13 +120,16 @@ function renderFlag(value: FeatureView['value']): string {
         model.access.length > 0 && (
           <section aria-labelledby="dojazd">
             <h2 id="dojazd">Dojazd</h2>
-            <ul>
-              {model.access.map((item) => (
-                <li>
-                  {item.label}: {renderFlag(item.value)}
-                </li>
-              ))}
-            </ul>
+            <table class="props">
+              <tbody>
+                {model.access.map((item) => (
+                  <tr>
+                    <th scope="row">{item.label}</th>
+                    <td>{renderFlag(item.value)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </section>
         )
       }

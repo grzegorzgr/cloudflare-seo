@@ -1,0 +1,58 @@
+---
+// Strona "Zrodla danych": atrybucja ODbL (wymog licencji OSM) + opis pipeline.
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Źródła danych — gdziemy.pl"
+  description="Skąd pochodzą dane katalogu gdziemy.pl: OpenStreetMap (ODbL), zasady aktualizacji i reguła zero zgadywania."
+  canonical="/zrodla-danych/"
+>
+  <main>
+    <article>
+      <header>
+        <h1>Źródła danych</h1>
+      </header>
+
+      <h2>OpenStreetMap</h2>
+      <p>
+        Dane o miejscach (nazwy, współrzędne, adresy, udogodnienia) pochodzą
+        z <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>
+        i są udostępniane na licencji
+        <a href="https://opendatacommons.org/licenses/odbl/" rel="noopener">Open Database License (ODbL)</a>.
+      </p>
+      <p>
+        © autorzy OpenStreetMap. Kafelki map na stronach obiektów pochodzą
+        z serwerów OpenStreetMap.
+      </p>
+
+      <h2>Jak przetwarzamy dane</h2>
+      <ul>
+        <li>
+          Pobieramy obiekty z jawnymi tagami (nazwa, typ, położenie) —
+          obiekt bez nazwy nie ma strony w katalogu.
+        </li>
+        <li>
+          Każde pole na stronie odpowiada konkretnemu tagowi w danych
+          źródłowych. Brak tagu = brak informacji na stronie
+          (zasada „zero zgadywania").
+        </li>
+        <li>
+          Odległości („najbliższy parking", „w pobliżu") wyliczamy
+          geometrycznie ze współrzędnych (haversine).
+        </li>
+        <li>
+          Duplikaty (ten sam obiekt z różnych zapytań) są scalane
+          automatycznie po identyfikatorze OSM, nazwie i współrzędnych.
+        </li>
+      </ul>
+
+      <h2>Aktualność</h2>
+      <p>
+        Katalog jest odświeżany automatycznie. Jeżeli dane o miejscu są
+        nieaktualne, poprawka w OpenStreetMap trafi do katalogu przy
+        kolejnej aktualizacji — albo <a href="/kontakt/">napisz do nas</a>.
+      </p>
+    </article>
+  </main>
+</BaseLayout>
