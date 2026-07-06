@@ -45939,7 +45939,9 @@
       "lat": 53.1091555,
       "lng": 18.0245771
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: asphalt"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
