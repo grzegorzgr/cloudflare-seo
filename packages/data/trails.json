@@ -9820,7 +9820,8 @@
       "lng": 18.5869741
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: grass"
     ],
     "amenities": {
       "parking": null,
@@ -23620,7 +23621,8 @@
     "features": [
       "nawierzchnia: paving_stones",
       "nawierzchnia: paved",
-      "nawierzchnia: unpaved"
+      "nawierzchnia: unpaved",
+      "nawierzchnia: asphalt"
     ],
     "amenities": {
       "parking": null,
@@ -81879,7 +81881,9 @@
       "lat": 53.1208896,
       "lng": 18.0231698
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: wood"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,

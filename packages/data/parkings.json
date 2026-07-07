@@ -34407,7 +34407,7 @@
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": false,
       "lifeguards": null,
       "covered": null,
       "guarded": null,
