@@ -54660,7 +54660,8 @@
       "lng": 17.0489215
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: compacted"
     ],
     "amenities": {
       "parking": null,
@@ -69433,7 +69434,9 @@
       "lng": 21.0251706
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: asphalt",
+      "szerokość: N/A"
     ],
     "amenities": {
       "parking": null,
