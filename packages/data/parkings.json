@@ -5560,9 +5560,9 @@
       "nearby": [
         "parking/parking-p3-dlugoterminowy-p3-long-term-parking-1162378658",
         "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
+        "parking/carpark-jasionka-13997810304",
         "parking/car-park-parking-strzezony-363301103",
-        "trail/przejscie-dla-plazow-438021775",
-        "parking/pf-thomas-altuccini-3700150300"
+        "trail/przejscie-dla-plazow-438021775"
       ]
     }
   },
@@ -8946,9 +8946,9 @@
       "nearby": [
         "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038",
         "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
+        "parking/carpark-jasionka-13997810304",
         "parking/car-park-parking-strzezony-363301103",
-        "trail/przejscie-dla-plazow-438021775",
-        "parking/pf-thomas-altuccini-3700150300"
+        "trail/przejscie-dla-plazow-438021775"
       ]
     }
   },
@@ -14241,9 +14241,9 @@
       "nearby": [
         "parking/parking-p3-dlugoterminowy-p3-long-term-parking-1162378658",
         "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038",
+        "parking/carpark-jasionka-13997810304",
         "parking/car-park-parking-strzezony-363301103",
-        "trail/przejscie-dla-plazow-438021775",
-        "parking/pf-thomas-altuccini-3700150300"
+        "trail/przejscie-dla-plazow-438021775"
       ]
     }
   },
@@ -14685,8 +14685,8 @@
         "parking/car-park-parking-strzezony-363301103",
         "parking/pf-thomas-altuccini-3700150300",
         "trail/przejscie-dla-plazow-438021775",
-        "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
-        "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038"
+        "parking/carpark-jasionka-13997810304",
+        "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146"
       ]
     }
   },
@@ -18844,8 +18844,8 @@
         "beach/lipie-plaza-naturystyczna-721977073",
         "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038",
         "parking/parking-p3-dlugoterminowy-p3-long-term-parking-1162378658",
-        "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
-        "trail/przejscie-dla-plazow-438021775"
+        "parking/carpark-jasionka-13997810304",
+        "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146"
       ]
     }
   },
@@ -40229,6 +40229,57 @@
         "trail/romualda-traugutta-164648592",
         "trail/wologoska-851625535",
         "trail/jakuba-bojki-164704012"
+      ]
+    }
+  },
+  {
+    "id": "carpark-jasionka-13997810304",
+    "slug": "carpark-jasionka-13997810304",
+    "osmId": "node/13997810304",
+    "name": "CarPark Jasionka",
+    "location": {
+      "city": "Rzeszów",
+      "region": "Podkarpackie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 50.1066,
+      "lng": 22.0185
+    },
+    "features": [
+      "operator: Car Park Marcin Wrzos"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": true,
+      "covered": null,
+      "guarded": true,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": "24/7",
+      "charge": null,
+      "website": "https://carpark.auto.pl",
+      "phone": "+48 608 622 779"
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/przejscie-dla-plazow-438021775",
+        "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038",
+        "parking/parking-p3-dlugoterminowy-p3-long-term-parking-1162378658",
+        "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
+        "parking/car-park-parking-strzezony-363301103"
       ]
     }
   }

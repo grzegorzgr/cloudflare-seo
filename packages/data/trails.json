@@ -13239,7 +13239,8 @@
     },
     "features": [
       "nawierzchnia: compacted",
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -21539,7 +21540,8 @@
       "lng": 19.8787003
     },
     "features": [
-      "nawierzchnia: grass"
+      "nawierzchnia: grass",
+      "nawierzchnia: mud"
     ],
     "amenities": {
       "parking": null,
@@ -58772,10 +58774,10 @@
     "graph": {
       "nearby": [
         "parking/parking-pod-srebrna-gora-237151639",
+        "trail/zdzislawa-jachimeckiego-371577730",
         "trail/petarda-509666067",
         "trail/obledne-kolo-437208478",
-        "trail/malarz-227040706",
-        "trail/30-sekund-349270304"
+        "trail/malarz-227040706"
       ]
     }
   },
@@ -67002,11 +67004,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "parking/carpark-jasionka-13997810304",
         "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038",
         "parking/parking-p3-dlugoterminowy-p3-long-term-parking-1162378658",
         "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
-        "parking/odlotowy-parking-jasionka-1509590296",
-        "parking/car-park-parking-strzezony-363301103"
+        "parking/odlotowy-parking-jasionka-1509590296"
       ]
     }
   },
@@ -71635,7 +71637,8 @@
       "lng": 19.9135593
     },
     "features": [
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "szerokość: 4"
     ],
     "amenities": {
       "parking": null,
@@ -99921,6 +99924,55 @@
         "trail/tami-909001481",
         "trail/wilkanowo-f1-909001477",
         "trail/kostecki-881720295"
+      ]
+    }
+  },
+  {
+    "id": "zdzislawa-jachimeckiego-371577730",
+    "slug": "zdzislawa-jachimeckiego-371577730",
+    "osmId": "way/371577730",
+    "name": "Zdzisława Jachimeckiego",
+    "location": {
+      "city": "Kraków",
+      "region": "Małopolskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 50.0263437,
+      "lng": 19.8552716
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": true,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/podole-286882562",
+        "trail/chodnik-malczewskiego-254050267",
+        "trail/petarda-509666067",
+        "trail/spiacy-dzik-437205916",
+        "trail/jedrny-jedrus-288230217"
       ]
     }
   }
