@@ -7286,7 +7286,8 @@
       "lng": 20.9972958
     },
     "features": [
-      "nawierzchnia: paved"
+      "nawierzchnia: paved",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -13487,7 +13488,7 @@
         "trail/aleja-slonecznikowa-1146514217",
         "trail/aleja-irysowa-1146514218",
         "trail/wladyslawa-orkana-219139253",
-        "parking/parking-aldi-354693901"
+        "trail/bursztynowa-914814812"
       ]
     }
   },
@@ -13530,7 +13531,7 @@
         "trail/aleja-slonecznikowa-1146514217",
         "trail/aleja-irysowa-1146514218",
         "trail/wladyslawa-orkana-219139253",
-        "parking/parking-aldi-354693901"
+        "trail/bursztynowa-914814812"
       ]
     }
   },
@@ -13573,7 +13574,7 @@
         "trail/aleja-orzechowa-1146514215",
         "trail/aleja-wisniowa-1146514213",
         "trail/wladyslawa-orkana-219139253",
-        "parking/parking-aldi-354693901"
+        "trail/bursztynowa-914814812"
       ]
     }
   },
@@ -13616,7 +13617,7 @@
         "trail/aleja-orzechowa-1146514215",
         "trail/aleja-wisniowa-1146514213",
         "trail/wladyslawa-orkana-219139253",
-        "trail/podkomorzego-213466225"
+        "trail/bursztynowa-914814812"
       ]
     }
   },
@@ -99973,6 +99974,55 @@
         "trail/petarda-509666067",
         "trail/spiacy-dzik-437205916",
         "trail/jedrny-jedrus-288230217"
+      ]
+    }
+  },
+  {
+    "id": "bursztynowa-914814812",
+    "slug": "bursztynowa-914814812",
+    "osmId": "way/914814812",
+    "name": "Bursztynowa",
+    "location": {
+      "city": "Częstochowa",
+      "region": "Śląskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 50.748736,
+      "lng": 19.1039552
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/aleja-irysowa-1146514218",
+        "trail/aleja-wisniowa-1146514213",
+        "trail/aleja-slonecznikowa-1146514217",
+        "trail/aleja-orzechowa-1146514215",
+        "trail/strazacka-120876134"
       ]
     }
   }
