@@ -88982,7 +88982,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -89068,7 +89069,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -89104,7 +89106,11 @@
       "nawierzchnia: paving_stones",
       "nawierzchnia: asphalt",
       "nawierzchnia: paved",
-      "nawierzchnia: sett"
+      "nawierzchnia: sett",
+      "szerokość: 5.8",
+      "szerokość: 5.6",
+      "szerokość: 6.2",
+      "szerokość: 2.2"
     ],
     "amenities": {
       "parking": null,
@@ -89114,7 +89120,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -89157,7 +89165,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -89190,7 +89199,8 @@
       "lng": 14.1597553
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nachylenie: up"
     ],
     "amenities": {
       "parking": null,
@@ -89200,7 +89210,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -89327,7 +89338,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -89413,7 +89425,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -89458,7 +89471,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -89502,7 +89516,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false,
+      "bicycle": false
     },
     "tags": [
       "osm"
@@ -89590,7 +89606,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -89634,7 +89651,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -89677,7 +89695,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -89721,7 +89740,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -89765,7 +89785,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -89852,7 +89873,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -90019,7 +90041,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -90052,7 +90075,8 @@
       "lng": 14.5037079
     },
     "features": [
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "szerokość: 4"
     ],
     "amenities": {
       "parking": null,
@@ -90062,7 +90086,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -90105,7 +90131,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -90149,7 +90176,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -90280,7 +90308,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -90316,7 +90345,8 @@
       "nawierzchnia: paving_stones",
       "nawierzchnia: wood",
       "oznakowanie: 1/W",
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "szerokość: 2"
     ],
     "amenities": {
       "parking": null,
@@ -90326,7 +90356,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -90459,7 +90491,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -90546,7 +90580,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -90589,7 +90624,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -90714,7 +90750,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -90800,7 +90837,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -90970,7 +91008,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -91004,7 +91044,9 @@
     },
     "features": [
       "nawierzchnia: plastic",
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "szerokość: 2",
+      "szerokość: 3"
     ],
     "amenities": {
       "parking": null,
@@ -91014,7 +91056,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": false
     },
     "tags": [
       "osm"
@@ -91098,7 +91142,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -91185,7 +91230,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -91351,7 +91398,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -91426,7 +91474,8 @@
     },
     "features": [
       "nawierzchnia: paving_stones",
-      "nawierzchnia: wood"
+      "nawierzchnia: wood",
+      "szerokość: 2"
     ],
     "amenities": {
       "parking": null,
@@ -91436,7 +91485,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -91524,7 +91574,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": false,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -91568,7 +91619,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -91748,7 +91800,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": true,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -91791,7 +91844,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -91834,7 +91888,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -91877,7 +91932,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -92005,7 +92061,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -92048,7 +92106,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -92091,7 +92150,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -92135,7 +92195,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -92391,7 +92452,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -92475,7 +92538,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -92559,7 +92624,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -92645,7 +92711,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -92773,7 +92840,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -92900,7 +92968,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -92943,7 +93012,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -93068,7 +93138,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": true,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -93101,7 +93172,8 @@
       "lng": 14.6645919
     },
     "features": [
-      "nawierzchnia: compacted"
+      "nawierzchnia: compacted",
+      "szerokość: 2"
     ],
     "amenities": {
       "parking": null,
@@ -93111,7 +93183,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -93503,7 +93576,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -93881,7 +93955,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -93924,7 +93999,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -93967,7 +94043,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -94051,7 +94128,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -94094,7 +94173,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -94221,7 +94302,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94265,7 +94347,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94308,7 +94391,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -94560,7 +94645,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94593,7 +94679,8 @@
       "lng": 15.5327095
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "szerokość: 1"
     ],
     "amenities": {
       "parking": null,
@@ -94603,7 +94690,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94646,7 +94734,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -94774,7 +94864,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94817,7 +94908,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94861,7 +94953,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -94904,7 +94997,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94947,7 +95041,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -95077,7 +95173,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -95121,7 +95218,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": false,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -95164,7 +95262,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -95238,7 +95337,8 @@
       "lng": 14.1434124
     },
     "features": [
-      "nawierzchnia: compacted"
+      "nawierzchnia: compacted",
+      "szerokość: 2"
     ],
     "amenities": {
       "parking": null,
@@ -95248,7 +95348,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -95292,7 +95394,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -95633,7 +95736,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -95676,7 +95780,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -95931,7 +96036,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -95964,7 +96070,8 @@
       "lng": 14.638968
     },
     "features": [
-      "nawierzchnia: dirt"
+      "nawierzchnia: dirt",
+      "szerokość: 0.2"
     ],
     "amenities": {
       "parking": null,
@@ -96058,7 +96165,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -96101,7 +96209,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -96145,7 +96254,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -96172,14 +96282,15 @@
       "region": "Zachodniopomorskie",
       "country": null
     },
-    "description": null,
+    "description": "Europas längste Strandpromenade",
     "coordinates": {
       "lat": 53.9370167,
       "lng": 14.2004549
     },
     "features": [
       "nawierzchnia: paving_stones",
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "szerokość: 4"
     ],
     "amenities": {
       "parking": null,
@@ -96189,7 +96300,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -96232,7 +96345,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -96386,7 +96500,7 @@
       "region": "Zachodniopomorskie",
       "country": null
     },
-    "description": null,
+    "description": "UCHWAŁA NR XXXVIII/523/09 Rady Miasta Kołobrzeg z dnia 29 października 2009 r.",
     "coordinates": {
       "lat": 54.1761982,
       "lng": 15.5647417
@@ -96402,7 +96516,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -96486,7 +96601,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -96570,7 +96686,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -96740,7 +96857,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -96998,7 +97116,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -97084,7 +97203,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -97116,7 +97236,9 @@
       "lat": 53.3742057,
       "lng": 14.6142215
     },
-    "features": [],
+    "features": [
+      "szerokość: 0.7"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -97171,7 +97293,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -97216,7 +97339,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -97342,7 +97466,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": false,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -97473,7 +97598,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -97516,7 +97643,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -97559,7 +97688,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -97643,7 +97773,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -97686,7 +97818,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -97856,7 +97989,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -97900,7 +98034,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": false,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -97943,7 +98078,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -98113,7 +98249,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -98156,7 +98294,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -98199,7 +98338,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -98367,7 +98508,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -98455,7 +98597,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -98699,7 +98842,8 @@
       "lng": 14.5007691
     },
     "features": [
-      "nawierzchnia: concrete"
+      "nawierzchnia: concrete",
+      "szerokość: 3"
     ],
     "amenities": {
       "parking": null,
@@ -98709,7 +98853,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -98752,7 +98898,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -98795,7 +98942,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -98926,7 +99074,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -99096,7 +99245,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": false,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -99139,7 +99289,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -99182,7 +99333,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -99266,7 +99418,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -99395,7 +99548,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -99524,7 +99678,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -99608,7 +99763,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -99780,7 +99936,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -99825,7 +99982,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -99868,7 +100026,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
