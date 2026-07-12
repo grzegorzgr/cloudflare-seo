@@ -11941,7 +11941,9 @@
       "lat": 53.1207155,
       "lng": 18.024922
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
