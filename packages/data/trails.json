@@ -23345,8 +23345,8 @@
         "trail/bydgoska-1288170153",
         "trail/rzemieslnicza-1495904175",
         "trail/dawna-waskotorowa-kolejka-amunicyjna-1381698473",
-        "trail/pokatna-952571254",
-        "trail/letnia-1486720451"
+        "trail/popiolowa-droga-1537671740",
+        "trail/pokatna-952571254"
       ]
     }
   },
@@ -23387,8 +23387,8 @@
         "trail/kolorowa-1288163731",
         "trail/rzemieslnicza-1495904175",
         "trail/dawna-waskotorowa-kolejka-amunicyjna-1381698473",
-        "trail/pokatna-952571254",
-        "trail/letnia-1486720451"
+        "trail/popiolowa-droga-1537671740",
+        "trail/pokatna-952571254"
       ]
     }
   },
@@ -28883,11 +28883,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/popiolowa-droga-1537671740",
         "trail/pokatna-952571254",
         "trail/letnia-1486720451",
         "trail/kolorowa-1288163731",
-        "trail/dawna-torunska-kolejka-poligonowa-1201141627",
-        "trail/bydgoska-1288170153"
+        "trail/dawna-torunska-kolejka-poligonowa-1201141627"
       ]
     }
   },
@@ -34081,9 +34081,9 @@
       "nearby": [
         "trail/pokatna-952571254",
         "trail/dawna-torunska-kolejka-poligonowa-1201141627",
+        "trail/popiolowa-droga-1537671740",
         "trail/dawna-waskotorowa-kolejka-amunicyjna-1381698473",
-        "trail/dybowska-421312132",
-        "beach/plaza-miejska-blonia-nadwislanskie-493611613"
+        "trail/dybowska-421312132"
       ]
     }
   },
@@ -86778,10 +86778,10 @@
     "graph": {
       "nearby": [
         "trail/letnia-1486720451",
+        "trail/popiolowa-droga-1537671740",
         "trail/dawna-waskotorowa-kolejka-amunicyjna-1381698473",
         "beach/plaza-miejska-blonia-nadwislanskie-493611613",
-        "parking/parking-hotel-copernicus-torun-425715737",
-        "trail/dawna-torunska-kolejka-poligonowa-1201141627"
+        "parking/parking-hotel-copernicus-torun-425715737"
       ]
     }
   },
@@ -100185,6 +100185,57 @@
         "trail/aleja-slonecznikowa-1146514217",
         "trail/aleja-orzechowa-1146514215",
         "trail/strazacka-120876134"
+      ]
+    }
+  },
+  {
+    "id": "popiolowa-droga-1537671740",
+    "slug": "popiolowa-droga-1537671740",
+    "osmId": "way/1537671740",
+    "name": "Popiołowa Droga",
+    "location": {
+      "city": "Toruń",
+      "region": "Kujawsko-Pomorskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 52.9858191,
+      "lng": 18.5863041
+    },
+    "features": [
+      "nawierzchnia: unpaved"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/dawna-waskotorowa-kolejka-amunicyjna-1381698473",
+        "trail/pokatna-952571254",
+        "trail/letnia-1486720451",
+        "trail/dawna-torunska-kolejka-poligonowa-1201141627",
+        "trail/kolorowa-1288163731"
       ]
     }
   }
