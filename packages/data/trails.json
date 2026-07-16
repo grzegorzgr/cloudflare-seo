@@ -43622,7 +43622,9 @@
       "lat": 52.2291823,
       "lng": 21.0851944
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: compacted"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
