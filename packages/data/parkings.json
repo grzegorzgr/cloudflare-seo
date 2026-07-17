@@ -1802,11 +1802,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "parking/park-go-kaponiera-1330278466",
         "parking/parkuj-i-idz-roosevelta-poznanska-237862505",
         "parking/parking-centrum-mtp-1157897851",
         "parking/parking-24h-dabrowskiego-80-679076094",
-        "parking/avenida-poznan-368791540",
-        "parking/parkuj-i-idz-dworzec-zachodni-targi-poznanskie-glogowska-260848674"
+        "parking/avenida-poznan-368791540"
       ]
     }
   },
@@ -19413,10 +19413,10 @@
     "graph": {
       "nearby": [
         "parking/zaklad-ubezpieczen-spolecznych-12847937267",
+        "parking/park-go-kaponiera-1330278466",
         "parking/parkuj-i-idz-cytadela-pulaskiego-294261105",
         "parking/parking-24h-dabrowskiego-80-679076094",
-        "parking/galeria-mm-2229380316",
-        "parking/parking-centrum-mtp-1157897851"
+        "parking/galeria-mm-2229380316"
       ]
     }
   },
@@ -22376,7 +22376,7 @@
         "parking/parkuj-i-idz-roosevelta-poznanska-237862505",
         "trail/zaulek-lejerow-430401278",
         "parking/zaklad-ubezpieczen-spolecznych-12847937267",
-        "parking/u-bozeny-24h-424018885"
+        "parking/park-go-kaponiera-1330278466"
       ]
     }
   },
@@ -31997,7 +31997,7 @@
         "parking/parking-lotnisko-99255603",
         "parking/zaklad-ubezpieczen-spolecznych-12847937267",
         "trail/plac-ludwika-warynskiego-335217545",
-        "parking/parkuj-i-idz-roosevelta-poznanska-237862505"
+        "parking/park-go-kaponiera-1330278466"
       ]
     }
   },
@@ -40365,6 +40365,59 @@
         "parking/parking-p3-dlugoterminowy-p3-long-term-parking-1162378658",
         "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
         "parking/car-park-parking-strzezony-363301103"
+      ]
+    }
+  },
+  {
+    "id": "park-go-kaponiera-1330278466",
+    "slug": "park-go-kaponiera-1330278466",
+    "osmId": "way/1330278466",
+    "name": "Park & Go Kaponiera",
+    "location": {
+      "city": "Poznań",
+      "region": "Wielkopolskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 52.4094077,
+      "lng": 16.9133093
+    },
+    "features": [
+      "operator: APCOA Parking Polska Sp. z o.o.",
+      "pojemność: 240",
+      "miejsca dla niepełnosprawnych: 7"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": true,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": "24/7",
+      "charge": null,
+      "website": "https://www.apcoa.pl/krotkotrwale-parkowanie/lokalizacje/poznan/park-go-kaponiera-centrum-poznan-ul-roosevelt",
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/zaklad-ubezpieczen-spolecznych-12847937267",
+        "parking/parkuj-i-idz-roosevelta-poznanska-237862505",
+        "parking/parking-centrum-mtp-1157897851",
+        "parking/avenida-poznan-368791540",
+        "parking/parkuj-i-idz-dworzec-zachodni-targi-poznanskie-glogowska-260848674"
       ]
     }
   }
