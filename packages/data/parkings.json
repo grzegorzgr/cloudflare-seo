@@ -1802,11 +1802,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "parking/park-go-kaponiera-1330278466",
         "parking/parkuj-i-idz-roosevelta-poznanska-237862505",
         "parking/parking-centrum-mtp-1157897851",
         "parking/parking-24h-dabrowskiego-80-679076094",
-        "parking/avenida-poznan-368791540",
-        "parking/parkuj-i-idz-dworzec-zachodni-targi-poznanskie-glogowska-260848674"
+        "parking/avenida-poznan-368791540"
       ]
     }
   },
@@ -5560,9 +5560,9 @@
       "nearby": [
         "parking/parking-p3-dlugoterminowy-p3-long-term-parking-1162378658",
         "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
+        "parking/carpark-jasionka-13997810304",
         "parking/car-park-parking-strzezony-363301103",
-        "trail/przejscie-dla-plazow-438021775",
-        "parking/pf-thomas-altuccini-3700150300"
+        "trail/przejscie-dla-plazow-438021775"
       ]
     }
   },
@@ -8946,9 +8946,9 @@
       "nearby": [
         "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038",
         "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
+        "parking/carpark-jasionka-13997810304",
         "parking/car-park-parking-strzezony-363301103",
-        "trail/przejscie-dla-plazow-438021775",
-        "parking/pf-thomas-altuccini-3700150300"
+        "trail/przejscie-dla-plazow-438021775"
       ]
     }
   },
@@ -14241,9 +14241,9 @@
       "nearby": [
         "parking/parking-p3-dlugoterminowy-p3-long-term-parking-1162378658",
         "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038",
+        "parking/carpark-jasionka-13997810304",
         "parking/car-park-parking-strzezony-363301103",
-        "trail/przejscie-dla-plazow-438021775",
-        "parking/pf-thomas-altuccini-3700150300"
+        "trail/przejscie-dla-plazow-438021775"
       ]
     }
   },
@@ -14685,8 +14685,8 @@
         "parking/car-park-parking-strzezony-363301103",
         "parking/pf-thomas-altuccini-3700150300",
         "trail/przejscie-dla-plazow-438021775",
-        "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
-        "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038"
+        "parking/carpark-jasionka-13997810304",
+        "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146"
       ]
     }
   },
@@ -18844,8 +18844,8 @@
         "beach/lipie-plaza-naturystyczna-721977073",
         "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038",
         "parking/parking-p3-dlugoterminowy-p3-long-term-parking-1162378658",
-        "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
-        "trail/przejscie-dla-plazow-438021775"
+        "parking/carpark-jasionka-13997810304",
+        "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146"
       ]
     }
   },
@@ -19413,10 +19413,10 @@
     "graph": {
       "nearby": [
         "parking/zaklad-ubezpieczen-spolecznych-12847937267",
+        "parking/park-go-kaponiera-1330278466",
         "parking/parkuj-i-idz-cytadela-pulaskiego-294261105",
         "parking/parking-24h-dabrowskiego-80-679076094",
-        "parking/galeria-mm-2229380316",
-        "parking/parking-centrum-mtp-1157897851"
+        "parking/galeria-mm-2229380316"
       ]
     }
   },
@@ -22376,7 +22376,7 @@
         "parking/parkuj-i-idz-roosevelta-poznanska-237862505",
         "trail/zaulek-lejerow-430401278",
         "parking/zaklad-ubezpieczen-spolecznych-12847937267",
-        "parking/u-bozeny-24h-424018885"
+        "parking/park-go-kaponiera-1330278466"
       ]
     }
   },
@@ -25188,7 +25188,7 @@
         "trail/strazacka-120876134",
         "trail/szlak-krolewski-1385155417",
         "trail/aleja-wisniowa-1146514213",
-        "trail/aleja-orzechowa-1146514215"
+        "trail/bursztynowa-914814812"
       ]
     }
   },
@@ -25229,7 +25229,7 @@
         "trail/strazacka-120876134",
         "trail/szlak-krolewski-1385155417",
         "trail/aleja-wisniowa-1146514213",
-        "trail/aleja-orzechowa-1146514215"
+        "trail/bursztynowa-914814812"
       ]
     }
   },
@@ -31997,7 +31997,7 @@
         "parking/parking-lotnisko-99255603",
         "parking/zaklad-ubezpieczen-spolecznych-12847937267",
         "trail/plac-ludwika-warynskiego-335217545",
-        "parking/parkuj-i-idz-roosevelta-poznanska-237862505"
+        "parking/park-go-kaponiera-1330278466"
       ]
     }
   },
@@ -34407,7 +34407,7 @@
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": false,
       "lifeguards": null,
       "covered": null,
       "guarded": null,
@@ -36191,7 +36191,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -36234,7 +36235,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -36277,7 +36279,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -36395,7 +36398,8 @@
     },
     "features": [
       "nawierzchnia: concrete",
-      "pojemność: 325"
+      "pojemność: 325",
+      "miejsca dla niepełnosprawnych: 13"
     ],
     "amenities": {
       "parking": true,
@@ -36405,7 +36409,12 @@
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true,
+      "opening_hours": "Mo-Su,PH 00:00-00:00",
+      "website": "https://www.kolobrzeg.eu/7597-kolobrzeg-parking-wielopoziomowy-kamienna",
+      "phone": "+48 733 703 733"
     },
     "tags": [
       "osm"
@@ -36448,7 +36457,8 @@
       "paid_entry": true,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "charge": "1.50 EUR/hour"
     },
     "tags": [
       "osm"
@@ -36522,7 +36532,8 @@
       "lng": 16.1744648
     },
     "features": [
-      "pojemność: 25"
+      "pojemność: 25",
+      "miejsca dla niepełnosprawnych: 2"
     ],
     "amenities": {
       "parking": true,
@@ -36532,7 +36543,8 @@
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "park_ride": false
     },
     "tags": [
       "osm"
@@ -36616,7 +36628,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -36827,7 +36840,8 @@
       "pojemność: 6",
       "pojemność: 12",
       "pojemność: 3",
-      "pojemność: 17"
+      "pojemność: 17",
+      "miejsca dla niepełnosprawnych: 2"
     ],
     "amenities": {
       "parking": true,
@@ -36837,7 +36851,9 @@
       "paid_entry": true,
       "lifeguards": false,
       "covered": null,
-      "guarded": false
+      "guarded": false,
+      "lit": true,
+      "opening_hours": "24/7"
     },
     "tags": [
       "osm"
@@ -36885,7 +36901,10 @@
       "paid_entry": true,
       "lifeguards": false,
       "covered": null,
-      "guarded": false
+      "guarded": false,
+      "lit": true,
+      "opening_hours": "24/7",
+      "park_ride": true
     },
     "tags": [
       "osm"
@@ -37079,7 +37098,8 @@
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -37112,7 +37132,8 @@
       "lng": 15.5554125
     },
     "features": [
-      "pojemność: 80"
+      "pojemność: 80",
+      "miejsca dla niepełnosprawnych: no"
     ],
     "amenities": {
       "parking": true,
@@ -37122,7 +37143,9 @@
       "paid_entry": true,
       "lifeguards": true,
       "covered": null,
-      "guarded": true
+      "guarded": true,
+      "lit": true,
+      "park_ride": false
     },
     "tags": [
       "osm"
@@ -37166,7 +37189,10 @@
       "paid_entry": false,
       "lifeguards": false,
       "covered": null,
-      "guarded": false
+      "guarded": false,
+      "lit": true,
+      "park_ride": true,
+      "opening_hours": "24/7"
     },
     "tags": [
       "osm"
@@ -37295,7 +37321,8 @@
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -37339,7 +37366,8 @@
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -37382,7 +37410,9 @@
       "paid_entry": true,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "opening_hours": "24/7"
     },
     "tags": [
       "osm"
@@ -37417,7 +37447,8 @@
     "features": [
       "nawierzchnia: concrete",
       "operator: Interparking Polska Sp. z o.o.",
-      "pojemność: 365"
+      "pojemność: 365",
+      "miejsca dla niepełnosprawnych: 9"
     ],
     "amenities": {
       "parking": true,
@@ -37427,7 +37458,11 @@
       "paid_entry": true,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "opening_hours": "24/7",
+      "website": "https://www.interparking.pl/pl/parkingi/kolobrzeg/parking-port-kolobrzeg/",
+      "phone": "+48 783 008 008"
     },
     "tags": [
       "osm"
@@ -37649,7 +37684,10 @@
       "paid_entry": true,
       "lifeguards": false,
       "covered": null,
-      "guarded": false
+      "guarded": false,
+      "opening_hours": "off",
+      "charge": "0.50 PLN/15 minutes",
+      "website": "https://spp.szczecin.pl/ppn/ppn-trasa-zamkowa"
     },
     "tags": [
       "osm"
@@ -37847,7 +37885,8 @@
     },
     "features": [
       "operator: Galeria MIeszka",
-      "pojemność: 80"
+      "pojemność: 80",
+      "miejsca dla niepełnosprawnych: 6"
     ],
     "amenities": {
       "parking": true,
@@ -38027,7 +38066,9 @@
       "paid_entry": true,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "opening_hours": "24/7"
     },
     "tags": [
       "osm"
@@ -38063,7 +38104,8 @@
       "nawierzchnia: asphalt",
       "pojemność: 33",
       "operator: Nieruchomości i Opłaty Lokalne sp. z o.o. w Szczecinie",
-      "pojemność: 17"
+      "pojemność: 17",
+      "miejsca dla niepełnosprawnych: 2"
     ],
     "amenities": {
       "parking": true,
@@ -38073,7 +38115,11 @@
       "paid_entry": false,
       "lifeguards": false,
       "covered": null,
-      "guarded": false
+      "guarded": false,
+      "opening_hours": "24/7",
+      "lit": true,
+      "charge": "1.00 PLN/15 minutes",
+      "website": "https://spp.szczecin.pl/ppn/ppn-szymanowskiego"
     },
     "tags": [
       "osm"
@@ -38236,7 +38282,8 @@
       "operator: Komunikacja Miejska Kołobrzeg",
       "nawierzchnia: paving_stones",
       "operator: Komunikacja Miejska",
-      "pojemność: 15"
+      "pojemność: 15",
+      "miejsca dla niepełnosprawnych: yes"
     ],
     "amenities": {
       "parking": true,
@@ -38246,7 +38293,9 @@
       "paid_entry": true,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "opening_hours": "Jun-Aug Mo-Fr 09:00-20:00; Sep-May Mo-Fr 09:00-18:00"
     },
     "tags": [
       "osm"
@@ -38279,7 +38328,8 @@
       "lng": 15.5808894
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "miejsca dla niepełnosprawnych: yes"
     ],
     "amenities": {
       "parking": true,
@@ -38289,7 +38339,9 @@
       "paid_entry": true,
       "lifeguards": false,
       "covered": null,
-      "guarded": false
+      "guarded": false,
+      "lit": true,
+      "opening_hours": "24/7"
     },
     "tags": [
       "osm"
@@ -38334,7 +38386,10 @@
       "paid_entry": true,
       "lifeguards": false,
       "covered": null,
-      "guarded": false
+      "guarded": false,
+      "opening_hours": "24/7",
+      "charge": "1.00 PLN/15 minutes",
+      "website": "https://spp.szczecin.pl/ppn/ppn-oginskiego"
     },
     "tags": [
       "osm"
@@ -38463,7 +38518,8 @@
       "paid_entry": null,
       "lifeguards": true,
       "covered": null,
-      "guarded": true
+      "guarded": true,
+      "park_ride": false
     },
     "tags": [
       "osm"
@@ -38553,7 +38609,10 @@
       "paid_entry": true,
       "lifeguards": false,
       "covered": null,
-      "guarded": false
+      "guarded": false,
+      "opening_hours": "24/7",
+      "charge": "0.50 PLN/15 minutes",
+      "website": "https://spp.szczecin.pl/ppn/ppn-czarnieckiego"
     },
     "tags": [
       "osm"
@@ -38671,7 +38730,8 @@
     },
     "features": [
       "nawierzchnia: grass_paver",
-      "pojemność: 425"
+      "pojemność: 425",
+      "miejsca dla niepełnosprawnych: 5"
     ],
     "amenities": {
       "parking": true,
@@ -38681,7 +38741,10 @@
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "park_ride": true,
+      "opening_hours": "24/7"
     },
     "tags": [
       "osm"
@@ -38715,7 +38778,8 @@
     },
     "features": [
       "nawierzchnia: paving_stones",
-      "pojemność: 58"
+      "pojemność: 58",
+      "miejsca dla niepełnosprawnych: 3"
     ],
     "amenities": {
       "parking": true,
@@ -38725,7 +38789,10 @@
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "park_ride": true,
+      "opening_hours": "24/7"
     },
     "tags": [
       "osm"
@@ -38895,7 +38962,8 @@
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -39064,7 +39132,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -39149,7 +39218,9 @@
       "paid_entry": true,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "park_ride": true
     },
     "tags": [
       "osm"
@@ -39405,7 +39476,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -39491,7 +39563,9 @@
       "paid_entry": true,
       "lifeguards": false,
       "covered": null,
-      "guarded": false
+      "guarded": false,
+      "lit": true,
+      "opening_hours": "24/7"
     },
     "tags": [
       "osm"
@@ -39534,7 +39608,8 @@
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -39578,7 +39653,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -39656,7 +39732,8 @@
     "features": [
       "nawierzchnia: paving_stones",
       "operator: APCOA",
-      "pojemność: 188"
+      "pojemność: 188",
+      "miejsca dla niepełnosprawnych: 7"
     ],
     "amenities": {
       "parking": true,
@@ -39666,7 +39743,9 @@
       "paid_entry": true,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "opening_hours": "24/7"
     },
     "tags": [
       "osm"
@@ -39956,7 +40035,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -40000,7 +40080,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -40034,7 +40115,8 @@
     },
     "features": [
       "nawierzchnia: paving_stones",
-      "pojemność: 361"
+      "pojemność: 361",
+      "miejsca dla niepełnosprawnych: 23"
     ],
     "amenities": {
       "parking": true,
@@ -40044,7 +40126,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -40078,7 +40161,8 @@
     },
     "features": [
       "operator: Nieruchomości i Opłaty Lokalne sp. z o.o. w Szczecinie",
-      "pojemność: 2"
+      "pojemność: 2",
+      "miejsca dla niepełnosprawnych: 1"
     ],
     "amenities": {
       "parking": true,
@@ -40131,7 +40215,8 @@
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -40229,6 +40314,110 @@
         "trail/romualda-traugutta-164648592",
         "trail/wologoska-851625535",
         "trail/jakuba-bojki-164704012"
+      ]
+    }
+  },
+  {
+    "id": "carpark-jasionka-13997810304",
+    "slug": "carpark-jasionka-13997810304",
+    "osmId": "node/13997810304",
+    "name": "CarPark Jasionka",
+    "location": {
+      "city": "Rzeszów",
+      "region": "Podkarpackie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 50.1066,
+      "lng": 22.0185
+    },
+    "features": [
+      "operator: Car Park Marcin Wrzos"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": true,
+      "covered": null,
+      "guarded": true,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": "24/7",
+      "charge": null,
+      "website": "https://carpark.auto.pl",
+      "phone": "+48 608 622 779"
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/przejscie-dla-plazow-438021775",
+        "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038",
+        "parking/parking-p3-dlugoterminowy-p3-long-term-parking-1162378658",
+        "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
+        "parking/car-park-parking-strzezony-363301103"
+      ]
+    }
+  },
+  {
+    "id": "park-go-kaponiera-1330278466",
+    "slug": "park-go-kaponiera-1330278466",
+    "osmId": "way/1330278466",
+    "name": "Park & Go Kaponiera",
+    "location": {
+      "city": "Poznań",
+      "region": "Wielkopolskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 52.4094077,
+      "lng": 16.9133093
+    },
+    "features": [
+      "operator: APCOA Parking Polska Sp. z o.o.",
+      "pojemność: 240",
+      "miejsca dla niepełnosprawnych: 7"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": true,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": "24/7",
+      "charge": null,
+      "website": "https://www.apcoa.pl/krotkotrwale-parkowanie/lokalizacje/poznan/park-go-kaponiera-centrum-poznan-ul-roosevelt",
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/zaklad-ubezpieczen-spolecznych-12847937267",
+        "parking/parkuj-i-idz-roosevelta-poznanska-237862505",
+        "parking/parking-centrum-mtp-1157897851",
+        "parking/avenida-poznan-368791540",
+        "parking/parkuj-i-idz-dworzec-zachodni-targi-poznanskie-glogowska-260848674"
       ]
     }
   }

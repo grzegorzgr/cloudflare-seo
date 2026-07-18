@@ -7286,7 +7286,8 @@
       "lng": 20.9972958
     },
     "features": [
-      "nawierzchnia: paved"
+      "nawierzchnia: paved",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -9820,7 +9821,8 @@
       "lng": 18.5869741
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: grass"
     ],
     "amenities": {
       "parking": null,
@@ -11939,7 +11941,9 @@
       "lat": 53.1207155,
       "lng": 18.024922
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -13238,7 +13242,8 @@
     },
     "features": [
       "nawierzchnia: compacted",
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -13485,7 +13490,7 @@
         "trail/aleja-slonecznikowa-1146514217",
         "trail/aleja-irysowa-1146514218",
         "trail/wladyslawa-orkana-219139253",
-        "parking/parking-aldi-354693901"
+        "trail/bursztynowa-914814812"
       ]
     }
   },
@@ -13528,7 +13533,7 @@
         "trail/aleja-slonecznikowa-1146514217",
         "trail/aleja-irysowa-1146514218",
         "trail/wladyslawa-orkana-219139253",
-        "parking/parking-aldi-354693901"
+        "trail/bursztynowa-914814812"
       ]
     }
   },
@@ -13571,7 +13576,7 @@
         "trail/aleja-orzechowa-1146514215",
         "trail/aleja-wisniowa-1146514213",
         "trail/wladyslawa-orkana-219139253",
-        "parking/parking-aldi-354693901"
+        "trail/bursztynowa-914814812"
       ]
     }
   },
@@ -13614,7 +13619,7 @@
         "trail/aleja-orzechowa-1146514215",
         "trail/aleja-wisniowa-1146514213",
         "trail/wladyslawa-orkana-219139253",
-        "trail/podkomorzego-213466225"
+        "trail/bursztynowa-914814812"
       ]
     }
   },
@@ -21538,7 +21543,8 @@
       "lng": 19.8787003
     },
     "features": [
-      "nawierzchnia: grass"
+      "nawierzchnia: grass",
+      "nawierzchnia: mud"
     ],
     "amenities": {
       "parking": null,
@@ -23339,8 +23345,8 @@
         "trail/bydgoska-1288170153",
         "trail/rzemieslnicza-1495904175",
         "trail/dawna-waskotorowa-kolejka-amunicyjna-1381698473",
-        "trail/pokatna-952571254",
-        "trail/letnia-1486720451"
+        "trail/popiolowa-droga-1537671740",
+        "trail/pokatna-952571254"
       ]
     }
   },
@@ -23381,8 +23387,8 @@
         "trail/kolorowa-1288163731",
         "trail/rzemieslnicza-1495904175",
         "trail/dawna-waskotorowa-kolejka-amunicyjna-1381698473",
-        "trail/pokatna-952571254",
-        "trail/letnia-1486720451"
+        "trail/popiolowa-droga-1537671740",
+        "trail/pokatna-952571254"
       ]
     }
   },
@@ -23620,7 +23626,8 @@
     "features": [
       "nawierzchnia: paving_stones",
       "nawierzchnia: paved",
-      "nawierzchnia: unpaved"
+      "nawierzchnia: unpaved",
+      "nawierzchnia: asphalt"
     ],
     "amenities": {
       "parking": null,
@@ -28876,11 +28883,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/popiolowa-droga-1537671740",
         "trail/pokatna-952571254",
         "trail/letnia-1486720451",
         "trail/kolorowa-1288163731",
-        "trail/dawna-torunska-kolejka-poligonowa-1201141627",
-        "trail/bydgoska-1288170153"
+        "trail/dawna-torunska-kolejka-poligonowa-1201141627"
       ]
     }
   },
@@ -34074,9 +34081,9 @@
       "nearby": [
         "trail/pokatna-952571254",
         "trail/dawna-torunska-kolejka-poligonowa-1201141627",
+        "trail/popiolowa-droga-1537671740",
         "trail/dawna-waskotorowa-kolejka-amunicyjna-1381698473",
-        "trail/dybowska-421312132",
-        "beach/plaza-miejska-blonia-nadwislanskie-493611613"
+        "trail/dybowska-421312132"
       ]
     }
   },
@@ -43615,7 +43622,9 @@
       "lat": 52.2291823,
       "lng": 21.0851944
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: compacted"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -45939,7 +45948,9 @@
       "lat": 53.1091555,
       "lng": 18.0245771
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: asphalt"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -54656,7 +54667,8 @@
       "lng": 17.0489215
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: compacted"
     ],
     "amenities": {
       "parking": null,
@@ -58767,10 +58779,10 @@
     "graph": {
       "nearby": [
         "parking/parking-pod-srebrna-gora-237151639",
+        "trail/zdzislawa-jachimeckiego-371577730",
         "trail/petarda-509666067",
         "trail/obledne-kolo-437208478",
-        "trail/malarz-227040706",
-        "trail/30-sekund-349270304"
+        "trail/malarz-227040706"
       ]
     }
   },
@@ -66997,11 +67009,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "parking/carpark-jasionka-13997810304",
         "parking/parking-p2-dlugoterminowy-p2-long-term-parking-1022495038",
         "parking/parking-p3-dlugoterminowy-p3-long-term-parking-1162378658",
         "parking/parking-p1-krotkoterminowy-p1-short-term-parking-149946146",
-        "parking/odlotowy-parking-jasionka-1509590296",
-        "parking/car-park-parking-strzezony-363301103"
+        "parking/odlotowy-parking-jasionka-1509590296"
       ]
     }
   },
@@ -69429,7 +69441,9 @@
       "lng": 21.0251706
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: asphalt",
+      "szerokość: N/A"
     ],
     "amenities": {
       "parking": null,
@@ -71628,7 +71642,8 @@
       "lng": 19.9135593
     },
     "features": [
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "szerokość: 4"
     ],
     "amenities": {
       "parking": null,
@@ -81877,7 +81892,9 @@
       "lat": 53.1208896,
       "lng": 18.0231698
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: wood"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -84702,7 +84719,9 @@
       "lat": 52.2566651,
       "lng": 20.9251973
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -86763,10 +86782,10 @@
     "graph": {
       "nearby": [
         "trail/letnia-1486720451",
+        "trail/popiolowa-droga-1537671740",
         "trail/dawna-waskotorowa-kolejka-amunicyjna-1381698473",
         "beach/plaza-miejska-blonia-nadwislanskie-493611613",
-        "parking/parking-hotel-copernicus-torun-425715737",
-        "trail/dawna-torunska-kolejka-poligonowa-1201141627"
+        "parking/parking-hotel-copernicus-torun-425715737"
       ]
     }
   },
@@ -88969,7 +88988,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -89055,7 +89075,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -89091,7 +89112,11 @@
       "nawierzchnia: paving_stones",
       "nawierzchnia: asphalt",
       "nawierzchnia: paved",
-      "nawierzchnia: sett"
+      "nawierzchnia: sett",
+      "szerokość: 5.8",
+      "szerokość: 5.6",
+      "szerokość: 6.2",
+      "szerokość: 2.2"
     ],
     "amenities": {
       "parking": null,
@@ -89101,7 +89126,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -89144,7 +89171,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -89177,7 +89205,8 @@
       "lng": 14.1597553
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nachylenie: up"
     ],
     "amenities": {
       "parking": null,
@@ -89187,7 +89216,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -89314,7 +89344,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -89400,7 +89431,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -89445,7 +89477,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -89489,7 +89522,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false,
+      "bicycle": false
     },
     "tags": [
       "osm"
@@ -89577,7 +89612,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -89621,7 +89657,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -89664,7 +89701,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -89708,7 +89746,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -89752,7 +89791,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -89839,7 +89879,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -90006,7 +90047,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -90039,7 +90081,8 @@
       "lng": 14.5037079
     },
     "features": [
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "szerokość: 4"
     ],
     "amenities": {
       "parking": null,
@@ -90049,7 +90092,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -90092,7 +90137,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -90136,7 +90182,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -90267,7 +90314,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -90303,7 +90351,8 @@
       "nawierzchnia: paving_stones",
       "nawierzchnia: wood",
       "oznakowanie: 1/W",
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "szerokość: 2"
     ],
     "amenities": {
       "parking": null,
@@ -90313,7 +90362,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -90446,7 +90497,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -90533,7 +90586,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -90576,7 +90630,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -90701,7 +90756,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -90787,7 +90843,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -90957,7 +91014,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -90991,7 +91050,9 @@
     },
     "features": [
       "nawierzchnia: plastic",
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "szerokość: 2",
+      "szerokość: 3"
     ],
     "amenities": {
       "parking": null,
@@ -91001,7 +91062,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": false
     },
     "tags": [
       "osm"
@@ -91085,7 +91148,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -91172,7 +91236,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -91338,7 +91404,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -91413,7 +91480,8 @@
     },
     "features": [
       "nawierzchnia: paving_stones",
-      "nawierzchnia: wood"
+      "nawierzchnia: wood",
+      "szerokość: 2"
     ],
     "amenities": {
       "parking": null,
@@ -91423,7 +91491,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -91511,7 +91580,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": false,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -91555,7 +91625,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -91735,7 +91806,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": true,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -91778,7 +91850,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -91821,7 +91894,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -91864,7 +91938,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -91992,7 +92067,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -92035,7 +92112,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -92078,7 +92156,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -92122,7 +92201,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -92378,7 +92458,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -92462,7 +92544,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -92546,7 +92630,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -92632,7 +92717,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -92760,7 +92846,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -92887,7 +92974,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -92930,7 +93018,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -93055,7 +93144,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": true,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -93088,7 +93178,8 @@
       "lng": 14.6645919
     },
     "features": [
-      "nawierzchnia: compacted"
+      "nawierzchnia: compacted",
+      "szerokość: 2"
     ],
     "amenities": {
       "parking": null,
@@ -93098,7 +93189,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -93490,7 +93582,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -93868,7 +93961,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -93911,7 +94005,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -93954,7 +94049,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -94038,7 +94134,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -94081,7 +94179,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -94208,7 +94308,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94252,7 +94353,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94295,7 +94397,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -94547,7 +94651,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94580,7 +94685,8 @@
       "lng": 15.5327095
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "szerokość: 1"
     ],
     "amenities": {
       "parking": null,
@@ -94590,7 +94696,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94633,7 +94740,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -94761,7 +94870,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94804,7 +94914,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94848,7 +94959,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -94891,7 +95003,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -94934,7 +95047,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -95064,7 +95179,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -95108,7 +95224,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": false,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -95151,7 +95268,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -95225,7 +95343,8 @@
       "lng": 14.1434124
     },
     "features": [
-      "nawierzchnia: compacted"
+      "nawierzchnia: compacted",
+      "szerokość: 2"
     ],
     "amenities": {
       "parking": null,
@@ -95235,7 +95354,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -95279,7 +95400,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -95620,7 +95742,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -95663,7 +95786,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -95918,7 +96042,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -95951,7 +96076,8 @@
       "lng": 14.638968
     },
     "features": [
-      "nawierzchnia: dirt"
+      "nawierzchnia: dirt",
+      "szerokość: 0.2"
     ],
     "amenities": {
       "parking": null,
@@ -96045,7 +96171,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -96088,7 +96215,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -96132,7 +96260,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -96159,14 +96288,15 @@
       "region": "Zachodniopomorskie",
       "country": null
     },
-    "description": null,
+    "description": "Europas längste Strandpromenade",
     "coordinates": {
       "lat": 53.9370167,
       "lng": 14.2004549
     },
     "features": [
       "nawierzchnia: paving_stones",
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "szerokość: 4"
     ],
     "amenities": {
       "parking": null,
@@ -96176,7 +96306,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -96219,7 +96351,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -96373,7 +96506,7 @@
       "region": "Zachodniopomorskie",
       "country": null
     },
-    "description": null,
+    "description": "UCHWAŁA NR XXXVIII/523/09 Rady Miasta Kołobrzeg z dnia 29 października 2009 r.",
     "coordinates": {
       "lat": 54.1761982,
       "lng": 15.5647417
@@ -96389,7 +96522,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -96473,7 +96607,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -96557,7 +96692,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -96727,7 +96863,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -96985,7 +97122,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -97071,7 +97209,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -97103,7 +97242,9 @@
       "lat": 53.3742057,
       "lng": 14.6142215
     },
-    "features": [],
+    "features": [
+      "szerokość: 0.7"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -97158,7 +97299,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -97203,7 +97345,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -97329,7 +97472,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": false,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -97460,7 +97604,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -97503,7 +97649,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -97546,7 +97694,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -97630,7 +97779,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -97673,7 +97824,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -97843,7 +97995,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -97887,7 +98040,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": false,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -97930,7 +98084,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -98100,7 +98255,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"
@@ -98143,7 +98300,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -98186,7 +98344,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -98354,7 +98514,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -98442,7 +98603,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -98686,7 +98848,8 @@
       "lng": 14.5007691
     },
     "features": [
-      "nawierzchnia: concrete"
+      "nawierzchnia: concrete",
+      "szerokość: 3"
     ],
     "amenities": {
       "parking": null,
@@ -98696,7 +98859,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -98739,7 +98904,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -98782,7 +98948,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -98913,7 +99080,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -99083,7 +99251,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": false,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -99126,7 +99295,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -99169,7 +99339,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -99253,7 +99424,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -99382,7 +99554,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -99511,7 +99684,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -99595,7 +99769,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -99767,7 +99942,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -99812,7 +99988,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": false
     },
     "tags": [
       "osm"
@@ -99855,7 +100032,9 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true,
+      "bicycle": true
     },
     "tags": [
       "osm"
@@ -99912,6 +100091,155 @@
         "trail/tami-909001481",
         "trail/wilkanowo-f1-909001477",
         "trail/kostecki-881720295"
+      ]
+    }
+  },
+  {
+    "id": "zdzislawa-jachimeckiego-371577730",
+    "slug": "zdzislawa-jachimeckiego-371577730",
+    "osmId": "way/371577730",
+    "name": "Zdzisława Jachimeckiego",
+    "location": {
+      "city": "Kraków",
+      "region": "Małopolskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 50.0263437,
+      "lng": 19.8552716
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": true,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/podole-286882562",
+        "trail/chodnik-malczewskiego-254050267",
+        "trail/petarda-509666067",
+        "trail/spiacy-dzik-437205916",
+        "trail/jedrny-jedrus-288230217"
+      ]
+    }
+  },
+  {
+    "id": "bursztynowa-914814812",
+    "slug": "bursztynowa-914814812",
+    "osmId": "way/914814812",
+    "name": "Bursztynowa",
+    "location": {
+      "city": "Częstochowa",
+      "region": "Śląskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 50.748736,
+      "lng": 19.1039552
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/aleja-irysowa-1146514218",
+        "trail/aleja-wisniowa-1146514213",
+        "trail/aleja-slonecznikowa-1146514217",
+        "trail/aleja-orzechowa-1146514215",
+        "trail/strazacka-120876134"
+      ]
+    }
+  },
+  {
+    "id": "popiolowa-droga-1537671740",
+    "slug": "popiolowa-droga-1537671740",
+    "osmId": "way/1537671740",
+    "name": "Popiołowa Droga",
+    "location": {
+      "city": "Toruń",
+      "region": "Kujawsko-Pomorskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 52.9858191,
+      "lng": 18.5863041
+    },
+    "features": [
+      "nawierzchnia: unpaved"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/dawna-waskotorowa-kolejka-amunicyjna-1381698473",
+        "trail/pokatna-952571254",
+        "trail/letnia-1486720451",
+        "trail/dawna-torunska-kolejka-poligonowa-1201141627",
+        "trail/kolorowa-1288163731"
       ]
     }
   }
