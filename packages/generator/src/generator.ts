@@ -18,24 +18,32 @@ import { withTrailingSlash } from './slug.js';
 
 const UNKNOWN = 'nieznane';
 
+/** Liczba wypelnionych sygnalow tresci (cechy + udogodnienia) encji. */
+function richSignalCount(entity: Entity): number {
+  const featureCount = (entity.features ?? []).length;
+  const amenityCount = Object.values(entity.amenities ?? {}).filter(
+    (value) => value !== null && value !== undefined,
+  ).length;
+  return featureCount + amenityCount;
+}
+
+/** Minimalna liczba wypelnionych sygnalow (cechy + udogodnienia), gdy brak opisu. */
+const MIN_SIGNALS_WITHOUT_DESCRIPTION = 3;
+
 /**
  * Prog "wystarczajacych danych" do indeksowania strony encji.
- * Strona bez opisu i bez zadnej wypelnionej cechy/udogodnienia jest w
- * praktyce pusta (same "Brak danych") i ryzykuje thin content na skale
- * tysiecy stron. Taka strona zostaje wygenerowana (bez fikcji w danych),
- * ale oznaczona jako noindex i wykluczona z sitemap, dopoki dane sie nie
+ * Strona bez opisu i bez co najmniej kilku wypelnionych cech/udogodnien jest
+ * w praktyce cienka tresc (thin content) na skale tysiecy stron — dokladnie
+ * to, co AdSense i Google Search flaguja jako auto-generated low value
+ * content. Taka strona zostaje wygenerowana (bez fikcji w danych), ale
+ * oznaczona jako noindex i wykluczona z sitemap, dopoki dane sie nie
  * uzupelnia.
  */
 export function hasSufficientContent(entity: Entity): boolean {
   if (entity.seo?.description || entity.description) {
     return true;
   }
-  if ((entity.features ?? []).length > 0) {
-    return true;
-  }
-  return Object.values(entity.amenities ?? {}).some(
-    (value) => value !== null && value !== undefined,
-  );
+  return richSignalCount(entity) >= MIN_SIGNALS_WITHOUT_DESCRIPTION;
 }
 
 /**
@@ -136,18 +144,14 @@ const NEARBY_LIMIT = 5;
 
 /**
  * Buduje list\u0119 FAQ deterministycznie.
- * Je\u015bli encja ma zdefiniowane FAQ, u\u017cywa go bez zmian.
- * W przeciwnym razie generuje FAQ z fakt\u00f3w (1 fakt = 1 pytanie/odpowied\u017a).
+ * Zwraca WYL\u0104CZNIE realne FAQ zdefiniowane w danych encji (entity.faq).
+ * Brak generowania syntetycznych pyta\u0144 z cech ("Informacja N o...") \u2014
+ * takie sztuczne FAQ + FAQPage schema.org na skali tysi\u0119cy stron to
+ * dokladnie profil "auto-generated low value content" flagowany przez
+ * AdSense/Google, a nie prawdziwe FAQ.
  */
-export function buildFaq(entity: Entity, config: TypeConfig): EntityFaqItem[] {
-  if (entity.faq && entity.faq.length > 0) {
-    return entity.faq;
-  }
-  const features = entity.features ?? [];
-  return features.map((feature, index) => ({
-    q: `Informacja ${index + 1} o ${config.entityNoun} ${entity.name}`,
-    a: feature,
-  }));
+export function buildFaq(entity: Entity, _config: TypeConfig): EntityFaqItem[] {
+  return entity.faq ?? [];
 }
 
 /**
