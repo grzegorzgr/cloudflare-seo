@@ -31954,7 +31954,8 @@
       "lng": 21.0030022
     },
     "features": [
-      "nawierzchnia: concrete"
+      "nawierzchnia: concrete",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -31997,7 +31998,8 @@
       "lng": 21.0039453
     },
     "features": [
-      "nawierzchnia: concrete"
+      "nawierzchnia: concrete",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -36390,7 +36392,8 @@
       "lng": 21.0008279
     },
     "features": [
-      "nawierzchnia: concrete"
+      "nawierzchnia: concrete",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
