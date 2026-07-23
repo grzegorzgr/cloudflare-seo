@@ -36359,7 +36359,8 @@
       "lifeguards": null,
       "covered": null,
       "guarded": null,
-      "lit": false
+      "lit": false,
+      "bicycle": false
     },
     "tags": [
       "osm"
