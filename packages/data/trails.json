@@ -18266,10 +18266,10 @@
     "graph": {
       "nearby": [
         "trail/tytusa-chalubinskiego-1332701110",
+        "parking/parking-pod-chojnikiem-14042026401",
         "trail/singletrack-leszy-sekcja-10-700727696",
         "trail/singletrack-rokitnik-sekcja-14-712231801",
-        "trail/singletrack-leszy-sekcja-9-706125107",
-        "trail/bulwar-schaffgotschow-978080701"
+        "trail/singletrack-leszy-sekcja-9-706125107"
       ]
     }
   },
@@ -26634,11 +26634,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "parking/parking-pod-chojnikiem-14042026401",
         "trail/singletrack-leszy-sekcja-10-700727696",
         "trail/perun-zar-sekcja-nr-1-706113146",
         "trail/singletrack-leszy-sekcja-9-706125107",
-        "trail/singletrack-rokitnik-sekcja-11-706125109",
-        "trail/perun-zar-sekcja-nr-2-719019370"
+        "trail/singletrack-rokitnik-sekcja-11-706125109"
       ]
     }
   },
@@ -74623,10 +74623,10 @@
     "graph": {
       "nearby": [
         "trail/tytusa-chalubinskiego-1332701110",
+        "parking/parking-pod-chojnikiem-14042026401",
         "trail/perun-zar-sekcja-nr-1-706113146",
         "trail/singletrack-leszy-sekcja-10-700727696",
-        "trail/perun-zar-sekcja-nr-2-719019370",
-        "parking/termy-cieplickie-parking-b-208036906"
+        "trail/perun-zar-sekcja-nr-2-719019370"
       ]
     }
   },
@@ -78474,8 +78474,8 @@
         "trail/singletrack-leszy-sekcja-9-706125107",
         "trail/singletrack-rokitnik-sekcja-11-706125109",
         "trail/perun-zar-sekcja-nr-1-706113146",
-        "trail/singletrack-rokitnik-sekcja-14-712231801",
-        "trail/tytusa-chalubinskiego-1332701110"
+        "parking/parking-pod-chojnikiem-14042026401",
+        "trail/singletrack-rokitnik-sekcja-14-712231801"
       ]
     }
   },
@@ -78565,7 +78565,7 @@
         "trail/singletrack-leszy-sekcja-10-700727696",
         "trail/singletrack-rokitnik-sekcja-11-706125109",
         "trail/singletrack-leszy-sekcja-9-706125107",
-        "trail/tytusa-chalubinskiego-1332701110"
+        "parking/parking-pod-chojnikiem-14042026401"
       ]
     }
   },
@@ -79685,7 +79685,7 @@
         "trail/singletrack-rokitnik-sekcja-11-706125109",
         "trail/singletrack-leszy-sekcja-9-706125107",
         "trail/singletrack-leszy-sekcja-10-700727696",
-        "trail/tytusa-chalubinskiego-1332701110"
+        "parking/parking-pod-chojnikiem-14042026401"
       ]
     }
   },

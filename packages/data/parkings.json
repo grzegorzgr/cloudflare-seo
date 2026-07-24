@@ -40420,5 +40420,54 @@
         "parking/parkuj-i-idz-dworzec-zachodni-targi-poznanskie-glogowska-260848674"
       ]
     }
+  },
+  {
+    "id": "parking-pod-chojnikiem-14042026401",
+    "slug": "parking-pod-chojnikiem-14042026401",
+    "osmId": "node/14042026401",
+    "name": "Parking pod Chojnikiem",
+    "location": {
+      "city": "Jelenia Góra",
+      "region": "Dolnośląskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 50.842325,
+      "lng": 15.6407542
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/tytusa-chalubinskiego-1332701110",
+        "trail/singletrack-leszy-sekcja-10-700727696",
+        "trail/perun-zar-sekcja-nr-1-706113146",
+        "trail/singletrack-leszy-sekcja-9-706125107",
+        "trail/singletrack-rokitnik-sekcja-11-706125109"
+      ]
+    }
   }
 ]
