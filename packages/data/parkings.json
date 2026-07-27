@@ -26745,7 +26745,8 @@
       "paid_entry": true,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "charge": "20 PLN/day"
     },
     "tags": [
       "osm"
