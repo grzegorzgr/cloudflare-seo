@@ -16824,7 +16824,8 @@
       "lng": 17.970722
     },
     "features": [
-      "nawierzchnia: unpaved"
+      "nawierzchnia: unpaved",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -50045,10 +50046,10 @@
     "graph": {
       "nearby": [
         "trail/babicka-294246967",
+        "trail/aleja-marii-kownackiej-1545223716",
         "trail/zablocinska-1084501385",
         "parking/parking-przy-crs-bielany-770619263",
-        "trail/s-ndora-pet-fiego-237313789",
-        "trail/aleja-boleslawa-chomicza-1193563005"
+        "trail/s-ndora-pet-fiego-237313789"
       ]
     }
   },
@@ -69078,8 +69079,8 @@
         "trail/szamocka-91755994",
         "trail/pasaz-janusza-morgensterna-448344561",
         "parking/parking-elektra-258727904",
-        "parking/p-r-metro-marymont-105514733",
-        "parking/hala-336139015"
+        "trail/aleja-marii-kownackiej-1545223716",
+        "parking/p-r-metro-marymont-105514733"
       ]
     }
   },
@@ -100244,6 +100245,57 @@
         "trail/letnia-1486720451",
         "trail/dawna-torunska-kolejka-poligonowa-1201141627",
         "trail/kolorowa-1288163731"
+      ]
+    }
+  },
+  {
+    "id": "aleja-marii-kownackiej-1545223716",
+    "slug": "aleja-marii-kownackiej-1545223716",
+    "osmId": "way/1545223716",
+    "name": "Aleja Marii Kownackiej",
+    "location": {
+      "city": "Warszawa",
+      "region": "Mazowieckie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 52.2696318,
+      "lng": 20.9460282
+    },
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/antoniego-fontany-260687317",
+        "trail/sybilli-47801240",
+        "trail/makowa-1166163809",
+        "trail/fiolkowa-1166163807",
+        "trail/irysowa-1202922561"
       ]
     }
   }
