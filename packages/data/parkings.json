@@ -1281,10 +1281,10 @@
     "graph": {
       "nearby": [
         "trail/rezedowa-824091755",
+        "trail/wielkokacka-226308624",
         "parking/parking-ch-riviera-129343296",
         "trail/four-cross-185403214",
-        "parking/parking-villa-gdynia-371814952",
-        "trail/wejscie-12-433819619"
+        "parking/parking-villa-gdynia-371814952"
       ]
     }
   },
@@ -8900,11 +8900,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/wielkokacka-226308624",
         "trail/rezedowa-824091755",
         "parking/kiss-go-10185960799",
         "trail/szlak-zrodla-marii",
-        "trail/four-cross-185403214",
-        "parking/parking-ch-riviera-129343296"
+        "trail/four-cross-185403214"
       ]
     }
   },

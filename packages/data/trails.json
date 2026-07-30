@@ -135,9 +135,9 @@
       "nearby": [
         "parking/parking-strzezony-1160956617",
         "parking/kiss-go-10185960799",
+        "trail/wielkokacka-226308624",
         "trail/rezedowa-824091755",
-        "parking/parking-jarpo",
-        "beach/gdynia-orlowo-plaza-dla-psow"
+        "parking/parking-jarpo"
       ]
     }
   },
@@ -13203,12 +13203,13 @@
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": true,
       "lifeguards": null,
       "covered": null,
       "guarded": null,
       "bicycle": false,
-      "opening_hours": "off \"do odwołania / until further notice\""
+      "opening_hours": "off \"do odwołania / until further notice\"",
+      "lit": false
     },
     "tags": [
       "osm"
@@ -41409,9 +41410,9 @@
       "nearby": [
         "parking/parking-ch-riviera-129343296",
         "trail/rezedowa-824091755",
+        "trail/wielkokacka-226308624",
         "trail/sztolnia-przeciwlotnicza-b75-1375197603",
-        "trail/aleja-17-grudnia-133258752",
-        "trail/promenada-prezydenta-ryszarda-kaczorowskiego-1132060458"
+        "trail/aleja-17-grudnia-133258752"
       ]
     }
   },
@@ -82644,11 +82645,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/wielkokacka-226308624",
         "trail/four-cross-185403214",
         "parking/kiss-go-10185960799",
         "parking/parking-ch-riviera-129343296",
-        "trail/sztolnia-przeciwlotnicza-b75-1375197603",
-        "trail/aleja-17-grudnia-133258752"
+        "trail/sztolnia-przeciwlotnicza-b75-1375197603"
       ]
     }
   },
@@ -100296,6 +100297,57 @@
         "trail/makowa-1166163809",
         "trail/fiolkowa-1166163807",
         "trail/irysowa-1202922561"
+      ]
+    }
+  },
+  {
+    "id": "wielkokacka-226308624",
+    "slug": "wielkokacka-226308624",
+    "osmId": "way/226308624",
+    "name": "Wielkokacka",
+    "location": {
+      "city": "Gdynia",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 54.4930777,
+      "lng": 18.5069906
+    },
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": "wyznaczone",
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/rezedowa-824091755",
+        "trail/four-cross-185403214",
+        "parking/kiss-go-10185960799",
+        "parking/parking-ch-riviera-129343296",
+        "parking/parking-strzezony-1160956617"
       ]
     }
   }
