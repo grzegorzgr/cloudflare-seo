@@ -20200,7 +20200,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "bicycle": "wyznaczone"
     },
     "tags": [
       "osm"

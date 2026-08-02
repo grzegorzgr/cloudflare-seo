@@ -8967,7 +8967,9 @@
       "lat": 50.0890848,
       "lng": 19.933199
     },
-    "features": [],
+    "features": [
+      "miejsca dla niepełnosprawnych: yes"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
@@ -10412,7 +10414,9 @@
       "lat": 50.094149,
       "lng": 19.9302583
     },
-    "features": [],
+    "features": [
+      "miejsca dla niepełnosprawnych: yes"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
