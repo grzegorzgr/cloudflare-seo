@@ -61603,7 +61603,8 @@
     },
     "features": [
       "nawierzchnia: paved",
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "nawierzchnia: concrete"
     ],
     "amenities": {
       "parking": null,
