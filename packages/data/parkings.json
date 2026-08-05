@@ -6044,7 +6044,7 @@
     "address": {
       "street": "Henryka Sienkiewicza",
       "housenumber": "113a",
-      "postcode": null,
+      "postcode": "90-301",
       "city": "Łódź"
     }
   },
@@ -12781,7 +12781,7 @@
     "address": {
       "street": "Indyjska",
       "housenumber": "13",
-      "postcode": null,
+      "postcode": "81-336",
       "city": "Gdynia"
     }
   },
@@ -17300,7 +17300,7 @@
     "address": {
       "street": "Aleja Tadeusza Rejtana",
       "housenumber": "1",
-      "postcode": null,
+      "postcode": "35-326",
       "city": "Rzeszów"
     }
   },
@@ -19290,7 +19290,7 @@
     "address": {
       "street": "Krakowiaków",
       "housenumber": "75",
-      "postcode": null,
+      "postcode": "02-255",
       "city": "Warszawa"
     }
   },
@@ -22111,7 +22111,7 @@
     "address": {
       "street": "Juliusza Słowackiego",
       "housenumber": "199B",
-      "postcode": null,
+      "postcode": "80-298",
       "city": "Gdańsk"
     }
   },
@@ -33998,11 +33998,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "parking/bayport-parking-lotnisko-chopina-24-7-1419615953",
         "parking/smart-premium-parking-okecie-1308478673",
         "parking/start-parking-okecie-235361412",
         "parking/park-fly-parking-lotnisko-okecie-801555758",
-        "parking/simple-park-862987256",
-        "trail/alejka-16-875883799"
+        "parking/simple-park-862987256"
       ]
     }
   },
@@ -40472,6 +40472,60 @@
         "trail/perun-zar-sekcja-nr-1-706113146",
         "trail/singletrack-leszy-sekcja-9-706125107",
         "trail/singletrack-rokitnik-sekcja-11-706125109"
+      ]
+    }
+  },
+  {
+    "id": "bayport-parking-lotnisko-chopina-24-7-1419615953",
+    "slug": "bayport-parking-lotnisko-chopina-24-7-1419615953",
+    "osmId": "way/1419615953",
+    "name": "BayPort Parking Lotnisko Chopina 24/7",
+    "location": {
+      "city": "Warszawa",
+      "region": "Mazowieckie",
+      "country": null
+    },
+    "address": {
+      "street": "Na Skraju",
+      "housenumber": "16D",
+      "postcode": "02-197",
+      "city": "Warszawa"
+    },
+    "description": "BayPort to całodobowy parking przy Lotnisku Chopina w Warszawie. Oferujemy bezpieczny, monitorowany parking 24/7, szybki transfer na lotnisko, wygodną rezerwację online i atrakcyjne ceny.",
+    "coordinates": {
+      "lat": 52.1591838,
+      "lng": 20.9454522
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": true,
+      "covered": null,
+      "guarded": true,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": "24/7",
+      "charge": null,
+      "website": "https://bayport.pl/",
+      "phone": "+48 452 500 999"
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/skyway-parking-862987279",
+        "parking/smart-premium-parking-okecie-1308478673",
+        "parking/simple-park-862987256",
+        "parking/park-fly-parking-lotnisko-okecie-801555758",
+        "parking/start-parking-okecie-235361412"
       ]
     }
   }
