@@ -48719,7 +48719,8 @@
       "lng": 18.561884
     },
     "features": [
-      "nawierzchnia: cobblestone"
+      "nawierzchnia: cobblestone",
+      "nawierzchnia: wood"
     ],
     "amenities": {
       "parking": null,
