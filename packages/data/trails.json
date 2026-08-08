@@ -50721,7 +50721,9 @@
       "lat": 50.747751,
       "lng": 15.7844182
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: rock"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
