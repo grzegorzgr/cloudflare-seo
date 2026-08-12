@@ -8599,7 +8599,8 @@
     },
     "features": [
       "nawierzchnia: asphalt",
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: concrete"
     ],
     "amenities": {
       "parking": null,
