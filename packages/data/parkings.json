@@ -9726,9 +9726,9 @@
       "nearby": [
         "trail/przewodnikow-gorskich-1393581700",
         "parking/przy-swiatyni-wang-auto-338192128",
+        "parking/przy-lesie-14089242402",
         "trail/trawers-720-740-1511154578",
-        "trail/marii-nienartowicz-175313559",
-        "parking/parking-bialy-jar-stacja-dolna-366144786"
+        "trail/marii-nienartowicz-175313559"
       ]
     }
   },
@@ -24223,9 +24223,9 @@
       "nearby": [
         "parking/parking-miejski-nr-4-1202064792",
         "trail/przewodnikow-gorskich-1393581700",
+        "parking/przy-lesie-14089242402",
         "trail/trawers-720-740-1511154578",
-        "trail/marii-nienartowicz-175313559",
-        "parking/parking-bialy-jar-stacja-dolna-366144786"
+        "trail/marii-nienartowicz-175313559"
       ]
     }
   },
@@ -40526,6 +40526,55 @@
         "parking/simple-park-862987256",
         "parking/park-fly-parking-lotnisko-okecie-801555758",
         "parking/start-parking-okecie-235361412"
+      ]
+    }
+  },
+  {
+    "id": "przy-lesie-14089242402",
+    "slug": "przy-lesie-14089242402",
+    "osmId": "node/14089242402",
+    "name": "Przy Lesie",
+    "location": {
+      "city": "Karpacz",
+      "region": "Dolnośląskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 50.7831736,
+      "lng": 15.7203648
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/przewodnikow-gorskich-1393581700",
+        "parking/parking-miejski-nr-4-1202064792",
+        "parking/przy-swiatyni-wang-auto-338192128",
+        "trail/trawers-720-740-1511154578",
+        "trail/marii-nienartowicz-175313559"
       ]
     }
   }
