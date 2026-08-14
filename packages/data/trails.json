@@ -89153,7 +89153,7 @@
         "trail/2-r-24871573",
         "trail/2-q-26508081",
         "parking/strandparkplatz-labahnstra-e-40-583879845",
-        "trail/2n-231600211"
+        "trail/2-p-1053301775"
       ]
     }
   },
@@ -89240,9 +89240,9 @@
       "nearby": [
         "trail/2-r-24871573",
         "trail/2-q-26508081",
+        "trail/2-p-1053301775",
         "parking/strandparkplatz-labahnstra-e-40-583879845",
-        "trail/strandpromenade-102812702",
-        "trail/2n-231600211"
+        "trail/strandpromenade-102812702"
       ]
     }
   },
@@ -90364,7 +90364,8 @@
       "nawierzchnia: wood",
       "oznakowanie: 1/W",
       "nawierzchnia: asphalt",
-      "szerokość: 2"
+      "szerokość: 2",
+      "oznakowanie: 1/V"
     ],
     "amenities": {
       "parking": null,
@@ -90386,10 +90387,10 @@
     "graph": {
       "nearby": [
         "trail/1-x-45578755",
+        "trail/1-u-79610282",
+        "trail/1-y-1423517921",
         "trail/1-z-30583781",
-        "trail/2-a-512152735",
-        "trail/2-b-51348771",
-        "trail/2-c-45578752"
+        "trail/2-a-512152735"
       ]
     }
   },
@@ -90973,7 +90974,8 @@
       "lng": 14.132319
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nachylenie: down"
     ],
     "amenities": {
       "parking": null,
@@ -91561,7 +91563,7 @@
         "trail/2n-231600211",
         "trail/apothekerweg-245536631",
         "trail/damenbadweg-24872478",
-        "trail/2-g-24872490"
+        "trail/2-h-24872480"
       ]
     }
   },
@@ -91582,13 +91584,14 @@
     },
     "features": [
       "nawierzchnia: wood",
-      "oznakowanie: 2/D"
+      "oznakowanie: 2/D",
+      "nawierzchnia: Wood-Plastic-Composite"
     ],
     "amenities": {
       "parking": null,
       "toilets": null,
       "dog_friendly": null,
-      "accessibility": null,
+      "accessibility": true,
       "paid_entry": null,
       "lifeguards": null,
       "covered": false,
@@ -91830,9 +91833,9 @@
       "nearby": [
         "trail/2-k-1466423199",
         "trail/damenbadweg-24872478",
+        "trail/2-h-24872480",
         "trail/apothekerweg-245536631",
-        "trail/2n-231600211",
-        "trail/2-g-24872490"
+        "trail/2n-231600211"
       ]
     }
   },
@@ -92848,7 +92851,8 @@
     },
     "features": [
       "nawierzchnia: ground",
-      "nawierzchnia: sett"
+      "nawierzchnia: sett",
+      "nawierzchnia: compacted"
     ],
     "amenities": {
       "parking": null,
@@ -94893,10 +94897,10 @@
     "graph": {
       "nearby": [
         "trail/apothekerweg-245536631",
+        "trail/2-p-1053301775",
         "trail/2-k-1466423199",
         "trail/willibald-alexis-weg-26508096",
-        "trail/seebr-cke-heringsdorf-148785397",
-        "trail/2-q-26508081"
+        "trail/seebr-cke-heringsdorf-148785397"
       ]
     }
   },
@@ -95159,9 +95163,9 @@
       "nearby": [
         "trail/2-q-26508081",
         "trail/fischerweg-1036061890",
+        "trail/2-p-1053301775",
         "parking/strandparkplatz-labahnstra-e-40-583879845",
-        "trail/strandpromenade-102812702",
-        "trail/2n-231600211"
+        "trail/strandpromenade-102812702"
       ]
     }
   },
@@ -95201,11 +95205,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/2-h-24872480",
         "trail/2-g-24872490",
         "parking/stadt-berlin-589189432",
         "parking/upstalsboom-429239122",
-        "trail/seebr-cke-heringsdorf-148785397",
-        "trail/2-k-1466423199"
+        "trail/seebr-cke-heringsdorf-148785397"
       ]
     }
   },
@@ -95226,7 +95230,8 @@
     },
     "features": [
       "nawierzchnia: wood",
-      "oznakowanie: 2/G"
+      "oznakowanie: 2/G",
+      "nawierzchnia: Wood-Plastic-Composite"
     ],
     "amenities": {
       "parking": null,
@@ -95246,11 +95251,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/2-h-24872480",
         "trail/damenbadweg-24872478",
         "parking/upstalsboom-429239122",
         "trail/2-e-45580326",
-        "trail/neuer-weg-24872601",
-        "trail/2-d-1466425305"
+        "trail/neuer-weg-24872601"
       ]
     }
   },
@@ -95468,9 +95473,9 @@
       "nearby": [
         "trail/2-r-24871573",
         "trail/fischerweg-1036061890",
+        "trail/2-p-1053301775",
         "parking/strandparkplatz-labahnstra-e-40-583879845",
-        "trail/2n-231600211",
-        "trail/strandpromenade-102812702"
+        "trail/2n-231600211"
       ]
     }
   },
@@ -95511,7 +95516,7 @@
         "trail/2n-231600211",
         "parking/personal-10882856330",
         "parking/strandparkplatz-labahnstra-e-40-583879845",
-        "trail/seebr-cke-heringsdorf-148785397"
+        "trail/2-p-1053301775"
       ]
     }
   },
@@ -95574,7 +95579,8 @@
       "lng": 14.526413
     },
     "features": [
-      "nawierzchnia: paved"
+      "nawierzchnia: paved",
+      "nawierzchnia: sett"
     ],
     "amenities": {
       "parking": null,
@@ -95935,10 +95941,10 @@
     "graph": {
       "nearby": [
         "trail/2-a-512152735",
+        "trail/1-y-1423517921",
         "trail/1-x-45578755",
         "trail/2-b-51348771",
-        "trail/promenade-1175456240",
-        "trail/2-c-45578752"
+        "trail/promenade-1175456240"
       ]
     }
   },
@@ -97539,10 +97545,10 @@
     "graph": {
       "nearby": [
         "trail/promenade-1175456240",
+        "trail/1-y-1423517921",
         "trail/1-z-30583781",
-        "trail/2-a-512152735",
-        "trail/2-b-51348771",
-        "trail/2-c-45578752"
+        "trail/1-u-79610282",
+        "trail/2-a-512152735"
       ]
     }
   },
@@ -98019,9 +98025,9 @@
       "nearby": [
         "trail/1-z-30583781",
         "trail/2-b-51348771",
+        "trail/1-y-1423517921",
         "trail/2-c-45578752",
-        "trail/1-x-45578755",
-        "trail/promenade-1175456240"
+        "trail/1-x-45578755"
       ]
     }
   },
@@ -100354,6 +100360,264 @@
         "parking/kiss-go-10185960799",
         "parking/parking-ch-riviera-129343296",
         "parking/parking-strzezony-1160956617"
+      ]
+    }
+  },
+  {
+    "id": "2-p-1053301775",
+    "slug": "2-p-1053301775",
+    "osmId": "way/1053301775",
+    "name": "2/P",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 53.9608752,
+      "lng": 14.1631526
+    },
+    "features": [
+      "nawierzchnia: Wood-Plastic-Composite",
+      "oznakowanie: 2/P"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/2-q-26508081",
+        "trail/2-r-24871573",
+        "trail/fischerweg-1036061890",
+        "trail/2n-231600211",
+        "parking/strandparkplatz-labahnstra-e-40-583879845"
+      ]
+    }
+  },
+  {
+    "id": "1-y-1423517921",
+    "slug": "1-y-1423517921",
+    "osmId": "way/1423517921",
+    "name": "1/Y",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 53.9462357,
+      "lng": 14.1836444
+    },
+    "features": [
+      "nawierzchnia: Wood-Plastic-Composite",
+      "oznakowanie: 1/Y"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/1-z-30583781",
+        "trail/1-x-45578755",
+        "trail/2-a-512152735",
+        "trail/promenade-1175456240",
+        "trail/2-b-51348771"
+      ]
+    }
+  },
+  {
+    "id": "2-h-24872480",
+    "slug": "2-h-24872480",
+    "osmId": "way/24872480",
+    "name": "2/H",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 53.953322,
+      "lng": 14.1728759
+    },
+    "features": [
+      "nawierzchnia: Wood-Plastic-Composite",
+      "oznakowanie: 2/H"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/2-g-24872490",
+        "trail/damenbadweg-24872478",
+        "parking/upstalsboom-429239122",
+        "trail/seebr-cke-heringsdorf-148785397",
+        "parking/stadt-berlin-589189432"
+      ]
+    }
+  },
+  {
+    "id": "1-r-362655843",
+    "slug": "1-r-362655843",
+    "osmId": "way/362655843",
+    "name": "1/R",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 53.9430614,
+      "lng": 14.1899264
+    },
+    "features": [
+      "nawierzchnia: Wood-Plastic-Composite"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/1-u-79610282",
+        "parking/rathaus-1-1378765875",
+        "trail/promenade-1175456240",
+        "trail/1-x-45578755",
+        "trail/1-y-1423517921"
+      ]
+    }
+  },
+  {
+    "id": "1-u-79610282",
+    "slug": "1-u-79610282",
+    "osmId": "way/79610282",
+    "name": "1/U",
+    "location": {
+      "city": "Świnoujście",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 53.9443635,
+      "lng": 14.1870468
+    },
+    "features": [
+      "nawierzchnia: wood"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/promenade-1175456240",
+        "trail/1-x-45578755",
+        "trail/1-r-362655843",
+        "trail/1-y-1423517921",
+        "trail/1-z-30583781"
       ]
     }
   }

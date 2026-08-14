@@ -36472,11 +36472,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/1-r-362655843",
         "trail/1-j-123715799",
+        "trail/1-u-79610282",
         "trail/siedlung-ostend-428923140",
-        "trail/promenade-1175456240",
-        "trail/1-x-45578755",
-        "trail/d-nenstra-e-362655841"
+        "trail/promenade-1175456240"
       ]
     }
   },
@@ -39319,8 +39319,8 @@
         "trail/fischerweg-1036061890",
         "trail/2-q-26508081",
         "trail/2-r-24871573",
-        "trail/willibald-alexis-weg-26508096",
-        "trail/apothekerweg-245536631"
+        "trail/2-p-1053301775",
+        "trail/willibald-alexis-weg-26508096"
       ]
     },
     "address": {
@@ -39367,9 +39367,9 @@
       "nearby": [
         "trail/damenbadweg-24872478",
         "parking/upstalsboom-429239122",
+        "trail/2-h-24872480",
         "trail/2-g-24872490",
-        "trail/baumwipfelpfad-1036309160",
-        "trail/seebr-cke-heringsdorf-148785397"
+        "trail/baumwipfelpfad-1036309160"
       ]
     }
   },
