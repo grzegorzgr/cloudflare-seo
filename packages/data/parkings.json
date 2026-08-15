@@ -1790,7 +1790,7 @@
       "toilets": null,
       "dog_friendly": null,
       "accessibility": null,
-      "paid_entry": null,
+      "paid_entry": false,
       "lifeguards": null,
       "covered": null,
       "guarded": null
@@ -16068,11 +16068,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/plac-grunwaldzki-461768136",
+        "trail/plac-grunwalzki-461768139",
         "trail/szlak-im-hetmana-stefana-czarnieckiego-1334672224",
         "trail/schron-przeciwlotniczy-666314758",
-        "trail/szlak-dolnej-klodawki-1465367878",
-        "trail/arsenalna-1475171539",
-        "trail/strzelecka-752740533"
+        "trail/szlak-dolnej-klodawki-1465367878"
       ]
     }
   },

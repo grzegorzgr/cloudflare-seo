@@ -14494,9 +14494,9 @@
       "nearby": [
         "trail/aleja-absolwentow-693842062",
         "trail/al-bzowa-998843673",
+        "trail/aleja-astrow-1549694734",
         "trail/robotnicza-901098920",
-        "parking/parking-wielopoziomowy-24h-millennium-towers-364390012",
-        "parking/magnolia-park-102534597"
+        "parking/parking-wielopoziomowy-24h-millennium-towers-364390012"
       ]
     }
   },
@@ -26904,11 +26904,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/plac-grunwalzki-461768139",
+        "trail/plac-grunwaldzki-461768136",
         "parking/parking-przy-sadzie-administracyjnym-172747207",
         "trail/schron-przeciwlotniczy-666314758",
-        "trail/szlak-dolnej-klodawki-1465367878",
-        "trail/emilii-plater-842248419",
-        "trail/dziewieciu-muz-810171225"
+        "trail/szlak-dolnej-klodawki-1465367878"
       ]
     }
   },
@@ -32716,11 +32716,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/aleja-astrow-1549694734",
         "trail/al-bzowa-998843673",
         "trail/budziszynska-799360338",
         "trail/aleja-europejskiej-stolicy-kultury-1184063738",
-        "trail/kladka-jacka-i-agatki-516843240",
-        "trail/pomidorowa-1161787189"
+        "trail/kladka-jacka-i-agatki-516843240"
       ]
     }
   },
@@ -33492,7 +33492,7 @@
         "parking/parking-przy-sadzie-administracyjnym-172747207",
         "trail/arsenalna-1475171539",
         "trail/strzelecka-752740533",
-        "trail/szlak-im-hetmana-stefana-czarnieckiego-1334672224"
+        "trail/plac-grunwaldzki-461768136"
       ]
     }
   },
@@ -41845,8 +41845,8 @@
         "trail/emilii-plater-842248419",
         "parking/bus-1348700353",
         "trail/szlak-im-hetmana-stefana-czarnieckiego-1334672224",
-        "trail/kamienna-190512985",
-        "parking/parking-przy-sadzie-administracyjnym-172747207"
+        "trail/plac-grunwalzki-461768139",
+        "trail/plac-grunwaldzki-461768136"
       ]
     }
   },
@@ -76620,9 +76620,9 @@
       "nearby": [
         "trail/szlak-dolnej-klodawki-1465367878",
         "parking/parking-przy-sadzie-administracyjnym-172747207",
+        "trail/plac-grunwaldzki-461768136",
         "trail/strzelecka-752740533",
-        "trail/arsenalna-1475171539",
-        "trail/szlak-im-hetmana-stefana-czarnieckiego-1334672224"
+        "trail/arsenalna-1475171539"
       ]
     }
   },
@@ -83172,9 +83172,9 @@
       "nearby": [
         "trail/karola-chodkiewicza-188741359",
         "trail/szlak-im-hetmana-stefana-czarnieckiego-1334672224",
-        "parking/bus-1348700353",
-        "parking/parking-przy-sadzie-administracyjnym-172747207",
-        "parking/odbior-intermarche-drive-1457564126"
+        "trail/plac-grunwalzki-461768139",
+        "trail/plac-grunwaldzki-461768136",
+        "parking/bus-1348700353"
       ]
     }
   },
@@ -88921,11 +88921,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/aleja-astrow-1549694734",
         "trail/pomidorowa-1161787189",
         "trail/trawowa-1442898156",
         "trail/pionierska-513837567",
-        "trail/eugeniusza-romera-405940452",
-        "trail/aleja-absolwentow-693842062"
+        "trail/eugeniusza-romera-405940452"
       ]
     }
   },
@@ -100618,6 +100618,157 @@
         "trail/1-r-362655843",
         "trail/1-y-1423517921",
         "trail/1-z-30583781"
+      ]
+    }
+  },
+  {
+    "id": "aleja-astrow-1549694734",
+    "slug": "aleja-astrow-1549694734",
+    "osmId": "way/1549694734",
+    "name": "aleja Astrów",
+    "location": {
+      "city": "Wrocław",
+      "region": "Dolnośląskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 51.1009206,
+      "lng": 16.9641347
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/al-bzowa-998843673",
+        "trail/trawowa-1442898156",
+        "trail/pomidorowa-1161787189",
+        "trail/budziszynska-799360338",
+        "trail/pionierska-513837567"
+      ]
+    }
+  },
+  {
+    "id": "plac-grunwaldzki-461768136",
+    "slug": "plac-grunwaldzki-461768136",
+    "osmId": "way/461768136",
+    "name": "Plac Grunwaldzki",
+    "location": {
+      "city": "Gorzów Wielkopolski",
+      "region": "Lubuskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 52.7392165,
+      "lng": 15.2334944
+    },
+    "features": [
+      "nawierzchnia: sett"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": true,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/plac-grunwalzki-461768139",
+        "parking/parking-przy-sadzie-administracyjnym-172747207",
+        "trail/szlak-im-hetmana-stefana-czarnieckiego-1334672224",
+        "trail/schron-przeciwlotniczy-666314758",
+        "trail/szlak-dolnej-klodawki-1465367878"
+      ]
+    }
+  },
+  {
+    "id": "plac-grunwalzki-461768139",
+    "slug": "plac-grunwalzki-461768139",
+    "osmId": "way/461768139",
+    "name": "Plac Grunwalzki",
+    "location": {
+      "city": "Gorzów Wielkopolski",
+      "region": "Lubuskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 52.7397136,
+      "lng": 15.2340814
+    },
+    "features": [
+      "nawierzchnia: sett"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": true,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/plac-grunwaldzki-461768136",
+        "trail/szlak-im-hetmana-stefana-czarnieckiego-1334672224",
+        "parking/parking-przy-sadzie-administracyjnym-172747207",
+        "trail/schron-przeciwlotniczy-666314758",
+        "trail/szlak-dolnej-klodawki-1465367878"
       ]
     }
   }
