@@ -3749,7 +3749,9 @@
       "lat": 53.3790611,
       "lng": 14.5376715
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: sand"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,

@@ -11111,7 +11111,9 @@
       "lat": 54.5008762,
       "lng": 18.5315671
     },
-    "features": [],
+    "features": [
+      "oznakowanie: P0"
+    ],
     "amenities": {
       "parking": true,
       "toilets": null,
