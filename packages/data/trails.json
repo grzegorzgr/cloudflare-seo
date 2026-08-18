@@ -1457,7 +1457,8 @@
     "features": [
       "nawierzchnia: ground",
       "szerokość: 2",
-      "nachylenie: -4%"
+      "nachylenie: -4%",
+      "nawierzchnia: compacted"
     ],
     "amenities": {
       "parking": null,
@@ -39471,8 +39472,8 @@
         "trail/aleja-europejskiej-stolicy-mlodziezy-lublin-2023-1005433130",
         "trail/bulwar-im-stanislawa-zalewskiego-60441695",
         "parking/parking-platny-83821250",
-        "trail/boczna-rusalki-181865956",
-        "trail/gorna-235326684"
+        "trail/poprzeczna-1550458848",
+        "trail/boczna-rusalki-181865956"
       ]
     }
   },
@@ -48375,7 +48376,9 @@
       "lat": 50.7055089,
       "lng": 15.7312776
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: unpaved"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -65240,7 +65243,7 @@
         "trail/gawareckich-292806794",
         "parking/podziemny-2246385298",
         "trail/gorna-235326684",
-        "trail/drobna-227142955"
+        "trail/poprzeczna-1550458848"
       ]
     }
   },
@@ -76401,8 +76404,8 @@
         "trail/emancypantek-66324992",
         "trail/kaliska-100155606",
         "trail/aleja-miast-partnerskich-1391664143",
-        "parking/strzezony-175492392",
-        "trail/wawozowa-1370728256"
+        "trail/poprzeczna-1550458848",
+        "parking/strzezony-175492392"
       ]
     }
   },
@@ -76442,8 +76445,8 @@
         "trail/juliana-ochockiego-66324947",
         "trail/kaliska-100155606",
         "trail/aleja-miast-partnerskich-1391664143",
-        "parking/strzezony-175492392",
-        "parking/parking-strzezony-157424314"
+        "trail/poprzeczna-1550458848",
+        "parking/strzezony-175492392"
       ]
     }
   },
@@ -100770,6 +100773,55 @@
         "parking/parking-przy-sadzie-administracyjnym-172747207",
         "trail/schron-przeciwlotniczy-666314758",
         "trail/szlak-dolnej-klodawki-1465367878"
+      ]
+    }
+  },
+  {
+    "id": "poprzeczna-1550458848",
+    "slug": "poprzeczna-1550458848",
+    "osmId": "way/1550458848",
+    "name": "Poprzeczna",
+    "location": {
+      "city": "Lublin",
+      "region": "Lubelskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 51.239705,
+      "lng": 22.5481118
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/parking-platny-83821250",
+        "trail/bulwar-wielkiej-orkiestry-swiatecznej-pomocy-174592764",
+        "trail/bulwar-im-stanislawa-zalewskiego-60441695",
+        "trail/aleja-kultur-401769402",
+        "parking/podziemny-2246385298"
       ]
     }
   }
