@@ -65243,7 +65243,7 @@
         "trail/gawareckich-292806794",
         "parking/podziemny-2246385298",
         "trail/gorna-235326684",
-        "trail/poprzeczna-1550458848"
+        "trail/boczna-siewnej-1550620654"
       ]
     }
   },
@@ -76404,8 +76404,8 @@
         "trail/emancypantek-66324992",
         "trail/kaliska-100155606",
         "trail/aleja-miast-partnerskich-1391664143",
-        "trail/poprzeczna-1550458848",
-        "parking/strzezony-175492392"
+        "trail/boczna-siewnej-1550620654",
+        "trail/poprzeczna-1550458848"
       ]
     }
   },
@@ -76445,8 +76445,8 @@
         "trail/juliana-ochockiego-66324947",
         "trail/kaliska-100155606",
         "trail/aleja-miast-partnerskich-1391664143",
-        "trail/poprzeczna-1550458848",
-        "parking/strzezony-175492392"
+        "trail/boczna-siewnej-1550620654",
+        "trail/poprzeczna-1550458848"
       ]
     }
   },
@@ -100817,11 +100817,60 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/boczna-siewnej-1550620654",
         "parking/parking-platny-83821250",
         "trail/bulwar-wielkiej-orkiestry-swiatecznej-pomocy-174592764",
         "trail/bulwar-im-stanislawa-zalewskiego-60441695",
+        "trail/aleja-kultur-401769402"
+      ]
+    }
+  },
+  {
+    "id": "boczna-siewnej-1550620654",
+    "slug": "boczna-siewnej-1550620654",
+    "osmId": "way/1550620654",
+    "name": "Boczna Siewnej",
+    "location": {
+      "city": "Lublin",
+      "region": "Lubelskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 51.2398874,
+      "lng": 22.5469741
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/poprzeczna-1550458848",
         "trail/aleja-kultur-401769402",
-        "parking/podziemny-2246385298"
+        "parking/parking-platny-83821250",
+        "trail/bulwar-wielkiej-orkiestry-swiatecznej-pomocy-174592764",
+        "trail/bulwar-im-stanislawa-zalewskiego-60441695"
       ]
     }
   }
