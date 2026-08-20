@@ -37828,9 +37828,9 @@
       "nearby": [
         "parking/parking-strzezony-293174954",
         "trail/aleja-ksiedza-kazimierza-bednarskiego-169212709",
+        "parking/wladyslawa-iv-parking-14098892101",
         "trail/podgorna-1184627710",
-        "trail/access-to-yard-956561246",
-        "trail/polonii-1001990085"
+        "trail/access-to-yard-956561246"
       ]
     }
   },
@@ -38448,9 +38448,9 @@
       "nearby": [
         "parking/parking-przy-biedronce-174803150",
         "trail/aleja-ksiedza-kazimierza-bednarskiego-169212709",
+        "parking/wladyslawa-iv-parking-14098892101",
         "trail/podgorna-1184627710",
-        "trail/access-to-yard-956561246",
-        "trail/polonii-1001990085"
+        "trail/access-to-yard-956561246"
       ]
     }
   },
@@ -40577,6 +40577,55 @@
         "parking/przy-swiatyni-wang-auto-338192128",
         "trail/trawers-720-740-1511154578",
         "trail/marii-nienartowicz-175313559"
+      ]
+    }
+  },
+  {
+    "id": "wladyslawa-iv-parking-14098892101",
+    "slug": "wladyslawa-iv-parking-14098892101",
+    "osmId": "node/14098892101",
+    "name": "Wladyslawa IV parking",
+    "location": {
+      "city": "Koszalin",
+      "region": "Zachodniopomorskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 54.1994936,
+      "lng": 16.1866482
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/podgorna-1184627710",
+        "trail/access-to-yard-956561246",
+        "trail/polonii-1001990085",
+        "trail/aleja-gwiazd-kabaretu-618179470",
+        "trail/aleja-ksiedza-kazimierza-bednarskiego-169212709"
       ]
     }
   }

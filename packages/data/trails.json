@@ -88969,10 +88969,10 @@
     "graph": {
       "nearby": [
         "trail/aleja-gwiazd-kabaretu-618179470",
+        "parking/wladyslawa-iv-parking-14098892101",
         "trail/access-to-yard-956561246",
         "trail/podgorna-1184627710",
-        "trail/wladyslawa-broniewskiego-272406026",
-        "trail/spoldzielcza-1069492675"
+        "trail/wladyslawa-broniewskiego-272406026"
       ]
     }
   },
@@ -90434,10 +90434,10 @@
     "graph": {
       "nearby": [
         "trail/access-to-yard-956561246",
+        "parking/wladyslawa-iv-parking-14098892101",
         "trail/polonii-1001990085",
         "trail/aleja-gwiazd-kabaretu-618179470",
-        "trail/spoldzielcza-1069492675",
-        "trail/aleja-ksiedza-kazimierza-bednarskiego-169212709"
+        "trail/spoldzielcza-1069492675"
       ]
     }
   },
@@ -92445,9 +92445,9 @@
       "nearby": [
         "parking/parking-strzezony-293174954",
         "parking/parking-przy-biedronce-174803150",
+        "parking/wladyslawa-iv-parking-14098892101",
         "trail/podgorna-1184627710",
-        "trail/access-to-yard-956561246",
-        "trail/polonii-1001990085"
+        "trail/access-to-yard-956561246"
       ]
     }
   },
@@ -98550,7 +98550,7 @@
         "trail/access-to-yard-956561246",
         "trail/podgorna-1184627710",
         "parking/parking-przy-polczynskiej-180560405",
-        "parking/parking-platny-1140188856"
+        "parking/wladyslawa-iv-parking-14098892101"
       ]
     }
   },
@@ -99888,10 +99888,10 @@
     "graph": {
       "nearby": [
         "trail/podgorna-1184627710",
+        "parking/wladyslawa-iv-parking-14098892101",
         "trail/polonii-1001990085",
         "trail/aleja-gwiazd-kabaretu-618179470",
-        "trail/spoldzielcza-1069492675",
-        "parking/parking-hotelu-gromada-koszalin-1909120053"
+        "trail/spoldzielcza-1069492675"
       ]
     }
   },
