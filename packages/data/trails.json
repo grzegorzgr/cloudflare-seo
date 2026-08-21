@@ -33534,11 +33534,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/seweryna-goszczynskiego-1551110648",
         "parking/siedlce-367876811",
         "trail/wrzeszczanska-droga-wzgorz-1017945298",
         "trail/kladka-odrzanska-839953927",
-        "parking/parking-lidl-165357167",
-        "parking/parking-krolewski-502754497"
+        "parking/parking-lidl-165357167"
       ]
     }
   },
@@ -83131,10 +83131,10 @@
     "graph": {
       "nearby": [
         "parking/parking-krolewski-502754497",
+        "trail/seweryna-goszczynskiego-1551110648",
         "trail/gorna-1071381901",
         "trail/maly-blednik-138951594",
-        "parking/p3-hevelianum-122068285",
-        "trail/macieja-kamienskiego-1469947806"
+        "parking/p3-hevelianum-122068285"
       ]
     }
   },
@@ -100871,6 +100871,57 @@
         "parking/parking-platny-83821250",
         "trail/bulwar-wielkiej-orkiestry-swiatecznej-pomocy-174592764",
         "trail/bulwar-im-stanislawa-zalewskiego-60441695"
+      ]
+    }
+  },
+  {
+    "id": "seweryna-goszczynskiego-1551110648",
+    "slug": "seweryna-goszczynskiego-1551110648",
+    "osmId": "way/1551110648",
+    "name": "Seweryna Goszczyńskiego",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 54.349892,
+      "lng": 18.6143314
+    },
+    "features": [
+      "nawierzchnia: stone"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/macieja-kamienskiego-1469947806",
+        "parking/siedlce-367876811",
+        "trail/kladka-odrzanska-839953927",
+        "parking/parking-krolewski-502754497",
+        "trail/wrzeszczanska-droga-wzgorz-1017945298"
       ]
     }
   }
