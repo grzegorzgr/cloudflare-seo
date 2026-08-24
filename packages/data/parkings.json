@@ -10125,10 +10125,10 @@
     "graph": {
       "nearby": [
         "parking/kiss-fly-10-free-159256127",
+        "parking/parking-vip-1493637126",
         "parking/p3-krotkoterminowy-488456136",
         "parking/p6-dlugoterminowy-566724192",
-        "parking/rent-a-car-39232069",
-        "parking/p4-dlugoterminowy-188190224"
+        "parking/rent-a-car-39232069"
       ]
     }
   },
@@ -12863,11 +12863,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "parking/parking-vip-1493637126",
         "parking/p6-dlugoterminowy-566724192",
         "parking/kiss-fly-10-free-159256127",
         "parking/p1-krotkoterminowy-1220226848",
-        "parking/p7-dlugoterminowy-1072436188",
-        "parking/parking-lotnisko-gdansk-e-parking-1124519988"
+        "parking/p7-dlugoterminowy-1072436188"
       ]
     }
   },
@@ -15173,10 +15173,10 @@
     "graph": {
       "nearby": [
         "parking/p1-krotkoterminowy-1220226848",
+        "parking/parking-vip-1493637126",
         "parking/p3-krotkoterminowy-488456136",
         "parking/rent-a-car-39232069",
-        "parking/p6-dlugoterminowy-566724192",
-        "parking/p4-dlugoterminowy-188190224"
+        "parking/p6-dlugoterminowy-566724192"
       ]
     }
   },
@@ -30750,8 +30750,8 @@
         "parking/p1-krotkoterminowy-1220226848",
         "parking/kiss-fly-10-free-159256127",
         "parking/p3-krotkoterminowy-488456136",
-        "parking/p7-dlugoterminowy-1072436188",
-        "parking/p8-dlugoterminowy-1378070458"
+        "parking/parking-vip-1493637126",
+        "parking/p7-dlugoterminowy-1072436188"
       ]
     }
   },
@@ -31613,10 +31613,10 @@
     "graph": {
       "nearby": [
         "parking/p8-dlugoterminowy-1378070458",
+        "parking/parking-vip-1493637126",
         "parking/kiss-fly-10-free-159256127",
         "parking/p1-krotkoterminowy-1220226848",
-        "parking/p6-dlugoterminowy-566724192",
-        "parking/p7-dlugoterminowy-1072436188"
+        "parking/p6-dlugoterminowy-566724192"
       ]
     }
   },
@@ -40626,6 +40626,55 @@
         "trail/polonii-1001990085",
         "trail/aleja-gwiazd-kabaretu-618179470",
         "trail/aleja-ksiedza-kazimierza-bednarskiego-169212709"
+      ]
+    }
+  },
+  {
+    "id": "parking-vip-1493637126",
+    "slug": "parking-vip-1493637126",
+    "osmId": "way/1493637126",
+    "name": "Parking VIP",
+    "location": {
+      "city": "Sopot",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 54.3828666,
+      "lng": 18.4640693
+    },
+    "features": [],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/kiss-fly-10-free-159256127",
+        "parking/p1-krotkoterminowy-1220226848",
+        "parking/p6-dlugoterminowy-566724192",
+        "parking/rent-a-car-39232069",
+        "parking/p3-krotkoterminowy-488456136"
       ]
     }
   }
