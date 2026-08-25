@@ -6980,7 +6980,8 @@
       "lng": 21.0311948
     },
     "features": [
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -7298,7 +7299,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -24027,7 +24029,8 @@
       "lng": 21.0103098
     },
     "features": [
-      "nawierzchnia: sett"
+      "nawierzchnia: sett",
+      "nawierzchnia: concrete"
     ],
     "amenities": {
       "parking": null,
@@ -31750,7 +31753,8 @@
       "paid_entry": null,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "lit": true
     },
     "tags": [
       "osm"
@@ -33210,7 +33214,8 @@
     },
     "features": [
       "nawierzchnia: cobblestone:flattened",
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "nawierzchnia: sett"
     ],
     "amenities": {
       "parking": null,
@@ -64285,7 +64290,8 @@
       "lng": 21.0216543
     },
     "features": [
-      "nawierzchnia: paving_stones"
+      "nawierzchnia: paving_stones",
+      "nawierzchnia: sett"
     ],
     "amenities": {
       "parking": null,
