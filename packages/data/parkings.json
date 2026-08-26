@@ -3938,7 +3938,8 @@
       "pojemność: 2",
       "pojemność: 3",
       "operator: ZDMK",
-      "miejsca dla niepełnosprawnych: no"
+      "miejsca dla niepełnosprawnych: no",
+      "nawierzchnia: asphalt"
     ],
     "amenities": {
       "parking": true,
@@ -19755,7 +19756,8 @@
       "lifeguards": null,
       "covered": null,
       "guarded": null,
-      "park_ride": true
+      "park_ride": true,
+      "opening_hours": "24/7"
     },
     "tags": [
       "osm"
@@ -21443,7 +21445,8 @@
       "lifeguards": null,
       "covered": null,
       "guarded": null,
-      "park_ride": true
+      "park_ride": true,
+      "opening_hours": "opening_hours=24/7; Tu-Fr 02:31-04:29 off"
     },
     "tags": [
       "osm"
@@ -30499,7 +30502,8 @@
     "features": [
       "nawierzchnia: paving_stones",
       "operator: ZTM Warszawa",
-      "pojemność: 244"
+      "pojemność: 244",
+      "miejsca dla niepełnosprawnych: 5"
     ],
     "amenities": {
       "parking": true,
@@ -30510,7 +30514,8 @@
       "lifeguards": null,
       "covered": null,
       "guarded": null,
-      "park_ride": true
+      "park_ride": true,
+      "opening_hours": "24/7; Tu-Fr 02:31-04:29 off"
     },
     "tags": [
       "osm"

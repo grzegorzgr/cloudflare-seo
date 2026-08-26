@@ -25550,7 +25550,7 @@
       "accessibility": null,
       "paid_entry": null,
       "lifeguards": null,
-      "covered": null,
+      "covered": true,
       "guarded": null,
       "bicycle": "wyznaczone"
     },
