@@ -212,11 +212,11 @@
     "osmId": "way/350622650",
     "graph": {
       "nearby": [
+        "parking/willa-akacja-1552661880",
         "parking/kiss-go-10185960799",
         "trail/wejscie-12-433819619",
         "parking/parking-villa-gdynia-371814952",
-        "trail/wejscie-10-1024350693",
-        "parking/parking-ch-riviera-129343296"
+        "trail/wejscie-10-1024350693"
       ]
     }
   },
@@ -3817,6 +3817,57 @@
         "trail/kliffweg-257782709",
         "trail/aleja-b-1499532550",
         "trail/ulanska-206107528"
+      ]
+    }
+  },
+  {
+    "id": "plaza-zwierzyniecka-1552450577",
+    "slug": "plaza-zwierzyniecka-1552450577",
+    "osmId": "way/1552450577",
+    "name": "Plaża Zwierzyniecka",
+    "location": {
+      "city": "Kraków",
+      "region": "Małopolskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 50.0462059,
+      "lng": 19.903823
+    },
+    "features": [
+      "nawierzchnia: sand"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": "Mo-Su 10:00-20:00",
+      "charge": null,
+      "website": "https://www.facebook.com/PlazaZwierzyniecka/?sznclid=WTA9ZGBhbm5gbWBvYWpsbW1ubWlsYG4lLWRobmlvYW5qbm9gd21hbCUtPGRobmFubmtpbmhod2tuayU6ZGptYGEcbW1pG2EdbxpqYG1tHGhqYWsdbB1vYG4dbWlp&szntime=1787721526.92#",
+      "phone": "+48 124 270 500"
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/atut-krakow-bielany-970400285",
+        "trail/aleja-elvisa-presleya-25712569",
+        "trail/zielna-1019869889",
+        "trail/do-groty-1225250805",
+        "trail/jacka-malczewskiego-38061223"
       ]
     }
   }

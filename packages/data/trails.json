@@ -4236,7 +4236,7 @@
         "trail/wylom-533121260",
         "trail/do-groty-1225250805",
         "trail/tyniecka-1196115408",
-        "trail/zakrzowiecka-1497286380"
+        "beach/plaza-zwierzyniecka-1552450577"
       ]
     }
   },
@@ -17805,7 +17805,7 @@
         "trail/zakrzowiecka-1497286380",
         "trail/zielna-1019869889",
         "trail/aleja-elvisa-presleya-25712569",
-        "parking/atut-krakow-bielany-970400285"
+        "beach/plaza-zwierzyniecka-1552450577"
       ]
     }
   },
@@ -19558,7 +19558,7 @@
         "trail/zielna-1019869889",
         "trail/aleja-elvisa-presleya-25712569",
         "trail/zakrzowiecka-1497286380",
-        "parking/atut-krakow-bielany-970400285"
+        "beach/plaza-zwierzyniecka-1552450577"
       ]
     }
   },
@@ -23679,7 +23679,8 @@
       "lng": 19.9375582
     },
     "features": [
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "nawierzchnia: concrete"
     ],
     "amenities": {
       "parking": null,
@@ -49582,7 +49583,7 @@
         "trail/jozefa-korzeniowskiego-26105141",
         "parking/atut-krakow-bielany-970400285",
         "trail/emaus-299260068",
-        "trail/kolo-strzelnicy-479800407"
+        "beach/plaza-zwierzyniecka-1552450577"
       ]
     }
   },
@@ -49667,10 +49668,10 @@
     "graph": {
       "nearby": [
         "trail/zielna-1019869889",
+        "beach/plaza-zwierzyniecka-1552450577",
         "trail/wylom-533121260",
         "trail/do-groty-1225250805",
-        "parking/atut-krakow-bielany-970400285",
-        "trail/tyniecka-1196115408"
+        "parking/atut-krakow-bielany-970400285"
       ]
     }
   },
@@ -64224,8 +64225,8 @@
         "trail/aleja-mieczyslawa-maleckiego-25708370",
         "parking/atut-krakow-bielany-970400285",
         "trail/jozefa-korzeniowskiego-26105141",
-        "trail/g5-1323646626",
-        "trail/g1-g2-g3-1315307519"
+        "beach/plaza-zwierzyniecka-1552450577",
+        "trail/g5-1323646626"
       ]
     }
   },
@@ -82665,7 +82666,7 @@
         "trail/four-cross-185403214",
         "parking/kiss-go-10185960799",
         "parking/parking-ch-riviera-129343296",
-        "trail/sztolnia-przeciwlotnicza-b75-1375197603"
+        "parking/willa-akacja-1552661880"
       ]
     }
   },

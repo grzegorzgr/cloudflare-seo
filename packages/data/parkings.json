@@ -1281,10 +1281,10 @@
     "graph": {
       "nearby": [
         "trail/rezedowa-824091755",
+        "parking/willa-akacja-1552661880",
         "trail/wielkokacka-226308624",
         "parking/parking-ch-riviera-129343296",
-        "trail/four-cross-185403214",
-        "parking/parking-villa-gdynia-371814952"
+        "trail/four-cross-185403214"
       ]
     }
   },
@@ -35558,11 +35558,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "beach/plaza-zwierzyniecka-1552450577",
         "trail/jacka-malczewskiego-38061223",
         "trail/aleja-mieczyslawa-maleckiego-25708370",
         "trail/aleja-elvisa-presleya-25712569",
-        "trail/do-groty-1225250805",
-        "trail/zielna-1019869889"
+        "trail/do-groty-1225250805"
       ]
     }
   },
@@ -40680,6 +40680,57 @@
         "parking/p6-dlugoterminowy-566724192",
         "parking/rent-a-car-39232069",
         "parking/p3-krotkoterminowy-488456136"
+      ]
+    }
+  },
+  {
+    "id": "willa-akacja-1552661880",
+    "slug": "willa-akacja-1552661880",
+    "osmId": "way/1552661880",
+    "name": "Willa Akacja",
+    "location": {
+      "city": "Gdynia",
+      "region": "Pomorskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 54.4834573,
+      "lng": 18.545871
+    },
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": false,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/kiss-go-10185960799",
+        "trail/wejscie-12-433819619",
+        "parking/parking-villa-gdynia-371814952",
+        "beach/gdynia-orlowo-plaza-dla-psow",
+        "parking/parking-ch-riviera-129343296"
       ]
     }
   }
