@@ -5140,7 +5140,9 @@
       "lng": 21.032586
     },
     "features": [
-      "nawierzchnia: paved"
+      "nawierzchnia: paved",
+      "nawierzchnia: sett",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -24167,7 +24169,8 @@
     },
     "features": [
       "nawierzchnia: asphalt",
-      "nawierzchnia: paved"
+      "nawierzchnia: paved",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": null,
@@ -35270,7 +35273,9 @@
     },
     "features": [
       "nawierzchnia: paving_stones",
-      "nachylenie: down"
+      "nachylenie: down",
+      "nawierzchnia: asphalt",
+      "nawierzchnia: concrete"
     ],
     "amenities": {
       "parking": null,
@@ -63469,7 +63474,9 @@
       "lat": 50.3112862,
       "lng": 19.0152376
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -64114,7 +64121,10 @@
       "lat": 52.2257508,
       "lng": 21.0314836
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: sett",
+      "nawierzchnia: asphalt"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
