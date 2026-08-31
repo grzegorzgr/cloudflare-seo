@@ -35075,10 +35075,10 @@
     "graph": {
       "nearby": [
         "trail/aleja-andrzeja-romockiego-morro-884495217",
+        "trail/aleja-jerzego-zborowskiego-jeremiego-433205561",
         "trail/bulwar-flotylli-pinskiej-25897477",
         "trail/aleja-andrzeja-bobkowskiego-1500978750",
-        "trail/aleja-psotki-i-smieszki-886017105",
-        "trail/aleja-tadeusza-konwickiego-379766934"
+        "trail/aleja-psotki-i-smieszki-886017105"
       ]
     }
   },
@@ -42196,9 +42196,9 @@
       "nearby": [
         "trail/rzeszowskie-piwnice-299381075",
         "trail/aleja-gwiazd-sportowcow-polonijnych-301093759",
+        "parking/mikoska-p1-307966679",
         "parking/parking-parafialny-332215912",
-        "parking/plac-jerzego-grotowskiego-199624491",
-        "trail/nad-przyrwa-770053727"
+        "parking/mikoska-p2-307966678"
       ]
     }
   },
@@ -49981,8 +49981,8 @@
         "beach/plaza-saska-423206947",
         "trail/aleja-zgrupowania-ak-kryska-1499965762",
         "trail/aleja-andrzeja-romockiego-morro-884495217",
-        "trail/aleja-andrzeja-bobkowskiego-1500978750",
-        "trail/aleja-psotki-i-smieszki-886017105"
+        "trail/aleja-jerzego-zborowskiego-jeremiego-433205561",
+        "trail/aleja-andrzeja-bobkowskiego-1500978750"
       ]
     }
   },
@@ -50584,10 +50584,10 @@
     "graph": {
       "nearby": [
         "trail/nadbrzezna-265574592",
+        "parking/mikoska-p2-307966678",
         "parking/klub-life-house-189850633",
-        "trail/nad-przyrwa-770053727",
-        "trail/rzeszowskie-piwnice-299381075",
-        "trail/kladka-im-wielkiej-orkiestry-swiatecznej-pomocy-191667805"
+        "parking/mikoska-p1-307966679",
+        "trail/nad-przyrwa-770053727"
       ]
     }
   },
@@ -50672,10 +50672,10 @@
     "graph": {
       "nearby": [
         "trail/ogrodowa-265565048",
+        "parking/mikoska-p2-307966678",
         "parking/klub-life-house-189850633",
-        "trail/nad-przyrwa-770053727",
-        "trail/kladka-im-wielkiej-orkiestry-swiatecznej-pomocy-191667805",
-        "trail/rzeszowskie-piwnice-299381075"
+        "parking/mikoska-p1-307966679",
+        "trail/nad-przyrwa-770053727"
       ]
     }
   },
@@ -55062,9 +55062,9 @@
       "nearby": [
         "trail/kladka-im-wielkiej-orkiestry-swiatecznej-pomocy-191667805",
         "parking/plac-jerzego-grotowskiego-199624491",
+        "parking/mikoska-p1-307966679",
         "trail/aleja-gwiazd-sportowcow-polonijnych-301093759",
-        "parking/parking-olszynki-351422218",
-        "parking/parking-podpromie-894535670"
+        "parking/parking-olszynki-351422218"
       ]
     }
   },
@@ -67604,8 +67604,8 @@
         "trail/nad-przyrwa-770053727",
         "trail/kladka-im-wielkiej-orkiestry-swiatecznej-pomocy-191667805",
         "trail/nadbrzezna-265574592",
-        "trail/ogrodowa-265565048",
-        "parking/parking-parafialny-332215912"
+        "parking/mikoska-p1-307966679",
+        "parking/mikoska-p2-307966678"
       ]
     }
   },
@@ -80986,11 +80986,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "parking/mikoska-p1-307966679",
+        "parking/mikoska-p2-307966678",
         "trail/kladka-im-wielkiej-orkiestry-swiatecznej-pomocy-191667805",
         "trail/nadbrzezna-265574592",
-        "trail/dobra-441989800",
-        "trail/ogrodowa-265565048",
-        "trail/rzeszowskie-piwnice-299381075"
+        "trail/dobra-441989800"
       ]
     }
   },
@@ -84556,11 +84556,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "trail/aleja-jerzego-zborowskiego-jeremiego-433205561",
         "trail/aleja-zgrupowania-ak-kryska-1499965762",
         "trail/bulwar-flotylli-pinskiej-25897477",
         "trail/aleja-psotki-i-smieszki-886017105",
-        "trail/alejka-szewczyk-dratewka-330489889",
-        "trail/bulwar-flotylli-wislanej-1069063279"
+        "trail/alejka-szewczyk-dratewka-330489889"
       ]
     }
   },
@@ -86582,7 +86582,9 @@
       "lat": 53.0579247,
       "lng": 18.5635869
     },
-    "features": [],
+    "features": [
+      "nawierzchnia: paving_stones"
+    ],
     "amenities": {
       "parking": null,
       "toilets": null,
@@ -100939,6 +100941,57 @@
         "trail/kladka-odrzanska-839953927",
         "parking/parking-krolewski-502754497",
         "trail/wrzeszczanska-droga-wzgorz-1017945298"
+      ]
+    }
+  },
+  {
+    "id": "aleja-jerzego-zborowskiego-jeremiego-433205561",
+    "slug": "aleja-jerzego-zborowskiego-jeremiego-433205561",
+    "osmId": "way/433205561",
+    "name": "Aleja Jerzego Zborowskiego „Jeremiego”",
+    "location": {
+      "city": "Warszawa",
+      "region": "Mazowieckie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 52.2296864,
+      "lng": 21.0402104
+    },
+    "features": [
+      "nawierzchnia: asphalt"
+    ],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/aleja-andrzeja-romockiego-morro-884495217",
+        "trail/aleja-zgrupowania-ak-kryska-1499965762",
+        "trail/aleja-psotki-i-smieszki-886017105",
+        "trail/bulwar-flotylli-pinskiej-25897477",
+        "trail/alejka-szewczyk-dratewka-330489889"
       ]
     }
   }

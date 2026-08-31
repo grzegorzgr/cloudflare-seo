@@ -17293,11 +17293,11 @@
     "seo": null,
     "graph": {
       "nearby": [
+        "parking/mikoska-p2-307966678",
+        "parking/mikoska-p1-307966679",
         "trail/rzeszowskie-piwnice-299381075",
         "trail/nadbrzezna-265574592",
-        "trail/ogrodowa-265565048",
-        "parking/plac-jerzego-grotowskiego-199624491",
-        "trail/kladka-im-wielkiej-orkiestry-swiatecznej-pomocy-191667805"
+        "trail/ogrodowa-265565048"
       ]
     },
     "address": {
@@ -28086,7 +28086,7 @@
         "trail/ogrodowa-265565048",
         "trail/nadbrzezna-265574592",
         "parking/klub-life-house-189850633",
-        "parking/parking-park-papieski-230600629"
+        "parking/mikoska-p2-307966678"
       ]
     }
   },
@@ -40731,6 +40731,108 @@
         "parking/parking-villa-gdynia-371814952",
         "beach/gdynia-orlowo-plaza-dla-psow",
         "parking/parking-ch-riviera-129343296"
+      ]
+    }
+  },
+  {
+    "id": "mikoska-p2-307966678",
+    "slug": "mikoska-p2-307966678",
+    "osmId": "way/307966678",
+    "name": "Mikośka P2",
+    "location": {
+      "city": "Rzeszów",
+      "region": "Podkarpackie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 50.0401988,
+      "lng": 22.0142663
+    },
+    "features": [
+      "pojemność: 70"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/mikoska-p1-307966679",
+        "parking/klub-life-house-189850633",
+        "trail/rzeszowskie-piwnice-299381075",
+        "trail/kladka-im-wielkiej-orkiestry-swiatecznej-pomocy-191667805",
+        "trail/nadbrzezna-265574592"
+      ]
+    }
+  },
+  {
+    "id": "mikoska-p1-307966679",
+    "slug": "mikoska-p1-307966679",
+    "osmId": "way/307966679",
+    "name": "Mikośka P1",
+    "location": {
+      "city": "Rzeszów",
+      "region": "Podkarpackie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 50.0404268,
+      "lng": 22.0121698
+    },
+    "features": [
+      "pojemność: 89"
+    ],
+    "amenities": {
+      "parking": true,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": true,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "parking/mikoska-p2-307966678",
+        "parking/klub-life-house-189850633",
+        "trail/rzeszowskie-piwnice-299381075",
+        "trail/kladka-im-wielkiej-orkiestry-swiatecznej-pomocy-191667805",
+        "trail/nad-przyrwa-770053727"
       ]
     }
   }
