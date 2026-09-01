@@ -3939,7 +3939,8 @@
       "pojemność: 3",
       "operator: ZDMK",
       "miejsca dla niepełnosprawnych: no",
-      "nawierzchnia: asphalt"
+      "nawierzchnia: asphalt",
+      "nawierzchnia: paving_stones"
     ],
     "amenities": {
       "parking": true,
@@ -3949,7 +3950,8 @@
       "paid_entry": false,
       "lifeguards": null,
       "covered": null,
-      "guarded": null
+      "guarded": null,
+      "park_ride": true
     },
     "tags": [
       "osm"
@@ -40751,7 +40753,9 @@
       "lng": 22.0142663
     },
     "features": [
-      "pojemność: 70"
+      "pojemność: 70",
+      "nawierzchnia: paving_stones",
+      "operator: APCOA Parking"
     ],
     "amenities": {
       "parking": true,
@@ -40765,7 +40769,7 @@
       "lit": null,
       "park_ride": null,
       "bicycle": null,
-      "opening_hours": null,
+      "opening_hours": "24/7",
       "charge": null,
       "website": null,
       "phone": null
@@ -40802,7 +40806,9 @@
       "lng": 22.0121698
     },
     "features": [
-      "pojemność: 89"
+      "pojemność: 89",
+      "nawierzchnia: paving_stones",
+      "operator: APCOA Parking"
     ],
     "amenities": {
       "parking": true,
@@ -40816,7 +40822,7 @@
       "lit": null,
       "park_ride": null,
       "bicycle": null,
-      "opening_hours": null,
+      "opening_hours": "24/7",
       "charge": null,
       "website": null,
       "phone": null
