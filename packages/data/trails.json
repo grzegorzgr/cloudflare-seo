@@ -50145,7 +50145,8 @@
       "lifeguards": null,
       "covered": null,
       "guarded": null,
-      "bicycle": true
+      "bicycle": true,
+      "lit": false
     },
     "tags": [
       "osm"
