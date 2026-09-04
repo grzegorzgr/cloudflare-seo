@@ -37711,10 +37711,10 @@
     "graph": {
       "nearby": [
         "trail/czapli-736966042",
+        "trail/bociania-1554719341",
         "trail/strumykow-736863178",
         "trail/fizykow-135175610",
-        "parking/parking-rod-porzeczka-575358716",
-        "trail/do-zrodla-maryjnego-94790339"
+        "parking/parking-rod-porzeczka-575358716"
       ]
     }
   },
@@ -80054,10 +80054,10 @@
     "graph": {
       "nearby": [
         "trail/do-zrodla-maryjnego-94790339",
+        "trail/bociania-1554719341",
         "trail/czapli-736966042",
         "trail/bula-1296030865",
-        "trail/mila-96289946",
-        "trail/fizykow-135175610"
+        "trail/mila-96289946"
       ]
     }
   },
@@ -80095,10 +80095,10 @@
     "graph": {
       "nearby": [
         "trail/nadbrzezna-169089922",
+        "trail/bociania-1554719341",
         "trail/fizykow-135175610",
         "trail/strumykow-736863178",
-        "parking/parking-rod-porzeczka-575358716",
-        "parking/parking-shiloh-industries-566214947"
+        "parking/parking-rod-porzeczka-575358716"
       ]
     }
   },
@@ -100993,6 +100993,55 @@
         "trail/aleja-psotki-i-smieszki-886017105",
         "trail/bulwar-flotylli-pinskiej-25897477",
         "trail/alejka-szewczyk-dratewka-330489889"
+      ]
+    }
+  },
+  {
+    "id": "bociania-1554719341",
+    "slug": "bociania-1554719341",
+    "osmId": "way/1554719341",
+    "name": "Bociania",
+    "location": {
+      "city": "Bielsko-Biała",
+      "region": "Śląskie",
+      "country": null
+    },
+    "address": null,
+    "description": null,
+    "coordinates": {
+      "lat": 49.8559794,
+      "lng": 19.1620237
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null,
+      "lifeguards": null,
+      "covered": null,
+      "guarded": null,
+      "lit": null,
+      "park_ride": null,
+      "bicycle": null,
+      "opening_hours": null,
+      "charge": null,
+      "website": null,
+      "phone": null
+    },
+    "tags": [
+      "osm"
+    ],
+    "access": null,
+    "seo": null,
+    "graph": {
+      "nearby": [
+        "trail/strumykow-736863178",
+        "trail/czapli-736966042",
+        "trail/nadbrzezna-169089922",
+        "trail/do-zrodla-maryjnego-94790339",
+        "trail/fizykow-135175610"
       ]
     }
   }
