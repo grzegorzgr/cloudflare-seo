@@ -23,4 +23,4 @@ const model = buildCityTypeModel(city!, type, index, siteUrl);
 if (!model) throw new Error(`Brak modelu dla ${city}/${type}`);
 ---
 
-<HubPage model={model} width="wide" />
+<HubPage model={model} width="wide" theme={type} />

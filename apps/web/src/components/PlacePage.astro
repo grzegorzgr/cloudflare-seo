@@ -12,6 +12,7 @@ interface Props {
   model: PlaceModel;
 }
 const { model } = Astro.props;
+const [typeLabel, ...rest] = model.subtitle.split(' · ');
 ---
 
 <BaseLayout
@@ -22,11 +23,17 @@ const { model } = Astro.props;
   robots={model.robots}
   crumbs={model.crumbs}
   width="narrow"
+  theme={model.type}
 >
   <article>
     <header>
       <h1>{model.h1}</h1>
-      {model.subtitle && <p class="subtitle">{model.subtitle}</p>}
+      {model.subtitle && (
+        <p class="subtitle">
+          <span class="chip chip-accent chip-type">{typeLabel}</span>
+          {rest.length > 0 && <span>{rest.join(' · ')}</span>}
+        </p>
+      )}
     </header>
 
     {model.summary.map((s) => <p class="summary">{s}</p>)}

@@ -1,11 +1,47 @@
 ---
 import type { Fact } from '@generator';
+import Icon from './Icon.astro';
 interface Props {
   facts: Fact[];
   caption?: string;
 }
 const { facts, caption } = Astro.props;
 const isExternal = (href: string) => /^https?:\/\//.test(href);
+
+// Ikona dobierana po etykiecie faktu (czysta prezentacja).
+function iconFor(label: string): string {
+  const l = label.toLowerCase();
+  if (l.startsWith('adres')) return 'pin';
+  if (l.startsWith('współrzędne') || l.includes('punkt początkowy') || l.includes('punkt końcowy')) return 'target';
+  if (l.startsWith('nawigacja')) return 'nav';
+  if (l.startsWith('rodzaj')) return l.includes('szlak') ? 'route' : 'layers';
+  if (l.startsWith('dostęp') && !l.includes('wózk')) return 'lock';
+  if (l.includes('wózk')) return 'wheelchair';
+  if (l.startsWith('opłata') || l.startsWith('cennik') || l.startsWith('wstęp') || l.includes('płatno')) return 'money';
+  if (l.startsWith('liczba miejsc') || l.includes('miejsca') || l.includes('autokar') || l.includes('autobus') || l.includes('ciężarow')) return 'car';
+  if (l.includes('ładowan')) return 'bolt';
+  if (l.startsWith('godziny') || l.includes('czas postoju') || l.startsWith('szacowany czas') || l.includes('sezon')) return 'clock';
+  if (l.includes('wysokości')) return 'roof';
+  if (l.startsWith('parkuj') || l.includes('kiss')) return 'route';
+  if (l.startsWith('dozorowany') || l.startsWith('strzeżon') || l.includes('strzeżona')) return 'shield';
+  if (l.startsWith('zadaszony')) return 'roof';
+  if (l.startsWith('oświetlenie')) return 'sun';
+  if (l.startsWith('nawierzchnia')) return 'layers';
+  if (l.startsWith('operator')) return 'building';
+  if (l.startsWith('strona www') || l.startsWith('wikipedia') || l.startsWith('e-mail')) return 'link';
+  if (l.startsWith('telefon')) return 'phone';
+  if (l.startsWith('długość')) return 'ruler';
+  if (l.startsWith('przebieg') || l.startsWith('trasa okrężna')) return 'loop';
+  if (l.startsWith('oznakowanie') || l.startsWith('kolor') || l.startsWith('symbol') || l.startsWith('numer')) return 'flag';
+  if (l.startsWith('ranga') || l.startsWith('sieć')) return 'globe';
+  if (l.includes('podjazd') || l.includes('zjazd') || l.includes('trudność')) return 'mountain';
+  if (l.startsWith('psy')) return 'paw';
+  if (l.startsWith('status')) return 'info';
+  if (l.startsWith('toalety') || l.startsWith('prysznic')) return 'info';
+  if (l.includes('pielgrzym')) return 'flag';
+  if (l.startsWith('formy płatności')) return 'money';
+  return 'info';
+}
 ---
 
 {facts.length > 0 && (
@@ -14,7 +50,7 @@ const isExternal = (href: string) => /^https?:\/\//.test(href);
     <tbody>
       {facts.map((f) => (
         <tr>
-          <th scope="row">{f.label}</th>
+          <th scope="row"><Icon name={iconFor(f.label)} />{f.label}</th>
           <td>
             {f.href ? (
               <a href={f.href} rel={isExternal(f.href) ? 'noopener nofollow' : undefined}>{f.value}</a>

@@ -1,12 +1,35 @@
 ---
-import { buildHomeModel } from '@generator';
-import { index, siteUrl } from '../lib/data';
+import { buildHomeModel, countOf, isPublicParking, paths, typeConfigs } from '@generator';
+import { index, siteUrl, bundle } from '../lib/data';
 import HubPage from '../components/HubPage.astro';
+import Icon from '../components/Icon.astro';
 
 const model = buildHomeModel(index, siteUrl);
+const pub = bundle.parkings.filter(isPublicParking).length;
 ---
 
 <HubPage model={model}>
+  <div class="hero-tiles" slot="hero">
+    <a class="tile t-parking" href={typeConfigs.parking.indexPath}>
+      <Icon name="parking" />
+      <h2>Gdzie zaparkować</h2>
+      <p>Tabele parkingów per miasto: odległość od centrum, miejsca, opłaty, godziny, P+R, podziemne.</p>
+      <span class="count">{countOf(pub, 'parking')} publicznie dostępnych →</span>
+    </a>
+    <a class="tile t-trail" href={typeConfigs.trail.indexPath}>
+      <Icon name="route" />
+      <h2>Którędy szlak</h2>
+      <p>Szlaki rowerowe i piesze z długością, czasem, oznakowaniem, mapą przebiegu i parkingami przy trasie.</p>
+      <span class="count">{countOf(bundle.trails.length, 'trail')} →</span>
+    </a>
+    <a class="tile t-beach" href={typeConfigs.beach.indexPath}>
+      <Icon name="beach" />
+      <h2>Plaża z parkingiem</h2>
+      <p>Ratownicy, psy, opłaty i nazwane parkingi do 1,5 km od plaży – nad Bałtykiem i na jeziorach.</p>
+      <span class="count">{countOf(bundle.beaches.length, 'beach')} →</span>
+    </a>
+  </div>
+
   <section aria-labelledby="h-jak">
     <h2 id="h-jak">Jak korzystać z serwisu</h2>
     <ul>
@@ -17,7 +40,7 @@ const model = buildHomeModel(index, siteUrl);
     <p class="muted small">
       Serwis nie zastępuje informacji operatora: godziny i cenniki zmieniają się, a dane w OpenStreetMap
       aktualizują wolontariusze. Każda strona podaje datę ostatniej edycji obiektu w OSM i link do jego poprawienia.
-      Zobacz <a href="/metodologia/">metodologię</a> i <a href="/zrodla-danych/">źródła danych</a>.
+      Zobacz <a href={paths.methodology}>metodologię</a> i <a href={paths.sources}>źródła danych</a>.
     </p>
   </section>
 </HubPage>

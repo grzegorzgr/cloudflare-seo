@@ -4,6 +4,32 @@ interface Props {
   table: TableModel;
 }
 const { table } = Astro.props;
+
+// Chipy dla powtarzalnych wartosci (czysta prezentacja, wartosci z generatora bez zmian).
+const CHIP: Record<string, string> = {
+  bezpłatny: 'chip-ok',
+  płatny: 'chip-warn',
+  publiczny: 'chip-ok',
+  'dla klientów': 'chip-info',
+  'dostęp tolerowany przez właściciela': 'chip-info',
+  prywatny: 'chip-bad',
+  'brak dostępu publicznego': 'chip-bad',
+  'na przepustkę / zezwolenie': 'chip-bad',
+  'dla pracowników': 'chip-bad',
+  'dla mieszkańców': 'chip-bad',
+  całodobowo: 'chip-info',
+  pętla: 'chip-accent',
+  rowerowy: 'chip-ok',
+  pieszy: 'chip-accent',
+  'pieszy (spacerowy)': 'chip-accent',
+  MTB: 'chip-warn',
+  tak: 'chip-ok',
+  nie: 'chip-bad',
+  dozwolone: 'chip-ok',
+  zakaz: 'chip-bad',
+};
+const chipClass = (v: string) => CHIP[v] ?? null;
+const isNumeric = (v: string) => /^[\d\s,.]+(\s?(km|m|zł))?$/.test(v) || v === '—';
 ---
 
 <section aria-labelledby={`h-${table.id}`} id={table.id}>
@@ -17,9 +43,12 @@ const { table } = Astro.props;
       <tbody>
         {table.rows.map((r) => (
           <tr>
-            {r.cells.map((cell) =>
-              typeof cell === 'string' ? <td>{cell}</td> : <td><a href={cell.href}>{cell.text}</a></td>,
-            )}
+            {r.cells.map((cell) => {
+              if (typeof cell !== 'string') return <td><a href={cell.href}>{cell.text}</a></td>;
+              const chip = chipClass(cell);
+              if (chip) return <td><span class={`chip ${chip}`}>{cell}</span></td>;
+              return <td class={isNumeric(cell) ? 'num' : undefined}>{cell}</td>;
+            })}
           </tr>
         ))}
       </tbody>

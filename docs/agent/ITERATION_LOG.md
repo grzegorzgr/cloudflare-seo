@@ -51,6 +51,17 @@ Dziennik pętli: build → testy → SEO → jakość → przegląd → poprawki
   (curated+osm) ma długość z geometrii 46,1 km vs 46,2 km wg PTTK, oznakowanie z osmc:symbol, operatora, stronę WWW.
   Poprawiono spójność miasta szlaku (breadcrumb = podtytuł) i title szlaków (zawsze z typem).
 
+## Iteracja 4 — warstwa wizualna (na życzenie właściciela)
+
+- Tokeny kolorów per kategoria (`data-theme` na `<body>`: parking niebieski, szlak śliwkowy, plaża morski) sterują
+  akcentem nagłówka, znacznikami mapy, kafelkami statystyk i chipami; tryb ciemny przez `prefers-color-scheme`.
+- Hero na stronie głównej (3 kafelki z ikonami SVG i licznikami), kafelki statystyk, chipy w tabelach
+  (płatny/bezpłatny, dostęp, typ trasy, pętla, całodobowo), ikony liniowe przy faktach (`Icon.astro`, inline SVG),
+  karty w listach linków, sticky nagłówek na desktopie, przebudowana stopka.
+- Zero JavaScriptu; CSS wyniesiony przez Astro do jednego pliku 10 KB (`/_astro/*.css`, cache `immutable`).
+- Build: PASS (3 072 strony, 2 min 12 s). Analizator: 93,0/100, 0 krytycznych (bez zmian – markup mierzony
+  przez analizator zachowany). Przegląd w przeglądarce: desktop jasny/ciemny, mobile 375 px bez przewijania poziomego.
+
 ## Stan końcowy
 
 | Kontrola | Wynik |

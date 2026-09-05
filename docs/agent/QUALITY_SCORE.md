@@ -1,6 +1,6 @@
 # QUALITY_SCORE
 
-Wygenerowano: 2026-09-05T20:43:40.855Z (build: `apps/web/dist`)
+Wygenerowano: 2026-09-05T21:27:08.632Z (build: `apps/web/dist`)
 
 **Wynik ogólny (strony indeksowalne): 93 / 100** — próg 90. Kontrole krytyczne: 0 (PASS).
 
@@ -29,7 +29,7 @@ Strony: 3072 (indeksowalne 2207, noindex 865); URL w sitemap: 2207; zerwane link
 | parking | 1228 | 560 | 668 | 92.6 | 68 | `/parking/parking-dino-park-malbork/` | NOINDEX: 668, INDEX: 554, IMPROVE: 6 |
 | region | 16 | 16 | 0 | 90.3 | 87 | `/region/lodzkie/` | INDEX: 16 |
 | static | 6 | 6 | 0 | 84.8 | 73 | `/kontakt/` | IMPROVE: 1, INDEX: 5 |
-| trail | 1566 | 1406 | 160 | 93.7 | 63 | `/trail/szlak-doliny-lupawy/` | INDEX: 1401, NOINDEX: 160, IMPROVE: 5 |
+| trail | 1566 | 1406 | 160 | 93.6 | 63 | `/trail/szlak-doliny-lupawy/` | INDEX: 1401, NOINDEX: 160, IMPROVE: 5 |
 
 ## Kontrole krytyczne
 

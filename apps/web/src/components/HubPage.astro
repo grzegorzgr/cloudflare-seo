@@ -9,8 +9,9 @@ import DataTable from './DataTable.astro';
 interface Props {
   model: HubModel;
   width?: 'narrow' | 'wide';
+  theme?: 'parking' | 'trail' | 'beach' | 'neutral';
 }
-const { model, width = 'wide' } = Astro.props;
+const { model, width = 'wide', theme = 'neutral' } = Astro.props;
 ---
 
 <BaseLayout
@@ -21,12 +22,14 @@ const { model, width = 'wide' } = Astro.props;
   robots={model.robots}
   crumbs={model.crumbs}
   width={width}
+  theme={theme}
 >
   <article>
     <header>
       <h1>{model.h1}</h1>
       {model.subtitle && <p class="subtitle">{model.subtitle}</p>}
     </header>
+    <slot name="hero" />
     {model.intro.map((p) => <p>{p}</p>)}
 
     {model.stats.length > 0 && (
