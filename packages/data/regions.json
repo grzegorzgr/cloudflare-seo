@@ -7,7 +7,7 @@
       "lat": 51.1079,
       "lng": 17.0385
     },
-    "citySeeds": 3
+    "citySeeds": 4
   },
   {
     "region": "Kujawsko-Pomorskie",
@@ -57,7 +57,7 @@
       "lat": 50.0647,
       "lng": 19.945
     },
-    "citySeeds": 2
+    "citySeeds": 3
   },
   {
     "region": "Mazowieckie",
@@ -107,7 +107,7 @@
       "lat": 54.352,
       "lng": 18.6466
     },
-    "citySeeds": 3
+    "citySeeds": 7
   },
   {
     "region": "Śląskie",
@@ -137,7 +137,7 @@
       "lat": 53.7784,
       "lng": 20.4801
     },
-    "citySeeds": 2
+    "citySeeds": 3
   },
   {
     "region": "Wielkopolskie",
@@ -157,6 +157,6 @@
       "lat": 53.4285,
       "lng": 14.5528
     },
-    "citySeeds": 4
+    "citySeeds": 5
   }
 ]

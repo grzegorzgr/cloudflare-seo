@@ -1,0 +1,101 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { paths, site } from '@generator';
+import { bundle, index } from '../lib/data';
+import { assessEntity } from '@generator';
+
+const m = bundle.meta;
+const crumbs = [{ name: 'Start', href: '/' }, { name: 'Metodologia', href: paths.methodology }];
+const count = (list: typeof bundle.parkings) => {
+  const idx = list.filter((e) => assessEntity(e).indexable).length;
+  return { total: list.length, idx, noidx: list.length - idx };
+};
+const p = count(bundle.parkings);
+const t = count(bundle.trails);
+const b = count(bundle.beaches);
+const withGeom = bundle.trails.filter((x) => x.computed?.lengthKm).length;
+const cityPages = bundle.cities.length;
+---
+
+<BaseLayout
+  title={`Metodologia – odległości, długości szlaków, indeksowanie – ${site.name}`}
+  description="Jak gdziemy.pl przetwarza dane OpenStreetMap: zasięg wokół miast, tłumaczenie tagów, obliczanie długości szlaków i odległości, szacowanie czasu, reguły indeksowania stron."
+  canonical={paths.methodology}
+  crumbs={crumbs}
+>
+  <article>
+    <header><h1>Metodologia</h1></header>
+    <p>
+      Ta strona opisuje dokładnie, skąd bierze się każda liczba w serwisie i według jakich reguł strona
+      trafia (lub nie) do wyszukiwarek. Cały proces jest deterministyczny: te same dane wejściowe dają
+      zawsze te same strony.
+    </p>
+
+    <h2>1. Zasięg i selekcja obiektów</h2>
+    <ul>
+      <li>Baza miast: {cityPages} miejscowości (stolice województw i główne ośrodki turystyczne) z współrzędnymi punktu centralnego.</li>
+      <li>Parkingi i plaże: obiekty OSM <code>amenity=parking</code>, <code>natural=beach</code>, <code>leisure=beach_resort</code> <strong>z nazwą</strong>, w promieniu 10 km od centrum miasta, oraz nazwane parkingi do 1,5 km od plaż. Obiekty bez nazwy pomijamy – nie da się z nich zrobić użytecznej strony.</li>
+      <li>Szlaki: relacje OSM <code>type=route</code> z <code>route=bicycle|hiking|mtb|foot</code> i nazwą, których przebieg zbliża się na 25 km do miasta. Nie używamy pojedynczych odcinków dróg (ścieżek, chodników) – to nie są szlaki.</li>
+      <li>Wpisy redakcyjne: niewielka, ręcznie utrzymywana lista plaż, parkingów i szlaków (wybrzeże Pomorza); jeśli OSM ma ten sam obiekt, dane są łączone i tak oznaczone.</li>
+    </ul>
+
+    <h2>2. Przypisanie do miasta i województwa</h2>
+    <p>
+      Obiekt należy do miasta, jeśli ma jawny tag <code>addr:city</code> zgodny z bazą miast, a w przeciwnym
+      razie do najbliższego miasta w promieniu 25 km (szlaki: najbliższe miasto od linii przebiegu). Nazwa
+      miejscowości wyświetlana przy obiekcie to tag <code>addr:city</code> albo miasto-hub, gdy obiekt leży do 12 km
+      od jego centrum. Województwo dziedziczone jest z miasta.
+    </p>
+
+    <h2>3. Tłumaczenie wartości OSM</h2>
+    <p>
+      Wartości tagów (np. <code>surface=paving_stones</code>, <code>parking=multi-storey</code>, <code>access=customers</code>)
+      tłumaczymy słownikiem na polski. Wartość spoza słownika pokazujemy w oryginale. Godziny otwarcia i zapisy
+      <code>fee:conditional</code> są tłumaczone tylko w prostych, jednoznacznych przypadkach; oryginalny zapis OSM
+      podajemy w notce.
+    </p>
+
+    <h2>4. Obliczenia</h2>
+    <table class="facts">
+      <tbody>
+        <tr><th scope="row">Odległość między punktami</th><td>wzór haversine na współrzędnych WGS84 (linia prosta, nie trasa dojazdu)</td></tr>
+        <tr><th scope="row">Odległość od szlaku</th><td>najmniejsza odległość punktu od łamanej przebiegu (rzut na odcinki w lokalnym układzie metrycznym)</td></tr>
+        <tr><th scope="row">Długość szlaku</th><td>suma długości odcinków relacji z rolą główną (pomijamy <code>alternative</code>, <code>excursion</code>, <code>approach</code> itp.); przy rolach <code>forward</code>/<code>backward</code> liczymy jeden kierunek. Dostępna dla {withGeom} z {t.total} szlaków; gdy OSM ma tag <code>distance</code>, pokazujemy obie wartości</td></tr>
+        <tr><th scope="row">Pętla / punkty końcowe</th><td>z grafu odcinków: brak końców = pętla; dwa końce = start i meta (kolejność wynika z danych, nie z oznakowania); więcej końców = przebieg fragmentaryczny (oznaczamy to na stronie)</td></tr>
+        <tr><th scope="row">Szacowany czas</th><td>długość / prędkość: 15 km/h rower, 12 km/h MTB, 4 km/h pieszo; bez postojów; zaokrąglenie do 15 min</td></tr>
+        <tr><th scope="row">Uproszczenie geometrii</th><td>Douglas–Peucker z tolerancją 20 m (tylko do rysowania mapy i relacji; długość liczona z pełnej geometrii)</td></tr>
+        <tr><th scope="row">Relacje „w pobliżu”</th><td>parkingi ≤ 2 km od parkingu, ≤ 1,5 km od plaży i od przebiegu szlaku; plaże ≤ 3 km od parkingu; szlaki łączące się ≤ 300 m między przebiegami; miasta „na trasie” ≤ 10 km od przebiegu</td></tr>
+      </tbody>
+    </table>
+
+    <h2>5. Co trafia do indeksu wyszukiwarek</h2>
+    <p>
+      Każda strona obiektu jest oceniana automatycznie. Strony, które nie spełniają progów, są generowane
+      (dane pozostają dostępne dla użytkowników i linków wewnętrznych), ale otrzymują <code>noindex</code>
+      i nie trafiają do sitemapy.
+    </p>
+    <table class="facts">
+      <tbody>
+        <tr><th scope="row">Parking</th><td>dostęp publiczny (nie <code>private</code>, <code>no</code>, <code>permit</code>, pracowniczy); co najmniej 3 fakty (rodzaj, opłata, miejsca, godziny, operator, nawierzchnia, adres itp.); nazwa nie może być samym kodem („P8”) bez adresu lub operatora. Obecnie: {p.idx} indeksowanych, {p.noidx} noindex z {p.total}.</td></tr>
+        <tr><th scope="row">Szlak</th><td>wiarygodna długość ≥ 1 km (z geometrii lub tagu) i co najmniej 3 fakty. Obecnie: {t.idx} indeksowanych, {t.noidx} noindex z {t.total}.</td></tr>
+        <tr><th scope="row">Plaża</th><td>co najmniej 1 fakt (ratownik, psy, opłata, nawierzchnia…) albo nazwany parking do 1,5 km. Obecnie: {b.idx} indeksowanych, {b.noidx} noindex z {b.total}.</td></tr>
+        <tr><th scope="row">Miasto / miasto-typ</th><td>strona miasta: co najmniej 3 obiekty; tabela typu: co najmniej 3 wiersze.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>6. Czego nie robimy</h2>
+    <ul>
+      <li>Nie generujemy opisów, ocen, rankingów ani „porad” – każde zdanie na stronie obiektu składa się z konkretnych pól danych.</li>
+      <li>Nie tworzymy stron dla kombinacji filtrów (np. „bezpłatne parkingi podziemne w X”) – filtry są sekcjami na jednej stronie miasta.</li>
+      <li>Nie uzupełniamy braków danymi z innych źródeł bez licencji ani domysłami.</li>
+    </ul>
+
+    <h2>7. Aktualizacje</h2>
+    <p>
+      Dane z OSM pobieramy cyklicznie przez Overpass API (stan bazy: {m.generatedAt}; dane OSM z {m.osmDataFrom}
+      {m.osmDataTo && m.osmDataTo !== m.osmDataFrom ? `– ${m.osmDataTo}` : ''}). Każda strona obiektu podaje datę jego
+      ostatniej edycji w OSM. Poprawki wprowadzone w OpenStreetMap trafiają do serwisu przy następnym przebiegu.
+    </p>
+    <p class="muted small">Kod generatora i reguły opisane powyżej są wersjonowane razem z danymi; zmiana reguł jest odnotowywana w dzienniku decyzji projektu.</p>
+  </article>
+</BaseLayout>

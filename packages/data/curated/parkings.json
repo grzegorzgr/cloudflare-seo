@@ -1,0 +1,410 @@
+[
+  {
+    "slug": "parking-przy-rezerwacie-kamienne-kregi-w-odrach",
+    "name": "Parking przy rezerwacie Kamienne Kręgi w Odrach",
+    "type": "parking",
+    "location": {
+      "city": "Odry",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 53.8969091,
+      "lng": 17.9976139
+    },
+    "attrs": {
+      "fee": "no"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-dino-park-malbork",
+    "name": "Parking Dino Park Malbork",
+    "type": "parking",
+    "location": {
+      "city": "Malbork",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.0423773,
+      "lng": 19.0440016
+    },
+    "attrs": {
+      "fee": "no",
+      "capacity": "100"
+    },
+    "notes": [
+      "parking przy Dino Park w Malborku"
+    ],
+    "description": null
+  },
+  {
+    "slug": "parking-podziemny-hotel-lido",
+    "name": "Parking podziemny Hotel Lido",
+    "type": "parking",
+    "location": {
+      "city": "gmina Jastarnia",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.6832493,
+      "lng": 18.7136275
+    },
+    "attrs": {
+      "parking": "underground",
+      "covered": "yes"
+    },
+    "notes": [
+      "parking przy Hotelu Lido"
+    ],
+    "description": null
+  },
+  {
+    "slug": "port-chalupy",
+    "name": "Port Chałupy",
+    "type": "parking",
+    "location": {
+      "city": "Chałupy",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.757138,
+      "lng": 18.5157046
+    },
+    "attrs": {},
+    "notes": [
+      "parking przy porcie w Chałupach"
+    ],
+    "description": null
+  },
+  {
+    "slug": "parking-przy-rezerwacie-beka",
+    "name": "Parking przy rezerwacie Beka",
+    "type": "parking",
+    "location": {
+      "city": "gmina Puck",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.6584032,
+      "lng": 18.4612505
+    },
+    "attrs": {},
+    "notes": [
+      "parking przy rezerwacie przyrody Beka"
+    ],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-duzy",
+    "name": "Parking leśny \"Duży\"",
+    "type": "parking",
+    "location": {
+      "city": "Krynica Morska",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.4144317,
+      "lng": 19.5441709
+    },
+    "attrs": {
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-maly",
+    "name": "Parking Leśny \"Mały\"",
+    "type": "parking",
+    "location": {
+      "city": "Krynica Morska",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.3971376,
+      "lng": 19.4899664
+    },
+    "attrs": {
+      "fee": "yes",
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-stegna",
+    "name": "Parking Leśny Stegna",
+    "type": "parking",
+    "location": {
+      "city": "Stegna",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.3454115,
+      "lng": 19.116296
+    },
+    "attrs": {
+      "fee": "yes",
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-dozorowany-24-7",
+    "name": "Parking dozorowany 24/7",
+    "type": "parking",
+    "location": {
+      "city": "gmina Jastarnia",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.6805995,
+      "lng": 18.716334
+    },
+    "attrs": {
+      "supervised": "yes"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-galeria-szwrac",
+    "name": "Parking Galeria Szwrac",
+    "type": "parking",
+    "location": {
+      "city": "Starogard Gdański",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 53.9657565,
+      "lng": 18.5313006
+    },
+    "attrs": {},
+    "notes": [
+      "parking przy Galerii Szwrac w Starogardzie Gdańskim"
+    ],
+    "description": null
+  },
+  {
+    "slug": "parking-hotel-rigga",
+    "name": "Parking Hotel Rigga",
+    "type": "parking",
+    "location": {
+      "city": "Władysławowo",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.8000375,
+      "lng": 18.3908163
+    },
+    "attrs": {
+      "fee": "yes"
+    },
+    "notes": [
+      "parking przy Hotelu Rigga we Władysławowie"
+    ],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny",
+    "name": "Parking leśny",
+    "type": "parking",
+    "location": {
+      "city": "gmina Krokowa",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.7259499,
+      "lng": 18.1707801
+    },
+    "attrs": {
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-tuchom",
+    "name": "Parking Leśny",
+    "type": "parking",
+    "location": {
+      "city": "Tuchom",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.4312089,
+      "lng": 18.3925266
+    },
+    "attrs": {
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-ryjewo",
+    "name": "Parking Leśny",
+    "type": "parking",
+    "location": {
+      "city": "Ryjewo",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 53.8253577,
+      "lng": 18.9867354
+    },
+    "attrs": {
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-sztumskie-pole",
+    "name": "Parking Leśny",
+    "type": "parking",
+    "location": {
+      "city": "Sztumskie Pole",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 53.9449183,
+      "lng": 19.0234354
+    },
+    "attrs": {
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-gmina-koscierzyna",
+    "name": "parking leśny",
+    "type": "parking",
+    "location": {
+      "city": "gmina Kościerzyna",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.1742426,
+      "lng": 18.0720577
+    },
+    "attrs": {
+      "fee": "no",
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-gmina-chojnice",
+    "name": "Parking leśny",
+    "type": "parking",
+    "location": {
+      "city": "gmina Chojnice",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 53.7989137,
+      "lng": 17.4227278
+    },
+    "attrs": {
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-gmina-przywidz",
+    "name": "Parking leśny",
+    "type": "parking",
+    "location": {
+      "city": "gmina Przywidz",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.2541156,
+      "lng": 18.4128095
+    },
+    "attrs": {
+      "fee": "no",
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-gmina-trzebielino",
+    "name": "Parking leśny",
+    "type": "parking",
+    "location": {
+      "city": "gmina Trzebielino",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.164985,
+      "lng": 17.0596885
+    },
+    "attrs": {
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-gmina-lipusz",
+    "name": "parking leśny",
+    "type": "parking",
+    "location": {
+      "city": "gmina Lipusz",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.1447036,
+      "lng": 17.7484968
+    },
+    "attrs": {
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-gmina-potegowo",
+    "name": "parking leśny",
+    "type": "parking",
+    "location": {
+      "city": "gmina Potęgowo",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.3800057,
+      "lng": 17.4903407
+    },
+    "attrs": {
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "parking-lesny-gmina-czarna-woda",
+    "name": "Parking leśny",
+    "type": "parking",
+    "location": {
+      "city": "gmina Czarna Woda",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 53.8498665,
+      "lng": 18.1136391
+    },
+    "attrs": {
+      "parking": "surface"
+    },
+    "notes": [],
+    "description": null
+  }
+]

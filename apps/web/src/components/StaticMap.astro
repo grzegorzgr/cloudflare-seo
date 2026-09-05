@@ -1,0 +1,49 @@
+---
+// Mozaika kafelkow OSM + nakladka SVG (pinezka, znaczniki, przebieg szlaku).
+// Bez JS: pozycje liczone w generatorze (map.ts). Kafelki lazy-loaded.
+import type { StaticMapModel } from '@generator';
+
+interface Props {
+  map: StaticMapModel & { shiftX?: number; shiftY?: number };
+}
+const { map } = Astro.props;
+const shiftX = map.shiftX ?? 0;
+const shiftY = map.shiftY ?? 0;
+const tileCols = map.tiles[0]?.length ?? map.cols + 1;
+const tileRows = map.tiles.length;
+// Siatka kafelkow jest o 1 wieksza niz widok, przesunieta o shift, zeby center byl w srodku.
+const gridStyle = `left:${(-shiftX / map.widthPx) * 100}%;top:${(-shiftY / map.heightPx) * 100}%;width:${(tileCols * 256 / map.widthPx) * 100}%;height:${(tileRows * 256 / map.heightPx) * 100}%;grid-template-columns:repeat(${tileCols},1fr);`;
+---
+
+<figure class="map-figure">
+  <div class="map" role="img" aria-label={map.alt}>
+    <div class="tiles" style={gridStyle}>
+      {map.tiles.flat().map((url) => <img src={url} alt="" width="256" height="256" loading="lazy" decoding="async" />)}
+    </div>
+    <svg viewBox={`0 0 ${map.widthPx} ${map.heightPx}`} aria-hidden="true" focusable="false">
+      {map.paths.map((d) => <path d={d} fill="none" stroke="#fff" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" opacity="0.9" />)}
+      {map.paths.map((d) => <path d={d} fill="none" stroke="#c2185b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" />)}
+      {map.markers.map((m) => (
+        <g transform={`translate(${m.x} ${m.y})`}>
+          <circle r="11" fill="#fff" stroke="#0b57d0" stroke-width="2" />
+          <text y="4" text-anchor="middle" font-size="12" font-weight="700" fill="#0b57d0" font-family="system-ui, sans-serif">{m.label}</text>
+        </g>
+      ))}
+      {map.pin && (
+        <g transform={`translate(${map.pin.x} ${map.pin.y})`}>
+          <path d="M0 0 C -9 -12, -9 -24, 0 -26 C 9 -24, 9 -12, 0 0 Z" fill="#d32f2f" stroke="#fff" stroke-width="2" />
+          <circle cy="-18" r="4" fill="#fff" />
+        </g>
+      )}
+    </svg>
+  </div>
+  <figcaption class="map-links">
+    <span>© autorzy <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a></span>
+    <a href={map.osmUrl} rel="noopener">Otwórz w OpenStreetMap</a>
+    <a href={map.googleUrl} rel="noopener nofollow">Otwórz w Google Maps</a>
+  </figcaption>
+</figure>
+
+<style>
+  .map-figure { margin: 0; }
+</style>

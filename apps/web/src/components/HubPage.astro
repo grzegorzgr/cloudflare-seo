@@ -1,0 +1,58 @@
+---
+// Widok stron zbiorczych (miasto, miasto/typ, wojewodztwo, indeksy, home).
+import type { HubModel } from '@generator';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import StaticMap from './StaticMap.astro';
+import LinkSection from './LinkSection.astro';
+import DataTable from './DataTable.astro';
+
+interface Props {
+  model: HubModel;
+  width?: 'narrow' | 'wide';
+}
+const { model, width = 'wide' } = Astro.props;
+---
+
+<BaseLayout
+  title={model.title}
+  description={model.metaDescription}
+  canonical={model.canonical}
+  jsonLd={model.jsonLd}
+  robots={model.robots}
+  crumbs={model.crumbs}
+  width={width}
+>
+  <article>
+    <header>
+      <h1>{model.h1}</h1>
+      {model.subtitle && <p class="subtitle">{model.subtitle}</p>}
+    </header>
+    {model.intro.map((p) => <p>{p}</p>)}
+
+    {model.stats.length > 0 && (
+      <div class="stats">
+        {model.stats.map((s) => (
+          <div>
+            <span>{s.label}</span>
+            {s.href ? <a href={s.href}>{s.value}</a> : <strong>{s.value}</strong>}
+          </div>
+        ))}
+      </div>
+    )}
+
+    <slot name="after-stats" />
+
+    {model.map && (
+      <section aria-labelledby="h-mapa">
+        <h2 id="h-mapa">Mapa</h2>
+        <StaticMap map={model.map} />
+        {model.map.markers.length > 0 && <p class="muted small">Numery na mapie odpowiadają kolejności w pierwszej tabeli lub liście poniżej.</p>}
+      </section>
+    )}
+
+    {model.tables.map((t) => <DataTable table={t} />)}
+    {model.sections.map((s) => <LinkSection section={s} />)}
+
+    <slot />
+  </article>
+</BaseLayout>

@@ -1,32 +1,29 @@
 ---
-// Strona 404 (SSG). Cloudflare Pages serwuje dist/404.html ze statusem 404
-// dla nieistniejacych sciezek. Bez tego pliku Pages zwracalby strone glowna
-// z kodem 200 dla kazdego URL (soft-404, duplicate content).
+// Cloudflare Pages serwuje dist/404.html ze statusem 404.
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { paths, typeConfigs } from '@generator';
+import { index } from '../lib/data';
+
+const topCities = index.bundle.cities.filter((c) => (index.byHub.get(c.slug)?.parking.length ?? 0) >= 10).slice(0, 12);
 ---
 
-<BaseLayout title="404 — nie znaleziono strony" robots="noindex,follow">
-  <main>
-    <article>
-      <header>
-        <h1>404 — nie znaleziono strony</h1>
-      </header>
-      <p>
-        Strona o tym adresie nie istnieje w katalogu. Skorzystaj z punktów
-        wejścia poniżej, aby znaleźć właściwe miejsce.
-      </p>
-      <section>
-        <h2>Przejdź do katalogu</h2>
-        <ul>
-          <li><a href="/">Strona główna</a></li>
-          <li><a href="/regions/">Regiony</a></li>
-          <li><a href="/cities/">Miasta</a></li>
-          <li><a href="/collections/">Kolekcje</a></li>
-          <li><a href="/beaches/">Plaże</a></li>
-          <li><a href="/parking/">Parkingi</a></li>
-          <li><a href="/trails/">Szlaki</a></li>
-        </ul>
-      </section>
-    </article>
-  </main>
+<BaseLayout title="Nie znaleziono strony (404) – gdziemy.pl" robots="noindex">
+  <article>
+    <header><h1>Nie znaleziono strony</h1></header>
+    <p>
+      Strona o tym adresie nie istnieje. Część dawnych adresów (m.in. strony „kolekcji” i pojedynczych odcinków
+      dróg prezentowanych jako szlaki) została usunięta, bo nie niosła użytecznej informacji.
+    </p>
+    <h2>Zacznij od miasta</h2>
+    <ul>
+      {topCities.map((c) => <li><a href={paths.city(c.slug)}>{c.name}</a></li>)}
+    </ul>
+    <h2>Albo od kategorii</h2>
+    <ul>
+      <li><a href={typeConfigs.parking.indexPath}>Parkingi</a></li>
+      <li><a href={typeConfigs.trail.indexPath}>Szlaki rowerowe i piesze</a></li>
+      <li><a href={typeConfigs.beach.indexPath}>Plaże</a></li>
+      <li><a href={paths.cities}>Wszystkie miasta</a></li>
+    </ul>
+  </article>
 </BaseLayout>

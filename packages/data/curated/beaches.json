@@ -1,0 +1,368 @@
+[
+  {
+    "slug": "jelitkowo",
+    "name": "Plaża Jelitkowo",
+    "type": "beach",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.424,
+      "lng": 18.593
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "brzezno",
+    "name": "Plaża Brzeźno",
+    "type": "beach",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.4080869,
+      "lng": 18.6383794
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "ustka-plaza-zachodnia",
+    "name": "Plaża zachodnia w Ustce",
+    "type": "beach",
+    "location": {
+      "city": "Ustka",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.5876542,
+      "lng": 16.8453565
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "ustka-plaza-strzezona",
+    "name": "Plaża Strzeżona w Ustce",
+    "type": "beach",
+    "location": {
+      "city": "Ustka",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.5871652,
+      "lng": 16.8416712
+    },
+    "attrs": {
+      "lifeguard": "yes"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "ustka-plaza-wschodnia",
+    "name": "Plaża wschodnia w Ustce",
+    "type": "beach",
+    "location": {
+      "city": "Ustka",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.5920668,
+      "lng": 16.8922154
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "leba-rabka",
+    "name": "Plaża w Łebie (Rąbka)",
+    "type": "beach",
+    "location": {
+      "city": "Łeba",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.7667742,
+      "lng": 17.5433548
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "chalupy-plaza-naturystow",
+    "name": "Plaża naturystów w Chałupach",
+    "type": "beach",
+    "location": {
+      "city": "Chałupy",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.751775,
+      "lng": 18.5365071
+    },
+    "attrs": {
+      "nudism": "yes"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "debki-plaza-naturystow",
+    "name": "Plaża Naturystów Dębki",
+    "type": "beach",
+    "location": {
+      "city": "Dębki",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.831885,
+      "lng": 18.01546
+    },
+    "attrs": {
+      "nudism": "yes"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "stegna",
+    "name": "Plaża Stegna",
+    "type": "beach",
+    "location": {
+      "city": "Stegna",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.3468041,
+      "lng": 19.1139566
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "jastarnia-plaza-strzezona",
+    "name": "Plaża strzeżona w Jastarni",
+    "type": "beach",
+    "location": {
+      "city": "Jastarnia",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.7086765,
+      "lng": 18.6630967
+    },
+    "attrs": {
+      "lifeguard": "yes"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "leba-plaza-a",
+    "name": "Plaża A w Łebie",
+    "type": "beach",
+    "location": {
+      "city": "Łeba",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.768328,
+      "lng": 17.559953
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "leba-plaza-c",
+    "name": "Plaża C w Łebie",
+    "type": "beach",
+    "location": {
+      "city": "Łeba",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.769371,
+      "lng": 17.575466
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "leba-plaza-dla-zwierzat",
+    "name": "Plaża dla zwierząt w Łebie",
+    "type": "beach",
+    "location": {
+      "city": "Łeba",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.767397,
+      "lng": 17.54564
+    },
+    "attrs": {
+      "dog": "yes"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "chalupy-kapielisko",
+    "name": "Kąpielisko w Chałupach",
+    "type": "beach",
+    "location": {
+      "city": "Chałupy",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.760161,
+      "lng": 18.513037
+    },
+    "attrs": {
+      "lifeguard": "yes"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "hel-plaza-miejska",
+    "name": "Plaża Miejska w Helu",
+    "type": "beach",
+    "location": {
+      "city": "Hel",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.606795,
+      "lng": 18.798581
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "hel-duza-plaza-baltycka",
+    "name": "Duża Plaża Bałtycka w Helu",
+    "type": "beach",
+    "location": {
+      "city": "Hel",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.60064,
+      "lng": 18.823627
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "hel-plaza-cypel",
+    "name": "Plaża Cypel w Helu",
+    "type": "beach",
+    "location": {
+      "city": "Hel",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.592887,
+      "lng": 18.812436
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "rewa-cypel-rewski",
+    "name": "Cypel Rewski w Rewie",
+    "type": "beach",
+    "location": {
+      "city": "Rewa",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.639041,
+      "lng": 18.515382
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "rowy-plaza-dla-psow",
+    "name": "Plaża dla psów w Rowach",
+    "type": "beach",
+    "location": {
+      "city": "Rowy",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.65744,
+      "lng": 17.032478
+    },
+    "attrs": {
+      "dog": "yes"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "bialogora-wejscie-31",
+    "name": "Plaża Białogóra (Wejście 31)",
+    "type": "beach",
+    "location": {
+      "city": "Białogóra",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.830831,
+      "lng": 17.988171
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "gdansk-sobieszewo",
+    "name": "Plaża w Sobieszewie",
+    "type": "beach",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.355107,
+      "lng": 18.836724
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "gdansk-swibno",
+    "name": "Plaża Świbno",
+    "type": "beach",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.346471,
+      "lng": 18.910868
+    },
+    "attrs": {},
+    "notes": [],
+    "description": null
+  }
+]

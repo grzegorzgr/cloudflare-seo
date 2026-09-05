@@ -1,22 +1,20 @@
 ---
-// INDEX: /trails -> pelna lista szlakow pogrupowana wg regionu.
-import trails from '@data/trails.json';
-import {
-  trailConfig,
-  buildCategoryIndexModel,
-  indexCategories,
-  type Entity,
-} from '@generator';
-import { seoConfig } from '@config/seo.config.ts';
-import IndexPage from '../components/IndexPage.astro';
+import { buildCategoryIndexModel } from '@generator';
+import { index, siteUrl } from '../lib/data';
+import HubPage from '../components/HubPage.astro';
 
-const model = buildCategoryIndexModel(
-  trails as Entity[],
-  trailConfig,
-  '/trails/',
-  indexCategories,
-  seoConfig.siteUrl,
-);
+const model = buildCategoryIndexModel('trail', index, siteUrl);
 ---
 
-<IndexPage {...model} />
+<HubPage model={model}>
+  <section aria-labelledby="h-co">
+    <h2 id="h-co">Jak liczymy dane o szlakach</h2>
+    <ul>
+      <li><strong>Długość</strong> – suma długości odcinków relacji OSM (bez wariantów i dojść). Gdy relacja ma osobno oznaczone kierunki „forward/backward”, liczymy jeden kierunek. Jeśli mapa ma także tag <code>distance</code>, pokazujemy obie wartości.</li>
+      <li><strong>Czas</strong> – szacunek: 15 km/h rower, 12 km/h MTB, 4 km/h pieszo, bez postojów; zaokrąglony do 15 minut.</li>
+      <li><strong>Pętla</strong> – wykrywana z geometrii (przebieg zamyka się) albo z tagu <code>roundtrip</code>.</li>
+      <li><strong>Parkingi przy szlaku</strong> – nazwane parkingi z bazy do 1,5 km od przebiegu; odległość liczona do najbliższego punktu trasy.</li>
+      <li><strong>Szlaki łączące się</strong> – szlaki, których przebieg zbliża się na mniej niż ok. 300 m.</li>
+    </ul>
+  </section>
+</HubPage>

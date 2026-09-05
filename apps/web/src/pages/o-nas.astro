@@ -1,56 +1,60 @@
 ---
-// Strona informacyjna "O nas" (E-E-A-T / zaufanie). Statyczna tresc.
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { paths, site } from '@generator';
+import { bundle } from '../lib/data';
+
+const m = bundle.meta;
+const crumbs = [{ name: 'Start', href: '/' }, { name: 'O serwisie', href: paths.about }];
 ---
 
 <BaseLayout
-  title="O nas — gdziemy.pl"
-  description="Czym jest gdziemy.pl: automatycznie budowany katalog plaż, parkingów i szlaków w Polsce, oparty w całości na otwartych danych."
-  canonical="/o-nas/"
+  title={`O serwisie – ${site.name}`}
+  description="Czym jest gdziemy.pl: serwis pokazujący parkingi, szlaki rowerowe i piesze oraz plaże w Polsce na podstawie otwartych danych OpenStreetMap, bez generowanych opisów."
+  canonical={paths.about}
+  crumbs={crumbs}
 >
-  <main>
-    <article>
-      <header>
-        <h1>O nas</h1>
-      </header>
+  <article>
+    <header><h1>O serwisie</h1></header>
 
-      <p>
-        <strong>gdziemy.pl</strong> to katalog miejsc w Polsce — plaż, parkingów
-        i szlaków spacerowych — budowany automatycznie z otwartych danych.
-        Obecnie obejmuje ponad 3&nbsp;300 obiektów w 16 województwach
-        i 77 miastach.
-      </p>
+    <p>
+      <strong>gdziemy.pl</strong> odpowiada na trzy praktyczne pytania: <em>gdzie zaparkować</em>,
+      <em>którędy prowadzi szlak</em> i <em>gdzie jest plaża z parkingiem</em>. Serwis nie jest
+      przewodnikiem z opiniami – to uporządkowany, porównywalny widok na dane z OpenStreetMap,
+      uzupełniony obliczeniami, których w OSM nie ma: odległościami, długościami tras, szacowanym czasem
+      przejścia i relacjami „co jest obok czego”.
+    </p>
 
-      <h2>Jak działa ten serwis</h2>
-      <p>
-        Każda strona w katalogu powstaje według jednej zasady:
-        <strong>zero zgadywania</strong>. Prezentujemy wyłącznie informacje,
-        które istnieją w danych źródłowych — jeśli nie wiemy, czy plaża ma
-        toalety, po prostu tego nie pokazujemy. Nie generujemy opisów
-        „z powietrza" i nie wymyślamy udogodnień.
-      </p>
-      <p>
-        Odległości między obiektami („najbliższy parking", „w pobliżu")
-        wyliczamy geometrycznie ze współrzędnych geograficznych. Listy miast,
-        regionów i kolekcji tematycznych są budowane automatycznie z tych
-        samych danych.
-      </p>
+    <h2>Co znajdziesz</h2>
+    <ul>
+      <li><strong>Parkingi</strong> ({m.counts.parkings}) – rodzaj, liczba miejsc, opłaty i cennik, godziny, dostęp, operator, P+R, ładowanie EV; tabele porównawcze per miasto i porównanie z parkingami w promieniu 2 km.</li>
+      <li><strong>Szlaki</strong> ({m.counts.trails}) – znakowane szlaki rowerowe i piesze jako relacje OSM: długość z geometrii, czas, oznakowanie, przebieg, mapa, parkingi przy trasie, szlaki łączące się.</li>
+      <li><strong>Plaże</strong> ({m.counts.beaches}) – ratownicy, psy, opłaty (gdy zapisano w OSM) i nazwane parkingi do 1,5 km.</li>
+      <li><strong>Miasta</strong> ({m.counts.hubs}) – stolice województw i główne miejscowości turystyczne jako punkty, wokół których zbieramy obiekty (do ok. 10 km).</li>
+    </ul>
 
-      <h2>Skąd pochodzą dane</h2>
-      <p>
-        Podstawowym źródłem jest <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>
-        — największa otwarta baza danych geograficznych na świecie, tworzona
-        przez społeczność. Szczegóły opisujemy na stronie
-        <a href="/zrodla-danych/">Źródła danych</a>.
-      </p>
+    <h2>Zasady, których się trzymamy</h2>
+    <ol>
+      <li><strong>Zero zgadywania.</strong> Pokazujemy tylko to, co zapisano w źródle. Jeśli parking nie ma w OSM informacji o opłacie, pole jest puste – nie piszemy „prawdopodobnie płatny”.</li>
+      <li><strong>Obliczenia są oznaczone.</strong> Odległości, długości i czasy to wyniki działań na współrzędnych, opisane w <a href={paths.methodology}>metodologii</a>; przy każdej takiej wartości jest notka.</li>
+      <li><strong>Brak generowanych opisów.</strong> Jedyny tekst opisowy na stronie obiektu to oryginalny tag <code>description</code> z OSM albo krótka notatka redakcyjna – zawsze oznaczone.</li>
+      <li><strong>Nie każda strona trafia do wyszukiwarek.</strong> Strony z zbyt małą liczbą faktów, parkingi prywatne czy szlaki bez wiarygodnej długości pozostają w serwisie, ale nie są kierowane do indeksu. Kryteria są jawne.</li>
+      <li><strong>Provenance na każdej stronie.</strong> Identyfikator obiektu OSM, data jego ostatniej edycji, data weryfikacji w terenie (jeśli jest) i data stanu bazy, plus link do poprawienia danych.</li>
+    </ol>
 
-      <h2>Zauważyłeś błąd?</h2>
-      <p>
-        Jeśli dane o jakimś miejscu są nieaktualne, najskuteczniej jest
-        poprawić je bezpośrednio w OpenStreetMap — zmiana trafi do nas przy
-        kolejnej aktualizacji. Możesz też napisać do nas:
-        <a href="/kontakt/">kontakt</a>.
-      </p>
-    </article>
-  </main>
+    <h2>Kto za tym stoi</h2>
+    <p>
+      Serwis jest projektem zespołu stojącego za domeną digital.gda.pl (Gdańsk). Utrzymujemy kod
+      generujący strony, kuratorujemy listę miast i niewielki zbiór wpisów redakcyjnych (wybrzeże
+      Pomorza), a dane o obiektach pobieramy z OpenStreetMap. Kontakt: <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>.
+    </p>
+
+    <h2>Ograniczenia</h2>
+    <ul>
+      <li>Zasięg to okolice {m.counts.hubs} miast, nie cała Polska. Parking w małej miejscowości bez miasta-huba w pobliżu nie trafi do bazy.</li>
+      <li>OSM aktualizują wolontariusze: godziny i cenniki mogą być nieaktualne. Data ostatniej edycji obiektu jest na każdej stronie.</li>
+      <li>Nie wystawiamy ocen ani rekomendacji. Kolejność w tabelach wynika z odległości lub długości, nie z jakości.</li>
+    </ul>
+
+    <p class="muted small">Stan bazy: {m.generatedAt}. Aktualizacja danych odbywa się cyklicznie (zob. <a href={paths.sources}>źródła danych</a>).</p>
+  </article>
 </BaseLayout>

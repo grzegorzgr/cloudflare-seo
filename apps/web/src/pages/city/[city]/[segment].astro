@@ -1,0 +1,26 @@
+---
+// Podstrony miasta: /city/{miasto}/parkingi/ | /szlaki/ | /plaze/
+import { buildCityTypeModel, TYPE_ORDER, typeConfigs, type EntityType } from '@generator';
+import { index, siteUrl } from '../../../lib/data';
+import HubPage from '../../../components/HubPage.astro';
+
+export function getStaticPaths() {
+  const out: { params: { city: string; segment: string }; props: { type: EntityType } }[] = [];
+  for (const c of index.bundle.cities) {
+    for (const type of TYPE_ORDER) {
+      const rec = index.byHub.get(c.slug);
+      if (rec && rec[type].length > 0) {
+        out.push({ params: { city: c.slug, segment: typeConfigs[type].citySegment }, props: { type } });
+      }
+    }
+  }
+  return out;
+}
+
+const { city } = Astro.params;
+const { type } = Astro.props as { type: EntityType };
+const model = buildCityTypeModel(city!, type, index, siteUrl);
+if (!model) throw new Error(`Brak modelu dla ${city}/${type}`);
+---
+
+<HubPage model={model} width="wide" />

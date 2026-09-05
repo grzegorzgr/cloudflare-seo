@@ -1,213 +1,67 @@
 ---
-import { countObjectsPl } from '@generator';
-// Widok strony encji (place page). Renderuje wyłącznie gotowy model z generatora.
-// Zero logiki danych, zero mocków: każda sekcja pojawia się tylko, gdy ma dane.
-import type { FeatureView, PageModel } from '@generator';
+// Widok strony encji: renderuje gotowy PlaceModel. Zero logiki danych.
+import type { PlaceModel } from '@generator';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import StaticMap from './StaticMap.astro';
+import Facts from './Facts.astro';
+import LinkSection from './LinkSection.astro';
+import DataTable from './DataTable.astro';
+import Provenance from './Provenance.astro';
 
 interface Props {
-  model: PageModel;
+  model: PlaceModel;
 }
-
 const { model } = Astro.props;
-
-// Prezentacja pojedynczej flagi: boolean -> tak/nie, string -> wartość z danych 1:1.
-function renderFlag(value: FeatureView['value']): string {
-  if (value === true) return 'tak';
-  if (value === false) return 'nie';
-  return value;
-}
 ---
 
 <BaseLayout
-  title={model.pageTitle}
+  title={model.title}
   description={model.metaDescription}
   canonical={model.canonical}
-  keywords={model.keywords}
   jsonLd={model.jsonLd}
-  robots={model.noindex ? 'noindex,follow' : undefined}
+  robots={model.robots}
+  crumbs={model.crumbs}
+  width="narrow"
 >
-  <main>
-    <article>
-      <header>
-        <h1>{model.h1}</h1>
-        <p class="muted">
-          {model.location.city}, {model.location.region}, {model.location.country}
-        </p>
-        {
-          (model.address || model.googleMapsUrl) && (
-            <p class="address">
-              {model.address && <span>Adres: {model.address.formatted}</span>}
-              {model.address && model.googleMapsUrl && <span class="muted"> — </span>}
-              {model.googleMapsUrl && (
-                <a
-                  href={model.googleMapsUrl}
-                  rel="noopener nofollow"
-                  target="_blank"
-                >
-                  Zobacz w Google Maps
-                </a>
-              )}
-            </p>
-          )
-        }
-      </header>
+  <article>
+    <header>
+      <h1>{model.h1}</h1>
+      {model.subtitle && <p class="subtitle">{model.subtitle}</p>}
+    </header>
 
-      <p>{model.intent}</p>
+    {model.summary.map((s) => <p class="summary">{s}</p>)}
+    {model.notices.map((n) => <p class="notice">{n}</p>)}
 
-      {
-        model.mapTile && (
-          <section aria-labelledby="mapa">
-            <h2 id="mapa">Mapa</h2>
-            <div class="map-embed">
-              <img
-                src={model.mapTile.url}
-                alt={`Mapa okolicy: ${model.h1}`}
-                width="256"
-                height="256"
-                loading="lazy"
-              />
-              <span
-                class="pin"
-                style={`left: ${model.mapTile.pinXPct}%; top: ${model.mapTile.pinYPct}%;`}
-              />
-            </div>
-            <p class="muted map-attribution">
-              © autorzy <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>
-            </p>
-          </section>
-        )
-      }
+    {model.map && (
+      <section aria-labelledby="h-mapa">
+        <h2 id="h-mapa">Mapa</h2>
+        <StaticMap map={model.map} />
+      </section>
+    )}
 
-      {
-        (model.facts.length > 0 || model.derivedFacts.length > 0) && (
-          <section aria-labelledby="opis">
-            <h2 id="opis">Opis</h2>
-            {model.facts.map((fact) => (
-              <p>{fact}</p>
-            ))}
-            {model.derivedFacts.map((fact) => (
-              <p>{fact}</p>
-            ))}
-          </section>
-        )
-      }
+    <section aria-labelledby="h-informacje">
+      <h2 id="h-informacje">Informacje</h2>
+      <Facts facts={model.facts} />
+      {model.factGroups.map((g) => (
+        <>
+          <h3>{g.heading}</h3>
+          <Facts facts={g.facts} />
+        </>
+      ))}
+    </section>
 
-      {
-        model.features.length > 0 && (
-          <section aria-labelledby="udogodnienia">
-            <h2 id="udogodnienia">Udogodnienia</h2>
-            <table class="props">
-              <tbody>
-                {model.features.map((feature) => (
-                  <tr>
-                    <th scope="row">{feature.label}</th>
-                    <td>
-                      {typeof feature.value === 'string' && feature.value.startsWith('http') ? (
-                        <a href={feature.value} rel="noopener nofollow">{feature.value}</a>
-                      ) : (
-                        renderFlag(feature.value)
-                      )}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </section>
-        )
-      }
+    {(model.description || model.notes.length > 0) && (
+      <section aria-labelledby="h-opis">
+        <h2 id="h-opis">Opis ze źródła</h2>
+        {model.description && <p>{model.description}</p>}
+        {model.notes.map((n) => <p>{n}</p>)}
+        <p class="muted small">Treść pochodzi bezpośrednio z danych źródłowych (tag OSM <code>description</code> lub notatka redakcyjna) i nie była redagowana.</p>
+      </section>
+    )}
 
-      {
-        model.access.length > 0 && (
-          <section aria-labelledby="dojazd">
-            <h2 id="dojazd">Dojazd</h2>
-            <table class="props">
-              <tbody>
-                {model.access.map((item) => (
-                  <tr>
-                    <th scope="row">{item.label}</th>
-                    <td>{renderFlag(item.value)}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </section>
-        )
-      }
+    {model.tables.map((t) => <DataTable table={t} />)}
+    {model.sections.map((s) => <LinkSection section={s} />)}
 
-      {
-        model.faq.length > 0 && (
-          <section aria-labelledby="faq">
-            <h2 id="faq">FAQ</h2>
-            <dl>
-              {model.faq.map((item) => (
-                <>
-                  <dt>{item.q}</dt>
-                  <dd>{item.a}</dd>
-                </>
-              ))}
-            </dl>
-          </section>
-        )
-      }
-
-      {
-        model.nearby.length > 0 && (
-          <section aria-labelledby="podobne">
-            <h2 id="podobne">Podobne miejsca</h2>
-            <ul>
-              {model.nearby.map((place) => (
-                <li>
-                  <a href={place.href}>{place.label}</a>
-                  <span class="muted"> — {place.city}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )
-      }
-
-      {
-        model.nearbyPlaces.length > 0 && (
-          <section aria-labelledby="w-poblizu">
-            <h2 id="w-poblizu">W pobliżu</h2>
-            <ul>
-              {model.nearbyPlaces.map((place) => (
-                <li>
-                  <a href={place.href}>{place.label}</a>
-                  {place.distanceKm !== null && place.distanceKm !== undefined && (
-                    <span class="muted">
-                      {' '}—{' '}
-                      {place.distanceKm < 1
-                        ? `${Math.round(place.distanceKm * 1000)} m`
-                        : `${place.distanceKm.toFixed(1)} km`}
-                    </span>
-                  )}
-                  {place.type && (
-                    <span class="muted type-badge"> ({place.type})</span>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </section>
-        )
-      }
-
-      {
-        model.collections.length > 0 && (
-          <section aria-labelledby="kolekcje">
-            <h2 id="kolekcje">Kolekcje</h2>
-            <ul>
-              {model.collections.map((col) => (
-                <li>
-                  <a href={col.href}>{col.label}</a>
-                  <span class="muted"> — {countObjectsPl(col.count)}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )
-      }
-    </article>
-  </main>
+    <Provenance prov={model.provenance} />
+  </article>
 </BaseLayout>

@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { paths, site } from '@generator';
+
+const crumbs = [{ name: 'Start', href: '/' }, { name: 'Regulamin', href: paths.terms }];
+---
+
+<BaseLayout
+  title={`Regulamin serwisu – ${site.name}`}
+  description="Warunki korzystania z gdziemy.pl: charakter informacyjny danych, brak gwarancji aktualności, licencja ODbL, zasady odpowiedzialności."
+  canonical={paths.terms}
+  crumbs={crumbs}
+>
+  <article>
+    <header><h1>Regulamin serwisu</h1></header>
+
+    <h2>1. Czym jest serwis</h2>
+    <p>
+      gdziemy.pl to bezpłatny serwis informacyjny prezentujący dane o parkingach, szlakach i plażach w Polsce
+      na podstawie OpenStreetMap oraz obliczeń opisanych w <a href={paths.methodology}>metodologii</a>.
+      Serwis nie prowadzi sprzedaży, rezerwacji ani kont użytkowników.
+    </p>
+
+    <h2>2. Charakter informacji</h2>
+    <p>
+      Informacje mają charakter wyłącznie orientacyjny. Dane źródłowe tworzą wolontariusze OpenStreetMap i mogą
+      być nieaktualne lub niepełne; obliczenia (odległości, długości, czasy) są szacunkami. Przed skorzystaniem
+      z parkingu lub wyruszeniem na szlak sprawdź aktualne informacje u operatora lub zarządcy.
+      Odległości podawane są w linii prostej i nie odpowiadają trasie dojazdu.
+    </p>
+
+    <h2>3. Odpowiedzialność</h2>
+    <p>
+      Serwis udostępniany jest „tak jak jest”. Nie ponosimy odpowiedzialności za decyzje podjęte na podstawie
+      prezentowanych danych, w szczególności za opłaty parkingowe, ograniczenia dostępu, stan nawierzchni czy
+      oznakowanie szlaków. Nie odpowiadamy za treść zewnętrznych stron, do których prowadzą linki.
+    </p>
+
+    <h2>4. Licencja danych</h2>
+    <p>
+      Dane o obiektach: © autorzy OpenStreetMap, licencja <a href="https://opendatacommons.org/licenses/odbl/1-0/" rel="noopener">ODbL 1.0</a>.
+      Dane pochodne opublikowane w serwisie mogą być wykorzystywane na tych samych zasadach, z zachowaniem
+      atrybucji. Układ stron, teksty własne i kod serwisu pozostają własnością wydawcy.
+    </p>
+
+    <h2>5. Reklamy</h2>
+    <p>
+      W serwisie wyświetlane są reklamy Google AdSense. Nie wpływają one na kolejność ani treść danych
+      o obiektach. Szczegóły w <a href={paths.privacy}>polityce prywatności</a>.
+    </p>
+
+    <h2>6. Zgłoszenia i kontakt</h2>
+    <p>
+      Uwagi do danych, żądania usunięcia strony obiektu i inne sprawy: <a href={paths.contact}>kontakt</a>.
+      Zastrzegamy sobie prawo do zmiany regulaminu; aktualna wersja jest zawsze pod tym adresem.
+    </p>
+  </article>
+</BaseLayout>

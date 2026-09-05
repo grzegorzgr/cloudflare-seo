@@ -1,23 +1,31 @@
 ---
-// Bazowy layout SSG. Odpowiada wyłącznie za dokument HTML, meta SEO i JSON-LD.
-// Treść strony trafia do <slot />. Brak logiki i brak client-side JS.
+// Bazowy layout: dokument HTML, meta SEO, JSON-LD, naglowek z nawigacja,
+// breadcrumbs i stopka z atrybucja. Zero JavaScriptu poza AdSense (async).
 import { seoConfig } from '@config/seo.config.ts';
+import { footerNav, mainNav, site, type Crumb } from '@generator';
+import meta from '@data/dataset-meta.json';
 
 interface Props {
   title: string;
   description?: string;
   canonical?: string;
-  keywords?: string[];
-  jsonLd?: Record<string, unknown>;
-  /** np. "noindex,follow" dla stron bez wystarczajacych danych (thin content). */
-  robots?: string;
+  jsonLd?: Record<string, unknown>[] | Record<string, unknown>;
+  robots?: 'index' | 'noindex';
+  crumbs?: Crumb[];
+  /** Klasa szerokosci: 'narrow' (artykul) albo 'wide' (tabele). */
+  width?: 'narrow' | 'wide';
 }
 
-const { title, description, canonical, keywords, jsonLd, robots } = Astro.props;
+const { title, description, canonical, jsonLd, robots, crumbs, width = 'narrow' } = Astro.props;
 const absoluteCanonical = canonical
-  ? canonical.startsWith('http') ? canonical : `${seoConfig.siteUrl}${canonical}`
+  ? canonical.startsWith('http')
+    ? canonical
+    : `${seoConfig.siteUrl}${canonical}`
   : undefined;
 const ogImage = `${seoConfig.siteUrl}/og-default.png`;
+const ldList = Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [];
+const currentPath = canonical ?? Astro.url.pathname;
+const dataDate = (meta as { generatedAt: string }).generatedAt;
 ---
 
 <!doctype html>
@@ -27,15 +35,13 @@ const ogImage = `${seoConfig.siteUrl}/og-default.png`;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
-    {robots && <meta name="robots" content={robots} />}
-    {keywords && keywords.length > 0 && (
-      <meta name="keywords" content={keywords.join(', ')} />
-    )}
+    <meta name="robots" content={robots === 'noindex' ? 'noindex,follow' : 'index,follow,max-image-preview:large'} />
     {absoluteCanonical && <link rel="canonical" href={absoluteCanonical} />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <meta property="og:site_name" content={seoConfig.siteName} />
+    <meta name="theme-color" content="#0b57d0" />
+    <meta property="og:site_name" content={site.name} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pl_PL" />
     <meta property="og:title" content={title} />
@@ -43,28 +49,66 @@ const ogImage = `${seoConfig.siteUrl}/og-default.png`;
     {absoluteCanonical && <meta property="og:url" content={absoluteCanonical} />}
     <meta property="og:image" content={ogImage} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
-    {description && <meta name="twitter:description" content={description} />}
-    <meta name="twitter:image" content={ogImage} />
-    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
-    <script
-      is:inline
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5388040901928181"
-      crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin />
+    {ldList.map((ld) => <script type="application/ld+json" set:html={JSON.stringify(ld)} />)}
+    {robots !== 'noindex' && (
+      <script
+        is:inline
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5388040901928181"
+        crossorigin="anonymous"></script>
+    )}
   </head>
   <body>
-    <slot />
-    <footer class="site-footer">
-      <nav aria-label="Informacje o serwisie">
-        <a href="/o-nas/">O nas</a>
-        <a href="/kontakt/">Kontakt</a>
-        <a href="/zrodla-danych/">Źródła danych</a>
-        <a href="/polityka-prywatnosci/">Polityka prywatności</a>
+    <a class="skip" href="#tresc">Przejdź do treści</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/" aria-label={`${site.name} – strona główna`}>
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">{site.name}</span>
+        </a>
+        <nav aria-label="Główna nawigacja">
+          <ul>
+            {mainNav.map((l) => (
+              <li>
+                {l.href === currentPath ? <a href={l.href} aria-current="page">{l.label}</a> : <a href={l.href}>{l.label}</a>}
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    {crumbs && crumbs.length > 1 && (
+      <nav class={`crumbs ${width}`} aria-label="Ścieżka nawigacji">
+        <ol>
+          {crumbs.map((c, i) => (
+            <li>{i < crumbs.length - 1 ? <a href={c.href}>{c.name}</a> : <span aria-current="page">{c.name}</span>}</li>
+          ))}
+        </ol>
       </nav>
-      <p class="muted">
-        Dane: © autorzy <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> (ODbL)
-      </p>
+    )}
+
+    <main id="tresc" class={width}>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <nav aria-label="Informacje o serwisie">
+          <ul>
+            {footerNav.map((l) => (
+              <li><a href={l.href}>{l.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+        <p class="muted">
+          Dane o miejscach: © autorzy <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>,
+          licencja <a href="https://opendatacommons.org/licenses/odbl/1-0/" rel="noopener">ODbL</a>. Kafelki map: OpenStreetMap.
+          Stan danych: {dataDate}. Odległości, długości szlaków i czasy przejścia są wartościami obliczonymi
+          (<a href="/metodologia/">metodologia</a>). Serwis nie gwarantuje aktualności danych – przed wyjazdem sprawdź informacje u operatora.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
@@ -72,133 +116,94 @@ const ogImage = `${seoConfig.siteUrl}/og-default.png`;
 <style is:global>
   :root {
     color-scheme: light;
-    --max-width: 46rem;
+    --narrow: 48rem;
+    --wide: 72rem;
     --fg: #1a1a1a;
-    --muted: #555;
-    --line: #e2e2e2;
+    --muted: #5a5a5a;
+    --line: #e3e3e3;
+    --soft: #f5f6f8;
     --link: #0b57d0;
+    --brand: #0b57d0;
+    --ok: #1a7f37;
+    --warn: #9a6700;
   }
-
-  * {
-    box-sizing: border-box;
-  }
-
+  * { box-sizing: border-box; }
   html {
-    font-family:
-      system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
     color: var(--fg);
+    background: #fff;
+    -webkit-text-size-adjust: 100%;
   }
+  body { margin: 0; }
+  .wrap { max-width: var(--wide); margin: 0 auto; padding: 0 1rem; }
+  main { margin: 0 auto; padding: 0 1rem 3rem; }
+  main.narrow, .crumbs.narrow { max-width: var(--narrow); }
+  main.wide, .crumbs.wide { max-width: var(--wide); }
+  .crumbs { margin: 0 auto; padding: 0.75rem 1rem 0; font-size: 0.9rem; }
+  .crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 0.5rem; }
+  .crumbs li + li::before { content: '›'; color: var(--muted); margin-right: 0.5rem; }
+  .crumbs [aria-current] { color: var(--muted); }
+  h1 { font-size: clamp(1.6rem, 4vw, 2.1rem); line-height: 1.2; margin: 1rem 0 0.25rem; }
+  h2 { font-size: 1.3rem; margin: 2rem 0 0.6rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--line); }
+  h3 { font-size: 1.05rem; margin: 1.25rem 0 0.4rem; }
+  p { margin: 0.5rem 0; }
+  a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  ul, ol { margin: 0.5rem 0; padding-left: 1.25rem; }
+  .muted { color: var(--muted); }
+  .small { font-size: 0.9rem; }
+  .subtitle { color: var(--muted); margin: 0 0 1rem; }
+  .skip { position: absolute; left: -999px; top: 0; background: #fff; padding: 0.5rem; }
+  .skip:focus { left: 0.5rem; top: 0.5rem; z-index: 10; }
 
-  body {
-    margin: 0;
-    padding: 1.5rem 1rem 4rem;
-  }
+  .site-header { border-bottom: 1px solid var(--line); background: #fff; }
+  .site-header .wrap { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem 1.5rem; min-height: 3.25rem; }
+  .brand { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--fg); font-weight: 700; font-size: 1.1rem; padding: 0.6rem 0; }
+  .brand-mark { width: 14px; height: 14px; border-radius: 50% 50% 50% 0; background: var(--brand); transform: rotate(-45deg); display: inline-block; }
+  .site-header nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.15rem 1rem; }
+  .site-header nav a { text-decoration: none; color: var(--fg); padding: 0.6rem 0; display: inline-block; border-bottom: 2px solid transparent; }
+  .site-header nav a[aria-current] { border-bottom-color: var(--brand); font-weight: 600; }
 
-  main {
-    max-width: var(--max-width);
-    margin: 0 auto;
-  }
+  .site-footer { border-top: 1px solid var(--line); margin-top: 2rem; padding: 1.25rem 0 2.5rem; font-size: 0.875rem; background: var(--soft); }
+  .site-footer ul { list-style: none; padding: 0; margin: 0 0 0.75rem; display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; }
 
-  h1 {
-    font-size: 1.9rem;
-    line-height: 1.2;
-    margin: 0 0 0.25rem;
-  }
+  /* Fakty */
+  table.facts { border-collapse: collapse; width: 100%; margin: 0.5rem 0 1rem; font-size: 0.95rem; }
+  table.facts th, table.facts td { text-align: left; vertical-align: top; padding: 0.45rem 0.75rem 0.45rem 0; border-bottom: 1px solid var(--line); }
+  table.facts th { color: var(--muted); font-weight: 500; width: 40%; }
+  table.facts .note { display: block; color: var(--muted); font-size: 0.8rem; }
 
-  h2 {
-    font-size: 1.25rem;
-    margin: 2rem 0 0.5rem;
-    padding-bottom: 0.25rem;
-    border-bottom: 1px solid var(--line);
-  }
+  /* Tabele danych */
+  .table-wrap { overflow-x: auto; margin: 0.5rem 0 1rem; -webkit-overflow-scrolling: touch; }
+  table.data { border-collapse: collapse; width: 100%; font-size: 0.9rem; min-width: 40rem; }
+  table.data th, table.data td { text-align: left; vertical-align: top; padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--line); }
+  table.data thead th { background: var(--soft); font-weight: 600; position: sticky; top: 0; }
+  table.data tbody tr:nth-child(even) { background: #fafafa; }
 
-  a {
-    color: var(--link);
-  }
+  /* Listy linkow */
+  ul.links { list-style: none; padding: 0; margin: 0.5rem 0; }
+  ul.links li { display: flex; justify-content: space-between; gap: 1rem; padding: 0.5rem 0; border-bottom: 1px solid var(--line); }
+  ul.links .sub { display: block; color: var(--muted); font-size: 0.875rem; }
+  ul.links .meta { white-space: nowrap; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .more { margin: 0.5rem 0 0; font-weight: 500; }
 
-  ul {
-    margin: 0.5rem 0;
-    padding-left: 1.25rem;
-  }
+  /* Mapa statyczna */
+  .map { position: relative; width: 100%; aspect-ratio: 3 / 2; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--soft); margin: 0.75rem 0 0.25rem; }
+  .map .tiles { position: absolute; display: grid; }
+  .map .tiles img { display: block; width: 100%; height: 100%; }
+  .map svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .map-links { font-size: 0.85rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; margin: 0.25rem 0 0.75rem; }
 
-  dt {
-    font-weight: 600;
-    margin-top: 0.75rem;
-  }
-
-  dd {
-    margin: 0 0 0.5rem;
-    color: var(--muted);
-  }
-
-  .muted {
-    color: var(--muted);
-  }
-
-  table.props {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 0.5rem 0;
-  }
-
-  table.props th,
-  table.props td {
-    text-align: left;
-    padding: 0.35rem 0.75rem 0.35rem 0;
-    border-bottom: 1px solid var(--line);
-    font-weight: 400;
-    vertical-align: top;
-  }
-
-  table.props th {
-    color: var(--muted);
-    width: 45%;
-  }
-
-  .map-embed {
-    position: relative;
-    width: 256px;
-    height: 256px;
-    margin: 0.75rem 0 0.25rem;
-    border: 1px solid var(--line);
-    border-radius: 6px;
-    overflow: hidden;
-  }
-
-  .map-embed img {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-
-  .map-embed .pin {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    margin: -6px 0 0 -6px;
-    border-radius: 50%;
-    background: var(--link);
-    border: 2px solid #fff;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
-  }
-
-  .map-attribution {
-    font-size: 0.75rem;
-    margin: 0 0 0.5rem;
-  }
-
-  .site-footer {
-    max-width: var(--max-width);
-    margin: 3rem auto 0;
-    padding-top: 1rem;
-    border-top: 1px solid var(--line);
-    font-size: 0.85rem;
-  }
-
-  .site-footer nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.5rem 1rem; margin: 1rem 0; padding: 0.75rem 1rem; background: var(--soft); border-radius: 8px; font-size: 0.95rem; }
+  .stats div span { display: block; color: var(--muted); font-size: 0.8rem; }
+  .notice { border-left: 4px solid var(--warn); background: #fff8e6; padding: 0.5rem 0.75rem; margin: 0.75rem 0; font-size: 0.9rem; }
+  .prov { font-size: 0.875rem; color: var(--muted); border-top: 1px solid var(--line); margin-top: 2rem; padding-top: 0.75rem; }
+  .prov dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.2rem 1rem; margin: 0.5rem 0; }
+  .prov dt { font-weight: 500; }
+  .prov dd { margin: 0; }
+  .summary { font-size: 1.05rem; }
+  @media (max-width: 40rem) {
+    table.facts th { width: 45%; }
+    .prov dl { grid-template-columns: 1fr; }
   }
 </style>

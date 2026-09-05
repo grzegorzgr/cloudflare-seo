@@ -1,0 +1,40 @@
+---
+import type { Provenance } from '@generator';
+interface Props {
+  prov: Provenance;
+}
+const { prov } = Astro.props;
+---
+
+<aside class="prov" aria-labelledby="h-zrodlo">
+  <h2 id="h-zrodlo" style="font-size:1rem;border:0;margin:0 0 0.25rem">Źródło i aktualność danych</h2>
+  <dl>
+    <dt>Źródło</dt>
+    <dd>{prov.sourceLabel}</dd>
+    {prov.osmUrl && (
+      <>
+        <dt>Obiekt w OSM</dt>
+        <dd><a href={prov.osmUrl} rel="noopener">{prov.osmLabel}</a></dd>
+      </>
+    )}
+    {prov.lastEdit && (
+      <>
+        <dt>Ostatnia edycja w OSM</dt>
+        <dd>{prov.lastEdit}</dd>
+      </>
+    )}
+    {prov.checkDate && (
+      <>
+        <dt>Zweryfikowano w terenie (check_date)</dt>
+        <dd>{prov.checkDate}</dd>
+      </>
+    )}
+    <dt>Stan bazy gdziemy.pl</dt>
+    <dd>{prov.datasetDate}</dd>
+  </dl>
+  <p>
+    Błąd w danych? {prov.editUrl && <><a href={prov.editUrl} rel="noopener">Popraw obiekt w OpenStreetMap</a> lub </>}
+    <a href={prov.noteUrl} rel="noopener">zgłoś uwagę na mapie</a> – zmiana trafi do serwisu przy kolejnej aktualizacji.
+    Możesz też <a href="/kontakt/">napisać do nas</a>. Zasady przetwarzania opisuje <a href="/metodologia/">metodologia</a>.
+  </p>
+</aside>

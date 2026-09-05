@@ -1,0 +1,30 @@
+---
+import type { Fact } from '@generator';
+interface Props {
+  facts: Fact[];
+  caption?: string;
+}
+const { facts, caption } = Astro.props;
+const isExternal = (href: string) => /^https?:\/\//.test(href);
+---
+
+{facts.length > 0 && (
+  <table class="facts">
+    {caption && <caption class="muted small" style="text-align:left">{caption}</caption>}
+    <tbody>
+      {facts.map((f) => (
+        <tr>
+          <th scope="row">{f.label}</th>
+          <td>
+            {f.href ? (
+              <a href={f.href} rel={isExternal(f.href) ? 'noopener nofollow' : undefined}>{f.value}</a>
+            ) : (
+              f.value
+            )}
+            {f.note && <span class="note">{f.note}</span>}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}

@@ -1,105 +1,99 @@
-// Konfiguracje typ\u00f3w tematycznych. Steruj\u0105 deterministycznym generowaniem stron.
-// Nowy typ = nowa konfiguracja tutaj (bez zmian w logice generatora ani widoku).
+// Konfiguracja typow encji i schematu URL. Jedno zrodlo prawdy dla sciezek.
 
-import type { TypeConfig } from './types.js';
+import type { EntityType } from './types.ts';
 
-export const beachConfig: TypeConfig = {
-  basePath: 'beach',
-  schemaType: 'TouristAttraction',
-  entityNoun: 'pla\u017cy',  keywordNoun: 'plaża',
-  collectionLabel: 'Plaże',
-  nearestPhrase: 'Najbliższa plaża w katalogu',
-  countForms: { few: 'plaże', many: 'plaż' },
-  featureLabels: {
-    parking: 'Parking',
-    toilets: 'Toalety',
-    dog_friendly: 'Przyjazna psom',
-    accessibility: 'Dostępność dla niepełnosprawnych',
-    paid_entry: 'Płatny wstęp',
-    lifeguards: 'Ratownik',
-    lit: 'Oświetlenie',
-    opening_hours: 'Godziny otwarcia',
-    website: 'Strona WWW',
-    phone: 'Telefon',
-  },
-  accessLabels: {
-    public_transport: 'Komunikacja miejska',
-    car_access: 'Dojazd samochodem',
-    bike_access: 'Dojazd rowerem',
-  },
-};
+export interface TypeConfig {
+  type: EntityType;
+  /** Segment URL strony encji: /{basePath}/{slug}/ */
+  basePath: string;
+  /** Strona indeksu kategorii. */
+  indexPath: string;
+  /** Segment podstrony miasta: /city/{miasto}/{citySegment}/ */
+  citySegment: string;
+  label: string; // l.mn., np. "Parkingi"
+  labelOne: string; // l.poj., np. "parking"
+  genitive: string; // dopelniacz l.poj., np. "parkingu"
+  schemaType: string;
+}
 
-export const parkingConfig: TypeConfig = {
-  basePath: 'parking',
-  schemaType: 'ParkingFacility',
-  entityNoun: 'parkingu',
-  keywordNoun: 'parking',
-  collectionLabel: 'Parkingi',
-  nearestPhrase: 'Najbli\u017cszy parking w katalogu',
-  countForms: { few: 'parkingi', many: 'parking\u00f3w' },
-  featureLabels: {
-    paid_entry: 'P\u0142atny',
-    covered: 'Zadaszony',
-    guarded: 'Strze\u017cony',
-    parking: 'Parking',
-    accessibility: 'Miejsca dla niepe\u0142nosprawnych',
-    lit: 'O\u015bwietlenie',
-    park_ride: 'Parkuj i Jed\u017a (P+R)',
-    opening_hours: 'Godziny otwarcia',
-    charge: 'Cennik',
-    website: 'Strona WWW',
-    phone: 'Telefon',
+export const typeConfigs: Record<EntityType, TypeConfig> = {
+  parking: {
+    type: 'parking',
+    basePath: 'parking',
+    indexPath: '/parking/',
+    citySegment: 'parkingi',
+    label: 'Parkingi',
+    labelOne: 'parking',
+    genitive: 'parkingu',
+    schemaType: 'ParkingFacility',
   },
-  accessLabels: {
-    public_transport: 'Komunikacja miejska',
-    car_access: 'Dojazd samochodem',
-    bike_access: 'Dojazd rowerem',
+  trail: {
+    type: 'trail',
+    basePath: 'trail',
+    indexPath: '/trails/',
+    citySegment: 'szlaki',
+    label: 'Szlaki',
+    labelOne: 'szlak',
+    genitive: 'szlaku',
+    schemaType: 'TouristAttraction',
+  },
+  beach: {
+    type: 'beach',
+    basePath: 'beach',
+    indexPath: '/beaches/',
+    citySegment: 'plaze',
+    label: 'Plaże',
+    labelOne: 'plaża',
+    genitive: 'plaży',
+    schemaType: 'Beach',
   },
 };
 
-export const trailConfig: TypeConfig = {
-  basePath: 'trail',
-  schemaType: 'TouristAttraction',
-  entityNoun: 'szlaku',
-  keywordNoun: 'szlak',
-  collectionLabel: 'Szlaki',
-  nearestPhrase: 'Najbli\u017cszy szlak w katalogu',
-  countForms: { few: 'szlaki', many: 'szlak\u00f3w' },
-  featureLabels: {
-    parking: 'Parking przy szlaku',
-    toilets: 'Toalety',
-    dog_friendly: 'Przyjazny psom',
-    accessibility: 'Dost\u0119pno\u015b\u0107 dla niepe\u0142nosprawnych',
-    lit: 'O\u015bwietlenie',
-    bicycle: 'Dost\u0119p rowerem',
-  },
-  accessLabels: {
-    public_transport: 'Komunikacja miejska',
-    car_access: 'Dojazd samochodem',
-    bike_access: 'Dojazd rowerem',
-  },
+export const TYPE_ORDER: EntityType[] = ['parking', 'trail', 'beach'];
+
+export const paths = {
+  home: '/',
+  cities: '/cities/',
+  regions: '/regions/',
+  about: '/o-nas/',
+  contact: '/kontakt/',
+  sources: '/zrodla-danych/',
+  methodology: '/metodologia/',
+  privacy: '/polityka-prywatnosci/',
+  terms: '/regulamin/',
+  entity: (type: EntityType, slug: string) => `/${typeConfigs[type].basePath}/${slug}/`,
+  city: (slug: string) => `/city/${slug}/`,
+  cityType: (slug: string, type: EntityType) => `/city/${slug}/${typeConfigs[type].citySegment}/`,
+  region: (slug: string) => `/region/${slug}/`,
 };
 
-// Warstwa CITY SEED: konfiguracja wezlow-kotwic (anchor nodes).
-// Miasto nie ma wlasnej strony encji [slug] - jest hubem klastra /city/{slug}.
-// Sluzy jako punkt zaczepienia grafu (belongs_to_city / belongs_to_region).
-export const cityConfig: TypeConfig = {
-  basePath: 'city',
-  schemaType: 'City',
-  entityNoun: 'miasta',
-  keywordNoun: 'miasto',
-  collectionLabel: 'Miasta',
-  featureLabels: {},
-  accessLabels: {},
+export const site = {
+  name: 'gdziemy.pl',
+  tagline: 'Parkingi, szlaki i plaże w Polsce — na danych OpenStreetMap',
+  contactEmail: 'contact@digital.gda.pl',
+  /**
+   * Data ostatniej istotnej zmiany szablonow/tresci stron (YYYY-MM-DD).
+   * Sitemap lastmod = max(data edycji obiektu w OSM, ta data). Podbijac przy
+   * zmianach, ktore realnie zmieniaja tresc stron (nie przy kazdym buildzie).
+   */
+  contentVersion: '2026-09-05',
 };
 
-// Rejestr wg klucza typu, u\u017cyteczny do generowania wsadowego.
-// UWAGA: city celowo NIE jest tutaj - nie generuje stron encji [slug],
-// tylko strony klastra /city/{slug} (patrz clusters.ts).
-export const typeConfigs = {
-  beach: beachConfig,
-  parking: parkingConfig,
-  trail: trailConfig,
-} as const;
+/** Glowna nawigacja (naglowek). */
+export const mainNav = [
+  { href: paths.home, label: 'Start' },
+  { href: typeConfigs.parking.indexPath, label: 'Parkingi' },
+  { href: typeConfigs.trail.indexPath, label: 'Szlaki' },
+  { href: typeConfigs.beach.indexPath, label: 'Plaże' },
+  { href: paths.cities, label: 'Miasta' },
+  { href: paths.regions, label: 'Województwa' },
+];
 
-export type EntityType = keyof typeof typeConfigs;
+export const footerNav = [
+  { href: paths.about, label: 'O serwisie' },
+  { href: paths.methodology, label: 'Metodologia' },
+  { href: paths.sources, label: 'Źródła danych' },
+  { href: paths.contact, label: 'Kontakt' },
+  { href: paths.terms, label: 'Regulamin' },
+  { href: paths.privacy, label: 'Polityka prywatności' },
+];

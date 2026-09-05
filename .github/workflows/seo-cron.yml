@@ -1,17 +1,18 @@
-name: SEO Graph Auto Updater
+name: Data refresh (OpenStreetMap)
 
 on:
   schedule:
-    - cron: "0 3 * * *"  # codziennie 03:00 UTC
+    - cron: "0 3 * * 1"  # co tydzien, poniedzialek 03:00 UTC
   workflow_dispatch: {}
 
-# Najmniejsze niezbedne uprawnienia: workflow commituje i pushuje dane do repo.
+# Workflow commituje i pushuje odswiezone dane do repo.
 permissions:
   contents: write
 
 jobs:
-  update-data:
+  refresh-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
 
     steps:
       - name: Checkout repo (master)
@@ -27,16 +28,22 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run GEO data engine (seed + fetch + graph + write)
-        run: npm run geo:ci
+      - name: Seed cities + fetch OSM (Overpass) + build dataset
+        run: npm run data:all -- --refresh
+
+      - name: Unit + data tests
+        run: npm test
 
       - name: Build site
         run: npm run build
+
+      - name: Quality gate (SEO + page quality)
+        run: npm run quality:analyze
 
       - name: Commit changes
         run: |
           git config user.name "seo-bot"
           git config user.email "bot@gdziemy.pl"
-          git add .
-          git diff --cached --quiet || git commit -m "chore: daily SEO graph update"
+          git add packages/data docs/agent/QUALITY_SCORE.md
+          git diff --cached --quiet || git commit -m "chore: weekly OSM data refresh"
           git push origin master

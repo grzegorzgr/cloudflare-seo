@@ -1,0 +1,28 @@
+---
+import type { TableModel } from '@generator';
+interface Props {
+  table: TableModel;
+}
+const { table } = Astro.props;
+---
+
+<section aria-labelledby={`h-${table.id}`} id={table.id}>
+  <h2 id={`h-${table.id}`}>{table.heading}</h2>
+  {table.intro && <p class="muted small">{table.intro}</p>}
+  <div class="table-wrap">
+    <table class="data">
+      <thead>
+        <tr>{table.columns.map((c) => <th scope="col">{c}</th>)}</tr>
+      </thead>
+      <tbody>
+        {table.rows.map((r) => (
+          <tr>
+            {r.cells.map((cell) =>
+              typeof cell === 'string' ? <td>{cell}</td> : <td><a href={cell.href}>{cell.text}</a></td>,
+            )}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</section>

@@ -3,6 +3,8 @@ name: build
 on:
   push:
     branches: [master]
+  pull_request:
+    branches: [master]
 
 permissions:
   contents: read
@@ -22,5 +24,11 @@ jobs:
       - name: Install
         run: npm install
 
+      - name: Tests
+        run: npm test
+
       - name: Build
         run: npm run build
+
+      - name: Quality gate
+        run: npm run quality:analyze

@@ -1,22 +1,9 @@
 ---
-// INDEX: /beaches -> pelna lista plaz pogrupowana wg regionu.
-import beaches from '@data/beaches.json';
-import {
-  beachConfig,
-  buildCategoryIndexModel,
-  indexCategories,
-  type Entity,
-} from '@generator';
-import { seoConfig } from '@config/seo.config.ts';
-import IndexPage from '../components/IndexPage.astro';
+import { buildCategoryIndexModel } from '@generator';
+import { index, siteUrl } from '../lib/data';
+import HubPage from '../components/HubPage.astro';
 
-const model = buildCategoryIndexModel(
-  beaches as Entity[],
-  beachConfig,
-  '/beaches/',
-  indexCategories,
-  seoConfig.siteUrl,
-);
+const model = buildCategoryIndexModel('beach', index, siteUrl);
 ---
 
-<IndexPage {...model} />
+<HubPage model={model} />

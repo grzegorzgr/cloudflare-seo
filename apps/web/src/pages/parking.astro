@@ -1,22 +1,19 @@
 ---
-// INDEX: /parking -> pelna lista parkingow pogrupowana wg regionu.
-import parkings from '@data/parkings.json';
-import {
-  parkingConfig,
-  buildCategoryIndexModel,
-  indexCategories,
-  type Entity,
-} from '@generator';
-import { seoConfig } from '@config/seo.config.ts';
-import IndexPage from '../components/IndexPage.astro';
+import { buildCategoryIndexModel } from '@generator';
+import { index, siteUrl } from '../lib/data';
+import HubPage from '../components/HubPage.astro';
 
-const model = buildCategoryIndexModel(
-  parkings as Entity[],
-  parkingConfig,
-  '/parking/',
-  indexCategories,
-  seoConfig.siteUrl,
-);
+const model = buildCategoryIndexModel('parking', index, siteUrl);
 ---
 
-<IndexPage {...model} />
+<HubPage model={model}>
+  <section aria-labelledby="h-co">
+    <h2 id="h-co">Co oznaczają dane o parkingach</h2>
+    <ul>
+      <li><strong>Rodzaj</strong> – tag <code>parking</code> w OSM: naziemny, podziemny, wielopoziomowy, przyuliczny, na jezdni, na dachu.</li>
+      <li><strong>Opłata</strong> – tag <code>fee</code>; jeśli podano warunki (<code>fee:conditional</code>) lub cennik (<code>charge</code>), pokazujemy je na stronie parkingu. Brak wartości oznacza brak informacji w OSM, nie darmowy parking.</li>
+      <li><strong>Dostęp</strong> – tag <code>access</code>: parkingi prywatne, pracownicze i na przepustkę nie trafiają do tabel „gdzie zaparkować” ani do indeksu wyszukiwarek, ale pozostają w bazie informacyjnie.</li>
+      <li><strong>Odległość od centrum</strong> – w linii prostej od punktu centralnego miasta (współrzędne w bazie miast).</li>
+    </ul>
+  </section>
+</HubPage>

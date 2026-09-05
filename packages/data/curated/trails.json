@@ -1,0 +1,594 @@
+[
+  {
+    "slug": "szlak-grot-mechowskich",
+    "name": "Szlak Grot Mechowskich",
+    "type": "trail",
+    "location": {
+      "city": "gmina Puck",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.737398,
+      "lng": 18.2743819
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "31",
+      "colour_pl": "czarny",
+      "from": "Puck",
+      "to": "Krokowa"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-nadmorski-baltycki",
+    "name": "Szlak Nadmorski Bałtycki",
+    "type": "trail",
+    "location": {
+      "city": "Izbica",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.6703807,
+      "lng": 17.4123288
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "krajowy",
+      "distance": "118.9",
+      "colour_pl": "czerwony"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-zrodla-marii",
+    "name": "Szlak Źródła Marii",
+    "type": "trail",
+    "location": {
+      "city": "Gdynia",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.4446418,
+      "lng": 18.4645584
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "10.5",
+      "colour_pl": "czarny"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-trojmiejski",
+    "name": "Szlak Trójmiejski",
+    "type": "trail",
+    "location": {
+      "city": "Sopot",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.4380596,
+      "lng": 18.537318
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "46.2",
+      "colour_pl": "żółty"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-motlawski",
+    "name": "Szlak Motławski",
+    "type": "trail",
+    "location": {
+      "city": "Grabiny-Zameczek",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.2301955,
+      "lng": 18.7322382
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "35.8"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-kartuski",
+    "name": "Szlak Kartuski",
+    "type": "trail",
+    "location": {
+      "city": "Małkowo",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.3770746,
+      "lng": 18.3608056
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "67"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-wzgorz-szymbarskich",
+    "name": "Szlak Wzgórz Szymbarskich",
+    "type": "trail",
+    "location": {
+      "city": "Grzybno",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.3278225,
+      "lng": 18.2263639
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "126",
+      "colour_pl": "czarny",
+      "from": "Sopot",
+      "to": "Sierakowice"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-skarszewski",
+    "name": "Szlak Skarszewski",
+    "type": "trail",
+    "location": {
+      "city": "Kolbudy",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.2654833,
+      "lng": 18.4596896
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "80.3"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-jantarowy",
+    "name": "Szlak Jantarowy",
+    "type": "trail",
+    "location": {
+      "city": "gmina Sztutowo",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.3616656,
+      "lng": 19.2064765
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "52",
+      "colour_pl": "żółty"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-fortyfikacji-nadmorskich",
+    "name": "Szlak Fortyfikacji Nadmorskich",
+    "type": "trail",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.3675322,
+      "lng": 18.7428443
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "8",
+      "from": "Gdańsk Stogi",
+      "to": "Gdańsk Górki Zachodnie"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-wejherowski",
+    "name": "Szlak Wejherowski",
+    "type": "trail",
+    "location": {
+      "city": "Łężyce",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.5313759,
+      "lng": 18.3911668
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "51",
+      "from": "Sopot-Kamienny Potok",
+      "to": "Wejherowo PKP"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-zagorskiej-strugi",
+    "name": "Szlak Zagórskiej Strugi",
+    "type": "trail",
+    "location": {
+      "city": "Rumia",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.5400779,
+      "lng": 18.3788842
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "56",
+      "colour_pl": "czarny",
+      "from": "Gdynia Wzgórze Św. Maksymiliana",
+      "to": "Wejherowo"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-domow-podcieniowych",
+    "name": "Szlak Domów Podcieniowych",
+    "type": "trail",
+    "location": {
+      "city": "Osice",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.2227618,
+      "lng": 18.8190448
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "20"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-bursztynowy",
+    "name": "Szlak Bursztynowy",
+    "type": "trail",
+    "location": {
+      "city": "gmina Kolbudy",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.2859739,
+      "lng": 18.5562676
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "34.6"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-wyspy-sobieszewskiej",
+    "name": "Szlak Wyspy Sobieszewskiej",
+    "type": "trail",
+    "location": {
+      "city": "Gdańsk",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.34704,
+      "lng": 18.8690966
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "10"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-puszczy-darzlubskiej",
+    "name": "Szlak Puszczy Darżlubskiej",
+    "type": "trail",
+    "location": {
+      "city": "gmina Krokowa",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.7030307,
+      "lng": 18.1590595
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "38"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-krawedzia-kepy-puckiej",
+    "name": "Szlak Krawędzią Kępy Puckiej",
+    "type": "trail",
+    "location": {
+      "city": "gmina Puck",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.6624681,
+      "lng": 18.3503898
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "33.3"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-swarzewski",
+    "name": "Szlak Swarzewski",
+    "type": "trail",
+    "location": {
+      "city": "gmina Puck",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.7550221,
+      "lng": 18.4038909
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "11.9",
+      "colour_pl": "żółty",
+      "from": "Puck",
+      "to": "Władysławowo"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-nadmorski-zatokowy",
+    "name": "Szlak Nadmorski Zatokowy",
+    "type": "trail",
+    "location": {
+      "city": "gmina Władysławowo",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.7578041,
+      "lng": 18.4400639
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "54.2",
+      "colour_pl": "niebieski",
+      "from": "Krokowa",
+      "to": "Jurata"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "leborska-droga-sw-jakuba",
+    "name": "Lęborska Droga św. Jakuba",
+    "type": "trail",
+    "location": {
+      "city": "gmina Nowa Wieś Lęborska",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.5681714,
+      "lng": 17.652292
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "lokalny",
+      "distance": "90"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-doliny-lupawy",
+    "name": "Szlak Doliny Łupawy",
+    "type": "trail",
+    "location": {
+      "city": "gmina Damnica",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.508563,
+      "lng": 17.3625923
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "68",
+      "colour_pl": "niebieski"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-slowincow",
+    "name": "Szlak Słowińców",
+    "type": "trail",
+    "location": {
+      "city": "Smołdzino",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.6969183,
+      "lng": 17.3578389
+    },
+    "attrs": {
+      "route": "hiking",
+      "network_pl": "regionalny",
+      "distance": "39",
+      "colour_pl": "żółty"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "blekitna-trasa-rowerowa",
+    "name": "Błękitna Trasa Rowerowa",
+    "type": "trail",
+    "location": {
+      "city": "Kłosowo",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.4137954,
+      "lng": 18.2705715
+    },
+    "attrs": {
+      "route": "bicycle",
+      "network_pl": "regionalny",
+      "distance": "36.5",
+      "colour_pl": "niebieski"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-pocztyliona",
+    "name": "Szlak Pocztyliona",
+    "type": "trail",
+    "location": {
+      "city": "Gajdy",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 53.8492374,
+      "lng": 19.5343925
+    },
+    "attrs": {
+      "route": "bicycle",
+      "network_pl": "regionalny",
+      "distance": "130",
+      "colour_pl": "żółty"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-trojmiejskiego-parku-krajobrazowego",
+    "name": "Szlak Trójmiejskiego Parku Krajobrazowego",
+    "type": "trail",
+    "location": {
+      "city": "Bojano",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.4879543,
+      "lng": 18.3799883
+    },
+    "attrs": {
+      "route": "bicycle",
+      "network_pl": "regionalny",
+      "distance": "71"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-kamienne-kregi",
+    "name": "Szlak Kamienne Kręgi",
+    "type": "trail",
+    "location": {
+      "city": "gmina Somonino",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.2725889,
+      "lng": 18.2089658
+    },
+    "attrs": {
+      "route": "bicycle",
+      "network_pl": "lokalny",
+      "distance": "37",
+      "colour_pl": "czerwony"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-tczewski",
+    "name": "Szlak Tczewski",
+    "type": "trail",
+    "location": {
+      "city": "Obozin",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.0612492,
+      "lng": 18.5251303
+    },
+    "attrs": {
+      "route": "bicycle",
+      "network_pl": "lokalny",
+      "distance": "80",
+      "colour_pl": "niebieski",
+      "from": "Tczew",
+      "to": "Kościerzyna"
+    },
+    "notes": [],
+    "description": null
+  },
+  {
+    "slug": "szlak-hutniczy",
+    "name": "Szlak Hutniczy",
+    "type": "trail",
+    "location": {
+      "city": "gmina Somonino",
+      "region": "Pomorskie"
+    },
+    "coordinates": {
+      "lat": 54.2407489,
+      "lng": 18.2097295
+    },
+    "attrs": {
+      "route": "bicycle",
+      "network_pl": "lokalny",
+      "distance": "28",
+      "colour_pl": "zielony"
+    },
+    "notes": [],
+    "description": null
+  }
+]

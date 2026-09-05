@@ -2,7 +2,7 @@
   "name": "cloudflare-seo",
   "private": true,
   "version": "0.0.1",
-  "description": "Deterministyczny system Programmatic SEO: dane -> generacja -> statyczne strony -> Cloudflare Pages.",
+  "description": "gdziemy.pl: parkingi, szlaki i plaze w Polsce na danych OpenStreetMap (Astro SSG -> Cloudflare Pages).",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -11,12 +11,17 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "geo:seed": "node scripts/build/seed-cities.mjs",
-    "geo:engine": "node scripts/build/geo-engine.mjs",
-    "geo:build": "node scripts/build/geo-engine.mjs --write",
-    "geo:ci": "node scripts/build/seed-cities.mjs --hubs-only && node scripts/build/geo-engine.mjs --write",
+    "data:seed": "node scripts/build/seed-cities.mjs --hubs-only",
+    "data:fetch": "node scripts/build/fetch-osm.mjs",
+    "data:build": "node scripts/build/geo-engine.mjs --write",
+    "data:all": "npm run data:seed && npm run data:fetch && npm run data:build",
+    "geo:ci": "npm run data:all",
     "build": "npm run build --workspace @cloudflare-seo/web",
     "dev": "npm run dev --workspace @cloudflare-seo/web",
-    "preview": "npm run preview --workspace @cloudflare-seo/web"
+    "preview": "npm run preview --workspace @cloudflare-seo/web",
+    "test": "node --test tests/",
+    "seo:check": "node scripts/quality/analyze.mjs --min-score=0",
+    "quality:analyze": "node scripts/quality/analyze.mjs --min-score=90",
+    "quality": "npm test && npm run build && npm run quality:analyze"
   }
 }

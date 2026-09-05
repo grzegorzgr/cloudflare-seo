@@ -80,3 +80,5 @@ Thumbs.db
 # OPTIONAL: GENERATED SEO OUTPUT (tylko jeśli robisz prebuild strony do repo)
 # =====================
 # dist/
+# Raporty analizatora jakosci (generowane)
+scripts/quality/reports/

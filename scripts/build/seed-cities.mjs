@@ -76,7 +76,7 @@ const CITY_TABLE = {
     ['Dzierżoniów', 50.7276, 16.6516],
     ['Kłodzko', 50.4347, 16.6619],
     ['Karpacz', 50.7783, 15.75, true],
-    ['Szklarska Poręba', 50.8283, 15.5205],
+    ['Szklarska Poręba', 50.8283, 15.5205, true],
   ],
   'Kujawsko-Pomorskie': [
     ['Bydgoszcz', 53.1235, 18.0084, true],
@@ -127,7 +127,7 @@ const CITY_TABLE = {
     ['Zakopane', 49.2992, 19.9496, true],
     ['Wieliczka', 49.9871, 20.0649],
     ['Bochnia', 49.9691, 20.4304],
-    ['Krynica-Zdrój', 49.4218, 20.9576],
+    ['Krynica-Zdrój', 49.4218, 20.9576, true],
   ],
   'Mazowieckie': [
     ['Warszawa', 52.2297, 21.0122, true],
@@ -181,10 +181,10 @@ const CITY_TABLE = {
     ['Pruszcz Gdański', 54.262, 18.635],
     ['Starogard Gdański', 53.966, 18.53],
     ['Słupsk', 54.4641, 17.0287],
-    ['Ustka', 54.5805, 16.8615],
-    ['Łeba', 54.759, 17.554],
-    ['Władysławowo', 54.791, 18.401],
-    ['Hel', 54.608, 18.801],
+    ['Ustka', 54.5805, 16.8615, true],
+    ['Łeba', 54.759, 17.554, true],
+    ['Władysławowo', 54.791, 18.401, true],
+    ['Hel', 54.608, 18.801, true],
   ],
   'Śląskie': [
     ['Katowice', 50.2649, 19.0238, true],
@@ -218,7 +218,7 @@ const CITY_TABLE = {
     ['Giżycko', 54.038, 21.766, true],
     ['Ełk', 53.828, 22.364],
     ['Mrągowo', 53.864, 21.304],
-    ['Mikołajki', 53.802, 21.573],
+    ['Mikołajki', 53.802, 21.573, true],
     ['Ostróda', 53.696, 19.965],
     ['Iława', 53.596, 19.568],
     ['Pisz', 53.627, 21.81],
@@ -247,7 +247,7 @@ const CITY_TABLE = {
     ['Szczecinek', 53.708, 16.698],
     ['Police', 53.5522, 14.5719],
     ['Gryfino', 53.2531, 14.4881],
-    ['Międzyzdroje', 53.9276, 14.4499],
+    ['Międzyzdroje', 53.9276, 14.4499, true],
   ],
 };
 

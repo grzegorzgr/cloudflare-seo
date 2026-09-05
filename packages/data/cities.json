@@ -87,6 +87,35 @@
     "seo": null
   },
   {
+    "id": "szklarska-poreba",
+    "slug": "szklarska-poreba",
+    "type": "city",
+    "name": "Szklarska Poręba",
+    "location": {
+      "city": "Szklarska Poręba",
+      "region": "Dolnośląskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 50.8283,
+      "lng": 15.5205
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
     "id": "bydgoszcz",
     "slug": "bydgoszcz",
     "type": "city",
@@ -302,6 +331,35 @@
     "coordinates": {
       "lat": 49.2992,
       "lng": 19.9496
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "krynica-zdroj",
+    "slug": "krynica-zdroj",
+    "type": "city",
+    "name": "Krynica-Zdrój",
+    "location": {
+      "city": "Krynica-Zdrój",
+      "region": "Małopolskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 49.4218,
+      "lng": 20.9576
     },
     "features": [],
     "amenities": {
@@ -551,6 +609,122 @@
     "seo": null
   },
   {
+    "id": "ustka",
+    "slug": "ustka",
+    "type": "city",
+    "name": "Ustka",
+    "location": {
+      "city": "Ustka",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.5805,
+      "lng": 16.8615
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "leba",
+    "slug": "leba",
+    "type": "city",
+    "name": "Łeba",
+    "location": {
+      "city": "Łeba",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.759,
+      "lng": 17.554
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "wladyslawowo",
+    "slug": "wladyslawowo",
+    "type": "city",
+    "name": "Władysławowo",
+    "location": {
+      "city": "Władysławowo",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.791,
+      "lng": 18.401
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "hel",
+    "slug": "hel",
+    "type": "city",
+    "name": "Hel",
+    "location": {
+      "city": "Hel",
+      "region": "Pomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 54.608,
+      "lng": 18.801
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
     "id": "katowice",
     "slug": "katowice",
     "type": "city",
@@ -725,6 +899,35 @@
     "seo": null
   },
   {
+    "id": "mikolajki",
+    "slug": "mikolajki",
+    "type": "city",
+    "name": "Mikołajki",
+    "location": {
+      "city": "Mikołajki",
+      "region": "Warmińsko-Mazurskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.802,
+      "lng": 21.573
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
     "id": "poznan",
     "slug": "poznan",
     "type": "city",
@@ -853,6 +1056,35 @@
     "coordinates": {
       "lat": 53.91,
       "lng": 14.247
+    },
+    "features": [],
+    "amenities": {
+      "parking": null,
+      "toilets": null,
+      "dog_friendly": null,
+      "accessibility": null,
+      "paid_entry": null
+    },
+    "tags": [
+      "city-hub",
+      "hub"
+    ],
+    "access": null,
+    "seo": null
+  },
+  {
+    "id": "miedzyzdroje",
+    "slug": "miedzyzdroje",
+    "type": "city",
+    "name": "Międzyzdroje",
+    "location": {
+      "city": "Międzyzdroje",
+      "region": "Zachodniopomorskie",
+      "country": "Polska"
+    },
+    "coordinates": {
+      "lat": 53.9276,
+      "lng": 14.4499
     },
     "features": [],
     "amenities": {

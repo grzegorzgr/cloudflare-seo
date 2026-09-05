@@ -1,58 +1,77 @@
 ---
-// Strona "Zrodla danych": atrybucja ODbL (wymog licencji OSM) + opis pipeline.
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { paths, site } from '@generator';
+import { bundle } from '../lib/data';
+
+const m = bundle.meta;
+const crumbs = [{ name: 'Start', href: '/' }, { name: 'Źródła danych', href: paths.sources }];
+const regions = Object.keys(m.sources.pois ?? {}).sort((a, b) => a.localeCompare(b, 'pl'));
 ---
 
 <BaseLayout
-  title="Źródła danych — gdziemy.pl"
-  description="Skąd pochodzą dane katalogu gdziemy.pl: OpenStreetMap (ODbL), zasady aktualizacji i reguła zero zgadywania."
-  canonical="/zrodla-danych/"
+  title={`Źródła danych i licencje – ${site.name}`}
+  description="Skąd pochodzą dane gdziemy.pl: OpenStreetMap (ODbL) przez Overpass API, kafelki map OSM, ręczna lista redakcyjna. Daty pobrania danych dla każdego województwa."
+  canonical={paths.sources}
+  crumbs={crumbs}
 >
-  <main>
-    <article>
-      <header>
-        <h1>Źródła danych</h1>
-      </header>
+  <article>
+    <header><h1>Źródła danych</h1></header>
 
-      <h2>OpenStreetMap</h2>
-      <p>
-        Dane o miejscach (nazwy, współrzędne, adresy, udogodnienia) pochodzą
-        z <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>
-        i są udostępniane na licencji
-        <a href="https://opendatacommons.org/licenses/odbl/" rel="noopener">Open Database License (ODbL)</a>.
-      </p>
-      <p>
-        © autorzy OpenStreetMap. Kafelki map na stronach obiektów pochodzą
-        z serwerów OpenStreetMap.
-      </p>
+    <h2>OpenStreetMap</h2>
+    <p>
+      Dane o parkingach, plażach i szlakach (nazwy, położenie, geometria, tagi) pochodzą z
+      <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> i są udostępnione na licencji
+      <a href="https://opendatacommons.org/licenses/odbl/1-0/" rel="noopener">Open Database License (ODbL) 1.0</a>.
+      © autorzy OpenStreetMap. Pobieramy je przez <a href="https://wiki.openstreetmap.org/wiki/Overpass_API" rel="noopener">Overpass API</a>
+      zapytaniami ograniczonymi do okolic miast z bazy (szczegóły w <a href={paths.methodology}>metodologii</a>).
+    </p>
+    <p>
+      Kafelki map na stronach obiektów pochodzą z serwerów tile.openstreetmap.org (© OpenStreetMap). Mapy są
+      statyczne – strona nie ładuje skryptów map, a kafelki wczytywane są leniwie.
+    </p>
 
-      <h2>Jak przetwarzamy dane</h2>
-      <ul>
-        <li>
-          Pobieramy obiekty z jawnymi tagami (nazwa, typ, położenie) —
-          obiekt bez nazwy nie ma strony w katalogu.
-        </li>
-        <li>
-          Każde pole na stronie odpowiada konkretnemu tagowi w danych
-          źródłowych. Brak tagu = brak informacji na stronie
-          (zasada „zero zgadywania").
-        </li>
-        <li>
-          Odległości („najbliższy parking", „w pobliżu") wyliczamy
-          geometrycznie ze współrzędnych (haversine).
-        </li>
-        <li>
-          Duplikaty (ten sam obiekt z różnych zapytań) są scalane
-          automatycznie po identyfikatorze OSM, nazwie i współrzędnych.
-        </li>
-      </ul>
+    <h2>Lista redakcyjna</h2>
+    <p>
+      Niewielki zbiór wpisów (plaże, parkingi i szlaki na wybrzeżu Pomorza) utrzymujemy ręcznie w
+      repozytorium projektu. Takie strony są oznaczone jako „lista redakcyjna gdziemy.pl”. Jeśli w OSM istnieje
+      ten sam obiekt, dane są łączone i oznaczone jako „lista redakcyjna + OpenStreetMap”.
+    </p>
 
-      <h2>Aktualność</h2>
-      <p>
-        Katalog jest odświeżany automatycznie. Jeżeli dane o miejscu są
-        nieaktualne, poprawka w OpenStreetMap trafi do katalogu przy
-        kolejnej aktualizacji — albo <a href="/kontakt/">napisz do nas</a>.
-      </p>
-    </article>
-  </main>
+    <h2>Baza miast i województw</h2>
+    <p>
+      Lista {m.counts.hubs} miast i 16 województw z współrzędnymi punktów centralnych jest utrzymywana w kodzie
+      projektu. Współrzędne są publicznymi faktami geograficznymi i służą wyłącznie jako punkty odniesienia
+      (promień pobierania danych, odległość „od centrum”).
+    </p>
+
+    <h2>Daty pobrania danych</h2>
+    <p class="muted small">Stan bazy gdziemy.pl: {m.generatedAt}. Znacznik czasu bazy OSM (osm_base) dla ostatniego zapytania per województwo:</p>
+    <div class="table-wrap">
+      <table class="data" style="min-width:0">
+        <thead><tr><th>Województwo</th><th>Parkingi i plaże</th><th>Szlaki</th></tr></thead>
+        <tbody>
+          {regions.map((r) => (
+            <tr>
+              <td>{r}</td>
+              <td>{m.sources.pois?.[r]?.osmBase?.slice(0, 16).replace('T', ' ') ?? '—'} ({m.sources.pois?.[r]?.elements ?? 0} obiektów)</td>
+              <td>{m.sources.routes?.[r]?.osmBase?.slice(0, 16).replace('T', ' ') ?? '—'} ({m.sources.routes?.[r]?.elements ?? 0} relacji)</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Poprawianie danych</h2>
+    <p>
+      Najskuteczniej jest poprawić obiekt bezpośrednio w OpenStreetMap – każda strona obiektu ma link
+      „Popraw obiekt w OpenStreetMap” oraz „zgłoś uwagę na mapie”. Zmiany trafiają do serwisu przy kolejnej
+      aktualizacji. W sprawach dotyczących serwisu: <a href={paths.contact}>kontakt</a>.
+    </p>
+
+    <h2>Wykorzystanie danych z serwisu</h2>
+    <p>
+      Dane pochodne (odległości, długości, relacje) są udostępniane na tych samych zasadach co źródło
+      (ODbL). Przy dalszym wykorzystaniu należy zachować atrybucję „© autorzy OpenStreetMap”.
+    </p>
+  </article>
 </BaseLayout>

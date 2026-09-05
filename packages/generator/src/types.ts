@@ -1,28 +1,34 @@
-// Wsp\u00f3lne typy dla wszystkich encji SEO (beach, parking, trail).
-// Kszta\u0142t danych jest jednolity niezale\u017cnie od typu tematycznego.
+// Typy danych (packages/data) i kontrakt modeli widoku.
+// Dane sa generowane przez scripts/build/geo-engine.mjs; widok (Astro) renderuje
+// wylacznie gotowe modele z tego pakietu. Zero logiki danych w widoku.
 
-// Udogodnienia jako s\u0142ownik flag (boolean | string | null).
-// null = brak danych (zasada: nie zgaduj).
-export interface EntityAmenities {
-  [key: string]: boolean | string | null;
+export type EntityType = 'parking' | 'beach' | 'trail';
+
+export interface LatLng {
+  lat: number;
+  lng: number;
 }
 
-export interface EntityAccess {
-  [key: string]: boolean | null;
-}
-
-export interface EntityFaqItem {
-  q: string;
-  a: string;
+/** Referencja do obiektu OSM + metadane edycji (provenance). */
+export interface OsmRef {
+  type: 'node' | 'way' | 'relation';
+  id: number;
+  /** Data ostatniej edycji obiektu w OSM (ISO). */
+  timestamp: string | null;
+  version: number | null;
+  /** Tag check_date / survey:date — data weryfikacji w terenie. */
+  checkDate: string | null;
 }
 
 export interface EntityLocation {
-  city?: string | null;
-  region?: string | null;
-  country?: string | null;
+  /** Miejscowosc: jawny addr:city albo miasto-hub, gdy obiekt lezy blisko (<=12 km). */
+  city: string | null;
+  region: string | null;
+  /** Slug miasta-huba (strona /city/{hub}/), null gdy poza zasiegiem hubow. */
+  hubSlug: string | null;
+  hubDistanceKm: number | null;
 }
 
-// Adres strukturalny wywiedziony wyłącznie z tagów OSM addr:* (zero inference).
 export interface EntityAddress {
   street?: string | null;
   housenumber?: string | null;
@@ -30,143 +36,222 @@ export interface EntityAddress {
   city?: string | null;
 }
 
-export interface EntityCoordinates {
-  lat: number | null;
-  lng: number | null;
+/** Powiazanie przestrzenne: klucz "type/slug" + odleglosc (km, null dla relacji hierarchicznych). */
+export interface RelItem {
+  key: string;
+  km: number | null;
 }
 
-export interface EntitySeo {
-  h1?: string;
-  title?: string;
-  description?: string;
+export interface EntityRel {
+  parkings: RelItem[];
+  beaches: RelItem[];
+  trails: RelItem[];
+  cities: RelItem[];
+  /** Szlaki skladowe (superroute -> czlony). */
+  parts?: RelItem[];
+  /** Szlaki nadrzedne. */
+  parents?: RelItem[];
 }
+
+/** Wyniki obliczen geometrycznych dla szlaku (OSM relation route=*). */
+export interface TrailComputed {
+  lengthKm: number | null;
+  wayCount: number;
+  isLoop: boolean;
+  /** Przebieg w OSM sklada sie z rozlacznych czesci (po sklejeniu luk < 120 m). */
+  fragmented: boolean;
+  /** Jeden spojny przebieg z odgalezieniami (wiecej niz 2 konce). */
+  branched?: boolean;
+  superroute: boolean;
+  start: LatLng | null;
+  end: LatLng | null;
+  /** [minLat, minLng, maxLat, maxLng] */
+  bbox: number[] | null;
+  pointCount: number;
+}
+
+export type AttrValue = string | string[];
 
 export interface Entity {
-  id?: string;
   slug: string;
   name: string;
-  type?: string;
-  /** Identyfikator OSM (np. "node/123"), jesli encja pochodzi z OpenStreetMap. */
-  osmId?: string | null;
-  seo?: EntitySeo | null;
-  location?: EntityLocation;
-  /** Adres strukturalny (addr:* z OSM). null = brak danych. */
-  address?: EntityAddress | null;
-  coordinates?: EntityCoordinates;
-  description?: string | null;
-  features?: string[];
-  amenities?: EntityAmenities;
-  tags?: string[];
-  access?: EntityAccess | null;
-  faq?: EntityFaqItem[];
-  /**
-   * Graf GEO: precomputed adjacency z geo-engine (budowany w czasie builda).
-   * nearby = lista kluczy cross-type, np. ["beach/brzezno", "trail/szlak-x"].
-   */
-  graph?: {
-    nearby?: string[];
-  } | null;
+  type: EntityType;
+  source: 'osm' | 'curated' | 'curated+osm';
+  osm: OsmRef | null;
+  location: EntityLocation;
+  address: EntityAddress | null;
+  coordinates: LatLng;
+  /** Opis z tagu OSM `description` albo z pliku curated. Nigdy generowany. */
+  description: string | null;
+  /** Krotkie notatki redakcyjne (curated). */
+  notes: string[];
+  /** Surowe wartosci tagow OSM (klucze znormalizowane), tlumaczone dopiero w widoku. */
+  attrs: Record<string, AttrValue>;
+  computed?: TrailComputed | null;
+  rel: EntityRel;
 }
 
-// Para encji + jej konfiguracja typu. Podstawowa jednostka rejestru danych
-// uzywana przez sitemap, cluster, graph i nearby (cross-type).
-export interface Dataset {
-  entities: Entity[];
-  config: TypeConfig;
-}
-
-// Konfiguracja per typ tematyczny. Steruje deterministycznie:
-// - typem schema.org (@type),
-// - etykietami cech (klucz -> tekst PL),
-// - rzeczownikiem u\u017cywanym w automatycznie generowanym FAQ.
-export interface TypeConfig {
-  /** Bazowa \u015bcie\u017cka routingu, np. "beach" -> /beach/[slug]. */
-  basePath: string;
-  /** schema.org @type, np. "Beach", "ParkingFacility", "TouristAttraction". */
-  schemaType: string;
-  /** Mapowanie kluczy cech na etykiety wy\u015bwietlane u\u017cytkownikowi. */
-  featureLabels: Record<string, string>;
-  /** Mapowanie kluczy dost\u0119pu (access) na etykiety, np. public_transport -> Komunikacja miejska. */
-  accessLabels?: Record<string, string>;
-  /** Rzeczownik w dope\u0142niaczu do generowanego FAQ i sekcji intent, np. "pla\u017cy", "parkingu", "szlaku". */
-  entityNoun: string;  /** Rzeczownik w mianowniku (l. poj.) do keyword mappingu, np. "plaża", "parking", "szlak". */
-  keywordNoun: string;
-  /** Etykieta kolekcji (l. mn.) do stron cluster, np. "Plaże", "Parkingi", "Szlaki". */
-  collectionLabel: string;
-  /** Fraza "najbliższy X w katalogu" (z poprawnym rodzajem) do zdań z grafu GEO. */
-  nearestPhrase?: string;
-  /** Formy liczebnikowe rzeczownika: few (2-4, np. "plaże"), many (5+, np. "plaż"). */
-  countForms?: { few: string; many: string };}
-
-// Znormalizowany, gotowy do renderowania model strony.
-// Warstwa widoku (Astro) nie zawiera \u017cadnej logiki poza wy\u015bwietleniem.
-export interface FeatureView {
-  label: string;
-  value: boolean | string;
-}
-
-export interface LocationView {
-  city: string;
-  region: string;
-  country: string;
-}
-
-// Sformatowany adres gotowy do renderowania. null-owe pola pomijane w formatted.
-export interface AddressView {
-  street: string | null;
-  housenumber: string | null;
-  postcode: string | null;
-  city: string | null;
-  /** Jednoliniowy adres, np. "Aleja Krakowska 100, 02-256 Warszawa". */
-  formatted: string;
-}
-
-// Link do pokrewnej encji (ten sam typ i region). Budowany 1:1 z danych.
-export interface NearbyLink {
-  href: string;
-  label: string;
-  city: string;
-  /** Typ encji docelowej (basePath), np. "beach". */
-  type?: string;
-  /** Odleglosc w km od encji zrodlowej, jesli obie maja wspolrzedne. */
-  distanceKm?: number | null;
-}
-
-/** Link do kolekcji (collection page). */
-export interface CollectionRef {
-  href: string;
-  label: string;
-  count: number;
-}
-
-export interface PageModel {
+export interface CitySeed {
   slug: string;
-  type: string;
-  h1: string;
-  pageTitle: string;
-  metaDescription: string;
+  name: string;
+  type: 'city';
+  location: { city: string; region: string; country?: string };
+  coordinates: LatLng;
+  tags: string[];
+}
+
+export interface RegionSeed {
+  region: string;
+  slug: string;
+  capital: string;
+  coordinates: LatLng;
+  citySeeds: number;
+}
+
+export interface DatasetMeta {
+  version: number;
+  generatedAt: string;
+  osmDataFrom: string | null;
+  osmDataTo: string | null;
+  counts: Record<string, number>;
+  sources: Record<string, Record<string, { fetchedAt: string; osmBase: string | null; elements: number }>>;
+  curatedMerged?: number;
+}
+
+export interface TrailGeometry {
+  bbox: number[] | null;
+  lines: [number, number][][];
+}
+
+/** Komplet danych wczytany raz na build. */
+export interface DataBundle {
+  parkings: Entity[];
+  beaches: Entity[];
+  trails: Entity[];
+  cities: CitySeed[];
+  regions: RegionSeed[];
+  meta: DatasetMeta;
+  geometry: Record<string, TrailGeometry>;
+}
+
+// --- Modele widoku ------------------------------------------------------------
+
+export interface Crumb {
+  name: string;
+  href: string;
+}
+
+export interface Fact {
+  label: string;
+  value: string;
+  href?: string;
+  /** Dodatkowy kontekst, np. surowy zapis OSM albo "wartosc obliczona". */
+  note?: string;
+}
+
+export interface FactGroup {
+  heading: string;
+  facts: Fact[];
+}
+
+export interface LinkItem {
+  href: string;
+  title: string;
+  /** Krotka informacja pod tytulem (np. miasto, typ). */
+  sub?: string;
+  /** Wartosc po prawej (np. odleglosc, dlugosc). */
+  meta?: string;
+}
+
+export interface Section {
+  id: string;
+  heading: string;
+  intro?: string;
+  items: LinkItem[];
+  more?: { href: string; label: string };
+}
+
+export interface TableModel {
+  id: string;
+  heading: string;
+  intro?: string;
+  columns: string[];
+  rows: { cells: (string | { href: string; text: string })[] }[];
+}
+
+export interface StaticMapModel {
+  zoom: number;
+  cols: number;
+  rows: number;
+  /** URL kafelkow wiersz po wierszu. */
+  tiles: string[][];
+  widthPx: number;
+  heightPx: number;
+  pin: { x: number; y: number } | null;
+  /** Sciezki SVG (atrybut d) w pikselach mapy. */
+  paths: string[];
+  markers: { x: number; y: number; label: string }[];
+  osmUrl: string;
+  googleUrl: string;
+  alt: string;
+}
+
+export interface Provenance {
+  sourceLabel: string;
+  osmUrl: string | null;
+  osmLabel: string | null;
+  lastEdit: string | null;
+  checkDate: string | null;
+  datasetDate: string;
+  editUrl: string | null;
+  noteUrl: string | null;
+}
+
+export interface QualityAssessment {
+  score: number;
+  indexable: boolean;
+  verdict: 'INDEX' | 'IMPROVE' | 'NOINDEX';
+  reasons: string[];
+  factCount: number;
+}
+
+export interface PlaceModel {
+  type: EntityType;
+  slug: string;
   canonical: string;
-  /** true, gdy encja nie ma opisu ani zadnej wypelnionej cechy (thin content). */
-  noindex: boolean;
-  intent: string;
-  keywords: string[];
-  facts: string[];
-  /** Zdania faktograficzne wyprowadzone deterministycznie z grafu GEO (unikalne per strona). */
-  derivedFacts: string[];
-  /** Statyczny kafelek mapy OSM + pozycja pinezki (w %), null gdy brak współrzędnych. */
-  mapTile: { url: string; pinXPct: number; pinYPct: number } | null;
-  features: FeatureView[];
-  access: FeatureView[];
-  location: LocationView;
-  /** Adres strukturalny z danych OSM (addr:*), null gdy brak. */
-  address: AddressView | null;
-  /** Link do Google Maps wywiedziony ze współrzędnych, null gdy brak. */
-  googleMapsUrl: string | null;
-  faq: EntityFaqItem[];
-  nearby: NearbyLink[];
-  /** W pobliżu: cross-type encje z entity.graph.nearby (precomputed). */
-  nearbyPlaces: NearbyLink[];
-  /** Kolekcje, do których należy ta encja. */
-  collections: CollectionRef[];
-  jsonLd: Record<string, unknown>;
+  title: string;
+  metaDescription: string;
+  h1: string;
+  subtitle: string;
+  robots: 'index' | 'noindex';
+  crumbs: Crumb[];
+  /** 1-3 zdania zlozone wylacznie z danych (bez przymiotnikow oceniajacych). */
+  summary: string[];
+  facts: Fact[];
+  factGroups: FactGroup[];
+  description: string | null;
+  notes: string[];
+  notices: string[];
+  map: StaticMapModel | null;
+  sections: Section[];
+  tables: TableModel[];
+  provenance: Provenance;
+  jsonLd: Record<string, unknown>[];
+  quality: QualityAssessment;
+}
+
+export interface HubModel {
+  canonical: string;
+  title: string;
+  metaDescription: string;
+  h1: string;
+  subtitle?: string;
+  robots: 'index' | 'noindex';
+  crumbs: Crumb[];
+  intro: string[];
+  stats: Fact[];
+  map: StaticMapModel | null;
+  sections: Section[];
+  tables: TableModel[];
+  jsonLd: Record<string, unknown>[];
 }

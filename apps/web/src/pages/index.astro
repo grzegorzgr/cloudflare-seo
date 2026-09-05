@@ -1,33 +1,23 @@
 ---
-// HOME (GEO GRAPH INDEX NODE) -> "/". Root grafu SEO.
-// Sekcje: Regiony / Miasta-huby / Kategorie. Wszystko z /packages/data.
-import beaches from '@data/beaches.json';
-import parkings from '@data/parkings.json';
-import trails from '@data/trails.json';
-import cities from '@data/cities.json';
-import {
-  beachConfig,
-  parkingConfig,
-  trailConfig,
-  buildHomeModel,
-  indexCategories,
-  type Entity,
-} from '@generator';
-import { seoConfig } from '@config/seo.config.ts';
-import IndexPage from '../components/IndexPage.astro';
+import { buildHomeModel } from '@generator';
+import { index, siteUrl } from '../lib/data';
+import HubPage from '../components/HubPage.astro';
 
-const datasets = [
-  { entities: beaches as Entity[], config: beachConfig },
-  { entities: parkings as Entity[], config: parkingConfig },
-  { entities: trails as Entity[], config: trailConfig },
-];
-
-const model = buildHomeModel(
-  datasets,
-  cities as Entity[],
-  indexCategories,
-  seoConfig.siteUrl,
-);
+const model = buildHomeModel(index, siteUrl);
 ---
 
-<IndexPage {...model} />
+<HubPage model={model}>
+  <section aria-labelledby="h-jak">
+    <h2 id="h-jak">Jak korzystać z serwisu</h2>
+    <ul>
+      <li><strong>Szukasz parkingu?</strong> Wejdź na stronę miasta i przejdź do tabeli parkingów: posortowana od centrum, z liczbą miejsc, opłatą, godzinami i filtrami (P+R, bezpłatne, całodobowe, podziemne, ładowanie EV). Każdy parking ma mapę, dojazd i porównanie z parkingami w promieniu 2 km.</li>
+      <li><strong>Planujesz wycieczkę rowerową lub pieszą?</strong> Strona szlaku pokazuje długość policzoną z przebiegu, szacowany czas, oznakowanie, mapę trasy, parkingi przy szlaku oraz szlaki, z którymi się łączy.</li>
+      <li><strong>Jedziesz na plażę?</strong> Strona plaży zestawia informacje o ratownikach i psach (jeśli zapisano je w OSM) z nazwanymi parkingami w promieniu 1,5 km.</li>
+    </ul>
+    <p class="muted small">
+      Serwis nie zastępuje informacji operatora: godziny i cenniki zmieniają się, a dane w OpenStreetMap
+      aktualizują wolontariusze. Każda strona podaje datę ostatniej edycji obiektu w OSM i link do jego poprawienia.
+      Zobacz <a href="/metodologia/">metodologię</a> i <a href="/zrodla-danych/">źródła danych</a>.
+    </p>
+  </section>
+</HubPage>
