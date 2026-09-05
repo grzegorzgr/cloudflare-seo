@@ -19,7 +19,7 @@
     "build": "npm run build --workspace @cloudflare-seo/web",
     "dev": "npm run dev --workspace @cloudflare-seo/web",
     "preview": "npm run preview --workspace @cloudflare-seo/web",
-    "test": "node --test tests/",
+    "test": "node --test tests/*.test.mjs",
     "seo:check": "node scripts/quality/analyze.mjs --min-score=0",
     "quality:analyze": "node scripts/quality/analyze.mjs --min-score=90",
     "quality": "npm test && npm run build && npm run quality:analyze"
