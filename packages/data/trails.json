@@ -7089,8 +7089,8 @@
   "osm": {
    "type": "relation",
    "id": 15861742,
-   "timestamp": "2026-07-03T06:20:58Z",
-   "version": 66,
+   "timestamp": "2026-09-06T12:45:22Z",
+   "version": 67,
    "checkDate": null
   },
   "location": {
@@ -7114,7 +7114,7 @@
   },
   "computed": {
    "lengthKm": 86.4,
-   "wayCount": 332,
+   "wayCount": 333,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -7127,7 +7127,7 @@
     53.13219,
     18.09138
    ],
-   "pointCount": 775
+   "pointCount": 777
   },
   "rel": {
    "parkings": [
@@ -15610,8 +15610,8 @@
   "osm": {
    "type": "relation",
    "id": 7513326,
-   "timestamp": "2026-08-26T23:43:10Z",
-   "version": 29,
+   "timestamp": "2026-09-06T13:31:57Z",
+   "version": 30,
    "checkDate": null
   },
   "location": {
@@ -15637,7 +15637,7 @@
   },
   "computed": {
    "lengthKm": 19.1,
-   "wayCount": 69,
+   "wayCount": 70,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -15650,7 +15650,7 @@
     50.89242,
     20.5943
    ],
-   "pointCount": 168
+   "pointCount": 169
   },
   "rel": {
    "parkings": [
@@ -17318,11 +17318,11 @@
      "km": 1.3
     },
     {
-     "key": "parking/dla-klientow-pati-i-maks-571017129",
+     "key": "parking/parking-hotelu-mercure-775602018",
      "km": 1.4
     },
     {
-     "key": "parking/parking-dla-uczestnikow-nabozenstw-30662512",
+     "key": "parking/dla-klientow-pati-i-maks-571017129",
      "km": 1.4
     }
    ],
@@ -17705,8 +17705,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.24331,
-   "lng": 19.97229
+   "lat": 50.24332,
+   "lng": 19.9723
   },
   "description": null,
   "notes": [],
@@ -20492,8 +20492,8 @@
   "osm": {
    "type": "relation",
    "id": 11063636,
-   "timestamp": "2026-09-01T07:24:47Z",
-   "version": 185,
+   "timestamp": "2026-09-07T07:13:47Z",
+   "version": 186,
    "checkDate": null
   },
   "location": {
@@ -20518,7 +20518,7 @@
   },
   "computed": {
    "lengthKm": 207.3,
-   "wayCount": 946,
+   "wayCount": 939,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -20531,7 +20531,7 @@
     50.07287,
     22.94534
    ],
-   "pointCount": 2287
+   "pointCount": 2274
   },
   "rel": {
    "parkings": [
@@ -22061,8 +22061,8 @@
   "osm": {
    "type": "relation",
    "id": 14892269,
-   "timestamp": "2026-04-09T15:39:24Z",
-   "version": 8,
+   "timestamp": "2026-09-06T21:37:03Z",
+   "version": 9,
    "checkDate": null
   },
   "location": {
@@ -22086,7 +22086,7 @@
   },
   "computed": {
    "lengthKm": 28.2,
-   "wayCount": 69,
+   "wayCount": 70,
    "isLoop": false,
    "fragmented": false,
    "branched": true,
@@ -22105,7 +22105,7 @@
     53.21037,
     17.89758
    ],
-   "pointCount": 179
+   "pointCount": 181
   },
   "rel": {
    "parkings": [],
@@ -22233,8 +22233,8 @@
   "osm": {
    "type": "relation",
    "id": 1983045,
-   "timestamp": "2026-09-02T20:00:50Z",
-   "version": 478,
+   "timestamp": "2026-09-06T12:07:13Z",
+   "version": 479,
    "checkDate": null
   },
   "location": {
@@ -22262,7 +22262,7 @@
   },
   "computed": {
    "lengthKm": 385.5,
-   "wayCount": 1295,
+   "wayCount": 1296,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -22275,7 +22275,7 @@
     54.46297,
     14.22958
    ],
-   "pointCount": 3144
+   "pointCount": 3146
   },
   "rel": {
    "parkings": [
@@ -22371,7 +22371,7 @@
    "website": "https://www.era-ewv-ferp.org/e-paths/e11/"
   },
   "computed": {
-   "lengthKm": 1236.3,
+   "lengthKm": 1236.4,
    "wayCount": 3195,
    "isLoop": false,
    "fragmented": true,
@@ -22842,8 +22842,8 @@
   "osm": {
    "type": "relation",
    "id": 1981340,
-   "timestamp": "2026-09-01T17:43:50Z",
-   "version": 405,
+   "timestamp": "2026-09-06T09:59:56Z",
+   "version": 407,
    "checkDate": null
   },
   "location": {
@@ -22854,8 +22854,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 48.93066,
-   "lng": 21.33704
+   "lat": 48.93065,
+   "lng": 21.36155
   },
   "description": null,
   "notes": [],
@@ -22870,8 +22870,8 @@
    "website": "http://www.era-ewv-ferp.com/index.php?topmenu_id=29&id=29&page_id=102&module=text"
   },
   "computed": {
-   "lengthKm": 290.2,
-   "wayCount": 576,
+   "lengthKm": 298.9,
+   "wayCount": 604,
    "isLoop": false,
    "fragmented": false,
    "branched": true,
@@ -22882,15 +22882,15 @@
    },
    "end": {
     "lat": 48.40039,
-    "lng": 21.66686
+    "lng": 21.66683
    },
    "bbox": [
-    48.40039,
+    48.40038,
     20.97538,
     49.46092,
-    21.69869
+    21.74773
    ],
-   "pointCount": 2097
+   "pointCount": 2203
   },
   "rel": {
    "parkings": [],
@@ -26180,8 +26180,8 @@
   "osm": {
    "type": "relation",
    "id": 12709949,
-   "timestamp": "2026-08-26T08:24:42Z",
-   "version": 206,
+   "timestamp": "2026-09-06T12:45:22Z",
+   "version": 208,
    "checkDate": null
   },
   "location": {
@@ -26424,8 +26424,8 @@
   "osm": {
    "type": "relation",
    "id": 18030822,
-   "timestamp": "2025-12-31T22:39:05Z",
-   "version": 12,
+   "timestamp": "2026-09-06T12:45:22Z",
+   "version": 13,
    "checkDate": null
   },
   "location": {
@@ -26436,7 +26436,7 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 53.00622,
+   "lat": 53.00621,
    "lng": 17.97554
   },
   "description": null,
@@ -26453,7 +26453,7 @@
   },
   "computed": {
    "lengthKm": 5.4,
-   "wayCount": 23,
+   "wayCount": 24,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -26466,7 +26466,7 @@
     53.06051,
     18.02993
    ],
-   "pointCount": 46
+   "pointCount": 48
   },
   "rel": {
    "parkings": [],
@@ -29534,7 +29534,7 @@
     },
     {
      "key": "trail/kielce-szlak-miejski-13728764",
-     "km": 0.16
+     "km": 0.15
     },
     {
      "key": "trail/green-velo-lacznik-501-8748314",
@@ -32067,8 +32067,8 @@
   "osm": {
    "type": "relation",
    "id": 1928176,
-   "timestamp": "2026-08-15T13:50:28Z",
-   "version": 143,
+   "timestamp": "2026-09-06T13:45:24Z",
+   "version": 144,
    "checkDate": null
   },
   "location": {
@@ -32094,8 +32094,8 @@
    "website": "https://www.naturfreunde-sh.de/hanseatenweg.html"
   },
   "computed": {
-   "lengthKm": 65.6,
-   "wayCount": 286,
+   "lengthKm": 65.5,
+   "wayCount": 287,
    "isLoop": false,
    "fragmented": false,
    "branched": true,
@@ -32114,7 +32114,7 @@
     54.09547,
     14.25916
    ],
-   "pointCount": 634
+   "pointCount": 637
   },
   "rel": {
    "parkings": [
@@ -39606,8 +39606,8 @@
   "osm": {
    "type": "relation",
    "id": 13728764,
-   "timestamp": "2026-09-02T12:13:50Z",
-   "version": 66,
+   "timestamp": "2026-09-06T14:04:20Z",
+   "version": 67,
    "checkDate": null
   },
   "location": {
@@ -39633,7 +39633,7 @@
   },
   "computed": {
    "lengthKm": 7.6,
-   "wayCount": 231,
+   "wayCount": 232,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -39646,7 +39646,7 @@
     50.87471,
     20.63711
    ],
-   "pointCount": 462
+   "pointCount": 464
   },
   "rel": {
    "parkings": [
@@ -39707,7 +39707,7 @@
     },
     {
      "key": "trail/green-velo-lacznik-502-8748654",
-     "km": 0.16
+     "km": 0.15
     }
    ],
    "cities": [
@@ -43671,7 +43671,7 @@
    "colour": "green"
   },
   "computed": {
-   "lengthKm": 3.8,
+   "lengthKm": 3.7,
    "wayCount": 19,
    "isLoop": false,
    "fragmented": false,
@@ -48383,8 +48383,8 @@
   "osm": {
    "type": "relation",
    "id": 171044,
-   "timestamp": "2026-09-01T07:03:05Z",
-   "version": 250,
+   "timestamp": "2026-09-07T06:23:57Z",
+   "version": 251,
    "checkDate": null
   },
   "location": {
@@ -48408,7 +48408,7 @@
   },
   "computed": {
    "lengthKm": 229.8,
-   "wayCount": 408,
+   "wayCount": 410,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -48421,7 +48421,7 @@
     52.25194,
     19.57461
    ],
-   "pointCount": 1005
+   "pointCount": 1009
   },
   "rel": {
    "parkings": [],
@@ -58237,8 +58237,8 @@
   "osm": {
    "type": "relation",
    "id": 20242380,
-   "timestamp": "2026-09-01T22:13:56Z",
-   "version": 11,
+   "timestamp": "2026-09-06T12:45:22Z",
+   "version": 12,
    "checkDate": null
   },
   "location": {
@@ -58266,7 +58266,7 @@
   },
   "computed": {
    "lengthKm": 53.8,
-   "wayCount": 148,
+   "wayCount": 150,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -58279,7 +58279,7 @@
     53.08735,
     18.09176
    ],
-   "pointCount": 371
+   "pointCount": 375
   },
   "rel": {
    "parkings": [],
@@ -62464,8 +62464,8 @@
   "osm": {
    "type": "relation",
    "id": 18617525,
-   "timestamp": "2026-09-02T20:00:50Z",
-   "version": 78,
+   "timestamp": "2026-09-06T12:07:13Z",
+   "version": 79,
    "checkDate": null
   },
   "location": {
@@ -62494,7 +62494,7 @@
   },
   "computed": {
    "lengthKm": 385.1,
-   "wayCount": 1296,
+   "wayCount": 1297,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -62507,7 +62507,7 @@
     54.46297,
     14.22958
    ],
-   "pointCount": 3141
+   "pointCount": 3143
   },
   "rel": {
    "parkings": [
@@ -65487,8 +65487,8 @@
   "osm": {
    "type": "relation",
    "id": 2372927,
-   "timestamp": "2026-07-15T08:34:33Z",
-   "version": 354,
+   "timestamp": "2026-09-06T18:56:33Z",
+   "version": 355,
    "checkDate": null
   },
   "location": {
@@ -65514,7 +65514,7 @@
   },
   "computed": {
    "lengthKm": 169,
-   "wayCount": 566,
+   "wayCount": 567,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -65527,7 +65527,7 @@
     52.58382,
     17.22817
    ],
-   "pointCount": 1329
+   "pointCount": 1331
   },
   "rel": {
    "parkings": [
@@ -91314,8 +91314,8 @@
   "osm": {
    "type": "relation",
    "id": 17283743,
-   "timestamp": "2026-09-04T16:35:33Z",
-   "version": 19,
+   "timestamp": "2026-09-06T21:26:37Z",
+   "version": 20,
    "checkDate": null
   },
   "location": {
@@ -91341,7 +91341,7 @@
   },
   "computed": {
    "lengthKm": 96.7,
-   "wayCount": 196,
+   "wayCount": 197,
    "isLoop": true,
    "fragmented": false,
    "branched": false,
@@ -92537,8 +92537,8 @@
   "osm": {
    "type": "relation",
    "id": 17748028,
-   "timestamp": "2026-08-22T09:24:58Z",
-   "version": 46,
+   "timestamp": "2026-09-05T20:29:53Z",
+   "version": 47,
    "checkDate": null
   },
   "location": {
@@ -92562,7 +92562,7 @@
   },
   "computed": {
    "lengthKm": 250.5,
-   "wayCount": 685,
+   "wayCount": 686,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -92575,7 +92575,7 @@
     49.43678,
     21.23395
    ],
-   "pointCount": 2032
+   "pointCount": 2034
   },
   "rel": {
    "parkings": [
@@ -106612,8 +106612,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 53.0292,
-   "lng": 18.08403
+   "lat": 53.02919,
+   "lng": 18.08402
   },
   "description": null,
   "notes": [],
@@ -115444,8 +115444,8 @@
   "osm": {
    "type": "relation",
    "id": 4712218,
-   "timestamp": "2026-04-15T19:40:04Z",
-   "version": 33,
+   "timestamp": "2026-09-06T12:45:22Z",
+   "version": 34,
    "checkDate": null
   },
   "location": {
@@ -115475,7 +115475,7 @@
   },
   "computed": {
    "lengthKm": 58.1,
-   "wayCount": 145,
+   "wayCount": 146,
    "isLoop": false,
    "fragmented": false,
    "branched": true,
@@ -115494,7 +115494,7 @@
     53.03038,
     18.01981
    ],
-   "pointCount": 406
+   "pointCount": 408
   },
   "rel": {
    "parkings": [],
@@ -133310,16 +133310,16 @@
      "km": 0.21
     },
     {
+     "key": "parking/parking-hotelu-mercure-775602018",
+     "km": 0.24
+    },
+    {
      "key": "parking/parkuj-i-jedz-swietego-michala-1030876862",
      "km": 0.25
     },
     {
      "key": "parking/green-parking-24h-609582219",
      "km": 0.25
-    },
-    {
-     "key": "parking/za-bramka-4968361644",
-     "km": 0.29
     }
    ],
    "beaches": [
@@ -136379,8 +136379,8 @@
   "osm": {
    "type": "relation",
    "id": 11519761,
-   "timestamp": "2026-09-02T18:15:10Z",
-   "version": 62,
+   "timestamp": "2026-09-06T08:18:23Z",
+   "version": 63,
    "checkDate": null
   },
   "location": {
@@ -141568,14 +141568,14 @@
     "lng": 18.37607
    },
    "end": {
-    "lat": 53.02135,
-    "lng": 18.59577
+    "lat": 53.02134,
+    "lng": 18.59576
    },
    "bbox": [
-    53.02135,
+    53.02134,
     18.35538,
     53.20421,
-    18.59577
+    18.59576
    ],
    "pointCount": 43
   },

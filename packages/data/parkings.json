@@ -1534,16 +1534,16 @@
      "km": 0.6
     },
     {
+     "key": "parking/parking-hotelu-mercure-775602018",
+     "km": 0.79
+    },
+    {
      "key": "parking/dla-klientow-zkzl-1182788983",
      "km": 0.85
     },
     {
      "key": "parking/park-go-kaponiera-1330278466",
      "km": 0.87
-    },
-    {
-     "key": "parking/zaklad-ubezpieczen-spolecznych-12847937267",
-     "km": 1
     }
    ],
    "beaches": [
@@ -8161,6 +8161,10 @@
      "km": 1.1
     },
     {
+     "key": "parking/parking-hotelu-mercure-775602018",
+     "km": 1.1
+    },
+    {
      "key": "parking/parking-swit-27-29-31-33-299039195",
      "km": 1.2
     },
@@ -8174,10 +8178,6 @@
     },
     {
      "key": "parking/parking-dla-uczestnikow-nabozenstw-30662512",
-     "km": 1.3
-    },
-    {
-     "key": "parking/parking-centrum-mtp-1157897851",
      "km": 1.3
     }
    ],
@@ -8544,11 +8544,11 @@
      "km": 1.1
     },
     {
-     "key": "parking/parking-poznan-glowny-424348817",
+     "key": "parking/parking-hotelu-mercure-775602018",
      "km": 1.2
     },
     {
-     "key": "parking/dla-klientow-pati-i-maks-571017129",
+     "key": "parking/parking-poznan-glowny-424348817",
      "km": 1.2
     }
    ],
@@ -34125,6 +34125,10 @@
   "rel": {
    "parkings": [
     {
+     "key": "parking/parking-hotelu-mercure-775602018",
+     "km": 0.17
+    },
+    {
      "key": "parking/zaklad-ubezpieczen-spolecznych-12847937267",
      "km": 0.21
     },
@@ -34151,10 +34155,6 @@
     {
      "key": "parking/galeria-mm-2229380316",
      "km": 1
-    },
-    {
-     "key": "parking/parking-24h-dabrowskiego-80-679076094",
-     "km": 1.1
     }
    ],
    "beaches": [
@@ -35120,6 +35120,10 @@
      "km": 0.92
     },
     {
+     "key": "parking/parking-hotelu-mercure-775602018",
+     "km": 1
+    },
+    {
      "key": "parking/park-go-kaponiera-1330278466",
      "km": 1.1
     },
@@ -35133,10 +35137,6 @@
     },
     {
      "key": "parking/dla-klientow-zkzl-1182788983",
-     "km": 1.4
-    },
-    {
-     "key": "parking/parking-dla-uczestnikow-nabozenstw-30662512",
      "km": 1.4
     }
    ],
@@ -39713,16 +39713,16 @@
      "km": 0.63
     },
     {
+     "key": "parking/parking-hotelu-mercure-775602018",
+     "km": 0.72
+    },
+    {
      "key": "parking/park-go-kaponiera-1330278466",
      "km": 0.84
     },
     {
      "key": "parking/hotel-topaz-488334528",
      "km": 0.87
-    },
-    {
-     "key": "parking/zaklad-ubezpieczen-spolecznych-12847937267",
-     "km": 0.91
     }
    ],
    "beaches": [
@@ -47642,6 +47642,114 @@
   }
  },
  {
+  "slug": "parking-hotelu-mercure-775602018",
+  "name": "Parking Hotelu Mercure",
+  "type": "parking",
+  "source": "osm",
+  "osm": {
+   "type": "way",
+   "id": 775602018,
+   "timestamp": "2026-09-06T09:23:48Z",
+   "version": 3,
+   "checkDate": null
+  },
+  "location": {
+   "city": "Poznań",
+   "region": "Wielkopolskie",
+   "hubSlug": "poznan",
+   "hubDistanceKm": 1
+  },
+  "address": null,
+  "coordinates": {
+   "lat": 52.4087169,
+   "lng": 16.9110587
+  },
+  "description": null,
+  "notes": [],
+  "attrs": {
+   "parking": "street_side",
+   "access": "private"
+  },
+  "rel": {
+   "parkings": [
+    {
+     "key": "parking/park-go-kaponiera-1330278466",
+     "km": 0.17
+    },
+    {
+     "key": "parking/zaklad-ubezpieczen-spolecznych-12847937267",
+     "km": 0.2
+    },
+    {
+     "key": "parking/parkuj-i-idz-roosevelta-poznanska-237862505",
+     "km": 0.64
+    },
+    {
+     "key": "parking/parking-centrum-mtp-1157897851",
+     "km": 0.72
+    },
+    {
+     "key": "parking/avenida-poznan-368791540",
+     "km": 0.79
+    },
+    {
+     "key": "parking/parkuj-i-idz-dworzec-zachodni-targi-poznanskie-glogowska-260848674",
+     "km": 0.82
+    },
+    {
+     "key": "parking/parking-poznan-glowny-424348817",
+     "km": 0.96
+    },
+    {
+     "key": "parking/parking-24h-dabrowskiego-80-679076094",
+     "km": 1
+    }
+   ],
+   "beaches": [
+    {
+     "key": "beach/plaza-miejska-chwaliszewo-334158650",
+     "km": 2.3
+    },
+    {
+     "key": "beach/plaza-miejska-wilda-423499941",
+     "km": 2.7
+    }
+   ],
+   "trails": [
+    {
+     "key": "trail/trakt-krolewsko-cesarski-5280641",
+     "km": 0.24
+    },
+    {
+     "key": "trail/radial-r3-11628869",
+     "km": 0.25
+    },
+    {
+     "key": "trail/european-long-distance-path-e11-part-poland-2856709",
+     "km": 0.26
+    },
+    {
+     "key": "trail/radial-r2-11627908",
+     "km": 0.32
+    },
+    {
+     "key": "trail/ring-nr-1-11629103",
+     "km": 0.59
+    },
+    {
+     "key": "trail/eurovelo-2-capitals-route-part-poland-12535932",
+     "km": 1.2
+    }
+   ],
+   "cities": [
+    {
+     "key": "city/poznan",
+     "km": 0.99
+    }
+   ]
+  }
+ },
+ {
   "slug": "parking-hotelu-mikolajki-430121215",
   "name": "Parking Hotelu Mikołajki",
   "type": "parking",
@@ -50869,6 +50977,10 @@
      "km": 1
     },
     {
+     "key": "parking/parking-hotelu-mercure-775602018",
+     "km": 1.3
+    },
+    {
      "key": "parking/zaklad-ubezpieczen-spolecznych-12847937267",
      "km": 1.3
     },
@@ -50878,10 +50990,6 @@
     },
     {
      "key": "parking/parking-dla-uczestnikow-nabozenstw-30662512",
-     "km": 1.3
-    },
-    {
-     "key": "parking/straz-miejska-1160077694",
      "km": 1.3
     }
    ],
@@ -75579,12 +75687,12 @@
      "km": 1.4
     },
     {
-     "key": "parking/galeria-mm-2229380316",
+     "key": "parking/parking-hotelu-mercure-775602018",
      "km": 1.5
     },
     {
-     "key": "parking/parkuj-i-idz-chwaliszewo-975777626",
-     "km": 1.7
+     "key": "parking/galeria-mm-2229380316",
+     "km": 1.5
     }
    ],
    "beaches": [
@@ -76047,12 +76155,12 @@
      "km": 0.76
     },
     {
-     "key": "parking/park-go-kaponiera-1330278466",
-     "km": 0.94
+     "key": "parking/parking-hotelu-mercure-775602018",
+     "km": 0.82
     },
     {
-     "key": "parking/zaklad-ubezpieczen-spolecznych-12847937267",
-     "km": 1
+     "key": "parking/park-go-kaponiera-1330278466",
+     "km": 0.94
     }
    ],
    "beaches": [
@@ -76466,6 +76574,10 @@
      "km": 0.52
     },
     {
+     "key": "parking/parking-hotelu-mercure-775602018",
+     "km": 0.64
+    },
+    {
      "key": "parking/parkuj-i-idz-cytadela-pulaskiego-294261105",
      "km": 0.85
     },
@@ -76483,10 +76595,6 @@
     },
     {
      "key": "parking/avenida-poznan-368791540",
-     "km": 1.4
-    },
-    {
-     "key": "parking/dla-klientow-pati-i-maks-571017129",
      "km": 1.4
     }
    ],
@@ -90453,11 +90561,11 @@
      "km": 0.9
     },
     {
-     "key": "parking/park-go-kaponiera-1330278466",
-     "km": 1.2
+     "key": "parking/parking-hotelu-mercure-775602018",
+     "km": 1
     },
     {
-     "key": "parking/zaklad-ubezpieczen-spolecznych-12847937267",
+     "key": "parking/park-go-kaponiera-1330278466",
      "km": 1.2
     }
    ],
@@ -98600,6 +98708,10 @@
   "rel": {
    "parkings": [
     {
+     "key": "parking/parking-hotelu-mercure-775602018",
+     "km": 0.2
+    },
+    {
      "key": "parking/park-go-kaponiera-1330278466",
      "km": 0.21
     },
@@ -98625,10 +98737,6 @@
     },
     {
      "key": "parking/dla-klientow-pati-i-maks-571017129",
-     "km": 1.1
-    },
-    {
-     "key": "parking/parking-poznan-glowny-424348817",
      "km": 1.1
     }
    ],
