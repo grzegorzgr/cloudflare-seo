@@ -921,7 +921,7 @@
      "km": 0.93
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 0.96
     }
    ],
@@ -3347,7 +3347,7 @@
    ],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.16
     },
     {
@@ -3864,10 +3864,6 @@
      "km": 1.2
     },
     {
-     "key": "parking/parking-wielopoziomowy-1300120367",
-     "km": 1.8
-    },
-    {
      "key": "parking/parking-biedronki-4988888524",
      "km": 2
     }
@@ -3875,7 +3871,7 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 1.4
     }
    ],
@@ -4063,10 +4059,10 @@
    "trails": [
     {
      "key": "trail/green-velo-lacznik-203-8660817",
-     "km": 0.57
+     "km": 0.58
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 1.2
     }
    ],
@@ -4492,14 +4488,6 @@
      "km": 1.1
     },
     {
-     "key": "parking/platny-175572000",
-     "km": 1.2
-    },
-    {
-     "key": "parking/platny-319495004",
-     "km": 1.2
-    },
-    {
      "key": "parking/podziemny-2246385298",
      "km": 1.6
     },
@@ -4514,6 +4502,14 @@
     {
      "key": "parking/tir-1196764122",
      "km": 1.9
+    },
+    {
+     "key": "parking/parking-przykoscielny-237111312",
+     "km": 1.9
+    },
+    {
+     "key": "parking/plac-katedralny-platny-179262652",
+     "km": 2
     }
    ],
    "beaches": [],
@@ -4738,7 +4734,7 @@
      "km": 0.51
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 1.1
     }
    ],
@@ -11572,7 +11568,7 @@
      "km": 0.03
     },
     {
-     "key": "trail/euroregionalny-szlak-rowerowy-er-2-542578",
+     "key": "trail/internationaler-bergwanderweg-eisenach-budapest-polen-west-4621732",
      "km": 0.03
     },
     {
@@ -11580,7 +11576,7 @@
      "km": 0.03
     },
     {
-     "key": "trail/internationaler-bergwanderweg-eisenach-budapest-polen-west-4621732",
+     "key": "trail/euroregionalny-szlak-rowerowy-er-2-542578",
      "km": 0.03
     },
     {
@@ -12194,10 +12190,10 @@
    "trails": [
     {
      "key": "trail/green-velo-lacznik-203-8660817",
-     "km": 0.48
+     "km": 0.49
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 1.3
     }
    ],
@@ -12385,7 +12381,7 @@
    ],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 0
     },
     {
@@ -18301,10 +18297,10 @@
    "trails": [
     {
      "key": "trail/green-velo-lacznik-203-8660817",
-     "km": 0.19
+     "km": 0.17
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 1
     }
    ],
@@ -18481,14 +18477,6 @@
   "rel": {
    "parkings": [
     {
-     "key": "parking/platny-319495004",
-     "km": 0.65
-    },
-    {
-     "key": "parking/platny-175572000",
-     "km": 0.66
-    },
-    {
      "key": "parking/bus-coach-478935877",
      "km": 0.92
     },
@@ -18511,6 +18499,14 @@
     {
      "key": "parking/tir-1196764122",
      "km": 1.3
+    },
+    {
+     "key": "parking/plac-katedralny-platny-179262652",
+     "km": 1.7
+    },
+    {
+     "key": "parking/podziemny-2246385298",
+     "km": 1.7
     }
    ],
    "beaches": [],
@@ -19995,7 +19991,7 @@
      "km": 0.49
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 1.1
     }
    ],
@@ -21280,8 +21276,8 @@
   "osm": {
    "type": "way",
    "id": 102534597,
-   "timestamp": "2026-05-31T22:43:56Z",
-   "version": 27,
+   "timestamp": "2026-09-12T07:21:17Z",
+   "version": 28,
    "checkDate": null
   },
   "location": {
@@ -22590,7 +22586,7 @@
      "km": 0.44
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 1.3
     }
    ],
@@ -22692,7 +22688,7 @@
      "km": 0.54
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 1.3
     }
    ],
@@ -27710,8 +27706,8 @@
   "osm": {
    "type": "way",
    "id": 277040889,
-   "timestamp": "2026-08-25T11:08:07Z",
-   "version": 13,
+   "timestamp": "2026-09-11T10:57:18Z",
+   "version": 14,
    "checkDate": null
   },
   "location": {
@@ -27736,7 +27732,7 @@
    "capacity_charging": "2",
    "surface": "paving_stones",
    "park_ride": "yes",
-   "opening_hours": "opening_hours=24/7; Tu-Fr 02:31-04:29 off",
+   "opening_hours": "24/7; Tu-Fr 02:31-04:29 off",
    "operator": "ZTM Warszawa"
   },
   "rel": {
@@ -28526,7 +28522,7 @@
      "km": 0.02
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-12-gory-swietokrzyskie-i-okolica-21387220",
      "km": 1.1
     },
     {
@@ -38080,7 +38076,7 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.56
     },
     {
@@ -39224,7 +39220,7 @@
    ],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 0.28
     },
     {
@@ -44325,7 +44321,7 @@
      "km": 0.13
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 0.36
     },
     {
@@ -44405,7 +44401,7 @@
      "km": 0.78
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 1
     }
    ],
@@ -46519,7 +46515,7 @@
    ],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 0.21
     },
     {
@@ -47129,8 +47125,8 @@
   "osm": {
    "type": "way",
    "id": 425715737,
-   "timestamp": "2026-06-04T12:14:24Z",
-   "version": 6,
+   "timestamp": "2026-09-10T21:37:49Z",
+   "version": 7,
    "checkDate": null
   },
   "location": {
@@ -47146,8 +47142,8 @@
    "city": "Toruń"
   },
   "coordinates": {
-   "lat": 53.0071878,
-   "lng": 18.5986082
+   "lat": 53.0071876,
+   "lng": 18.5986079
   },
   "description": null,
   "notes": [],
@@ -47175,7 +47171,7 @@
    "beaches": [
     {
      "key": "beach/plaza-miejska-blonia-nadwislanskie-493611613",
-     "km": 0.24
+     "km": 0.23
     }
    ],
    "trails": [
@@ -47362,7 +47358,7 @@
      "km": 0.45
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-12-gory-swietokrzyskie-i-okolica-21387220",
      "km": 0.76
     }
    ],
@@ -49271,7 +49267,7 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 54.1629795,
+   "lat": 54.1629743,
    "lng": 15.4519827
   },
   "description": null,
@@ -50282,7 +50278,7 @@
      "km": 0.02
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-12-gory-swietokrzyskie-i-okolica-21387220",
      "km": 1.2
     }
    ],
@@ -50337,7 +50333,7 @@
      "km": 0.07
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-12-gory-swietokrzyskie-i-okolica-21387220",
      "km": 1.2
     }
    ],
@@ -54220,7 +54216,7 @@
      "km": 0.1
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 0.37
     },
     {
@@ -54377,10 +54373,6 @@
     {
      "key": "parking/tir-1196764122",
      "km": 1.6
-    },
-    {
-     "key": "parking/platny-319495004",
-     "km": 2
     }
    ],
    "beaches": [],
@@ -54613,10 +54605,6 @@
      "km": 0.78
     },
     {
-     "key": "parking/parking-wielopoziomowy-1300120367",
-     "km": 1.1
-    },
-    {
      "key": "parking/parking-biedronki-4988888524",
      "km": 1.4
     },
@@ -54628,7 +54616,7 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.81
     }
    ],
@@ -57029,7 +57017,7 @@
     },
     {
      "key": "trail/green-velo-lacznik-401-8732334",
-     "km": 1
+     "km": 0.99
     },
     {
      "key": "trail/sciezka-przyrodnicza-im-prof-wladyslawa-szafera-6290820",
@@ -57240,7 +57228,7 @@
    ],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 0.02
     },
     {
@@ -57619,7 +57607,7 @@
    ],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 0.06
     },
     {
@@ -57697,7 +57685,7 @@
    "beaches": [
     {
      "key": "beach/plaza-miejska-blonia-nadwislanskie-493611613",
-     "km": 1.5
+     "km": 1.4
     }
    ],
    "trails": [
@@ -58445,14 +58433,6 @@
      "km": 0.71
     },
     {
-     "key": "parking/platny-175572000",
-     "km": 0.76
-    },
-    {
-     "key": "parking/platny-319495004",
-     "km": 0.88
-    },
-    {
      "key": "parking/plac-katedralny-platny-179262652",
      "km": 0.92
     },
@@ -58467,6 +58447,14 @@
     {
      "key": "parking/kiss-ride-1223182076",
      "km": 1.2
+    },
+    {
+     "key": "parking/parking-zamek-lubelski-294103450",
+     "km": 1.4
+    },
+    {
+     "key": "parking/platny-803396951",
+     "km": 1.9
     }
    ],
    "beaches": [],
@@ -59439,7 +59427,7 @@
      "km": 0.07
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 0.36
     },
     {
@@ -59689,7 +59677,7 @@
    "beaches": [
     {
      "key": "beach/plaza-miejska-blonia-nadwislanskie-493611613",
-     "km": 0.23
+     "km": 0.22
     }
    ],
    "trails": [
@@ -63577,7 +63565,7 @@
      "km": 0.43
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 1.4
     }
    ],
@@ -65339,7 +65327,7 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.27
     },
     {
@@ -68005,7 +67993,7 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.89
     },
     {
@@ -70334,15 +70322,7 @@
      "km": 1.5
     },
     {
-     "key": "parking/platny-319495004",
-     "km": 1.8
-    },
-    {
      "key": "parking/bus-coach-478935877",
-     "km": 1.8
-    },
-    {
-     "key": "parking/platny-175572000",
      "km": 1.8
     }
    ],
@@ -73285,85 +73265,6 @@
   }
  },
  {
-  "slug": "parking-wielopoziomowy-1300120367",
-  "name": "parking wielopoziomowy",
-  "type": "parking",
-  "source": "osm",
-  "osm": {
-   "type": "way",
-   "id": 1300120367,
-   "timestamp": "2025-05-04T13:12:12Z",
-   "version": 4,
-   "checkDate": null
-  },
-  "location": {
-   "city": "Białystok",
-   "region": "Podlaskie",
-   "hubSlug": "bialystok",
-   "hubDistanceKm": 2.9
-  },
-  "address": {
-   "street": "Absolwentów",
-   "housenumber": "7",
-   "postcode": null,
-   "city": "Białystok"
-  },
-  "coordinates": {
-   "lat": 53.1192722,
-   "lng": 23.1321374
-  },
-  "description": null,
-  "notes": [],
-  "attrs": {
-   "parking": "multi-storey"
-  },
-  "rel": {
-   "parkings": [
-    {
-     "key": "parking/stanowisko-rektorskie-1228682447",
-     "km": 0.92
-    },
-    {
-     "key": "parking/parking-osiedlowy-350461554",
-     "km": 1.1
-    },
-    {
-     "key": "parking/parking-biedronki-4988888524",
-     "km": 1.4
-    },
-    {
-     "key": "parking/kiss-ride-1203960474",
-     "km": 1.7
-    },
-    {
-     "key": "parking/bus-parking-443031754",
-     "km": 1.8
-    },
-    {
-     "key": "parking/bus-602208163",
-     "km": 1.8
-    },
-    {
-     "key": "parking/parking-wielopoziomowy-388525897",
-     "km": 1.9
-    }
-   ],
-   "beaches": [],
-   "trails": [
-    {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
-     "km": 0.69
-    }
-   ],
-   "cities": [
-    {
-     "key": "city/bialystok",
-     "km": 2.9
-    }
-   ]
-  }
- },
- {
   "slug": "parking-wielopoziomowy-168514837",
   "name": "Parking wielopoziomowy",
   "type": "parking",
@@ -73759,12 +73660,12 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.71
     },
     {
      "key": "trail/green-velo-lacznik-203-8660817",
-     "km": 0.95
+     "km": 0.94
     }
    ],
    "cities": [
@@ -74521,12 +74422,12 @@
      "km": 1.4
     },
     {
-     "key": "parking/platny-175572000",
-     "km": 1.4
+     "key": "parking/parking-wielopoziomowy-173185911",
+     "km": 1.5
     },
     {
-     "key": "parking/platny-319495004",
-     "km": 1.4
+     "key": "parking/platny-803396951",
+     "km": 2
     }
    ],
    "beaches": [],
@@ -79954,7 +79855,7 @@
      "km": 0.48
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 0.5
     }
    ],
@@ -80081,16 +79982,16 @@
      "km": 0.92
     },
     {
-     "key": "parking/platny-175572000",
-     "km": 0.99
-    },
-    {
-     "key": "parking/platny-319495004",
-     "km": 1
-    },
-    {
      "key": "parking/parking-wielopoziomowy-uniwersytetu-medycznego-w-lublinie-1084030061",
      "km": 1.6
+    },
+    {
+     "key": "parking/kiss-ride-1223182076",
+     "km": 1.7
+    },
+    {
+     "key": "parking/platny-803396951",
+     "km": 1.7
     }
    ],
    "beaches": [],
@@ -80556,7 +80457,7 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-12-gory-swietokrzyskie-i-okolica-21387220",
      "km": 0.24
     },
     {
@@ -81184,197 +81085,6 @@
   }
  },
  {
-  "slug": "platny-175572000",
-  "name": "płatny",
-  "type": "parking",
-  "source": "osm",
-  "osm": {
-   "type": "way",
-   "id": 175572000,
-   "timestamp": "2025-12-29T10:48:40Z",
-   "version": 6,
-   "checkDate": null
-  },
-  "location": {
-   "city": "Lublin",
-   "region": "Lubelskie",
-   "hubSlug": "lublin",
-   "hubDistanceKm": 1
-  },
-  "address": null,
-  "coordinates": {
-   "lat": 51.237794,
-   "lng": 22.5678611
-  },
-  "description": null,
-  "notes": [],
-  "attrs": {
-   "parking": "surface",
-   "fee": "yes"
-  },
-  "rel": {
-   "parkings": [
-    {
-     "key": "parking/platny-319495004",
-     "km": 0.12
-    },
-    {
-     "key": "parking/kiss-ride-1223182076",
-     "km": 0.66
-    },
-    {
-     "key": "parking/tir-1196764122",
-     "km": 0.72
-    },
-    {
-     "key": "parking/parking-platny-83821250",
-     "km": 0.76
-    },
-    {
-     "key": "parking/plac-katedralny-platny-179262652",
-     "km": 0.99
-    },
-    {
-     "key": "parking/platny-803396951",
-     "km": 1.1
-    },
-    {
-     "key": "parking/podziemny-2246385298",
-     "km": 1.1
-    },
-    {
-     "key": "parking/platny-534973549",
-     "km": 1.1
-    }
-   ],
-   "beaches": [],
-   "trails": [
-    {
-     "key": "trail/lubelska-droga-sw-jakuba-3162602",
-     "km": 0.28
-    },
-    {
-     "key": "trail/szlak-zabytkow-architektury-2082088",
-     "km": 0.58
-    },
-    {
-     "key": "trail/szlak-wielokulturowy-14074136",
-     "km": 0.88
-    },
-    {
-     "key": "trail/jagiellonski-szlak-unii-lubelskiej-14073060",
-     "km": 0.98
-    },
-    {
-     "key": "trail/szlak-pamieci-zydow-lubelskich-14073059",
-     "km": 1.1
-    }
-   ],
-   "cities": [
-    {
-     "key": "city/lublin",
-     "km": 0.97
-    }
-   ]
-  }
- },
- {
-  "slug": "platny-319495004",
-  "name": "płatny",
-  "type": "parking",
-  "source": "osm",
-  "osm": {
-   "type": "way",
-   "id": 319495004,
-   "timestamp": "2023-02-28T18:15:57Z",
-   "version": 10,
-   "checkDate": null
-  },
-  "location": {
-   "city": "Lublin",
-   "region": "Lubelskie",
-   "hubSlug": "lublin",
-   "hubDistanceKm": 1
-  },
-  "address": null,
-  "coordinates": {
-   "lat": 51.2376666,
-   "lng": 22.5696121
-  },
-  "description": null,
-  "notes": [],
-  "attrs": {
-   "parking": "surface",
-   "access": "yes",
-   "fee": "yes"
-  },
-  "rel": {
-   "parkings": [
-    {
-     "key": "parking/platny-175572000",
-     "km": 0.12
-    },
-    {
-     "key": "parking/kiss-ride-1223182076",
-     "km": 0.65
-    },
-    {
-     "key": "parking/tir-1196764122",
-     "km": 0.66
-    },
-    {
-     "key": "parking/parking-platny-83821250",
-     "km": 0.88
-    },
-    {
-     "key": "parking/platny-803396951",
-     "km": 1
-    },
-    {
-     "key": "parking/plac-katedralny-platny-179262652",
-     "km": 1
-    },
-    {
-     "key": "parking/platny-835738963",
-     "km": 1.1
-    },
-    {
-     "key": "parking/platny-534973549",
-     "km": 1.2
-    }
-   ],
-   "beaches": [],
-   "trails": [
-    {
-     "key": "trail/lubelska-droga-sw-jakuba-3162602",
-     "km": 0.16
-    },
-    {
-     "key": "trail/szlak-zabytkow-architektury-2082088",
-     "km": 0.6
-    },
-    {
-     "key": "trail/szlak-wielokulturowy-14074136",
-     "km": 0.92
-    },
-    {
-     "key": "trail/jagiellonski-szlak-unii-lubelskiej-14073060",
-     "km": 1
-    },
-    {
-     "key": "trail/szlak-pamieci-zydow-lubelskich-14073059",
-     "km": 1.2
-    }
-   ],
-   "cities": [
-    {
-     "key": "city/lublin",
-     "km": 0.99
-    }
-   ]
-  }
- },
- {
   "slug": "platny-4017890107",
   "name": "Płatny",
   "type": "parking",
@@ -81623,16 +81333,16 @@
      "km": 1.1
     },
     {
-     "key": "parking/platny-175572000",
-     "km": 1.1
-    },
-    {
-     "key": "parking/platny-319495004",
-     "km": 1.2
-    },
-    {
      "key": "parking/parking-wielopoziomowy-uniwersytetu-medycznego-w-lublinie-1084030061",
      "km": 1.6
+    },
+    {
+     "key": "parking/kiss-ride-1223182076",
+     "km": 1.8
+    },
+    {
+     "key": "parking/bus-coach-478935877",
+     "km": 1.8
     }
    ],
    "beaches": [],
@@ -81807,10 +81517,6 @@
      "km": 0.07
     },
     {
-     "key": "parking/platny-319495004",
-     "km": 1
-    },
-    {
      "key": "parking/tir-1196764122",
      "km": 1.1
     },
@@ -81823,16 +81529,20 @@
      "km": 1.1
     },
     {
-     "key": "parking/platny-175572000",
-     "km": 1.1
-    },
-    {
      "key": "parking/parking-osiedlowy-160767834",
      "km": 1.2
     },
     {
      "key": "parking/parking-szkola-podstawowa-nr-1-344343617",
      "km": 1.4
+    },
+    {
+     "key": "parking/plac-katedralny-platny-179262652",
+     "km": 1.7
+    },
+    {
+     "key": "parking/parking-platny-83821250",
+     "km": 1.9
     }
    ],
    "beaches": [],
@@ -81899,10 +81609,6 @@
      "km": 1
     },
     {
-     "key": "parking/platny-319495004",
-     "km": 1.1
-    },
-    {
      "key": "parking/tir-1196764122",
      "km": 1.1
     },
@@ -81915,12 +81621,16 @@
      "km": 1.2
     },
     {
-     "key": "parking/platny-175572000",
-     "km": 1.2
-    },
-    {
      "key": "parking/parking-szkola-podstawowa-nr-1-344343617",
      "km": 1.5
+    },
+    {
+     "key": "parking/plac-katedralny-platny-179262652",
+     "km": 1.7
+    },
+    {
+     "key": "parking/parking-platny-83821250",
+     "km": 1.9
     }
    ],
    "beaches": [],
@@ -82121,20 +81831,20 @@
      "km": 1.1
     },
     {
-     "key": "parking/platny-175572000",
-     "km": 1.1
-    },
-    {
-     "key": "parking/platny-319495004",
-     "km": 1.2
-    },
-    {
      "key": "parking/tir-1196764122",
      "km": 1.2
     },
     {
      "key": "parking/bus-coach-478935877",
      "km": 1.6
+    },
+    {
+     "key": "parking/kiss-ride-1223182076",
+     "km": 1.7
+    },
+    {
+     "key": "parking/parking-wielopoziomowy-uniwersytetu-medycznego-w-lublinie-1084030061",
+     "km": 1.8
     }
    ],
    "beaches": [],
@@ -89737,7 +89447,7 @@
    ],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.17
     },
     {
@@ -89890,7 +89600,7 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.3
     },
     {
@@ -89973,7 +89683,7 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.58
     },
     {
@@ -90121,10 +89831,6 @@
      "km": 0.44
     },
     {
-     "key": "parking/parking-wielopoziomowy-1300120367",
-     "km": 0.92
-    },
-    {
      "key": "parking/parking-biedronki-4988888524",
      "km": 0.95
     },
@@ -90147,12 +89853,16 @@
     {
      "key": "parking/hotel-esperanto-5657195227",
      "km": 1.8
+    },
+    {
+     "key": "parking/parking-royal-spa-4851078573",
+     "km": 1.9
     }
    ],
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.38
     }
    ],
@@ -93488,14 +93198,6 @@
      "km": 0.65
     },
     {
-     "key": "parking/platny-319495004",
-     "km": 0.66
-    },
-    {
-     "key": "parking/platny-175572000",
-     "km": 0.72
-    },
-    {
      "key": "parking/parking-zamek-lubelski-294103450",
      "km": 0.93
     },
@@ -93514,6 +93216,14 @@
     {
      "key": "parking/parking-platny-83821250",
      "km": 1.2
+    },
+    {
+     "key": "parking/podziemny-2246385298",
+     "km": 1.2
+    },
+    {
+     "key": "parking/kiss-ride-1223182076",
+     "km": 1.3
     }
    ],
    "beaches": [],
@@ -94076,7 +93786,7 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.26
     }
    ],
@@ -94837,7 +94547,7 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.12
     }
    ],
@@ -97593,7 +97303,7 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 0.04
     }
    ],
@@ -97677,7 +97387,7 @@
      "km": 0
     },
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-06-puszcza-bialowieska-i-knyszynska-21387144",
      "km": 1.4
     }
    ],
@@ -97758,7 +97468,7 @@
    "trails": [
     {
      "key": "trail/green-velo-lacznik-203-8660817",
-     "km": 0.81
+     "km": 0.82
     }
    ],
    "cities": [
@@ -97990,12 +97700,7 @@
     }
    ],
    "beaches": [],
-   "trails": [
-    {
-     "key": "trail/green-velo-lacznik-203-8660817",
-     "km": 1.5
-    }
-   ],
+   "trails": [],
    "cities": [
     {
      "key": "city/bialystok",
@@ -98308,7 +98013,7 @@
    "trails": [
     {
      "key": "trail/green-velo-lacznik-203-8660817",
-     "km": 0.01
+     "km": 0
     }
    ],
    "cities": [

@@ -4625,8 +4625,8 @@
   "osm": {
    "type": "way",
    "id": 493611613,
-   "timestamp": "2020-02-02T22:25:56Z",
-   "version": 2,
+   "timestamp": "2026-09-13T20:52:10Z",
+   "version": 3,
    "checkDate": null
   },
   "location": {
@@ -4637,8 +4637,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 53.0061832,
-   "lng": 18.595462
+   "lat": 53.0061866,
+   "lng": 18.5955404
   },
   "description": null,
   "notes": [],
@@ -4650,11 +4650,11 @@
    "parkings": [
     {
      "key": "parking/parking-podziemny-hotel-copernicus-4250068289",
-     "km": 0.23
+     "km": 0.22
     },
     {
      "key": "parking/parking-hotel-copernicus-torun-425715737",
-     "km": 0.24
+     "km": 0.23
     },
     {
      "key": "parking/cinema-city-24751620",
@@ -4662,7 +4662,7 @@
     },
     {
      "key": "parking/parking-pl-sw-katarzyny-79799543",
-     "km": 1.5
+     "km": 1.4
     }
    ],
    "beaches": [],
@@ -4685,11 +4685,11 @@
     },
     {
      "key": "trail/camino-polaco-12596217",
-     "km": 0.39
+     "km": 0.38
     },
     {
      "key": "trail/czersk-wloclawek-2787445",
-     "km": 0.39
+     "km": 0.38
     }
    ],
    "cities": [
@@ -5089,7 +5089,7 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/green-velo-wschodni-szlak-rowerowy-5141547",
+     "key": "trail/green-velo-10-pogorze-karpackie-21387222",
      "km": 0.07
     },
     {

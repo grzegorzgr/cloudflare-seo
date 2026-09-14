@@ -1,178 +1,178 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07",
-  "osmDataFrom": "2026-09-07",
-  "osmDataTo": "2026-09-07",
+  "generatedAt": "2026-09-14",
+  "osmDataFrom": "2026-09-14",
+  "osmDataTo": "2026-09-14",
   "counts": {
     "beaches": 109,
-    "parkings": 1229,
-    "trails": 1566,
-    "trailsWithGeometry": 1554,
+    "parkings": 1226,
+    "trails": 1571,
+    "trailsWithGeometry": 1559,
     "hubs": 38,
     "regions": 16
   },
   "sources": {
     "pois": {
       "Dolnośląskie": {
-        "fetchedAt": "2026-09-07T07:45:35.670Z",
-        "osmBase": "2026-09-07T07:42:58Z",
+        "fetchedAt": "2026-09-14T08:21:48.862Z",
+        "osmBase": "2026-09-14T08:18:51Z",
         "elements": 82
       },
       "Kujawsko-Pomorskie": {
-        "fetchedAt": "2026-09-07T07:49:25.500Z",
-        "osmBase": "2026-09-07T07:46:01Z",
+        "fetchedAt": "2026-09-14T08:25:45.863Z",
+        "osmBase": "2026-09-14T08:22:51Z",
         "elements": 52
       },
       "Łódzkie": {
-        "fetchedAt": "2026-09-07T07:56:26.277Z",
-        "osmBase": "2026-09-07T07:54:05Z",
+        "fetchedAt": "2026-09-14T08:37:12.416Z",
+        "osmBase": "2026-09-14T08:35:06Z",
         "elements": 127
       },
       "Lubelskie": {
-        "fetchedAt": "2026-09-07T07:51:53.100Z",
-        "osmBase": "2026-09-07T07:49:02Z",
-        "elements": 44
+        "fetchedAt": "2026-09-14T08:28:01.212Z",
+        "osmBase": "2026-09-14T08:26:02Z",
+        "elements": 42
       },
       "Lubuskie": {
-        "fetchedAt": "2026-09-07T07:54:32.934Z",
-        "osmBase": "2026-09-07T07:51:06Z",
+        "fetchedAt": "2026-09-14T08:30:57.153Z",
+        "osmBase": "2026-09-14T08:28:01Z",
         "elements": 51
       },
       "Małopolskie": {
-        "fetchedAt": "2026-09-07T08:01:11.952Z",
-        "osmBase": "2026-09-07T07:56:06Z",
+        "fetchedAt": "2026-09-14T08:42:01.269Z",
+        "osmBase": "2026-09-14T08:37:05Z",
         "elements": 122
       },
       "Mazowieckie": {
-        "fetchedAt": "2026-09-07T08:03:11.999Z",
-        "osmBase": "2026-09-07T08:00:21Z",
+        "fetchedAt": "2026-09-14T08:43:51.580Z",
+        "osmBase": "2026-09-14T08:41:18Z",
         "elements": 165
       },
       "Opolskie": {
-        "fetchedAt": "2026-09-07T08:05:01.609Z",
-        "osmBase": "2026-09-07T08:02:21Z",
+        "fetchedAt": "2026-09-14T08:47:51.551Z",
+        "osmBase": "2026-09-14T08:45:20Z",
         "elements": 14
       },
       "Podkarpackie": {
-        "fetchedAt": "2026-09-07T08:07:52.957Z",
-        "osmBase": "2026-09-07T08:05:20Z",
+        "fetchedAt": "2026-09-14T08:50:37.710Z",
+        "osmBase": "2026-09-14T08:48:21Z",
         "elements": 32
       },
       "Podlaskie": {
-        "fetchedAt": "2026-09-07T08:11:22.640Z",
-        "osmBase": "2026-09-07T08:07:26Z",
-        "elements": 52
+        "fetchedAt": "2026-09-14T08:54:55.206Z",
+        "osmBase": "2026-09-14T08:51:27Z",
+        "elements": 51
       },
       "Pomorskie": {
-        "fetchedAt": "2026-09-07T08:20:28.695Z",
-        "osmBase": "2026-09-07T08:17:35Z",
+        "fetchedAt": "2026-09-14T09:05:29.858Z",
+        "osmBase": "2026-09-14T09:02:35Z",
         "elements": 148
       },
       "Śląskie": {
-        "fetchedAt": "2026-09-07T08:26:14.533Z",
-        "osmBase": "2026-09-07T08:21:40Z",
+        "fetchedAt": "2026-09-14T09:12:13.954Z",
+        "osmBase": "2026-09-14T09:07:49Z",
         "elements": 96
       },
       "Świętokrzyskie": {
-        "fetchedAt": "2026-09-07T08:28:40.724Z",
-        "osmBase": "2026-09-07T08:25:50Z",
+        "fetchedAt": "2026-09-14T09:17:54.925Z",
+        "osmBase": "2026-09-14T09:14:49Z",
         "elements": 57
       },
       "Warmińsko-Mazurskie": {
-        "fetchedAt": "2026-09-07T08:32:08.796Z",
-        "osmBase": "2026-09-07T08:27:51Z",
+        "fetchedAt": "2026-09-14T09:21:36.082Z",
+        "osmBase": "2026-09-14T09:16:56Z",
         "elements": 32
       },
       "Wielkopolskie": {
-        "fetchedAt": "2026-09-07T08:34:00.393Z",
-        "osmBase": "2026-09-07T08:31:50Z",
+        "fetchedAt": "2026-09-14T09:23:53.546Z",
+        "osmBase": "2026-09-14T09:21:02Z",
         "elements": 144
       },
       "Zachodniopomorskie": {
-        "fetchedAt": "2026-09-07T08:40:46.266Z",
-        "osmBase": "2026-09-07T08:37:02Z",
+        "fetchedAt": "2026-09-14T09:31:21.116Z",
+        "osmBase": "2026-09-14T09:28:11Z",
         "elements": 130
       }
     },
     "routes": {
       "Dolnośląskie": {
-        "fetchedAt": "2026-09-07T07:47:09.977Z",
-        "osmBase": "2026-09-07T07:45:01Z",
+        "fetchedAt": "2026-09-14T08:23:12.078Z",
+        "osmBase": "2026-09-14T08:21:51Z",
         "elements": 210
       },
       "Kujawsko-Pomorskie": {
-        "fetchedAt": "2026-09-07T07:50:28.602Z",
-        "osmBase": "2026-09-07T07:49:02Z",
+        "fetchedAt": "2026-09-14T08:26:19.182Z",
+        "osmBase": "2026-09-14T08:25:00Z",
         "elements": 104
       },
       "Łódzkie": {
-        "fetchedAt": "2026-09-07T07:57:19.248Z",
-        "osmBase": "2026-09-07T07:56:06Z",
+        "fetchedAt": "2026-09-14T08:37:38.583Z",
+        "osmBase": "2026-09-14T08:36:05Z",
         "elements": 24
       },
       "Lubelskie": {
-        "fetchedAt": "2026-09-07T07:52:18.471Z",
-        "osmBase": "2026-09-07T07:51:06Z",
+        "fetchedAt": "2026-09-14T08:28:32.775Z",
+        "osmBase": "2026-09-14T08:27:01Z",
         "elements": 23
       },
       "Lubuskie": {
-        "fetchedAt": "2026-09-07T07:55:00.375Z",
-        "osmBase": "2026-09-07T07:53:06Z",
+        "fetchedAt": "2026-09-14T08:31:21.875Z",
+        "osmBase": "2026-09-14T08:30:02Z",
         "elements": 24
       },
       "Małopolskie": {
-        "fetchedAt": "2026-09-07T08:01:48.204Z",
-        "osmBase": "2026-09-07T08:00:21Z",
-        "elements": 333
+        "fetchedAt": "2026-09-14T08:42:36.373Z",
+        "osmBase": "2026-09-14T08:40:13Z",
+        "elements": 334
       },
       "Mazowieckie": {
-        "fetchedAt": "2026-09-07T08:03:43.283Z",
-        "osmBase": "2026-09-07T08:02:21Z",
+        "fetchedAt": "2026-09-14T08:46:31.539Z",
+        "osmBase": "2026-09-14T08:45:20Z",
         "elements": 76
       },
       "Opolskie": {
-        "fetchedAt": "2026-09-07T08:06:35.476Z",
-        "osmBase": "2026-09-07T08:05:20Z",
+        "fetchedAt": "2026-09-14T08:48:44.001Z",
+        "osmBase": "2026-09-14T08:47:21Z",
         "elements": 23
       },
       "Podkarpackie": {
-        "fetchedAt": "2026-09-07T08:08:45.129Z",
-        "osmBase": "2026-09-07T08:07:26Z",
+        "fetchedAt": "2026-09-14T08:51:34.591Z",
+        "osmBase": "2026-09-14T08:50:23Z",
         "elements": 35
       },
       "Podlaskie": {
-        "fetchedAt": "2026-09-07T08:11:50.465Z",
-        "osmBase": "2026-09-07T08:10:27Z",
-        "elements": 34
+        "fetchedAt": "2026-09-14T08:55:35.092Z",
+        "osmBase": "2026-09-14T08:53:28Z",
+        "elements": 36
       },
       "Pomorskie": {
-        "fetchedAt": "2026-09-07T08:22:20.029Z",
-        "osmBase": "2026-09-07T08:20:39Z",
+        "fetchedAt": "2026-09-14T09:07:59.191Z",
+        "osmBase": "2026-09-14T09:06:50Z",
         "elements": 141
       },
       "Śląskie": {
-        "fetchedAt": "2026-09-07T08:26:57.681Z",
-        "osmBase": "2026-09-07T08:24:51Z",
+        "fetchedAt": "2026-09-14T09:13:54.730Z",
+        "osmBase": "2026-09-14T09:11:51Z",
         "elements": 258
       },
       "Świętokrzyskie": {
-        "fetchedAt": "2026-09-07T08:29:08.423Z",
-        "osmBase": "2026-09-07T08:27:51Z",
+        "fetchedAt": "2026-09-14T09:18:21.490Z",
+        "osmBase": "2026-09-14T09:16:56Z",
         "elements": 71
       },
       "Warmińsko-Mazurskie": {
-        "fetchedAt": "2026-09-07T08:32:39.822Z",
-        "osmBase": "2026-09-07T08:30:50Z",
+        "fetchedAt": "2026-09-14T09:22:07.093Z",
+        "osmBase": "2026-09-14T09:20:02Z",
         "elements": 44
       },
       "Wielkopolskie": {
-        "fetchedAt": "2026-09-07T08:34:30.797Z",
-        "osmBase": "2026-09-07T08:32:55Z",
+        "fetchedAt": "2026-09-14T09:25:20.090Z",
+        "osmBase": "2026-09-14T09:24:05Z",
         "elements": 75
       },
       "Zachodniopomorskie": {
-        "fetchedAt": "2026-09-07T08:41:43.872Z",
-        "osmBase": "2026-09-07T08:40:06Z",
+        "fetchedAt": "2026-09-14T09:34:31.608Z",
+        "osmBase": "2026-09-14T09:33:21Z",
         "elements": 113
       }
     }
