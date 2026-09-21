@@ -1,6 +1,6 @@
 # QUALITY_SCORE
 
-Wygenerowano: 2026-09-14T09:37:51.253Z (build: `apps/web/dist`)
+Wygenerowano: 2026-09-21T09:35:40.964Z (build: `apps/web/dist`)
 
 **Wynik ogólny (strony indeksowalne): 93 / 100** — próg 90. Kontrole krytyczne: 0 (PASS).
 
@@ -26,7 +26,7 @@ Strony: 3075 (indeksowalne 2212, noindex 863); URL w sitemap: 2212; zerwane link
 | city-type | 102 | 88 | 14 | 88.4 | 71 | `/city/augustow/plaze/` | NOINDEX: 14, IMPROVE: 7, INDEX: 81 |
 | home | 1 | 1 | 0 | 92 | 92 | `/` | INDEX: 1 |
 | index | 5 | 5 | 0 | 87.4 | 80 | `/regions/` | INDEX: 5 |
-| parking | 1226 | 560 | 666 | 92.6 | 68 | `/parking/parking-dino-park-malbork/` | NOINDEX: 666, INDEX: 554, IMPROVE: 6 |
+| parking | 1226 | 560 | 666 | 92.6 | 68 | `/parking/parking-dino-park-malbork/` | NOINDEX: 666, INDEX: 555, IMPROVE: 5 |
 | region | 16 | 16 | 0 | 90.3 | 87 | `/region/lodzkie/` | INDEX: 16 |
 | static | 6 | 6 | 0 | 84.8 | 73 | `/kontakt/` | IMPROVE: 1, INDEX: 5 |
 | trail | 1571 | 1411 | 160 | 93.7 | 63 | `/trail/szlak-doliny-lupawy/` | INDEX: 1406, NOINDEX: 160, IMPROVE: 5 |
@@ -77,11 +77,11 @@ Brak.
 | `/beach/plaza-miejska-438008910/` | 74 | IMPROVE | 8 | 4 | 0 |
 | `/city/wladyslawowo/plaze/` | 74 | IMPROVE | 8 | 3 | 4 |
 | `/parking/kaloryfer-222476223/` | 74 | IMPROVE | 4 | 5 | 0 |
-| `/parking/parking-miejski-przy-ul-pileckiego-875878959/` | 74 | IMPROVE | 2 | 6 | 0 |
 | `/city/krakow/plaze/` | 75 | INDEX | 9 | 2 | 5 |
 | `/city/sopot/plaze/` | 75 | INDEX | 9 | 2 | 5 |
 | `/parking/euro-parking-336736355/` | 75 | INDEX | 6 | 5 | 0 |
 | `/parking/parking-lesny-dziewicza-gora-370601694/` | 75 | INDEX | 8 | 5 | 0 |
+| `/parking/parking-miejski-przy-ul-pileckiego-875878959/` | 75 | INDEX | 3 | 6 | 0 |
 | `/parking/renault-dacia-pieluszynska-sp-z-o-o-558913590/` | 75 | INDEX | 3 | 6 | 0 |
 
 ## Metoda

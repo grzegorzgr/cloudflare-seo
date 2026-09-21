@@ -350,8 +350,8 @@
   "osm": {
    "type": "way",
    "id": 190167986,
-   "timestamp": "2016-01-05T04:52:42Z",
-   "version": 4,
+   "timestamp": "2026-09-18T19:41:16Z",
+   "version": 5,
    "checkDate": null
   },
   "location": {
@@ -425,8 +425,8 @@
   "osm": {
    "type": "way",
    "id": 294394263,
-   "timestamp": "2014-07-25T18:59:52Z",
-   "version": 1,
+   "timestamp": "2026-09-18T19:41:16Z",
+   "version": 2,
    "checkDate": null
   },
   "location": {
@@ -3235,6 +3235,10 @@
      "km": 1.5
     },
     {
+     "key": "parking/ev-parking-14196414013",
+     "km": 1.5
+    },
+    {
      "key": "parking/par-king-9888095227",
      "km": 1.6
     },
@@ -5469,10 +5473,6 @@
      "km": 0.84
     },
     {
-     "key": "parking/dla-pojazdow-mkidn-1363848660",
-     "km": 1.1
-    },
-    {
      "key": "parking/ztp-bugaj-23660927",
      "km": 1.5
     },
@@ -5487,6 +5487,10 @@
     {
      "key": "parking/p-r-ch-wilenska-1777878249",
      "km": 1.7
+    },
+    {
+     "key": "parking/ztp-hoza-30258343",
+     "km": 1.9
     }
    ],
    "beaches": [
@@ -8816,113 +8820,6 @@
   }
  },
  {
-  "slug": "dla-pojazdow-mkidn-1363848660",
-  "name": "Dla pojazdów MKiDN",
-  "type": "parking",
-  "source": "osm",
-  "osm": {
-   "type": "way",
-   "id": 1363848660,
-   "timestamp": "2025-03-01T15:03:41Z",
-   "version": 1,
-   "checkDate": null
-  },
-  "location": {
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "hubSlug": "warszawa",
-   "hubDistanceKm": 1.4
-  },
-  "address": null,
-  "coordinates": {
-   "lat": 52.2425542,
-   "lng": 21.014135
-  },
-  "description": null,
-  "notes": [],
-  "attrs": {
-   "access": "private"
-  },
-  "rel": {
-   "parkings": [
-    {
-     "key": "parking/ztp-bednarska-35009322",
-     "km": 0.45
-    },
-    {
-     "key": "parking/parking-podziemny-buw-10121538157",
-     "km": 0.68
-    },
-    {
-     "key": "parking/ztp-plac-zelaznej-bramy-170968173",
-     "km": 0.91
-    },
-    {
-     "key": "parking/ztp-bugaj-23660927",
-     "km": 0.93
-    },
-    {
-     "key": "parking/ztp-ptasia-34627282",
-     "km": 0.98
-    },
-    {
-     "key": "parking/parking-pod-centrum-nauki-kopernik-502796314",
-     "km": 0.98
-    },
-    {
-     "key": "parking/ztp-bolesc-25865136",
-     "km": 1.1
-    },
-    {
-     "key": "parking/centrum-nauki-kopernik-parking-podziemny-3705526458",
-     "km": 1.1
-    }
-   ],
-   "beaches": [
-    {
-     "key": "beach/poniatowka-346115377",
-     "km": 2
-    },
-    {
-     "key": "beach/plaza-saska-423206947",
-     "km": 2.9
-    }
-   ],
-   "trails": [
-    {
-     "key": "trail/swietokrzyska-droga-sw-jakuba-15847947",
-     "km": 0.07
-    },
-    {
-     "key": "trail/warszawska-droga-sw-jakuba-15711552",
-     "km": 0.07
-    },
-    {
-     "key": "trail/podskarpowa-sciezka-rowerowa-1750422",
-     "km": 0.37
-    },
-    {
-     "key": "trail/podlaska-droga-sw-jakuba-15743566",
-     "km": 0.48
-    },
-    {
-     "key": "trail/mazowiecka-droga-sw-jakuba-15098993",
-     "km": 0.67
-    },
-    {
-     "key": "trail/rowerowy-szlak-wisly-1707552",
-     "km": 0.68
-    }
-   ],
-   "cities": [
-    {
-     "key": "city/warszawa",
-     "km": 1.4
-    }
-   ]
-  }
- },
- {
   "slug": "dla-pracownikow-i-klientow-adshock-1006649170",
   "name": "dla pracowników i klientów AdShock",
   "type": "parking",
@@ -10288,6 +10185,73 @@
   }
  },
  {
+  "slug": "ev-parking-14196414013",
+  "name": "EV parking",
+  "type": "parking",
+  "source": "osm",
+  "osm": {
+   "type": "node",
+   "id": 14196414013,
+   "timestamp": "2026-09-19T09:39:51Z",
+   "version": 1,
+   "checkDate": "2026-09-19"
+  },
+  "location": {
+   "city": "Wrocław",
+   "region": "Dolnośląskie",
+   "hubSlug": "wroclaw",
+   "hubDistanceKm": 2.5
+  },
+  "address": null,
+  "coordinates": {
+   "lat": 51.1077045,
+   "lng": 17.0738214
+  },
+  "description": null,
+  "notes": [],
+  "attrs": {
+   "parking": "surface",
+   "capacity": "4"
+  },
+  "rel": {
+   "parkings": [
+    {
+     "key": "parking/bus-1387879801",
+     "km": 1.5
+    },
+    {
+     "key": "parking/fortum-282729948",
+     "km": 1.7
+    }
+   ],
+   "beaches": [],
+   "trails": [
+    {
+     "key": "trail/trasa-twierdzy-wroclaw-2121881",
+     "km": 0.52
+    },
+    {
+     "key": "trail/via-regia-12592231",
+     "km": 0.75
+    },
+    {
+     "key": "trail/rowerowy-szlak-odry-odcinek-wroclaw-15958601",
+     "km": 0.75
+    },
+    {
+     "key": "trail/eurovelo-9-baltic-adriatic-lesser-poland-voivodeship-2766150",
+     "km": 0.75
+    }
+   ],
+   "cities": [
+    {
+     "key": "city/wroclaw",
+     "km": 2.5
+    }
+   ]
+  }
+ },
+ {
   "slug": "excon-370407856",
   "name": "EXCON",
   "type": "parking",
@@ -10491,6 +10455,10 @@
     {
      "key": "parking/kiss-and-ride-656804355",
      "km": 1.3
+    },
+    {
+     "key": "parking/ev-parking-14196414013",
+     "km": 1.7
     },
     {
      "key": "parking/par-king-9888095227",
@@ -11803,8 +11771,8 @@
   "osm": {
    "type": "way",
    "id": 336139015,
-   "timestamp": "2015-09-12T19:04:56Z",
-   "version": 7,
+   "timestamp": "2026-09-20T22:02:30Z",
+   "version": 8,
    "checkDate": null
   },
   "location": {
@@ -11822,6 +11790,7 @@
   "notes": [],
   "attrs": {
    "parking": "surface",
+   "access": "customers",
    "fee": "yes",
    "supervised": "yes",
    "opening_hours": "24/7"
@@ -13202,10 +13171,6 @@
      "km": 1.1
     },
     {
-     "key": "parking/dla-pojazdow-mkidn-1363848660",
-     "km": 1.4
-    },
-    {
      "key": "parking/parkingi24h-pl-320950938",
      "km": 1.5
     },
@@ -13215,6 +13180,10 @@
     },
     {
      "key": "parking/parking-dla-niepelnosprawnych-10091792488",
+     "km": 1.7
+    },
+    {
+     "key": "parking/parking-towing-296568673",
      "km": 1.7
     }
    ],
@@ -19286,10 +19255,6 @@
     {
      "key": "parking/centrum-nauki-kopernik-parking-podziemny-3705526458",
      "km": 1.6
-    },
-    {
-     "key": "parking/dla-pojazdow-mkidn-1363848660",
-     "km": 1.9
     }
    ],
    "beaches": [
@@ -22314,10 +22279,6 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/eurovelo-10-baltic-sea-cycle-route-part-poland-2-9422406",
-     "km": 0
-    },
-    {
      "key": "trail/eurovelo-13-iron-curtain-trail-part-poland-pomorskie-9424203",
      "km": 0
     },
@@ -22328,6 +22289,10 @@
     {
      "key": "trail/szlak-slowincow",
      "km": 0
+    },
+    {
+     "key": "trail/eurovelo-10-baltic-sea-cycle-route-part-poland-2-9422406",
+     "km": 0.01
     }
    ],
    "cities": [
@@ -26429,11 +26394,11 @@
      "km": 1.7
     },
     {
-     "key": "parking/parking-pod-centrum-nauki-kopernik-502796314",
+     "key": "parking/ztp-bugaj-23660927",
      "km": 1.7
     },
     {
-     "key": "parking/ztp-bugaj-23660927",
+     "key": "parking/parking-pod-centrum-nauki-kopernik-502796314",
      "km": 1.7
     },
     {
@@ -41247,8 +41212,8 @@
   "osm": {
    "type": "way",
    "id": 701130005,
-   "timestamp": "2023-05-30T13:31:08Z",
-   "version": 3,
+   "timestamp": "2026-09-14T20:34:52Z",
+   "version": 4,
    "checkDate": null
   },
   "location": {
@@ -47009,7 +46974,7 @@
     },
     {
      "key": "parking/waga-dla-tirow-181862365",
-     "km": 2
+     "km": 1.9
     }
    ],
    "beaches": [],
@@ -51892,12 +51857,12 @@
      "km": 0.03
     },
     {
-     "key": "trail/trasa-nr-3-gliwice-slawkow-6666366",
+     "key": "trail/katowice-ledziny-154562",
      "km": 0.26
     },
     {
-     "key": "trail/katowice-ledziny-154562",
-     "km": 0.27
+     "key": "trail/trasa-nr-3-gliwice-slawkow-6666366",
+     "km": 0.26
     },
     {
      "key": "trail/niebieski-szlak-ochojec-kostuchna-7082002",
@@ -58807,10 +58772,6 @@
      "km": 0.75
     },
     {
-     "key": "parking/dla-pojazdow-mkidn-1363848660",
-     "km": 0.98
-    },
-    {
      "key": "parking/ztp-bugaj-23660927",
      "km": 1.4
     },
@@ -58825,6 +58786,10 @@
     {
      "key": "parking/p-r-ch-wilenska-1777878249",
      "km": 1.7
+    },
+    {
+     "key": "parking/ztp-plac-zelaznej-bramy-170968173",
+     "km": 1.8
     }
    ],
    "beaches": [
@@ -59558,10 +59523,6 @@
      "km": 0.44
     },
     {
-     "key": "parking/dla-pojazdow-mkidn-1363848660",
-     "km": 0.68
-    },
-    {
      "key": "parking/ztp-bugaj-23660927",
      "km": 1.1
     },
@@ -59575,6 +59536,10 @@
     },
     {
      "key": "parking/ztp-plac-zelaznej-bramy-170968173",
+     "km": 1.6
+    },
+    {
+     "key": "parking/ztp-ptasia-34627282",
      "km": 1.6
     }
    ],
@@ -65926,8 +65891,8 @@
   "osm": {
    "type": "way",
    "id": 224301935,
-   "timestamp": "2022-06-16T12:09:34Z",
-   "version": 7,
+   "timestamp": "2026-09-19T07:11:56Z",
+   "version": 8,
    "checkDate": null
   },
   "location": {
@@ -74667,7 +74632,7 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 52.2033651,
+   "lat": 52.2033652,
    "lng": 20.8923459
   },
   "description": null,
@@ -89336,15 +89301,15 @@
      "km": 1.3
     },
     {
-     "key": "parking/dla-pojazdow-mkidn-1363848660",
-     "km": 1.3
-    },
-    {
      "key": "parking/gryf-94804802",
      "km": 1.3
     },
     {
      "key": "parking/ztp-hoza-30258343",
+     "km": 1.7
+    },
+    {
+     "key": "parking/ch-klif-92143064",
      "km": 1.7
     }
    ],
@@ -96400,8 +96365,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 53.1152957,
-   "lng": 17.9641398
+   "lat": 53.1153086,
+   "lng": 17.9642069
   },
   "description": null,
   "notes": [],
@@ -96420,7 +96385,7 @@
     },
     {
      "key": "parking/parking-grudziadzka-spp-983115091",
-     "km": 2
+     "km": 1.9
     },
     {
      "key": "parking/parking-grudziadzka-p-r-1190965210",
@@ -96435,7 +96400,7 @@
     },
     {
      "key": "trail/bydgoszcz-labiszyn-im-dabrowskiego-14886952",
-     "km": 0.27
+     "km": 0.28
     }
    ],
    "cities": [
@@ -98698,10 +98663,6 @@
      "km": 0.4
     },
     {
-     "key": "parking/dla-pojazdow-mkidn-1363848660",
-     "km": 0.45
-    },
-    {
      "key": "parking/ztp-bugaj-23660927",
      "km": 0.7
     },
@@ -98724,6 +98685,10 @@
     {
      "key": "parking/ztp-ptasia-34627282",
      "km": 1.4
+    },
+    {
+     "key": "parking/kiss-ride-920928017",
+     "km": 1.5
     }
    ],
    "beaches": [
@@ -98782,8 +98747,8 @@
   "osm": {
    "type": "way",
    "id": 25865136,
-   "timestamp": "2020-11-11T10:36:19Z",
-   "version": 9,
+   "timestamp": "2026-09-20T11:29:43Z",
+   "version": 10,
    "checkDate": null
   },
   "location": {
@@ -98794,8 +98759,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 52.252059,
-   "lng": 21.0131309
+   "lat": 52.2520586,
+   "lng": 21.0131335
   },
   "description": null,
   "notes": [],
@@ -98813,10 +98778,6 @@
     {
      "key": "parking/ztp-bednarska-35009322",
      "km": 0.87
-    },
-    {
-     "key": "parking/dla-pojazdow-mkidn-1363848660",
-     "km": 1.1
     },
     {
      "key": "parking/parking-podziemny-buw-10121538157",
@@ -98837,6 +98798,10 @@
     {
      "key": "parking/kiss-ride-920928017",
      "km": 1.5
+    },
+    {
+     "key": "parking/parking-pod-centrum-nauki-kopernik-502796314",
+     "km": 1.6
     }
    ],
    "beaches": [
@@ -98891,8 +98856,8 @@
   "osm": {
    "type": "way",
    "id": 23660927,
-   "timestamp": "2020-11-10T23:01:35Z",
-   "version": 10,
+   "timestamp": "2026-09-17T17:06:35Z",
+   "version": 11,
    "checkDate": null
   },
   "location": {
@@ -98903,8 +98868,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 52.2508666,
-   "lng": 21.0150725
+   "lat": 52.2508903,
+   "lng": 21.015128
   },
   "description": null,
   "notes": [],
@@ -98922,10 +98887,6 @@
     {
      "key": "parking/ztp-bednarska-35009322",
      "km": 0.7
-    },
-    {
-     "key": "parking/dla-pojazdow-mkidn-1363848660",
-     "km": 0.93
     },
     {
      "key": "parking/parking-podziemny-buw-10121538157",
@@ -98946,6 +98907,10 @@
     {
      "key": "parking/kiss-and-ride-1046348976",
      "km": 1.5
+    },
+    {
+     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
+     "km": 1.5
     }
    ],
    "beaches": [
@@ -98965,7 +98930,7 @@
     },
     {
      "key": "trail/rowerowy-szlak-wisly-1707552",
-     "km": 0.09
+     "km": 0.08
     },
     {
      "key": "trail/mazowiecka-droga-sw-jakuba-15098993",
@@ -98977,11 +98942,11 @@
     },
     {
      "key": "trail/podlaska-droga-sw-jakuba-15743566",
-     "km": 0.28
+     "km": 0.29
     },
     {
      "key": "trail/warszawska-droga-sw-jakuba-15711552",
-     "km": 0.28
+     "km": 0.29
     }
    ],
    "cities": [
@@ -99265,10 +99230,6 @@
      "km": 0.78
     },
     {
-     "key": "parking/dla-pojazdow-mkidn-1363848660",
-     "km": 0.91
-    },
-    {
      "key": "parking/parking-dla-niepelnosprawnych-10091792488",
      "km": 1
     },
@@ -99282,6 +99243,10 @@
     },
     {
      "key": "parking/ztp-bugaj-23660927",
+     "km": 1.6
+    },
+    {
+     "key": "parking/parking-podziemny-buw-10121538157",
      "km": 1.6
     }
    ],
@@ -99367,10 +99332,6 @@
      "km": 0.77
     },
     {
-     "key": "parking/dla-pojazdow-mkidn-1363848660",
-     "km": 0.98
-    },
-    {
      "key": "parking/parking-dla-niepelnosprawnych-10091792488",
      "km": 0.98
     },
@@ -99385,6 +99346,10 @@
     {
      "key": "parking/parkingi24h-pl-320950938",
      "km": 1.5
+    },
+    {
+     "key": "parking/ztp-bugaj-23660927",
+     "km": 1.6
     }
    ],
    "beaches": [
