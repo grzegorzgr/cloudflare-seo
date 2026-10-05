@@ -1,6 +1,6 @@
 # QUALITY_SCORE
 
-Wygenerowano: 2026-09-21T09:35:40.964Z (build: `apps/web/dist`)
+Wygenerowano: 2026-10-05T11:19:42.124Z (build: `apps/web/dist`)
 
 **Wynik ogólny (strony indeksowalne): 93 / 100** — próg 90. Kontrole krytyczne: 0 (PASS).
 
@@ -14,7 +14,7 @@ Wygenerowano: 2026-09-21T09:35:40.964Z (build: `apps/web/dist`)
 | Odkrywalność / linkowanie | 10 | 9.5 |
 | UX | 10 | 9.9 |
 
-Strony: 3075 (indeksowalne 2212, noindex 863); URL w sitemap: 2212; zerwane linki: 0.
+Strony: 3079 (indeksowalne 2215, noindex 864); URL w sitemap: 2215; zerwane linki: 0.
 
 ## Klastry
 
@@ -29,7 +29,7 @@ Strony: 3075 (indeksowalne 2212, noindex 863); URL w sitemap: 2212; zerwane link
 | parking | 1226 | 560 | 666 | 92.6 | 68 | `/parking/parking-dino-park-malbork/` | NOINDEX: 666, INDEX: 555, IMPROVE: 5 |
 | region | 16 | 16 | 0 | 90.3 | 87 | `/region/lodzkie/` | INDEX: 16 |
 | static | 6 | 6 | 0 | 84.8 | 73 | `/kontakt/` | IMPROVE: 1, INDEX: 5 |
-| trail | 1571 | 1411 | 160 | 93.7 | 63 | `/trail/szlak-doliny-lupawy/` | INDEX: 1406, NOINDEX: 160, IMPROVE: 5 |
+| trail | 1575 | 1414 | 161 | 93.7 | 63 | `/trail/szlak-doliny-lupawy/` | INDEX: 1409, NOINDEX: 161, IMPROVE: 5 |
 
 ## Kontrole krytyczne
 
@@ -73,7 +73,7 @@ Brak.
 | `/parking/plac-swietej-siostry-faustyny-857362018/` | 72 | IMPROVE | 2 | 5 | 0 |
 | `/city/krynica-zdroj/parkingi/` | 73 | IMPROVE | 8 | 2 | 4 |
 | `/city/leba/parkingi/` | 73 | IMPROVE | 8 | 2 | 4 |
-| `/kontakt/` | 73 | IMPROVE | 3075 | 0 | 0 |
+| `/kontakt/` | 73 | IMPROVE | 3079 | 0 | 0 |
 | `/beach/plaza-miejska-438008910/` | 74 | IMPROVE | 8 | 4 | 0 |
 | `/city/wladyslawowo/plaze/` | 74 | IMPROVE | 8 | 3 | 4 |
 | `/parking/kaloryfer-222476223/` | 74 | IMPROVE | 4 | 5 | 0 |

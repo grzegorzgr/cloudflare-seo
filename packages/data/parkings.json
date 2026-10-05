@@ -1053,10 +1053,6 @@
      "km": 1.3
     },
     {
-     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
-     "km": 1.4
-    },
-    {
      "key": "parking/p-r-metro-marymont-105514733",
      "km": 1.7
     },
@@ -1396,36 +1392,33 @@
   }
  },
  {
-  "slug": "auto-park-okecie-parking-lotniskowy-13534293002",
-  "name": "Auto Park Okęcie Parking Lotniskowy",
+  "slug": "auto-park-okecie-801565080",
+  "name": "Auto Park Okęcie",
   "type": "parking",
   "source": "osm",
   "osm": {
-   "type": "node",
-   "id": 13534293002,
-   "timestamp": "2026-02-08T14:20:32Z",
-   "version": 1,
+   "type": "way",
+   "id": 801565080,
+   "timestamp": "2026-10-04T18:18:39Z",
+   "version": 6,
    "checkDate": null
   },
   "location": {
    "city": "Warszawa",
    "region": "Mazowieckie",
    "hubSlug": "warszawa",
-   "hubDistanceKm": 8.6
+   "hubDistanceKm": 8.5
   },
-  "address": {
-   "street": "Aleja Krakowska",
-   "housenumber": "42a",
-   "postcode": "02-284",
-   "city": "Warszawa"
-  },
+  "address": null,
   "coordinates": {
-   "lat": 52.1683474,
-   "lng": 20.9359426
+   "lat": 52.1679651,
+   "lng": 20.9385799
   },
   "description": null,
   "notes": [],
   "attrs": {
+   "parking": "surface",
+   "fee": "yes",
    "payment": [
     "cash",
     "cards"
@@ -1435,35 +1428,35 @@
    "parkings": [
     {
      "key": "parking/simple-park-862987256",
-     "km": 0.24
+     "km": 0.2
     },
     {
      "key": "parking/smart-premium-parking-okecie-1308478673",
-     "km": 0.53
+     "km": 0.35
     },
     {
      "key": "parking/park-fly-parking-lotnisko-okecie-801555758",
-     "km": 0.56
+     "km": 0.38
     },
     {
      "key": "parking/start-parking-okecie-235361412",
-     "km": 0.67
+     "km": 0.49
     },
     {
      "key": "parking/parking-p12-690679809",
-     "km": 0.71
-    },
-    {
-     "key": "parking/parking-p16-690679808",
-     "km": 0.74
-    },
-    {
-     "key": "parking/parking-okecie-p12-763585660",
-     "km": 0.8
+     "km": 0.84
     },
     {
      "key": "parking/p-r-al-krakowska-128296142",
-     "km": 0.91
+     "km": 0.86
+    },
+    {
+     "key": "parking/parking-p16-690679808",
+     "km": 0.89
+    },
+    {
+     "key": "parking/parking-okecie-p12-763585660",
+     "km": 0.97
     }
    ],
    "beaches": [],
@@ -1471,7 +1464,7 @@
    "cities": [
     {
      "key": "city/warszawa",
-     "km": 8.6
+     "km": 8.5
     }
    ]
   }
@@ -1651,8 +1644,8 @@
      "km": 1
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 1.2
+     "key": "parking/auto-park-okecie-801565080",
+     "km": 1.1
     },
     {
      "key": "parking/parking-p12-690679809",
@@ -1725,12 +1718,12 @@
      "km": 1.1
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
+     "key": "parking/parking-p12-690679809",
      "km": 1.1
     },
     {
-     "key": "parking/parking-p12-690679809",
-     "km": 1.1
+     "key": "parking/auto-park-okecie-801565080",
+     "km": 1.2
     },
     {
      "key": "parking/simple-park-862987256",
@@ -6115,10 +6108,6 @@
      "km": 0.7
     },
     {
-     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
-     "km": 1
-    },
-    {
      "key": "parking/arkadia-278920381",
      "km": 1.3
     },
@@ -6140,6 +6129,10 @@
     },
     {
      "key": "parking/hala-336139015",
+     "km": 1.7
+    },
+    {
+     "key": "parking/ztp-ptasia-34627282",
      "km": 1.7
     }
    ],
@@ -7591,6 +7584,49 @@
     {
      "key": "city/kielce",
      "km": 0.66
+    }
+   ]
+  }
+ },
+ {
+  "slug": "dla-klientow-aaa-auto-14226172601",
+  "name": "Dla Klientów AAA Auto",
+  "type": "parking",
+  "source": "osm",
+  "osm": {
+   "type": "node",
+   "id": 14226172601,
+   "timestamp": "2026-09-28T07:26:28Z",
+   "version": 2,
+   "checkDate": null
+  },
+  "location": {
+   "city": "Kraków",
+   "region": "Małopolskie",
+   "hubSlug": "krakow",
+   "hubDistanceKm": 6.4
+  },
+  "address": null,
+  "coordinates": {
+   "lat": 50.0967593,
+   "lng": 19.8700997
+  },
+  "description": null,
+  "notes": [],
+  "attrs": {},
+  "rel": {
+   "parkings": [],
+   "beaches": [],
+   "trails": [
+    {
+     "key": "trail/szlak-twierdzy-krakow-petla-polnocna-3792707",
+     "km": 0.04
+    }
+   ],
+   "cities": [
+    {
+     "key": "city/krakow",
+     "km": 6.4
     }
    ]
   }
@@ -11724,10 +11760,6 @@
      "km": 0.74
     },
     {
-     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
-     "km": 1.2
-    },
-    {
      "key": "parking/spoleczny-parking-osiedlowy-sami-swoi-1144625139",
      "km": 1.3
     },
@@ -11745,6 +11777,10 @@
     },
     {
      "key": "parking/hala-336139015",
+     "km": 2
+    },
+    {
+     "key": "parking/arkadia-278920381",
      "km": 2
     }
    ],
@@ -12351,7 +12387,7 @@
    "trails": [
     {
      "key": "trail/green-velo-10-pogorze-karpackie-21387222",
-     "km": 0
+     "km": 0.01
     },
     {
      "key": "trail/droga-sw-jakuba-via-regia-podkarpacka-11063636",
@@ -13179,12 +13215,12 @@
      "km": 1.7
     },
     {
-     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
+     "key": "parking/parking-towing-296568673",
      "km": 1.7
     },
     {
-     "key": "parking/parking-towing-296568673",
-     "km": 1.7
+     "key": "parking/gryf-94804802",
+     "km": 1.8
     }
    ],
    "beaches": [
@@ -15090,6 +15126,10 @@
    ],
    "trails": [
     {
+     "key": "trail/szlak-swarzewski",
+     "km": 0
+    },
+    {
      "key": "trail/eurovelo-10-baltic-sea-cycle-route-part-poland-3-9422510",
      "km": 0
     },
@@ -15099,10 +15139,6 @@
     },
     {
      "key": "trail/pierscien-zatoki-puckiej-3729382",
-     "km": 0.01
-    },
-    {
-     "key": "trail/szlak-swarzewski",
      "km": 0.01
     },
     {
@@ -15138,8 +15174,8 @@
   "osm": {
    "type": "way",
    "id": 1244164903,
-   "timestamp": "2024-01-29T18:17:55Z",
-   "version": 1,
+   "timestamp": "2026-10-04T12:52:14Z",
+   "version": 2,
    "checkDate": null
   },
   "location": {
@@ -15157,7 +15193,8 @@
   "notes": [],
   "attrs": {
    "parking": "surface",
-   "access": "private"
+   "access": "private",
+   "covered": "no"
   },
   "rel": {
    "parkings": [
@@ -15891,10 +15928,6 @@
      "km": 0.84
     },
     {
-     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
-     "km": 1.3
-    },
-    {
      "key": "parking/ztp-bolesc-25865136",
      "km": 1.3
     },
@@ -15993,10 +16026,6 @@
     {
      "key": "parking/arkadia-278920381",
      "km": 0.71
-    },
-    {
-     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
-     "km": 1.2
     },
     {
      "key": "parking/ztp-bolesc-25865136",
@@ -18768,8 +18797,8 @@
   "osm": {
    "type": "way",
    "id": 1553841413,
-   "timestamp": "2026-08-31T11:47:33Z",
-   "version": 1,
+   "timestamp": "2026-09-27T07:23:32Z",
+   "version": 2,
    "checkDate": null
   },
   "location": {
@@ -18787,8 +18816,11 @@
   "notes": [],
   "attrs": {
    "parking": "street_side",
+   "access": "yes",
+   "fee": "no",
+   "capacity": "2",
    "surface": "paving_stones",
-   "park_ride": "yes",
+   "park_ride": "no",
    "orientation": "parallel"
   },
   "rel": {
@@ -19563,10 +19595,6 @@
   "rel": {
    "parkings": [
     {
-     "key": "parking/parking-p-r-lodz-fabryczna-4558962745",
-     "km": 0.16
-    },
-    {
      "key": "parking/parking-ec1-437454652",
      "km": 0.51
     },
@@ -19593,6 +19621,10 @@
     {
      "key": "parking/galeria-lodzka-parking-181459793",
      "km": 1.2
+    },
+    {
+     "key": "parking/parking-platny-strzezony-378163875",
+     "km": 1.3
     }
    ],
    "beaches": [],
@@ -19832,10 +19864,6 @@
      "km": 1.1
     },
     {
-     "key": "parking/parking-p-r-lodz-fabryczna-4558962745",
-     "km": 1.1
-    },
-    {
      "key": "parking/ambasador-943955296",
      "km": 1.2
     },
@@ -19850,6 +19878,10 @@
     {
      "key": "parking/strefa-dostaw-475457430",
      "km": 1.5
+    },
+    {
+     "key": "parking/parking-off-piotrkowska-990273021",
+     "km": 1.6
     }
    ],
    "beaches": [],
@@ -19870,8 +19902,8 @@
   "osm": {
    "type": "way",
    "id": 189850633,
-   "timestamp": "2026-08-04T20:17:46Z",
-   "version": 14,
+   "timestamp": "2026-09-22T21:47:16Z",
+   "version": 15,
    "checkDate": null
   },
   "location": {
@@ -19883,7 +19915,7 @@
   "address": {
    "street": "Aleja Tadeusza Rejtana",
    "housenumber": "1",
-   "postcode": "35-326",
+   "postcode": null,
    "city": "Rzeszów"
   },
   "coordinates": {
@@ -21436,6 +21468,10 @@
     },
     {
      "key": "parking/wdw-a-4359008234",
+     "km": 1.3
+    },
+    {
+     "key": "parking/parkingas-1427936884",
      "km": 1.3
     },
     {
@@ -24280,11 +24316,11 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/european-long-distance-path-e9-part-poland-3009329",
-     "km": 0.15
+     "key": "trail/szlak-swarzewski",
+     "km": 0.14
     },
     {
-     "key": "trail/szlak-swarzewski",
+     "key": "trail/european-long-distance-path-e9-part-poland-3009329",
      "km": 0.15
     },
     {
@@ -26233,8 +26269,8 @@
      "km": 0.81
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 0.91
+     "key": "parking/auto-park-okecie-801565080",
+     "km": 0.86
     },
     {
      "key": "parking/smart-premium-parking-okecie-1308478673",
@@ -33285,8 +33321,8 @@
      "km": 1.1
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 1.1
+     "key": "parking/auto-park-okecie-801565080",
+     "km": 1.3
     },
     {
      "key": "parking/parking-p16-690679808",
@@ -34013,12 +34049,12 @@
      "km": 0.2
     },
     {
-     "key": "parking/simple-park-862987256",
-     "km": 0.49
+     "key": "parking/auto-park-okecie-801565080",
+     "km": 0.38
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 0.56
+     "key": "parking/simple-park-862987256",
+     "km": 0.49
     },
     {
      "key": "parking/p-r-al-krakowska-128296142",
@@ -34778,8 +34814,8 @@
   "osm": {
    "type": "way",
    "id": 137082283,
-   "timestamp": "2026-08-04T20:08:28Z",
-   "version": 13,
+   "timestamp": "2026-09-22T21:46:31Z",
+   "version": 14,
    "checkDate": null
   },
   "location": {
@@ -34791,7 +34827,7 @@
   "address": {
    "street": "Indyjska",
    "housenumber": "13",
-   "postcode": "81-336",
+   "postcode": null,
    "city": "Gdynia"
   },
   "coordinates": {
@@ -35118,7 +35154,7 @@
     },
     {
      "key": "trail/ring-2-11634070",
-     "km": 0.52
+     "km": 0.51
     },
     {
      "key": "trail/radial-r2-11627908",
@@ -36867,8 +36903,8 @@
      "km": 1.2
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 1.2
+     "key": "parking/auto-park-okecie-801565080",
+     "km": 1.4
     },
     {
      "key": "parking/simple-park-862987256",
@@ -37859,8 +37895,8 @@
   "osm": {
    "type": "way",
    "id": 628260272,
-   "timestamp": "2023-12-10T11:19:15Z",
-   "version": 4,
+   "timestamp": "2026-09-24T14:33:19Z",
+   "version": 5,
    "checkDate": null
   },
   "location": {
@@ -37876,7 +37912,9 @@
   },
   "description": null,
   "notes": [],
-  "attrs": {},
+  "attrs": {
+   "parking": "surface"
+  },
   "rel": {
    "parkings": [
     {
@@ -42439,15 +42477,15 @@
   }
  },
  {
-  "slug": "parking-dla-klientow-pgnig-378505436",
-  "name": "Parking dla klientów PGNiG",
+  "slug": "parking-dla-klientow-myorlen-378505436",
+  "name": "Parking dla klientów myOrlen",
   "type": "parking",
   "source": "osm",
   "osm": {
    "type": "way",
    "id": 378505436,
-   "timestamp": "2018-11-04T16:01:26Z",
-   "version": 4,
+   "timestamp": "2026-10-02T14:25:12Z",
+   "version": 5,
    "checkDate": null
   },
   "location": {
@@ -43115,101 +43153,6 @@
     {
      "key": "city/lublin",
      "km": 6.4
-    }
-   ]
-  }
- },
- {
-  "slug": "parking-dla-niepelnosprawnych-10091792488",
-  "name": "Parking dla niepełnosprawnych",
-  "type": "parking",
-  "source": "osm",
-  "osm": {
-   "type": "node",
-   "id": 10091792488,
-   "timestamp": "2022-10-11T10:14:19Z",
-   "version": 1,
-   "checkDate": null
-  },
-  "location": {
-   "city": "Warszawa",
-   "region": "Mazowieckie",
-   "hubSlug": "warszawa",
-   "hubDistanceKm": 2.3
-  },
-  "address": null,
-  "coordinates": {
-   "lat": 52.2469086,
-   "lng": 20.99344
-  },
-  "description": null,
-  "notes": [],
-  "attrs": {
-   "parking": "street_side"
-  },
-  "rel": {
-   "parkings": [
-    {
-     "key": "parking/ztp-ptasia-34627282",
-     "km": 0.98
-    },
-    {
-     "key": "parking/ztp-plac-zelaznej-bramy-170968173",
-     "km": 1
-    },
-    {
-     "key": "parking/ch-klif-92143064",
-     "km": 1
-    },
-    {
-     "key": "parking/spoleczny-parking-osiedlowy-sami-swoi-1144625139",
-     "km": 1.1
-    },
-    {
-     "key": "parking/gryf-94804802",
-     "km": 1.2
-    },
-    {
-     "key": "parking/kiss-and-ride-1046348977",
-     "km": 1.2
-    },
-    {
-     "key": "parking/kiss-and-ride-1046348976",
-     "km": 1.3
-    },
-    {
-     "key": "parking/arkadia-278920381",
-     "km": 1.4
-    }
-   ],
-   "beaches": [
-    {
-     "key": "beach/plaza-zoliborska-593645227",
-     "km": 2.5
-    }
-   ],
-   "trails": [
-    {
-     "key": "trail/swietokrzyska-droga-sw-jakuba-15847947",
-     "km": 0.91
-    },
-    {
-     "key": "trail/mazowiecka-droga-sw-jakuba-15098993",
-     "km": 1.1
-    },
-    {
-     "key": "trail/warszawska-droga-sw-jakuba-15711552",
-     "km": 1.3
-    },
-    {
-     "key": "trail/podlaska-droga-sw-jakuba-15743566",
-     "km": 1.4
-    }
-   ],
-   "cities": [
-    {
-     "key": "city/warszawa",
-     "km": 2.3
     }
    ]
   }
@@ -44809,7 +44752,7 @@
     },
     {
      "key": "trail/ring-2-11634070",
-     "km": 0.91
+     "km": 0.92
     },
     {
      "key": "trail/dolina-bogdanki-2736036",
@@ -45111,6 +45054,10 @@
     {
      "key": "parking/wdw-b-4359008232",
      "km": 1.2
+    },
+    {
+     "key": "parking/parkingas-1427936884",
+     "km": 1.3
     },
     {
      "key": "parking/wdw-a-4359008234",
@@ -45891,10 +45838,6 @@
      "km": 0.51
     },
     {
-     "key": "parking/parking-p-r-lodz-fabryczna-4558962745",
-     "km": 0.52
-    },
-    {
      "key": "parking/parking-off-piotrkowska-990273021",
      "km": 0.66
     },
@@ -45917,6 +45860,10 @@
     {
      "key": "parking/parking-platny-strzezony-378163875",
      "km": 0.92
+    },
+    {
+     "key": "parking/parking-wielopoziomowy-manhattan-103285685",
+     "km": 0.97
     }
    ],
    "beaches": [],
@@ -46748,10 +46695,6 @@
     },
     {
      "key": "parking/kiss-ride-lodz-fabryczna-447215796",
-     "km": 1.5
-    },
-    {
-     "key": "parking/parking-p-r-lodz-fabryczna-4558962745",
      "km": 1.5
     },
     {
@@ -48527,7 +48470,7 @@
    "trails": [
     {
      "key": "trail/ring-2-11634070",
-     "km": 0.25
+     "km": 0.24
     },
     {
      "key": "trail/eurovelo-9-baltic-adriatic-greater-poland-voivodeship-20020519",
@@ -48821,7 +48764,7 @@
     },
     {
      "key": "trail/wislana-trasa-rowerowa-pomorskie-9424119",
-     "km": 0.62
+     "km": 0.63
     },
     {
      "key": "trail/eurovelo-10-baltic-sea-cycle-route-part-poland-4-9422325",
@@ -50866,16 +50809,16 @@
      "km": 1.4
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 1.4
-    },
-    {
      "key": "parking/parking-okecie-szyszkowa-45-220429098",
      "km": 1.5
     },
     {
      "key": "parking/best-parking-serie-a-13631092202",
      "km": 1.5
+    },
+    {
+     "key": "parking/parking-auto-van-trade-60-799182445",
+     "km": 1.6
     }
    ],
    "beaches": [],
@@ -51529,7 +51472,7 @@
     },
     {
      "key": "trail/szlak-swarzewski",
-     "km": 0.28
+     "km": 0.29
     },
     {
      "key": "trail/r10-mierzeja-helska-8245423",
@@ -52022,10 +51965,6 @@
      "km": 1.2
     },
     {
-     "key": "parking/parking-p-r-lodz-fabryczna-4558962745",
-     "km": 1.2
-    },
-    {
      "key": "parking/ambasador-943955296",
      "km": 1.3
     },
@@ -52039,6 +51978,10 @@
     },
     {
      "key": "parking/strefa-dostaw-475457430",
+     "km": 1.6
+    },
+    {
+     "key": "parking/parking-off-piotrkowska-990273021",
      "km": 1.6
     }
    ],
@@ -53295,8 +53238,8 @@
   "osm": {
    "type": "way",
    "id": 287751117,
-   "timestamp": "2026-08-04T20:33:32Z",
-   "version": 17,
+   "timestamp": "2026-09-22T21:46:18Z",
+   "version": 18,
    "checkDate": null
   },
   "location": {
@@ -53308,7 +53251,7 @@
   "address": {
    "street": "Juliusza Słowackiego",
    "housenumber": "199B",
-   "postcode": "80-298",
+   "postcode": null,
    "city": "Gdańsk"
   },
   "coordinates": {
@@ -53575,8 +53518,8 @@
   "osm": {
    "type": "way",
    "id": 1517781602,
-   "timestamp": "2026-05-20T19:20:06Z",
-   "version": 2,
+   "timestamp": "2026-09-24T09:43:51Z",
+   "version": 3,
    "checkDate": null
   },
   "location": {
@@ -53596,7 +53539,8 @@
    "parking": "surface",
    "access": "customers",
    "fee": "no",
-   "surface": "paving_stones"
+   "surface": "paving_stones",
+   "covered": "no"
   },
   "rel": {
    "parkings": [
@@ -53922,16 +53866,16 @@
      "km": 1.4
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 1.5
-    },
-    {
      "key": "parking/parking-okecie-szyszkowa-45-220429098",
      "km": 1.5
     },
     {
      "key": "parking/best-parking-serie-a-13631092202",
      "km": 1.5
+    },
+    {
+     "key": "parking/parking-auto-van-trade-60-799182445",
+     "km": 1.6
     }
    ],
    "beaches": [],
@@ -53992,10 +53936,6 @@
      "km": 0.77
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 0.8
-    },
-    {
      "key": "parking/best-parking-serie-a-13631092202",
      "km": 0.82
     },
@@ -54006,6 +53946,10 @@
     {
      "key": "parking/parking-auto-van-trade-60-799182445",
      "km": 0.92
+    },
+    {
+     "key": "parking/parking-okecie-szyszkowa-45-220429098",
+     "km": 0.96
     }
    ],
    "beaches": [],
@@ -54073,11 +54017,11 @@
      "km": 1.3
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 1.4
+     "key": "parking/parking-okecie-22-541488779",
+     "km": 1.5
     },
     {
-     "key": "parking/parking-okecie-22-541488779",
+     "key": "parking/parking-lotnisko-18-warszawa-487105771",
      "km": 1.5
     }
    ],
@@ -55819,85 +55763,6 @@
   }
  },
  {
-  "slug": "parking-p-r-lodz-fabryczna-4558962745",
-  "name": "Parking P+R Łódź Fabryczna",
-  "type": "parking",
-  "source": "osm",
-  "osm": {
-   "type": "node",
-   "id": 4558962745,
-   "timestamp": "2024-09-03T20:35:39Z",
-   "version": 9,
-   "checkDate": null
-  },
-  "location": {
-   "city": "Łódź",
-   "region": "Łódzkie",
-   "hubSlug": "lodz",
-   "hubDistanceKm": 1.6
-  },
-  "address": null,
-  "coordinates": {
-   "lat": 51.7700053,
-   "lng": 19.4708811
-  },
-  "description": null,
-  "notes": [],
-  "attrs": {
-   "parking": "underground",
-   "access": "yes",
-   "fee": "yes",
-   "capacity": "960",
-   "lit": "yes",
-   "park_ride": "yes",
-   "opening_hours": "24/7"
-  },
-  "rel": {
-   "parkings": [
-    {
-     "key": "parking/kiss-ride-lodz-fabryczna-447215796",
-     "km": 0.16
-    },
-    {
-     "key": "parking/parking-ec1-437454652",
-     "km": 0.52
-    },
-    {
-     "key": "parking/klienci-ing-987659271",
-     "km": 1.1
-    },
-    {
-     "key": "parking/parking-off-piotrkowska-990273021",
-     "km": 1.1
-    },
-    {
-     "key": "parking/parking-platny-strzezony-378163875",
-     "km": 1.2
-    },
-    {
-     "key": "parking/parking-monopolis-832895802",
-     "km": 1.2
-    },
-    {
-     "key": "parking/campanile-119455952",
-     "km": 1.2
-    },
-    {
-     "key": "parking/ambasador-943955296",
-     "km": 1.2
-    }
-   ],
-   "beaches": [],
-   "trails": [],
-   "cities": [
-    {
-     "key": "city/lodz",
-     "km": 1.6
-    }
-   ]
-  }
- },
- {
   "slug": "parking-p-r-marysin-1235492616",
   "name": "Parking P+R Marysin",
   "type": "parking",
@@ -56378,10 +56243,6 @@
      "km": 0.33
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 0.71
-    },
-    {
      "key": "parking/simple-park-862987256",
      "km": 0.71
     },
@@ -56392,6 +56253,10 @@
     {
      "key": "parking/parking-okecie-22-541488779",
      "km": 0.75
+    },
+    {
+     "key": "parking/auto-park-okecie-801565080",
+     "km": 0.84
     },
     {
      "key": "parking/smart-premium-parking-okecie-1308478673",
@@ -56465,12 +56330,12 @@
      "km": 0.71
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 0.74
-    },
-    {
      "key": "parking/simple-park-862987256",
      "km": 0.76
+    },
+    {
+     "key": "parking/auto-park-okecie-801565080",
+     "km": 0.89
     },
     {
      "key": "parking/best-parking-serie-a-13631092202",
@@ -61033,6 +60898,10 @@
    "beaches": [],
    "trails": [
     {
+     "key": "trail/wislana-trasa-rowerowa-pomorskie-9424119",
+     "km": 0.07
+    },
+    {
      "key": "trail/eurovelo-10-baltic-sea-cycle-route-part-poland-4-9422325",
      "km": 0.07
     },
@@ -61042,10 +60911,6 @@
     },
     {
      "key": "trail/eurovelo-9-baltic-adriatic-pomeranian-voivodeship-9424129",
-     "km": 0.07
-    },
-    {
-     "key": "trail/wislana-trasa-rowerowa-pomorskie-9424119",
      "km": 0.07
     },
     {
@@ -62043,6 +61908,10 @@
     {
      "key": "parking/zabka-1434006779",
      "km": 0.15
+    },
+    {
+     "key": "parking/parkingas-1427936884",
+     "km": 0.58
     },
     {
      "key": "parking/wdw-a-4359008234",
@@ -68634,12 +68503,12 @@
      "km": 1.5
     },
     {
-     "key": "parking/parking-p-r-lodz-fabryczna-4558962745",
+     "key": "parking/gold-sport-440647734",
      "km": 1.8
     },
     {
-     "key": "parking/gold-sport-440647734",
-     "km": 1.8
+     "key": "parking/p3-978752955",
+     "km": 1.9
     }
    ],
    "beaches": [],
@@ -72058,7 +71927,12 @@
    "orientation": "perpendicular"
   },
   "rel": {
-   "parkings": [],
+   "parkings": [
+    {
+     "key": "parking/parkingas-1427936884",
+     "km": 1.9
+    }
+   ],
    "beaches": [],
    "trails": [
     {
@@ -73753,8 +73627,8 @@
   "osm": {
    "type": "way",
    "id": 103285685,
-   "timestamp": "2026-08-04T19:38:56Z",
-   "version": 12,
+   "timestamp": "2026-09-22T21:38:36Z",
+   "version": 13,
    "checkDate": null
   },
   "location": {
@@ -73766,7 +73640,7 @@
   "address": {
    "street": "Henryka Sienkiewicza",
    "housenumber": "113a",
-   "postcode": "90-301",
+   "postcode": null,
    "city": "Łódź"
   },
   "coordinates": {
@@ -75004,6 +74878,104 @@
   }
  },
  {
+  "slug": "parkingas-1427936884",
+  "name": "Parkingas",
+  "type": "parking",
+  "source": "osm",
+  "osm": {
+   "type": "way",
+   "id": 1427936884,
+   "timestamp": "2026-09-24T15:42:55Z",
+   "version": 2,
+   "checkDate": null
+  },
+  "location": {
+   "city": "Zakopane",
+   "region": "Małopolskie",
+   "hubSlug": "zakopane",
+   "hubDistanceKm": 4.6
+  },
+  "address": null,
+  "coordinates": {
+   "lat": 49.2839348,
+   "lng": 19.8901257
+  },
+  "description": null,
+  "notes": [],
+  "attrs": {
+   "access": "private"
+  },
+  "rel": {
+   "parkings": [
+    {
+     "key": "parking/parking-przy-orliku-1434006771",
+     "km": 0.58
+    },
+    {
+     "key": "parking/zabka-1434006779",
+     "km": 0.71
+    },
+    {
+     "key": "parking/wdw-b-4359008232",
+     "km": 1.2
+    },
+    {
+     "key": "parking/wdw-a-4359008234",
+     "km": 1.2
+    },
+    {
+     "key": "parking/parking-dolina-malej-laki-giewont-1083796881",
+     "km": 1.3
+    },
+    {
+     "key": "parking/mala-laka-607933398",
+     "km": 1.3
+    },
+    {
+     "key": "parking/private-parking-249953917",
+     "km": 1.7
+    },
+    {
+     "key": "parking/parking-tpn-dolina-koscieliska-kiry-1329849092",
+     "km": 1.9
+    }
+   ],
+   "beaches": [],
+   "trails": [
+    {
+     "key": "trail/na-gubalowke-przez-zab-z-zacisnietymi-zebami-3941757",
+     "km": 0.57
+    },
+    {
+     "key": "trail/nedzowka-przyslop-mietusi-1594881",
+     "km": 0.86
+    },
+    {
+     "key": "trail/droga-pod-reglami-2748370",
+     "km": 1.1
+    },
+    {
+     "key": "trail/szlak-maryjny-etap-1-10384310",
+     "km": 1.1
+    },
+    {
+     "key": "trail/droga-pod-reglami-1594930",
+     "km": 1.1
+    },
+    {
+     "key": "trail/gubalowka-kiry-105387",
+     "km": 1.1
+    }
+   ],
+   "cities": [
+    {
+     "key": "city/zakopane",
+     "km": 4.6
+    }
+   ]
+  }
+ },
+ {
   "slug": "parkingi24h-pl-320950938",
   "name": "parkingi24h.pl",
   "type": "parking",
@@ -75066,10 +75038,6 @@
     {
      "key": "parking/parking-depozytowy-401514151",
      "km": 1.7
-    },
-    {
-     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
-     "km": 1.7
     }
    ],
    "beaches": [],
@@ -75095,8 +75063,8 @@
   "osm": {
    "type": "way",
    "id": 236841202,
-   "timestamp": "2026-08-04T20:26:09Z",
-   "version": 6,
+   "timestamp": "2026-09-22T21:46:25Z",
+   "version": 7,
    "checkDate": null
   },
   "location": {
@@ -75108,7 +75076,7 @@
   "address": {
    "street": "Krakowiaków",
    "housenumber": "75",
-   "postcode": "02-255",
+   "postcode": null,
    "city": "Warszawa"
   },
   "coordinates": {
@@ -76916,7 +76884,7 @@
      "km": 0.36
     },
     {
-     "key": "parking/parking-dla-klientow-pgnig-378505436",
+     "key": "parking/parking-dla-klientow-myorlen-378505436",
      "km": 0.58
     },
     {
@@ -77647,8 +77615,8 @@
   "osm": {
    "type": "way",
    "id": 583884510,
-   "timestamp": "2025-12-19T18:44:39Z",
-   "version": 9,
+   "timestamp": "2026-10-01T17:48:15Z",
+   "version": 10,
    "checkDate": null
   },
   "location": {
@@ -77839,7 +77807,7 @@
      "km": 1.3
     },
     {
-     "key": "parking/parking-dla-klientow-pgnig-378505436",
+     "key": "parking/parking-dla-klientow-myorlen-378505436",
      "km": 1.5
     },
     {
@@ -78048,7 +78016,7 @@
      "km": 0.36
     },
     {
-     "key": "parking/parking-dla-klientow-pgnig-378505436",
+     "key": "parking/parking-dla-klientow-myorlen-378505436",
      "km": 0.79
     }
    ],
@@ -78476,8 +78444,8 @@
   "osm": {
    "type": "way",
    "id": 921430212,
-   "timestamp": "2022-02-13T11:18:03Z",
-   "version": 3,
+   "timestamp": "2026-10-02T15:34:12Z",
+   "version": 4,
    "checkDate": null
   },
   "location": {
@@ -78500,7 +78468,7 @@
    "capacity": "50",
    "capacity_disabled": "3",
    "park_ride": "train;bus",
-   "opening_hours": "Mo-Su 4:30-26:30; PH off"
+   "opening_hours": "Mo-Su 04:30-26:30; PH off"
   },
   "rel": {
    "parkings": [],
@@ -78527,8 +78495,8 @@
   "osm": {
    "type": "way",
    "id": 1030899572,
-   "timestamp": "2022-02-13T11:59:12Z",
-   "version": 1,
+   "timestamp": "2026-10-02T15:34:12Z",
+   "version": 2,
    "checkDate": null
   },
   "location": {
@@ -78551,7 +78519,7 @@
    "capacity_disabled": "3",
    "surface": "paving_stones",
    "park_ride": "tram",
-   "opening_hours": "Mo-Su 4:30-26:30; PH off"
+   "opening_hours": "Mo-Su 04:30-26:30; PH off"
   },
   "rel": {
    "parkings": [
@@ -78601,7 +78569,7 @@
     },
     {
      "key": "trail/ring-2-11634070",
-     "km": 0.15
+     "km": 0.14
     },
     {
      "key": "trail/wartostrada-6545370",
@@ -79106,11 +79074,11 @@
    ],
    "trails": [
     {
-     "key": "trail/ring-2-11634070",
+     "key": "trail/dolina-gluszynki-do-kornika-2257694",
      "km": 0.15
     },
     {
-     "key": "trail/dolina-gluszynki-do-kornika-2257694",
+     "key": "trail/ring-2-11634070",
      "km": 0.15
     },
     {
@@ -80374,8 +80342,8 @@
   "osm": {
    "type": "way",
    "id": 524496404,
-   "timestamp": "2023-07-18T12:36:41Z",
-   "version": 4,
+   "timestamp": "2026-09-25T07:26:23Z",
+   "version": 5,
    "checkDate": null
   },
   "location": {
@@ -80394,6 +80362,8 @@
   "attrs": {
    "parking": "surface",
    "access": "no",
+   "fee": "no",
+   "covered": "no",
    "operator": "Plac manewrowy dla Straży Pożarnej"
   },
   "rel": {
@@ -84061,6 +84031,10 @@
     {
      "key": "parking/wdw-a-4359008234",
      "km": 1.2
+    },
+    {
+     "key": "parking/parkingas-1427936884",
+     "km": 1.7
     }
    ],
    "beaches": [],
@@ -88712,8 +88686,8 @@
   "rel": {
    "parkings": [
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 0.24
+     "key": "parking/auto-park-okecie-801565080",
+     "km": 0.2
     },
     {
      "key": "parking/smart-premium-parking-okecie-1308478673",
@@ -88872,8 +88846,8 @@
      "km": 1.1
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 1.3
+     "key": "parking/auto-park-okecie-801565080",
+     "km": 1.2
     },
     {
      "key": "parking/p-r-al-krakowska-128296142",
@@ -89100,12 +89074,12 @@
      "km": 0.3
     },
     {
-     "key": "parking/simple-park-862987256",
-     "km": 0.37
+     "key": "parking/auto-park-okecie-801565080",
+     "km": 0.35
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 0.53
+     "key": "parking/simple-park-862987256",
+     "km": 0.37
     },
     {
      "key": "parking/bayport-parking-lotnisko-chopina-24-7-1419615953",
@@ -89293,10 +89267,6 @@
      "km": 0.61
     },
     {
-     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
-     "km": 1.1
-    },
-    {
      "key": "parking/parkingi24h-pl-320950938",
      "km": 1.3
     },
@@ -89310,6 +89280,10 @@
     },
     {
      "key": "parking/ch-klif-92143064",
+     "km": 1.7
+    },
+    {
+     "key": "parking/ztp-bednarska-35009322",
      "km": 1.7
     }
    ],
@@ -89940,12 +89914,12 @@
      "km": 0.3
     },
     {
-     "key": "parking/simple-park-862987256",
-     "km": 0.61
+     "key": "parking/auto-park-okecie-801565080",
+     "km": 0.49
     },
     {
-     "key": "parking/auto-park-okecie-parking-lotniskowy-13534293002",
-     "km": 0.67
+     "key": "parking/simple-park-862987256",
+     "km": 0.61
     },
     {
      "key": "parking/p-r-al-krakowska-128296142",
@@ -93611,6 +93585,10 @@
    "beaches": [],
    "trails": [
     {
+     "key": "trail/wislana-trasa-rowerowa-pomorskie-9424119",
+     "km": 0.3
+    },
+    {
      "key": "trail/eurovelo-10-baltic-sea-cycle-route-part-poland-4-9422325",
      "km": 0.3
     },
@@ -93624,10 +93602,6 @@
     },
     {
      "key": "trail/gdanska-droga-sw-jakuba-3148386",
-     "km": 0.3
-    },
-    {
-     "key": "trail/wislana-trasa-rowerowa-pomorskie-9424119",
      "km": 0.3
     }
    ],
@@ -96515,6 +96489,10 @@
      "km": 1.1
     },
     {
+     "key": "parking/parkingas-1427936884",
+     "km": 1.2
+    },
+    {
      "key": "parking/private-parking-249953917",
      "km": 1.2
     },
@@ -96606,6 +96584,10 @@
     },
     {
      "key": "parking/private-parking-249953917",
+     "km": 1.2
+    },
+    {
+     "key": "parking/parkingas-1427936884",
      "km": 1.2
     },
     {
@@ -96981,8 +96963,8 @@
   "osm": {
    "type": "way",
    "id": 170357423,
-   "timestamp": "2024-07-18T14:40:06Z",
-   "version": 10,
+   "timestamp": "2026-09-26T04:01:46Z",
+   "version": 11,
    "checkDate": null
   },
   "location": {
@@ -97003,6 +96985,7 @@
    "access": "private",
    "fee": "no",
    "capacity": "70",
+   "covered": "no",
    "operator": "Uniwersytet Jana Kochanowskiego"
   },
   "rel": {
@@ -98301,6 +98284,10 @@
      "km": 0.15
     },
     {
+     "key": "parking/parkingas-1427936884",
+     "km": 0.71
+    },
+    {
      "key": "parking/wdw-a-4359008234",
      "km": 1.2
     },
@@ -98792,15 +98779,15 @@
      "km": 1.4
     },
     {
-     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
-     "km": 1.5
-    },
-    {
      "key": "parking/kiss-ride-920928017",
      "km": 1.5
     },
     {
      "key": "parking/parking-pod-centrum-nauki-kopernik-502796314",
+     "km": 1.6
+    },
+    {
+     "key": "parking/ztp-plac-zelaznej-bramy-170968173",
      "km": 1.6
     }
    ],
@@ -98909,8 +98896,8 @@
      "km": 1.5
     },
     {
-     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
-     "km": 1.5
+     "key": "parking/ztp-plac-zelaznej-bramy-170968173",
+     "km": 1.6
     }
    ],
    "beaches": [
@@ -99230,10 +99217,6 @@
      "km": 0.78
     },
     {
-     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
-     "km": 1
-    },
-    {
      "key": "parking/ztp-bednarska-35009322",
      "km": 1.3
     },
@@ -99247,6 +99230,10 @@
     },
     {
      "key": "parking/parking-podziemny-buw-10121538157",
+     "km": 1.6
+    },
+    {
+     "key": "parking/ztp-bolesc-25865136",
      "km": 1.6
     }
    ],
@@ -99332,10 +99319,6 @@
      "km": 0.77
     },
     {
-     "key": "parking/parking-dla-niepelnosprawnych-10091792488",
-     "km": 0.98
-    },
-    {
      "key": "parking/ztp-bednarska-35009322",
      "km": 1.4
     },
@@ -99349,6 +99332,10 @@
     },
     {
      "key": "parking/ztp-bugaj-23660927",
+     "km": 1.6
+    },
+    {
+     "key": "parking/parking-podziemny-buw-10121538157",
      "km": 1.6
     }
    ],

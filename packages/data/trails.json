@@ -20,7 +20,7 @@
   "address": null,
   "coordinates": {
    "lat": 50.70072,
-   "lng": 18.17501
+   "lng": 18.175
   },
   "description": null,
   "notes": [],
@@ -54,7 +54,7 @@
     50.7485,
     18.23747
    ],
-   "pointCount": 52
+   "pointCount": 53
   },
   "rel": {
    "parkings": [],
@@ -260,8 +260,8 @@
   "osm": {
    "type": "relation",
    "id": 19507285,
-   "timestamp": "2026-05-16T19:11:28Z",
-   "version": 12,
+   "timestamp": "2026-10-03T15:33:59Z",
+   "version": 15,
    "checkDate": null
   },
   "location": {
@@ -288,7 +288,7 @@
   },
   "computed": {
    "lengthKm": 44.1,
-   "wayCount": 108,
+   "wayCount": 110,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -301,7 +301,7 @@
     50.62119,
     18.41154
    ],
-   "pointCount": 277
+   "pointCount": 281
   },
   "rel": {
    "parkings": [],
@@ -346,8 +346,8 @@
   "osm": {
    "type": "relation",
    "id": 2573218,
-   "timestamp": "2026-05-22T18:36:40Z",
-   "version": 91,
+   "timestamp": "2026-10-05T09:57:02Z",
+   "version": 92,
    "checkDate": null
   },
   "location": {
@@ -372,7 +372,7 @@
   },
   "computed": {
    "lengthKm": 77.7,
-   "wayCount": 235,
+   "wayCount": 236,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -385,7 +385,7 @@
     50.74372,
     18.52509
    ],
-   "pointCount": 570
+   "pointCount": 572
   },
   "rel": {
    "parkings": [],
@@ -442,8 +442,8 @@
   "osm": {
    "type": "relation",
    "id": 2632113,
-   "timestamp": "2026-08-10T17:25:06Z",
-   "version": 83,
+   "timestamp": "2026-10-05T09:57:02Z",
+   "version": 84,
    "checkDate": null
   },
   "location": {
@@ -470,7 +470,7 @@
   },
   "computed": {
    "lengthKm": 69.7,
-   "wayCount": 208,
+   "wayCount": 209,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -483,7 +483,7 @@
     50.81843,
     18.59947
    ],
-   "pointCount": 525
+   "pointCount": 527
   },
   "rel": {
    "parkings": [],
@@ -1438,8 +1438,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.82816,
-   "lng": 15.54483
+   "lat": 50.82812,
+   "lng": 15.54488
   },
   "description": null,
   "notes": [],
@@ -1470,7 +1470,7 @@
     50.8216,
     15.50713,
     50.84117,
-    15.55819
+    15.55821
    ],
    "pointCount": 71
   },
@@ -1502,7 +1502,7 @@
     },
     {
      "key": "parking/parking-przy-rzece-263515677",
-     "km": 0.62
+     "km": 0.63
     }
    ],
    "beaches": [
@@ -1879,10 +1879,6 @@
    "parkings": [],
    "beaches": [],
    "trails": [
-    {
-     "key": "trail/ku-bukowej-czas-w-las-18396246",
-     "km": 0
-    },
     {
      "key": "trail/szlak-architektury-obronnej-3376049",
      "km": 0
@@ -2274,8 +2270,8 @@
   "osm": {
    "type": "relation",
    "id": 3076284,
-   "timestamp": "2026-09-09T11:19:21Z",
-   "version": 473,
+   "timestamp": "2026-09-30T16:29:00Z",
+   "version": 474,
    "checkDate": null
   },
   "location": {
@@ -2300,7 +2296,7 @@
   },
   "computed": {
    "lengthKm": 291.4,
-   "wayCount": 1091,
+   "wayCount": 1092,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -2313,7 +2309,7 @@
     49.88323,
     20.71928
    ],
-   "pointCount": 2886
+   "pointCount": 2887
   },
   "rel": {
    "parkings": [],
@@ -4408,8 +4404,8 @@
   "osm": {
    "type": "relation",
    "id": 4035212,
-   "timestamp": "2025-06-06T09:56:34Z",
-   "version": 29,
+   "timestamp": "2026-10-02T07:51:18Z",
+   "version": 31,
    "checkDate": null
   },
   "location": {
@@ -4435,11 +4431,11 @@
    "distance": "27",
    "roundtrip": "yes",
    "operator": "PTTK",
-   "website": "http://www.trasy.ustronie-morskie.pl/niebieski.html"
+   "website": "https://czaswlas.pl/obiekty/?p=2&id_obiekt=42292"
   },
   "computed": {
-   "lengthKm": 28.6,
-   "wayCount": 102,
+   "lengthKm": 28.7,
+   "wayCount": 106,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -4452,12 +4448,16 @@
     54.21929,
     15.81408
    ],
-   "pointCount": 241
+   "pointCount": 248
   },
   "rel": {
    "parkings": [],
    "beaches": [],
    "trails": [
+    {
+     "key": "trail/do-najstarszych-debow-21470348",
+     "km": 0
+    },
     {
      "key": "trail/european-long-distance-path-e9-part-poland-3009329",
      "km": 0
@@ -4480,11 +4480,11 @@
     },
     {
      "key": "trail/eurovelo-10-baltic-sea-cycle-route-part-poland-1-9424435",
-     "km": 0.02
+     "km": 0.01
     },
     {
      "key": "trail/eurovelo-13-iron-curtain-trail-part-poland-zachodniopomorskie-8894874",
-     "km": 0.02
+     "km": 0.01
     }
    ],
    "cities": [
@@ -4595,8 +4595,8 @@
   "osm": {
    "type": "relation",
    "id": 8463573,
-   "timestamp": "2026-06-01T18:10:48Z",
-   "version": 118,
+   "timestamp": "2026-09-27T09:28:22Z",
+   "version": 119,
    "checkDate": null
   },
   "location": {
@@ -4623,7 +4623,7 @@
   },
   "computed": {
    "lengthKm": 238.8,
-   "wayCount": 577,
+   "wayCount": 578,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -5659,8 +5659,8 @@
   "osm": {
    "type": "relation",
    "id": 4119818,
-   "timestamp": "2025-10-10T08:14:12Z",
-   "version": 22,
+   "timestamp": "2026-10-04T18:02:37Z",
+   "version": 23,
    "checkDate": null
   },
   "location": {
@@ -5687,7 +5687,7 @@
   },
   "computed": {
    "lengthKm": 30.8,
-   "wayCount": 73,
+   "wayCount": 74,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -5700,7 +5700,7 @@
     49.95319,
     22.02447
    ],
-   "pointCount": 229
+   "pointCount": 231
   },
   "rel": {
    "parkings": [],
@@ -6720,7 +6720,7 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 49.32019,
+   "lat": 49.32017,
    "lng": 20.1174
   },
   "description": null,
@@ -7193,8 +7193,8 @@
   "osm": {
    "type": "relation",
    "id": 15861742,
-   "timestamp": "2026-09-06T12:45:22Z",
-   "version": 67,
+   "timestamp": "2026-10-02T22:18:01Z",
+   "version": 73,
    "checkDate": null
   },
   "location": {
@@ -7218,7 +7218,7 @@
   },
   "computed": {
    "lengthKm": 86.4,
-   "wayCount": 333,
+   "wayCount": 344,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -7231,7 +7231,7 @@
     53.13219,
     18.09138
    ],
-   "pointCount": 777
+   "pointCount": 799
   },
   "rel": {
    "parkings": [
@@ -7321,8 +7321,8 @@
   "osm": {
    "type": "relation",
    "id": 2742150,
-   "timestamp": "2026-06-12T21:58:14Z",
-   "version": 235,
+   "timestamp": "2026-10-01T07:02:03Z",
+   "version": 236,
    "checkDate": null
   },
   "location": {
@@ -7345,7 +7345,7 @@
   },
   "computed": {
    "lengthKm": 162.1,
-   "wayCount": 366,
+   "wayCount": 365,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -7358,7 +7358,7 @@
     53.86359,
     18.08298
    ],
-   "pointCount": 946
+   "pointCount": 944
   },
   "rel": {
    "parkings": [
@@ -7658,8 +7658,8 @@
   "osm": {
    "type": "relation",
    "id": 2611431,
-   "timestamp": "2026-09-04T17:46:03Z",
-   "version": 82,
+   "timestamp": "2026-10-02T07:23:04Z",
+   "version": 86,
    "checkDate": null
   },
   "location": {
@@ -7686,7 +7686,7 @@
   },
   "computed": {
    "lengthKm": 88.5,
-   "wayCount": 194,
+   "wayCount": 209,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -7699,7 +7699,7 @@
     53.14219,
     17.98425
    ],
-   "pointCount": 493
+   "pointCount": 522
   },
   "rel": {
    "parkings": [
@@ -7735,15 +7735,15 @@
      "km": 0
     },
     {
-     "key": "trail/szlak-niepodleglosci-1920-17033487",
-     "km": 0
-    },
-    {
      "key": "trail/kanal-bydgoski-i-notecki-mtb-17473419",
      "km": 0.01
     },
     {
      "key": "trail/szlak-nadnotecki-im-inz-jana-goraczko-3188199",
+     "km": 0.01
+    },
+    {
+     "key": "trail/szlak-niepodleglosci-1920-17033487",
      "km": 0.01
     },
     {
@@ -8336,8 +8336,8 @@
   "osm": {
    "type": "relation",
    "id": 15830143,
-   "timestamp": "2026-09-20T20:21:29Z",
-   "version": 26,
+   "timestamp": "2026-10-02T22:18:01Z",
+   "version": 32,
    "checkDate": null
   },
   "location": {
@@ -8361,7 +8361,7 @@
   },
   "computed": {
    "lengthKm": 21.7,
-   "wayCount": 202,
+   "wayCount": 216,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -8374,7 +8374,7 @@
     53.13226,
     18.08423
    ],
-   "pointCount": 412
+   "pointCount": 440
   },
   "rel": {
    "parkings": [
@@ -8582,8 +8582,8 @@
   "osm": {
    "type": "relation",
    "id": 12599562,
-   "timestamp": "2026-08-30T13:28:01Z",
-   "version": 142,
+   "timestamp": "2026-09-29T08:59:47Z",
+   "version": 143,
    "checkDate": null
   },
   "location": {
@@ -8607,7 +8607,7 @@
   },
   "computed": {
    "lengthKm": 235.8,
-   "wayCount": 657,
+   "wayCount": 658,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -8620,7 +8620,7 @@
     53.78545,
     20.47712
    ],
-   "pointCount": 1759
+   "pointCount": 1761
   },
   "rel": {
    "parkings": [
@@ -9104,8 +9104,8 @@
   "osm": {
    "type": "relation",
    "id": 8198418,
-   "timestamp": "2026-09-20T13:09:56Z",
-   "version": 247,
+   "timestamp": "2026-10-05T09:11:29Z",
+   "version": 249,
    "checkDate": null
   },
   "location": {
@@ -9133,7 +9133,7 @@
   },
   "computed": {
    "lengthKm": 174.8,
-   "wayCount": 735,
+   "wayCount": 736,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -9146,7 +9146,7 @@
     50.10914,
     19.93511
    ],
-   "pointCount": 1762
+   "pointCount": 1764
   },
   "rel": {
    "parkings": [
@@ -9743,8 +9743,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.85211,
-   "lng": 15.70033
+   "lat": 50.8521,
+   "lng": 15.70035
   },
   "description": null,
   "notes": [],
@@ -11369,8 +11369,8 @@
   "osm": {
    "type": "relation",
    "id": 1593519,
-   "timestamp": "2020-01-04T23:14:04Z",
-   "version": 5,
+   "timestamp": "2026-09-23T18:32:13Z",
+   "version": 6,
    "checkDate": null
   },
   "location": {
@@ -11391,7 +11391,7 @@
    "network": "rwn",
    "colour": "black",
    "osmc_symbol": "black:white:black_bar",
-   "distance": "1,6"
+   "distance": "1.6"
   },
   "computed": {
    "lengthKm": 1.6,
@@ -13413,8 +13413,8 @@
      "km": 0
     },
     {
-     "key": "trail/jasnogorska-droga-sw-jakuba-4606615",
-     "km": 0.23
+     "key": "trail/szlak-kolejki-waskotorowej-20222069",
+     "km": 0.01
     }
    ],
    "cities": [
@@ -15707,6 +15707,79 @@
   }
  },
  {
+  "slug": "do-najstarszych-debow-21470348",
+  "name": "Do najstarszych dębów",
+  "type": "trail",
+  "source": "osm",
+  "osm": {
+   "type": "relation",
+   "id": 21470348,
+   "timestamp": "2026-10-02T07:28:37Z",
+   "version": 1,
+   "checkDate": null
+  },
+  "location": {
+   "city": "Kołobrzeg",
+   "region": "Zachodniopomorskie",
+   "hubSlug": "kolobrzeg",
+   "hubDistanceKm": 6.9
+  },
+  "address": null,
+  "coordinates": {
+   "lat": 54.18045,
+   "lng": 15.70439
+  },
+  "description": null,
+  "notes": [],
+  "attrs": {
+   "route": "hiking",
+   "network": "lwn",
+   "operator": "Lasy Państwowe",
+   "website": "https://czaswlas.pl/obiekty/?p=2&id_obiekt=57748"
+  },
+  "computed": {
+   "lengthKm": 5.8,
+   "wayCount": 11,
+   "isLoop": false,
+   "fragmented": false,
+   "branched": true,
+   "superroute": false,
+   "start": {
+    "lat": 54.19129,
+    "lng": 15.69703
+   },
+   "end": {
+    "lat": 54.17139,
+    "lng": 15.70654
+   },
+   "bbox": [
+    54.16961,
+    15.68956,
+    54.19129,
+    15.71922
+   ],
+   "pointCount": 24
+  },
+  "rel": {
+   "parkings": [],
+   "beaches": [],
+   "trails": [
+    {
+     "key": "trail/blekitny-szlak-do-pomnikow-przyrody-4035212",
+     "km": 0
+    }
+   ],
+   "cities": [
+    {
+     "key": "city/kolobrzeg",
+     "km": 6.9
+    }
+   ],
+   "parts": [],
+   "parents": []
+  }
+ },
+ {
   "slug": "do-podzamcza-piekoszowskiego-7513326",
   "name": "Do Podzamcza Piekoszowskiego",
   "type": "trail",
@@ -16363,7 +16436,7 @@
     },
     {
      "key": "trail/szklarska-poreba-walbrzych-2698298",
-     "km": 0.02
+     "km": 0.01
     },
     {
      "key": "trail/trzy-jawory-10108296",
@@ -16598,7 +16671,7 @@
     },
     {
      "key": "trail/szlak-doliny-slupii-5397063",
-     "km": 0
+     "km": 0.01
     }
    ],
    "cities": [
@@ -16619,8 +16692,8 @@
   "osm": {
    "type": "relation",
    "id": 16119403,
-   "timestamp": "2026-06-12T13:25:34Z",
-   "version": 23,
+   "timestamp": "2026-09-30T11:54:04Z",
+   "version": 24,
    "checkDate": null
   },
   "location": {
@@ -16646,7 +16719,7 @@
   },
   "computed": {
    "lengthKm": 50.2,
-   "wayCount": 176,
+   "wayCount": 178,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -18194,7 +18267,7 @@
      "km": 0
     },
     {
-     "key": "trail/sypniewo-poznan-3068692",
+     "key": "trail/ring-2-11634070",
      "km": 0
     }
    ],
@@ -19712,8 +19785,8 @@
   "osm": {
    "type": "relation",
    "id": 13732436,
-   "timestamp": "2026-08-09T12:42:34Z",
-   "version": 76,
+   "timestamp": "2026-09-23T14:28:20Z",
+   "version": 77,
    "checkDate": null
   },
   "location": {
@@ -19742,7 +19815,7 @@
   },
   "computed": {
    "lengthKm": 177.7,
-   "wayCount": 562,
+   "wayCount": 567,
    "isLoop": true,
    "fragmented": false,
    "branched": false,
@@ -20056,7 +20129,7 @@
   "address": null,
   "coordinates": {
    "lat": 54.45645,
-   "lng": 16.86561
+   "lng": 16.86563
   },
   "description": null,
   "notes": [],
@@ -20596,8 +20669,8 @@
   "osm": {
    "type": "relation",
    "id": 11063636,
-   "timestamp": "2026-09-07T07:13:47Z",
-   "version": 186,
+   "timestamp": "2026-10-01T20:01:44Z",
+   "version": 188,
    "checkDate": null
   },
   "location": {
@@ -20622,7 +20695,7 @@
   },
   "computed": {
    "lengthKm": 207.3,
-   "wayCount": 939,
+   "wayCount": 948,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -20635,7 +20708,7 @@
     50.07287,
     22.94534
    ],
-   "pointCount": 2274
+   "pointCount": 2292
   },
   "rel": {
    "parkings": [
@@ -21465,7 +21538,7 @@
   "address": null,
   "coordinates": {
    "lat": 50.83158,
-   "lng": 15.52493
+   "lng": 15.52494
   },
   "description": null,
   "notes": [],
@@ -21477,7 +21550,7 @@
    "operator": "Stowarzyszenie \"PUCH OSTU\""
   },
   "computed": {
-   "lengthKm": 22.1,
+   "lengthKm": 22.2,
    "wayCount": 115,
    "isLoop": false,
    "fragmented": false,
@@ -21495,7 +21568,7 @@
     50.81299,
     15.49167,
     50.85017,
-    15.55819
+    15.55821
    ],
    "pointCount": 297
   },
@@ -21507,7 +21580,7 @@
     },
     {
      "key": "parking/parking-przy-rzece-263515677",
-     "km": 0.62
+     "km": 0.63
     },
     {
      "key": "parking/szklarska-poreba-gorna-dworzec-828522618",
@@ -22239,6 +22312,104 @@
   }
  },
  {
+  "slug": "enduro-21423086",
+  "name": "ENDURO",
+  "type": "trail",
+  "source": "osm",
+  "osm": {
+   "type": "relation",
+   "id": 21423086,
+   "timestamp": "2026-09-21T12:04:16Z",
+   "version": 1,
+   "checkDate": null
+  },
+  "location": {
+   "city": "Olsztyn",
+   "region": "Warmińsko-Mazurskie",
+   "hubSlug": "olsztyn",
+   "hubDistanceKm": 1.4
+  },
+  "address": null,
+  "coordinates": {
+   "lat": 53.79909,
+   "lng": 20.46227
+  },
+  "description": null,
+  "notes": [],
+  "attrs": {
+   "route": "bicycle",
+   "network": "lcn",
+   "colour": "red",
+   "distance": "4 km",
+   "website": "https://visit.olsztyn.eu/tour/85/trasa-rowerowa-enduro-czerwona"
+  },
+  "computed": {
+   "lengthKm": 3.5,
+   "wayCount": 12,
+   "isLoop": false,
+   "fragmented": false,
+   "branched": false,
+   "superroute": false,
+   "start": {
+    "lat": 53.79086,
+    "lng": 20.47555
+   },
+   "end": {
+    "lat": 53.79589,
+    "lng": 20.46353
+   },
+   "bbox": [
+    53.79086,
+    20.4576,
+    53.80401,
+    20.47601
+   ],
+   "pointCount": 23
+  },
+  "rel": {
+   "parkings": [],
+   "beaches": [],
+   "trails": [
+    {
+     "key": "trail/lynostrada-9434983",
+     "km": 0
+    },
+    {
+     "key": "trail/szlak-im-alojzego-sliwy-3598154",
+     "km": 0
+    },
+    {
+     "key": "trail/szlak-spacerowy-im-mieczyslawa-orlowicza-20272983",
+     "km": 0
+    },
+    {
+     "key": "trail/european-long-distance-path-e11-part-poland-2856709",
+     "km": 0
+    },
+    {
+     "key": "trail/xc-21423111",
+     "km": 0
+    },
+    {
+     "key": "trail/szlak-kopernikowski-1771192",
+     "km": 0.01
+    },
+    {
+     "key": "trail/szlak-im-stanislawy-i-jana-baldowskich-20193841",
+     "km": 0.19
+    }
+   ],
+   "cities": [
+    {
+     "key": "city/olsztyn",
+     "km": 1.4
+    }
+   ],
+   "parts": [],
+   "parents": []
+  }
+ },
+ {
   "slug": "ernsta-wiecherta-11535960",
   "name": "Ernsta Wiecherta",
   "type": "trail",
@@ -22337,8 +22508,8 @@
   "osm": {
    "type": "relation",
    "id": 1983045,
-   "timestamp": "2026-09-18T16:15:06Z",
-   "version": 485,
+   "timestamp": "2026-10-02T19:15:10Z",
+   "version": 487,
    "checkDate": null
   },
   "location": {
@@ -22366,7 +22537,7 @@
   },
   "computed": {
    "lengthKm": 385.3,
-   "wayCount": 1292,
+   "wayCount": 1295,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -22379,7 +22550,7 @@
     54.46297,
     14.22958
    ],
-   "pointCount": 3137
+   "pointCount": 3143
   },
   "rel": {
    "parkings": [
@@ -22445,8 +22616,8 @@
   "osm": {
    "type": "relation",
    "id": 2856709,
-   "timestamp": "2026-09-12T16:59:20Z",
-   "version": 1485,
+   "timestamp": "2026-10-02T06:35:31Z",
+   "version": 1491,
    "checkDate": null
   },
   "location": {
@@ -22476,7 +22647,7 @@
   },
   "computed": {
    "lengthKm": 1236.5,
-   "wayCount": 3203,
+   "wayCount": 3213,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -22489,7 +22660,7 @@
     54.34751,
     23.50011
    ],
-   "pointCount": 8791
+   "pointCount": 8807
   },
   "rel": {
    "parkings": [
@@ -22980,7 +23151,7 @@
    "website": "http://www.era-ewv-ferp.com/index.php?topmenu_id=29&id=29&page_id=102&module=text"
   },
   "computed": {
-   "lengthKm": 299,
+   "lengthKm": 298.9,
    "wayCount": 606,
    "isLoop": false,
    "fragmented": false,
@@ -23154,8 +23325,8 @@
   "osm": {
    "type": "relation",
    "id": 3009329,
-   "timestamp": "2026-09-18T16:51:29Z",
-   "version": 1104,
+   "timestamp": "2026-10-02T07:51:18Z",
+   "version": 1109,
    "checkDate": null
   },
   "location": {
@@ -23182,7 +23353,7 @@
   },
   "computed": {
    "lengthKm": 607.6,
-   "wayCount": 2176,
+   "wayCount": 2182,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -23195,7 +23366,7 @@
     54.83479,
     19.89734
    ],
-   "pointCount": 5445
+   "pointCount": 5459
   },
   "rel": {
    "parkings": [
@@ -23852,8 +24023,8 @@
   "osm": {
    "type": "relation",
    "id": 50272,
-   "timestamp": "2026-09-15T21:36:30Z",
-   "version": 898,
+   "timestamp": "2026-10-05T09:47:13Z",
+   "version": 908,
    "checkDate": null
   },
   "location": {
@@ -23878,8 +24049,8 @@
    "website": "https://www.europaradweg-r1.de/pl"
   },
   "computed": {
-   "lengthKm": 672.5,
-   "wayCount": 1410,
+   "lengthKm": 672.7,
+   "wayCount": 1436,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -23892,7 +24063,7 @@
     54.43413,
     19.89734
    ],
-   "pointCount": 3741
+   "pointCount": 3793
   },
   "rel": {
    "parkings": [],
@@ -23949,8 +24120,8 @@
   "osm": {
    "type": "relation",
    "id": 9424435,
-   "timestamp": "2026-09-18T16:51:29Z",
-   "version": 234,
+   "timestamp": "2026-10-02T07:51:18Z",
+   "version": 235,
    "checkDate": null
   },
   "location": {
@@ -23981,7 +24152,7 @@
   },
   "computed": {
    "lengthKm": 224.7,
-   "wayCount": 780,
+   "wayCount": 781,
    "isLoop": false,
    "fragmented": false,
    "branched": true,
@@ -24000,7 +24171,7 @@
     54.54145,
     16.74105
    ],
-   "pointCount": 1869
+   "pointCount": 1871
   },
   "rel": {
    "parkings": [
@@ -24270,8 +24441,8 @@
   "osm": {
    "type": "relation",
    "id": 9422510,
-   "timestamp": "2026-09-18T07:08:37Z",
-   "version": 189,
+   "timestamp": "2026-09-23T12:33:17Z",
+   "version": 193,
    "checkDate": null
   },
   "location": {
@@ -24282,7 +24453,7 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 54.81168,
+   "lat": 54.81171,
    "lng": 18.19594
   },
   "description": "Pomorskie voivodship. Signposted as EuroVelo 10.",
@@ -24298,7 +24469,7 @@
   },
   "computed": {
    "lengthKm": 84.9,
-   "wayCount": 192,
+   "wayCount": 196,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -24309,13 +24480,13 @@
    },
    "end": {
     "lat": 54.63499,
-    "lng": 18.45629
+    "lng": 18.45628
    },
    "bbox": [
     54.63499,
     17.72598,
     54.83145,
-    18.47138
+    18.47137
    ],
    "pointCount": 233
   },
@@ -24341,7 +24512,7 @@
     },
     {
      "key": "beach/zielona-plaza-122153849",
-     "km": 0.04
+     "km": 0.03
     },
     {
      "key": "beach/debki-plaza-naturystow",
@@ -24386,7 +24557,7 @@
      "km": 0
     },
     {
-     "key": "trail/szlak-swarzewski",
+     "key": "trail/trasa-lacznikowa-r10-karwienskie-blota-wladyslawowo-14386868",
      "km": 0
     }
    ],
@@ -24408,8 +24579,8 @@
   "osm": {
    "type": "relation",
    "id": 9422325,
-   "timestamp": "2026-09-10T10:57:05Z",
-   "version": 221,
+   "timestamp": "2026-09-29T05:35:42Z",
+   "version": 237,
    "checkDate": null
   },
   "location": {
@@ -24434,8 +24605,8 @@
    "operator": "Pomorskie Trasy Rowerowe"
   },
   "computed": {
-   "lengthKm": 114.7,
-   "wayCount": 646,
+   "lengthKm": 115.6,
+   "wayCount": 682,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -24448,7 +24619,7 @@
     54.63499,
     19.3145
    ],
-   "pointCount": 1448
+   "pointCount": 1518
   },
   "rel": {
    "parkings": [
@@ -24529,11 +24700,11 @@
      "km": 0
     },
     {
-     "key": "trail/szlak-kopernikowski-1771192",
+     "key": "trail/szlak-mew-im-jana-boguckiego-3010117",
      "km": 0
     },
     {
-     "key": "trail/szlak-mew-im-jana-boguckiego-3010117",
+     "key": "trail/szlak-kopernikowski-1771192",
      "km": 0
     },
     {
@@ -24673,8 +24844,8 @@
   "osm": {
    "type": "relation",
    "id": 228154,
-   "timestamp": "2026-09-13T06:48:44Z",
-   "version": 581,
+   "timestamp": "2026-09-27T11:57:23Z",
+   "version": 582,
    "checkDate": null
   },
   "location": {
@@ -24700,7 +24871,7 @@
   },
   "computed": {
    "lengthKm": 328.3,
-   "wayCount": 812,
+   "wayCount": 814,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -24713,7 +24884,7 @@
     54.17234,
     23.47539
    ],
-   "pointCount": 2112
+   "pointCount": 2116
   },
   "rel": {
    "parkings": [
@@ -25028,8 +25199,8 @@
   "osm": {
    "type": "relation",
    "id": 9424203,
-   "timestamp": "2026-09-18T07:08:37Z",
-   "version": 350,
+   "timestamp": "2026-09-29T05:35:42Z",
+   "version": 370,
    "checkDate": null
   },
   "location": {
@@ -25055,8 +25226,8 @@
    "complete": "no"
   },
   "computed": {
-   "lengthKm": 306.3,
-   "wayCount": 1113,
+   "lengthKm": 307.1,
+   "wayCount": 1153,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -25069,7 +25240,7 @@
     54.83145,
     19.3145
    ],
-   "pointCount": 2666
+   "pointCount": 2745
   },
   "rel": {
    "parkings": [
@@ -25113,7 +25284,7 @@
     },
     {
      "key": "beach/zielona-plaza-122153849",
-     "km": 0.04
+     "km": 0.03
     },
     {
      "key": "beach/plaza-strzezona-molo-brzezno-5811675954",
@@ -25200,8 +25371,8 @@
   "osm": {
    "type": "relation",
    "id": 8894874,
-   "timestamp": "2026-09-18T16:51:29Z",
-   "version": 163,
+   "timestamp": "2026-10-02T07:51:18Z",
+   "version": 164,
    "checkDate": null
   },
   "location": {
@@ -25229,7 +25400,7 @@
   },
   "computed": {
    "lengthKm": 224.7,
-   "wayCount": 781,
+   "wayCount": 782,
    "isLoop": false,
    "fragmented": false,
    "branched": true,
@@ -25248,7 +25419,7 @@
     54.54145,
     16.74105
    ],
-   "pointCount": 1871
+   "pointCount": 1873
   },
   "rel": {
    "parkings": [
@@ -25430,8 +25601,8 @@
   "osm": {
    "type": "relation",
    "id": 12535932,
-   "timestamp": "2026-09-18T12:48:09Z",
-   "version": 609,
+   "timestamp": "2026-10-04T21:39:02Z",
+   "version": 613,
    "checkDate": null
   },
   "location": {
@@ -25459,7 +25630,7 @@
   },
   "computed": {
    "lengthKm": 1275.8,
-   "wayCount": 3195,
+   "wayCount": 3194,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -25472,7 +25643,7 @@
     53.0061,
     23.85844
    ],
-   "pointCount": 7805
+   "pointCount": 7802
   },
   "rel": {
    "parkings": [
@@ -25724,8 +25895,8 @@
   "osm": {
    "type": "relation",
    "id": 2764226,
-   "timestamp": "2026-09-04T17:30:59Z",
-   "version": 521,
+   "timestamp": "2026-10-05T08:59:46Z",
+   "version": 522,
    "checkDate": null
   },
   "location": {
@@ -25752,7 +25923,7 @@
   },
   "computed": {
    "lengthKm": 214.8,
-   "wayCount": 657,
+   "wayCount": 658,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -25765,7 +25936,7 @@
     50.07797,
     21.14531
    ],
-   "pointCount": 1712
+   "pointCount": 1714
   },
   "rel": {
    "parkings": [
@@ -26003,8 +26174,8 @@
   "osm": {
    "type": "relation",
    "id": 2766150,
-   "timestamp": "2026-09-18T20:27:39Z",
-   "version": 1153,
+   "timestamp": "2026-09-30T16:34:21Z",
+   "version": 1156,
    "checkDate": null
   },
   "location": {
@@ -26030,7 +26201,7 @@
   },
   "computed": {
    "lengthKm": 278.7,
-   "wayCount": 1246,
+   "wayCount": 1248,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -26043,7 +26214,7 @@
     51.5685,
     17.37996
    ],
-   "pointCount": 2901
+   "pointCount": 2905
   },
   "rel": {
    "parkings": [
@@ -26091,6 +26262,10 @@
      "km": 0
     },
     {
+     "key": "trail/rowerowy-szlak-odry-odcinek-wroclaw-15958601",
+     "km": 0
+    },
+    {
      "key": "trail/szlak-dookola-wroclawia-im-doktora-bronislawa-turonia-4192054",
      "km": 0
     },
@@ -26109,10 +26284,6 @@
     {
      "key": "trail/promenada-krzycka-14518942",
      "km": 0.01
-    },
-    {
-     "key": "trail/rowerowy-szlak-odry-odcinek-wroclaw-15958601",
-     "km": 0.02
     }
    ],
    "cities": [
@@ -26290,8 +26461,8 @@
   "osm": {
    "type": "relation",
    "id": 12709949,
-   "timestamp": "2026-09-18T12:37:22Z",
-   "version": 210,
+   "timestamp": "2026-09-25T07:23:57Z",
+   "version": 212,
    "checkDate": null
   },
   "location": {
@@ -26319,7 +26490,7 @@
    "website": "https://www.kujawsko-pomorskie.pl/europejska-wspolpraca-terytorialna/projekt-eco-cicle/35779-eurovelo-miedzynarodowe-trasy-rowerowe-w-wojewodztwie-kujawsko-pomorskim"
   },
   "computed": {
-   "lengthKm": 215.7,
+   "lengthKm": 215.5,
    "wayCount": 594,
    "isLoop": false,
    "fragmented": false,
@@ -26339,7 +26510,7 @@
     53.70055,
     18.77182
    ],
-   "pointCount": 1486
+   "pointCount": 1485
   },
   "rel": {
    "parkings": [
@@ -27081,7 +27252,7 @@
   "address": null,
   "coordinates": {
    "lat": 49.74776,
-   "lng": 19.30688
+   "lng": 19.30689
   },
   "description": null,
   "notes": [],
@@ -27104,7 +27275,7 @@
     "lng": 19.12787
    },
    "end": {
-    "lat": 49.74025,
+    "lat": 49.74026,
     "lng": 19.58077
    },
    "bbox": [
@@ -27319,7 +27490,7 @@
     54.41217,
     19.3145
    ],
-   "pointCount": 865
+   "pointCount": 866
   },
   "rel": {
    "parkings": [
@@ -27845,8 +28016,8 @@
   "osm": {
    "type": "relation",
    "id": 2748517,
-   "timestamp": "2026-09-18T11:28:07Z",
-   "version": 709,
+   "timestamp": "2026-09-30T16:29:00Z",
+   "version": 710,
    "checkDate": null
   },
   "location": {
@@ -27875,7 +28046,7 @@
   },
   "computed": {
    "lengthKm": 547.9,
-   "wayCount": 1415,
+   "wayCount": 1416,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -27888,7 +28059,7 @@
     49.827,
     22.7014
    ],
-   "pointCount": 4258
+   "pointCount": 4259
   },
   "rel": {
    "parkings": [
@@ -27966,8 +28137,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 49.4189,
-   "lng": 20.90074
+   "lat": 49.41888,
+   "lng": 20.90072
   },
   "description": null,
   "notes": [],
@@ -28155,8 +28326,8 @@
   "osm": {
    "type": "relation",
    "id": 951694,
-   "timestamp": "2026-09-17T13:16:07Z",
-   "version": 758,
+   "timestamp": "2026-09-26T13:42:28Z",
+   "version": 759,
    "checkDate": null
   },
   "location": {
@@ -28185,7 +28356,7 @@
   },
   "computed": {
    "lengthKm": 442.9,
-   "wayCount": 1422,
+   "wayCount": 1423,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -28198,7 +28369,7 @@
     50.91139,
     17.58336
    ],
-   "pointCount": 4037
+   "pointCount": 4039
   },
   "rel": {
    "parkings": [
@@ -28443,7 +28614,7 @@
     50.84354,
     20.80956
    ],
-   "pointCount": 173
+   "pointCount": 174
   },
   "rel": {
    "parkings": [],
@@ -28592,8 +28763,8 @@
   "osm": {
    "type": "relation",
    "id": 170991,
-   "timestamp": "2026-04-15T06:14:31Z",
-   "version": 358,
+   "timestamp": "2026-09-27T14:53:03Z",
+   "version": 359,
    "checkDate": null
   },
   "location": {
@@ -28618,7 +28789,7 @@
   },
   "computed": {
    "lengthKm": 196.7,
-   "wayCount": 436,
+   "wayCount": 437,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -28631,7 +28802,7 @@
     52.01622,
     19.41443
    ],
-   "pointCount": 1068
+   "pointCount": 1070
   },
   "rel": {
    "parkings": [
@@ -29417,8 +29588,8 @@
   "osm": {
    "type": "relation",
    "id": 21387222,
-   "timestamp": "2026-09-13T09:36:15Z",
-   "version": 2,
+   "timestamp": "2026-10-03T16:30:26Z",
+   "version": 9,
    "checkDate": null
   },
   "location": {
@@ -29447,7 +29618,7 @@
   },
   "computed": {
    "lengthKm": 199.6,
-   "wayCount": 536,
+   "wayCount": 622,
    "isLoop": false,
    "fragmented": false,
    "branched": true,
@@ -29466,13 +29637,13 @@
     50.09447,
     22.99609
    ],
-   "pointCount": 1519
+   "pointCount": 1684
   },
   "rel": {
    "parkings": [
     {
      "key": "parking/hotel-garden-inn-rzeszow-1332098033",
-     "km": 0
+     "km": 0.01
     },
     {
      "key": "parking/parking-park-papieski-230600629",
@@ -29561,8 +29732,8 @@
   "osm": {
    "type": "relation",
    "id": 21387220,
-   "timestamp": "2026-09-13T09:36:15Z",
-   "version": 2,
+   "timestamp": "2026-09-29T20:07:31Z",
+   "version": 5,
    "checkDate": null
   },
   "location": {
@@ -29591,7 +29762,7 @@
   },
   "computed": {
    "lengthKm": 133.6,
-   "wayCount": 318,
+   "wayCount": 324,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -29604,7 +29775,7 @@
     51.18691,
     21.15396
    ],
-   "pointCount": 823
+   "pointCount": 834
   },
   "rel": {
    "parkings": [
@@ -29736,7 +29907,7 @@
     53.86608,
     23.10199
    ],
-   "pointCount": 174
+   "pointCount": 178
   },
   "rel": {
    "parkings": [],
@@ -29916,8 +30087,8 @@
   "osm": {
    "type": "relation",
    "id": 8732334,
-   "timestamp": "2026-09-13T09:48:18Z",
-   "version": 21,
+   "timestamp": "2026-10-01T17:58:44Z",
+   "version": 24,
    "checkDate": null
   },
   "location": {
@@ -29945,7 +30116,7 @@
   },
   "computed": {
    "lengthKm": 3.6,
-   "wayCount": 49,
+   "wayCount": 61,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -29958,7 +30129,7 @@
     50.0424,
     22.01528
    ],
-   "pointCount": 102
+   "pointCount": 126
   },
   "rel": {
    "parkings": [
@@ -30297,8 +30468,8 @@
   "osm": {
    "type": "relation",
    "id": 2721365,
-   "timestamp": "2026-09-12T09:43:47Z",
-   "version": 527,
+   "timestamp": "2026-10-05T08:59:46Z",
+   "version": 530,
    "checkDate": "2026-08-16"
   },
   "location": {
@@ -30322,7 +30493,7 @@
   },
   "computed": {
    "lengthKm": 249.2,
-   "wayCount": 870,
+   "wayCount": 874,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -30335,7 +30506,7 @@
     50.29983,
     20.85708
    ],
-   "pointCount": 2268
+   "pointCount": 2276
   },
   "rel": {
    "parkings": [
@@ -30505,8 +30676,8 @@
   "osm": {
    "type": "relation",
    "id": 2110268,
-   "timestamp": "2026-09-20T07:20:35Z",
-   "version": 1558,
+   "timestamp": "2026-10-05T09:11:29Z",
+   "version": 1560,
    "checkDate": null
   },
   "location": {
@@ -30533,7 +30704,7 @@
   },
   "computed": {
    "lengthKm": 539.9,
-   "wayCount": 2202,
+   "wayCount": 2203,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -30546,7 +30717,7 @@
     50.10914,
     19.93515
    ],
-   "pointCount": 5427
+   "pointCount": 5429
   },
   "rel": {
    "parkings": [
@@ -30969,6 +31140,10 @@
      "km": 0.73
     },
     {
+     "key": "parking/parkingas-1427936884",
+     "km": 1.3
+    },
+    {
      "key": "parking/wdw-b-4359008232",
      "km": 1.4
     },
@@ -31090,6 +31265,10 @@
     {
      "key": "parking/private-parking-249953917",
      "km": 0.73
+    },
+    {
+     "key": "parking/parkingas-1427936884",
+     "km": 1.3
     },
     {
      "key": "parking/wdw-b-4359008232",
@@ -31426,6 +31605,10 @@
     {
      "key": "parking/parking-przy-orliku-1434006771",
      "km": 0.68
+    },
+    {
+     "key": "parking/parkingas-1427936884",
+     "km": 1.1
     }
    ],
    "beaches": [],
@@ -31545,6 +31728,10 @@
     {
      "key": "parking/parking-przy-orliku-1434006771",
      "km": 0.67
+    },
+    {
+     "key": "parking/parkingas-1427936884",
+     "km": 1.1
     },
     {
      "key": "parking/wdw-a-4359008234",
@@ -32526,8 +32713,8 @@
   "osm": {
    "type": "relation",
    "id": 1928226,
-   "timestamp": "2026-09-15T13:59:00Z",
-   "version": 701,
+   "timestamp": "2026-09-22T12:50:27Z",
+   "version": 702,
    "checkDate": null
   },
   "location": {
@@ -32553,7 +32740,7 @@
   },
   "computed": {
    "lengthKm": 406.4,
-   "wayCount": 1579,
+   "wayCount": 1580,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -32566,7 +32753,7 @@
     54.32019,
     14.55248
    ],
-   "pointCount": 3701
+   "pointCount": 3703
   },
   "rel": {
    "parkings": [
@@ -32661,8 +32848,8 @@
   "osm": {
    "type": "relation",
    "id": 1928176,
-   "timestamp": "2026-09-07T18:37:00Z",
-   "version": 148,
+   "timestamp": "2026-09-27T18:13:17Z",
+   "version": 149,
    "checkDate": null
   },
   "location": {
@@ -32689,7 +32876,7 @@
   },
   "computed": {
    "lengthKm": 65.6,
-   "wayCount": 289,
+   "wayCount": 291,
    "isLoop": false,
    "fragmented": false,
    "branched": true,
@@ -32708,7 +32895,7 @@
     54.09547,
     14.25916
    ],
-   "pointCount": 640
+   "pointCount": 644
   },
   "rel": {
    "parkings": [
@@ -33156,8 +33343,8 @@
   "osm": {
    "type": "relation",
    "id": 7547982,
-   "timestamp": "2026-09-02T20:11:34Z",
-   "version": 245,
+   "timestamp": "2026-10-02T13:08:47Z",
+   "version": 247,
    "checkDate": null
   },
   "location": {
@@ -33168,7 +33355,7 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 49.41862,
+   "lat": 49.4186,
    "lng": 20.0433
   },
   "description": null,
@@ -33182,7 +33369,7 @@
   },
   "computed": {
    "lengthKm": 67.7,
-   "wayCount": 222,
+   "wayCount": 224,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -33190,12 +33377,12 @@
    "start": null,
    "end": null,
    "bbox": [
-    49.35103,
+    49.35101,
     19.79096,
     49.4862,
     20.29563
    ],
-   "pointCount": 571
+   "pointCount": 576
   },
   "rel": {
    "parkings": [],
@@ -34103,8 +34290,8 @@
   "osm": {
    "type": "relation",
    "id": 4596026,
-   "timestamp": "2026-09-11T13:35:42Z",
-   "version": 244,
+   "timestamp": "2026-09-30T18:12:45Z",
+   "version": 245,
    "checkDate": null
   },
   "location": {
@@ -34133,7 +34320,7 @@
   },
   "computed": {
    "lengthKm": 152.7,
-   "wayCount": 704,
+   "wayCount": 705,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -34800,8 +34987,8 @@
   "osm": {
    "type": "relation",
    "id": 2155295,
-   "timestamp": "2026-09-20T16:03:36Z",
-   "version": 229,
+   "timestamp": "2026-09-27T15:57:33Z",
+   "version": 231,
    "checkDate": null
   },
   "location": {
@@ -34831,7 +35018,7 @@
   },
   "computed": {
    "lengthKm": 155.2,
-   "wayCount": 488,
+   "wayCount": 491,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -34920,8 +35107,8 @@
   "osm": {
    "type": "relation",
    "id": 11127809,
-   "timestamp": "2026-08-13T16:34:25Z",
-   "version": 326,
+   "timestamp": "2026-09-27T09:28:22Z",
+   "version": 328,
    "checkDate": null
   },
   "location": {
@@ -34949,7 +35136,7 @@
   },
   "computed": {
    "lengthKm": 206.4,
-   "wayCount": 1111,
+   "wayCount": 1113,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -34962,7 +35149,7 @@
     53.42514,
     14.5594
    ],
-   "pointCount": 2549
+   "pointCount": 2552
   },
   "rel": {
    "parkings": [
@@ -36382,8 +36569,8 @@
   "osm": {
    "type": "relation",
    "id": 9968328,
-   "timestamp": "2026-09-13T15:03:31Z",
-   "version": 61,
+   "timestamp": "2026-10-02T15:58:14Z",
+   "version": 62,
    "checkDate": null
   },
   "location": {
@@ -36411,7 +36598,7 @@
   },
   "computed": {
    "lengthKm": 154.2,
-   "wayCount": 277,
+   "wayCount": 278,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -36424,7 +36611,7 @@
     54.11011,
     23.39772
    ],
-   "pointCount": 872
+   "pointCount": 874
   },
   "rel": {
    "parkings": [],
@@ -39793,8 +39980,8 @@
   "osm": {
    "type": "relation",
    "id": 18400765,
-   "timestamp": "2026-09-02T13:08:34Z",
-   "version": 13,
+   "timestamp": "2026-09-26T20:36:20Z",
+   "version": 14,
    "checkDate": null
   },
   "location": {
@@ -39819,7 +40006,7 @@
   },
   "computed": {
    "lengthKm": 7.7,
-   "wayCount": 149,
+   "wayCount": 148,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -39928,8 +40115,8 @@
   "osm": {
    "type": "relation",
    "id": 18400777,
-   "timestamp": "2026-09-02T13:08:34Z",
-   "version": 15,
+   "timestamp": "2026-09-26T20:36:20Z",
+   "version": 16,
    "checkDate": null
   },
   "location": {
@@ -39954,7 +40141,7 @@
   },
   "computed": {
    "lengthKm": 4.6,
-   "wayCount": 95,
+   "wayCount": 94,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -40196,8 +40383,8 @@
   "osm": {
    "type": "relation",
    "id": 13728764,
-   "timestamp": "2026-09-09T07:18:31Z",
-   "version": 69,
+   "timestamp": "2026-09-26T20:36:20Z",
+   "version": 70,
    "checkDate": null
   },
   "location": {
@@ -40223,7 +40410,7 @@
   },
   "computed": {
    "lengthKm": 7.6,
-   "wayCount": 234,
+   "wayCount": 235,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -40236,7 +40423,7 @@
     50.87471,
     20.63711
    ],
-   "pointCount": 468
+   "pointCount": 470
   },
   "rel": {
    "parkings": [
@@ -42756,8 +42943,8 @@
   "osm": {
    "type": "relation",
    "id": 13437483,
-   "timestamp": "2026-09-01T10:07:22Z",
-   "version": 9,
+   "timestamp": "2026-09-22T19:08:26Z",
+   "version": 11,
    "checkDate": null
   },
   "location": {
@@ -42782,7 +42969,7 @@
   },
   "computed": {
    "lengthKm": 5.4,
-   "wayCount": 39,
+   "wayCount": 41,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -42850,8 +43037,8 @@
   "osm": {
    "type": "relation",
    "id": 1022002,
-   "timestamp": "2026-04-06T17:00:52Z",
-   "version": 31,
+   "timestamp": "2026-09-22T19:08:26Z",
+   "version": 33,
    "checkDate": null
   },
   "location": {
@@ -42875,7 +43062,7 @@
   },
   "computed": {
    "lengthKm": 9.6,
-   "wayCount": 45,
+   "wayCount": 47,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -42951,8 +43138,8 @@
   "osm": {
    "type": "relation",
    "id": 961606,
-   "timestamp": "2026-08-27T04:47:11Z",
-   "version": 37,
+   "timestamp": "2026-09-22T19:11:39Z",
+   "version": 39,
    "checkDate": null
   },
   "location": {
@@ -42976,7 +43163,7 @@
   },
   "computed": {
    "lengthKm": 10.5,
-   "wayCount": 46,
+   "wayCount": 48,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -44031,81 +44218,6 @@
     {
      "key": "city/poznan",
      "km": 3.4
-    }
-   ],
-   "parts": [],
-   "parents": []
-  }
- },
- {
-  "slug": "ku-bukowej-czas-w-las-18396246",
-  "name": "Ku Bukowej (Czas w Las)",
-  "type": "trail",
-  "source": "osm",
-  "osm": {
-   "type": "relation",
-   "id": 18396246,
-   "timestamp": "2026-05-09T16:46:04Z",
-   "version": 3,
-   "checkDate": null
-  },
-  "location": {
-   "city": null,
-   "region": "Świętokrzyskie",
-   "hubSlug": "kielce",
-   "hubDistanceKm": 11.6
-  },
-  "address": null,
-  "coordinates": {
-   "lat": 50.95378,
-   "lng": 20.81998
-  },
-  "description": null,
-  "notes": [],
-  "attrs": {
-   "route": "hiking",
-   "network": "lwn"
-  },
-  "computed": {
-   "lengthKm": 19.6,
-   "wayCount": 76,
-   "isLoop": false,
-   "fragmented": false,
-   "branched": false,
-   "superroute": false,
-   "start": {
-    "lat": 50.95687,
-    "lng": 20.71205
-   },
-   "end": {
-    "lat": 50.96108,
-    "lng": 20.73245
-   },
-   "bbox": [
-    50.94929,
-    20.71205,
-    50.96539,
-    20.83253
-   ],
-   "pointCount": 69
-  },
-  "rel": {
-   "parkings": [],
-   "beaches": [],
-   "trails": [
-    {
-     "key": "trail/barcza-bukowa-gora-5459176",
-     "km": 0
-    },
-    {
-     "key": "trail/szlak-architektury-obronnej-3376049",
-     "km": 0
-    }
-   ],
-   "cities": [
-    {
-     "key": "city/kielce",
-     "km": 11.6
     }
    ],
    "parts": [],
@@ -46518,6 +46630,82 @@
   }
  },
  {
+  "slug": "lagiesy-xc-21439954",
+  "name": "Łagiesy XC",
+  "type": "trail",
+  "source": "osm",
+  "osm": {
+   "type": "relation",
+   "id": 21439954,
+   "timestamp": "2026-09-25T13:52:32Z",
+   "version": 1,
+   "checkDate": null
+  },
+  "location": {
+   "city": "Łódź",
+   "region": "Łódzkie",
+   "hubSlug": "lodz",
+   "hubDistanceKm": 10
+  },
+  "address": null,
+  "coordinates": {
+   "lat": 51.85374,
+   "lng": 19.50231
+  },
+  "description": null,
+  "notes": [],
+  "attrs": {
+   "route": "mtb"
+  },
+  "computed": {
+   "lengthKm": 7.3,
+   "wayCount": 52,
+   "isLoop": true,
+   "fragmented": false,
+   "branched": false,
+   "superroute": false,
+   "start": null,
+   "end": null,
+   "bbox": [
+    51.84636,
+    19.49177,
+    51.85681,
+    19.51022
+   ],
+   "pointCount": 53
+  },
+  "rel": {
+   "parkings": [],
+   "beaches": [],
+   "trails": [
+    {
+     "key": "trail/niebieski-st-270384",
+     "km": 0
+    },
+    {
+     "key": "trail/szlak-po-parku-krajobrazowym-wzniesien-lodzkich-161122",
+     "km": 0
+    },
+    {
+     "key": "trail/po-parku-krajobrazowym-wzniesien-lodzkich-157528",
+     "km": 0.1
+    },
+    {
+     "key": "trail/szlak-okolic-lodzi-214998",
+     "km": 0.13
+    }
+   ],
+   "cities": [
+    {
+     "key": "city/lodz",
+     "km": 10
+    }
+   ],
+   "parts": [],
+   "parents": []
+  }
+ },
+ {
   "slug": "las-bialego-hala-biale-1606813",
   "name": "Las Białego - Hala Białe",
   "type": "trail",
@@ -48793,8 +48981,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 51.79552,
-   "lng": 19.27529
+   "lat": 51.79815,
+   "lng": 19.27413
   },
   "description": null,
   "notes": [],
@@ -48806,21 +48994,27 @@
    "symbol": "zielony"
   },
   "computed": {
-   "lengthKm": 23.9,
+   "lengthKm": 23.8,
    "wayCount": 51,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
    "superroute": false,
-   "start": null,
-   "end": null,
+   "start": {
+    "lat": 51.76403,
+    "lng": 19.40442
+   },
+   "end": {
+    "lat": 51.81055,
+    "lng": 19.14615
+   },
    "bbox": [
     51.76174,
     19.14615,
     51.82931,
     19.40442
    ],
-   "pointCount": 119
+   "pointCount": 42
   },
   "rel": {
    "parkings": [
@@ -48848,15 +49042,15 @@
      "km": 0
     },
     {
+     "key": "trail/lodz-zabiczki-170268",
+     "km": 0
+    },
+    {
      "key": "trail/lodzka-magistrala-rowerowa-n-s-171044",
      "km": 0
     },
     {
      "key": "trail/szlak-okolic-lodzi-214998",
-     "km": 0
-    },
-    {
-     "key": "trail/lodz-zabiczki-170268",
      "km": 0
     }
    ],
@@ -49022,10 +49216,6 @@
      "km": 0
     },
     {
-     "key": "trail/lodz-malanow-170289",
-     "km": 0
-    },
-    {
      "key": "trail/lodzka-magistrala-rowerowa-w-e-3076378",
      "km": 0
     },
@@ -49043,6 +49233,10 @@
     },
     {
      "key": "trail/w-centrum-polski-1921362",
+     "km": 0
+    },
+    {
+     "key": "trail/lodz-malanow-170289",
      "km": 0
     },
     {
@@ -50134,8 +50328,8 @@
   "osm": {
    "type": "relation",
    "id": 18259565,
-   "timestamp": "2026-07-30T13:21:07Z",
-   "version": 9,
+   "timestamp": "2026-09-27T20:33:28Z",
+   "version": 10,
    "checkDate": null
   },
   "location": {
@@ -50157,8 +50351,8 @@
    "colour": "orange"
   },
   "computed": {
-   "lengthKm": 138.3,
-   "wayCount": 267,
+   "lengthKm": 138.1,
+   "wayCount": 266,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -50171,7 +50365,7 @@
     52.09632,
     16.07211
    ],
-   "pointCount": 757
+   "pointCount": 755
   },
   "rel": {
    "parkings": [],
@@ -50421,8 +50615,8 @@
   "osm": {
    "type": "relation",
    "id": 9434983,
-   "timestamp": "2026-06-12T13:25:34Z",
-   "version": 69,
+   "timestamp": "2026-09-30T12:12:03Z",
+   "version": 72,
    "checkDate": null
   },
   "location": {
@@ -50433,8 +50627,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 53.78022,
-   "lng": 20.47453
+   "lat": 53.84041,
+   "lng": 20.70942
   },
   "description": null,
   "notes": [],
@@ -50444,21 +50638,21 @@
    "website": "https://mazury.travel/rowery/szlaki/lynostrada-olsztynska"
   },
   "computed": {
-   "lengthKm": 113.7,
-   "wayCount": 320,
+   "lengthKm": 174.8,
+   "wayCount": 465,
    "isLoop": false,
-   "fragmented": false,
+   "fragmented": true,
    "branched": false,
    "superroute": false,
    "start": null,
    "end": null,
    "bbox": [
-    53.4334,
-    20.3729,
-    54.12703,
-    20.57616
+    53.35727,
+    20.37825,
+    54.32355,
+    21.04059
    ],
-   "pointCount": 892
+   "pointCount": 1323
   },
   "rel": {
    "parkings": [
@@ -50502,6 +50696,10 @@
      "km": 0
     },
     {
+     "key": "trail/enduro-21423086",
+     "km": 0
+    },
+    {
      "key": "trail/european-long-distance-path-e11-part-poland-2856709",
      "km": 0
     },
@@ -50514,20 +50712,16 @@
      "km": 0
     },
     {
+     "key": "trail/xc-21423111",
+     "km": 0
+    },
+    {
      "key": "trail/do-zrodel-lyny-16119403",
      "km": 0
     },
     {
      "key": "trail/szlak-im-marii-zientary-malewskiej-3082899",
      "km": 0
-    },
-    {
-     "key": "trail/camino-polaco-12599562",
-     "km": 0.01
-    },
-    {
-     "key": "trail/camino-polaco-12634254",
-     "km": 0.01
     }
    ],
    "cities": [
@@ -51284,7 +51478,7 @@
    "colour": "green"
   },
   "computed": {
-   "lengthKm": 27.9,
+   "lengthKm": 28,
    "wayCount": 172,
    "isLoop": false,
    "fragmented": true,
@@ -52306,8 +52500,8 @@
   "osm": {
    "type": "relation",
    "id": 961607,
-   "timestamp": "2026-09-14T10:29:45Z",
-   "version": 193,
+   "timestamp": "2026-09-21T10:23:23Z",
+   "version": 194,
    "checkDate": null
   },
   "location": {
@@ -52318,8 +52512,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 49.80532,
-   "lng": 19.73024
+   "lat": 49.80527,
+   "lng": 19.73029
   },
   "description": null,
   "notes": [],
@@ -52335,7 +52529,7 @@
   },
   "computed": {
    "lengthKm": 134.7,
-   "wayCount": 329,
+   "wayCount": 333,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -54618,8 +54812,8 @@
   "osm": {
    "type": "relation",
    "id": 8844550,
-   "timestamp": "2026-09-13T06:21:42Z",
-   "version": 316,
+   "timestamp": "2026-10-03T20:48:42Z",
+   "version": 318,
    "checkDate": null
   },
   "location": {
@@ -54645,7 +54839,7 @@
   },
   "computed": {
    "lengthKm": 582.3,
-   "wayCount": 1232,
+   "wayCount": 1235,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -54658,7 +54852,7 @@
     51.14812,
     21.46905
    ],
-   "pointCount": 3202
+   "pointCount": 3208
   },
   "rel": {
    "parkings": [
@@ -57860,6 +58054,10 @@
      "km": 0.5
     },
     {
+     "key": "parking/parkingas-1427936884",
+     "km": 0.57
+    },
+    {
      "key": "parking/parking-kolejka-gubalowka-998238240",
      "km": 1.3
     }
@@ -59365,6 +59563,10 @@
   "rel": {
    "parkings": [
     {
+     "key": "parking/parkingas-1427936884",
+     "km": 0.86
+    },
+    {
      "key": "parking/parking-tpn-dolina-koscieliska-kiry-1329849092",
      "km": 1.1
     },
@@ -59434,8 +59636,8 @@
   "osm": {
    "type": "relation",
    "id": 2920987,
-   "timestamp": "2026-08-15T08:10:07Z",
-   "version": 116,
+   "timestamp": "2026-10-02T17:02:57Z",
+   "version": 117,
    "checkDate": null
   },
   "location": {
@@ -59460,7 +59662,7 @@
   },
   "computed": {
    "lengthKm": 72.6,
-   "wayCount": 273,
+   "wayCount": 272,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -59473,7 +59675,7 @@
     50.21222,
     18.93154
    ],
-   "pointCount": 658
+   "pointCount": 656
   },
   "rel": {
    "parkings": [],
@@ -60085,8 +60287,8 @@
   "osm": {
    "type": "relation",
    "id": 270384,
-   "timestamp": "2026-08-27T22:51:03Z",
-   "version": 31,
+   "timestamp": "2026-09-25T13:52:32Z",
+   "version": 32,
    "checkDate": null
   },
   "location": {
@@ -60111,7 +60313,7 @@
   },
   "computed": {
    "lengthKm": 15.5,
-   "wayCount": 62,
+   "wayCount": 65,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -60156,6 +60358,10 @@
     {
      "key": "trail/po-parku-krajobrazowym-wzniesien-lodzkich-157528",
      "km": 0
+    },
+    {
+     "key": "trail/lagiesy-xc-21439954",
+     "km": 0.02
     },
     {
      "key": "trail/w-centrum-polski-1921362",
@@ -60283,8 +60489,8 @@
   "osm": {
    "type": "relation",
    "id": 8016201,
-   "timestamp": "2026-05-25T16:44:44Z",
-   "version": 13,
+   "timestamp": "2026-10-02T13:05:57Z",
+   "version": 14,
    "checkDate": null
   },
   "location": {
@@ -60307,7 +60513,7 @@
   },
   "computed": {
    "lengthKm": 9.5,
-   "wayCount": 43,
+   "wayCount": 44,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -60832,8 +61038,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.65984,
-   "lng": 18.11907
+   "lat": 50.65985,
+   "lng": 18.11905
   },
   "description": null,
   "notes": [],
@@ -61842,8 +62048,8 @@
   "osm": {
    "type": "relation",
    "id": 6081851,
-   "timestamp": "2026-08-12T14:08:15Z",
-   "version": 104,
+   "timestamp": "2026-09-24T13:45:00Z",
+   "version": 105,
    "checkDate": null
   },
   "location": {
@@ -61866,7 +62072,7 @@
   },
   "computed": {
    "lengthKm": 29.9,
-   "wayCount": 285,
+   "wayCount": 286,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -61879,7 +62085,7 @@
     50.32039,
     18.90297
    ],
-   "pointCount": 603
+   "pointCount": 606
   },
   "rel": {
    "parkings": [],
@@ -62238,7 +62444,7 @@
    },
    "bbox": [
     53.09495,
-    18.15671,
+    18.15673,
     53.14916,
     18.21479
    ],
@@ -63054,8 +63260,8 @@
   "osm": {
    "type": "relation",
    "id": 18617525,
-   "timestamp": "2026-09-18T16:15:06Z",
-   "version": 85,
+   "timestamp": "2026-10-02T19:15:10Z",
+   "version": 89,
    "checkDate": null
   },
   "location": {
@@ -63084,7 +63290,7 @@
   },
   "computed": {
    "lengthKm": 384.9,
-   "wayCount": 1293,
+   "wayCount": 1297,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -63097,7 +63303,7 @@
     54.46297,
     14.22958
    ],
-   "pointCount": 3134
+   "pointCount": 3143
   },
   "rel": {
    "parkings": [
@@ -64490,7 +64696,7 @@
     50.86532,
     15.57808
    ],
-   "pointCount": 127
+   "pointCount": 129
   },
   "rel": {
    "parkings": [
@@ -65047,7 +65253,7 @@
     52.73013,
     15.39537
    ],
-   "pointCount": 89
+   "pointCount": 88
   },
   "rel": {
    "parkings": [
@@ -65215,8 +65421,8 @@
   "osm": {
    "type": "relation",
    "id": 2073026,
-   "timestamp": "2026-07-13T08:06:33Z",
-   "version": 79,
+   "timestamp": "2026-10-02T04:51:13Z",
+   "version": 80,
    "checkDate": null
   },
   "location": {
@@ -65239,7 +65445,7 @@
   },
   "computed": {
    "lengthKm": 8.2,
-   "wayCount": 177,
+   "wayCount": 179,
    "isLoop": true,
    "fragmented": false,
    "branched": false,
@@ -65875,8 +66081,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.84824,
-   "lng": 15.57979
+   "lat": 50.8482,
+   "lng": 15.57974
   },
   "description": null,
   "notes": [],
@@ -65908,7 +66114,7 @@
     50.85067,
     15.59193
    ],
-   "pointCount": 114
+   "pointCount": 113
   },
   "rel": {
    "parkings": [
@@ -66183,8 +66389,8 @@
   "osm": {
    "type": "relation",
    "id": 4132634,
-   "timestamp": "2026-08-13T13:12:03Z",
-   "version": 50,
+   "timestamp": "2026-09-25T20:17:21Z",
+   "version": 51,
    "checkDate": null
   },
   "location": {
@@ -66207,7 +66413,7 @@
   },
   "computed": {
    "lengthKm": 100.2,
-   "wayCount": 168,
+   "wayCount": 169,
    "isLoop": true,
    "fragmented": false,
    "branched": false,
@@ -66220,7 +66426,7 @@
     54.54587,
     17.23666
    ],
-   "pointCount": 495
+   "pointCount": 496
   },
   "rel": {
    "parkings": [],
@@ -66374,8 +66580,8 @@
   "osm": {
    "type": "relation",
    "id": 3729382,
-   "timestamp": "2026-06-16T22:33:50Z",
-   "version": 106,
+   "timestamp": "2026-09-24T09:54:06Z",
+   "version": 113,
    "checkDate": null
   },
   "location": {
@@ -66387,7 +66593,7 @@
   "address": null,
   "coordinates": {
    "lat": 54.6647,
-   "lng": 18.45638
+   "lng": 18.45633
   },
   "description": null,
   "notes": [],
@@ -66399,7 +66605,7 @@
   },
   "computed": {
    "lengthKm": 34,
-   "wayCount": 101,
+   "wayCount": 107,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -66410,9 +66616,9 @@
     54.56614,
     18.39224,
     54.76326,
-    18.52051
+    18.52042
    ],
-   "pointCount": 255
+   "pointCount": 268
   },
   "rel": {
    "parkings": [
@@ -66444,7 +66650,7 @@
     },
     {
      "key": "beach/zielona-plaza-122153849",
-     "km": 0.04
+     "km": 0.03
     }
    ],
    "trails": [
@@ -67433,7 +67639,7 @@
     54.05887,
     18.97889
    ],
-   "pointCount": 2659
+   "pointCount": 2661
   },
   "rel": {
    "parkings": [
@@ -67861,6 +68067,10 @@
     {
      "key": "trail/ziemi-rawskiej-6138168",
      "km": 0
+    },
+    {
+     "key": "trail/lagiesy-xc-21439954",
+     "km": 0.1
     }
    ],
    "cities": [
@@ -68517,7 +68727,7 @@
    "bbox": [
     49.99354,
     19.97035,
-    50.0345,
+    50.03449,
     20.06685
    ],
    "pointCount": 37
@@ -69024,8 +69234,8 @@
   "osm": {
    "type": "relation",
    "id": 15743566,
-   "timestamp": "2026-09-12T16:59:20Z",
-   "version": 158,
+   "timestamp": "2026-10-01T19:43:30Z",
+   "version": 162,
    "checkDate": null
   },
   "location": {
@@ -69048,8 +69258,8 @@
    "pilgrimage": "yes"
   },
   "computed": {
-   "lengthKm": 468.5,
-   "wayCount": 1080,
+   "lengthKm": 468.6,
+   "wayCount": 1088,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -69062,7 +69272,7 @@
     54.06954,
     23.15777
    ],
-   "pointCount": 2725
+   "pointCount": 2739
   },
   "rel": {
    "parkings": [
@@ -71809,7 +72019,7 @@
      "km": 0
     },
     {
-     "key": "trail/warszawa-dawidy-cieszyca-1396129",
+     "key": "trail/warszawa-dawidy-ciszyca-1396129",
      "km": 0
     },
     {
@@ -71925,8 +72135,8 @@
   "osm": {
    "type": "relation",
    "id": 5234433,
-   "timestamp": "2026-06-19T06:10:35Z",
-   "version": 32,
+   "timestamp": "2026-09-30T07:51:05Z",
+   "version": 33,
    "checkDate": null
   },
   "location": {
@@ -71950,7 +72160,7 @@
   },
   "computed": {
    "lengthKm": 26.4,
-   "wayCount": 74,
+   "wayCount": 75,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -71963,7 +72173,7 @@
     52.64647,
     16.91696
    ],
-   "pointCount": 179
+   "pointCount": 181
   },
   "rel": {
    "parkings": [
@@ -72183,7 +72393,7 @@
      "km": 0.5
     },
     {
-     "key": "parking/parking-dla-klientow-pgnig-378505436",
+     "key": "parking/parking-dla-klientow-myorlen-378505436",
      "km": 0.53
     },
     {
@@ -73395,8 +73605,8 @@
   "osm": {
    "type": "relation",
    "id": 3820631,
-   "timestamp": "2026-08-01T20:53:00Z",
-   "version": 170,
+   "timestamp": "2026-09-25T20:17:21Z",
+   "version": 171,
    "checkDate": null
   },
   "location": {
@@ -73420,7 +73630,7 @@
   },
   "computed": {
    "lengthKm": 98.5,
-   "wayCount": 311,
+   "wayCount": 313,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -73433,7 +73643,7 @@
     54.57959,
     17.63553
    ],
-   "pointCount": 787
+   "pointCount": 791
   },
   "rel": {
    "parkings": [
@@ -73478,10 +73688,6 @@
      "km": 0
     },
     {
-     "key": "trail/r10-ustka-slupsk-14255100",
-     "km": 0
-    },
-    {
      "key": "trail/rownina-slawienska-21215561",
      "km": 0
     },
@@ -73495,6 +73701,10 @@
     },
     {
      "key": "trail/szlak-krajobrazow-mlodoglacjalnych-5517786",
+     "km": 0
+    },
+    {
+     "key": "trail/szlak-nadmorski-baltycki",
      "km": 0
     }
    ],
@@ -75130,12 +75340,12 @@
    "beaches": [],
    "trails": [
     {
-     "key": "trail/nad-jezioro-lusowskie-2702924",
+     "key": "trail/ring-2-11634070",
      "km": 0
     },
     {
-     "key": "trail/ring-2-11634070",
-     "km": 0.01
+     "key": "trail/nad-jezioro-lusowskie-2702924",
+     "km": 0
     }
    ],
    "cities": [
@@ -76023,8 +76233,8 @@
   "osm": {
    "type": "relation",
    "id": 11634070,
-   "timestamp": "2026-03-25T21:53:20Z",
-   "version": 29,
+   "timestamp": "2026-10-02T14:16:15Z",
+   "version": 31,
    "checkDate": null
   },
   "location": {
@@ -76035,8 +76245,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 52.42332,
-   "lng": 16.96442
+   "lat": 52.40833,
+   "lng": 16.92711
   },
   "description": null,
   "notes": [],
@@ -76049,43 +76259,37 @@
   },
   "computed": {
    "lengthKm": 18.4,
-   "wayCount": 222,
+   "wayCount": 230,
    "isLoop": false,
-   "fragmented": false,
+   "fragmented": true,
    "branched": false,
    "superroute": false,
-   "start": {
-    "lat": 52.39044,
-    "lng": 16.89274
-   },
-   "end": {
-    "lat": 52.40255,
-    "lng": 16.88966
-   },
+   "start": null,
+   "end": null,
    "bbox": [
     52.37986,
     16.88818,
     52.43681,
     16.96604
    ],
-   "pointCount": 55
+   "pointCount": 474
   },
   "rel": {
    "parkings": [
+    {
+     "key": "parking/parkuj-i-jedz-rondo-staroleka-1030899572",
+     "km": 0.14
+    },
     {
      "key": "parking/piast-492853288",
      "km": 0.15
     },
     {
-     "key": "parking/parkuj-i-jedz-rondo-staroleka-1030899572",
-     "km": 0.15
+     "key": "parking/parking-korel-317637259",
+     "km": 0.24
     },
     {
      "key": "parking/parking-lotnisko-99255603",
-     "km": 0.25
-    },
-    {
-     "key": "parking/parking-korel-317637259",
      "km": 0.25
     },
     {
@@ -76107,11 +76311,11 @@
    ],
    "beaches": [
     {
-     "key": "beach/plaza-miejska-wilda-423499941",
-     "km": 0.63
+     "key": "beach/plaza-miejska-chwaliszewo-334158650",
+     "km": 0.65
     },
     {
-     "key": "beach/plaza-miejska-chwaliszewo-334158650",
+     "key": "beach/plaza-miejska-wilda-423499941",
      "km": 0.65
     },
     {
@@ -76121,7 +76325,15 @@
    ],
    "trails": [
     {
+     "key": "trail/cysterski-szlak-rowerowy-337195",
+     "km": 0
+    },
+    {
      "key": "trail/dolina-gluszynki-do-kornika-2257694",
+     "km": 0
+    },
+    {
+     "key": "trail/european-long-distance-path-e11-part-poland-2856709",
      "km": 0
     },
     {
@@ -76133,23 +76345,15 @@
      "km": 0
     },
     {
-     "key": "trail/radial-r3-11628869",
+     "key": "trail/trakt-krolewsko-cesarski-5280641",
      "km": 0
     },
     {
-     "key": "trail/cysterski-szlak-rowerowy-337195",
+     "key": "trail/wartostrada-6545370",
      "km": 0
     },
     {
-     "key": "trail/do-rezerwatu-gogulec-2709184",
-     "km": 0
-    },
-    {
-     "key": "trail/eurovelo-2-capitals-route-part-poland-12535932",
-     "km": 0
-    },
-    {
-     "key": "trail/nad-jezioro-lusowskie-2702924",
+     "key": "trail/radial-r2-11627908",
      "km": 0
     }
    ],
@@ -76804,8 +77008,8 @@
   "osm": {
    "type": "relation",
    "id": 10831753,
-   "timestamp": "2026-08-05T19:56:37Z",
-   "version": 17,
+   "timestamp": "2026-09-29T20:07:31Z",
+   "version": 18,
    "checkDate": null
   },
   "location": {
@@ -76828,7 +77032,7 @@
   },
   "computed": {
    "lengthKm": 26,
-   "wayCount": 77,
+   "wayCount": 78,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -76841,7 +77045,7 @@
     50.77836,
     20.70295
    ],
-   "pointCount": 178
+   "pointCount": 179
   },
   "rel": {
    "parkings": [],
@@ -77549,8 +77753,8 @@
   "osm": {
    "type": "relation",
    "id": 3146099,
-   "timestamp": "2026-07-23T09:24:16Z",
-   "version": 109,
+   "timestamp": "2026-09-25T17:58:56Z",
+   "version": 110,
    "checkDate": null
   },
   "location": {
@@ -77561,8 +77765,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 49.98343,
-   "lng": 20.05006
+   "lat": 49.98345,
+   "lng": 20.05008
   },
   "description": null,
   "notes": [],
@@ -77575,7 +77779,7 @@
   },
   "computed": {
    "lengthKm": 87.1,
-   "wayCount": 246,
+   "wayCount": 248,
    "isLoop": true,
    "fragmented": false,
    "branched": false,
@@ -77588,7 +77792,7 @@
     50.05417,
     20.42336
    ],
-   "pointCount": 286
+   "pointCount": 283
   },
   "rel": {
    "parkings": [],
@@ -78005,10 +78209,6 @@
      "km": 0
     },
     {
-     "key": "trail/szlak-dookola-wroclawia-im-doktora-bronislawa-turonia-4192054",
-     "km": 0
-    },
-    {
      "key": "trail/szlak-miejski-ulicami-opola-15331879",
      "km": 0
     },
@@ -78019,6 +78219,10 @@
     {
      "key": "trail/via-regia-12592231",
      "km": 0
+    },
+    {
+     "key": "trail/szlak-dookola-wroclawia-im-doktora-bronislawa-turonia-4192054",
+     "km": 0.01
     },
     {
      "key": "trail/via-regia-gsa-12602404",
@@ -78052,8 +78256,8 @@
   "osm": {
    "type": "relation",
    "id": 15958601,
-   "timestamp": "2026-08-25T19:40:13Z",
-   "version": 21,
+   "timestamp": "2026-09-30T16:40:40Z",
+   "version": 28,
    "checkDate": null
   },
   "location": {
@@ -78074,10 +78278,10 @@
    "network": "lcn"
   },
   "computed": {
-   "lengthKm": 40.2,
-   "wayCount": 417,
+   "lengthKm": 50.7,
+   "wayCount": 487,
    "isLoop": false,
-   "fragmented": false,
+   "fragmented": true,
    "branched": false,
    "superroute": false,
    "start": null,
@@ -78088,7 +78292,7 @@
     51.18432,
     17.14444
    ],
-   "pointCount": 871
+   "pointCount": 1023
   },
   "rel": {
    "parkings": [
@@ -78183,8 +78387,8 @@
   "osm": {
    "type": "relation",
    "id": 1085901,
-   "timestamp": "2026-09-20T07:20:35Z",
-   "version": 496,
+   "timestamp": "2026-10-05T09:11:29Z",
+   "version": 499,
    "checkDate": null
   },
   "location": {
@@ -78195,7 +78399,7 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.44107,
+   "lat": 50.44108,
    "lng": 19.51242
   },
   "description": "Częstochowa, Olsztyn, Zrębice, Złoty Potok, Ostrężnik, Czatachowa, Mirów, Bobolice, Podlesice, Morsko, Kromołów, Podzamcze, Ryczów, Smoleń, Bydlin, Jaroszowiec, Olkusz, Paczółtowice, Krzeszowice, Rudno, Brzoskwinia, Szczyglice, Kraków",
@@ -78224,7 +78428,7 @@
    "start": null,
    "end": null,
    "bbox": [
-    50.06314,
+    50.06315,
     19.12186,
     50.81901,
     19.90298
@@ -78652,8 +78856,8 @@
   "osm": {
    "type": "relation",
    "id": 1707552,
-   "timestamp": "2026-08-28T18:29:59Z",
-   "version": 321,
+   "timestamp": "2026-09-24T19:51:04Z",
+   "version": 322,
    "checkDate": null
   },
   "location": {
@@ -79601,8 +79805,8 @@
   "osm": {
    "type": "relation",
    "id": 375393,
-   "timestamp": "2026-09-17T13:16:07Z",
-   "version": 44,
+   "timestamp": "2026-10-03T10:18:11Z",
+   "version": 45,
    "checkDate": null
   },
   "location": {
@@ -79614,7 +79818,7 @@
   "address": null,
   "coordinates": {
    "lat": 50.85597,
-   "lng": 15.35578
+   "lng": 15.3558
   },
   "description": null,
   "notes": [],
@@ -79626,7 +79830,7 @@
   },
   "computed": {
    "lengthKm": 18.5,
-   "wayCount": 40,
+   "wayCount": 42,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -80386,7 +80590,7 @@
     50.83622,
     19.53121
    ],
-   "pointCount": 430
+   "pointCount": 431
   },
   "rel": {
    "parkings": [
@@ -80925,8 +81129,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 49.12738,
-   "lng": 22.69746
+   "lat": 49.12733,
+   "lng": 22.69756
   },
   "description": null,
   "notes": [],
@@ -81088,8 +81292,8 @@
   "osm": {
    "type": "relation",
    "id": 3360424,
-   "timestamp": "2015-08-16T16:56:24Z",
-   "version": 2,
+   "timestamp": "2026-09-23T19:48:04Z",
+   "version": 4,
    "checkDate": null
   },
   "location": {
@@ -83680,7 +83884,7 @@
    "bbox": [
     54.71515,
     18.40276,
-    54.7246,
+    54.72459,
     18.43035
    ],
    "pointCount": 12
@@ -83716,15 +83920,15 @@
      "km": 0
     },
     {
-     "key": "trail/szlak-swarzewski",
-     "km": 0
-    },
-    {
      "key": "trail/european-long-distance-path-e9-part-poland-3009329",
      "km": 0.01
     },
     {
      "key": "trail/szlak-krawedzia-kepy-puckiej",
+     "km": 0.01
+    },
+    {
+     "key": "trail/szlak-swarzewski",
      "km": 0.01
     },
     {
@@ -86203,60 +86407,59 @@
  },
  {
   "slug": "sciezka-przyrodniczo-lesna-zazdrosc-3116335",
-  "name": "Ścieżka przyrodniczo-leśna \"Zazdrość\"",
+  "name": "Ścieżka przyrodniczo-leśna „Zazdrość”",
   "type": "trail",
   "source": "osm",
   "osm": {
    "type": "relation",
    "id": 3116335,
-   "timestamp": "2024-02-12T20:03:47Z",
-   "version": 5,
+   "timestamp": "2026-09-21T11:53:34Z",
+   "version": 6,
    "checkDate": null
   },
   "location": {
    "city": "Olsztyn",
    "region": "Warmińsko-Mazurskie",
    "hubSlug": "olsztyn",
-   "hubDistanceKm": 5.3
+   "hubDistanceKm": 4.4
   },
   "address": null,
   "coordinates": {
-   "lat": 53.71894,
-   "lng": 20.52178
+   "lat": 53.71727,
+   "lng": 20.51003
   },
   "description": null,
   "notes": [],
   "attrs": {
-   "route": "bicycle",
-   "network": "lcn",
-   "ref": "paf",
+   "route": "foot",
    "distance": "6 km",
    "from": "Olsztyn",
    "to": "Jezioro Kielarskie",
-   "operator": "Nadleśnictwo Olsztyn"
+   "operator": "Nadleśnictwo Olsztyn",
+   "website": "https://visit.olsztyn.eu/tour/75/sciezka-przyrodniczo-lesna-zazdrosc"
   },
   "computed": {
-   "lengthKm": 8,
-   "wayCount": 24,
+   "lengthKm": 8.5,
+   "wayCount": 40,
    "isLoop": false,
    "fragmented": false,
-   "branched": false,
+   "branched": true,
    "superroute": false,
    "start": {
-    "lat": 53.72807,
-    "lng": 20.50069
-   },
-   "end": {
     "lat": 53.69344,
     "lng": 20.51491
+   },
+   "end": {
+    "lat": 53.7411,
+    "lng": 20.50151
    },
    "bbox": [
     53.69344,
     20.49683,
-    53.73215,
-    20.52725
+    53.7411,
+    20.52322
    ],
-   "pointCount": 27
+   "pointCount": 89
   },
   "rel": {
    "parkings": [],
@@ -86270,7 +86473,7 @@
    "cities": [
     {
      "key": "city/olsztyn",
-     "km": 5.3
+     "km": 4.4
     }
    ],
    "parts": [],
@@ -88781,8 +88984,8 @@
   "osm": {
    "type": "relation",
    "id": 7823159,
-   "timestamp": "2026-06-06T18:54:56Z",
-   "version": 17,
+   "timestamp": "2026-09-24T18:03:00Z",
+   "version": 18,
    "checkDate": null
   },
   "location": {
@@ -88793,8 +88996,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.77972,
-   "lng": 15.8105
+   "lat": 50.77971,
+   "lng": 15.81048
   },
   "description": null,
   "notes": [],
@@ -88811,7 +89014,7 @@
   },
   "computed": {
    "lengthKm": 8.1,
-   "wayCount": 41,
+   "wayCount": 42,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -89834,8 +90037,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 54.58018,
-   "lng": 16.8622
+   "lat": 54.5802,
+   "lng": 16.86219
   },
   "description": null,
   "notes": [],
@@ -89852,8 +90055,8 @@
    "branched": false,
    "superroute": false,
    "start": {
-    "lat": 54.45196,
-    "lng": 16.82386
+    "lat": 54.4519,
+    "lng": 16.82397
    },
    "end": {
     "lat": 54.66139,
@@ -89861,7 +90064,7 @@
    },
    "bbox": [
     54.44697,
-    16.82386,
+    16.82397,
     54.6652,
     17.21543
    ],
@@ -92385,8 +92588,8 @@
   "osm": {
    "type": "relation",
    "id": 2689050,
-   "timestamp": "2026-09-01T09:45:11Z",
-   "version": 53,
+   "timestamp": "2026-09-30T08:41:26Z",
+   "version": 55,
    "checkDate": null
   },
   "location": {
@@ -92415,7 +92618,7 @@
   },
   "computed": {
    "lengthKm": 23.4,
-   "wayCount": 75,
+   "wayCount": 77,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -92428,7 +92631,7 @@
     49.91838,
     18.92444
    ],
-   "pointCount": 188
+   "pointCount": 192
   },
   "rel": {
    "parkings": [],
@@ -92799,8 +93002,8 @@
   "osm": {
    "type": "relation",
    "id": 3176768,
-   "timestamp": "2026-07-29T08:47:55Z",
-   "version": 263,
+   "timestamp": "2026-09-22T18:49:48Z",
+   "version": 264,
    "checkDate": null
   },
   "location": {
@@ -92825,7 +93028,7 @@
   },
   "computed": {
    "lengthKm": 119.8,
-   "wayCount": 450,
+   "wayCount": 451,
    "isLoop": false,
    "fragmented": false,
    "branched": true,
@@ -92844,7 +93047,7 @@
     51.11996,
     16.10687
    ],
-   "pointCount": 1214
+   "pointCount": 1216
   },
   "rel": {
    "parkings": [
@@ -93017,8 +93220,8 @@
   "osm": {
    "type": "relation",
    "id": 17747124,
-   "timestamp": "2026-09-13T18:04:49Z",
-   "version": 30,
+   "timestamp": "2026-09-27T19:15:27Z",
+   "version": 32,
    "checkDate": null
   },
   "location": {
@@ -93044,7 +93247,7 @@
   },
   "computed": {
    "lengthKm": 234.4,
-   "wayCount": 574,
+   "wayCount": 578,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -93057,7 +93260,7 @@
     49.39304,
     21.18459
    ],
-   "pointCount": 1873
+   "pointCount": 1879
   },
   "rel": {
    "parkings": [
@@ -93123,8 +93326,8 @@
   "osm": {
    "type": "relation",
    "id": 17748028,
-   "timestamp": "2026-09-14T05:22:39Z",
-   "version": 52,
+   "timestamp": "2026-09-27T19:15:27Z",
+   "version": 54,
    "checkDate": null
   },
   "location": {
@@ -93148,7 +93351,7 @@
   },
   "computed": {
    "lengthKm": 250.7,
-   "wayCount": 697,
+   "wayCount": 706,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -93161,7 +93364,7 @@
     49.43678,
     21.23395
    ],
-   "pointCount": 2052
+   "pointCount": 2068
   },
   "rel": {
    "parkings": [
@@ -93879,8 +94082,8 @@
   "osm": {
    "type": "relation",
    "id": 15847947,
-   "timestamp": "2026-09-03T11:15:34Z",
-   "version": 145,
+   "timestamp": "2026-10-02T08:55:55Z",
+   "version": 150,
    "checkDate": null
   },
   "location": {
@@ -93904,7 +94107,7 @@
   },
   "computed": {
    "lengthKm": 308.7,
-   "wayCount": 1190,
+   "wayCount": 1195,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -93917,7 +94120,7 @@
     52.251,
     21.48377
    ],
-   "pointCount": 2692
+   "pointCount": 2702
   },
   "rel": {
    "parkings": [
@@ -94102,8 +94305,8 @@
   "osm": {
    "type": "relation",
    "id": 4006874,
-   "timestamp": "2026-06-06T22:54:10Z",
-   "version": 70,
+   "timestamp": "2026-09-30T16:29:00Z",
+   "version": 71,
    "checkDate": null
   },
   "location": {
@@ -94128,7 +94331,7 @@
   },
   "computed": {
    "lengthKm": 83.8,
-   "wayCount": 295,
+   "wayCount": 296,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -94141,7 +94344,7 @@
     49.99292,
     20.2978
    ],
-   "pointCount": 854
+   "pointCount": 855
   },
   "rel": {
    "parkings": [
@@ -94368,8 +94571,8 @@
   "osm": {
    "type": "relation",
    "id": 104750,
-   "timestamp": "2025-07-18T10:52:12Z",
-   "version": 27,
+   "timestamp": "2026-09-30T18:02:46Z",
+   "version": 29,
    "checkDate": null
   },
   "location": {
@@ -94397,7 +94600,7 @@
   },
   "computed": {
    "lengthKm": 6.9,
-   "wayCount": 27,
+   "wayCount": 29,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -94410,7 +94613,7 @@
     53.37346,
     14.63258
    ],
-   "pointCount": 79
+   "pointCount": 83
   },
   "rel": {
    "parkings": [
@@ -94485,7 +94688,7 @@
   "address": null,
   "coordinates": {
    "lat": 50.71798,
-   "lng": 16.46904
+   "lng": 16.46905
   },
   "description": null,
   "notes": [],
@@ -94744,8 +94947,8 @@
   "osm": {
    "type": "relation",
    "id": 2698298,
-   "timestamp": "2026-07-21T20:05:27Z",
-   "version": 273,
+   "timestamp": "2026-10-03T13:00:29Z",
+   "version": 275,
    "checkDate": null
   },
   "location": {
@@ -94756,8 +94959,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.82831,
-   "lng": 15.97322
+   "lat": 50.82818,
+   "lng": 15.97313
   },
   "description": null,
   "notes": [],
@@ -94772,8 +94975,8 @@
    "operator": "PTTK"
   },
   "computed": {
-   "lengthKm": 110.8,
-   "wayCount": 491,
+   "lengthKm": 110.9,
+   "wayCount": 492,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -94792,7 +94995,7 @@
     50.85422,
     16.28859
    ],
-   "pointCount": 562
+   "pointCount": 564
   },
   "rel": {
    "parkings": [
@@ -95176,8 +95379,8 @@
   "osm": {
    "type": "relation",
    "id": 3376049,
-   "timestamp": "2026-09-19T13:54:14Z",
-   "version": 523,
+   "timestamp": "2026-10-03T20:48:42Z",
+   "version": 524,
    "checkDate": null
   },
   "location": {
@@ -95204,7 +95407,7 @@
   },
   "computed": {
    "lengthKm": 517.9,
-   "wayCount": 1350,
+   "wayCount": 1351,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -95217,7 +95420,7 @@
     51.21747,
     21.75018
    ],
-   "pointCount": 3481
+   "pointCount": 3483
   },
   "rel": {
    "parkings": [
@@ -96056,8 +96259,8 @@
   "osm": {
    "type": "relation",
    "id": 1432475,
-   "timestamp": "2026-08-08T22:57:51Z",
-   "version": 135,
+   "timestamp": "2026-09-23T23:43:23Z",
+   "version": 136,
    "checkDate": "2023-06-03"
   },
   "location": {
@@ -96088,7 +96291,7 @@
   },
   "computed": {
    "lengthKm": 40.7,
-   "wayCount": 368,
+   "wayCount": 371,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -96101,7 +96304,7 @@
     50.26413,
     19.02537
    ],
-   "pointCount": 801
+   "pointCount": 807
   },
   "rel": {
    "parkings": [
@@ -96305,8 +96508,8 @@
   "osm": {
    "type": "relation",
    "id": 5343199,
-   "timestamp": "2026-09-11T11:27:31Z",
-   "version": 108,
+   "timestamp": "2026-10-01T07:02:03Z",
+   "version": 110,
    "checkDate": null
   },
   "location": {
@@ -96335,7 +96538,7 @@
   },
   "computed": {
    "lengthKm": 154.1,
-   "wayCount": 417,
+   "wayCount": 421,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -96348,7 +96551,7 @@
     53.87431,
     18.12857
    ],
-   "pointCount": 1122
+   "pointCount": 1130
   },
   "rel": {
    "parkings": [
@@ -99355,8 +99558,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.84999,
-   "lng": 15.53987
+   "lat": 50.85003,
+   "lng": 15.54
   },
   "description": null,
   "notes": [],
@@ -99367,7 +99570,7 @@
    "osmc_symbol": "black:white:black_bar"
   },
   "computed": {
-   "lengthKm": 16.9,
+   "lengthKm": 17,
    "wayCount": 113,
    "isLoop": true,
    "fragmented": false,
@@ -99613,8 +99816,8 @@
   "osm": {
    "type": "relation",
    "id": 5397063,
-   "timestamp": "2026-08-10T15:49:48Z",
-   "version": 91,
+   "timestamp": "2026-09-25T20:17:21Z",
+   "version": 92,
    "checkDate": null
   },
   "location": {
@@ -99625,8 +99828,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 54.37538,
-   "lng": 17.15491
+   "lat": 54.37534,
+   "lng": 17.15483
   },
   "description": "Ustka - Rezerwat \"Buczyna nad Słupią\" - Wodnica - Gałęzinowo - Bydlino - Niewiarowo - Ryczewo - Słupsk - Lubuń - Dębnica Kaszubska - Zbiornik Krzynia - Gałęźnia Mała - Rezerwat \"Gołębia Góra\" - Dąbie - Bytów",
   "notes": [],
@@ -99662,7 +99865,7 @@
     54.58045,
     17.49319
    ],
-   "pointCount": 313
+   "pointCount": 315
   },
   "rel": {
    "parkings": [
@@ -99943,8 +100146,8 @@
   "osm": {
    "type": "relation",
    "id": 4192054,
-   "timestamp": "2026-09-16T12:23:56Z",
-   "version": 343,
+   "timestamp": "2026-09-28T15:05:19Z",
+   "version": 349,
    "checkDate": null
   },
   "location": {
@@ -99968,8 +100171,8 @@
    "wikipedia": "pl:Szlak dookoła Wrocławia im. doktora Bronisława Turonia"
   },
   "computed": {
-   "lengthKm": 183.1,
-   "wayCount": 885,
+   "lengthKm": 183.2,
+   "wayCount": 915,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -99982,7 +100185,7 @@
     51.26367,
     17.31524
    ],
-   "pointCount": 2002
+   "pointCount": 2061
   },
   "rel": {
    "parkings": [
@@ -100022,7 +100225,7 @@
      "km": 0
     },
     {
-     "key": "trail/odra-velo-siechnice-6242975",
+     "key": "trail/greenway-oder-river-trail-7215310",
      "km": 0
     },
     {
@@ -100165,8 +100368,8 @@
   "osm": {
    "type": "relation",
    "id": 1690237,
-   "timestamp": "2026-07-19T13:45:42Z",
-   "version": 304,
+   "timestamp": "2026-09-24T06:36:12Z",
+   "version": 305,
    "checkDate": null
   },
   "location": {
@@ -100195,7 +100398,7 @@
   },
   "computed": {
    "lengthKm": 120.6,
-   "wayCount": 936,
+   "wayCount": 938,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -100208,7 +100411,7 @@
     50.36185,
     19.29397
    ],
-   "pointCount": 2031
+   "pointCount": 2035
   },
   "rel": {
    "parkings": [
@@ -100948,8 +101151,8 @@
   "osm": {
    "type": "relation",
    "id": 3116278,
-   "timestamp": "2026-05-31T14:35:14Z",
-   "version": 37,
+   "timestamp": "2026-09-25T17:17:06Z",
+   "version": 38,
    "checkDate": null
   },
   "location": {
@@ -100976,7 +101179,7 @@
   },
   "computed": {
    "lengthKm": 7.5,
-   "wayCount": 22,
+   "wayCount": 23,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -103202,6 +103405,10 @@
      "km": 0
     },
     {
+     "key": "trail/enduro-21423086",
+     "km": 0
+    },
+    {
      "key": "trail/olsztyn-stare-jablonki-gietrzwald-olsztyn-11543063",
      "km": 0
     },
@@ -103218,12 +103425,8 @@
      "km": 0
     },
     {
-     "key": "trail/european-long-distance-path-e11-part-poland-2856709",
-     "km": 0.02
-    },
-    {
-     "key": "trail/lynostrada-9434983",
-     "km": 0.02
+     "key": "trail/xc-21423111",
+     "km": 0.01
     }
    ],
    "cities": [
@@ -103450,8 +103653,8 @@
   "osm": {
    "type": "relation",
    "id": 4675383,
-   "timestamp": "2026-08-16T21:23:13Z",
-   "version": 54,
+   "timestamp": "2026-09-26T06:18:18Z",
+   "version": 55,
    "checkDate": null
   },
   "location": {
@@ -103480,7 +103683,7 @@
   },
   "computed": {
    "lengthKm": 36.7,
-   "wayCount": 122,
+   "wayCount": 123,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -104425,8 +104628,8 @@
   "osm": {
    "type": "relation",
    "id": 2166468,
-   "timestamp": "2026-09-10T21:37:49Z",
-   "version": 252,
+   "timestamp": "2026-09-29T08:59:47Z",
+   "version": 253,
    "checkDate": null
   },
   "location": {
@@ -104454,7 +104657,7 @@
   },
   "computed": {
    "lengthKm": 189.8,
-   "wayCount": 478,
+   "wayCount": 479,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -104467,7 +104670,7 @@
     53.67624,
     19.82015
    ],
-   "pointCount": 1329
+   "pointCount": 1330
   },
   "rel": {
    "parkings": [
@@ -105895,8 +106098,8 @@
   "osm": {
    "type": "relation",
    "id": 1379488,
-   "timestamp": "2026-06-23T14:44:52Z",
-   "version": 98,
+   "timestamp": "2026-10-01T20:01:44Z",
+   "version": 101,
    "checkDate": null
   },
   "location": {
@@ -105907,8 +106110,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 49.9736,
-   "lng": 22.21767
+   "lat": 49.97361,
+   "lng": 22.21766
   },
   "description": null,
   "notes": [],
@@ -105927,7 +106130,7 @@
   },
   "computed": {
    "lengthKm": 44.5,
-   "wayCount": 144,
+   "wayCount": 156,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -106610,6 +106813,14 @@
     {
      "key": "trail/lynostrada-9434983",
      "km": 0.02
+    },
+    {
+     "key": "trail/xc-21423111",
+     "km": 0.03
+    },
+    {
+     "key": "trail/enduro-21423086",
+     "km": 0.19
     }
    ],
    "cities": [
@@ -106735,8 +106946,8 @@
   "osm": {
    "type": "relation",
    "id": 2239428,
-   "timestamp": "2026-08-15T10:18:01Z",
-   "version": 127,
+   "timestamp": "2026-09-26T15:13:13Z",
+   "version": 130,
    "checkDate": null
   },
   "location": {
@@ -106760,7 +106971,7 @@
   },
   "computed": {
    "lengthKm": 59.8,
-   "wayCount": 190,
+   "wayCount": 198,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -106773,7 +106984,7 @@
     51.70006,
     19.43923
    ],
-   "pointCount": 430
+   "pointCount": 446
   },
   "rel": {
    "parkings": [
@@ -108660,6 +108871,75 @@
   }
  },
  {
+  "slug": "szlak-kolejki-waskotorowej-20222069",
+  "name": "Szlak Kolejki Wąskotorowej",
+  "type": "trail",
+  "source": "osm",
+  "osm": {
+   "type": "relation",
+   "id": 20222069,
+   "timestamp": "2026-09-23T11:04:35Z",
+   "version": 4,
+   "checkDate": null
+  },
+  "location": {
+   "city": "Częstochowa",
+   "region": "Śląskie",
+   "hubSlug": "czestochowa",
+   "hubDistanceKm": 8.7
+  },
+  "address": null,
+  "coordinates": {
+   "lat": 50.83975,
+   "lng": 18.9405
+  },
+  "description": null,
+  "notes": [],
+  "attrs": {
+   "route": "bicycle",
+   "colour": "#000000"
+  },
+  "computed": {
+   "lengthKm": 23.9,
+   "wayCount": 49,
+   "isLoop": false,
+   "fragmented": true,
+   "branched": false,
+   "superroute": false,
+   "start": null,
+   "end": null,
+   "bbox": [
+    50.78757,
+    18.88223,
+    50.89192,
+    18.99877
+   ],
+   "pointCount": 119
+  },
+  "rel": {
+   "parkings": [],
+   "beaches": [],
+   "trails": [
+    {
+     "key": "trail/szlak-rezerwatow-przyrody-5328758",
+     "km": 0
+    },
+    {
+     "key": "trail/czestochowska-droga-sw-jakuba-16227767",
+     "km": 0.01
+    }
+   ],
+   "cities": [
+    {
+     "key": "city/czestochowa",
+     "km": 8.7
+    }
+   ],
+   "parts": [],
+   "parents": []
+  }
+ },
+ {
   "slug": "szlak-komorzych-gor-2891991",
   "name": "Szlak Komorzych Gór",
   "type": "trail",
@@ -108760,8 +109040,8 @@
   "osm": {
    "type": "relation",
    "id": 1771192,
-   "timestamp": "2026-09-10T17:44:29Z",
-   "version": 440,
+   "timestamp": "2026-10-04T07:07:46Z",
+   "version": 448,
    "checkDate": null
   },
   "location": {
@@ -108772,8 +109052,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 54.32256,
-   "lng": 19.52458
+   "lat": 54.32247,
+   "lng": 19.52449
   },
   "description": null,
   "notes": [],
@@ -108787,8 +109067,8 @@
    "wikipedia": "pl:Szlak Kopernikowski (pieszy)"
   },
   "computed": {
-   "lengthKm": 375.2,
-   "wayCount": 985,
+   "lengthKm": 375.3,
+   "wayCount": 1007,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -108807,7 +109087,7 @@
     54.39276,
     20.57126
    ],
-   "pointCount": 1372
+   "pointCount": 1371
   },
   "rel": {
    "parkings": [
@@ -109113,8 +109393,8 @@
   "osm": {
    "type": "relation",
    "id": 3012263,
-   "timestamp": "2026-08-17T18:04:14Z",
-   "version": 93,
+   "timestamp": "2026-09-21T19:52:49Z",
+   "version": 94,
    "checkDate": null
   },
   "location": {
@@ -109126,7 +109406,7 @@
   "address": null,
   "coordinates": {
    "lat": 54.66247,
-   "lng": 18.35039
+   "lng": 18.35038
   },
   "description": "Wejherowo",
   "notes": [],
@@ -109143,7 +109423,7 @@
   },
   "computed": {
    "lengthKm": 33.3,
-   "wayCount": 172,
+   "wayCount": 173,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -109154,9 +109434,9 @@
     54.60321,
     18.2294,
     54.72173,
-    18.47138
+    18.47137
    ],
-   "pointCount": 418
+   "pointCount": 420
   },
   "rel": {
    "parkings": [
@@ -109231,8 +109511,8 @@
   "osm": {
    "type": "relation",
    "id": 8493861,
-   "timestamp": "2026-08-09T19:14:34Z",
-   "version": 100,
+   "timestamp": "2026-09-24T11:11:38Z",
+   "version": 101,
    "checkDate": null
   },
   "location": {
@@ -109261,7 +109541,7 @@
   },
   "computed": {
    "lengthKm": 76.7,
-   "wayCount": 454,
+   "wayCount": 452,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -109274,7 +109554,7 @@
     50.30067,
     19.25481
    ],
-   "pointCount": 1009
+   "pointCount": 1005
   },
   "rel": {
    "parkings": [],
@@ -110173,7 +110453,7 @@
      "km": 0.02
     },
     {
-     "key": "trail/warszawa-dawidy-cieszyca-1396129",
+     "key": "trail/warszawa-dawidy-ciszyca-1396129",
      "km": 0.02
     },
     {
@@ -110440,7 +110720,7 @@
     50.31169,
     19.24576
    ],
-   "pointCount": 22
+   "pointCount": 23
   },
   "rel": {
    "parkings": [],
@@ -111083,8 +111363,8 @@
   "osm": {
    "type": "relation",
    "id": 4749313,
-   "timestamp": "2026-08-15T11:41:20Z",
-   "version": 49,
+   "timestamp": "2026-09-26T06:18:18Z",
+   "version": 50,
    "checkDate": null
   },
   "location": {
@@ -111113,7 +111393,7 @@
   },
   "computed": {
    "lengthKm": 26,
-   "wayCount": 126,
+   "wayCount": 127,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -112345,8 +112625,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 49.74855,
-   "lng": 18.89409
+   "lat": 49.74857,
+   "lng": 18.89411
   },
   "description": null,
   "notes": [],
@@ -112368,14 +112648,14 @@
     "lng": 18.88405
    },
    "end": {
-    "lat": 49.75385,
-    "lng": 18.9075
+    "lat": 49.75381,
+    "lng": 18.90756
    },
    "bbox": [
     49.7416,
     18.88405,
     49.75499,
-    18.9075
+    18.90756
    ],
    "pointCount": 16
   },
@@ -112805,8 +113085,8 @@
   "osm": {
    "type": "relation",
    "id": 2906837,
-   "timestamp": "2026-09-18T16:51:29Z",
-   "version": 511,
+   "timestamp": "2026-10-02T07:51:18Z",
+   "version": 512,
    "checkDate": null
   },
   "location": {
@@ -112835,7 +113115,7 @@
   },
   "computed": {
    "lengthKm": 232.1,
-   "wayCount": 809,
+   "wayCount": 810,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -112848,7 +113128,7 @@
     54.54036,
     16.74027
    ],
-   "pointCount": 1925
+   "pointCount": 1927
   },
   "rel": {
    "parkings": [
@@ -113129,7 +113409,7 @@
   "address": null,
   "coordinates": {
    "lat": 52.86498,
-   "lng": 16.96409
+   "lng": 16.96407
   },
   "description": "Ostroróg – Sieraków – Wieleń – Piła Kalina – Nakło – Bydgoszcz",
   "notes": [],
@@ -113157,7 +113437,7 @@
     52.58698,
     16.02178,
     53.14297,
-    17.90639
+    17.90636
    ],
    "pointCount": 1695
   },
@@ -113960,8 +114240,8 @@
   "osm": {
    "type": "relation",
    "id": 17033487,
-   "timestamp": "2026-04-16T15:21:22Z",
-   "version": 10,
+   "timestamp": "2026-10-02T07:23:04Z",
+   "version": 13,
    "checkDate": null
   },
   "location": {
@@ -113972,8 +114252,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 53.07394,
-   "lng": 17.9797
+   "lat": 53.07395,
+   "lng": 17.97958
   },
   "description": null,
   "notes": [],
@@ -113988,8 +114268,8 @@
    "operator": "PTTK"
   },
   "computed": {
-   "lengthKm": 21.8,
-   "wayCount": 86,
+   "lengthKm": 21.9,
+   "wayCount": 91,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -113999,16 +114279,16 @@
     "lng": 18.082
    },
    "end": {
-    "lat": 53.13442,
+    "lat": 53.13455,
     "lng": 17.90648
    },
    "bbox": [
     53.07036,
-    17.90648,
-    53.13442,
+    17.90645,
+    53.13455,
     18.08212
    ],
-   "pointCount": 87
+   "pointCount": 88
   },
   "rel": {
    "parkings": [
@@ -114919,10 +115199,6 @@
      "km": 0
     },
     {
-     "key": "trail/lodz-malanow-170289",
-     "km": 0
-    },
-    {
      "key": "trail/lodz-zabiczki-170268",
      "km": 0
     },
@@ -114940,6 +115216,10 @@
     },
     {
      "key": "trail/szlak-do-rezerwatu-ciosny-12229865",
+     "km": 0
+    },
+    {
+     "key": "trail/szlak-lacznikowy-269836",
      "km": 0
     }
    ],
@@ -115182,8 +115462,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.24294,
-   "lng": 19.20614
+   "lat": 50.24296,
+   "lng": 19.20618
   },
   "description": "Porządnie oznakowany, ale solidnie pokręcony szlak pieszy. Do przejechania rowerem górskim.",
   "notes": [],
@@ -115210,8 +115490,8 @@
     "lng": 19.33254
    },
    "end": {
-    "lat": 50.21353,
-    "lng": 19.33487
+    "lat": 50.2135,
+    "lng": 19.33484
    },
    "bbox": [
     50.14536,
@@ -115364,8 +115644,8 @@
   "osm": {
    "type": "relation",
    "id": 3129069,
-   "timestamp": "2026-06-04T17:23:27Z",
-   "version": 59,
+   "timestamp": "2026-09-26T06:18:18Z",
+   "version": 61,
    "checkDate": null
   },
   "location": {
@@ -115394,7 +115674,7 @@
   },
   "computed": {
    "lengthKm": 24.7,
-   "wayCount": 93,
+   "wayCount": 95,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -115462,7 +115742,7 @@
     },
     {
      "key": "trail/zielona-petla-wokol-olsztyna-2911075",
-     "km": 0
+     "km": 0.01
     },
     {
      "key": "trail/szlak-im-barbary-rychlik-4675383",
@@ -115617,8 +115897,8 @@
   "osm": {
    "type": "relation",
    "id": 1697841,
-   "timestamp": "2026-09-20T12:45:29Z",
-   "version": 373,
+   "timestamp": "2026-09-26T06:18:18Z",
+   "version": 374,
    "checkDate": null
   },
   "location": {
@@ -115649,7 +115929,7 @@
   },
   "computed": {
    "lengthKm": 160.7,
-   "wayCount": 623,
+   "wayCount": 624,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -115662,7 +115942,7 @@
     50.81593,
     19.93029
    ],
-   "pointCount": 1531
+   "pointCount": 1533
   },
   "rel": {
    "parkings": [
@@ -117441,8 +117721,8 @@
   "osm": {
    "type": "relation",
    "id": 161122,
-   "timestamp": "2026-01-23T15:52:45Z",
-   "version": 126,
+   "timestamp": "2026-09-25T13:52:32Z",
+   "version": 127,
    "checkDate": null
   },
   "location": {
@@ -117469,7 +117749,7 @@
   },
   "computed": {
    "lengthKm": 62.5,
-   "wayCount": 152,
+   "wayCount": 155,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -117494,6 +117774,10 @@
    "parkings": [],
    "beaches": [],
    "trails": [
+    {
+     "key": "trail/lagiesy-xc-21439954",
+     "km": 0
+    },
     {
      "key": "trail/niebieski-st-270384",
      "km": 0
@@ -118133,8 +118417,8 @@
   "osm": {
    "type": "relation",
    "id": 120228,
-   "timestamp": "2026-08-28T15:19:44Z",
-   "version": 313,
+   "timestamp": "2026-09-29T18:09:38Z",
+   "version": 315,
    "checkDate": null
   },
   "location": {
@@ -118165,7 +118449,7 @@
   },
   "computed": {
    "lengthKm": 189.2,
-   "wayCount": 827,
+   "wayCount": 824,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -118178,7 +118462,7 @@
     50.56256,
     18.94416
    ],
-   "pointCount": 1889
+   "pointCount": 1883
   },
   "rel": {
    "parkings": [],
@@ -118298,11 +118582,11 @@
      "km": 0.01
     },
     {
-     "key": "trail/szlak-niepodleglosci-1920-17033487",
+     "key": "trail/bydgoszcz-naklo-nad-notecia-pila-2611431",
      "km": 0.01
     },
     {
-     "key": "trail/bydgoszcz-naklo-nad-notecia-pila-2611431",
+     "key": "trail/szlak-niepodleglosci-1920-17033487",
      "km": 0.01
     },
     {
@@ -118520,7 +118804,7 @@
   "address": null,
   "coordinates": {
    "lat": 50.71442,
-   "lng": 19.24331
+   "lng": 19.24322
   },
   "description": "Mstów - Olsztyn - Dębowiec - Kręciwilk (Częstochowa)",
   "notes": [],
@@ -119015,8 +119299,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 53.59382,
-   "lng": 14.38719
+   "lat": 53.59381,
+   "lng": 14.38718
   },
   "description": "PRZEBIEG SZLAKU: SZCZECIN GŁĘBOKIE MZK - jez. GŁĘBOKIE - LEŚNICZÓWKA OWCZARY - ŻÓŁTEW - BARTOSZEWO - TANOWO - WĘGORNIK - jez. ŚWIDWIE - ZALESIE - LEŚNICZÓWKA PODBRZEZIE - jez. PIASKI - BRZÓZKI \"Dom Kapitana\" - TRZEBIEŻ SZCZECIŃSKA",
   "notes": [],
@@ -119645,8 +119929,8 @@
   "osm": {
    "type": "relation",
    "id": 5328758,
-   "timestamp": "2026-09-20T16:47:03Z",
-   "version": 55,
+   "timestamp": "2026-09-23T11:04:35Z",
+   "version": 57,
    "checkDate": null
   },
   "location": {
@@ -119677,7 +119961,7 @@
   },
   "computed": {
    "lengthKm": 100.8,
-   "wayCount": 288,
+   "wayCount": 292,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -119690,7 +119974,7 @@
     51.20987,
     18.96779
    ],
-   "pointCount": 671
+   "pointCount": 677
   },
   "rel": {
    "parkings": [],
@@ -119702,6 +119986,10 @@
     },
     {
      "key": "trail/szlak-jury-wielunskiej-1507470",
+     "km": 0
+    },
+    {
+     "key": "trail/szlak-kolejki-waskotorowej-20222069",
      "km": 0
     }
    ],
@@ -120802,8 +121090,8 @@
   "osm": {
    "type": "relation",
    "id": 9730703,
-   "timestamp": "2026-08-15T11:41:20Z",
-   "version": 15,
+   "timestamp": "2026-09-26T06:17:03Z",
+   "version": 16,
    "checkDate": null
   },
   "location": {
@@ -120827,7 +121115,7 @@
   },
   "computed": {
    "lengthKm": 22.9,
-   "wayCount": 57,
+   "wayCount": 58,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -121869,8 +122157,8 @@
   "osm": {
    "type": "relation",
    "id": 14073530,
-   "timestamp": "2026-09-17T11:28:10Z",
-   "version": 61,
+   "timestamp": "2026-09-21T09:34:31Z",
+   "version": 62,
    "checkDate": null
   },
   "location": {
@@ -121881,8 +122169,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 54.33836,
-   "lng": 18.36615
+   "lat": 54.33829,
+   "lng": 18.36631
   },
   "description": null,
   "notes": [],
@@ -121899,8 +122187,8 @@
    "website": "https://www.zukowo.pl/Szlak_rowerowy_Zukowska_Eska,726"
   },
   "computed": {
-   "lengthKm": 55.5,
-   "wayCount": 207,
+   "lengthKm": 55.6,
+   "wayCount": 209,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -121919,7 +122207,7 @@
     54.46681,
     18.4507
    ],
-   "pointCount": 224
+   "pointCount": 226
   },
   "rel": {
    "parkings": [
@@ -123934,6 +124222,10 @@
      "km": 0
     },
     {
+     "key": "trail/xc-21423111",
+     "km": 0
+    },
+    {
      "key": "trail/szlak-kopernikowski-1771192",
      "km": 0
     },
@@ -123943,6 +124235,10 @@
     },
     {
      "key": "trail/szlak-im-alojzego-sliwy-3598154",
+     "km": 0.02
+    },
+    {
+     "key": "trail/enduro-21423086",
      "km": 0.02
     }
    ],
@@ -124763,8 +125059,8 @@
   "osm": {
    "type": "relation",
    "id": 3012903,
-   "timestamp": "2026-06-16T22:33:50Z",
-   "version": 38,
+   "timestamp": "2026-09-22T11:08:20Z",
+   "version": 42,
    "checkDate": null
   },
   "location": {
@@ -124775,8 +125071,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 54.75502,
-   "lng": 18.40389
+   "lat": 54.7532,
+   "lng": 18.39771
   },
   "description": null,
   "notes": [],
@@ -124795,35 +125091,41 @@
    "website": "https://pomorskieszlakipttk.pl/szlaki-piesze/swarzewski/"
   },
   "computed": {
-   "lengthKm": 12.5,
-   "wayCount": 66,
+   "lengthKm": 11.4,
+   "wayCount": 69,
    "isLoop": false,
-   "fragmented": true,
+   "fragmented": false,
    "branched": false,
    "superroute": false,
-   "start": null,
-   "end": null,
+   "start": {
+    "lat": 54.71592,
+    "lng": 18.40863
+   },
+   "end": {
+    "lat": 54.79395,
+    "lng": 18.4026
+   },
    "bbox": [
     54.71592,
     18.39224,
     54.79413,
     18.41554
    ],
-   "pointCount": 146
+   "pointCount": 39
   },
   "rel": {
    "parkings": [
     {
      "key": "parking/kaczy-winkel-293751406",
-     "km": 0.01
+     "km": 0
     },
     {
      "key": "parking/ow-sargus-2371731112",
-     "km": 0.15
+     "km": 0.14
     },
     {
      "key": "parking/parking-miejski-1308658474",
-     "km": 0.28
+     "km": 0.29
     },
     {
      "key": "parking/dla-pracownikow-szkoly-280189673",
@@ -124862,11 +125164,11 @@
      "km": 0
     },
     {
-     "key": "trail/sciezka-dydaktyczno-przyrodnicza-19506797",
+     "key": "trail/szlak-grot-mechowskich",
      "km": 0
     },
     {
-     "key": "trail/szlak-grot-mechowskich",
+     "key": "trail/szlak-krawedzia-kepy-puckiej",
      "km": 0
     },
     {
@@ -124885,7 +125187,7 @@
    "cities": [
     {
      "key": "city/wladyslawowo",
-     "km": 0.32
+     "km": 0.34
     }
    ],
    "parts": [],
@@ -125774,6 +126076,10 @@
      "km": 0.03
     },
     {
+     "key": "parking/dla-klientow-aaa-auto-14226172601",
+     "km": 0.04
+    },
+    {
      "key": "parking/p-r-pradnik-czerwony-69822271",
      "km": 0.2
     },
@@ -125796,10 +126102,6 @@
     {
      "key": "parking/jet-park-balice-1497130838",
      "km": 0.74
-    },
-    {
-     "key": "parking/szarfy-1094588176",
-     "km": 0.9
     }
    ],
    "beaches": [
@@ -125864,8 +126166,8 @@
   "osm": {
    "type": "relation",
    "id": 16104097,
-   "timestamp": "2026-09-02T09:16:00Z",
-   "version": 83,
+   "timestamp": "2026-10-02T06:27:14Z",
+   "version": 84,
    "checkDate": null
   },
   "location": {
@@ -125890,7 +126192,7 @@
   },
   "computed": {
    "lengthKm": 37.2,
-   "wayCount": 348,
+   "wayCount": 349,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -125903,7 +126205,7 @@
     50.04752,
     20.03545
    ],
-   "pointCount": 762
+   "pointCount": 764
   },
   "rel": {
    "parkings": [
@@ -126582,8 +126884,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.83475,
-   "lng": 15.55587
+   "lat": 50.83476,
+   "lng": 15.55585
   },
   "description": null,
   "notes": [],
@@ -126601,12 +126903,12 @@
    "branched": false,
    "superroute": false,
    "start": {
-    "lat": 50.83139,
-    "lng": 15.55777
+    "lat": 50.83144,
+    "lng": 15.55786
    },
    "end": {
-    "lat": 50.83139,
-    "lng": 15.5578
+    "lat": 50.83143,
+    "lng": 15.55791
    },
    "bbox": [
     50.82317,
@@ -126614,7 +126916,7 @@
     50.844,
     15.57075
    ],
-   "pointCount": 55
+   "pointCount": 54
   },
   "rel": {
    "parkings": [
@@ -126646,11 +126948,11 @@
      "km": 0
     },
     {
-     "key": "trail/szklarska-poreba-walbrzych-2698298",
+     "key": "trail/szlak-dokola-szklarskiej-poreby-3479195",
      "km": 0
     },
     {
-     "key": "trail/szlak-dokola-szklarskiej-poreby-3479195",
+     "key": "trail/szklarska-poreba-walbrzych-2698298",
      "km": 0
     },
     {
@@ -126662,11 +126964,11 @@
      "km": 0
     },
     {
-     "key": "trail/petla-dwoch-rzek-10108384",
-     "km": 0
+     "key": "trail/piechowice-pod-wielkim-szyszakiem-375184",
+     "km": 0.01
     },
     {
-     "key": "trail/piechowice-pod-wielkim-szyszakiem-375184",
+     "key": "trail/petla-dwoch-rzek-10108384",
      "km": 0.02
     }
    ],
@@ -128681,7 +128983,7 @@
    "operator": "PTTK"
   },
   "computed": {
-   "lengthKm": 16.4,
+   "lengthKm": 16.3,
    "wayCount": 61,
    "isLoop": false,
    "fragmented": false,
@@ -128745,11 +129047,11 @@
      "km": 0
     },
     {
-     "key": "trail/eurovelo-9-baltic-adriatic-pomeranian-voivodeship-9424129",
+     "key": "trail/wislana-trasa-rowerowa-pomorskie-9424119",
      "km": 0.01
     },
     {
-     "key": "trail/wislana-trasa-rowerowa-pomorskie-9424119",
+     "key": "trail/eurovelo-9-baltic-adriatic-pomeranian-voivodeship-9424129",
      "km": 0.01
     },
     {
@@ -129208,8 +129510,8 @@
   "osm": {
    "type": "relation",
    "id": 2396874,
-   "timestamp": "2026-09-13T13:04:12Z",
-   "version": 194,
+   "timestamp": "2026-10-03T15:20:17Z",
+   "version": 195,
    "checkDate": null
   },
   "location": {
@@ -129241,7 +129543,7 @@
   },
   "computed": {
    "lengthKm": 130.1,
-   "wayCount": 423,
+   "wayCount": 425,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -129254,7 +129556,7 @@
     54.44381,
     18.55859
    ],
-   "pointCount": 1249
+   "pointCount": 1252
   },
   "rel": {
    "parkings": [
@@ -129496,11 +129798,11 @@
      "km": 0
     },
     {
-     "key": "trail/greenway-krakow-brno-vienna-2110268",
-     "km": 0.01
+     "key": "trail/wislana-trasa-rowerowa-slaskie-9141296",
+     "km": 0
     },
     {
-     "key": "trail/wislana-trasa-rowerowa-slaskie-9141296",
+     "key": "trail/greenway-krakow-brno-vienna-2110268",
      "km": 0.01
     },
     {
@@ -131065,8 +131367,8 @@
   "osm": {
    "type": "relation",
    "id": 2214056,
-   "timestamp": "2026-07-06T12:52:46Z",
-   "version": 65,
+   "timestamp": "2026-09-25T17:17:06Z",
+   "version": 66,
    "checkDate": null
   },
   "location": {
@@ -131078,7 +131380,7 @@
   "address": null,
   "coordinates": {
    "lat": 54.44663,
-   "lng": 18.47118
+   "lng": 18.47119
   },
   "description": null,
   "notes": [],
@@ -131095,7 +131397,7 @@
   },
   "computed": {
    "lengthKm": 10.6,
-   "wayCount": 78,
+   "wayCount": 79,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -133944,7 +134246,7 @@
      "km": 0
     },
     {
-     "key": "trail/szlak-stu-jezior-2772128",
+     "key": "trail/ring-2-11634070",
      "km": 0
     }
    ],
@@ -137202,8 +137504,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.84845,
-   "lng": 15.532
+   "lat": 50.84848,
+   "lng": 15.53213
   },
   "description": null,
   "notes": [],
@@ -137915,8 +138217,8 @@
   "osm": {
    "type": "relation",
    "id": 5547622,
-   "timestamp": "2022-12-26T13:20:10Z",
-   "version": 14,
+   "timestamp": "2026-10-05T06:27:09Z",
+   "version": 15,
    "checkDate": null
   },
   "location": {
@@ -137927,8 +138229,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.23667,
-   "lng": 18.85536
+   "lat": 50.2318,
+   "lng": 18.85172
   },
   "description": null,
   "notes": [],
@@ -137939,27 +138241,21 @@
    "colour": "green"
   },
   "computed": {
-   "lengthKm": 6.9,
-   "wayCount": 31,
+   "lengthKm": 4.8,
+   "wayCount": 23,
    "isLoop": false,
-   "fragmented": false,
+   "fragmented": true,
    "branched": false,
    "superroute": false,
-   "start": {
-    "lat": 50.21205,
-    "lng": 18.87799
-   },
-   "end": {
-    "lat": 50.25155,
-    "lng": 18.82619
-   },
+   "start": null,
+   "end": null,
    "bbox": [
     50.21205,
     18.82469,
     50.25155,
     18.87875
    ],
-   "pointCount": 24
+   "pointCount": 51
   },
   "rel": {
    "parkings": [],
@@ -137967,10 +138263,6 @@
    "trails": [
     {
      "key": "trail/niebieska-petla-rowerowa-powiatu-mikolowskiego-2920987",
-     "km": 0
-    },
-    {
-     "key": "trail/szlak-halembski-13469622",
      "km": 0
     },
     {
@@ -137991,6 +138283,10 @@
     },
     {
      "key": "trail/trasa-rowerowa-nr-743-w-rudzie-slaskiej-szlak-zolty-5551060",
+     "km": 0
+    },
+    {
+     "key": "trail/szlak-halembski-13469622",
      "km": 0
     }
    ],
@@ -138691,8 +138987,8 @@
   "osm": {
    "type": "relation",
    "id": 5551060,
-   "timestamp": "2025-05-06T15:51:30Z",
-   "version": 25,
+   "timestamp": "2026-09-26T08:07:26Z",
+   "version": 26,
    "checkDate": null
   },
   "location": {
@@ -138716,7 +139012,7 @@
   },
   "computed": {
    "lengthKm": 12.2,
-   "wayCount": 60,
+   "wayCount": 61,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -138729,7 +139025,7 @@
     50.25882,
     18.91654
    ],
-   "pointCount": 137
+   "pointCount": 138
   },
   "rel": {
    "parkings": [],
@@ -139701,8 +139997,8 @@
   "osm": {
    "type": "relation",
    "id": 2121881,
-   "timestamp": "2026-09-18T09:06:42Z",
-   "version": 311,
+   "timestamp": "2026-09-30T18:37:45Z",
+   "version": 315,
    "checkDate": null
   },
   "location": {
@@ -139729,8 +140025,8 @@
    "website": "http://www.rowery.eko.org.pl/index_rekreacja.php5?dzial=2&kat=7&art=766&limit"
   },
   "computed": {
-   "lengthKm": 56.5,
-   "wayCount": 535,
+   "lengthKm": 56.6,
+   "wayCount": 541,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -139743,7 +140039,7 @@
     51.16951,
     17.13402
    ],
-   "pointCount": 1121
+   "pointCount": 1132
   },
   "rel": {
    "parkings": [
@@ -140678,7 +140974,7 @@
     51.54822,
     17.22461
    ],
-   "pointCount": 437
+   "pointCount": 435
   },
   "rel": {
    "parkings": [],
@@ -140743,7 +141039,7 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.83177,
+   "lat": 50.83178,
    "lng": 15.58661
   },
   "description": null,
@@ -140768,7 +141064,7 @@
    "bbox": [
     50.81634,
     15.56609,
-    50.84,
+    50.84001,
     15.58871
    ],
    "pointCount": 39
@@ -141125,8 +141421,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 52.3611,
-   "lng": 17.05637
+   "lat": 52.36109,
+   "lng": 17.05638
   },
   "description": null,
   "notes": [],
@@ -142325,8 +142621,8 @@
   "osm": {
    "type": "relation",
    "id": 6467330,
-   "timestamp": "2026-08-30T15:53:58Z",
-   "version": 166,
+   "timestamp": "2026-09-30T17:22:17Z",
+   "version": 167,
    "checkDate": null
   },
   "location": {
@@ -142355,7 +142651,7 @@
   },
   "computed": {
    "lengthKm": 218,
-   "wayCount": 736,
+   "wayCount": 737,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -142368,7 +142664,7 @@
     51.55479,
     16.96838
    ],
-   "pointCount": 1823
+   "pointCount": 1825
   },
   "rel": {
    "parkings": [],
@@ -143169,7 +143465,7 @@
      "km": 0
     },
     {
-     "key": "trail/warszawa-dawidy-cieszyca-1396129",
+     "key": "trail/warszawa-dawidy-ciszyca-1396129",
      "km": 0
     },
     {
@@ -143482,11 +143778,11 @@
      "km": 0
     },
     {
-     "key": "trail/wislana-trasa-rowerowa-slaskie-9141296",
+     "key": "trail/wtr-projekt-slaski-2014-1020159",
      "km": 0
     },
     {
-     "key": "trail/wtr-projekt-slaski-2014-1020159",
+     "key": "trail/wislana-trasa-rowerowa-slaskie-9141296",
      "km": 0
     },
     {
@@ -144036,7 +144332,7 @@
   "address": null,
   "coordinates": {
    "lat": 50.45697,
-   "lng": 18.21822
+   "lng": 18.21821
   },
   "description": "Via Regia Zacharzowice-Opole -Droga św.Jakuba",
   "notes": [],
@@ -144808,8 +145104,8 @@
   "osm": {
    "type": "relation",
    "id": 3976279,
-   "timestamp": "2025-06-30T17:07:51Z",
-   "version": 20,
+   "timestamp": "2026-09-22T22:15:46Z",
+   "version": 21,
    "checkDate": null
   },
   "location": {
@@ -144833,7 +145129,7 @@
   },
   "computed": {
    "lengthKm": 38.4,
-   "wayCount": 66,
+   "wayCount": 67,
    "isLoop": true,
    "fragmented": false,
    "branched": false,
@@ -145095,8 +145391,8 @@
   "osm": {
    "type": "relation",
    "id": 2331014,
-   "timestamp": "2026-07-28T08:00:33Z",
-   "version": 23,
+   "timestamp": "2026-10-04T22:49:12Z",
+   "version": 24,
    "checkDate": null
   },
   "location": {
@@ -145123,7 +145419,7 @@
   },
   "computed": {
    "lengthKm": 13,
-   "wayCount": 49,
+   "wayCount": 50,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -145192,15 +145488,15 @@
   }
  },
  {
-  "slug": "warszawa-dawidy-cieszyca-1396129",
-  "name": "Warszawa Dawidy - Cieszyca",
+  "slug": "warszawa-dawidy-ciszyca-1396129",
+  "name": "Warszawa Dawidy - Ciszyca",
   "type": "trail",
   "source": "osm",
   "osm": {
    "type": "relation",
    "id": 1396129,
-   "timestamp": "2024-06-22T09:01:51Z",
-   "version": 42,
+   "timestamp": "2026-09-23T10:14:46Z",
+   "version": 44,
    "checkDate": null
   },
   "location": {
@@ -145214,7 +145510,7 @@
    "lat": 52.11393,
    "lng": 21.08801
   },
-  "description": "szlak zielony: WARSZAWA DAWIDY, PKP - CIESZYCA, PKS",
+  "description": "szlak zielony: WARSZAWA DAWIDY, PKP - CISZYCA, PKS",
   "notes": [],
   "attrs": {
    "route": "hiking",
@@ -145731,7 +146027,7 @@
      "km": 0
     },
     {
-     "key": "trail/szlak-stu-jezior-2772128",
+     "key": "trail/ring-2-11634070",
      "km": 0
     }
    ],
@@ -148118,7 +148414,7 @@
     53.70055,
     19.42124
    ],
-   "pointCount": 1732
+   "pointCount": 1731
   },
   "rel": {
    "parkings": [
@@ -148209,8 +148505,8 @@
   "osm": {
    "type": "relation",
    "id": 3870196,
-   "timestamp": "2026-09-15T21:36:30Z",
-   "version": 302,
+   "timestamp": "2026-09-22T11:31:43Z",
+   "version": 303,
    "checkDate": null
   },
   "location": {
@@ -148239,7 +148535,7 @@
   },
   "computed": {
    "lengthKm": 215.1,
-   "wayCount": 596,
+   "wayCount": 597,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -148252,7 +148548,7 @@
     53.6061,
     19.3965
    ],
-   "pointCount": 1511
+   "pointCount": 1513
   },
   "rel": {
    "parkings": [
@@ -148347,8 +148643,8 @@
   "osm": {
    "type": "relation",
    "id": 7343678,
-   "timestamp": "2026-09-04T17:30:59Z",
-   "version": 250,
+   "timestamp": "2026-10-05T08:59:46Z",
+   "version": 251,
    "checkDate": null
   },
   "location": {
@@ -148377,7 +148673,7 @@
   },
   "computed": {
    "lengthKm": 232.5,
-   "wayCount": 464,
+   "wayCount": 465,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -148390,7 +148686,7 @@
     50.32357,
     21.07653
    ],
-   "pointCount": 1486
+   "pointCount": 1488
   },
   "rel": {
    "parkings": [
@@ -148696,8 +148992,8 @@
   "osm": {
    "type": "relation",
    "id": 9424119,
-   "timestamp": "2026-07-18T12:53:16Z",
-   "version": 103,
+   "timestamp": "2026-09-21T12:54:02Z",
+   "version": 104,
    "checkDate": null
   },
   "location": {
@@ -148708,8 +149004,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 54.29188,
-   "lng": 18.79067
+   "lat": 54.34239,
+   "lng": 18.85775
   },
   "description": null,
   "notes": [],
@@ -148724,20 +149020,26 @@
   },
   "computed": {
    "lengthKm": 36,
-   "wayCount": 207,
+   "wayCount": 206,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
    "superroute": false,
-   "start": null,
-   "end": null,
+   "start": {
+    "lat": 54.22772,
+    "lng": 18.92324
+   },
+   "end": {
+    "lat": 54.3557,
+    "lng": 18.64524
+   },
    "bbox": [
     54.22771,
     18.64481,
     54.35604,
     18.93653
    ],
-   "pointCount": 447
+   "pointCount": 82
   },
   "rel": {
    "parkings": [
@@ -148767,7 +149069,7 @@
     },
     {
      "key": "parking/parking-krolewski-502754497",
-     "km": 0.62
+     "km": 0.63
     },
     {
      "key": "parking/muzeum-ii-wojny-swiatowej-parking-podziemny-5364378292",
@@ -148798,14 +149100,6 @@
    ],
    "trails": [
     {
-     "key": "trail/eurovelo-10-baltic-sea-cycle-route-part-poland-4-9422325",
-     "km": 0
-    },
-    {
-     "key": "trail/eurovelo-13-iron-curtain-trail-part-poland-pomorskie-9424203",
-     "km": 0
-    },
-    {
      "key": "trail/eurovelo-9-baltic-adriatic-pomeranian-voivodeship-9424129",
      "km": 0
     },
@@ -148814,15 +149108,23 @@
      "km": 0
     },
     {
-     "key": "trail/szlak-wyspy-sobieszewskiej-im-wincentego-pola-3819564",
+     "key": "trail/szlak-kaszubsko-zulawski-6398241",
+     "km": 0
+    },
+    {
+     "key": "trail/eurovelo-10-baltic-sea-cycle-route-part-poland-4-9422325",
+     "km": 0
+    },
+    {
+     "key": "trail/eurovelo-13-iron-curtain-trail-part-poland-pomorskie-9424203",
+     "km": 0
+    },
+    {
+     "key": "trail/gdanska-droga-sw-jakuba-3148386",
      "km": 0.01
     },
     {
      "key": "trail/european-long-distance-path-e9-part-poland-3009329",
-     "km": 0.01
-    },
-    {
-     "key": "trail/gdanska-droga-sw-jakuba-3148386",
      "km": 0.01
     },
     {
@@ -148946,20 +149248,20 @@
   "osm": {
    "type": "relation",
    "id": 9141296,
-   "timestamp": "2026-08-07T18:59:13Z",
-   "version": 97,
+   "timestamp": "2026-09-29T07:25:01Z",
+   "version": 98,
    "checkDate": null
   },
   "location": {
-   "city": "Bielsko-Biała",
+   "city": null,
    "region": "Śląskie",
    "hubSlug": "bielsko-biala",
    "hubDistanceKm": 11.2
   },
   "address": null,
   "coordinates": {
-   "lat": 49.80438,
-   "lng": 18.92453
+   "lat": 49.91186,
+   "lng": 18.8043
   },
   "description": null,
   "notes": [],
@@ -148980,7 +149282,7 @@
    "wayCount": 218,
    "isLoop": false,
    "fragmented": false,
-   "branched": true,
+   "branched": false,
    "superroute": false,
    "start": {
     "lat": 49.65836,
@@ -148996,7 +149298,7 @@
     49.95041,
     19.09831
    ],
-   "pointCount": 601
+   "pointCount": 284
   },
   "rel": {
    "parkings": [],
@@ -149015,23 +149317,23 @@
      "km": 0
     },
     {
-     "key": "trail/glowny-karpacki-szlak-rowerowy-2748517",
-     "km": 0
-    },
-    {
-     "key": "trail/glowny-szlak-beskidzki-545421",
-     "km": 0
-    },
-    {
-     "key": "trail/greenway-krakow-brno-vienna-2110268",
-     "km": 0
-    },
-    {
      "key": "trail/strumien-jaworze-2689050",
      "km": 0
     },
     {
-     "key": "trail/the-loop-19308791",
+     "key": "trail/szlak-zabrzeski-8203205",
+     "km": 0
+    },
+    {
+     "key": "trail/wislana-trasa-rowerowa-malopolskie-7343678",
+     "km": 0
+    },
+    {
+     "key": "trail/skoczow-pkp-pod-lazkiem-8117479",
+     "km": 0
+    },
+    {
+     "key": "trail/glowny-szlak-beskidzki-545421",
      "km": 0
     }
    ],
@@ -151573,8 +151875,8 @@
   "osm": {
    "type": "relation",
    "id": 5333057,
-   "timestamp": "2026-09-13T22:36:09Z",
-   "version": 67,
+   "timestamp": "2026-09-27T13:51:20Z",
+   "version": 68,
    "checkDate": null
   },
   "location": {
@@ -151585,8 +151887,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 51.00701,
-   "lng": 16.79662
+   "lat": 51.00719,
+   "lng": 16.7966
   },
   "description": null,
   "notes": [],
@@ -151600,7 +151902,7 @@
   },
   "computed": {
    "lengthKm": 35.7,
-   "wayCount": 160,
+   "wayCount": 166,
    "isLoop": false,
    "fragmented": false,
    "branched": false,
@@ -151745,6 +152047,10 @@
     {
      "key": "trail/trasa-twierdzy-wroclaw-2121881",
      "km": 0
+    },
+    {
+     "key": "trail/rowerowy-szlak-odry-odcinek-wroclaw-15958601",
+     "km": 0.27
     }
    ],
    "cities": [
@@ -151889,8 +152195,8 @@
   "osm": {
    "type": "relation",
    "id": 1020159,
-   "timestamp": "2026-09-03T14:51:07Z",
-   "version": 447,
+   "timestamp": "2026-09-29T07:25:01Z",
+   "version": 448,
    "checkDate": null
   },
   "location": {
@@ -151912,7 +152218,7 @@
   },
   "computed": {
    "lengthKm": 106.7,
-   "wayCount": 424,
+   "wayCount": 425,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -151925,7 +152231,7 @@
     50.0992,
     19.21601
    ],
-   "pointCount": 1003
+   "pointCount": 1005
   },
   "rel": {
    "parkings": [],
@@ -151960,7 +152266,7 @@
      "km": 0
     },
     {
-     "key": "trail/wislana-trasa-rowerowa-slaskie-9141296",
+     "key": "trail/zielona-trasa-rowerowa-gminy-czechowice-dziedzice-2961187",
      "km": 0
     }
    ],
@@ -152729,7 +153035,7 @@
     },
     {
      "key": "trail/ring-2-11634070",
-     "km": 0.01
+     "km": 0.02
     },
     {
      "key": "trail/radial-r5-11599588",
@@ -153115,6 +153421,103 @@
     {
      "key": "city/rzeszow",
      "km": 9.8
+    }
+   ],
+   "parts": [],
+   "parents": []
+  }
+ },
+ {
+  "slug": "xc-21423111",
+  "name": "XC",
+  "type": "trail",
+  "source": "osm",
+  "osm": {
+   "type": "relation",
+   "id": 21423111,
+   "timestamp": "2026-09-21T12:17:16Z",
+   "version": 1,
+   "checkDate": null
+  },
+  "location": {
+   "city": "Olsztyn",
+   "region": "Warmińsko-Mazurskie",
+   "hubSlug": "olsztyn",
+   "hubDistanceKm": 1
+  },
+  "address": null,
+  "coordinates": {
+   "lat": 53.79966,
+   "lng": 20.46735
+  },
+  "description": null,
+  "notes": [],
+  "attrs": {
+   "route": "bicycle",
+   "network": "lwn",
+   "colour": "yellow",
+   "distance": "7 km",
+   "website": "https://visit.olsztyn.eu/tour/86/trasa-rowerowa-xc-zolta"
+  },
+  "computed": {
+   "lengthKm": 7.4,
+   "wayCount": 34,
+   "isLoop": false,
+   "fragmented": false,
+   "branched": false,
+   "superroute": false,
+   "start": null,
+   "end": null,
+   "bbox": [
+    53.78684,
+    20.45575,
+    53.81249,
+    20.47894
+   ],
+   "pointCount": 91
+  },
+  "rel": {
+   "parkings": [
+    {
+     "key": "parking/plac-xawerego-dunikowskiego-134921868",
+     "km": 1.3
+    }
+   ],
+   "beaches": [],
+   "trails": [
+    {
+     "key": "trail/european-long-distance-path-e11-part-poland-2856709",
+     "km": 0
+    },
+    {
+     "key": "trail/lynostrada-9434983",
+     "km": 0
+    },
+    {
+     "key": "trail/szlak-kopernikowski-1771192",
+     "km": 0
+    },
+    {
+     "key": "trail/szlak-spacerowy-im-mieczyslawa-orlowicza-20272983",
+     "km": 0
+    },
+    {
+     "key": "trail/enduro-21423086",
+     "km": 0
+    },
+    {
+     "key": "trail/szlak-im-alojzego-sliwy-3598154",
+     "km": 0.01
+    },
+    {
+     "key": "trail/szlak-im-stanislawy-i-jana-baldowskich-20193841",
+     "km": 0.03
+    }
+   ],
+   "cities": [
+    {
+     "key": "city/olsztyn",
+     "km": 0.98
     }
    ],
    "parts": [],
@@ -153963,8 +154366,8 @@
   "osm": {
    "type": "relation",
    "id": 3145695,
-   "timestamp": "2026-09-10T13:45:45Z",
-   "version": 939,
+   "timestamp": "2026-10-02T07:51:18Z",
+   "version": 940,
    "checkDate": null
   },
   "location": {
@@ -153987,7 +154390,7 @@
   },
   "computed": {
    "lengthKm": 643.4,
-   "wayCount": 2201,
+   "wayCount": 2202,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -154000,7 +154403,7 @@
     54.45562,
     16.82839
    ],
-   "pointCount": 5405
+   "pointCount": 5407
   },
   "rel": {
    "parkings": [
@@ -154712,8 +155115,8 @@
   "osm": {
    "type": "relation",
    "id": 12295954,
-   "timestamp": "2026-09-11T18:06:05Z",
-   "version": 15,
+   "timestamp": "2026-09-24T19:51:04Z",
+   "version": 16,
    "checkDate": null
   },
   "location": {
@@ -154725,7 +155128,7 @@
   "address": null,
   "coordinates": {
    "lat": 52.0672,
-   "lng": 21.16012
+   "lng": 21.16014
   },
   "description": "Niebieski szlak",
   "notes": [],
@@ -154760,7 +155163,7 @@
     52.12633,
     21.16476
    ],
-   "pointCount": 101
+   "pointCount": 103
   },
   "rel": {
    "parkings": [],
@@ -154791,7 +155194,7 @@
      "km": 0.01
     },
     {
-     "key": "trail/warszawa-dawidy-cieszyca-1396129",
+     "key": "trail/warszawa-dawidy-ciszyca-1396129",
      "km": 0.02
     },
     {
@@ -156108,8 +156511,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 50.74556,
-   "lng": 19.31952
+   "lat": 50.74551,
+   "lng": 19.31945
   },
   "description": null,
   "notes": [],
@@ -156434,19 +156837,19 @@
   "osm": {
    "type": "relation",
    "id": 3641663,
-   "timestamp": "2026-08-15T08:10:07Z",
-   "version": 46,
+   "timestamp": "2026-10-05T06:24:32Z",
+   "version": 47,
    "checkDate": null
   },
   "location": {
    "city": null,
    "region": "Śląskie",
    "hubSlug": "katowice",
-   "hubDistanceKm": 14
+   "hubDistanceKm": 14.1
   },
   "address": null,
   "coordinates": {
-   "lat": 50.1527,
+   "lat": 50.15044,
    "lng": 18.79478
   },
   "description": null,
@@ -156459,8 +156862,8 @@
    "website": "https://www.roweremprzez.pl/trasy/trasa+zielona"
   },
   "computed": {
-   "lengthKm": 26,
-   "wayCount": 97,
+   "lengthKm": 25.5,
+   "wayCount": 96,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -156470,10 +156873,10 @@
    "bbox": [
     50.07158,
     18.75626,
-    50.23383,
+    50.2293,
     18.83329
    ],
-   "pointCount": 230
+   "pointCount": 228
   },
   "rel": {
    "parkings": [],
@@ -156498,16 +156901,12 @@
     {
      "key": "trail/niebieska-petla-rowerowa-powiatu-mikolowskiego-2920987",
      "km": 0.01
-    },
-    {
-     "key": "trail/szlak-krawedziowy-gop-8493861",
-     "km": 0.2
     }
    ],
    "cities": [
     {
      "key": "city/katowice",
-     "km": 14
+     "km": 14.1
     }
    ],
    "parts": [],
@@ -156522,8 +156921,8 @@
   "osm": {
    "type": "relation",
    "id": 4866857,
-   "timestamp": "2026-09-17T21:03:47Z",
-   "version": 147,
+   "timestamp": "2026-10-05T08:33:25Z",
+   "version": 148,
    "checkDate": null
   },
   "location": {
@@ -156548,7 +156947,7 @@
   },
   "computed": {
    "lengthKm": 95.7,
-   "wayCount": 454,
+   "wayCount": 455,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -156561,7 +156960,7 @@
     52.46697,
     21.2394
    ],
-   "pointCount": 1024
+   "pointCount": 1026
   },
   "rel": {
    "parkings": [],
@@ -157075,8 +157474,8 @@
   },
   "address": null,
   "coordinates": {
-   "lat": 49.73547,
-   "lng": 19.12752
+   "lat": 49.73549,
+   "lng": 19.12747
   },
   "description": "Szlak nieodnawiany od 2000 roku, przeznaczony do kasacji, choć znaki cały czas są obecne w terenie.",
   "notes": [],
@@ -157275,8 +157674,8 @@
   "osm": {
    "type": "relation",
    "id": 3352314,
-   "timestamp": "2015-08-16T16:43:12Z",
-   "version": 3,
+   "timestamp": "2026-09-23T18:32:13Z",
+   "version": 4,
    "checkDate": null
   },
   "location": {
@@ -157297,7 +157696,7 @@
    "network": "rwn",
    "colour": "blue",
    "osmc_symbol": "blue:white:blue_bar",
-   "distance": "0,9"
+   "distance": "0.9"
   },
   "computed": {
    "lengthKm": 1,
@@ -157759,12 +158158,12 @@
      "km": 0
     },
     {
-     "key": "trail/wislana-trasa-rowerowa-slaskie-9141296",
+     "key": "trail/zielona-trasa-rowerowa-gminy-czechowice-dziedzice-2961187",
      "km": 0
     },
     {
-     "key": "trail/zielona-trasa-rowerowa-gminy-czechowice-dziedzice-2961187",
-     "km": 0
+     "key": "trail/wislana-trasa-rowerowa-slaskie-9141296",
+     "km": 0.01
     },
     {
      "key": "trail/szlak-dziedzictwa-czechowic-dziedzic-18592818",
@@ -158523,8 +158922,8 @@
   "osm": {
    "type": "relation",
    "id": 3147516,
-   "timestamp": "2026-08-14T18:23:21Z",
-   "version": 111,
+   "timestamp": "2026-09-21T09:34:31Z",
+   "version": 112,
    "checkDate": null
   },
   "location": {
@@ -158548,7 +158947,7 @@
   },
   "computed": {
    "lengthKm": 28.8,
-   "wayCount": 146,
+   "wayCount": 147,
    "isLoop": false,
    "fragmented": true,
    "branched": false,
@@ -158561,7 +158960,7 @@
     54.41156,
     18.48576
    ],
-   "pointCount": 334
+   "pointCount": 336
   },
   "rel": {
    "parkings": [

@@ -3883,15 +3883,15 @@
      "km": 0.02
     },
     {
+     "key": "trail/sciezka-dydaktyczno-przyrodnicza-19506797",
+     "km": 0.02
+    },
+    {
      "key": "trail/eurovelo-13-iron-curtain-trail-part-poland-pomorskie-9424203",
      "km": 0.02
     },
     {
      "key": "trail/pierscien-zatoki-puckiej-3729382",
-     "km": 0.02
-    },
-    {
-     "key": "trail/sciezka-dydaktyczno-przyrodnicza-19506797",
      "km": 0.02
     },
     {
@@ -5203,11 +5203,11 @@
      "km": 0.52
     },
     {
-     "key": "trail/ring-2-11634070",
-     "km": 0.63
+     "key": "trail/dolina-gluszynki-do-kornika-2257694",
+     "km": 0.65
     },
     {
-     "key": "trail/dolina-gluszynki-do-kornika-2257694",
+     "key": "trail/ring-2-11634070",
      "km": 0.65
     }
    ],
@@ -8161,15 +8161,15 @@
     },
     {
      "key": "trail/eurovelo-10-baltic-sea-cycle-route-part-poland-3-9422510",
-     "km": 0.04
+     "km": 0.03
     },
     {
      "key": "trail/eurovelo-13-iron-curtain-trail-part-poland-pomorskie-9424203",
-     "km": 0.04
+     "km": 0.03
     },
     {
      "key": "trail/pierscien-zatoki-puckiej-3729382",
-     "km": 0.04
+     "km": 0.03
     },
     {
      "key": "trail/european-long-distance-path-e9-part-poland-3009329",
